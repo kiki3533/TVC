@@ -172,7 +172,7 @@ proxies:
   - {"name":"🇺🇸US | 🔴 | vless | @lrnbymaa | 15","type":"vless","server":"www.parspack.com","port":2095,"udp":false,"uuid":"94f51d56-204b-466b-b1d7-d397df9273d1","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/Digi-Tel-Digiv-Digicnc-saaaalaaaam-?ed=1024","headers":{"host":"www.speedtest.net.ftp.debian.org.www.digikala.com.发出来就被吞.website."}}}
   - {"name":"🇨🇦CA | 🟢 | ss | @OutlineVpnOfficial | 36","type":"ss","server":"38.111.114.133","port":443,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
   - {"name":"🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 37","type":"ss","server":"38.86.135.31","port":5001,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"🇸🇪SE | 🟢 | trojan | @proxystore11 | 8","type":"trojan","server":"13.49.99.44","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇺🇸US | 🟢 | vmess | @proxystore11 | 6","type":"vmess","server":"172.67.220.83","port":"443","cipher":"auto","uuid":"39cec18f-a439-427c-9a4e-aeb6fcdf6f53","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"linja05.hwcar.sbs"}}}
   - {"name":"🇨🇳CN | 🟢 | vmess | @yaney_01 | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
   - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 1","type":"vmess","server":"zula.ir","port":2096,"cipher":"auto","uuid":"30cab746-5ca5-46ef-aa9b-537f20f6a40c","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"kingo.hightechservice.ir"}}}
   - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 2","type":"vmess","server":"172.67.220.83","port":"443","cipher":"auto","uuid":"39cec18f-a439-427c-9a4e-aeb6fcdf6f53","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"linja05.hwcar.sbs"}}}
@@ -256,7 +256,7 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @lrnbymaa | 15'
       - '🇨🇦CA | 🟢 | ss | @OutlineVpnOfficial | 36'
       - '🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 37'
-      - '🇸🇪SE | 🟢 | trojan | @proxystore11 | 8'
+      - '🇺🇸US | 🟢 | vmess | @proxystore11 | 6'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 1'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 2'
@@ -340,7 +340,7 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @lrnbymaa | 15'
       - '🇨🇦CA | 🟢 | ss | @OutlineVpnOfficial | 36'
       - '🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 37'
-      - '🇸🇪SE | 🟢 | trojan | @proxystore11 | 8'
+      - '🇺🇸US | 🟢 | vmess | @proxystore11 | 6'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 1'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 2'
@@ -423,7 +423,7 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @lrnbymaa | 15'
       - '🇨🇦CA | 🟢 | ss | @OutlineVpnOfficial | 36'
       - '🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 37'
-      - '🇸🇪SE | 🟢 | trojan | @proxystore11 | 8'
+      - '🇺🇸US | 🟢 | vmess | @proxystore11 | 6'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 1'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 2'
