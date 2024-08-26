@@ -355,6 +355,7 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 7",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 9",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 11",
+                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 5",
                 "🇺🇸US | 🟢 | vmess | @customv2ray | 0",
                 "❔XX | 🔴 | vless | @customv2ray | 1",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 2",
@@ -1004,6 +1005,7 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 7",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 9",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 11",
+                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 5",
                 "🇺🇸US | 🟢 | vmess | @customv2ray | 0",
                 "❔XX | 🔴 | vless | @customv2ray | 1",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 2",
@@ -6768,6 +6770,40 @@
                 "path": "\/zh-cn",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 5",
+            "type": "vmess",
+            "server": "cake.capellare.com",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cake.capellare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "cake.capellare.com"
                 }
             }
         },
