@@ -120,7 +120,6 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 4",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
-                "🇫🇷FR | 🔴 | vless | @VmessProtocol | 10",
                 "🇬🇧GB | 🔴 | vless | @Capital_NET | 6",
                 "🇳🇱NL | 🟢 | vless | @Capital_NET | 8",
                 "🇩🇪DE | 🔴 | vless | @Capital_NET | 9",
@@ -154,7 +153,7 @@
                 "❔XX | 🔴 | vless | @vpn_go67 | 12",
                 "❔XX | 🔴 | vless | @vpn_go67 | 13",
                 "❔XX | 🔴 | vless | @vpn_go67 | 14",
-                "🚩CF | 🔴 | vless | @vpn_go67 | 15",
+                "❔XX | 🔴 | vless | @vpn_go67 | 15",
                 "❔XX | 🔴 | vless | @vpn_go67 | 16",
                 "❔XX | 🔴 | vless | @vpn_go67 | 17",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
@@ -181,7 +180,6 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 4",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
-                "🇫🇷FR | 🔴 | vless | @VmessProtocol | 10",
                 "🇬🇧GB | 🔴 | vless | @Capital_NET | 6",
                 "🇳🇱NL | 🟢 | vless | @Capital_NET | 8",
                 "🇩🇪DE | 🔴 | vless | @Capital_NET | 9",
@@ -215,7 +213,7 @@
                 "❔XX | 🔴 | vless | @vpn_go67 | 12",
                 "❔XX | 🔴 | vless | @vpn_go67 | 13",
                 "❔XX | 🔴 | vless | @vpn_go67 | 14",
-                "🚩CF | 🔴 | vless | @vpn_go67 | 15",
+                "❔XX | 🔴 | vless | @vpn_go67 | 15",
                 "❔XX | 🔴 | vless | @vpn_go67 | 16",
                 "❔XX | 🔴 | vless | @vpn_go67 | 17",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
@@ -636,42 +634,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇫🇷FR | 🔴 | vless | @VmessProtocol | 10",
-            "type": "vless",
-            "server": "172.232.38.249",
-            "server_port": 12345,
-            "uuid": "c6b18efd-56a6-4c99-9b64-0918e18893df",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.stackoverflow.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "hCnI4M-irNCDqaQ_g9rJMr1PvgKr_zwB8Xu3Cl1YYQ8",
-                    "short_id": "cc068f12f9db3887"
-                }
-            },
-            "transport": {
-                "type": "http",
-                "host": [
-                    "www.stackoverflow.com"
-                ],
-                "path": "\/"
             }
         },
         {
@@ -1716,7 +1678,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @vpn_go67 | 15",
+            "tag": "❔XX | 🔴 | vless | @vpn_go67 | 15",
             "type": "vless",
             "server": "public.alpanel.top",
             "server_port": 1380,
