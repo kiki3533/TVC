@@ -282,7 +282,7 @@
                 "🇸🇪SE | 🔴 | vless | @v2logy | 7",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 8",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
-                "🇺🇸US | 🔴 | vless | @v2logy | 10",
+                "❔XX | 🔴 | vless | @v2logy | 10",
                 "🇺🇸US | 🔴 | vless | @V2rayCollectorDonate | 0",
                 "🚩CF | 🔴 | vless | @V2rayCollectorDonate | 1",
                 "🚩CF | 🔴 | vless | @V2rayCollectorDonate | 2",
@@ -422,7 +422,6 @@
                 "🚩CF | 🔴 | vless | @V2RayTz | 16",
                 "🚩CF | 🔴 | vless | @V2RayTz | 17",
                 "🚩CF | 🔴 | vless | @V2RayTz | 18",
-                "🚩CF | 🔴 | vless | @V2RayTz | 19",
                 "🚩CF | 🔴 | vless | @VmessProtocol | 0",
                 "🚩CF | 🔴 | vless | @VmessProtocol | 4",
                 "🚩CF | 🔴 | vless | @VmessProtocol | 6",
@@ -792,7 +791,7 @@
                 "🇸🇪SE | 🔴 | vless | @v2logy | 7",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 8",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
-                "🇺🇸US | 🔴 | vless | @v2logy | 10",
+                "❔XX | 🔴 | vless | @v2logy | 10",
                 "🇺🇸US | 🔴 | vless | @V2rayCollectorDonate | 0",
                 "🚩CF | 🔴 | vless | @V2rayCollectorDonate | 1",
                 "🚩CF | 🔴 | vless | @V2rayCollectorDonate | 2",
@@ -932,7 +931,6 @@
                 "🚩CF | 🔴 | vless | @V2RayTz | 16",
                 "🚩CF | 🔴 | vless | @V2RayTz | 17",
                 "🚩CF | 🔴 | vless | @V2RayTz | 18",
-                "🚩CF | 🔴 | vless | @V2RayTz | 19",
                 "🚩CF | 🔴 | vless | @VmessProtocol | 0",
                 "🚩CF | 🔴 | vless | @VmessProtocol | 4",
                 "🚩CF | 🔴 | vless | @VmessProtocol | 6",
@@ -4822,7 +4820,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @v2logy | 10",
+            "tag": "❔XX | 🔴 | vless | @v2logy | 10",
             "type": "vless",
             "server": "ArV2ray.mAshtimji.IR",
             "server_port": 443,
@@ -7652,27 +7650,6 @@
             "transport": {
                 "type": "ws",
                 "path": "\/telegram-@Shh_Proxy-@Shh_Proxy,telegram-@Shh_Proxy,telegram-@Shh_Proxy,telegram-@Shh_Proxy?ed=2560",
-                "headers": {
-                    "Host": "104.17.148.22"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🔴 | vless | @V2RayTz | 19",
-            "type": "vless",
-            "server": "104.17.148.22",
-            "server_port": 8880,
-            "uuid": "409e8c11-ec75-4299-be33-4cff23cc3b63",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=8880",
                 "headers": {
                     "Host": "104.17.148.22"
                 }
