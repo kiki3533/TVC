@@ -11,12 +11,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-❔XX | 🟢 | ss | @OutlineVpnOfficial | 36 = ss, 51.103.232.91, 8929, encrypt-method = chacha20-ietf-poly1305, password = 76ZehNxtyrhe4tLmDYfHsq
-❔XX | 🟢 | ss | @OutlineVpnOfficial | 37 = ss, 38.111.114.133, 443, encrypt-method = aes-256-gcm, password = pKEW8JPByTVTLtM
+🇨🇭CH | 🟢 | ss | @OutlineVpnOfficial | 36 = ss, 51.103.232.91, 8929, encrypt-method = chacha20-ietf-poly1305, password = 76ZehNxtyrhe4tLmDYfHsq
+🇨🇦CA | 🟢 | ss | @OutlineVpnOfficial | 37 = ss, 38.111.114.133, 443, encrypt-method = aes-256-gcm, password = pKEW8JPByTVTLtM
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,❔XX | 🟢 | ss | @OutlineVpnOfficial | 36,❔XX | 🟢 | ss | @OutlineVpnOfficial | 37
-URL-TEST = url-test,❔XX | 🟢 | ss | @OutlineVpnOfficial | 36,❔XX | 🟢 | ss | @OutlineVpnOfficial | 37
-FALLBACK = fallback,❔XX | 🟢 | ss | @OutlineVpnOfficial | 36,❔XX | 🟢 | ss | @OutlineVpnOfficial | 37
+MANUAL = select,URL-TEST,FALLBACK,🇨🇭CH | 🟢 | ss | @OutlineVpnOfficial | 36,🇨🇦CA | 🟢 | ss | @OutlineVpnOfficial | 37
+URL-TEST = url-test,🇨🇭CH | 🟢 | ss | @OutlineVpnOfficial | 36,🇨🇦CA | 🟢 | ss | @OutlineVpnOfficial | 37
+FALLBACK = fallback,🇨🇭CH | 🟢 | ss | @OutlineVpnOfficial | 36,🇨🇦CA | 🟢 | ss | @OutlineVpnOfficial | 37
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
