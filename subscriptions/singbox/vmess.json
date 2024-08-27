@@ -116,7 +116,7 @@
                 "🇺🇸US | 🟢 | vmess | @mftizi | 8",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 11",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 13",
-                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 5",
+                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 10",
                 "🇺🇸US | 🟢 | vmess | @customv2ray | 10",
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 0",
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 1",
@@ -160,7 +160,7 @@
                 "🇺🇸US | 🟢 | vmess | @mftizi | 8",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 11",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 13",
-                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 5",
+                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 10",
                 "🇺🇸US | 🟢 | vmess | @customv2ray | 10",
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 0",
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 1",
@@ -425,11 +425,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 5",
+            "tag": "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 10",
             "type": "vmess",
-            "server": "speed.cloudflare.com",
-            "server_port": 80,
-            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+            "server": "beyonddbc.sbs",
+            "server_port": 443,
+            "uuid": "8d90c129-4156-4d6c-9115-24df25f26a02",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -440,11 +440,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "beyonddbc.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/glweidf.sbs\/linkws",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "speed.cloudflare.com"
+                    "Host": "beyonddbc.sbs"
                 }
             }
         },
