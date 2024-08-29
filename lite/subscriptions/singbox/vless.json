@@ -136,12 +136,13 @@
                 "🇨🇦CA | 🔴 | vless | @proxy_kafee | 4",
                 "🇨🇦CA | 🔴 | vless | @proxy_kafee | 5",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
-                "❔XX | 🔴 | vless | @v2logy | 10",
+                "🇨🇦CA | 🔴 | vless | @v2logy | 10",
                 "🇺🇸US | 🟢 | vless | @V2rayCollector | 2",
                 "🇨🇦CA | 🟢 | vless | @V2rayCollector | 3",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 19",
-                "🇺🇸US | 🔴 | vless | @ProxyForOpeta | 3",
+                "🇮🇷IR | 🔴 | vless | @ProxyForOpeta | 5",
+                "🇺🇸US | 🔴 | vless | @ProxyForOpeta | 6",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 3",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 4",
                 "❔XX | 🔴 | vless | @customv2ray | 11",
@@ -235,12 +236,13 @@
                 "🇨🇦CA | 🔴 | vless | @proxy_kafee | 4",
                 "🇨🇦CA | 🔴 | vless | @proxy_kafee | 5",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
-                "❔XX | 🔴 | vless | @v2logy | 10",
+                "🇨🇦CA | 🔴 | vless | @v2logy | 10",
                 "🇺🇸US | 🟢 | vless | @V2rayCollector | 2",
                 "🇨🇦CA | 🟢 | vless | @V2rayCollector | 3",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 19",
-                "🇺🇸US | 🔴 | vless | @ProxyForOpeta | 3",
+                "🇮🇷IR | 🔴 | vless | @ProxyForOpeta | 5",
+                "🇺🇸US | 🔴 | vless | @ProxyForOpeta | 6",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 3",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 4",
                 "❔XX | 🔴 | vless | @customv2ray | 11",
@@ -900,7 +902,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @v2logy | 10",
+            "tag": "🇨🇦CA | 🔴 | vless | @v2logy | 10",
             "type": "vless",
             "server": "ArV2ray.mAshtimji.IR",
             "server_port": 443,
@@ -1045,7 +1047,21 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ProxyForOpeta | 3",
+            "tag": "🇮🇷IR | 🔴 | vless | @ProxyForOpeta | 5",
+            "type": "vless",
+            "server": "185.155.72.114",
+            "server_port": 28732,
+            "uuid": "585a4670-f905-4043-a9a7-757c14f55621",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ProxyForOpeta | 6",
             "type": "vless",
             "server": "sport.k6n.ir",
             "server_port": 443,
