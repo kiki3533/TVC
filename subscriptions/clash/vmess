@@ -142,7 +142,7 @@ proxies:
   - {"name":"🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 5","type":"vmess","server":"142.0.134.243","port":"45017","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🚩CF | 🟢 | vmess | @ShadowProxy66 | 6","type":"vmess","server":"104.21.82.17","port":"443","cipher":"auto","uuid":"bc864078-dcf3-4bf4-8dbf-ca9f200b56be","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"gwdef.sbs"}}}
   - {"name":"🚩CF | 🟢 | vmess | @ShadowProxy66 | 7","type":"vmess","server":"172.67.220.83","port":"443","cipher":"auto","uuid":"39cec18f-a439-427c-9a4e-aeb6fcdf6f53","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"linja05.hwcar.sbs"}}}
-  - {"name":"🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 8","type":"vmess","server":"gt021.bestforxray.buzz","port":"443","cipher":"auto","uuid":"c1fd780a-3408-4f48-a932-5832a28ce9f6","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"ausgt02.bestforxray.buzz"}}}
+  - {"name":"🇨🇦CA | 🟢 | vmess | @ShadowProxy66 | 8","type":"vmess","server":"gt021.bestforxray.buzz","port":"443","cipher":"auto","uuid":"c1fd780a-3408-4f48-a932-5832a28ce9f6","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"ausgt02.bestforxray.buzz"}}}
   - {"name":"🚩CF | 🟢 | vmess | @ShadowProxy66 | 9","type":"vmess","server":"104.21.83.115","port":"443","cipher":"auto","uuid":"6c168fcc-2231-4f3b-8c1e-f6391692df4a","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/link","headers":{"host":"hms02.fxiaomi.sbs"}}}
   - {"name":"🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 11","type":"vmess","server":"109.166.39.95","port":"40046","cipher":"auto","uuid":"f50389b3-b3fa-43f6-803a-c04e45b1d565","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
   - {"name":"🚩CF | 🟢 | vmess | @ShadowProxy66 | 12","type":"vmess","server":"104.21.83.108","port":"443","cipher":"auto","uuid":"6c168fcc-2231-4f3b-8c1e-f6391692df4a","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/link","headers":{"host":"hms02.fxiaomi.sbs"}}}
@@ -204,7 +204,7 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 5'
       - '🚩CF | 🟢 | vmess | @ShadowProxy66 | 6'
       - '🚩CF | 🟢 | vmess | @ShadowProxy66 | 7'
-      - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 8'
+      - '🇨🇦CA | 🟢 | vmess | @ShadowProxy66 | 8'
       - '🚩CF | 🟢 | vmess | @ShadowProxy66 | 9'
       - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 11'
       - '🚩CF | 🟢 | vmess | @ShadowProxy66 | 12'
@@ -266,7 +266,7 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 5'
       - '🚩CF | 🟢 | vmess | @ShadowProxy66 | 6'
       - '🚩CF | 🟢 | vmess | @ShadowProxy66 | 7'
-      - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 8'
+      - '🇨🇦CA | 🟢 | vmess | @ShadowProxy66 | 8'
       - '🚩CF | 🟢 | vmess | @ShadowProxy66 | 9'
       - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 11'
       - '🚩CF | 🟢 | vmess | @ShadowProxy66 | 12'
@@ -327,7 +327,7 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 5'
       - '🚩CF | 🟢 | vmess | @ShadowProxy66 | 6'
       - '🚩CF | 🟢 | vmess | @ShadowProxy66 | 7'
-      - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 8'
+      - '🇨🇦CA | 🟢 | vmess | @ShadowProxy66 | 8'
       - '🚩CF | 🟢 | vmess | @ShadowProxy66 | 9'
       - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 11'
       - '🚩CF | 🟢 | vmess | @ShadowProxy66 | 12'
