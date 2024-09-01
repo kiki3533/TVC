@@ -299,14 +299,16 @@
                 "🇺🇸US | 🔴 | vless | @V2rayCollectorDonate | 17",
                 "🇺🇸US | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇺🇸US | 🔴 | vless | @V2rayCollectorDonate | 19",
-                "🚩CF | 🔴 | vless | @ProxyForOpeta | 0",
-                "❔XX | 🔴 | vless | @ProxyForOpeta | 1",
-                "🚩CF | 🔴 | vless | @ProxyForOpeta | 2",
-                "❔XX | 🔴 | vless | @ProxyForOpeta | 3",
-                "🚩CF | 🔴 | vless | @ProxyForOpeta | 4",
-                "🚩CF | 🔴 | vless | @ProxyForOpeta | 6",
+                "🇬🇧GB | 🔴 | vless | @ProxyForOpeta | 0",
+                "🚩CF | 🔴 | vless | @ProxyForOpeta | 1",
+                "🚩CF | 🔴 | vless | @ProxyForOpeta | 3",
+                "❔XX | 🔴 | vless | @ProxyForOpeta | 4",
+                "🚩CF | 🔴 | vless | @ProxyForOpeta | 5",
+                "❔XX | 🔴 | vless | @ProxyForOpeta | 6",
                 "🚩CF | 🔴 | vless | @ProxyForOpeta | 7",
-                "🚩CF | 🔴 | vless | @ProxyForOpeta | 8",
+                "🚩CF | 🔴 | vless | @ProxyForOpeta | 9",
+                "🚩CF | 🔴 | vless | @ProxyForOpeta | 10",
+                "🚩CF | 🔴 | vless | @ProxyForOpeta | 11",
                 "🇺🇸US | 🔴 | vless | @V2rayNGn | 0",
                 "🇺🇸US | 🔴 | vless | @V2rayNGn | 2",
                 "🇺🇸US | 🔴 | vless | @V2rayNGn | 3",
@@ -794,14 +796,16 @@
                 "🇺🇸US | 🔴 | vless | @V2rayCollectorDonate | 17",
                 "🇺🇸US | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇺🇸US | 🔴 | vless | @V2rayCollectorDonate | 19",
-                "🚩CF | 🔴 | vless | @ProxyForOpeta | 0",
-                "❔XX | 🔴 | vless | @ProxyForOpeta | 1",
-                "🚩CF | 🔴 | vless | @ProxyForOpeta | 2",
-                "❔XX | 🔴 | vless | @ProxyForOpeta | 3",
-                "🚩CF | 🔴 | vless | @ProxyForOpeta | 4",
-                "🚩CF | 🔴 | vless | @ProxyForOpeta | 6",
+                "🇬🇧GB | 🔴 | vless | @ProxyForOpeta | 0",
+                "🚩CF | 🔴 | vless | @ProxyForOpeta | 1",
+                "🚩CF | 🔴 | vless | @ProxyForOpeta | 3",
+                "❔XX | 🔴 | vless | @ProxyForOpeta | 4",
+                "🚩CF | 🔴 | vless | @ProxyForOpeta | 5",
+                "❔XX | 🔴 | vless | @ProxyForOpeta | 6",
                 "🚩CF | 🔴 | vless | @ProxyForOpeta | 7",
-                "🚩CF | 🔴 | vless | @ProxyForOpeta | 8",
+                "🚩CF | 🔴 | vless | @ProxyForOpeta | 9",
+                "🚩CF | 🔴 | vless | @ProxyForOpeta | 10",
+                "🚩CF | 🔴 | vless | @ProxyForOpeta | 11",
                 "🇺🇸US | 🔴 | vless | @V2rayNGn | 0",
                 "🇺🇸US | 🔴 | vless | @V2rayNGn | 2",
                 "🇺🇸US | 🔴 | vless | @V2rayNGn | 3",
@@ -5425,7 +5429,59 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @ProxyForOpeta | 0",
+            "tag": "🇬🇧GB | 🔴 | vless | @ProxyForOpeta | 0",
+            "type": "vless",
+            "server": "18.133.114.44",
+            "server_port": 22222,
+            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telegram-channel-vlessconfig.sohala.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-channel-vlessconfig-ws",
+                "headers": {
+                    "Host": "telegram-channel-vlessconfig.sohala.uk"
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🔴 | vless | @ProxyForOpeta | 1",
+            "type": "vless",
+            "server": "104.16.61.8",
+            "server_port": 8080,
+            "uuid": "f32a99e8-05dd-478a-82c0-7688848121bd",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "104.16.61.8"
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🔴 | vless | @ProxyForOpeta | 3",
             "type": "vless",
             "server": "190.93.247.56",
             "server_port": 8080,
@@ -5446,7 +5502,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @ProxyForOpeta | 1",
+            "tag": "❔XX | 🔴 | vless | @ProxyForOpeta | 4",
             "type": "vless",
             "server": "[2a01:4f8:c17:eaf8::1]",
             "server_port": 16723,
@@ -5460,7 +5516,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @ProxyForOpeta | 2",
+            "tag": "🚩CF | 🔴 | vless | @ProxyForOpeta | 5",
             "type": "vless",
             "server": "104.17.147.22",
             "server_port": 2082,
@@ -5481,7 +5537,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @ProxyForOpeta | 3",
+            "tag": "❔XX | 🔴 | vless | @ProxyForOpeta | 6",
             "type": "vless",
             "server": "[2a06:98c1:3121::3]",
             "server_port": 80,
@@ -5502,7 +5558,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @ProxyForOpeta | 4",
+            "tag": "🚩CF | 🔴 | vless | @ProxyForOpeta | 7",
             "type": "vless",
             "server": "104.25.0.86",
             "server_port": 8080,
@@ -5523,7 +5579,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @ProxyForOpeta | 6",
+            "tag": "🚩CF | 🔴 | vless | @ProxyForOpeta | 9",
             "type": "vless",
             "server": "104.26.10.137",
             "server_port": 443,
@@ -5554,7 +5610,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @ProxyForOpeta | 7",
+            "tag": "🚩CF | 🔴 | vless | @ProxyForOpeta | 10",
             "type": "vless",
             "server": "104.17.147.22",
             "server_port": 8880,
@@ -5575,7 +5631,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @ProxyForOpeta | 8",
+            "tag": "🚩CF | 🔴 | vless | @ProxyForOpeta | 11",
             "type": "vless",
             "server": "104.18.18.37",
             "server_port": 2053,
