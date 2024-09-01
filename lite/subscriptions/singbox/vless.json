@@ -134,13 +134,13 @@
                 "🇨🇦CA | 🔴 | vless | @proxy_kafee | 3",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 4",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
-                "🇨🇦CA | 🔴 | vless | @v2logy | 10",
+                "❔XX | 🔴 | vless | @v2logy | 10",
                 "🇺🇸US | 🟢 | vless | @V2rayCollector | 2",
                 "🇨🇦CA | 🟢 | vless | @V2rayCollector | 3",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 19",
-                "🇺🇸US | 🔴 | vless | @ProxyForOpeta | 11",
                 "❔XX | 🔴 | vless | @ProxyForOpeta | 12",
+                "🇨🇦CA | 🔴 | vless | @ProxyForOpeta | 13",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 3",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 4",
                 "🇨🇦CA | 🔴 | vless | @customv2ray | 11",
@@ -162,7 +162,7 @@
                 "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 8",
                 "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 9",
                 "🇸🇪SE | 🔴 | vless | @V2RayTz | 10",
-                "🇺🇸US | 🔴 | vless | @V2RayTz | 11",
+                "🇸🇪SE | 🔴 | vless | @V2RayTz | 11",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 8",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 217",
                 "🇺🇸US | 🔴 | vless | @sinabigo | 0",
@@ -229,13 +229,13 @@
                 "🇨🇦CA | 🔴 | vless | @proxy_kafee | 3",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 4",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
-                "🇨🇦CA | 🔴 | vless | @v2logy | 10",
+                "❔XX | 🔴 | vless | @v2logy | 10",
                 "🇺🇸US | 🟢 | vless | @V2rayCollector | 2",
                 "🇨🇦CA | 🟢 | vless | @V2rayCollector | 3",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 19",
-                "🇺🇸US | 🔴 | vless | @ProxyForOpeta | 11",
                 "❔XX | 🔴 | vless | @ProxyForOpeta | 12",
+                "🇨🇦CA | 🔴 | vless | @ProxyForOpeta | 13",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 3",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 4",
                 "🇨🇦CA | 🔴 | vless | @customv2ray | 11",
@@ -257,7 +257,7 @@
                 "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 8",
                 "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 9",
                 "🇸🇪SE | 🔴 | vless | @V2RayTz | 10",
-                "🇺🇸US | 🔴 | vless | @V2RayTz | 11",
+                "🇸🇪SE | 🔴 | vless | @V2RayTz | 11",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 8",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 217",
                 "🇺🇸US | 🔴 | vless | @sinabigo | 0",
@@ -895,7 +895,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @v2logy | 10",
+            "tag": "❔XX | 🔴 | vless | @v2logy | 10",
             "type": "vless",
             "server": "ArV2ray.mAshtimji.IR",
             "server_port": 443,
@@ -1040,42 +1040,25 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ProxyForOpeta | 11",
+            "tag": "❔XX | 🔴 | vless | @ProxyForOpeta | 12",
             "type": "vless",
-            "server": "104.26.10.137",
-            "server_port": 443,
-            "uuid": "1e8e2283-4c2d-11ef-ad7f-00505605a82d",
+            "server": "[2a01:4f8:c17:eaf8::1]",
+            "server_port": 16723,
+            "uuid": "TELEGRAM-ServerNett",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cdn-fr.brocdn.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/websocket",
-                "headers": {
-                    "Host": "cdn-fr.brocdn.com"
-                }
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @ProxyForOpeta | 12",
+            "tag": "🇨🇦CA | 🔴 | vless | @ProxyForOpeta | 13",
             "type": "vless",
-            "server": "[2a06:98c1:3121::3]",
-            "server_port": 80,
-            "uuid": "87d803c7-f879-478e-e1f2-738d804de98e",
+            "server": "104.25.0.86",
+            "server_port": 8080,
+            "uuid": "ad434f1b-7e0b-4077-8b6a-445ab65ff267",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1085,9 +1068,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/2FF4sNFEEm2rBDKp42yuiT3j1BVZCca79h2wzV",
+                "path": "\/",
                 "headers": {
-                    "Host": "[2a06:98c1:3121::3]"
+                    "Host": "104.25.0.86"
                 }
             }
         },
@@ -1534,7 +1517,7 @@
             "type": "vless",
             "server": "185.146.173.58",
             "server_port": 8080,
-            "uuid": "3a9b0d7b-2740-4fe7-9a70-d1515987a3c9",
+            "uuid": "7640c239-e109-46e0-8af2-fd721c5b60ef",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1551,17 +1534,24 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @V2RayTz | 11",
+            "tag": "🇸🇪SE | 🔴 | vless | @V2RayTz | 11",
             "type": "vless",
-            "server": "104.21.20.148",
-            "server_port": 8880,
-            "uuid": "57896e0c-d750-427c-a6b0-4c56c58cdcc0",
+            "server": "185.146.173.58",
+            "server_port": 8080,
+            "uuid": "3a9b0d7b-2740-4fe7-9a70-d1515987a3c9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/servernett",
+                "headers": {
+                    "Host": "185.146.173.58"
+                }
             }
         },
         {
