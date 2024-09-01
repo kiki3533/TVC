@@ -117,7 +117,8 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 10",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 12",
                 "❔XX | 🟢 | vmess | @mftizi | 15",
-                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 6",
+                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 3",
+                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 14",
                 "🚩CF | 🟢 | vmess | @oneclickvpnkeys | 0",
                 "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 1",
                 "🚩CF | 🟢 | vmess | @oneclickvpnkeys | 2",
@@ -162,7 +163,8 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 10",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 12",
                 "❔XX | 🟢 | vmess | @mftizi | 15",
-                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 6",
+                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 3",
+                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 14",
                 "🚩CF | 🟢 | vmess | @oneclickvpnkeys | 0",
                 "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 1",
                 "🚩CF | 🟢 | vmess | @oneclickvpnkeys | 2",
@@ -451,11 +453,11 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 6",
+            "tag": "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 3",
             "type": "vmess",
-            "server": "172.67.138.140",
+            "server": "max.mankadmu.com",
             "server_port": 443,
-            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -468,7 +470,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "jahfkjha.cfd",
+                "server_name": "max.mankadmu.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -478,9 +480,43 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": "jahfkjha.cfd"
+                    "Host": "max.mankadmu.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 14",
+            "type": "vmess",
+            "server": "tilebani.com",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "tilebani.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "tilebani.com"
                 }
             }
         },
