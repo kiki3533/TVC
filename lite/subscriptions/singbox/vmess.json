@@ -110,6 +110,7 @@
                 "❔XX | 🟢 | vmess | @mftizi | 15",
                 "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 4",
                 "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 5",
+                "❔XX | 🟢 | vmess | @DailyV2RY | 216",
                 "🇨🇦CA | 🟢 | vmess | @proxystore11 | 3",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇨🇦CA | 🟢 | vmess | @yaney_01 | 5",
@@ -117,7 +118,7 @@
                 "🇨🇦CA | 🟢 | vmess | @Hope_Net | 2",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 5",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 6",
-                "🇪🇸ES | 🟢 | vmess | @kingofilter | 7"
+                "❔XX | 🟢 | vmess | @kingofilter | 7"
             ]
         },
         {
@@ -128,6 +129,7 @@
                 "❔XX | 🟢 | vmess | @mftizi | 15",
                 "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 4",
                 "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 5",
+                "❔XX | 🟢 | vmess | @DailyV2RY | 216",
                 "🇨🇦CA | 🟢 | vmess | @proxystore11 | 3",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇨🇦CA | 🟢 | vmess | @yaney_01 | 5",
@@ -135,7 +137,7 @@
                 "🇨🇦CA | 🟢 | vmess | @Hope_Net | 2",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 5",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 6",
-                "🇪🇸ES | 🟢 | vmess | @kingofilter | 7"
+                "❔XX | 🟢 | vmess | @kingofilter | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -264,6 +266,23 @@
                 "headers": {
                     "Host": "cake.capellare.com"
                 }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | @DailyV2RY | 216",
+            "type": "vmess",
+            "server": null,
+            "server_port": 0,
+            "uuid": null,
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
@@ -475,7 +494,7 @@
             }
         },
         {
-            "tag": "🇪🇸ES | 🟢 | vmess | @kingofilter | 7",
+            "tag": "❔XX | 🟢 | vmess | @kingofilter | 7",
             "type": "vmess",
             "server": "holandostesf.aramislegend.com",
             "server_port": 8081,
