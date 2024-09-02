@@ -120,42 +120,40 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
-  - {"name":"🇵🇱PL | 🟢 | ss | @DeamNet_Proxy | 13","type":"ss","server":"77.83.246.74","port":33320,"password":"4Zwn5rmrUddm1PcGThN114","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 16","type":"ss","server":"89.185.84.185","port":12575,"password":"pUJMrUkY8fpVI2b18T5sRi","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇧🇭BH | 🟢 | ss | @VmessProtocol | 9","type":"ss","server":"series-a2-me.varzesh360.co","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 0","type":"ss","server":"193.29.139.251","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇮🇳IN | 🟢 | ss | @OutlineVpnOfficial | 1","type":"ss","server":"159.65.149.72","port":51348,"password":"p7EhC8MR7o7GuRn27YF8SQNAKJ2lUbBNIjcyqSmBHsy8wLbJ","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇬🇧GB | 🟢 | ss | @OutlineVpnOfficial | 2","type":"ss","server":"209.97.142.145","port":7330,"password":"iVqrWLfAlChUGf8HC9DwwQ","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇵🇱PL | 🟢 | ss | @OutlineVpnOfficial | 3","type":"ss","server":"54.36.174.181","port":2375,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
-  - {"name":"🇫🇮FI | 🟢 | ss | @OutlineVpnOfficial | 4","type":"ss","server":"185.247.141.87","port":58454,"password":"sWnY4GY3juVxkyfe7uA0CM","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇩🇪DE | 🟢 | ss | @OutlineVpnOfficial | 5","type":"ss","server":"168.119.57.171","port":51348,"password":"I53uJsZc6dzTBYDEqg1a30Bh1hAd4HQzgpwCVdpzKwfF2ZUh","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇦🇹AT | 🟢 | ss | @OutlineVpnOfficial | 6","type":"ss","server":"212.113.106.76","port":61992,"password":"ZECgvO61blVg7hy8mPk0FX","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 7","type":"ss","server":"74.50.98.185","port":8080,"password":"Mju3ZSaa4QVk45mc","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 8","type":"ss","server":"205.134.180.147","port":443,"password":"9Bvkw5aupNy8","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇷🇺RU | 🟢 | ss | @OutlineVpnOfficial | 9","type":"ss","server":"80.66.64.39","port":21076,"password":"LYjtnC2BjY3QYeUlNOeme1","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 10","type":"ss","server":"80.242.58.174","port":14249,"password":"3GNhODxPaSK9z2E82pzI1b","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇰🇿KZ | 🟢 | ss | @OutlineVpnOfficial | 11","type":"ss","server":"95.164.114.76","port":31013,"password":"heSfaKlqBfvDznKkyEKxvr","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇯🇵JP | 🟢 | ss | @OutlineVpnOfficial | 12","type":"ss","server":"108.61.162.23","port":1666,"password":"KghfbM3nBQA+OuD7","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇬🇧GB | 🟢 | ss | @OutlineVpnOfficial | 14","type":"ss","server":"172.99.190.186","port":8090,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
-  - {"name":"🇫🇷FR | 🟢 | ss | @OutlineVpnOfficial | 15","type":"ss","server":"162.19.25.207","port":34232,"password":"3b9ktZGztC","cipher":"aes-256-gcm"}
-  - {"name":"🇫🇮FI | 🟢 | ss | @OutlineVpnOfficial | 16","type":"ss","server":"141.98.169.248","port":25757,"password":"kywNKLOlAakmgRxa9xqvHU","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇩🇪DE | 🟢 | ss | @OutlineVpnOfficial | 17","type":"ss","server":"23.158.56.196","port":8882,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
-  - {"name":"🇨🇦CA | 🟢 | ss | @OutlineVpnOfficial | 18","type":"ss","server":"38.111.114.133","port":8080,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
-  - {"name":"🇧🇾BY | 🟢 | ss | @OutlineVpnOfficial | 19","type":"ss","server":"45.87.219.110","port":51348,"password":"F4fChWGojIcmxuMROuVQIQKGKRdg09vKfGp2STzSrdzrUSwZ","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇦🇹AT | 🟢 | ss | @OutlineVpnOfficial | 20","type":"ss","server":"95.164.9.144","port":2927,"password":"ug4Fu79SEREdFGlt2sUyT4","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 21","type":"ss","server":"15.204.87.222","port":8080,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 22","type":"ss","server":"23.94.76.55","port":51981,"password":"06gZKkeC2J","cipher":"aes-256-gcm"}
-  - {"name":"🇹🇷TR | 🟢 | ss | @OutlineVpnOfficial | 23","type":"ss","server":"5.188.36.54","port":51348,"password":"xeQxB7sMGptfFct2qk2ESLeCNLLhRRwXrkNZXCdLFYvYwPQD","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇸🇬SG | 🟢 | ss | @OutlineVpnOfficial | 24","type":"ss","server":"159.65.129.128","port":18814,"password":"ZdWZ9QvFlbOOGreMoE3Bq8","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇸🇪SE | 🟢 | ss | @OutlineVpnOfficial | 25","type":"ss","server":"217.196.103.206","port":29312,"password":"qgpdyzHj8rZW9fDxxkUHRI","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇵🇱PL | 🟢 | ss | @OutlineVpnOfficial | 26","type":"ss","server":"51.77.53.200","port":8080,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
-  - {"name":"🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 27","type":"ss","server":"167.71.77.212","port":62062,"password":"UeCtaK8vx4M5UfYOXzCXt5","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇯🇵JP | 🟢 | ss | @OutlineVpnOfficial | 29","type":"ss","server":"185.172.113.182","port":800,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇮🇳IN | 🟢 | ss | @OutlineVpnOfficial | 30","type":"ss","server":"165.22.208.240","port":4917,"password":"l2zEoLV7XbwU4ZvGN46gyr","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇷🇺RU | 🟢 | ss | @OutlineVpnOfficial | 31","type":"ss","server":"195.2.76.71","port":60422,"password":"WBudlMu3Zbyt8ztYtcLmS3","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇮🇪IE | 🟢 | ss | @OutlineVpnOfficial | 32","type":"ss","server":"13.94.117.31","port":10238,"password":"xPrKUBQPwCFeXEQ5uXlRNX","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 35","type":"ss","server":"107.173.192.238","port":9875,"password":"BoiX102924","cipher":"aes-256-gcm"}
-  - {"name":"🇫🇷FR | 🟢 | ss | @OutlineVpnOfficial | 36","type":"ss","server":"149.202.82.172","port":5004,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
+  - {"name":"🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 0","type":"ss","server":"147.45.50.104","port":22195,"password":"lTV4fQ2JkTnXD8GoYzwOSg","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇵🇱PL | 🟢 | ss | @OutlineVpnOfficial | 1","type":"ss","server":"45.144.48.63","port":57456,"password":"d3837224ed465f00","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 2","type":"ss","server":"193.29.139.251","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇮🇳IN | 🟢 | ss | @OutlineVpnOfficial | 3","type":"ss","server":"159.65.149.72","port":51348,"password":"p7EhC8MR7o7GuRn27YF8SQNAKJ2lUbBNIjcyqSmBHsy8wLbJ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧GB | 🟢 | ss | @OutlineVpnOfficial | 4","type":"ss","server":"209.97.142.145","port":7330,"password":"iVqrWLfAlChUGf8HC9DwwQ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇵🇱PL | 🟢 | ss | @OutlineVpnOfficial | 5","type":"ss","server":"54.36.174.181","port":2375,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
+  - {"name":"🇫🇮FI | 🟢 | ss | @OutlineVpnOfficial | 6","type":"ss","server":"185.247.141.87","port":58454,"password":"sWnY4GY3juVxkyfe7uA0CM","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪DE | 🟢 | ss | @OutlineVpnOfficial | 7","type":"ss","server":"168.119.57.171","port":51348,"password":"I53uJsZc6dzTBYDEqg1a30Bh1hAd4HQzgpwCVdpzKwfF2ZUh","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇦🇹AT | 🟢 | ss | @OutlineVpnOfficial | 8","type":"ss","server":"212.113.106.76","port":61992,"password":"ZECgvO61blVg7hy8mPk0FX","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 9","type":"ss","server":"74.50.98.185","port":8080,"password":"Mju3ZSaa4QVk45mc","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 10","type":"ss","server":"205.134.180.147","port":443,"password":"9Bvkw5aupNy8","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇷🇺RU | 🟢 | ss | @OutlineVpnOfficial | 11","type":"ss","server":"80.66.64.39","port":21076,"password":"LYjtnC2BjY3QYeUlNOeme1","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 12","type":"ss","server":"80.242.58.174","port":14249,"password":"3GNhODxPaSK9z2E82pzI1b","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇰🇿KZ | 🟢 | ss | @OutlineVpnOfficial | 13","type":"ss","server":"95.164.114.76","port":31013,"password":"heSfaKlqBfvDznKkyEKxvr","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇯🇵JP | 🟢 | ss | @OutlineVpnOfficial | 14","type":"ss","server":"108.61.162.23","port":1666,"password":"KghfbM3nBQA+OuD7","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧GB | 🟢 | ss | @OutlineVpnOfficial | 16","type":"ss","server":"172.99.190.186","port":8090,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
+  - {"name":"🇫🇷FR | 🟢 | ss | @OutlineVpnOfficial | 17","type":"ss","server":"162.19.25.207","port":34232,"password":"3b9ktZGztC","cipher":"aes-256-gcm"}
+  - {"name":"🇫🇮FI | 🟢 | ss | @OutlineVpnOfficial | 18","type":"ss","server":"141.98.169.248","port":25757,"password":"kywNKLOlAakmgRxa9xqvHU","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪DE | 🟢 | ss | @OutlineVpnOfficial | 19","type":"ss","server":"23.158.56.196","port":8882,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
+  - {"name":"🇨🇦CA | 🟢 | ss | @OutlineVpnOfficial | 20","type":"ss","server":"38.111.114.133","port":8080,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"🇧🇾BY | 🟢 | ss | @OutlineVpnOfficial | 21","type":"ss","server":"45.87.219.110","port":51348,"password":"F4fChWGojIcmxuMROuVQIQKGKRdg09vKfGp2STzSrdzrUSwZ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇦🇹AT | 🟢 | ss | @OutlineVpnOfficial | 22","type":"ss","server":"95.164.9.144","port":2927,"password":"ug4Fu79SEREdFGlt2sUyT4","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 23","type":"ss","server":"15.204.87.222","port":8080,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 24","type":"ss","server":"23.94.76.55","port":51981,"password":"06gZKkeC2J","cipher":"aes-256-gcm"}
+  - {"name":"🇹🇷TR | 🟢 | ss | @OutlineVpnOfficial | 25","type":"ss","server":"5.188.36.54","port":51348,"password":"xeQxB7sMGptfFct2qk2ESLeCNLLhRRwXrkNZXCdLFYvYwPQD","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇬SG | 🟢 | ss | @OutlineVpnOfficial | 26","type":"ss","server":"159.65.129.128","port":18814,"password":"ZdWZ9QvFlbOOGreMoE3Bq8","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇪SE | 🟢 | ss | @OutlineVpnOfficial | 27","type":"ss","server":"217.196.103.206","port":29312,"password":"qgpdyzHj8rZW9fDxxkUHRI","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇵🇱PL | 🟢 | ss | @OutlineVpnOfficial | 28","type":"ss","server":"51.77.53.200","port":8080,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 29","type":"ss","server":"167.71.77.212","port":62062,"password":"UeCtaK8vx4M5UfYOXzCXt5","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇯🇵JP | 🟢 | ss | @OutlineVpnOfficial | 31","type":"ss","server":"185.172.113.182","port":800,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇮🇳IN | 🟢 | ss | @OutlineVpnOfficial | 32","type":"ss","server":"165.22.208.240","port":4917,"password":"l2zEoLV7XbwU4ZvGN46gyr","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇷🇺RU | 🟢 | ss | @OutlineVpnOfficial | 33","type":"ss","server":"195.2.76.71","port":60422,"password":"WBudlMu3Zbyt8ztYtcLmS3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇮🇪IE | 🟢 | ss | @OutlineVpnOfficial | 34","type":"ss","server":"13.94.117.31","port":10238,"password":"xPrKUBQPwCFeXEQ5uXlRNX","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇦🇪AE | 🟢 | ss | @proxy_mtm | 1","type":"ss","server":"series-a2-mec.samanehha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
@@ -163,42 +161,40 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇵🇱PL | 🟢 | ss | @DeamNet_Proxy | 13'
-      - '🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 16'
       - '🇧🇭BH | 🟢 | ss | @VmessProtocol | 9'
       - '🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 0'
-      - '🇮🇳IN | 🟢 | ss | @OutlineVpnOfficial | 1'
-      - '🇬🇧GB | 🟢 | ss | @OutlineVpnOfficial | 2'
-      - '🇵🇱PL | 🟢 | ss | @OutlineVpnOfficial | 3'
-      - '🇫🇮FI | 🟢 | ss | @OutlineVpnOfficial | 4'
-      - '🇩🇪DE | 🟢 | ss | @OutlineVpnOfficial | 5'
-      - '🇦🇹AT | 🟢 | ss | @OutlineVpnOfficial | 6'
-      - '🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 7'
-      - '🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 8'
-      - '🇷🇺RU | 🟢 | ss | @OutlineVpnOfficial | 9'
-      - '🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 10'
-      - '🇰🇿KZ | 🟢 | ss | @OutlineVpnOfficial | 11'
-      - '🇯🇵JP | 🟢 | ss | @OutlineVpnOfficial | 12'
-      - '🇬🇧GB | 🟢 | ss | @OutlineVpnOfficial | 14'
-      - '🇫🇷FR | 🟢 | ss | @OutlineVpnOfficial | 15'
-      - '🇫🇮FI | 🟢 | ss | @OutlineVpnOfficial | 16'
-      - '🇩🇪DE | 🟢 | ss | @OutlineVpnOfficial | 17'
-      - '🇨🇦CA | 🟢 | ss | @OutlineVpnOfficial | 18'
-      - '🇧🇾BY | 🟢 | ss | @OutlineVpnOfficial | 19'
-      - '🇦🇹AT | 🟢 | ss | @OutlineVpnOfficial | 20'
-      - '🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 21'
-      - '🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 22'
-      - '🇹🇷TR | 🟢 | ss | @OutlineVpnOfficial | 23'
-      - '🇸🇬SG | 🟢 | ss | @OutlineVpnOfficial | 24'
-      - '🇸🇪SE | 🟢 | ss | @OutlineVpnOfficial | 25'
-      - '🇵🇱PL | 🟢 | ss | @OutlineVpnOfficial | 26'
-      - '🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 27'
-      - '🇯🇵JP | 🟢 | ss | @OutlineVpnOfficial | 29'
-      - '🇮🇳IN | 🟢 | ss | @OutlineVpnOfficial | 30'
-      - '🇷🇺RU | 🟢 | ss | @OutlineVpnOfficial | 31'
-      - '🇮🇪IE | 🟢 | ss | @OutlineVpnOfficial | 32'
-      - '🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 35'
-      - '🇫🇷FR | 🟢 | ss | @OutlineVpnOfficial | 36'
+      - '🇵🇱PL | 🟢 | ss | @OutlineVpnOfficial | 1'
+      - '🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 2'
+      - '🇮🇳IN | 🟢 | ss | @OutlineVpnOfficial | 3'
+      - '🇬🇧GB | 🟢 | ss | @OutlineVpnOfficial | 4'
+      - '🇵🇱PL | 🟢 | ss | @OutlineVpnOfficial | 5'
+      - '🇫🇮FI | 🟢 | ss | @OutlineVpnOfficial | 6'
+      - '🇩🇪DE | 🟢 | ss | @OutlineVpnOfficial | 7'
+      - '🇦🇹AT | 🟢 | ss | @OutlineVpnOfficial | 8'
+      - '🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 9'
+      - '🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 10'
+      - '🇷🇺RU | 🟢 | ss | @OutlineVpnOfficial | 11'
+      - '🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 12'
+      - '🇰🇿KZ | 🟢 | ss | @OutlineVpnOfficial | 13'
+      - '🇯🇵JP | 🟢 | ss | @OutlineVpnOfficial | 14'
+      - '🇬🇧GB | 🟢 | ss | @OutlineVpnOfficial | 16'
+      - '🇫🇷FR | 🟢 | ss | @OutlineVpnOfficial | 17'
+      - '🇫🇮FI | 🟢 | ss | @OutlineVpnOfficial | 18'
+      - '🇩🇪DE | 🟢 | ss | @OutlineVpnOfficial | 19'
+      - '🇨🇦CA | 🟢 | ss | @OutlineVpnOfficial | 20'
+      - '🇧🇾BY | 🟢 | ss | @OutlineVpnOfficial | 21'
+      - '🇦🇹AT | 🟢 | ss | @OutlineVpnOfficial | 22'
+      - '🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 23'
+      - '🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 24'
+      - '🇹🇷TR | 🟢 | ss | @OutlineVpnOfficial | 25'
+      - '🇸🇬SG | 🟢 | ss | @OutlineVpnOfficial | 26'
+      - '🇸🇪SE | 🟢 | ss | @OutlineVpnOfficial | 27'
+      - '🇵🇱PL | 🟢 | ss | @OutlineVpnOfficial | 28'
+      - '🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 29'
+      - '🇯🇵JP | 🟢 | ss | @OutlineVpnOfficial | 31'
+      - '🇮🇳IN | 🟢 | ss | @OutlineVpnOfficial | 32'
+      - '🇷🇺RU | 🟢 | ss | @OutlineVpnOfficial | 33'
+      - '🇮🇪IE | 🟢 | ss | @OutlineVpnOfficial | 34'
       - '🇦🇪AE | 🟢 | ss | @proxy_mtm | 1'
   - name: URL-TEST
     type: url-test
@@ -206,84 +202,80 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇵🇱PL | 🟢 | ss | @DeamNet_Proxy | 13'
-      - '🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 16'
       - '🇧🇭BH | 🟢 | ss | @VmessProtocol | 9'
       - '🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 0'
-      - '🇮🇳IN | 🟢 | ss | @OutlineVpnOfficial | 1'
-      - '🇬🇧GB | 🟢 | ss | @OutlineVpnOfficial | 2'
-      - '🇵🇱PL | 🟢 | ss | @OutlineVpnOfficial | 3'
-      - '🇫🇮FI | 🟢 | ss | @OutlineVpnOfficial | 4'
-      - '🇩🇪DE | 🟢 | ss | @OutlineVpnOfficial | 5'
-      - '🇦🇹AT | 🟢 | ss | @OutlineVpnOfficial | 6'
-      - '🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 7'
-      - '🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 8'
-      - '🇷🇺RU | 🟢 | ss | @OutlineVpnOfficial | 9'
-      - '🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 10'
-      - '🇰🇿KZ | 🟢 | ss | @OutlineVpnOfficial | 11'
-      - '🇯🇵JP | 🟢 | ss | @OutlineVpnOfficial | 12'
-      - '🇬🇧GB | 🟢 | ss | @OutlineVpnOfficial | 14'
-      - '🇫🇷FR | 🟢 | ss | @OutlineVpnOfficial | 15'
-      - '🇫🇮FI | 🟢 | ss | @OutlineVpnOfficial | 16'
-      - '🇩🇪DE | 🟢 | ss | @OutlineVpnOfficial | 17'
-      - '🇨🇦CA | 🟢 | ss | @OutlineVpnOfficial | 18'
-      - '🇧🇾BY | 🟢 | ss | @OutlineVpnOfficial | 19'
-      - '🇦🇹AT | 🟢 | ss | @OutlineVpnOfficial | 20'
-      - '🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 21'
-      - '🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 22'
-      - '🇹🇷TR | 🟢 | ss | @OutlineVpnOfficial | 23'
-      - '🇸🇬SG | 🟢 | ss | @OutlineVpnOfficial | 24'
-      - '🇸🇪SE | 🟢 | ss | @OutlineVpnOfficial | 25'
-      - '🇵🇱PL | 🟢 | ss | @OutlineVpnOfficial | 26'
-      - '🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 27'
-      - '🇯🇵JP | 🟢 | ss | @OutlineVpnOfficial | 29'
-      - '🇮🇳IN | 🟢 | ss | @OutlineVpnOfficial | 30'
-      - '🇷🇺RU | 🟢 | ss | @OutlineVpnOfficial | 31'
-      - '🇮🇪IE | 🟢 | ss | @OutlineVpnOfficial | 32'
-      - '🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 35'
-      - '🇫🇷FR | 🟢 | ss | @OutlineVpnOfficial | 36'
+      - '🇵🇱PL | 🟢 | ss | @OutlineVpnOfficial | 1'
+      - '🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 2'
+      - '🇮🇳IN | 🟢 | ss | @OutlineVpnOfficial | 3'
+      - '🇬🇧GB | 🟢 | ss | @OutlineVpnOfficial | 4'
+      - '🇵🇱PL | 🟢 | ss | @OutlineVpnOfficial | 5'
+      - '🇫🇮FI | 🟢 | ss | @OutlineVpnOfficial | 6'
+      - '🇩🇪DE | 🟢 | ss | @OutlineVpnOfficial | 7'
+      - '🇦🇹AT | 🟢 | ss | @OutlineVpnOfficial | 8'
+      - '🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 9'
+      - '🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 10'
+      - '🇷🇺RU | 🟢 | ss | @OutlineVpnOfficial | 11'
+      - '🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 12'
+      - '🇰🇿KZ | 🟢 | ss | @OutlineVpnOfficial | 13'
+      - '🇯🇵JP | 🟢 | ss | @OutlineVpnOfficial | 14'
+      - '🇬🇧GB | 🟢 | ss | @OutlineVpnOfficial | 16'
+      - '🇫🇷FR | 🟢 | ss | @OutlineVpnOfficial | 17'
+      - '🇫🇮FI | 🟢 | ss | @OutlineVpnOfficial | 18'
+      - '🇩🇪DE | 🟢 | ss | @OutlineVpnOfficial | 19'
+      - '🇨🇦CA | 🟢 | ss | @OutlineVpnOfficial | 20'
+      - '🇧🇾BY | 🟢 | ss | @OutlineVpnOfficial | 21'
+      - '🇦🇹AT | 🟢 | ss | @OutlineVpnOfficial | 22'
+      - '🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 23'
+      - '🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 24'
+      - '🇹🇷TR | 🟢 | ss | @OutlineVpnOfficial | 25'
+      - '🇸🇬SG | 🟢 | ss | @OutlineVpnOfficial | 26'
+      - '🇸🇪SE | 🟢 | ss | @OutlineVpnOfficial | 27'
+      - '🇵🇱PL | 🟢 | ss | @OutlineVpnOfficial | 28'
+      - '🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 29'
+      - '🇯🇵JP | 🟢 | ss | @OutlineVpnOfficial | 31'
+      - '🇮🇳IN | 🟢 | ss | @OutlineVpnOfficial | 32'
+      - '🇷🇺RU | 🟢 | ss | @OutlineVpnOfficial | 33'
+      - '🇮🇪IE | 🟢 | ss | @OutlineVpnOfficial | 34'
       - '🇦🇪AE | 🟢 | ss | @proxy_mtm | 1'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇵🇱PL | 🟢 | ss | @DeamNet_Proxy | 13'
-      - '🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 16'
       - '🇧🇭BH | 🟢 | ss | @VmessProtocol | 9'
       - '🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 0'
-      - '🇮🇳IN | 🟢 | ss | @OutlineVpnOfficial | 1'
-      - '🇬🇧GB | 🟢 | ss | @OutlineVpnOfficial | 2'
-      - '🇵🇱PL | 🟢 | ss | @OutlineVpnOfficial | 3'
-      - '🇫🇮FI | 🟢 | ss | @OutlineVpnOfficial | 4'
-      - '🇩🇪DE | 🟢 | ss | @OutlineVpnOfficial | 5'
-      - '🇦🇹AT | 🟢 | ss | @OutlineVpnOfficial | 6'
-      - '🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 7'
-      - '🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 8'
-      - '🇷🇺RU | 🟢 | ss | @OutlineVpnOfficial | 9'
-      - '🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 10'
-      - '🇰🇿KZ | 🟢 | ss | @OutlineVpnOfficial | 11'
-      - '🇯🇵JP | 🟢 | ss | @OutlineVpnOfficial | 12'
-      - '🇬🇧GB | 🟢 | ss | @OutlineVpnOfficial | 14'
-      - '🇫🇷FR | 🟢 | ss | @OutlineVpnOfficial | 15'
-      - '🇫🇮FI | 🟢 | ss | @OutlineVpnOfficial | 16'
-      - '🇩🇪DE | 🟢 | ss | @OutlineVpnOfficial | 17'
-      - '🇨🇦CA | 🟢 | ss | @OutlineVpnOfficial | 18'
-      - '🇧🇾BY | 🟢 | ss | @OutlineVpnOfficial | 19'
-      - '🇦🇹AT | 🟢 | ss | @OutlineVpnOfficial | 20'
-      - '🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 21'
-      - '🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 22'
-      - '🇹🇷TR | 🟢 | ss | @OutlineVpnOfficial | 23'
-      - '🇸🇬SG | 🟢 | ss | @OutlineVpnOfficial | 24'
-      - '🇸🇪SE | 🟢 | ss | @OutlineVpnOfficial | 25'
-      - '🇵🇱PL | 🟢 | ss | @OutlineVpnOfficial | 26'
-      - '🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 27'
-      - '🇯🇵JP | 🟢 | ss | @OutlineVpnOfficial | 29'
-      - '🇮🇳IN | 🟢 | ss | @OutlineVpnOfficial | 30'
-      - '🇷🇺RU | 🟢 | ss | @OutlineVpnOfficial | 31'
-      - '🇮🇪IE | 🟢 | ss | @OutlineVpnOfficial | 32'
-      - '🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 35'
-      - '🇫🇷FR | 🟢 | ss | @OutlineVpnOfficial | 36'
+      - '🇵🇱PL | 🟢 | ss | @OutlineVpnOfficial | 1'
+      - '🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 2'
+      - '🇮🇳IN | 🟢 | ss | @OutlineVpnOfficial | 3'
+      - '🇬🇧GB | 🟢 | ss | @OutlineVpnOfficial | 4'
+      - '🇵🇱PL | 🟢 | ss | @OutlineVpnOfficial | 5'
+      - '🇫🇮FI | 🟢 | ss | @OutlineVpnOfficial | 6'
+      - '🇩🇪DE | 🟢 | ss | @OutlineVpnOfficial | 7'
+      - '🇦🇹AT | 🟢 | ss | @OutlineVpnOfficial | 8'
+      - '🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 9'
+      - '🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 10'
+      - '🇷🇺RU | 🟢 | ss | @OutlineVpnOfficial | 11'
+      - '🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 12'
+      - '🇰🇿KZ | 🟢 | ss | @OutlineVpnOfficial | 13'
+      - '🇯🇵JP | 🟢 | ss | @OutlineVpnOfficial | 14'
+      - '🇬🇧GB | 🟢 | ss | @OutlineVpnOfficial | 16'
+      - '🇫🇷FR | 🟢 | ss | @OutlineVpnOfficial | 17'
+      - '🇫🇮FI | 🟢 | ss | @OutlineVpnOfficial | 18'
+      - '🇩🇪DE | 🟢 | ss | @OutlineVpnOfficial | 19'
+      - '🇨🇦CA | 🟢 | ss | @OutlineVpnOfficial | 20'
+      - '🇧🇾BY | 🟢 | ss | @OutlineVpnOfficial | 21'
+      - '🇦🇹AT | 🟢 | ss | @OutlineVpnOfficial | 22'
+      - '🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 23'
+      - '🇺🇸US | 🟢 | ss | @OutlineVpnOfficial | 24'
+      - '🇹🇷TR | 🟢 | ss | @OutlineVpnOfficial | 25'
+      - '🇸🇬SG | 🟢 | ss | @OutlineVpnOfficial | 26'
+      - '🇸🇪SE | 🟢 | ss | @OutlineVpnOfficial | 27'
+      - '🇵🇱PL | 🟢 | ss | @OutlineVpnOfficial | 28'
+      - '🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 29'
+      - '🇯🇵JP | 🟢 | ss | @OutlineVpnOfficial | 31'
+      - '🇮🇳IN | 🟢 | ss | @OutlineVpnOfficial | 32'
+      - '🇷🇺RU | 🟢 | ss | @OutlineVpnOfficial | 33'
+      - '🇮🇪IE | 🟢 | ss | @OutlineVpnOfficial | 34'
       - '🇦🇪AE | 🟢 | ss | @proxy_mtm | 1'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
