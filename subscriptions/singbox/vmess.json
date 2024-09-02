@@ -117,9 +117,8 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 11",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 13",
                 "❔XX | 🟢 | vmess | @mftizi | 16",
-                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 0",
-                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 8",
-                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 13",
+                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 15",
+                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 16",
                 "🚩CF | 🟢 | vmess | @oneclickvpnkeys | 0",
                 "🚩CF | 🟢 | vmess | @oneclickvpnkeys | 1",
                 "🚩CF | 🟢 | vmess | @oneclickvpnkeys | 2",
@@ -167,9 +166,8 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 11",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 13",
                 "❔XX | 🟢 | vmess | @mftizi | 16",
-                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 0",
-                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 8",
-                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 13",
+                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 15",
+                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 16",
                 "🚩CF | 🟢 | vmess | @oneclickvpnkeys | 0",
                 "🚩CF | 🟢 | vmess | @oneclickvpnkeys | 1",
                 "🚩CF | 🟢 | vmess | @oneclickvpnkeys | 2",
@@ -461,11 +459,11 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 0",
+            "tag": "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 15",
             "type": "vmess",
-            "server": "104.21.24.170",
+            "server": "104.17.88.212",
             "server_port": 443,
-            "uuid": "b321fd5d-e6ec-4293-a644-164e3885f52e",
+            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -478,7 +476,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "denc36.xtooltech.cfd",
+                "server_name": "worker-bitter-math-2af8.waxoha3621.workers.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -488,18 +486,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/glweidf.sbs\/linkws",
                 "headers": {
-                    "Host": "denc36.xtooltech.cfd"
+                    "Host": "worker-bitter-math-2af8.waxoha3621.workers.dev"
                 }
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 8",
+            "tag": "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 16",
             "type": "vmess",
-            "server": "104.16.61.8",
+            "server": "173.245.58.11",
             "server_port": 443,
-            "uuid": "2a8a10fb-9ca3-367e-a234-cf09f841be4f",
+            "uuid": "1052f24e-7b09-45eb-b0c5-d858eb124192",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -512,7 +510,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "us3e-mmnnfr9dop0.v2freevpn.com",
+                "server_name": "worker-late28ygwuhw.motonob768.workers.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -522,43 +520,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/v118-fccxmxm35",
+                "path": "\/glweidf.cfd\/linkws",
                 "headers": {
-                    "Host": "us3e-mmnnfr9dop0.v2freevpn.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 13",
-            "type": "vmess",
-            "server": "max.mankadmu.com",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "max.mankadmu.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "max.mankadmu.com"
+                    "Host": "worker-late28ygwuhw.motonob768.workers.dev"
                 }
             }
         },
