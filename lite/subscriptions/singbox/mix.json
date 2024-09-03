@@ -136,13 +136,13 @@
                 "🇨🇦CA | 🔴 | vless | @proxy_kafee | 5",
                 "❔XX | 🔴 | vless | @proxy_kafee | 6",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
-                "❔XX | 🔴 | vless | @v2logy | 10",
+                "🇨🇦CA | 🔴 | vless | @v2logy | 10",
                 "🇺🇸US | 🟢 | vless | @V2rayCollector | 2",
                 "🇨🇦CA | 🟢 | vless | @V2rayCollector | 3",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 19",
-                "❔XX | 🔴 | vless | @ProxyForOpeta | 11",
-                "🇨🇦CA | 🔴 | vless | @ProxyForOpeta | 12",
+                "❔XX | 🔴 | vless | @ProxyForOpeta | 12",
+                "🇺🇸US | 🔴 | vless | @ProxyForOpeta | 13",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 2",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 3",
                 "🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 16",
@@ -258,13 +258,13 @@
                 "🇨🇦CA | 🔴 | vless | @proxy_kafee | 5",
                 "❔XX | 🔴 | vless | @proxy_kafee | 6",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
-                "❔XX | 🔴 | vless | @v2logy | 10",
+                "🇨🇦CA | 🔴 | vless | @v2logy | 10",
                 "🇺🇸US | 🟢 | vless | @V2rayCollector | 2",
                 "🇨🇦CA | 🟢 | vless | @V2rayCollector | 3",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 19",
-                "❔XX | 🔴 | vless | @ProxyForOpeta | 11",
-                "🇨🇦CA | 🔴 | vless | @ProxyForOpeta | 12",
+                "❔XX | 🔴 | vless | @ProxyForOpeta | 12",
+                "🇺🇸US | 🔴 | vless | @ProxyForOpeta | 13",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 2",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 3",
                 "🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 16",
@@ -999,7 +999,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @v2logy | 10",
+            "tag": "🇨🇦CA | 🔴 | vless | @v2logy | 10",
             "type": "vless",
             "server": "ArV2ray.mAshtimji.IR",
             "server_port": 443,
@@ -1144,7 +1144,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @ProxyForOpeta | 11",
+            "tag": "❔XX | 🔴 | vless | @ProxyForOpeta | 12",
             "type": "vless",
             "server": "[2a01:4f8:c012:9907::1]",
             "server_port": 30004,
@@ -1158,11 +1158,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @ProxyForOpeta | 12",
+            "tag": "🇺🇸US | 🔴 | vless | @ProxyForOpeta | 13",
             "type": "vless",
-            "server": "104.16.61.8",
-            "server_port": 8080,
-            "uuid": "f32a99e8-05dd-478a-82c0-7688848121bd",
+            "server": "172.64.143.172",
+            "server_port": 443,
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1170,11 +1170,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "mmdv2.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "104.16.61.8"
+                    "Host": "mmdv2.pages.dev"
                 }
             }
         },
