@@ -111,13 +111,14 @@
                 "🇺🇸US | 🟢 | vmess | @mftizi | 16",
                 "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 6",
                 "🇸🇪SE | 🟢 | vmess | @oneclickvpnkeys | 7",
+                "❔XX | 🟢 | vmess | @DailyV2RY | 188",
                 "🇨🇦CA | 🟢 | vmess | @proxystore11 | 2",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇨🇦CA | 🟢 | vmess | @yaney_01 | 5",
                 "🇨🇦CA | 🟢 | vmess | @Hope_Net | 1",
                 "🇨🇦CA | 🟢 | vmess | @Hope_Net | 2",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 5",
-                "🇺🇸US | 🟢 | vmess | @v2Line | 6",
+                "🇨🇦CA | 🟢 | vmess | @v2Line | 6",
                 "🇪🇸ES | 🟢 | vmess | @kingofilter | 7"
             ]
         },
@@ -130,13 +131,14 @@
                 "🇺🇸US | 🟢 | vmess | @mftizi | 16",
                 "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 6",
                 "🇸🇪SE | 🟢 | vmess | @oneclickvpnkeys | 7",
+                "❔XX | 🟢 | vmess | @DailyV2RY | 188",
                 "🇨🇦CA | 🟢 | vmess | @proxystore11 | 2",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇨🇦CA | 🟢 | vmess | @yaney_01 | 5",
                 "🇨🇦CA | 🟢 | vmess | @Hope_Net | 1",
                 "🇨🇦CA | 🟢 | vmess | @Hope_Net | 2",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 5",
-                "🇺🇸US | 🟢 | vmess | @v2Line | 6",
+                "🇨🇦CA | 🟢 | vmess | @v2Line | 6",
                 "🇪🇸ES | 🟢 | vmess | @kingofilter | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -263,6 +265,23 @@
                 "headers": {
                     "Host": ""
                 }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | @DailyV2RY | 188",
+            "type": "vmess",
+            "server": null,
+            "server_port": 0,
+            "uuid": null,
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
@@ -450,7 +469,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @v2Line | 6",
+            "tag": "🇨🇦CA | 🟢 | vmess | @v2Line | 6",
             "type": "vmess",
             "server": "104.26.15.148",
             "server_port": 80,
