@@ -108,15 +108,14 @@
                 "URL-TEST",
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 15",
-                "🇸🇪SE | 🟢 | vmess | @oneclickvpnkeys | 8",
-                "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 9",
-                "🇨🇦CA | 🟢 | vmess | @proxystore11 | 2",
+                "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 7",
+                "🇺🇸US | 🟢 | vmess | @proxystore11 | 2",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
-                "🇨🇦CA | 🟢 | vmess | @yaney_01 | 5",
-                "🇨🇦CA | 🟢 | vmess | @Hope_Net | 1",
-                "🇨🇦CA | 🟢 | vmess | @Hope_Net | 2",
-                "🇨🇦CA | 🟢 | vmess | @v2Line | 5",
-                "🇨🇦CA | 🟢 | vmess | @v2Line | 6",
+                "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
+                "🇺🇸US | 🟢 | vmess | @v2Line | 5",
+                "🇺🇸US | 🟢 | vmess | @v2Line | 6",
                 "🇪🇸ES | 🟢 | vmess | @kingofilter | 7"
             ]
         },
@@ -126,15 +125,14 @@
             "outbounds": [
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 15",
-                "🇸🇪SE | 🟢 | vmess | @oneclickvpnkeys | 8",
-                "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 9",
-                "🇨🇦CA | 🟢 | vmess | @proxystore11 | 2",
+                "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 7",
+                "🇺🇸US | 🟢 | vmess | @proxystore11 | 2",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
-                "🇨🇦CA | 🟢 | vmess | @yaney_01 | 5",
-                "🇨🇦CA | 🟢 | vmess | @Hope_Net | 1",
-                "🇨🇦CA | 🟢 | vmess | @Hope_Net | 2",
-                "🇨🇦CA | 🟢 | vmess | @v2Line | 5",
-                "🇨🇦CA | 🟢 | vmess | @v2Line | 6",
+                "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
+                "🇺🇸US | 🟢 | vmess | @v2Line | 5",
+                "🇺🇸US | 🟢 | vmess | @v2Line | 6",
                 "🇪🇸ES | 🟢 | vmess | @kingofilter | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -192,11 +190,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🟢 | vmess | @oneclickvpnkeys | 8",
+            "tag": "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 7",
             "type": "vmess",
-            "server": "185.146.173.167",
+            "server": "172.64.155.209",
             "server_port": 80,
-            "uuid": "b1fecac5-0eb0-440c-ba9b-a937b34881d6",
+            "uuid": "947cb385-54b4-4453-ac92-63c95ef32a6a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -209,48 +207,14 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/navigate?ed=1048",
+                "path": "\/V2LINE-TELEGRAM-CHANNEL-VMESS-WS",
                 "headers": {
                     "Host": ""
                 }
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 9",
-            "type": "vmess",
-            "server": "104.26.13.72",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cake.capellare.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "cake.capellare.com"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | 🟢 | vmess | @proxystore11 | 2",
+            "tag": "🇺🇸US | 🟢 | vmess | @proxystore11 | 2",
             "type": "vmess",
             "server": "104.21.74.239",
             "server_port": 443,
@@ -308,7 +272,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | @yaney_01 | 5",
+            "tag": "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
             "server_port": 443,
@@ -342,7 +306,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | @Hope_Net | 1",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 2096,
@@ -376,7 +340,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | @Hope_Net | 2",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
             "type": "vmess",
             "server": "172.67.220.83",
             "server_port": 443,
@@ -410,7 +374,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | @v2Line | 5",
+            "tag": "🇺🇸US | 🟢 | vmess | @v2Line | 5",
             "type": "vmess",
             "server": "104.26.15.148",
             "server_port": 80,
@@ -434,7 +398,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | @v2Line | 6",
+            "tag": "🇺🇸US | 🟢 | vmess | @v2Line | 6",
             "type": "vmess",
             "server": "104.26.15.148",
             "server_port": 80,
