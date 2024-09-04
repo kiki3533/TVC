@@ -116,8 +116,7 @@
                 "🇺🇸US | 🟢 | vmess | @mftizi | 11",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 12",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 14",
-                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 17",
-                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 18",
+                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 13",
                 "🚩CF | 🟢 | vmess | @oneclickvpnkeys | 0",
                 "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 1",
                 "🚩CF | 🟢 | vmess | @oneclickvpnkeys | 2",
@@ -172,8 +171,7 @@
                 "🇺🇸US | 🟢 | vmess | @mftizi | 11",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 12",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 14",
-                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 17",
-                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 18",
+                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 13",
                 "🚩CF | 🟢 | vmess | @oneclickvpnkeys | 0",
                 "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 1",
                 "🚩CF | 🟢 | vmess | @oneclickvpnkeys | 2",
@@ -449,11 +447,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 17",
+            "tag": "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 13",
             "type": "vmess",
-            "server": "bamparda.com",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "104.16.61.8",
+            "server_port": 80,
+            "uuid": "2a8a10fb-9ca3-367e-a234-cf09f841be4f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -464,55 +462,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "bamparda.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/v118-fccxmxm35",
                 "headers": {
-                    "Host": "bamparda.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 18",
-            "type": "vmess",
-            "server": "slime-rhinestone-spy.glitch.me",
-            "server_port": 443,
-            "uuid": "83a5c82d-a047-418e-9ad9-6ce8c5aaba59",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "slime-rhinestone-spy.glitch.me",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/83a5c82d-a047-418e-9ad9-6ce8c5aaba59-vmess",
-                "headers": {
-                    "Host": "slime-rhinestone-spy.glitch.me"
+                    "Host": "104.16.61.8"
                 }
             }
         },
