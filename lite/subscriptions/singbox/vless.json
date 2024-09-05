@@ -139,13 +139,14 @@
                 "🇨🇦CA | 🟢 | vless | @V2rayCollector | 3",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 19",
-                "🇨🇦CA | 🔴 | vless | @ProxyForOpeta | 11",
+                "🇮🇷IR | 🔴 | vless | @ProxyForOpeta | 11",
+                "❔XX | 🔴 | vless | @ProxyForOpeta | 12",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 3",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 4",
                 "🇨🇦CA | 🔴 | vless | @customv2ray | 13",
                 "❔XX | 🔴 | vless | @customv2ray | 14",
                 "🇨🇦CA | 🔴 | vless | @UnlimitedDev | 10",
-                "🇺🇸US | 🔴 | vless | @UnlimitedDev | 11",
+                "🇨🇦CA | 🔴 | vless | @UnlimitedDev | 11",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 15",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 16",
                 "🇸🇪SE | 🔴 | vless | @ShadowProxy66 | 12",
@@ -240,13 +241,14 @@
                 "🇨🇦CA | 🟢 | vless | @V2rayCollector | 3",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 19",
-                "🇨🇦CA | 🔴 | vless | @ProxyForOpeta | 11",
+                "🇮🇷IR | 🔴 | vless | @ProxyForOpeta | 11",
+                "❔XX | 🔴 | vless | @ProxyForOpeta | 12",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 3",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 4",
                 "🇨🇦CA | 🔴 | vless | @customv2ray | 13",
                 "❔XX | 🔴 | vless | @customv2ray | 14",
                 "🇨🇦CA | 🔴 | vless | @UnlimitedDev | 10",
-                "🇺🇸US | 🔴 | vless | @UnlimitedDev | 11",
+                "🇨🇦CA | 🔴 | vless | @UnlimitedDev | 11",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 15",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 16",
                 "🇸🇪SE | 🔴 | vless | @ShadowProxy66 | 12",
@@ -1038,11 +1040,25 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @ProxyForOpeta | 11",
+            "tag": "🇮🇷IR | 🔴 | vless | @ProxyForOpeta | 11",
             "type": "vless",
-            "server": "104.16.60.8",
-            "server_port": 2086,
-            "uuid": "962a733d-2614-0b9b-7ffe-9ac92ffea8eb",
+            "server": "193.151.149.161",
+            "server_port": 443,
+            "uuid": "6da18053-8c08-4349-b5fc-e18f8ac44732",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @ProxyForOpeta | 12",
+            "type": "vless",
+            "server": "[2606:4700:3037::6815:1494]",
+            "server_port": 8080,
+            "uuid": "ded9aca6-c6da-458e-95a1-c9272f193b09",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1052,9 +1068,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/ahmedquran19.xyz:443\/current_time",
+                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8080",
                 "headers": {
-                    "Host": "104.16.60.8"
+                    "Host": "[2606:4700:3037::6815:1494]"
                 }
             }
         },
@@ -1177,7 +1193,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @UnlimitedDev | 11",
+            "tag": "🇨🇦CA | 🔴 | vless | @UnlimitedDev | 11",
             "type": "vless",
             "server": "unlimiteddev-vpn.sabadyt.ir",
             "server_port": 8880,
