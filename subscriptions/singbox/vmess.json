@@ -116,6 +116,7 @@
                 "🇺🇸US | 🟢 | vmess | @mftizi | 12",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 13",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 15",
+                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 5",
                 "🚩CF | 🟢 | vmess | @oneclickvpnkeys | 0",
                 "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 1",
                 "🇳🇱NL | 🟢 | vmess | @oneclickvpnkeys | 2",
@@ -167,6 +168,7 @@
                 "🇺🇸US | 🟢 | vmess | @mftizi | 12",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 13",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 15",
+                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 5",
                 "🚩CF | 🟢 | vmess | @oneclickvpnkeys | 0",
                 "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 1",
                 "🇳🇱NL | 🟢 | vmess | @oneclickvpnkeys | 2",
@@ -435,6 +437,40 @@
                 "path": "\/video\/ibCT6z55",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 5",
+            "type": "vmess",
+            "server": "denc36.xtooltech.cfd",
+            "server_port": 443,
+            "uuid": "b321fd5d-e6ec-4293-a644-164e3885f52e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "denc36.xtooltech.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "denc36.xtooltech.cfd"
                 }
             }
         },
