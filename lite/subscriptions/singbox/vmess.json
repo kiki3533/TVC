@@ -109,12 +109,14 @@
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | 🟢 | vmess | @mftizi | 15",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
+                "🇨🇦CA | 🟢 | vmess | @DeamNet_Proxy | 17",
+                "🇨🇦CA | 🟢 | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 8",
                 "🇺🇸US | 🟢 | vmess | @proxystore11 | 2",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 3",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
+                "❔XX | 🟢 | vmess | @Hope_Net | 5",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 6",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 7",
                 "🇪🇸ES | 🟢 | vmess | @kingofilter | 7"
@@ -127,12 +129,14 @@
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | 🟢 | vmess | @mftizi | 15",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
+                "🇨🇦CA | 🟢 | vmess | @DeamNet_Proxy | 17",
+                "🇨🇦CA | 🟢 | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 8",
                 "🇺🇸US | 🟢 | vmess | @proxystore11 | 2",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 3",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
+                "❔XX | 🟢 | vmess | @Hope_Net | 5",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 6",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 7",
                 "🇪🇸ES | 🟢 | vmess | @kingofilter | 7"
@@ -213,6 +217,64 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇦CA | 🟢 | vmess | @DeamNet_Proxy | 17",
+            "type": "vmess",
+            "server": "104.21.71.88",
+            "server_port": 80,
+            "uuid": "2a8a10fb-9ca3-367e-a234-cf09f841be4f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/us2ekjds3nay",
+                "headers": {
+                    "Host": "104.21.71.88"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | 🟢 | vmess | @DeamNet_Proxy | 18",
+            "type": "vmess",
+            "server": "104.21.21.21",
+            "server_port": 443,
+            "uuid": "73dfe5b1-9ced-4be7-949b-e731d54ba801",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "laxfree.starsea.vip",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "laxfree.starsea.vip"
+                }
             }
         },
         {
@@ -342,7 +404,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 3",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 5",
             "type": "vmess",
             "server": "jp2.elkcloud.cf",
             "server_port": 80,
@@ -366,7 +428,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 2096,
