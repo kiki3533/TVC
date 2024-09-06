@@ -114,8 +114,8 @@
                 "🇨🇦CA | 🟢 | vmess | @proxystore11 | 2",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇨🇦CA | 🟢 | vmess | @yaney_01 | 5",
-                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 2",
-                "❔XX | 🟢 | vmess | @Hope_Net | 3",
+                "🇨🇦CA | 🟢 | vmess | @Hope_Net | 2",
+                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 3",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 6",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 7",
                 "🇪🇸ES | 🟢 | vmess | @kingofilter | 7"
@@ -133,8 +133,8 @@
                 "🇨🇦CA | 🟢 | vmess | @proxystore11 | 2",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇨🇦CA | 🟢 | vmess | @yaney_01 | 5",
-                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 2",
-                "❔XX | 🟢 | vmess | @Hope_Net | 3",
+                "🇨🇦CA | 🟢 | vmess | @Hope_Net | 2",
+                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 3",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 6",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 7",
                 "🇪🇸ES | 🟢 | vmess | @kingofilter | 7"
@@ -368,7 +368,24 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vmess | @Hope_Net | 2",
+            "tag": "🇨🇦CA | 🟢 | vmess | @Hope_Net | 2",
+            "type": "vmess",
+            "server": "23.162.200.182",
+            "server_port": 22324,
+            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇷🇺RU | 🟢 | vmess | @Hope_Net | 3",
             "type": "vmess",
             "server": "45.67.32.147",
             "server_port": 40413,
@@ -399,23 +416,6 @@
                 "headers": {
                     "Host": "free.hardtofind.42web.io"
                 }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 3",
-            "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 8080,
-            "uuid": "caacbba-aacb-bcaa-dbac-bbcccaacbaba",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
