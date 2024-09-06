@@ -164,13 +164,13 @@
                 "🇳🇱NL | 🔴 | vless | @DailyV2RY | 202",
                 "🇳🇱NL | 🔴 | vless | @DailyV2RY | 203",
                 "🇨🇦CA | 🔴 | vless | @sinabigo | 0",
-                "🇨🇦CA | 🔴 | vless | @lrnbymaa | 19",
-                "🇨🇦CA | 🔴 | vless | @lrnbymaa | 20",
+                "🇨🇦CA | 🔴 | vless | @lrnbymaa | 21",
+                "🇨🇦CA | 🔴 | vless | @lrnbymaa | 22",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 3",
                 "🇨🇦CA | 🔴 | vless | @fnet00 | 11",
                 "🇨🇦CA | 🔴 | vless | @polproxy | 5",
                 "🇸🇪SE | 🔴 | vless | @polproxy | 6",
-                "🇨🇦CA | 🔴 | vless | @Outlinev2rayNG | 11",
+                "🇸🇪SE | 🔴 | vless | @Outlinev2rayNG | 9",
                 "🇨🇦CA | 🔴 | vless | @v2rayng_vpnrog | 6",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 7",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -257,13 +257,13 @@
                 "🇳🇱NL | 🔴 | vless | @DailyV2RY | 202",
                 "🇳🇱NL | 🔴 | vless | @DailyV2RY | 203",
                 "🇨🇦CA | 🔴 | vless | @sinabigo | 0",
-                "🇨🇦CA | 🔴 | vless | @lrnbymaa | 19",
-                "🇨🇦CA | 🔴 | vless | @lrnbymaa | 20",
+                "🇨🇦CA | 🔴 | vless | @lrnbymaa | 21",
+                "🇨🇦CA | 🔴 | vless | @lrnbymaa | 22",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 3",
                 "🇨🇦CA | 🔴 | vless | @fnet00 | 11",
                 "🇨🇦CA | 🔴 | vless | @polproxy | 5",
                 "🇸🇪SE | 🔴 | vless | @polproxy | 6",
-                "🇨🇦CA | 🔴 | vless | @Outlinev2rayNG | 11",
+                "🇸🇪SE | 🔴 | vless | @Outlinev2rayNG | 9",
                 "🇨🇦CA | 🔴 | vless | @v2rayng_vpnrog | 6",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 7",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -1531,7 +1531,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @lrnbymaa | 19",
+            "tag": "🇨🇦CA | 🔴 | vless | @lrnbymaa | 21",
             "type": "vless",
             "server": "www.parspack.com",
             "server_port": 2095,
@@ -1552,7 +1552,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @lrnbymaa | 20",
+            "tag": "🇨🇦CA | 🔴 | vless | @lrnbymaa | 22",
             "type": "vless",
             "server": "www.parspack.com",
             "server_port": 2095,
@@ -1636,11 +1636,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @Outlinev2rayNG | 11",
+            "tag": "🇸🇪SE | 🔴 | vless | @Outlinev2rayNG | 9",
             "type": "vless",
-            "server": "104.19.56.61",
-            "server_port": 443,
-            "uuid": "1d399c5a-1c32-4fff-a4d0-d78fd3328a4c",
+            "server": "185.146.173.58",
+            "server_port": 8080,
+            "uuid": "5b87fc3b-0190-46e5-8eec-943f652fa180",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1648,21 +1648,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "pages.teasalo.cloudns.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed=2560",
+                "path": "\/servernett",
                 "headers": {
-                    "Host": "pages.teasalo.cloudns.org"
+                    "Host": "185.146.173.58"
                 }
             }
         },

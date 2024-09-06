@@ -173,20 +173,20 @@
                 "🇳🇱NL | 🔴 | vless | @DailyV2RY | 202",
                 "🇳🇱NL | 🔴 | vless | @DailyV2RY | 203",
                 "🇨🇦CA | 🔴 | vless | @sinabigo | 0",
-                "🇨🇦CA | 🔴 | vless | @lrnbymaa | 19",
-                "🇨🇦CA | 🔴 | vless | @lrnbymaa | 20",
+                "🇨🇦CA | 🔴 | vless | @lrnbymaa | 21",
+                "🇨🇦CA | 🔴 | vless | @lrnbymaa | 22",
                 "🇷🇺RU | 🟢 | ss | @OutlineVpnOfficial | 35",
                 "🇮🇪IE | 🟢 | ss | @OutlineVpnOfficial | 36",
                 "🇨🇦CA | 🟢 | vmess | @proxystore11 | 2",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 3",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇨🇦CA | 🟢 | vmess | @yaney_01 | 5",
-                "🇨🇦CA | 🟢 | vmess | @Hope_Net | 1",
                 "🇨🇦CA | 🟢 | vmess | @Hope_Net | 2",
+                "🇨🇦CA | 🟢 | vmess | @Hope_Net | 3",
                 "🇨🇦CA | 🔴 | vless | @fnet00 | 11",
                 "🇨🇦CA | 🔴 | vless | @polproxy | 5",
                 "🇸🇪SE | 🔴 | vless | @polproxy | 6",
-                "🇨🇦CA | 🔴 | vless | @Outlinev2rayNG | 11",
+                "🇸🇪SE | 🔴 | vless | @Outlinev2rayNG | 9",
                 "🇨🇦CA | 🔴 | vless | @v2rayng_vpnrog | 6",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 7",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -287,20 +287,20 @@
                 "🇳🇱NL | 🔴 | vless | @DailyV2RY | 202",
                 "🇳🇱NL | 🔴 | vless | @DailyV2RY | 203",
                 "🇨🇦CA | 🔴 | vless | @sinabigo | 0",
-                "🇨🇦CA | 🔴 | vless | @lrnbymaa | 19",
-                "🇨🇦CA | 🔴 | vless | @lrnbymaa | 20",
+                "🇨🇦CA | 🔴 | vless | @lrnbymaa | 21",
+                "🇨🇦CA | 🔴 | vless | @lrnbymaa | 22",
                 "🇷🇺RU | 🟢 | ss | @OutlineVpnOfficial | 35",
                 "🇮🇪IE | 🟢 | ss | @OutlineVpnOfficial | 36",
                 "🇨🇦CA | 🟢 | vmess | @proxystore11 | 2",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 3",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇨🇦CA | 🟢 | vmess | @yaney_01 | 5",
-                "🇨🇦CA | 🟢 | vmess | @Hope_Net | 1",
                 "🇨🇦CA | 🟢 | vmess | @Hope_Net | 2",
+                "🇨🇦CA | 🟢 | vmess | @Hope_Net | 3",
                 "🇨🇦CA | 🔴 | vless | @fnet00 | 11",
                 "🇨🇦CA | 🔴 | vless | @polproxy | 5",
                 "🇸🇪SE | 🔴 | vless | @polproxy | 6",
-                "🇨🇦CA | 🔴 | vless | @Outlinev2rayNG | 11",
+                "🇸🇪SE | 🔴 | vless | @Outlinev2rayNG | 9",
                 "🇨🇦CA | 🔴 | vless | @v2rayng_vpnrog | 6",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 7",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -1777,7 +1777,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @lrnbymaa | 19",
+            "tag": "🇨🇦CA | 🔴 | vless | @lrnbymaa | 21",
             "type": "vless",
             "server": "www.parspack.com",
             "server_port": 2095,
@@ -1798,7 +1798,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @lrnbymaa | 20",
+            "tag": "🇨🇦CA | 🔴 | vless | @lrnbymaa | 22",
             "type": "vless",
             "server": "www.parspack.com",
             "server_port": 2095,
@@ -1945,7 +1945,41 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | @Hope_Net | 1",
+            "tag": "🇨🇦CA | 🟢 | vmess | @Hope_Net | 2",
+            "type": "vmess",
+            "server": "104.21.82.17",
+            "server_port": 443,
+            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "gwdef.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "gwdef.sbs"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | 🟢 | vmess | @Hope_Net | 3",
             "type": "vmess",
             "server": "104.24.95.28",
             "server_port": 2052,
@@ -1966,23 +2000,6 @@
                 "headers": {
                     "Host": ""
                 }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | 🟢 | vmess | @Hope_Net | 2",
-            "type": "vmess",
-            "server": "23.162.200.182",
-            "server_port": 22324,
-            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -2035,11 +2052,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @Outlinev2rayNG | 11",
+            "tag": "🇸🇪SE | 🔴 | vless | @Outlinev2rayNG | 9",
             "type": "vless",
-            "server": "104.19.56.61",
-            "server_port": 443,
-            "uuid": "1d399c5a-1c32-4fff-a4d0-d78fd3328a4c",
+            "server": "185.146.173.58",
+            "server_port": 8080,
+            "uuid": "5b87fc3b-0190-46e5-8eec-943f652fa180",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2047,21 +2064,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "pages.teasalo.cloudns.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed=2560",
+                "path": "\/servernett",
                 "headers": {
-                    "Host": "pages.teasalo.cloudns.org"
+                    "Host": "185.146.173.58"
                 }
             }
         },
