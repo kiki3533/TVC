@@ -132,10 +132,10 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 0",
-                "🇨🇦CA | 🟢 | vmess | @Hope_Net | 1",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
-                "🚩CF | 🟢 | vmess | @Hope_Net | 4",
+                "🚩CF | 🟢 | vmess | @Hope_Net | 0",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
+                "🇨🇦CA | 🟢 | vmess | @Hope_Net | 2",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 3",
                 "🚩CF | 🟢 | vmess | @v2Line | 0",
                 "🚩CF | 🟢 | vmess | @v2Line | 1",
                 "🚩CF | 🟢 | vmess | @v2Line | 2",
@@ -177,10 +177,10 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 0",
-                "🇨🇦CA | 🟢 | vmess | @Hope_Net | 1",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
-                "🚩CF | 🟢 | vmess | @Hope_Net | 4",
+                "🚩CF | 🟢 | vmess | @Hope_Net | 0",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
+                "🇨🇦CA | 🟢 | vmess | @Hope_Net | 2",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 3",
                 "🚩CF | 🟢 | vmess | @v2Line | 0",
                 "🚩CF | 🟢 | vmess | @v2Line | 1",
                 "🚩CF | 🟢 | vmess | @v2Line | 2",
@@ -853,7 +853,41 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 0",
+            "tag": "🚩CF | 🟢 | vmess | @Hope_Net | 0",
+            "type": "vmess",
+            "server": "104.17.148.22",
+            "server_port": 2053,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telegram----cassiusvpn----7777778877772211333333332245422525225.mint14.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/aveiror.com\/linkvws",
+                "headers": {
+                    "Host": "telegram----cassiusvpn----7777778877772211333333332245422525225.mint14.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
             "type": "vmess",
             "server": "2.58.87.221",
             "server_port": 46628,
@@ -870,7 +904,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | @Hope_Net | 1",
+            "tag": "🇨🇦CA | 🟢 | vmess | @Hope_Net | 2",
             "type": "vmess",
             "server": "23.227.38.3",
             "server_port": 2086,
@@ -894,7 +928,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 3",
             "type": "vmess",
             "server": "speedtest.net",
             "server_port": 443,
@@ -928,11 +962,11 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | @Hope_Net | 4",
+            "tag": "🚩CF | 🟢 | vmess | @v2Line | 0",
             "type": "vmess",
-            "server": "104.26.15.148",
+            "server": "104.21.70.68",
             "server_port": 80,
-            "uuid": "f1fb28e5-e5b6-450c-972c-13235c94285c",
+            "uuid": "6149b865-0d3c-4472-bf9c-3c61bfafa61a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -952,7 +986,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | @v2Line | 0",
+            "tag": "🚩CF | 🟢 | vmess | @v2Line | 1",
             "type": "vmess",
             "server": "104.18.32.47",
             "server_port": 80,
@@ -976,7 +1010,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | @v2Line | 1",
+            "tag": "🚩CF | 🟢 | vmess | @v2Line | 2",
             "type": "vmess",
             "server": "172.66.168.173",
             "server_port": 80,
@@ -1000,7 +1034,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | @v2Line | 2",
+            "tag": "🚩CF | 🟢 | vmess | @v2Line | 3",
             "type": "vmess",
             "server": "172.67.73.174",
             "server_port": 80,
@@ -1024,7 +1058,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | @v2Line | 3",
+            "tag": "🚩CF | 🟢 | vmess | @v2Line | 4",
             "type": "vmess",
             "server": "172.67.221.19",
             "server_port": 80,
@@ -1048,7 +1082,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | @v2Line | 4",
+            "tag": "🚩CF | 🟢 | vmess | @v2Line | 5",
             "type": "vmess",
             "server": "172.64.155.209",
             "server_port": 80,
@@ -1072,7 +1106,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | @v2Line | 5",
+            "tag": "🚩CF | 🟢 | vmess | @v2Line | 6",
             "type": "vmess",
             "server": "104.17.148.22",
             "server_port": 80,
@@ -1096,35 +1130,11 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | @v2Line | 6",
-            "type": "vmess",
-            "server": "104.26.15.148",
-            "server_port": 80,
-            "uuid": "0cb7b3c3-3c08-4391-af4d-3fc410c9c146",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/V2LINE-TELEGRAM-CHANNEL-VMESS-WS",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
             "tag": "🚩CF | 🟢 | vmess | @v2Line | 7",
             "type": "vmess",
             "server": "104.26.15.148",
             "server_port": 80,
-            "uuid": "f1fb28e5-e5b6-450c-972c-13235c94285c",
+            "uuid": "0cb7b3c3-3c08-4391-af4d-3fc410c9c146",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
