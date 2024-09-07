@@ -155,7 +155,7 @@
                 "🇨🇦CA | 🔴 | vless | @UnlimitedDev | 13",
                 "🇨🇦CA | 🔴 | vless | @vmessorg | 13",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 14",
-                "🇨🇦CA | 🔴 | vless | @v2rayNG_Matsuri | 6",
+                "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 6",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 7",
                 "🇸🇪SE | 🟢 | vless | @ShadowProxy66 | 5",
                 "🇫🇷FR | 🟢 | vless | @ShadowProxy66 | 6",
@@ -183,8 +183,8 @@
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 3",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 11",
                 "🇺🇸US | 🔴 | vless | @polproxy | 5",
                 "🇸🇪SE | 🔴 | vless | @polproxy | 6",
@@ -271,7 +271,7 @@
                 "🇨🇦CA | 🔴 | vless | @UnlimitedDev | 13",
                 "🇨🇦CA | 🔴 | vless | @vmessorg | 13",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 14",
-                "🇨🇦CA | 🔴 | vless | @v2rayNG_Matsuri | 6",
+                "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 6",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 7",
                 "🇸🇪SE | 🟢 | vless | @ShadowProxy66 | 5",
                 "🇫🇷FR | 🟢 | vless | @ShadowProxy66 | 6",
@@ -299,8 +299,8 @@
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 3",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 11",
                 "🇺🇸US | 🔴 | vless | @polproxy | 5",
                 "🇸🇪SE | 🔴 | vless | @polproxy | 6",
@@ -1446,7 +1446,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @v2rayNG_Matsuri | 6",
+            "tag": "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 6",
             "type": "vless",
             "server": "join.kiava.cloud.ohbah.com",
             "server_port": 8880,
@@ -2007,7 +2007,31 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
+            "type": "vmess",
+            "server": "104.17.148.22",
+            "server_port": 80,
+            "uuid": "6149b865-0d3c-4472-bf9c-3c61bfafa61a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/V2LINE-TELEGRAM-CHANNEL-VMESS-WS",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
             "type": "vmess",
             "server": "172.64.167.5",
             "server_port": 2086,
@@ -2027,40 +2051,6 @@
                 "path": "\/github.com\/Alvin9999",
                 "headers": {
                     "Host": "172.64.167.5"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
-            "type": "vmess",
-            "server": "104.21.82.17",
-            "server_port": 443,
-            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "gwdef.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "gwdef.sbs"
                 }
             }
         },
