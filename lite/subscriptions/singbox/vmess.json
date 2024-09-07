@@ -115,8 +115,8 @@
                 "🇺🇸US | 🟢 | vmess | @proxystore11 | 2",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+                "🇨🇦CA | 🟢 | vmess | @Hope_Net | 7",
                 "❔XX | 🟢 | vmess | @Hope_Net | 8",
-                "❔XX | 🟢 | vmess | @Hope_Net | 9",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 6",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 7"
             ]
@@ -134,8 +134,8 @@
                 "🇺🇸US | 🟢 | vmess | @proxystore11 | 2",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+                "🇨🇦CA | 🟢 | vmess | @Hope_Net | 7",
                 "❔XX | 🟢 | vmess | @Hope_Net | 8",
-                "❔XX | 🟢 | vmess | @Hope_Net | 9",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 6",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 7"
             ],
@@ -378,11 +378,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 8",
+            "tag": "🇨🇦CA | 🟢 | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 8080,
-            "uuid": "acacabb-aacb-abca-bcad-ccbabbaabacc",
+            "server": "178.128.237.6",
+            "server_port": 3389,
+            "uuid": "9c050a86-d612-48f1-ec32-e573df08a1b7",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -395,11 +395,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 9",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 8",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
-            "uuid": "cacbbaa-acab-baac-acdb-cabbccababca",
+            "uuid": "acacabb-aacb-abca-bcad-ccbabbaabacc",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
