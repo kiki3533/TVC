@@ -161,8 +161,6 @@ proxies:
   - {"name":"🇺🇸US | 🔴 | vless | @MTConfig | 8","type":"vless","server":"all.vipxali.cfd","port":2083,"udp":false,"uuid":"a8629b56-ea3f-41d9-8e42-e8ad84baaef6","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"dm.XsV2ray.cfd","grpc-opts":{"grpc-service-name":"@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray"}}
   - {"name":"🇺🇸US | 🔴 | vless | @MTConfig | 9","type":"vless","server":"all.vipxali.cfd","port":2083,"udp":false,"uuid":"21a78493-40c9-4a44-9b03-9c45f41d1845","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"dm.XsV2ray.cfd","grpc-opts":{"grpc-service-name":"@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray"}}
   - {"name":"🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 5","type":"vless","server":"185.146.173.58","port":8080,"udp":false,"uuid":"fef833b7-7c17-45ef-90b9-e9879d5bbe3f","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/servernett","headers":{"host":"lc7.lebasnoo.ir."}}}
-  - {"name":"🇺🇸US | 🔴 | vless | @V2RayTz | 18","type":"vless","server":"104.17.147.22","port":8880,"udp":false,"uuid":"f05186a2-b702-4fc3-b22a-91c648fc2269","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=8880","headers":{"host":"www.speedtest.net.B.lightning-6.LiVE."}}}
-  - {"name":"🇺🇸US | 🔴 | vless | @V2RayTz | 19","type":"vless","server":"104.17.147.22","port":8880,"udp":false,"uuid":"f05186a2-b702-4fc3-b22a-91c648fc2269","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=2056","headers":{"host":"www.speedtest.net.A.lightning-6.LiVE."}}}
   - {"name":"🇺🇸US | 🔴 | vless | @VmessProtocol | 8","type":"vless","server":"speedtest.net","port":443,"udp":false,"uuid":"79d96609-8570-4473-96bf-efbe3f11524a","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"speedtest.net","ws-opts":{"path":"/?ed=1024","headers":{"host":"a1.mehran.ir"}}}
   - {"name":"🇺🇸US | 🔴 | vless | @DailyV2RY | 202","type":"vless","server":"SpeeDTeST.OrG","port":80,"udp":false,"uuid":"1377372b-3ecf-4300-86fa-511c265a1338","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"","headers":{"host":"WwW.SpeedTest.Net.WhiteBer.InsisTom.D6625996.V06.ThEpHp.Ir."}}}
   - {"name":"🇺🇸US | 🔴 | vless | @DailyV2RY | 203","type":"vless","server":"104.25.0.86","port":8080,"udp":false,"uuid":"1377372b-3ecf-4300-86fa-511c265a1338","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"","headers":{"host":"WwW.SpeedTest.Net.WhiteBer.InsisTom.D6625996.V06.ThEpHp.Ir."}}}
@@ -236,8 +234,6 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @MTConfig | 8'
       - '🇺🇸US | 🔴 | vless | @MTConfig | 9'
       - '🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 5'
-      - '🇺🇸US | 🔴 | vless | @V2RayTz | 18'
-      - '🇺🇸US | 🔴 | vless | @V2RayTz | 19'
       - '🇺🇸US | 🔴 | vless | @VmessProtocol | 8'
       - '🇺🇸US | 🔴 | vless | @DailyV2RY | 202'
       - '🇺🇸US | 🔴 | vless | @DailyV2RY | 203'
@@ -311,8 +307,6 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @MTConfig | 8'
       - '🇺🇸US | 🔴 | vless | @MTConfig | 9'
       - '🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 5'
-      - '🇺🇸US | 🔴 | vless | @V2RayTz | 18'
-      - '🇺🇸US | 🔴 | vless | @V2RayTz | 19'
       - '🇺🇸US | 🔴 | vless | @VmessProtocol | 8'
       - '🇺🇸US | 🔴 | vless | @DailyV2RY | 202'
       - '🇺🇸US | 🔴 | vless | @DailyV2RY | 203'
@@ -385,8 +379,6 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @MTConfig | 8'
       - '🇺🇸US | 🔴 | vless | @MTConfig | 9'
       - '🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 5'
-      - '🇺🇸US | 🔴 | vless | @V2RayTz | 18'
-      - '🇺🇸US | 🔴 | vless | @V2RayTz | 19'
       - '🇺🇸US | 🔴 | vless | @VmessProtocol | 8'
       - '🇺🇸US | 🔴 | vless | @DailyV2RY | 202'
       - '🇺🇸US | 🔴 | vless | @DailyV2RY | 203'

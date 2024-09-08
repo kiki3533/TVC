@@ -170,8 +170,8 @@
                 "🇺🇸US | 🔴 | vless | @MTConfig | 9",
                 "❔XX | 🔴 | vless | @vmess_vless_v2rayng | 4",
                 "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 5",
-                "🇺🇸US | 🔴 | vless | @V2RayTz | 18",
-                "🇺🇸US | 🔴 | vless | @V2RayTz | 19",
+                "🇺🇸US | 🔴 | vless | @V2RayTz | 16",
+                "🇺🇸US | 🔴 | vless | @V2RayTz | 17",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 8",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 202",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 203",
@@ -182,8 +182,8 @@
                 "🇮🇷IR | 🟢 | vmess | @proxystore11 | 1",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
-                "❔XX | 🟢 | vmess | @Hope_Net | 5",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
+                "❔XX | 🟢 | vmess | @Hope_Net | 7",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 11",
                 "🇸🇪SE | 🔴 | vless | @polproxy | 5",
                 "🇺🇸US | 🔴 | vless | @polproxy | 6",
@@ -285,8 +285,8 @@
                 "🇺🇸US | 🔴 | vless | @MTConfig | 9",
                 "❔XX | 🔴 | vless | @vmess_vless_v2rayng | 4",
                 "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 5",
-                "🇺🇸US | 🔴 | vless | @V2RayTz | 18",
-                "🇺🇸US | 🔴 | vless | @V2RayTz | 19",
+                "🇺🇸US | 🔴 | vless | @V2RayTz | 16",
+                "🇺🇸US | 🔴 | vless | @V2RayTz | 17",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 8",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 202",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 203",
@@ -297,8 +297,8 @@
                 "🇮🇷IR | 🟢 | vmess | @proxystore11 | 1",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
-                "❔XX | 🟢 | vmess | @Hope_Net | 5",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
+                "❔XX | 🟢 | vmess | @Hope_Net | 7",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 11",
                 "🇸🇪SE | 🔴 | vless | @polproxy | 5",
                 "🇺🇸US | 🔴 | vless | @polproxy | 6",
@@ -1779,11 +1779,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @V2RayTz | 18",
+            "tag": "🇺🇸US | 🔴 | vless | @V2RayTz | 16",
             "type": "vless",
-            "server": "104.17.147.22",
-            "server_port": 8880,
-            "uuid": "f05186a2-b702-4fc3-b22a-91c648fc2269",
+            "server": "172.67.193.36",
+            "server_port": 2095,
+            "uuid": "DIGIV2RAY",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1793,18 +1793,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=8880",
+                "path": "\/Digi-Tel-Digiv-Digicnc-saaaalaaaam-?ed=1024",
                 "headers": {
-                    "Host": "104.17.147.22"
+                    "Host": "172.67.193.36"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @V2RayTz | 19",
+            "tag": "🇺🇸US | 🔴 | vless | @V2RayTz | 17",
             "type": "vless",
-            "server": "104.17.147.22",
-            "server_port": 8880,
-            "uuid": "f05186a2-b702-4fc3-b22a-91c648fc2269",
+            "server": "104.21.20.148",
+            "server_port": 2095,
+            "uuid": "DIGIV2RAY",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1814,9 +1814,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=2056",
+                "path": "\/Digi-Tel-Digiv-Digicnc-saaaalaaaam-?ed=1024",
                 "headers": {
-                    "Host": "104.17.147.22"
+                    "Host": "104.21.20.148"
                 }
             }
         },
@@ -2031,7 +2031,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
             "type": "vmess",
             "server": "www.speedtest.net",
             "server_port": 443,
@@ -2065,7 +2065,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 5",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 7",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 1080,
