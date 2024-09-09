@@ -107,18 +107,18 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
-                "🇨🇦CA | 🟢 | vmess | @mftizi | 16",
+                "🇺🇸US | 🟢 | vmess | @mftizi | 16",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 7",
                 "🇮🇷IR | 🟢 | vmess | @proxystore11 | 1",
-                "🇨🇦CA | 🟢 | vmess | @proxystore11 | 2",
+                "🇺🇸US | 🟢 | vmess | @proxystore11 | 2",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
-                "🇨🇦CA | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 5",
+                "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
                 "❔XX | 🟢 | vmess | @Hope_Net | 6",
-                "🇨🇦CA | 🟢 | vmess | @v2Line | 6",
-                "🇨🇦CA | 🟢 | vmess | @v2Line | 7"
+                "🇺🇸US | 🟢 | vmess | @v2Line | 6",
+                "🇺🇸US | 🟢 | vmess | @v2Line | 7"
             ]
         },
         {
@@ -126,18 +126,18 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
-                "🇨🇦CA | 🟢 | vmess | @mftizi | 16",
+                "🇺🇸US | 🟢 | vmess | @mftizi | 16",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 7",
                 "🇮🇷IR | 🟢 | vmess | @proxystore11 | 1",
-                "🇨🇦CA | 🟢 | vmess | @proxystore11 | 2",
+                "🇺🇸US | 🟢 | vmess | @proxystore11 | 2",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
-                "🇨🇦CA | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 5",
+                "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
                 "❔XX | 🟢 | vmess | @Hope_Net | 6",
-                "🇨🇦CA | 🟢 | vmess | @v2Line | 6",
-                "🇨🇦CA | 🟢 | vmess | @v2Line | 7"
+                "🇺🇸US | 🟢 | vmess | @v2Line | 6",
+                "🇺🇸US | 🟢 | vmess | @v2Line | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -177,7 +177,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | @mftizi | 16",
+            "tag": "🇺🇸US | 🟢 | vmess | @mftizi | 16",
             "type": "vmess",
             "server": "cfcdn3.sanfencdn9.com",
             "server_port": 80,
@@ -286,7 +286,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | @proxystore11 | 2",
+            "tag": "🇺🇸US | 🟢 | vmess | @proxystore11 | 2",
             "type": "vmess",
             "server": "104.21.74.239",
             "server_port": 443,
@@ -344,7 +344,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | @yaney_01 | 5",
+            "tag": "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
             "server_port": 443,
@@ -378,7 +378,41 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 5",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
+            "type": "vmess",
+            "server": "104.21.83.115",
+            "server_port": 443,
+            "uuid": "6c168fcc-2231-4f3b-8c1e-f6391692df4a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hms02.fxiaomi.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/link",
+                "headers": {
+                    "Host": "hms02.fxiaomi.sbs"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 6",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 1080,
@@ -395,24 +429,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 6",
-            "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 1080,
-            "uuid": "acbcbaa-aabc-acab-cdab-baccaabbcabc",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇨🇦CA | 🟢 | vmess | @v2Line | 6",
+            "tag": "🇺🇸US | 🟢 | vmess | @v2Line | 6",
             "type": "vmess",
             "server": "104.17.148.22",
             "server_port": 80,
@@ -436,7 +453,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | @v2Line | 7",
+            "tag": "🇺🇸US | 🟢 | vmess | @v2Line | 7",
             "type": "vmess",
             "server": "104.26.15.148",
             "server_port": 80,
