@@ -110,14 +110,14 @@
                 "🇺🇸US | 🟢 | vmess | @mftizi | 17",
                 "🇨🇦CA | 🟢 | vmess | @mftizi | 18",
                 "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 1",
-                "🇮🇷IR | 🟢 | vmess | @proxystore11 | 1",
-                "🇺🇸US | 🟢 | vmess | @proxystore11 | 2",
-                "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
-                "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
-                "🇺🇸US | 🟢 | vmess | @v2Line | 7",
-                "🇺🇸US | 🟢 | vmess | @v2Line | 8"
+                "❔XX | 🟢 | vmess | @proxystore11 | 1",
+                "❔XX | 🟢 | vmess | @proxystore11 | 2",
+                "❔XX | 🟢 | vmess | @yaney_01 | 4",
+                "❔XX | 🟢 | vmess | @yaney_01 | 5",
+                "❔XX | 🟢 | vmess | @Hope_Net | 6",
+                "❔XX | 🟢 | vmess | @Hope_Net | 7",
+                "❔XX | 🟢 | vmess | @v2Line | 7",
+                "❔XX | 🟢 | vmess | @v2Line | 8"
             ]
         },
         {
@@ -128,14 +128,14 @@
                 "🇺🇸US | 🟢 | vmess | @mftizi | 17",
                 "🇨🇦CA | 🟢 | vmess | @mftizi | 18",
                 "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 1",
-                "🇮🇷IR | 🟢 | vmess | @proxystore11 | 1",
-                "🇺🇸US | 🟢 | vmess | @proxystore11 | 2",
-                "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
-                "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
-                "🇺🇸US | 🟢 | vmess | @v2Line | 7",
-                "🇺🇸US | 🟢 | vmess | @v2Line | 8"
+                "❔XX | 🟢 | vmess | @proxystore11 | 1",
+                "❔XX | 🟢 | vmess | @proxystore11 | 2",
+                "❔XX | 🟢 | vmess | @yaney_01 | 4",
+                "❔XX | 🟢 | vmess | @yaney_01 | 5",
+                "❔XX | 🟢 | vmess | @Hope_Net | 6",
+                "❔XX | 🟢 | vmess | @Hope_Net | 7",
+                "❔XX | 🟢 | vmess | @v2Line | 7",
+                "❔XX | 🟢 | vmess | @v2Line | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -257,7 +257,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🟢 | vmess | @proxystore11 | 1",
+            "tag": "❔XX | 🟢 | vmess | @proxystore11 | 1",
             "type": "vmess",
             "server": "87.248.145.59",
             "server_port": 80,
@@ -274,7 +274,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @proxystore11 | 2",
+            "tag": "❔XX | 🟢 | vmess | @proxystore11 | 2",
             "type": "vmess",
             "server": "104.21.74.239",
             "server_port": 443,
@@ -308,7 +308,7 @@
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
+            "tag": "❔XX | 🟢 | vmess | @yaney_01 | 4",
             "type": "vmess",
             "server": "ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub",
             "server_port": 80,
@@ -332,7 +332,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+            "tag": "❔XX | 🟢 | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
             "server_port": 443,
@@ -366,11 +366,45 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 6",
             "type": "vmess",
-            "server": "172.67.71.122",
-            "server_port": 8080,
-            "uuid": "e6d76927-edd1-442b-92a4-fa031f522c42",
+            "server": "104.17.147.22",
+            "server_port": 443,
+            "uuid": "0006f689-f829-4724-fe1e-2b4e5d8103a2",
+            "security": "auto",
+            "alter_id": 100,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "rhtu78ii8hgr.yougram.co",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/0006f689-f829-4724-fe1e-2b4e5d8103a2",
+                "headers": {
+                    "Host": "rhtu78ii8hgr.yougram.co"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 7",
+            "type": "vmess",
+            "server": "188.114.99.187",
+            "server_port": 2095,
+            "uuid": "d572e3a7-d7fd-4fe3-9f5c-489fe879e8c0",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -380,41 +414,10 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/api\/v3\/download.getFile",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
-            "type": "vmess",
-            "server": "104.16.148.244",
-            "server_port": 2086,
-            "uuid": "29eebb60-b27b-4a9d-bba5-947763d9205e",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/github.com\/Alvin9999",
-                "headers": {
-                    "Host": "ip006.freegradely.xyz"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @v2Line | 7",
+            "tag": "❔XX | 🟢 | vmess | @v2Line | 7",
             "type": "vmess",
             "server": "172.64.155.209",
             "server_port": 80,
@@ -438,7 +441,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @v2Line | 8",
+            "tag": "❔XX | 🟢 | vmess | @v2Line | 8",
             "type": "vmess",
             "server": "104.17.148.22",
             "server_port": 80,
