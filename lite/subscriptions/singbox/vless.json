@@ -132,10 +132,9 @@
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇩🇪DE | 🔴 | vless | @DigiV2ray | 18",
                 "🇩🇪DE | 🔴 | vless | @DigiV2ray | 19",
-                "🇨🇦CA | 🔴 | vless | @proxy_kafee | 4",
-                "🇺🇸US | 🔴 | vless | @proxy_kafee | 5",
+                "🇺🇸US | 🔴 | vless | @proxy_kafee | 4",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
-                "🇨🇦CA | 🔴 | vless | @v2logy | 10",
+                "❔XX | 🔴 | vless | @v2logy | 10",
                 "🇺🇸US | 🟢 | vless | @V2rayCollector | 2",
                 "🇨🇦CA | 🟢 | vless | @V2rayCollector | 3",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 18",
@@ -144,10 +143,10 @@
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 5",
                 "🇸🇪SE | 🔴 | vless | @customv2ray | 14",
                 "❔XX | 🔴 | vless | @customv2ray | 15",
-                "🇺🇸US | 🔴 | vless | @UnlimitedDev | 11",
+                "🇨🇦CA | 🔴 | vless | @UnlimitedDev | 11",
                 "🇺🇸US | 🔴 | vless | @UnlimitedDev | 12",
-                "🇺🇸US | 🔴 | vless | @vmessorg | 9",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 10",
+                "🇺🇸US | 🔴 | vless | @vmessorg | 11",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 3",
                 "🇰🇭KH | 🔴 | vless | @v2rayNG_Matsuri | 4",
                 "❔XX | 🔴 | vless | @ServerNett | 17",
@@ -230,10 +229,9 @@
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇩🇪DE | 🔴 | vless | @DigiV2ray | 18",
                 "🇩🇪DE | 🔴 | vless | @DigiV2ray | 19",
-                "🇨🇦CA | 🔴 | vless | @proxy_kafee | 4",
-                "🇺🇸US | 🔴 | vless | @proxy_kafee | 5",
+                "🇺🇸US | 🔴 | vless | @proxy_kafee | 4",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
-                "🇨🇦CA | 🔴 | vless | @v2logy | 10",
+                "❔XX | 🔴 | vless | @v2logy | 10",
                 "🇺🇸US | 🟢 | vless | @V2rayCollector | 2",
                 "🇨🇦CA | 🟢 | vless | @V2rayCollector | 3",
                 "🇨🇦CA | 🔴 | vless | @V2rayCollectorDonate | 18",
@@ -242,10 +240,10 @@
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 5",
                 "🇸🇪SE | 🔴 | vless | @customv2ray | 14",
                 "❔XX | 🔴 | vless | @customv2ray | 15",
-                "🇺🇸US | 🔴 | vless | @UnlimitedDev | 11",
+                "🇨🇦CA | 🔴 | vless | @UnlimitedDev | 11",
                 "🇺🇸US | 🔴 | vless | @UnlimitedDev | 12",
-                "🇺🇸US | 🔴 | vless | @vmessorg | 9",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 10",
+                "🇺🇸US | 🔴 | vless | @vmessorg | 11",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 3",
                 "🇰🇭KH | 🔴 | vless | @v2rayNG_Matsuri | 4",
                 "❔XX | 🔴 | vless | @ServerNett | 17",
@@ -913,21 +911,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @proxy_kafee | 4",
-            "type": "vless",
-            "server": "Www.speedtest.net",
-            "server_port": 8080,
-            "uuid": "Biain--ZEDMODEON",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 5",
+            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 4",
             "type": "vless",
             "server": "151.101.2.219",
             "server_port": 443,
@@ -979,7 +963,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @v2logy | 10",
+            "tag": "❔XX | 🔴 | vless | @v2logy | 10",
             "type": "vless",
             "server": "ArV2ray.mAshtimji.IR",
             "server_port": 443,
@@ -1194,7 +1178,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @UnlimitedDev | 11",
+            "tag": "🇨🇦CA | 🔴 | vless | @UnlimitedDev | 11",
             "type": "vless",
             "server": "parsvds.com",
             "server_port": 8880,
@@ -1222,7 +1206,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @vmessorg | 9",
+            "tag": "🇺🇸US | 🔴 | vless | @vmessorg | 10",
             "type": "vless",
             "server": "66.235.200.111",
             "server_port": 8080,
@@ -1236,7 +1220,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @vmessorg | 10",
+            "tag": "🇺🇸US | 🔴 | vless | @vmessorg | 11",
             "type": "vless",
             "server": "66.235.200.111",
             "server_port": 8080,
