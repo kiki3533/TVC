@@ -170,6 +170,7 @@
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 11",
                 "🇸🇪SE | 🔴 | vless | @polproxy | 7",
+                "🇸🇪SE | 🔴 | vless | @polproxy | 8",
                 "🇸🇪SE | 🔴 | vless | @Outlinev2rayNG | 13",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 14",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 4",
@@ -267,6 +268,7 @@
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 11",
                 "🇸🇪SE | 🔴 | vless | @polproxy | 7",
+                "🇸🇪SE | 🔴 | vless | @polproxy | 8",
                 "🇸🇪SE | 🔴 | vless | @Outlinev2rayNG | 13",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 14",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 4",
@@ -1712,6 +1714,27 @@
         },
         {
             "tag": "🇸🇪SE | 🔴 | vless | @polproxy | 7",
+            "type": "vless",
+            "server": "185.146.173.58",
+            "server_port": 2082,
+            "uuid": "5009ac87-9862-4504-896c-c0d9a609a324",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy",
+                "headers": {
+                    "Host": "185.146.173.58"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | 🔴 | vless | @polproxy | 8",
             "type": "vless",
             "server": "185.146.173.58",
             "server_port": 2082,
