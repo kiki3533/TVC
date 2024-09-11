@@ -549,13 +549,14 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
-                "🚩CF | 🟢 | vmess | @Hope_Net | 0",
-                "❔XX | 🟢 | vmess | @Hope_Net | 1",
-                "🚩CF | 🟢 | vmess | @Hope_Net | 2",
-                "❔XX | 🟢 | vmess | @Hope_Net | 3",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
-                "🚩CF | 🟢 | vmess | @Hope_Net | 6",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
+                "❔XX | 🟢 | vmess | @Hope_Net | 0",
+                "🚩CF | 🟢 | vmess | @Hope_Net | 1",
+                "❔XX | 🟢 | vmess | @Hope_Net | 2",
+                "🚩CF | 🟢 | vmess | @Hope_Net | 3",
+                "❔XX | 🟢 | vmess | @Hope_Net | 4",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
+                "🚩CF | 🟢 | vmess | @Hope_Net | 7",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 1",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 3",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 5",
@@ -634,7 +635,6 @@
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 8",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 9",
                 "🚩CF | 🔴 | vless | @flyv2ray | 12",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 13",
                 "🇹🇷TR | 🟢 | hy2 | @iP_CF | 0",
                 "❔XX | 🟢 | vless | @iP_CF | 2",
                 "🇺🇸US | 🔴 | vless | @iP_CF | 3",
@@ -1153,13 +1153,14 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
-                "🚩CF | 🟢 | vmess | @Hope_Net | 0",
-                "❔XX | 🟢 | vmess | @Hope_Net | 1",
-                "🚩CF | 🟢 | vmess | @Hope_Net | 2",
-                "❔XX | 🟢 | vmess | @Hope_Net | 3",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
-                "🚩CF | 🟢 | vmess | @Hope_Net | 6",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
+                "❔XX | 🟢 | vmess | @Hope_Net | 0",
+                "🚩CF | 🟢 | vmess | @Hope_Net | 1",
+                "❔XX | 🟢 | vmess | @Hope_Net | 2",
+                "🚩CF | 🟢 | vmess | @Hope_Net | 3",
+                "❔XX | 🟢 | vmess | @Hope_Net | 4",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
+                "🚩CF | 🟢 | vmess | @Hope_Net | 7",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 1",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 3",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 5",
@@ -1238,7 +1239,6 @@
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 8",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 9",
                 "🚩CF | 🔴 | vless | @flyv2ray | 12",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 13",
                 "🇹🇷TR | 🟢 | hy2 | @iP_CF | 0",
                 "❔XX | 🟢 | vless | @iP_CF | 2",
                 "🇺🇸US | 🔴 | vless | @iP_CF | 3",
@@ -11303,7 +11303,24 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | @Hope_Net | 0",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 0",
+            "type": "vmess",
+            "server": "127.0.0.1",
+            "server_port": 1080,
+            "uuid": "baabcac-abca-aabc-dcba-caabacbacbcb",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🚩CF | 🟢 | vmess | @Hope_Net | 1",
             "type": "vmess",
             "server": "104.20.76.74",
             "server_port": 2052,
@@ -11327,7 +11344,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 1",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 2",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 1080,
@@ -11344,7 +11361,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | @Hope_Net | 2",
+            "tag": "🚩CF | 🟢 | vmess | @Hope_Net | 3",
             "type": "vmess",
             "server": "172.67.207.26",
             "server_port": 443,
@@ -11378,7 +11395,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 3",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 4",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 1080,
@@ -11395,7 +11412,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
             "type": "vmess",
             "server": "151.101.66.219",
             "server_port": 443,
@@ -11429,7 +11446,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | @Hope_Net | 6",
+            "tag": "🚩CF | 🟢 | vmess | @Hope_Net | 7",
             "type": "vmess",
             "server": "104.17.156.224",
             "server_port": 2052,
@@ -11453,7 +11470,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
             "type": "vmess",
             "server": "speedtest.net",
             "server_port": 443,
@@ -13610,27 +13627,6 @@
                 "path": "\/4channel?ed=512",
                 "headers": {
                     "Host": "Pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 13",
-            "type": "vless",
-            "server": "speedtest.net",
-            "server_port": 80,
-            "uuid": "6cb7b477-bab3-4630-becb-1527c841ad22",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray",
-                "headers": {
-                    "Host": "speedtest.net"
                 }
             }
         },
