@@ -118,8 +118,8 @@
                 "🇮🇷IR | 🟢 | vmess | @proxystore11 | 2",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇨🇦CA | 🟢 | vmess | @yaney_01 | 5",
-                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 7",
-                "🇳🇱NL | 🟢 | vmess | @Hope_Net | 8",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
+                "🇨🇦CA | 🟢 | vmess | @Hope_Net | 7",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 7",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 8"
             ]
@@ -140,8 +140,8 @@
                 "🇮🇷IR | 🟢 | vmess | @proxystore11 | 2",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇨🇦CA | 🟢 | vmess | @yaney_01 | 5",
-                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 7",
-                "🇳🇱NL | 🟢 | vmess | @Hope_Net | 8",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
+                "🇨🇦CA | 🟢 | vmess | @Hope_Net | 7",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 7",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 8"
             ],
@@ -466,11 +466,11 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vmess | @Hope_Net | 7",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
             "type": "vmess",
-            "server": "80.85.152.179",
-            "server_port": 12910,
-            "uuid": "8259cb1c-dd6c-4739-9c88-af550d977525",
+            "server": "speedtest.net",
+            "server_port": 443,
+            "uuid": "6d867da1-8260-45d4-b130-2e3d9698eff9",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -483,7 +483,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "22.lwdh.us",
+                "server_name": "speedtest.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -493,18 +493,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/ws\/",
                 "headers": {
-                    "Host": "22.lwdh.us"
+                    "Host": "speedtest.net"
                 }
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vmess | @Hope_Net | 8",
+            "tag": "🇨🇦CA | 🟢 | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "195.211.124.86",
-            "server_port": 15495,
-            "uuid": "dc73445a-2cf5-4b5d-8bec-ae4c6a8e44f7",
+            "server": "104.21.38.51",
+            "server_port": 443,
+            "uuid": "0330f834-e9e4-40dc-8af9-fe1fec37cb50",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -514,6 +514,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "AFyIshOg.roxifa.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/rafa?ed=1024",
+                "headers": {
+                    "Host": "AFyIshOg.roxifa.ir"
+                }
             }
         },
         {
