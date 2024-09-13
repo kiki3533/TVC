@@ -114,14 +114,14 @@
                 "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 5",
                 "🇨🇦CA | 🟢 | vmess | @customv2ray | 15",
                 "🇨🇦CA | 🟢 | vmess | @ShadowProxy66 | 14",
-                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 15",
+                "🇨🇦CA | 🟢 | vmess | @ShadowProxy66 | 15",
                 "🇮🇷IR | 🟢 | vmess | @proxystore11 | 2",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
-                "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
-                "🇺🇸US | 🟢 | vmess | @v2Line | 7",
-                "🇺🇸US | 🟢 | vmess | @v2Line | 8"
+                "🇨🇦CA | 🟢 | vmess | @yaney_01 | 5",
+                "❔XX | 🟢 | vmess | @Hope_Net | 5",
+                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 6",
+                "🇨🇦CA | 🟢 | vmess | @v2Line | 7",
+                "🇨🇦CA | 🟢 | vmess | @v2Line | 8"
             ]
         },
         {
@@ -136,14 +136,14 @@
                 "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 5",
                 "🇨🇦CA | 🟢 | vmess | @customv2ray | 15",
                 "🇨🇦CA | 🟢 | vmess | @ShadowProxy66 | 14",
-                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 15",
+                "🇨🇦CA | 🟢 | vmess | @ShadowProxy66 | 15",
                 "🇮🇷IR | 🟢 | vmess | @proxystore11 | 2",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
-                "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
-                "🇺🇸US | 🟢 | vmess | @v2Line | 7",
-                "🇺🇸US | 🟢 | vmess | @v2Line | 8"
+                "🇨🇦CA | 🟢 | vmess | @yaney_01 | 5",
+                "❔XX | 🟢 | vmess | @Hope_Net | 5",
+                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 6",
+                "🇨🇦CA | 🟢 | vmess | @v2Line | 7",
+                "🇨🇦CA | 🟢 | vmess | @v2Line | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -367,7 +367,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 15",
+            "tag": "🇨🇦CA | 🟢 | vmess | @ShadowProxy66 | 15",
             "type": "vmess",
             "server": "104.16.61.8",
             "server_port": 80,
@@ -432,7 +432,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+            "tag": "🇨🇦CA | 🟢 | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
             "server_port": 443,
@@ -466,7 +466,24 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vmess | @Hope_Net | 5",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 5",
+            "type": "vmess",
+            "server": "127.0.0.1",
+            "server_port": 1080,
+            "uuid": "abaacbc-bcaa-acab-badc-bcaabaccbabc",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇷🇺RU | 🟢 | vmess | @Hope_Net | 6",
             "type": "vmess",
             "server": "80.85.152.179",
             "server_port": 12910,
@@ -500,41 +517,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
-            "type": "vmess",
-            "server": "speedtest.net",
-            "server_port": 443,
-            "uuid": "6d867da1-8260-45d4-b130-2e3d9698eff9",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ws\/",
-                "headers": {
-                    "Host": "speedtest.net"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @v2Line | 7",
+            "tag": "🇨🇦CA | 🟢 | vmess | @v2Line | 7",
             "type": "vmess",
             "server": "172.67.221.19",
             "server_port": 80,
@@ -558,7 +541,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @v2Line | 8",
+            "tag": "🇨🇦CA | 🟢 | vmess | @v2Line | 8",
             "type": "vmess",
             "server": "172.64.155.209",
             "server_port": 80,
