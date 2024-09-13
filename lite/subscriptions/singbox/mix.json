@@ -156,7 +156,7 @@
                 "🇺🇸US | 🔴 | vless | @customv2ray | 14",
                 "🇨🇦CA | 🟢 | vmess | @customv2ray | 15",
                 "🇨🇦CA | 🔴 | vless | @UnlimitedDev | 13",
-                "🇨🇦CA | 🔴 | vless | @vmessorg | 8",
+                "🇺🇸US | 🔴 | vless | @vmessorg | 8",
                 "🇩🇪DE | 🔴 | vless | @vmessorg | 9",
                 "🇨🇦CA | 🟢 | vmess | @ShadowProxy66 | 14",
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 15",
@@ -182,7 +182,7 @@
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 6",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 11",
                 "🇸🇪SE | 🔴 | vless | @polproxy | 7",
                 "🇸🇪SE | 🔴 | vless | @polproxy | 8",
@@ -269,7 +269,7 @@
                 "🇺🇸US | 🔴 | vless | @customv2ray | 14",
                 "🇨🇦CA | 🟢 | vmess | @customv2ray | 15",
                 "🇨🇦CA | 🔴 | vless | @UnlimitedDev | 13",
-                "🇨🇦CA | 🔴 | vless | @vmessorg | 8",
+                "🇺🇸US | 🔴 | vless | @vmessorg | 8",
                 "🇩🇪DE | 🔴 | vless | @vmessorg | 9",
                 "🇨🇦CA | 🟢 | vmess | @ShadowProxy66 | 14",
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 15",
@@ -295,7 +295,7 @@
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 6",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 11",
                 "🇸🇪SE | 🔴 | vless | @polproxy | 7",
                 "🇸🇪SE | 🔴 | vless | @polproxy | 8",
@@ -1605,7 +1605,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @vmessorg | 8",
+            "tag": "🇺🇸US | 🔴 | vless | @vmessorg | 8",
             "type": "vless",
             "server": "vmessorg.sabadyt.ir",
             "server_port": 80,
@@ -2119,6 +2119,40 @@
         {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
             "type": "vmess",
+            "server": "ps-siluofake-1.nsde.date",
+            "server_port": 2096,
+            "uuid": "09d4e6ab-bf30-4c29-900f-5d824ff2ec77",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ps-siluofake-1.nsde.date",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "ps-siluofake-1.nsde.date"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
+            "type": "vmess",
             "server": "104.21.5.170",
             "server_port": 443,
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
@@ -2148,23 +2182,6 @@
                 "headers": {
                     "Host": "a.baradiha.com"
                 }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 6",
-            "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 1080,
-            "uuid": "abaacbc-bcaa-acab-badc-bcaabaccbabc",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
