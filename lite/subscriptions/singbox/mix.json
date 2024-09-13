@@ -162,8 +162,8 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 17",
                 "🇺🇸US | 🔴 | vless | @proxyymeliii | 11",
                 "❔XX | 🔴 | vless | @proxyymeliii | 12",
+                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 1",
                 "🇺🇸US | 🔴 | vless | @v2ray1_ng | 2",
-                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 3",
                 "🇺🇸US | 🔴 | vless | @MTConfig | 8",
                 "🇺🇸US | 🔴 | vless | @MTConfig | 9",
                 "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 10",
@@ -179,6 +179,7 @@
                 "🇮🇷IR | 🟢 | vmess | @proxystore11 | 2",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 11",
                 "🇸🇪SE | 🔴 | vless | @polproxy | 9",
@@ -273,8 +274,8 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 17",
                 "🇺🇸US | 🔴 | vless | @proxyymeliii | 11",
                 "❔XX | 🔴 | vless | @proxyymeliii | 12",
+                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 1",
                 "🇺🇸US | 🔴 | vless | @v2ray1_ng | 2",
-                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 3",
                 "🇺🇸US | 🔴 | vless | @MTConfig | 8",
                 "🇺🇸US | 🔴 | vless | @MTConfig | 9",
                 "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 10",
@@ -290,6 +291,7 @@
                 "🇮🇷IR | 🟢 | vmess | @proxystore11 | 2",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 11",
                 "🇸🇪SE | 🔴 | vless | @polproxy | 9",
@@ -1676,6 +1678,20 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🔴 | vless | @v2ray1_ng | 1",
+            "type": "vless",
+            "server": "104.16.11.133",
+            "server_port": 80,
+            "uuid": "4029c00b-ec5c-4cde-a45b-18ff0e094f29",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇺🇸US | 🔴 | vless | @v2ray1_ng | 2",
             "type": "vless",
             "server": "104.18.4.2",
@@ -1704,20 +1720,6 @@
                 "headers": {
                     "Host": "VFIvE-teLeGram.PAGEs.Dev"
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @v2ray1_ng | 3",
-            "type": "vless",
-            "server": "104.17.147.22",
-            "server_port": 80,
-            "uuid": "c0f80d53-006f-4f64-ba2c-c85c0eef459f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -1839,7 +1841,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=2056",
+                "path": "\/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=8880",
                 "headers": {
                     "Host": "104.17.148.22"
                 }
@@ -1848,9 +1850,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @V2RayTz | 18",
             "type": "vless",
-            "server": "151.101.130.219",
-            "server_port": 443,
-            "uuid": "telegram-id-ArV2ray",
+            "server": "104.17.148.22",
+            "server_port": 8880,
+            "uuid": "dc75ea2e-2efa-4659-a89f-65cdf4b81e8f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1858,21 +1860,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "path": "\/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=2056",
                 "headers": {
-                    "Host": "speedtest.net"
+                    "Host": "104.17.148.22"
                 }
             }
         },
@@ -2066,11 +2058,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "russia.com",
-            "server_port": 2086,
-            "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
+            "server": "104.26.15.148",
+            "server_port": 80,
+            "uuid": "f1fb28e5-e5b6-450c-972c-13235c94285c",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -2083,9 +2075,43 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/github.com\/Alvin9999",
+                "path": "\/V2LINE-TELEGRAM-CHANNEL-VMESS-WS",
                 "headers": {
-                    "Host": "russia.com"
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
+            "type": "vmess",
+            "server": "104.21.61.246",
+            "server_port": 443,
+            "uuid": "f9ccede9-ca9c-4719-b105-e494742499e3",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "kmz3.sassanidempire.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "kmz3.sassanidempire.com"
                 }
             }
         },
