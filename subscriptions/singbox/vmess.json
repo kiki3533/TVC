@@ -121,13 +121,14 @@
                 "🇺🇸US | 🟢 | vmess | @mftizi | 18",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 19",
                 "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 8",
-                "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 0",
+                "🚩CF | 🟢 | vmess | @oneclickvpnkeys | 0",
                 "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 1",
-                "🚩CF | 🟢 | vmess | @oneclickvpnkeys | 2",
-                "🇫🇮FI | 🟢 | vmess | @oneclickvpnkeys | 3",
-                "🚩CF | 🟢 | vmess | @oneclickvpnkeys | 4",
+                "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 2",
+                "🚩CF | 🟢 | vmess | @oneclickvpnkeys | 3",
+                "🇫🇮FI | 🟢 | vmess | @oneclickvpnkeys | 4",
                 "🚩CF | 🟢 | vmess | @oneclickvpnkeys | 5",
-                "🇸🇪SE | 🟢 | vmess | @oneclickvpnkeys | 7",
+                "🚩CF | 🟢 | vmess | @oneclickvpnkeys | 6",
+                "🇸🇪SE | 🟢 | vmess | @oneclickvpnkeys | 8",
                 "🚩CF | 🟢 | vmess | @customv2ray | 6",
                 "🚩CF | 🟢 | vmess | @customv2ray | 7",
                 "🚩CF | 🟢 | vmess | @customv2ray | 15",
@@ -191,13 +192,14 @@
                 "🇺🇸US | 🟢 | vmess | @mftizi | 18",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 19",
                 "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 8",
-                "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 0",
+                "🚩CF | 🟢 | vmess | @oneclickvpnkeys | 0",
                 "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 1",
-                "🚩CF | 🟢 | vmess | @oneclickvpnkeys | 2",
-                "🇫🇮FI | 🟢 | vmess | @oneclickvpnkeys | 3",
-                "🚩CF | 🟢 | vmess | @oneclickvpnkeys | 4",
+                "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 2",
+                "🚩CF | 🟢 | vmess | @oneclickvpnkeys | 3",
+                "🇫🇮FI | 🟢 | vmess | @oneclickvpnkeys | 4",
                 "🚩CF | 🟢 | vmess | @oneclickvpnkeys | 5",
-                "🇸🇪SE | 🟢 | vmess | @oneclickvpnkeys | 7",
+                "🚩CF | 🟢 | vmess | @oneclickvpnkeys | 6",
+                "🇸🇪SE | 🟢 | vmess | @oneclickvpnkeys | 8",
                 "🚩CF | 🟢 | vmess | @customv2ray | 6",
                 "🚩CF | 🟢 | vmess | @customv2ray | 7",
                 "🚩CF | 🟢 | vmess | @customv2ray | 15",
@@ -583,7 +585,41 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 0",
+            "tag": "🚩CF | 🟢 | vmess | @oneclickvpnkeys | 0",
+            "type": "vmess",
+            "server": "172.67.244.191",
+            "server_port": 443,
+            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "gwdef.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "gwdef.sbs"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 1",
             "type": "vmess",
             "server": "www.visa.com.sg",
             "server_port": 8880,
@@ -607,7 +643,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 1",
+            "tag": "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 2",
             "type": "vmess",
             "server": "104.160.40.197",
             "server_port": 15428,
@@ -631,7 +667,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | @oneclickvpnkeys | 2",
+            "tag": "🚩CF | 🟢 | vmess | @oneclickvpnkeys | 3",
             "type": "vmess",
             "server": "104.21.28.70",
             "server_port": 80,
@@ -655,7 +691,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🟢 | vmess | @oneclickvpnkeys | 3",
+            "tag": "🇫🇮FI | 🟢 | vmess | @oneclickvpnkeys | 4",
             "type": "vmess",
             "server": "65.109.220.221",
             "server_port": 80,
@@ -672,7 +708,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | @oneclickvpnkeys | 4",
+            "tag": "🚩CF | 🟢 | vmess | @oneclickvpnkeys | 5",
             "type": "vmess",
             "server": "104.26.15.148",
             "server_port": 80,
@@ -696,7 +732,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | @oneclickvpnkeys | 5",
+            "tag": "🚩CF | 🟢 | vmess | @oneclickvpnkeys | 6",
             "type": "vmess",
             "server": "104.21.95.165",
             "server_port": 443,
@@ -730,7 +766,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🟢 | vmess | @oneclickvpnkeys | 7",
+            "tag": "🇸🇪SE | 🟢 | vmess | @oneclickvpnkeys | 8",
             "type": "vmess",
             "server": "185.146.173.59",
             "server_port": 443,
