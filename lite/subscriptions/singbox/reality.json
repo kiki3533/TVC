@@ -107,10 +107,9 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
-                "❔XX | 🔴 | vless | @Outlinev2rayNG | 11",
-                "🇬🇧GB | 🟢 | vless | @Outlinev2rayNG | 12",
+                "❔XX | 🟢 | vless | @Outlinev2rayNG | 11",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
-                "🇩🇪DE | 🔴 | vless | @Capital_NET | 45",
+                "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ]
@@ -120,10 +119,9 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
-                "❔XX | 🔴 | vless | @Outlinev2rayNG | 11",
-                "🇬🇧GB | 🟢 | vless | @Outlinev2rayNG | 12",
+                "❔XX | 🟢 | vless | @Outlinev2rayNG | 11",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
-                "🇩🇪DE | 🔴 | vless | @Capital_NET | 45",
+                "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ],
@@ -177,11 +175,11 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @Outlinev2rayNG | 11",
+            "tag": "❔XX | 🟢 | vless | @Outlinev2rayNG | 11",
             "type": "vless",
-            "server": "shoping-ailg.igshopingai.biz.tr",
-            "server_port": 443,
-            "uuid": "320eb15d-66d3-45d3-9998-9f712577ebdb",
+            "server": "45.129.228.177",
+            "server_port": 50623,
+            "uuid": "47a7ff3b-6ffb-48d1-d15b-59e830726af5",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -191,43 +189,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "afternic.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "J5aaCYQft4PeaMxenmrVh5WUQYRXuKNUtblM9TRpXAk",
-                    "short_id": "cc26b226"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Dev",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇬🇧GB | 🟢 | vless | @Outlinev2rayNG | 12",
-            "type": "vless",
-            "server": "91.132.50.143",
-            "server_port": 8443,
-            "uuid": "01660443-a9ea-4f16-a2fd-fced0badc684",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.ilovepdf.com",
+                "server_name": "addons.mozilla.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -236,7 +198,7 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "public_key": "UK7qxWWGfRQcQfwaGpHnqmmqqJBut4jxve8AeDDJ2UI",
                     "short_id": ""
                 }
             }
@@ -271,7 +233,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @Capital_NET | 45",
+            "tag": "❔XX | 🔴 | vless | @Capital_NET | 45",
             "type": "vless",
             "server": "four.felinetest.site",
             "server_port": 443,
