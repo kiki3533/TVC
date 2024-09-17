@@ -174,8 +174,6 @@ proxies:
   - {"name":"🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 4","type":"vmess","server":"50.114.243.61","port":"43834","cipher":"auto","uuid":"b246e34d-bbd1-4016-8f74-ea461c37e411","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇦CA | 🟢 | vmess | @ShadowProxy66 | 5","type":"vmess","server":"23.162.200.182","port":"22324","cipher":"auto","uuid":"04621bae-ab36-11ec-b909-0242ac120002","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 6","type":"vmess","server":"108.181.200.220","port":"17163","cipher":"auto","uuid":"d54814a1-7a93-45f8-9117-db317a25d100","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🚩CF | 🟢 | vmess | @ShadowProxy66 | 7","type":"vmess","server":"104.21.82.17","port":"443","cipher":"auto","uuid":"bc864078-dcf3-4bf4-8dbf-ca9f200b56be","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"gwdef.sbs"}}}
-  - {"name":"🚩CF | 🟢 | vmess | @ShadowProxy66 | 8","type":"vmess","server":"188.114.97.3","port":"443","cipher":"auto","uuid":"f584de15-2034-4170-a723-f48c2bae5e0f","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"afrhms16v.bestxray.buzz"}}}
   - {"name":"🚩CF | 🟢 | vmess | @vmess_vless_v2rayng | 4","type":"vmess","server":"104.21.82.17","port":"443","cipher":"auto","uuid":"bc864078-dcf3-4bf4-8dbf-ca9f200b56be","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"gwdef.sbs"}}}
   - {"name":"🚩CF | 🟢 | vmess | @proxystore11 | 0","type":"vmess","server":"172.67.71.160","port":"443","cipher":"auto","uuid":"05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"obdii.cfd"}}}
   - {"name":"🇳🇱NL | 🟢 | vmess | @yaney_01 | 1","type":"vmess","server":"45.199.138.217","port":"41000","cipher":"auto","uuid":"f9fa3a9c-f7d5-414f-88e6-6970585d9949","alterId":"64","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/path/282018252526","headers":{"host":"45.199.138.217"}}}
@@ -187,12 +185,12 @@ proxies:
   - {"name":"🚩CF | 🟢 | vmess | @Hope_Net | 3","type":"vmess","server":"172.64.175.213","port":"2086","cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}}}
   - {"name":"🇬🇧GB | 🟢 | vmess | @Hope_Net | 4","type":"vmess","server":"5.39.254.196","port":"40125","cipher":"auto","uuid":"64928beb-603e-4738-a669-5a3d38a08643","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
   - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 5","type":"vmess","server":"speedtest.net","port":"443","cipher":"auto","uuid":"8365a47f-02d8-4bad-800f-49e4bacb9193","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ws/","headers":{"host":"Dbdjhiw72ebsu272hs519j.com"}}}
-  - {"name":"🇦🇹AT | 🟢 | ss | @iP_CF | 0","type":"ss","server":"vienna.telegavpn.com","port":61992,"password":"6MvQuSIQrj6L1J7rf1rVyO","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇦🇹AT | 🟢 | ss | @iP_CF | 1","type":"ss","server":"vienna.telegavpn.com","port":61992,"password":"Wq1UrDvBKLtnjcZlJaIFb7","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇦🇹AT | 🟢 | ss | @iP_CF | 3","type":"ss","server":"vienna.telegavpn.com","port":61992,"password":"tTCVW6owoNqQJsOSOSMhqP","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇦🇹AT | 🟢 | ss | @iP_CF | 4","type":"ss","server":"vienna.telegavpn.com","port":61992,"password":"cLnglWvNFasPZ2El5Wjq5M","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇦🇹AT | 🟢 | ss | @iP_CF | 5","type":"ss","server":"vienna.telegavpn.com","port":61992,"password":"N9humx5dGmjrPv2Lmp0muB","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇳🇱NL | 🟢 | ss | @iP_CF | 7","type":"ss","server":"89.23.103.125","port":42090,"password":"uQS5ntVqC00sSKkeNzUiD3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇦🇹AT | 🟢 | ss | @iP_CF | 1","type":"ss","server":"vienna.telegavpn.com","port":61992,"password":"6MvQuSIQrj6L1J7rf1rVyO","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇦🇹AT | 🟢 | ss | @iP_CF | 2","type":"ss","server":"vienna.telegavpn.com","port":61992,"password":"Wq1UrDvBKLtnjcZlJaIFb7","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇦🇹AT | 🟢 | ss | @iP_CF | 4","type":"ss","server":"vienna.telegavpn.com","port":61992,"password":"tTCVW6owoNqQJsOSOSMhqP","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇦🇹AT | 🟢 | ss | @iP_CF | 5","type":"ss","server":"vienna.telegavpn.com","port":61992,"password":"cLnglWvNFasPZ2El5Wjq5M","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇦🇹AT | 🟢 | ss | @iP_CF | 6","type":"ss","server":"vienna.telegavpn.com","port":61992,"password":"N9humx5dGmjrPv2Lmp0muB","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱NL | 🟢 | ss | @iP_CF | 8","type":"ss","server":"89.23.103.125","port":42090,"password":"uQS5ntVqC00sSKkeNzUiD3","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -255,8 +253,6 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 4'
       - '🇨🇦CA | 🟢 | vmess | @ShadowProxy66 | 5'
       - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 6'
-      - '🚩CF | 🟢 | vmess | @ShadowProxy66 | 7'
-      - '🚩CF | 🟢 | vmess | @ShadowProxy66 | 8'
       - '🚩CF | 🟢 | vmess | @vmess_vless_v2rayng | 4'
       - '🚩CF | 🟢 | vmess | @proxystore11 | 0'
       - '🇳🇱NL | 🟢 | vmess | @yaney_01 | 1'
@@ -268,12 +264,12 @@ proxy-groups:
       - '🚩CF | 🟢 | vmess | @Hope_Net | 3'
       - '🇬🇧GB | 🟢 | vmess | @Hope_Net | 4'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 5'
-      - '🇦🇹AT | 🟢 | ss | @iP_CF | 0'
       - '🇦🇹AT | 🟢 | ss | @iP_CF | 1'
-      - '🇦🇹AT | 🟢 | ss | @iP_CF | 3'
+      - '🇦🇹AT | 🟢 | ss | @iP_CF | 2'
       - '🇦🇹AT | 🟢 | ss | @iP_CF | 4'
       - '🇦🇹AT | 🟢 | ss | @iP_CF | 5'
-      - '🇳🇱NL | 🟢 | ss | @iP_CF | 7'
+      - '🇦🇹AT | 🟢 | ss | @iP_CF | 6'
+      - '🇳🇱NL | 🟢 | ss | @iP_CF | 8'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -336,8 +332,6 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 4'
       - '🇨🇦CA | 🟢 | vmess | @ShadowProxy66 | 5'
       - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 6'
-      - '🚩CF | 🟢 | vmess | @ShadowProxy66 | 7'
-      - '🚩CF | 🟢 | vmess | @ShadowProxy66 | 8'
       - '🚩CF | 🟢 | vmess | @vmess_vless_v2rayng | 4'
       - '🚩CF | 🟢 | vmess | @proxystore11 | 0'
       - '🇳🇱NL | 🟢 | vmess | @yaney_01 | 1'
@@ -349,12 +343,12 @@ proxy-groups:
       - '🚩CF | 🟢 | vmess | @Hope_Net | 3'
       - '🇬🇧GB | 🟢 | vmess | @Hope_Net | 4'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 5'
-      - '🇦🇹AT | 🟢 | ss | @iP_CF | 0'
       - '🇦🇹AT | 🟢 | ss | @iP_CF | 1'
-      - '🇦🇹AT | 🟢 | ss | @iP_CF | 3'
+      - '🇦🇹AT | 🟢 | ss | @iP_CF | 2'
       - '🇦🇹AT | 🟢 | ss | @iP_CF | 4'
       - '🇦🇹AT | 🟢 | ss | @iP_CF | 5'
-      - '🇳🇱NL | 🟢 | ss | @iP_CF | 7'
+      - '🇦🇹AT | 🟢 | ss | @iP_CF | 6'
+      - '🇳🇱NL | 🟢 | ss | @iP_CF | 8'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -416,8 +410,6 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 4'
       - '🇨🇦CA | 🟢 | vmess | @ShadowProxy66 | 5'
       - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 6'
-      - '🚩CF | 🟢 | vmess | @ShadowProxy66 | 7'
-      - '🚩CF | 🟢 | vmess | @ShadowProxy66 | 8'
       - '🚩CF | 🟢 | vmess | @vmess_vless_v2rayng | 4'
       - '🚩CF | 🟢 | vmess | @proxystore11 | 0'
       - '🇳🇱NL | 🟢 | vmess | @yaney_01 | 1'
@@ -429,12 +421,12 @@ proxy-groups:
       - '🚩CF | 🟢 | vmess | @Hope_Net | 3'
       - '🇬🇧GB | 🟢 | vmess | @Hope_Net | 4'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 5'
-      - '🇦🇹AT | 🟢 | ss | @iP_CF | 0'
       - '🇦🇹AT | 🟢 | ss | @iP_CF | 1'
-      - '🇦🇹AT | 🟢 | ss | @iP_CF | 3'
+      - '🇦🇹AT | 🟢 | ss | @iP_CF | 2'
       - '🇦🇹AT | 🟢 | ss | @iP_CF | 4'
       - '🇦🇹AT | 🟢 | ss | @iP_CF | 5'
-      - '🇳🇱NL | 🟢 | ss | @iP_CF | 7'
+      - '🇦🇹AT | 🟢 | ss | @iP_CF | 6'
+      - '🇳🇱NL | 🟢 | ss | @iP_CF | 8'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
