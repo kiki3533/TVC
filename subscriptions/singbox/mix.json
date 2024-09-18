@@ -375,6 +375,7 @@
                 "🇺🇸US | 🟢 | vless | @UnlimitedDev | 16",
                 "🇺🇸US | 🟢 | vless | @UnlimitedDev | 17",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 0",
+                "🇺🇸US | 🟢 | vless | @vmessorg | 1",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 2",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 3",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 4",
@@ -903,6 +904,7 @@
                 "🇺🇸US | 🟢 | vless | @UnlimitedDev | 16",
                 "🇺🇸US | 🟢 | vless | @UnlimitedDev | 17",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 0",
+                "🇺🇸US | 🟢 | vless | @vmessorg | 1",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 2",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 3",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 4",
@@ -7785,6 +7787,37 @@
             "server": "speedtest.net",
             "server_port": 443,
             "uuid": "953646d2-34c1-4c4f-8943-874edd6e53ea",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080",
+                "headers": {
+                    "Host": "speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vless | @vmessorg | 1",
+            "type": "vless",
+            "server": "speedtest.net",
+            "server_port": 443,
+            "uuid": "586bf834-d300-4494-bb75-6a2e88abe0f8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
