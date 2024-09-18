@@ -11,19 +11,19 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-❔XX | 🟢 | ss | @DeamNet_Proxy | 19 = ss, 77.83.246.74, 33320, encrypt-method = chacha20-ietf-poly1305, password = a16mEzcthkdQAqLds9MssJ
-❔XX | 🟢 | ss | @iP_CF | 1 = ss, vienna.telegavpn.com, 61992, encrypt-method = chacha20-ietf-poly1305, password = om6wrhCRMs9V8bTB5fitrQ
-❔XX | 🟢 | ss | @iP_CF | 2 = ss, vienna.telegavpn.com, 61992, encrypt-method = chacha20-ietf-poly1305, password = S7HQ25Heg51DsAwqrH4IQK
-❔XX | 🟢 | ss | @iP_CF | 4 = ss, vienna.telegavpn.com, 61992, encrypt-method = chacha20-ietf-poly1305, password = 6MvQuSIQrj6L1J7rf1rVyO
-❔XX | 🟢 | ss | @iP_CF | 5 = ss, vienna.telegavpn.com, 61992, encrypt-method = chacha20-ietf-poly1305, password = Wq1UrDvBKLtnjcZlJaIFb7
-❔XX | 🟢 | ss | @iP_CF | 7 = ss, vienna.telegavpn.com, 61992, encrypt-method = chacha20-ietf-poly1305, password = tTCVW6owoNqQJsOSOSMhqP
-❔XX | 🟢 | ss | @iP_CF | 8 = ss, vienna.telegavpn.com, 61992, encrypt-method = chacha20-ietf-poly1305, password = cLnglWvNFasPZ2El5Wjq5M
-❔XX | 🟢 | ss | @iP_CF | 9 = ss, vienna.telegavpn.com, 61992, encrypt-method = chacha20-ietf-poly1305, password = N9humx5dGmjrPv2Lmp0muB
-❔XX | 🟢 | ss | @iP_CF | 11 = ss, 89.23.103.125, 42090, encrypt-method = chacha20-ietf-poly1305, password = uQS5ntVqC00sSKkeNzUiD3
+🇵🇱PL | 🟢 | ss | @DeamNet_Proxy | 19 = ss, 77.83.246.74, 33320, encrypt-method = chacha20-ietf-poly1305, password = a16mEzcthkdQAqLds9MssJ
+🇦🇹AT | 🟢 | ss | @iP_CF | 1 = ss, vienna.telegavpn.com, 61992, encrypt-method = chacha20-ietf-poly1305, password = om6wrhCRMs9V8bTB5fitrQ
+🇦🇹AT | 🟢 | ss | @iP_CF | 2 = ss, vienna.telegavpn.com, 61992, encrypt-method = chacha20-ietf-poly1305, password = S7HQ25Heg51DsAwqrH4IQK
+🇦🇹AT | 🟢 | ss | @iP_CF | 4 = ss, vienna.telegavpn.com, 61992, encrypt-method = chacha20-ietf-poly1305, password = 6MvQuSIQrj6L1J7rf1rVyO
+🇦🇹AT | 🟢 | ss | @iP_CF | 5 = ss, vienna.telegavpn.com, 61992, encrypt-method = chacha20-ietf-poly1305, password = Wq1UrDvBKLtnjcZlJaIFb7
+🇦🇹AT | 🟢 | ss | @iP_CF | 7 = ss, vienna.telegavpn.com, 61992, encrypt-method = chacha20-ietf-poly1305, password = tTCVW6owoNqQJsOSOSMhqP
+🇦🇹AT | 🟢 | ss | @iP_CF | 8 = ss, vienna.telegavpn.com, 61992, encrypt-method = chacha20-ietf-poly1305, password = cLnglWvNFasPZ2El5Wjq5M
+🇦🇹AT | 🟢 | ss | @iP_CF | 9 = ss, vienna.telegavpn.com, 61992, encrypt-method = chacha20-ietf-poly1305, password = N9humx5dGmjrPv2Lmp0muB
+🇳🇱NL | 🟢 | ss | @iP_CF | 11 = ss, 89.23.103.125, 42090, encrypt-method = chacha20-ietf-poly1305, password = uQS5ntVqC00sSKkeNzUiD3
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,❔XX | 🟢 | ss | @DeamNet_Proxy | 19,❔XX | 🟢 | ss | @iP_CF | 1,❔XX | 🟢 | ss | @iP_CF | 2,❔XX | 🟢 | ss | @iP_CF | 4,❔XX | 🟢 | ss | @iP_CF | 5,❔XX | 🟢 | ss | @iP_CF | 7,❔XX | 🟢 | ss | @iP_CF | 8,❔XX | 🟢 | ss | @iP_CF | 9,❔XX | 🟢 | ss | @iP_CF | 11
-URL-TEST = url-test,❔XX | 🟢 | ss | @DeamNet_Proxy | 19,❔XX | 🟢 | ss | @iP_CF | 1,❔XX | 🟢 | ss | @iP_CF | 2,❔XX | 🟢 | ss | @iP_CF | 4,❔XX | 🟢 | ss | @iP_CF | 5,❔XX | 🟢 | ss | @iP_CF | 7,❔XX | 🟢 | ss | @iP_CF | 8,❔XX | 🟢 | ss | @iP_CF | 9,❔XX | 🟢 | ss | @iP_CF | 11
-FALLBACK = fallback,❔XX | 🟢 | ss | @DeamNet_Proxy | 19,❔XX | 🟢 | ss | @iP_CF | 1,❔XX | 🟢 | ss | @iP_CF | 2,❔XX | 🟢 | ss | @iP_CF | 4,❔XX | 🟢 | ss | @iP_CF | 5,❔XX | 🟢 | ss | @iP_CF | 7,❔XX | 🟢 | ss | @iP_CF | 8,❔XX | 🟢 | ss | @iP_CF | 9,❔XX | 🟢 | ss | @iP_CF | 11
+MANUAL = select,URL-TEST,FALLBACK,🇵🇱PL | 🟢 | ss | @DeamNet_Proxy | 19,🇦🇹AT | 🟢 | ss | @iP_CF | 1,🇦🇹AT | 🟢 | ss | @iP_CF | 2,🇦🇹AT | 🟢 | ss | @iP_CF | 4,🇦🇹AT | 🟢 | ss | @iP_CF | 5,🇦🇹AT | 🟢 | ss | @iP_CF | 7,🇦🇹AT | 🟢 | ss | @iP_CF | 8,🇦🇹AT | 🟢 | ss | @iP_CF | 9,🇳🇱NL | 🟢 | ss | @iP_CF | 11
+URL-TEST = url-test,🇵🇱PL | 🟢 | ss | @DeamNet_Proxy | 19,🇦🇹AT | 🟢 | ss | @iP_CF | 1,🇦🇹AT | 🟢 | ss | @iP_CF | 2,🇦🇹AT | 🟢 | ss | @iP_CF | 4,🇦🇹AT | 🟢 | ss | @iP_CF | 5,🇦🇹AT | 🟢 | ss | @iP_CF | 7,🇦🇹AT | 🟢 | ss | @iP_CF | 8,🇦🇹AT | 🟢 | ss | @iP_CF | 9,🇳🇱NL | 🟢 | ss | @iP_CF | 11
+FALLBACK = fallback,🇵🇱PL | 🟢 | ss | @DeamNet_Proxy | 19,🇦🇹AT | 🟢 | ss | @iP_CF | 1,🇦🇹AT | 🟢 | ss | @iP_CF | 2,🇦🇹AT | 🟢 | ss | @iP_CF | 4,🇦🇹AT | 🟢 | ss | @iP_CF | 5,🇦🇹AT | 🟢 | ss | @iP_CF | 7,🇦🇹AT | 🟢 | ss | @iP_CF | 8,🇦🇹AT | 🟢 | ss | @iP_CF | 9,🇳🇱NL | 🟢 | ss | @iP_CF | 11
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL

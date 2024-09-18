@@ -118,59 +118,59 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"❔XX | 🟢 | ss | @DeamNet_Proxy | 19","type":"ss","server":"77.83.246.74","port":33320,"password":"a16mEzcthkdQAqLds9MssJ","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"❔XX | 🟢 | ss | @iP_CF | 1","type":"ss","server":"vienna.telegavpn.com","port":61992,"password":"om6wrhCRMs9V8bTB5fitrQ","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"❔XX | 🟢 | ss | @iP_CF | 2","type":"ss","server":"vienna.telegavpn.com","port":61992,"password":"S7HQ25Heg51DsAwqrH4IQK","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"❔XX | 🟢 | ss | @iP_CF | 4","type":"ss","server":"vienna.telegavpn.com","port":61992,"password":"6MvQuSIQrj6L1J7rf1rVyO","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"❔XX | 🟢 | ss | @iP_CF | 5","type":"ss","server":"vienna.telegavpn.com","port":61992,"password":"Wq1UrDvBKLtnjcZlJaIFb7","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"❔XX | 🟢 | ss | @iP_CF | 7","type":"ss","server":"vienna.telegavpn.com","port":61992,"password":"tTCVW6owoNqQJsOSOSMhqP","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"❔XX | 🟢 | ss | @iP_CF | 8","type":"ss","server":"vienna.telegavpn.com","port":61992,"password":"cLnglWvNFasPZ2El5Wjq5M","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"❔XX | 🟢 | ss | @iP_CF | 9","type":"ss","server":"vienna.telegavpn.com","port":61992,"password":"N9humx5dGmjrPv2Lmp0muB","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"❔XX | 🟢 | ss | @iP_CF | 11","type":"ss","server":"89.23.103.125","port":42090,"password":"uQS5ntVqC00sSKkeNzUiD3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇵🇱PL | 🟢 | ss | @DeamNet_Proxy | 19","type":"ss","server":"77.83.246.74","port":33320,"password":"a16mEzcthkdQAqLds9MssJ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇦🇹AT | 🟢 | ss | @iP_CF | 1","type":"ss","server":"vienna.telegavpn.com","port":61992,"password":"om6wrhCRMs9V8bTB5fitrQ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇦🇹AT | 🟢 | ss | @iP_CF | 2","type":"ss","server":"vienna.telegavpn.com","port":61992,"password":"S7HQ25Heg51DsAwqrH4IQK","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇦🇹AT | 🟢 | ss | @iP_CF | 4","type":"ss","server":"vienna.telegavpn.com","port":61992,"password":"6MvQuSIQrj6L1J7rf1rVyO","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇦🇹AT | 🟢 | ss | @iP_CF | 5","type":"ss","server":"vienna.telegavpn.com","port":61992,"password":"Wq1UrDvBKLtnjcZlJaIFb7","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇦🇹AT | 🟢 | ss | @iP_CF | 7","type":"ss","server":"vienna.telegavpn.com","port":61992,"password":"tTCVW6owoNqQJsOSOSMhqP","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇦🇹AT | 🟢 | ss | @iP_CF | 8","type":"ss","server":"vienna.telegavpn.com","port":61992,"password":"cLnglWvNFasPZ2El5Wjq5M","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇦🇹AT | 🟢 | ss | @iP_CF | 9","type":"ss","server":"vienna.telegavpn.com","port":61992,"password":"N9humx5dGmjrPv2Lmp0muB","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱NL | 🟢 | ss | @iP_CF | 11","type":"ss","server":"89.23.103.125","port":42090,"password":"uQS5ntVqC00sSKkeNzUiD3","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
     proxies:
       - URL-TEST
       - FALLBACK
-      - '❔XX | 🟢 | ss | @DeamNet_Proxy | 19'
-      - '❔XX | 🟢 | ss | @iP_CF | 1'
-      - '❔XX | 🟢 | ss | @iP_CF | 2'
-      - '❔XX | 🟢 | ss | @iP_CF | 4'
-      - '❔XX | 🟢 | ss | @iP_CF | 5'
-      - '❔XX | 🟢 | ss | @iP_CF | 7'
-      - '❔XX | 🟢 | ss | @iP_CF | 8'
-      - '❔XX | 🟢 | ss | @iP_CF | 9'
-      - '❔XX | 🟢 | ss | @iP_CF | 11'
+      - '🇵🇱PL | 🟢 | ss | @DeamNet_Proxy | 19'
+      - '🇦🇹AT | 🟢 | ss | @iP_CF | 1'
+      - '🇦🇹AT | 🟢 | ss | @iP_CF | 2'
+      - '🇦🇹AT | 🟢 | ss | @iP_CF | 4'
+      - '🇦🇹AT | 🟢 | ss | @iP_CF | 5'
+      - '🇦🇹AT | 🟢 | ss | @iP_CF | 7'
+      - '🇦🇹AT | 🟢 | ss | @iP_CF | 8'
+      - '🇦🇹AT | 🟢 | ss | @iP_CF | 9'
+      - '🇳🇱NL | 🟢 | ss | @iP_CF | 11'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 60
     tolerance: 50
     proxies:
-      - '❔XX | 🟢 | ss | @DeamNet_Proxy | 19'
-      - '❔XX | 🟢 | ss | @iP_CF | 1'
-      - '❔XX | 🟢 | ss | @iP_CF | 2'
-      - '❔XX | 🟢 | ss | @iP_CF | 4'
-      - '❔XX | 🟢 | ss | @iP_CF | 5'
-      - '❔XX | 🟢 | ss | @iP_CF | 7'
-      - '❔XX | 🟢 | ss | @iP_CF | 8'
-      - '❔XX | 🟢 | ss | @iP_CF | 9'
-      - '❔XX | 🟢 | ss | @iP_CF | 11'
+      - '🇵🇱PL | 🟢 | ss | @DeamNet_Proxy | 19'
+      - '🇦🇹AT | 🟢 | ss | @iP_CF | 1'
+      - '🇦🇹AT | 🟢 | ss | @iP_CF | 2'
+      - '🇦🇹AT | 🟢 | ss | @iP_CF | 4'
+      - '🇦🇹AT | 🟢 | ss | @iP_CF | 5'
+      - '🇦🇹AT | 🟢 | ss | @iP_CF | 7'
+      - '🇦🇹AT | 🟢 | ss | @iP_CF | 8'
+      - '🇦🇹AT | 🟢 | ss | @iP_CF | 9'
+      - '🇳🇱NL | 🟢 | ss | @iP_CF | 11'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '❔XX | 🟢 | ss | @DeamNet_Proxy | 19'
-      - '❔XX | 🟢 | ss | @iP_CF | 1'
-      - '❔XX | 🟢 | ss | @iP_CF | 2'
-      - '❔XX | 🟢 | ss | @iP_CF | 4'
-      - '❔XX | 🟢 | ss | @iP_CF | 5'
-      - '❔XX | 🟢 | ss | @iP_CF | 7'
-      - '❔XX | 🟢 | ss | @iP_CF | 8'
-      - '❔XX | 🟢 | ss | @iP_CF | 9'
-      - '❔XX | 🟢 | ss | @iP_CF | 11'
+      - '🇵🇱PL | 🟢 | ss | @DeamNet_Proxy | 19'
+      - '🇦🇹AT | 🟢 | ss | @iP_CF | 1'
+      - '🇦🇹AT | 🟢 | ss | @iP_CF | 2'
+      - '🇦🇹AT | 🟢 | ss | @iP_CF | 4'
+      - '🇦🇹AT | 🟢 | ss | @iP_CF | 5'
+      - '🇦🇹AT | 🟢 | ss | @iP_CF | 7'
+      - '🇦🇹AT | 🟢 | ss | @iP_CF | 8'
+      - '🇦🇹AT | 🟢 | ss | @iP_CF | 9'
+      - '🇳🇱NL | 🟢 | ss | @iP_CF | 11'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
