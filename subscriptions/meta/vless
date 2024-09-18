@@ -157,13 +157,13 @@ proxies:
   - {"name":"🇺🇸US | 🔴 | vless | @ipV2Ray | 15","type":"vless","server":"speedtest.net","port":443,"udp":false,"uuid":"38490907-e1cf-415a-a50e-157cd4832a00","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"speedtest.net","ws-opts":{"path":"/Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray?ed=2048","headers":{"host":"barkatc1.ir"}}}
   - {"name":"🇺🇸US | 🔴 | vless | @V2pedia | 0","type":"vless","server":"speedtest.net","port":443,"udp":false,"uuid":"a5881a0c-7943-4e42-ad35-bcde00ad80d6","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"speedtest.net","ws-opts":{"path":"/v2pedia?ed=2048","headers":{"host":"que4.ir"}}}
   - {"name":"🇩🇪DE | 🔴 | vless | @V2pedia | 1","type":"vless","server":"91.107.167.23","port":443,"udp":true,"uuid":"62e58436-9b8c-4f42-bcbd-2be43a5bb62c","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"www.speedtest.net","flow":"xtls-rprx-vision","reality-opts":{"public-key":"pvocKxZ7AZwZMjuSzDJREFKdQStouhXONYUslbqgbSg","short-id":"5b196e581bd2"}}
-  - {"name":"🇨🇦CA | 🔴 | vless | @V2pedia | 2","type":"vless","server":"www.speedtest.net","port":80,"udp":false,"uuid":"3f50141a-5bf6-48e0-946b-938853d09275","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/v2pedia?ed=80","headers":{"host":"9.V2.d.www.speedtest.net.debian.org.dnschecker.v2logy.iR."}}}
-  - {"name":"🇨🇦CA | 🔴 | vless | @V2pedia | 6","type":"vless","server":"www.speedtest.net","port":8080,"udp":false,"uuid":"9a35d246-06be-4d40-9f8b-ef94a33d69c4","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/v2pedia?ed=8080","headers":{"host":"9.V2.d.www.speedtest.net.debian.org.dnschecker.v2logy.iR."}}}
-  - {"name":"🇨🇦CA | 🔴 | vless | @V2pedia | 7","type":"vless","server":"www.speedtest.net","port":8880,"udp":false,"uuid":"e6242b23-e697-4952-9246-eff8afeb2910","tls":false,"network":"httpupgrade","client-fingerprint":"chrome"}
-  - {"name":"🇨🇦CA | 🔴 | vless | @V2pedia | 9","type":"vless","server":"www.speedtest.net","port":8880,"udp":false,"uuid":"bc757570-d942-4c8f-91a1-683275b0502d","tls":false,"network":"httpupgrade","client-fingerprint":"chrome"}
-  - {"name":"🇨🇦CA | 🔴 | vless | @Lockey_vpn | 0","type":"vless","server":"www.speedtest.net","port":8880,"udp":false,"uuid":"801033cb-b1c6-441b-aa4c-955e3f9bf2a0","tls":false,"network":"httpupgrade","client-fingerprint":"chrome"}
-  - {"name":"🇨🇦CA | 🔴 | vless | @Lockey_vpn | 1","type":"vless","server":"www.speedtest.net","port":8880,"udp":false,"uuid":"ef2a1494-4907-4ceb-9515-5cadf6903787","tls":false,"network":"httpupgrade","client-fingerprint":"chrome"}
-  - {"name":"🇨🇦CA | 🔴 | vless | @Lockey_vpn | 2","type":"vless","server":"www.speedtest.net","port":8880,"udp":false,"uuid":"0a1d7a11-6b5e-4b69-9c17-be6cb1b9669b","tls":false,"network":"httpupgrade","client-fingerprint":"chrome"}
+  - {"name":"🇺🇸US | 🔴 | vless | @V2pedia | 2","type":"vless","server":"www.speedtest.net","port":80,"udp":false,"uuid":"3f50141a-5bf6-48e0-946b-938853d09275","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/v2pedia?ed=80","headers":{"host":"9.V2.d.www.speedtest.net.debian.org.dnschecker.v2logy.iR."}}}
+  - {"name":"🇺🇸US | 🔴 | vless | @V2pedia | 6","type":"vless","server":"www.speedtest.net","port":8080,"udp":false,"uuid":"9a35d246-06be-4d40-9f8b-ef94a33d69c4","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/v2pedia?ed=8080","headers":{"host":"9.V2.d.www.speedtest.net.debian.org.dnschecker.v2logy.iR."}}}
+  - {"name":"🇺🇸US | 🔴 | vless | @V2pedia | 7","type":"vless","server":"www.speedtest.net","port":8880,"udp":false,"uuid":"e6242b23-e697-4952-9246-eff8afeb2910","tls":false,"network":"httpupgrade","client-fingerprint":"chrome"}
+  - {"name":"🇺🇸US | 🔴 | vless | @V2pedia | 9","type":"vless","server":"www.speedtest.net","port":8880,"udp":false,"uuid":"bc757570-d942-4c8f-91a1-683275b0502d","tls":false,"network":"httpupgrade","client-fingerprint":"chrome"}
+  - {"name":"🇺🇸US | 🔴 | vless | @Lockey_vpn | 0","type":"vless","server":"www.speedtest.net","port":8880,"udp":false,"uuid":"801033cb-b1c6-441b-aa4c-955e3f9bf2a0","tls":false,"network":"httpupgrade","client-fingerprint":"chrome"}
+  - {"name":"🇺🇸US | 🔴 | vless | @Lockey_vpn | 1","type":"vless","server":"www.speedtest.net","port":8880,"udp":false,"uuid":"ef2a1494-4907-4ceb-9515-5cadf6903787","tls":false,"network":"httpupgrade","client-fingerprint":"chrome"}
+  - {"name":"🇺🇸US | 🔴 | vless | @Lockey_vpn | 2","type":"vless","server":"www.speedtest.net","port":8880,"udp":false,"uuid":"0a1d7a11-6b5e-4b69-9c17-be6cb1b9669b","tls":false,"network":"httpupgrade","client-fingerprint":"chrome"}
   - {"name":"🇸🇪SE | 🔴 | vless | @Lockey_vpn | 3","type":"vless","server":"185.146.173.82","port":8880,"udp":false,"uuid":"7de38e1d-0442-463c-9527-026e9237dbde","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/Free"}}
   - {"name":"🇸🇪SE | 🔴 | vless | @Lockey_vpn | 4","type":"vless","server":"185.146.173.67","port":8880,"udp":false,"uuid":"7de38e1d-0442-463c-9527-026e9237dbde","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/Free"}}
   - {"name":"🇸🇪SE | 🔴 | vless | @Lockey_vpn | 5","type":"vless","server":"185.146.173.82","port":8880,"udp":false,"uuid":"adc09c7c-a762-41f9-8a35-d193c83e181b","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/Free"}}
@@ -490,13 +490,13 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @ipV2Ray | 15'
       - '🇺🇸US | 🔴 | vless | @V2pedia | 0'
       - '🇩🇪DE | 🔴 | vless | @V2pedia | 1'
-      - '🇨🇦CA | 🔴 | vless | @V2pedia | 2'
-      - '🇨🇦CA | 🔴 | vless | @V2pedia | 6'
-      - '🇨🇦CA | 🔴 | vless | @V2pedia | 7'
-      - '🇨🇦CA | 🔴 | vless | @V2pedia | 9'
-      - '🇨🇦CA | 🔴 | vless | @Lockey_vpn | 0'
-      - '🇨🇦CA | 🔴 | vless | @Lockey_vpn | 1'
-      - '🇨🇦CA | 🔴 | vless | @Lockey_vpn | 2'
+      - '🇺🇸US | 🔴 | vless | @V2pedia | 2'
+      - '🇺🇸US | 🔴 | vless | @V2pedia | 6'
+      - '🇺🇸US | 🔴 | vless | @V2pedia | 7'
+      - '🇺🇸US | 🔴 | vless | @V2pedia | 9'
+      - '🇺🇸US | 🔴 | vless | @Lockey_vpn | 0'
+      - '🇺🇸US | 🔴 | vless | @Lockey_vpn | 1'
+      - '🇺🇸US | 🔴 | vless | @Lockey_vpn | 2'
       - '🇸🇪SE | 🔴 | vless | @Lockey_vpn | 3'
       - '🇸🇪SE | 🔴 | vless | @Lockey_vpn | 4'
       - '🇸🇪SE | 🔴 | vless | @Lockey_vpn | 5'
@@ -823,13 +823,13 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @ipV2Ray | 15'
       - '🇺🇸US | 🔴 | vless | @V2pedia | 0'
       - '🇩🇪DE | 🔴 | vless | @V2pedia | 1'
-      - '🇨🇦CA | 🔴 | vless | @V2pedia | 2'
-      - '🇨🇦CA | 🔴 | vless | @V2pedia | 6'
-      - '🇨🇦CA | 🔴 | vless | @V2pedia | 7'
-      - '🇨🇦CA | 🔴 | vless | @V2pedia | 9'
-      - '🇨🇦CA | 🔴 | vless | @Lockey_vpn | 0'
-      - '🇨🇦CA | 🔴 | vless | @Lockey_vpn | 1'
-      - '🇨🇦CA | 🔴 | vless | @Lockey_vpn | 2'
+      - '🇺🇸US | 🔴 | vless | @V2pedia | 2'
+      - '🇺🇸US | 🔴 | vless | @V2pedia | 6'
+      - '🇺🇸US | 🔴 | vless | @V2pedia | 7'
+      - '🇺🇸US | 🔴 | vless | @V2pedia | 9'
+      - '🇺🇸US | 🔴 | vless | @Lockey_vpn | 0'
+      - '🇺🇸US | 🔴 | vless | @Lockey_vpn | 1'
+      - '🇺🇸US | 🔴 | vless | @Lockey_vpn | 2'
       - '🇸🇪SE | 🔴 | vless | @Lockey_vpn | 3'
       - '🇸🇪SE | 🔴 | vless | @Lockey_vpn | 4'
       - '🇸🇪SE | 🔴 | vless | @Lockey_vpn | 5'
@@ -1155,13 +1155,13 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @ipV2Ray | 15'
       - '🇺🇸US | 🔴 | vless | @V2pedia | 0'
       - '🇩🇪DE | 🔴 | vless | @V2pedia | 1'
-      - '🇨🇦CA | 🔴 | vless | @V2pedia | 2'
-      - '🇨🇦CA | 🔴 | vless | @V2pedia | 6'
-      - '🇨🇦CA | 🔴 | vless | @V2pedia | 7'
-      - '🇨🇦CA | 🔴 | vless | @V2pedia | 9'
-      - '🇨🇦CA | 🔴 | vless | @Lockey_vpn | 0'
-      - '🇨🇦CA | 🔴 | vless | @Lockey_vpn | 1'
-      - '🇨🇦CA | 🔴 | vless | @Lockey_vpn | 2'
+      - '🇺🇸US | 🔴 | vless | @V2pedia | 2'
+      - '🇺🇸US | 🔴 | vless | @V2pedia | 6'
+      - '🇺🇸US | 🔴 | vless | @V2pedia | 7'
+      - '🇺🇸US | 🔴 | vless | @V2pedia | 9'
+      - '🇺🇸US | 🔴 | vless | @Lockey_vpn | 0'
+      - '🇺🇸US | 🔴 | vless | @Lockey_vpn | 1'
+      - '🇺🇸US | 🔴 | vless | @Lockey_vpn | 2'
       - '🇸🇪SE | 🔴 | vless | @Lockey_vpn | 3'
       - '🇸🇪SE | 🔴 | vless | @Lockey_vpn | 4'
       - '🇸🇪SE | 🔴 | vless | @Lockey_vpn | 5'
