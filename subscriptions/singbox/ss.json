@@ -106,30 +106,30 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇵🇱PL | 🟢 | ss | @DeamNet_Proxy | 19",
-                "🇦🇹AT | 🟢 | ss | @iP_CF | 0",
-                "🇦🇹AT | 🟢 | ss | @iP_CF | 1",
-                "🇦🇹AT | 🟢 | ss | @iP_CF | 3",
-                "🇦🇹AT | 🟢 | ss | @iP_CF | 4",
-                "🇦🇹AT | 🟢 | ss | @iP_CF | 6",
-                "🇦🇹AT | 🟢 | ss | @iP_CF | 7",
-                "🇦🇹AT | 🟢 | ss | @iP_CF | 8",
-                "🇳🇱NL | 🟢 | ss | @iP_CF | 10"
+                "❔XX | 🟢 | ss | @DeamNet_Proxy | 19",
+                "❔XX | 🟢 | ss | @iP_CF | 0",
+                "❔XX | 🟢 | ss | @iP_CF | 1",
+                "❔XX | 🟢 | ss | @iP_CF | 3",
+                "❔XX | 🟢 | ss | @iP_CF | 4",
+                "❔XX | 🟢 | ss | @iP_CF | 6",
+                "❔XX | 🟢 | ss | @iP_CF | 7",
+                "❔XX | 🟢 | ss | @iP_CF | 8",
+                "❔XX | 🟢 | ss | @iP_CF | 10"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇵🇱PL | 🟢 | ss | @DeamNet_Proxy | 19",
-                "🇦🇹AT | 🟢 | ss | @iP_CF | 0",
-                "🇦🇹AT | 🟢 | ss | @iP_CF | 1",
-                "🇦🇹AT | 🟢 | ss | @iP_CF | 3",
-                "🇦🇹AT | 🟢 | ss | @iP_CF | 4",
-                "🇦🇹AT | 🟢 | ss | @iP_CF | 6",
-                "🇦🇹AT | 🟢 | ss | @iP_CF | 7",
-                "🇦🇹AT | 🟢 | ss | @iP_CF | 8",
-                "🇳🇱NL | 🟢 | ss | @iP_CF | 10"
+                "❔XX | 🟢 | ss | @DeamNet_Proxy | 19",
+                "❔XX | 🟢 | ss | @iP_CF | 0",
+                "❔XX | 🟢 | ss | @iP_CF | 1",
+                "❔XX | 🟢 | ss | @iP_CF | 3",
+                "❔XX | 🟢 | ss | @iP_CF | 4",
+                "❔XX | 🟢 | ss | @iP_CF | 6",
+                "❔XX | 🟢 | ss | @iP_CF | 7",
+                "❔XX | 🟢 | ss | @iP_CF | 8",
+                "❔XX | 🟢 | ss | @iP_CF | 10"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -152,7 +152,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇵🇱PL | 🟢 | ss | @DeamNet_Proxy | 19",
+            "tag": "❔XX | 🟢 | ss | @DeamNet_Proxy | 19",
             "type": "shadowsocks",
             "server": "77.83.246.74",
             "server_port": 33320,
@@ -162,7 +162,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇦🇹AT | 🟢 | ss | @iP_CF | 0",
+            "tag": "❔XX | 🟢 | ss | @iP_CF | 0",
             "type": "shadowsocks",
             "server": "vienna.telegavpn.com",
             "server_port": 61992,
@@ -172,7 +172,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇦🇹AT | 🟢 | ss | @iP_CF | 1",
+            "tag": "❔XX | 🟢 | ss | @iP_CF | 1",
             "type": "shadowsocks",
             "server": "vienna.telegavpn.com",
             "server_port": 61992,
@@ -182,7 +182,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇦🇹AT | 🟢 | ss | @iP_CF | 3",
+            "tag": "❔XX | 🟢 | ss | @iP_CF | 3",
             "type": "shadowsocks",
             "server": "vienna.telegavpn.com",
             "server_port": 61992,
@@ -192,7 +192,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇦🇹AT | 🟢 | ss | @iP_CF | 4",
+            "tag": "❔XX | 🟢 | ss | @iP_CF | 4",
             "type": "shadowsocks",
             "server": "vienna.telegavpn.com",
             "server_port": 61992,
@@ -202,7 +202,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇦🇹AT | 🟢 | ss | @iP_CF | 6",
+            "tag": "❔XX | 🟢 | ss | @iP_CF | 6",
             "type": "shadowsocks",
             "server": "vienna.telegavpn.com",
             "server_port": 61992,
@@ -212,7 +212,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇦🇹AT | 🟢 | ss | @iP_CF | 7",
+            "tag": "❔XX | 🟢 | ss | @iP_CF | 7",
             "type": "shadowsocks",
             "server": "vienna.telegavpn.com",
             "server_port": 61992,
@@ -222,7 +222,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇦🇹AT | 🟢 | ss | @iP_CF | 8",
+            "tag": "❔XX | 🟢 | ss | @iP_CF | 8",
             "type": "shadowsocks",
             "server": "vienna.telegavpn.com",
             "server_port": 61992,
@@ -232,7 +232,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇳🇱NL | 🟢 | ss | @iP_CF | 10",
+            "tag": "❔XX | 🟢 | ss | @iP_CF | 10",
             "type": "shadowsocks",
             "server": "89.23.103.125",
             "server_port": 42090,
