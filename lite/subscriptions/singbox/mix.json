@@ -150,8 +150,10 @@
                 "🇺🇸US | 🟢 | vless | @UnlimitedDev | 16",
                 "🇺🇸US | 🟢 | vless | @UnlimitedDev | 17",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 8",
+                "🇺🇸US | 🟢 | vless | @vmessorg | 9",
                 "❔XX | 🔴 | vless | @ServerNett | 15",
                 "🇸🇪SE | 🔴 | vless | @ServerNett | 16",
+                "🇨🇦CA | 🟢 | vmess | @V2rayng_Fast | 1",
                 "🇨🇦CA | 🟢 | vmess | @V2rayng_Fast | 2",
                 "🇸🇪SE | 🔴 | vless | @v2ray_swhil | 19",
                 "🇨🇦CA | 🔴 | vless | @v2ray_swhil | 20",
@@ -173,8 +175,8 @@
                 "❔XX | 🟢 | vmess | @Hope_Net | 6",
                 "❔XX | 🟢 | vmess | @Hope_Net | 7",
                 "🇨🇦CA | 🔴 | vless | @fnet00 | 5",
-                "🇨🇦CA | 🔴 | vless | @Outlinev2rayNG | 10",
-                "🇨🇦CA | 🔴 | vless | @Outlinev2rayNG | 11",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
+                "🇨🇦CA | 🔴 | vless | @Outlinev2rayNG | 9",
                 "🇨🇦CA | 🔴 | vless | @v2rayng_vpnrog | 4",
                 "🇨🇦CA | 🔴 | vless | @v2rayng_vpnrog | 5",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -243,8 +245,10 @@
                 "🇺🇸US | 🟢 | vless | @UnlimitedDev | 16",
                 "🇺🇸US | 🟢 | vless | @UnlimitedDev | 17",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 8",
+                "🇺🇸US | 🟢 | vless | @vmessorg | 9",
                 "❔XX | 🔴 | vless | @ServerNett | 15",
                 "🇸🇪SE | 🔴 | vless | @ServerNett | 16",
+                "🇨🇦CA | 🟢 | vmess | @V2rayng_Fast | 1",
                 "🇨🇦CA | 🟢 | vmess | @V2rayng_Fast | 2",
                 "🇸🇪SE | 🔴 | vless | @v2ray_swhil | 19",
                 "🇨🇦CA | 🔴 | vless | @v2ray_swhil | 20",
@@ -266,8 +270,8 @@
                 "❔XX | 🟢 | vmess | @Hope_Net | 6",
                 "❔XX | 🟢 | vmess | @Hope_Net | 7",
                 "🇨🇦CA | 🔴 | vless | @fnet00 | 5",
-                "🇨🇦CA | 🔴 | vless | @Outlinev2rayNG | 10",
-                "🇨🇦CA | 🔴 | vless | @Outlinev2rayNG | 11",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
+                "🇨🇦CA | 🔴 | vless | @Outlinev2rayNG | 9",
                 "🇨🇦CA | 🔴 | vless | @v2rayng_vpnrog | 4",
                 "🇨🇦CA | 🔴 | vless | @v2rayng_vpnrog | 5",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -1369,6 +1373,37 @@
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 443,
+            "uuid": "a23dd727-96fd-4778-86d4-0bacd955a4f4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080",
+                "headers": {
+                    "Host": "speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vless | @vmessorg | 9",
+            "type": "vless",
+            "server": "speedtest.net",
+            "server_port": 443,
             "uuid": "d824cc85-76f4-4fc9-95da-07194de03d-7690-4d81-b1a5-d5fe74776a5d6c31b4dd65",
             "flow": "",
             "packet_encoding": "xudp",
@@ -1427,6 +1462,40 @@
                 "path": "\/servernett",
                 "headers": {
                     "Host": "185.146.173.58"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | 🟢 | vmess | @V2rayng_Fast | 1",
+            "type": "vmess",
+            "server": "104.21.95.165",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sareikela.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "sareikela.com"
                 }
             }
         },
@@ -1918,11 +1987,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @Outlinev2rayNG | 10",
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
             "type": "vless",
-            "server": "172.66.47.182",
+            "server": "speedtest.net",
             "server_port": 443,
-            "uuid": "c46e9a8a-226e-4cc2-aeff-31c774e1e4f9",
+            "uuid": "4fe99d54-8c5b-4023-8292-25b4c43c9006",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1932,7 +2001,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "pardazeshvpn-tg93.pages.dev",
+                "server_name": "speedtest.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1942,40 +2011,30 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN",
+                "path": "\/@custom_config?ed=2560",
                 "headers": {
-                    "Host": "pardazeshvpn-tg93.pages.dev"
+                    "Host": "speedtest.net"
                 }
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @Outlinev2rayNG | 11",
+            "tag": "🇨🇦CA | 🔴 | vless | @Outlinev2rayNG | 9",
             "type": "vless",
-            "server": "104.16.14.99",
-            "server_port": 443,
-            "uuid": "03a987de-7e12-4b38-acbc-e19c90e1cc85",
+            "server": "172.66.44.135",
+            "server_port": 80,
+            "uuid": "5df7962e-f9fe-41e6-ab49-ed96ccb856a7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ARCane-ROYAL.Pages.DEV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "ARCane-ROYAL.Pages.DEV"
+                    "Host": "172.66.44.135"
                 }
             }
         },
