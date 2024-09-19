@@ -144,8 +144,8 @@
                 "🇺🇸US | 🟢 | vless | @vmessorg | 8",
                 "❔XX | 🔴 | vless | @ServerNett | 15",
                 "🇸🇪SE | 🔴 | vless | @ServerNett | 16",
-                "🇸🇪SE | 🔴 | vless | @v2ray_swhil | 18",
-                "🇨🇦CA | 🔴 | vless | @v2ray_swhil | 19",
+                "🇸🇪SE | 🔴 | vless | @v2ray_swhil | 19",
+                "🇨🇦CA | 🔴 | vless | @v2ray_swhil | 20",
                 "🇨🇦CA | 🔴 | vless | @proxyymeliii | 9",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
                 "🇸🇬SG | 🔴 | vless | @v2ray1_ng | 4",
@@ -168,9 +168,9 @@
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 13",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 14",
                 "🇮🇷IR | 🔴 | vless | @iP_CF | 0",
-                "🇨🇦CA | 🔴 | vless | @mehrosaboran | 2",
-                "🇰🇿KZ | 🔴 | vless | @mehrosaboran | 3",
-                "🇺🇸US | 🔴 | vless | @nofiltering2 | 17",
+                "🇨🇦CA | 🔴 | vless | @mehrosaboran | 3",
+                "🇰🇿KZ | 🔴 | vless | @mehrosaboran | 4",
+                "🇨🇦CA | 🔴 | vless | @nofiltering2 | 15",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇸🇪SE | 🔴 | vless | @kingofilter | 1",
@@ -223,8 +223,8 @@
                 "🇺🇸US | 🟢 | vless | @vmessorg | 8",
                 "❔XX | 🔴 | vless | @ServerNett | 15",
                 "🇸🇪SE | 🔴 | vless | @ServerNett | 16",
-                "🇸🇪SE | 🔴 | vless | @v2ray_swhil | 18",
-                "🇨🇦CA | 🔴 | vless | @v2ray_swhil | 19",
+                "🇸🇪SE | 🔴 | vless | @v2ray_swhil | 19",
+                "🇨🇦CA | 🔴 | vless | @v2ray_swhil | 20",
                 "🇨🇦CA | 🔴 | vless | @proxyymeliii | 9",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
                 "🇸🇬SG | 🔴 | vless | @v2ray1_ng | 4",
@@ -247,9 +247,9 @@
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 13",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 14",
                 "🇮🇷IR | 🔴 | vless | @iP_CF | 0",
-                "🇨🇦CA | 🔴 | vless | @mehrosaboran | 2",
-                "🇰🇿KZ | 🔴 | vless | @mehrosaboran | 3",
-                "🇺🇸US | 🔴 | vless | @nofiltering2 | 17",
+                "🇨🇦CA | 🔴 | vless | @mehrosaboran | 3",
+                "🇰🇿KZ | 🔴 | vless | @mehrosaboran | 4",
+                "🇨🇦CA | 🔴 | vless | @nofiltering2 | 15",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇸🇪SE | 🔴 | vless | @kingofilter | 1",
@@ -743,7 +743,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2095,
-            "uuid": "DIGIV2RAy",
+            "uuid": "DIGIV2RAY",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -757,7 +757,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2095,
-            "uuid": "DIGIV2RAy",
+            "uuid": "DIGIV2RAY",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1254,7 +1254,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | @v2ray_swhil | 18",
+            "tag": "🇸🇪SE | 🔴 | vless | @v2ray_swhil | 19",
             "type": "vless",
             "server": "185.146.173.185",
             "server_port": 8080,
@@ -1268,7 +1268,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @v2ray_swhil | 19",
+            "tag": "🇨🇦CA | 🔴 | vless | @v2ray_swhil | 20",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2095,
@@ -1809,7 +1809,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @mehrosaboran | 2",
+            "tag": "🇨🇦CA | 🔴 | vless | @mehrosaboran | 3",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
@@ -1830,7 +1830,7 @@
             }
         },
         {
-            "tag": "🇰🇿KZ | 🔴 | vless | @mehrosaboran | 3",
+            "tag": "🇰🇿KZ | 🔴 | vless | @mehrosaboran | 4",
             "type": "vless",
             "server": "love.salarvand.org",
             "server_port": 2082,
@@ -1844,10 +1844,10 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @nofiltering2 | 17",
+            "tag": "🇨🇦CA | 🔴 | vless | @nofiltering2 | 15",
             "type": "vless",
-            "server": "Speedtest.net",
-            "server_port": 80,
+            "server": "104.24.38.200",
+            "server_port": 8080,
             "uuid": "TELEGRAM-NUFiLTER",
             "flow": "",
             "packet_encoding": "xudp",
@@ -1855,13 +1855,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER",
-                "headers": {
-                    "Host": "Speedtest.net"
-                }
             }
         },
         {
