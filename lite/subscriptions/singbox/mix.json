@@ -153,12 +153,11 @@
                 "🇺🇸US | 🟢 | vless | @vmessorg | 8",
                 "❔XX | 🔴 | vless | @ServerNett | 15",
                 "🇸🇪SE | 🔴 | vless | @ServerNett | 16",
-                "🇨🇦CA | 🟢 | vmess | @V2rayng_Fast | 2",
-                "🇨🇦CA | 🟢 | vmess | @V2rayng_Fast | 3",
+                "🇨🇦CA | 🟢 | vmess | @V2rayng_Fast | 1",
                 "🇨🇦CA | 🔴 | vless | @v2ray_swhil | 18",
                 "🇸🇪SE | 🔴 | vless | @v2ray_swhil | 19",
                 "❔XX | 🔴 | vless | @proxyymeliii | 7",
-                "🇺🇸US | 🔴 | vless | @proxyymeliii | 8",
+                "🇨🇦CA | 🔴 | vless | @proxyymeliii | 8",
                 "🇸🇬SG | 🔴 | vless | @v2ray1_ng | 5",
                 "❔XX | 🔴 | vless | @MTConfig | 13",
                 "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 10",
@@ -175,8 +174,8 @@
                 "❔XX | 🟢 | vmess | @Hope_Net | 6",
                 "❔XX | 🟢 | vmess | @Hope_Net | 7",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 5",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 4",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 5",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -248,12 +247,11 @@
                 "🇺🇸US | 🟢 | vless | @vmessorg | 8",
                 "❔XX | 🔴 | vless | @ServerNett | 15",
                 "🇸🇪SE | 🔴 | vless | @ServerNett | 16",
-                "🇨🇦CA | 🟢 | vmess | @V2rayng_Fast | 2",
-                "🇨🇦CA | 🟢 | vmess | @V2rayng_Fast | 3",
+                "🇨🇦CA | 🟢 | vmess | @V2rayng_Fast | 1",
                 "🇨🇦CA | 🔴 | vless | @v2ray_swhil | 18",
                 "🇸🇪SE | 🔴 | vless | @v2ray_swhil | 19",
                 "❔XX | 🔴 | vless | @proxyymeliii | 7",
-                "🇺🇸US | 🔴 | vless | @proxyymeliii | 8",
+                "🇨🇦CA | 🔴 | vless | @proxyymeliii | 8",
                 "🇸🇬SG | 🔴 | vless | @v2ray1_ng | 5",
                 "❔XX | 🔴 | vless | @MTConfig | 13",
                 "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 10",
@@ -270,8 +268,8 @@
                 "❔XX | 🟢 | vmess | @Hope_Net | 6",
                 "❔XX | 🟢 | vmess | @Hope_Net | 7",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 5",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 4",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 5",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -711,7 +709,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "48c8bd1d-c585-4007-ac72-4f82e079ff83",
+            "uuid": "92b5135e-3ac6-47b4-baf0-a1cd99b400e8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -732,7 +730,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "48c8bd1d-c585-4007-ac72-4f82e079ff83",
+            "uuid": "92b5135e-3ac6-47b4-baf0-a1cd99b400e8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1473,7 +1471,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | @V2rayng_Fast | 2",
+            "tag": "🇨🇦CA | 🟢 | vmess | @V2rayng_Fast | 1",
             "type": "vmess",
             "server": "104.21.95.165",
             "server_port": 443,
@@ -1503,40 +1501,6 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "sareikela.com"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | 🟢 | vmess | @V2rayng_Fast | 3",
-            "type": "vmess",
-            "server": "172.67.244.191",
-            "server_port": 443,
-            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "gwdef.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "gwdef.sbs"
                 }
             }
         },
@@ -1583,7 +1547,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @proxyymeliii | 8",
+            "tag": "🇨🇦CA | 🔴 | vless | @proxyymeliii | 8",
             "type": "vless",
             "server": "discord.gg",
             "server_port": 2087,
@@ -1987,6 +1951,37 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
+            "type": "vless",
+            "server": "172.66.44.75",
+            "server_port": 443,
+            "uuid": "c2c8a201-09b9-47a7-b336-fcf1657f54a8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "bpb-wORKer-paNeL-3JC.pAgeS.DeV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram@V2ray_Alpha\/?ed=2560",
+                "headers": {
+                    "Host": "bpb-wORKer-paNeL-3JC.pAgeS.DeV"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
             "type": "vless",
             "server": "172.66.44.135",
@@ -2004,37 +1999,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "172.66.44.135"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
-            "type": "vless",
-            "server": "104.21.40.63",
-            "server_port": 443,
-            "uuid": "6cffb34f-2197-4037-8bbe-54cd90410922",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "jorum.toptechnonews.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/nimws",
-                "headers": {
-                    "Host": "jorum.toptechnonews.com"
                 }
             }
         },
