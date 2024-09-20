@@ -143,7 +143,7 @@ proxies:
   - {"name":"🇺🇸US | 🟢 | vless | @vmessorg | 8","type":"vless","server":"speedtest.net","port":443,"udp":false,"uuid":"a23dd727-96fd-4778-86d4-0bacd955a4f4","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"speedtest.net","ws-opts":{"path":"/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080","headers":{"host":"http.www.speedtest.net.fast.com.google.com.vmessorg.ir."}}}
   - {"name":"🇸🇪SE | 🔴 | vless | @ServerNett | 16","type":"vless","server":"185.146.173.58","port":8080,"udp":false,"uuid":"844eab01-0564-4b34-81cc-80b522914f58","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/servernett","headers":{"host":"lc22.lebasnoo.ir."}}}
   - {"name":"🇸🇪SE | 🔴 | vless | @v2ray_swhil | 19","type":"vless","server":"185.146.173.185","port":8080,"udp":false,"uuid":"9638e624-84b5-4b68-b3e2-425c01038a03","tls":false,"network":"httpupgrade","client-fingerprint":"chrome"}
-  - {"name":"🇨🇦CA | 🔴 | vless | @proxyymeliii | 9","type":"vless","server":"unpkg.com","port":8880,"udp":false,"uuid":"b8f5ba57-4439-4fe0-b3bd-47f398b3869a","tls":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"🇺🇸US | 🔴 | vless | @proxyymeliii | 9","type":"vless","server":"unpkg.com","port":8880,"udp":false,"uuid":"b8f5ba57-4439-4fe0-b3bd-47f398b3869a","tls":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇩🇪DE | 🔴 | vless | @proxyymeliii | 10","type":"vless","server":"49.12.193.246","port":443,"udp":false,"uuid":"b8f5ba57-4439-4fe0-b3bd-47f398b3869a","tls":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇸🇬SG | 🔴 | vless | @v2ray1_ng | 4","type":"vless","server":"103.172.110.103","port":443,"udp":false,"uuid":"67e631ef-5b10-407f-b064-515240184b95","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"cmli.ali.f5.si","ws-opts":{"path":"/?ed=2560","headers":{"host":"cmli.ali.f5.si"}}}
   - {"name":"❔XX | 🔴 | vless | @MTConfig | 13","type":"vless","server":"o.mmd111.sbs","port":2053,"udp":false,"uuid":"da853330-a294-4257-9a87-f481b9126d51","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"m.mmd111.sbs","ws-opts":{"path":"/","headers":{"host":"m.mmd111.sbs"}}}
@@ -199,7 +199,7 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vless | @vmessorg | 8'
       - '🇸🇪SE | 🔴 | vless | @ServerNett | 16'
       - '🇸🇪SE | 🔴 | vless | @v2ray_swhil | 19'
-      - '🇨🇦CA | 🔴 | vless | @proxyymeliii | 9'
+      - '🇺🇸US | 🔴 | vless | @proxyymeliii | 9'
       - '🇩🇪DE | 🔴 | vless | @proxyymeliii | 10'
       - '🇸🇬SG | 🔴 | vless | @v2ray1_ng | 4'
       - '❔XX | 🔴 | vless | @MTConfig | 13'
@@ -255,7 +255,7 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vless | @vmessorg | 8'
       - '🇸🇪SE | 🔴 | vless | @ServerNett | 16'
       - '🇸🇪SE | 🔴 | vless | @v2ray_swhil | 19'
-      - '🇨🇦CA | 🔴 | vless | @proxyymeliii | 9'
+      - '🇺🇸US | 🔴 | vless | @proxyymeliii | 9'
       - '🇩🇪DE | 🔴 | vless | @proxyymeliii | 10'
       - '🇸🇬SG | 🔴 | vless | @v2ray1_ng | 4'
       - '❔XX | 🔴 | vless | @MTConfig | 13'
@@ -310,7 +310,7 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vless | @vmessorg | 8'
       - '🇸🇪SE | 🔴 | vless | @ServerNett | 16'
       - '🇸🇪SE | 🔴 | vless | @v2ray_swhil | 19'
-      - '🇨🇦CA | 🔴 | vless | @proxyymeliii | 9'
+      - '🇺🇸US | 🔴 | vless | @proxyymeliii | 9'
       - '🇩🇪DE | 🔴 | vless | @proxyymeliii | 10'
       - '🇸🇬SG | 🔴 | vless | @v2ray1_ng | 4'
       - '❔XX | 🔴 | vless | @MTConfig | 13'
