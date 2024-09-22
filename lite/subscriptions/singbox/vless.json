@@ -154,13 +154,13 @@
                 "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 11",
                 "🇸🇬SG | 🔴 | vless | @VmessProtocol | 12",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 269",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 270",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 270",
                 "🇨🇦CA | 🔴 | vless | @lrnbymaa | 19",
                 "🇨🇦CA | 🔴 | vless | @lrnbymaa | 20",
                 "🇨🇦CA | 🔴 | vless | @proxystore11 | 1",
                 "🇨🇦CA | 🔴 | vless | @fnet00 | 3",
-                "🇸🇪SE | 🔴 | vless | @Outlinev2rayNG | 4",
-                "🇨🇦CA | 🔴 | vless | @Outlinev2rayNG | 5",
+                "🇨🇦CA | 🔴 | vless | @Outlinev2rayNG | 4",
+                "🇸🇪SE | 🔴 | vless | @Outlinev2rayNG | 5",
                 "🇨🇦CA | 🔴 | vless | @v2rayng_vpnrog | 4",
                 "🇨🇦CA | 🔴 | vless | @v2rayng_vpnrog | 5",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -232,13 +232,13 @@
                 "🇸🇪SE | 🔴 | vless | @vmess_vless_v2rayng | 11",
                 "🇸🇬SG | 🔴 | vless | @VmessProtocol | 12",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 269",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 270",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 270",
                 "🇨🇦CA | 🔴 | vless | @lrnbymaa | 19",
                 "🇨🇦CA | 🔴 | vless | @lrnbymaa | 20",
                 "🇨🇦CA | 🔴 | vless | @proxystore11 | 1",
                 "🇨🇦CA | 🔴 | vless | @fnet00 | 3",
-                "🇸🇪SE | 🔴 | vless | @Outlinev2rayNG | 4",
-                "🇨🇦CA | 🔴 | vless | @Outlinev2rayNG | 5",
+                "🇨🇦CA | 🔴 | vless | @Outlinev2rayNG | 4",
+                "🇸🇪SE | 🔴 | vless | @Outlinev2rayNG | 5",
                 "🇨🇦CA | 🔴 | vless | @v2rayng_vpnrog | 4",
                 "🇨🇦CA | 🔴 | vless | @v2rayng_vpnrog | 5",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -1491,10 +1491,10 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 270",
+            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 270",
             "type": "vless",
             "server": "SpeedTest.net",
-            "server_port": 80,
+            "server_port": 443,
             "uuid": "2415aa3c-f129-4c10-a007-3054bd21bcef",
             "flow": "",
             "packet_encoding": "xudp",
@@ -1503,11 +1503,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "SpeedTest.net"
+                    "Host": "speedtest.net"
                 }
             }
         },
@@ -1609,7 +1619,21 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | @Outlinev2rayNG | 4",
+            "tag": "🇨🇦CA | 🔴 | vless | @Outlinev2rayNG | 4",
+            "type": "vless",
+            "server": "104.21.19.124",
+            "server_port": 8880,
+            "uuid": "24238d3b-14c9-45b9-8876-b5f096e9ef1d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇸🇪SE | 🔴 | vless | @Outlinev2rayNG | 5",
             "type": "vless",
             "server": "185.146.173.200",
             "server_port": 443,
@@ -1636,37 +1660,6 @@
                 "path": "\/XV2ray?ed=512",
                 "headers": {
                     "Host": "pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | 🔴 | vless | @Outlinev2rayNG | 5",
-            "type": "vless",
-            "server": "172.66.47.200",
-            "server_port": 443,
-            "uuid": "850a9d4e-4e1f-41e1-8ba1-b8d0a0d6fe00",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "eV2rAYdEV.pageS.dEv",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/pimYiCPFd3353OXG\/MTM5LjE4NS4zNC4xMzE=?ed=2560",
-                "headers": {
-                    "Host": "eV2rAYdEV.pageS.dEv"
                 }
             }
         },
