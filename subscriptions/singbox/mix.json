@@ -262,7 +262,7 @@
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 2",
                 "❔XX | 🟢 | vless | @V2rayCollectorDonate | 9",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 15",
-                "❔XX | 🔴 | trojan | @V2rayCollectorDonate | 17",
+                "🇮🇷IR | 🔴 | trojan | @V2rayCollectorDonate | 17",
                 "🚩CF | 🔴 | vless | @V2rayNGn | 0",
                 "🚩CF | 🔴 | vless | @V2rayNGn | 2",
                 "🚩CF | 🔴 | vless | @V2rayNGn | 3",
@@ -512,7 +512,6 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
-                "🇳🇱NL | 🟢 | vmess | @Hope_Net | 0",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 0",
                 "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 1",
                 "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 2",
@@ -790,7 +789,7 @@
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 2",
                 "❔XX | 🟢 | vless | @V2rayCollectorDonate | 9",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 15",
-                "❔XX | 🔴 | trojan | @V2rayCollectorDonate | 17",
+                "🇮🇷IR | 🔴 | trojan | @V2rayCollectorDonate | 17",
                 "🚩CF | 🔴 | vless | @V2rayNGn | 0",
                 "🚩CF | 🔴 | vless | @V2rayNGn | 2",
                 "🚩CF | 🔴 | vless | @V2rayNGn | 3",
@@ -1040,7 +1039,6 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
-                "🇳🇱NL | 🟢 | vmess | @Hope_Net | 0",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 0",
                 "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 1",
                 "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 2",
@@ -4952,7 +4950,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | trojan | @V2rayCollectorDonate | 17",
+            "tag": "🇮🇷IR | 🔴 | trojan | @V2rayCollectorDonate | 17",
             "type": "trojan",
             "server": "server2.cactusrobot.ir",
             "server_port": 8608,
@@ -11155,23 +11153,6 @@
                 "headers": {
                     "Host": "104.26.8.210"
                 }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | 🟢 | vmess | @Hope_Net | 0",
-            "type": "vmess",
-            "server": "31.44.0.46",
-            "server_port": 33143,
-            "uuid": "fb934f2f-0942-43ad-971f-ae6b22c08d3a",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
