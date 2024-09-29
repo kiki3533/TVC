@@ -197,8 +197,6 @@ proxies:
   - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 10","type":"vmess","server":"cvs-deo.shopeemobile.com","port":"2086","cipher":"auto","uuid":"a1655f51-1e20-4a92-8a11-b7ca30a7a353","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/afrhms07.xfixedfloat.cfd/linkws","headers":{"host":"vpnsupportfast.vpnsuortfast.workers.dev"}}}
   - {"name":"🚩CF | 🟢 | vmess | @Hope_Net | 11","type":"vmess","server":"104.16.61.8","port":"443","cipher":"auto","uuid":"2a8a10fb-9ca3-367e-a234-cf09f841be4f","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/v118-fccxmxm35","headers":{"host":"us3e-mmnnfr9dop0.v2freevpn.com"}}}
   - {"name":"🚩CF | 🟢 | vmess | @Hope_Net | 12","type":"vmess","server":"104.19.45.253","port":2095,"cipher":"auto","uuid":"7a737f41-b792-4260-94ff-3d864da67b80","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"onea.flha.ru"}}}
-  - {"name":"🚩CF | 🟢 | vmess | @Hope_Net | 13","type":"vmess","server":"104.19.45.245","port":2095,"cipher":"auto","uuid":"7a737f41-b792-4260-94ff-3d864da67b80","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"onea.flha.ru"}}}
-  - {"name":"🚩CF | 🟢 | vmess | @Hope_Net | 14","type":"vmess","server":"104.18.202.250","port":2052,"cipher":"auto","uuid":"6c168fcc-2231-4f3b-8c1e-f6391692df4a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/hms02.fxiaomi.sbs/link","headers":{"host":"erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev"}}}
   - {"name":"🇺🇸US | 🔴 | trojan | @iP_CF | 1","type":"trojan","server":"autotrader.co.uk","port":443,"udp":false,"password":"15c2491a-01d2-4d36-b4c4-7095682368cd","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"sublinkhiddifyc1.makingirangreatagain.com"}
   - {"name":"🇺🇸US | 🟢 | vmess | @ISVvpn | 1","type":"vmess","server":"speedtest.net","port":"443","cipher":"none","uuid":"a2a66093-4448-4591-8241-4a4ba29825d1","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess?join-telegram-@ISVvpn","headers":{"host":"21955.ir"}}}
 proxy-groups:
@@ -286,8 +284,6 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 10'
       - '🚩CF | 🟢 | vmess | @Hope_Net | 11'
       - '🚩CF | 🟢 | vmess | @Hope_Net | 12'
-      - '🚩CF | 🟢 | vmess | @Hope_Net | 13'
-      - '🚩CF | 🟢 | vmess | @Hope_Net | 14'
       - '🇺🇸US | 🔴 | trojan | @iP_CF | 1'
       - '🇺🇸US | 🟢 | vmess | @ISVvpn | 1'
   - name: URL-TEST
@@ -375,8 +371,6 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 10'
       - '🚩CF | 🟢 | vmess | @Hope_Net | 11'
       - '🚩CF | 🟢 | vmess | @Hope_Net | 12'
-      - '🚩CF | 🟢 | vmess | @Hope_Net | 13'
-      - '🚩CF | 🟢 | vmess | @Hope_Net | 14'
       - '🇺🇸US | 🔴 | trojan | @iP_CF | 1'
       - '🇺🇸US | 🟢 | vmess | @ISVvpn | 1'
   - name: FALLBACK
@@ -463,8 +457,6 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 10'
       - '🚩CF | 🟢 | vmess | @Hope_Net | 11'
       - '🚩CF | 🟢 | vmess | @Hope_Net | 12'
-      - '🚩CF | 🟢 | vmess | @Hope_Net | 13'
-      - '🚩CF | 🟢 | vmess | @Hope_Net | 14'
       - '🇺🇸US | 🔴 | trojan | @iP_CF | 1'
       - '🇺🇸US | 🟢 | vmess | @ISVvpn | 1'
 rules:
