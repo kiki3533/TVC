@@ -118,7 +118,7 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"❔XX | 🔴 | trojan | @V2rayCollectorDonate | 17","type":"trojan","server":"server2.cactusrobot.ir","port":8608,"udp":false,"password":"V_kT5VVzTK4gfCCxQipNAA","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"🇮🇷IR | 🔴 | trojan | @V2rayCollectorDonate | 17","type":"trojan","server":"server2.cactusrobot.ir","port":8608,"udp":false,"password":"V_kT5VVzTK4gfCCxQipNAA","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 0","type":"trojan","server":"15.236.127.154","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 1","type":"trojan","server":"3.124.53.117","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 2","type":"trojan","server":"3.74.112.254","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
@@ -160,7 +160,7 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '❔XX | 🔴 | trojan | @V2rayCollectorDonate | 17'
+      - '🇮🇷IR | 🔴 | trojan | @V2rayCollectorDonate | 17'
       - '🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 0'
       - '🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 1'
       - '🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 2'
@@ -202,7 +202,7 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '❔XX | 🔴 | trojan | @V2rayCollectorDonate | 17'
+      - '🇮🇷IR | 🔴 | trojan | @V2rayCollectorDonate | 17'
       - '🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 0'
       - '🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 1'
       - '🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 2'
@@ -243,7 +243,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '❔XX | 🔴 | trojan | @V2rayCollectorDonate | 17'
+      - '🇮🇷IR | 🔴 | trojan | @V2rayCollectorDonate | 17'
       - '🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 0'
       - '🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 1'
       - '🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 2'
