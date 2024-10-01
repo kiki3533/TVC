@@ -124,7 +124,7 @@ proxies:
   - {"name":"🇸🇪SE | 🟢 | vmess | @proxystore11 | 7","type":"vmess","server":"89.22.238.133","port":"80","cipher":"auto","uuid":"c28ff98f-bb72-4800-b0b6-5eac10fdc20f","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"❔XX | 🟢 | vmess | @proxystore11 | 8","type":"vmess","server":"[2a12:5940:b856::2]","port":"80","cipher":"auto","uuid":"c28ff98f-bb72-4800-b0b6-5eac10fdc20f","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | 🟢 | vmess | @yaney_01 | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
-  - {"name":"🇨🇦CA | 🟢 | vmess | @Hope_Net | 6","type":"vmess","server":"cfcdn1.sanfencdn9.com","port":"2052","cipher":"auto","uuid":"af0bfcce-8730-4133-bdaa-f6b1da70fc1c","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/video/yGbumWFW/","headers":{"host":"us2htbepeox.inivtrak.xyz"}}}
+  - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 6","type":"vmess","server":"cfcdn1.sanfencdn9.com","port":"2052","cipher":"auto","uuid":"af0bfcce-8730-4133-bdaa-f6b1da70fc1c","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/video/yGbumWFW/","headers":{"host":"us2htbepeox.inivtrak.xyz"}}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -137,7 +137,7 @@ proxy-groups:
       - '🇸🇪SE | 🟢 | vmess | @proxystore11 | 7'
       - '❔XX | 🟢 | vmess | @proxystore11 | 8'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
-      - '🇨🇦CA | 🟢 | vmess | @Hope_Net | 6'
+      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 6'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -150,7 +150,7 @@ proxy-groups:
       - '🇸🇪SE | 🟢 | vmess | @proxystore11 | 7'
       - '❔XX | 🟢 | vmess | @proxystore11 | 8'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
-      - '🇨🇦CA | 🟢 | vmess | @Hope_Net | 6'
+      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 6'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -162,7 +162,7 @@ proxy-groups:
       - '🇸🇪SE | 🟢 | vmess | @proxystore11 | 7'
       - '❔XX | 🟢 | vmess | @proxystore11 | 8'
       - '🇨🇳CN | 🟢 | vmess | @yaney_01 | 4'
-      - '🇨🇦CA | 🟢 | vmess | @Hope_Net | 6'
+      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 6'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
