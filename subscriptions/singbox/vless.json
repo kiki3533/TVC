@@ -191,7 +191,6 @@
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 16",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
-                "🇺🇸US | 🔴 | vless | @ARv2ray | 19",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 1",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 2",
@@ -315,6 +314,7 @@
                 "🇸🇪SE | 🔴 | vless | @ServerNett | 19",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 1",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 3",
+                "🇺🇸US | 🔴 | vless | @v2ray_swhil | 5",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 6",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 7",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 9",
@@ -444,7 +444,6 @@
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 4",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 6",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 10",
-                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 11",
                 "❔XX | 🔴 | vless | @v2rayng_vpnrog | 2",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 3",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 4",
@@ -634,7 +633,6 @@
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 16",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
-                "🇺🇸US | 🔴 | vless | @ARv2ray | 19",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 1",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 2",
@@ -758,6 +756,7 @@
                 "🇸🇪SE | 🔴 | vless | @ServerNett | 19",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 1",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 3",
+                "🇺🇸US | 🔴 | vless | @v2ray_swhil | 5",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 6",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 7",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 9",
@@ -887,7 +886,6 @@
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 4",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 6",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 10",
-                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 11",
                 "❔XX | 🔴 | vless | @v2rayng_vpnrog | 2",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 3",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 4",
@@ -3124,27 +3122,6 @@
                 "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "headers": {
                     "Host": "speedtest.net"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 19",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8880,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=8880",
-                "headers": {
-                    "Host": "www.speedtest.net"
                 }
             }
         },
@@ -6272,6 +6249,27 @@
                 "path": "\/Telegram,VPNCUSTOMIZE?ed=2480",
                 "headers": {
                     "Host": "Join.VPNCUSTOMIZE.www.speedtest.net.Naziitness.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @v2ray_swhil | 5",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8880,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=8880",
+                "headers": {
+                    "Host": "www.speedtest.net"
                 }
             }
         },
@@ -9481,37 +9479,6 @@
                 "path": "\/Telegram-Xv2ry2?ed=512",
                 "headers": {
                     "Host": "Pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 11",
-            "type": "vless",
-            "server": "172.66.44.75",
-            "server_port": 443,
-            "uuid": "c2c8a201-09b9-47a7-b336-fcf1657f54a8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "bpb-wORKer-paNeL-3JC.pAgeS.DeV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram@Azarakhsh_Proxy\/?ed=2560",
-                "headers": {
-                    "Host": "bpb-wORKer-paNeL-3JC.pAgeS.DeV"
                 }
             }
         },
