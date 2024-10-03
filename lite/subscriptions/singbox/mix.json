@@ -113,8 +113,8 @@
                 "🇬🇧GB | 🔴 | vless | @VlessConfig | 16",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 15",
                 "🇩🇪DE | 🔴 | vless | @V2pedia | 5",
-                "🇨🇦CA | 🔴 | vless | @V2pedia | 6",
-                "🇨🇦CA | 🔴 | vless | @frev2ray | 0",
+                "🇺🇸US | 🔴 | vless | @V2pedia | 6",
+                "🇺🇸US | 🔴 | vless | @frev2ray | 0",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 19",
                 "🇸🇪SE | 🔴 | vless | @Lockey_vpn | 8",
@@ -177,7 +177,7 @@
                 "🇺🇸US | 🔴 | vless | @Capital_NET | 45",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 10",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
-                "🇺🇸US | 🔴 | vless | @iP_CF | 1",
+                "🇺🇸US | 🔴 | vless | @iP_CF | 2",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 5",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 6",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 13",
@@ -202,8 +202,8 @@
                 "🇬🇧GB | 🔴 | vless | @VlessConfig | 16",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 15",
                 "🇩🇪DE | 🔴 | vless | @V2pedia | 5",
-                "🇨🇦CA | 🔴 | vless | @V2pedia | 6",
-                "🇨🇦CA | 🔴 | vless | @frev2ray | 0",
+                "🇺🇸US | 🔴 | vless | @V2pedia | 6",
+                "🇺🇸US | 🔴 | vless | @frev2ray | 0",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 19",
                 "🇸🇪SE | 🔴 | vless | @Lockey_vpn | 8",
@@ -266,7 +266,7 @@
                 "🇺🇸US | 🔴 | vless | @Capital_NET | 45",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 10",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
-                "🇺🇸US | 🔴 | vless | @iP_CF | 1",
+                "🇺🇸US | 🔴 | vless | @iP_CF | 2",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 5",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 6",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 13",
@@ -481,7 +481,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @V2pedia | 6",
+            "tag": "🇺🇸US | 🔴 | vless | @V2pedia | 6",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -502,7 +502,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @frev2ray | 0",
+            "tag": "🇺🇸US | 🔴 | vless | @frev2ray | 0",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2095,
@@ -666,7 +666,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "e8909d29-ab53-4626-8913-d90bed3715d5",
+            "uuid": "9066f9f5-2acf-4d31-b18d-2a4e45fea258",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -687,7 +687,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "e8909d29-ab53-4626-8913-d90bed3715d5",
+            "uuid": "9066f9f5-2acf-4d31-b18d-2a4e45fea258",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1822,33 +1822,9 @@
         {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
             "type": "vmess",
-            "server": "104.17.147.22",
-            "server_port": 8880,
-            "uuid": "033ba156-3479-4948-ba00-fa66bd6253b5",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "104.17.147.22"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 12",
-            "type": "vmess",
-            "server": "104.19.45.47",
+            "server": "speedtest.net",
             "server_port": 443,
-            "uuid": "7f225ee6-6d1d-4bba-b524-708e65533c57",
+            "uuid": "3498c000-8e78-41db-ba47-2bdc420b2d0e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1861,7 +1837,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "104.19.45.47",
+                "server_name": "speedtest.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1871,9 +1847,43 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/7f225ee6-6d1d-4bba-b524-708e65533c57",
+                "path": "\/ws\/",
                 "headers": {
-                    "Host": "104.19.45.47"
+                    "Host": "speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 12",
+            "type": "vmess",
+            "server": "172.64.166.33",
+            "server_port": 443,
+            "uuid": "78462755-f265-4515-b0af-cb4d524118ae",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "172.64.166.33",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/78462755-f265-4515-b0af-cb4d524118ae",
+                "headers": {
+                    "Host": "172.64.166.33"
                 }
             }
         },
@@ -2092,7 +2102,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @iP_CF | 1",
+            "tag": "🇺🇸US | 🔴 | vless | @iP_CF | 2",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 443,
