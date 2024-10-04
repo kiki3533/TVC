@@ -155,8 +155,8 @@
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 6",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 7",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 14",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 319",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 320",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 321",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 11",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 12",
                 "🇹🇷TR | 🔴 | vless | @proxystore11 | 6",
@@ -235,8 +235,8 @@
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 6",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 7",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 14",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 319",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 320",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 321",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 11",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 12",
                 "🇹🇷TR | 🔴 | vless | @proxystore11 | 6",
@@ -1522,11 +1522,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 320",
+            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 319",
             "type": "vless",
             "server": "SpeedTest.net",
             "server_port": 443,
-            "uuid": "2acbceba-ee72-434b-b140-786e42cba836",
+            "uuid": "841b83da-3916-4c83-808f-a0433118a1c7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1553,11 +1553,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 321",
+            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 320",
             "type": "vless",
             "server": "SpeedTest.net",
-            "server_port": 80,
-            "uuid": "2acbceba-ee72-434b-b140-786e42cba836",
+            "server_port": 443,
+            "uuid": "841b83da-3916-4c83-808f-a0433118a1c7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1565,11 +1565,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "SpeedTest.net"
+                    "Host": "speedtest.net"
                 }
             }
         },
