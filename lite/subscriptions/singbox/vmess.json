@@ -106,9 +106,9 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | 🟢 | vmess | @mftizi | 16",
+                "🇺🇸US | 🟢 | vmess | @mftizi | 16",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-                "🇨🇦CA | 🟢 | vmess | @ShadowProxy66 | 13",
+                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 13",
                 "🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
@@ -120,9 +120,9 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | 🟢 | vmess | @mftizi | 16",
+                "🇺🇸US | 🟢 | vmess | @mftizi | 16",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-                "🇨🇦CA | 🟢 | vmess | @ShadowProxy66 | 13",
+                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 13",
                 "🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
@@ -150,7 +150,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | @mftizi | 16",
+            "tag": "🇺🇸US | 🟢 | vmess | @mftizi | 16",
             "type": "vmess",
             "server": "cfcdn3.sanfencdn9.com",
             "server_port": 80,
@@ -191,7 +191,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | @ShadowProxy66 | 13",
+            "tag": "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 13",
             "type": "vmess",
             "server": "104.21.28.70",
             "server_port": 80,
