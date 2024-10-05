@@ -308,12 +308,6 @@
                 "🚩CF | 🟢 | vmess | @mftizi | 12",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 13",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 17",
-                "🇧🇭BH | 🟢 | ss | @DeamNet_Proxy | 2",
-                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 3",
-                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 4",
-                "🇧🇭BH | 🟢 | ss | @DeamNet_Proxy | 5",
-                "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 6",
-                "🇦🇪AE | 🟢 | ss | @DeamNet_Proxy | 11",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 1",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 2",
                 "❔XX | 🔴 | vless | @customv2ray | 3",
@@ -491,10 +485,10 @@
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 0",
-                "🇨🇦CA | 🟢 | vmess | @Hope_Net | 1",
-                "🇨🇦CA | 🟢 | vmess | @Hope_Net | 2",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 3",
-                "🇨🇦CA | 🟢 | vmess | @Hope_Net | 4",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 5",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 6",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 7",
@@ -817,12 +811,6 @@
                 "🚩CF | 🟢 | vmess | @mftizi | 12",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 13",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 17",
-                "🇧🇭BH | 🟢 | ss | @DeamNet_Proxy | 2",
-                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 3",
-                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 4",
-                "🇧🇭BH | 🟢 | ss | @DeamNet_Proxy | 5",
-                "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 6",
-                "🇦🇪AE | 🟢 | ss | @DeamNet_Proxy | 11",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 1",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 2",
                 "❔XX | 🔴 | vless | @customv2ray | 3",
@@ -1000,10 +988,10 @@
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 0",
-                "🇨🇦CA | 🟢 | vmess | @Hope_Net | 1",
-                "🇨🇦CA | 🟢 | vmess | @Hope_Net | 2",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 3",
-                "🇨🇦CA | 🟢 | vmess | @Hope_Net | 4",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 5",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 6",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 7",
@@ -5943,114 +5931,6 @@
             }
         },
         {
-            "tag": "🇧🇭BH | 🟢 | ss | @DeamNet_Proxy | 2",
-            "type": "shadowsocks",
-            "server": "series-a2-me.varzesh360.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "Bog0ELmMM9DSxDdQ",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 3",
-            "type": "vmess",
-            "server": "ming2.kiwireich.com",
-            "server_port": 443,
-            "uuid": "18e5f40f-bda6-4c15-9334-e87cda6047af",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ming2.kiwireich.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ray",
-                "headers": {
-                    "Host": "ming2.kiwireich.com"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 4",
-            "type": "vmess",
-            "server": "172.67.207.26",
-            "server_port": 443,
-            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "glweidf.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "glweidf.sbs"
-                }
-            }
-        },
-        {
-            "tag": "🇧🇭BH | 🟢 | ss | @DeamNet_Proxy | 5",
-            "type": "shadowsocks",
-            "server": "series-a2-me.samanehha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "Bog0ELmMM9DSxDdQ",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 6",
-            "type": "shadowsocks",
-            "server": "series-a1.samanehha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "W74XFALLLuw6m5IA",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇦🇪AE | 🟢 | ss | @DeamNet_Proxy | 11",
-            "type": "shadowsocks",
-            "server": "series-a2-mec.samanehha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "u17T3BvpYaaiuW2c",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
             "tag": "🇺🇸US | 🔴 | vless | @customv2ray | 1",
             "type": "vless",
             "server": "www.parsvds.ir",
@@ -10554,7 +10434,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | @Hope_Net | 1",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
             "type": "vmess",
             "server": "ParsVds.ir",
             "server_port": 443,
@@ -10588,7 +10468,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | @Hope_Net | 2",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
             "type": "vmess",
             "server": "hms082.gwdef.sbs",
             "server_port": 443,
@@ -10656,7 +10536,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | @Hope_Net | 4",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
             "type": "vmess",
             "server": "webmail.shokoohsanat.ir",
             "server_port": 443,
