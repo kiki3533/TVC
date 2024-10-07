@@ -503,9 +503,8 @@
                 "🚩CF | 🟢 | vmess | @Hope_Net | 13",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 0",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 1",
-                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 2",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 3",
-                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 5",
+                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 4",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 6",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 7",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 0",
@@ -539,7 +538,7 @@
                 "🇩🇪DE | 🔴 | vless | @Capital_NET | 36",
                 "❔XX | 🔴 | vless | @Capital_NET | 37",
                 "❔XX | 🔴 | vless | @Capital_NET | 39",
-                "🇳🇱NL | 🔴 | vless | @Capital_NET | 41",
+                "🇨🇦CA | 🔴 | vless | @Capital_NET | 41",
                 "🇩🇪DE | 🔴 | vless | @Capital_NET | 42",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "🇺🇸US | 🔴 | vless | @Capital_NET | 45",
@@ -1005,9 +1004,8 @@
                 "🚩CF | 🟢 | vmess | @Hope_Net | 13",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 0",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 1",
-                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 2",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 3",
-                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 5",
+                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 4",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 6",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 7",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 0",
@@ -1041,7 +1039,7 @@
                 "🇩🇪DE | 🔴 | vless | @Capital_NET | 36",
                 "❔XX | 🔴 | vless | @Capital_NET | 37",
                 "❔XX | 🔴 | vless | @Capital_NET | 39",
-                "🇳🇱NL | 🔴 | vless | @Capital_NET | 41",
+                "🇨🇦CA | 🔴 | vless | @Capital_NET | 41",
                 "🇩🇪DE | 🔴 | vless | @Capital_NET | 42",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "🇺🇸US | 🔴 | vless | @Capital_NET | 45",
@@ -10913,37 +10911,6 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 443,
-            "uuid": "e2f4d1fa-0a6d-48c3-a5bb-8b438e78af23",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "119f3a0b.chikiy123w.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "119f3a0b.chikiy123w.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 1",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
             "uuid": "c8e8e02a-462a-4eaf-9cfa-d3d97fdcc891",
             "flow": "",
             "packet_encoding": "xudp",
@@ -10971,7 +10938,38 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 2",
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 1",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "e2f4d1fa-0a6d-48c3-a5bb-8b438e78af23",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "119f3a0b.chikiy123w.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "119f3a0b.chikiy123w.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 3",
             "type": "vless",
             "server": "172.66.44.211",
             "server_port": 443,
@@ -11002,7 +11000,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 3",
+            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 4",
             "type": "vless",
             "server": "104.27.207.92",
             "server_port": 443,
@@ -11033,7 +11031,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 5",
+            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 6",
             "type": "vless",
             "server": "104.16.14.99",
             "server_port": 443,
@@ -11064,7 +11062,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 6",
+            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 7",
             "type": "vless",
             "server": "172.66.45.31",
             "server_port": 8443,
@@ -11091,37 +11089,6 @@
                 "path": "\/Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN",
                 "headers": {
                     "Host": "pardazeshvpn-tg56.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 7",
-            "type": "vless",
-            "server": "172.66.44.75",
-            "server_port": 443,
-            "uuid": "c2c8a201-09b9-47a7-b336-fcf1657f54a8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "bpb-wORKer-paNeL-3JC.pAgeS.DeV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram@Azarakhsh_Proxy\/?ed=2560",
-                "headers": {
-                    "Host": "bpb-wORKer-paNeL-3JC.pAgeS.DeV"
                 }
             }
         },
@@ -12022,7 +11989,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🔴 | vless | @Capital_NET | 41",
+            "tag": "🇨🇦CA | 🔴 | vless | @Capital_NET | 41",
             "type": "vless",
             "server": "194.5.97.158",
             "server_port": 443,
