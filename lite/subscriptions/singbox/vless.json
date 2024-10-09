@@ -110,16 +110,16 @@
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 29",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 13",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
-                "🇸🇪SE | 🔴 | vless | @VlessConfig | 16",
-                "🇸🇪SE | 🔴 | vless | @VlessConfig | 17",
+                "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
+                "🇩🇪DE | 🔴 | vless | @VlessConfig | 16",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 14",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 15",
                 "🇨🇦CA | 🔴 | vless | @V2pedia | 2",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 3",
                 "🇺🇸US | 🔴 | vless | @frev2ray | 0",
                 "🇺🇸US | 🔴 | vless | @frev2ray | 1",
-                "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
-                "🇨🇦CA | 🔴 | vless | @ARv2ray | 19",
+                "🇨🇦CA | 🔴 | vless | @ARv2ray | 18",
+                "🇺🇸US | 🔴 | vless | @ARv2ray | 19",
                 "🇸🇪SE | 🔴 | vless | @Lockey_vpn | 8",
                 "🇸🇪SE | 🔴 | vless | @Lockey_vpn | 9",
                 "🇸🇪SE | 🔴 | vless | @free_v2rayyy | 2",
@@ -187,16 +187,16 @@
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 29",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 13",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
-                "🇸🇪SE | 🔴 | vless | @VlessConfig | 16",
-                "🇸🇪SE | 🔴 | vless | @VlessConfig | 17",
+                "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
+                "🇩🇪DE | 🔴 | vless | @VlessConfig | 16",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 14",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 15",
                 "🇨🇦CA | 🔴 | vless | @V2pedia | 2",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 3",
                 "🇺🇸US | 🔴 | vless | @frev2ray | 0",
                 "🇺🇸US | 🔴 | vless | @frev2ray | 1",
-                "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
-                "🇨🇦CA | 🔴 | vless | @ARv2ray | 19",
+                "🇨🇦CA | 🔴 | vless | @ARv2ray | 18",
+                "🇺🇸US | 🔴 | vless | @ARv2ray | 19",
                 "🇸🇪SE | 🔴 | vless | @Lockey_vpn | 8",
                 "🇸🇪SE | 🔴 | vless | @Lockey_vpn | 9",
                 "🇸🇪SE | 🔴 | vless | @free_v2rayyy | 2",
@@ -366,9 +366,9 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | @VlessConfig | 16",
+            "tag": "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
             "type": "vless",
-            "server": "13.48.245.188",
+            "server": "15.236.220.202",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -397,9 +397,9 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | @VlessConfig | 17",
+            "tag": "🇩🇪DE | 🔴 | vless | @VlessConfig | 16",
             "type": "vless",
-            "server": "13.53.62.78",
+            "server": "52.59.19.217",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -587,7 +587,28 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
+            "tag": "🇨🇦CA | 🔴 | vless | @ARv2ray | 18",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8880,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=8880",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 19",
             "type": "vless",
             "server": "bwdraper.faculty.ucdavis.edu",
             "server_port": 443,
@@ -614,27 +635,6 @@
                 "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "headers": {
                     "Host": "bwdraper.faculty.ucdavis.edu"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | 🔴 | vless | @ARv2ray | 19",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2052,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=2052",
-                "headers": {
-                    "Host": "www.speedtest.net"
                 }
             }
         },
@@ -730,7 +730,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "c6c77fc1-1802-4ee9-b5c9-619747790b7f",
+            "uuid": "1548901e-6755-4a2d-a308-b493eaec834f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -751,7 +751,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "c6c77fc1-1802-4ee9-b5c9-619747790b7f",
+            "uuid": "1548901e-6755-4a2d-a308-b493eaec834f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1722,6 +1722,37 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 9",
             "type": "vless",
+            "server": "live.wkrq.com",
+            "server_port": 443,
+            "uuid": "c816d9b3-1960-4e73-aaae-72acd12f3923",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "live.wkrq.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed",
+                "headers": {
+                    "Host": "live.wkrq.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 10",
+            "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2053,
             "uuid": "cbaaee49-92d7-46cb-9b5a-ec7e5e943f7d",
@@ -1747,37 +1778,6 @@
                 "path": "\/@mehrosaboran,--@mehrosaboran,--@mehrosaboran,--@mehrosaboran,--@mehrosaboran,--@mehrosaboran,--@mehrosaboran?ed=2560",
                 "headers": {
                     "Host": "TeleGRam-ID-TeHRanArgo.pageS.Dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 10",
-            "type": "vless",
-            "server": "connectcarolina.sites.unc.edu",
-            "server_port": 443,
-            "uuid": "Joinin--ZEDMODEON",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "connectcarolina.sites.unc.edu",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON",
-                "headers": {
-                    "Host": "connectcarolina.sites.unc.edu"
                 }
             }
         },
