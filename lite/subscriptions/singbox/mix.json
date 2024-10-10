@@ -118,8 +118,8 @@
                 "🇺🇸US | 🔴 | vless | @V2pedia | 3",
                 "🇺🇸US | 🔴 | vless | @frev2ray | 0",
                 "🇺🇸US | 🔴 | vless | @frev2ray | 1",
-                "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
-                "🇨🇦CA | 🔴 | vless | @ARv2ray | 19",
+                "🇨🇦CA | 🔴 | vless | @ARv2ray | 18",
+                "🇺🇸US | 🔴 | vless | @ARv2ray | 19",
                 "🇸🇪SE | 🔴 | vless | @Lockey_vpn | 8",
                 "🇸🇪SE | 🔴 | vless | @Lockey_vpn | 9",
                 "🇸🇪SE | 🔴 | vless | @free_v2rayyy | 2",
@@ -129,7 +129,7 @@
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 14",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 15",
-                "🇺🇸US | 🔴 | vless | @proxy_kafee | 10",
+                "🇺🇸US | 🔴 | vless | @proxy_kafee | 12",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "🇺🇸US | 🔴 | vless | @Watashi_VPN | 2",
@@ -182,7 +182,7 @@
                 "❔XX | 🔴 | vless | @iP_CF | 4",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 11",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 12",
-                "🇺🇸US | 🟢 | vmess | @nofiltering2 | 15",
+                "🇺🇸US | 🔴 | vless | @nofiltering2 | 15",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇸🇪SE | 🔴 | vless | @kingofilter | 2",
@@ -209,8 +209,8 @@
                 "🇺🇸US | 🔴 | vless | @V2pedia | 3",
                 "🇺🇸US | 🔴 | vless | @frev2ray | 0",
                 "🇺🇸US | 🔴 | vless | @frev2ray | 1",
-                "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
-                "🇨🇦CA | 🔴 | vless | @ARv2ray | 19",
+                "🇨🇦CA | 🔴 | vless | @ARv2ray | 18",
+                "🇺🇸US | 🔴 | vless | @ARv2ray | 19",
                 "🇸🇪SE | 🔴 | vless | @Lockey_vpn | 8",
                 "🇸🇪SE | 🔴 | vless | @Lockey_vpn | 9",
                 "🇸🇪SE | 🔴 | vless | @free_v2rayyy | 2",
@@ -220,7 +220,7 @@
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 14",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 15",
-                "🇺🇸US | 🔴 | vless | @proxy_kafee | 10",
+                "🇺🇸US | 🔴 | vless | @proxy_kafee | 12",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "🇺🇸US | 🔴 | vless | @Watashi_VPN | 2",
@@ -273,7 +273,7 @@
                 "❔XX | 🔴 | vless | @iP_CF | 4",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 11",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 12",
-                "🇺🇸US | 🟢 | vmess | @nofiltering2 | 15",
+                "🇺🇸US | 🔴 | vless | @nofiltering2 | 15",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇸🇪SE | 🔴 | vless | @kingofilter | 2",
@@ -615,7 +615,28 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
+            "tag": "🇨🇦CA | 🔴 | vless | @ARv2ray | 18",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8080,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=8080",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 19",
             "type": "vless",
             "server": "bwdraper.faculty.ucdavis.edu",
             "server_port": 443,
@@ -642,27 +663,6 @@
                 "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "headers": {
                     "Host": "bwdraper.faculty.ucdavis.edu"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | 🔴 | vless | @ARv2ray | 19",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8080,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=8080",
-                "headers": {
-                    "Host": "www.speedtest.net"
                 }
             }
         },
@@ -860,7 +860,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 10",
+            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 12",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 443,
@@ -2154,16 +2154,13 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @nofiltering2 | 15",
-            "type": "vmess",
-            "server": "172.67.171.200",
-            "server_port": 2096,
-            "uuid": "d77c0cdc-b28e-427d-c58c-062f254759bd",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇺🇸US | 🔴 | vless | @nofiltering2 | 15",
+            "type": "vless",
+            "server": "zmaoz.faculty.ucdavis.edu",
+            "server_port": 443,
+            "uuid": "TELEGRAM-NUFiLTER",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -2171,7 +2168,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.ernanews.ggff.net",
+                "server_name": "zmaoz.faculty.ucdavis.edu",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -2181,9 +2178,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER",
                 "headers": {
-                    "Host": "speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.ernanews.ggff.net"
+                    "Host": "zmaoz.faculty.ucdavis.edu"
                 }
             }
         },
