@@ -133,10 +133,10 @@
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "🇺🇸US | 🔴 | vless | @Watashi_VPN | 2",
-                "❔XX | 🔴 | trojan | @V2rayCollectorDonate | 17",
+                "🇮🇷IR | 🔴 | trojan | @V2rayCollectorDonate | 17",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 18",
-                "🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 15",
-                "🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 16",
+                "🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 15",
+                "🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 16",
                 "🇨🇦CA | 🟢 | trojan | @DirectVPN | 15",
                 "🇨🇦CA | 🟢 | trojan | @DirectVPN | 16",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
@@ -171,8 +171,8 @@
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 12",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 13",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 2",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 2",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 3",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -224,10 +224,10 @@
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "🇺🇸US | 🔴 | vless | @Watashi_VPN | 2",
-                "❔XX | 🔴 | trojan | @V2rayCollectorDonate | 17",
+                "🇮🇷IR | 🔴 | trojan | @V2rayCollectorDonate | 17",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 18",
-                "🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 15",
-                "🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 16",
+                "🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 15",
+                "🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 16",
                 "🇨🇦CA | 🟢 | trojan | @DirectVPN | 15",
                 "🇨🇦CA | 🟢 | trojan | @DirectVPN | 16",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
@@ -262,8 +262,8 @@
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 12",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 13",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 2",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 2",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 3",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -967,7 +967,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | trojan | @V2rayCollectorDonate | 17",
+            "tag": "🇮🇷IR | 🔴 | trojan | @V2rayCollectorDonate | 17",
             "type": "trojan",
             "server": "server2.cactusrobot.ir",
             "server_port": 8608,
@@ -1010,9 +1010,9 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 15",
+            "tag": "🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 15",
             "type": "trojan",
-            "server": "13.48.180.18",
+            "server": "3.78.121.94",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -1032,9 +1032,9 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 16",
+            "tag": "🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 16",
             "type": "trojan",
-            "server": "13.53.74.71",
+            "server": "18.196.197.92",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -1851,7 +1851,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 443,
@@ -1882,7 +1882,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
             "type": "vless",
             "server": "108.165.216.31",
             "server_port": 443,
