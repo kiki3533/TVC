@@ -134,14 +134,14 @@
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "🇺🇸US | 🔴 | vless | @Watashi_VPN | 2",
                 "🇺🇸US | 🔴 | vless | @azadi_az_inja_migzare | 0",
-                "🇮🇷IR | 🔴 | trojan | @V2rayCollectorDonate | 17",
+                "❔XX | 🔴 | trojan | @V2rayCollectorDonate | 17",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 16",
                 "🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 17",
                 "🇸🇪SE | 🟢 | trojan | @DirectVPN | 15",
                 "🇸🇪SE | 🟢 | trojan | @DirectVPN | 16",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
-                "🇩🇪DE | 🟢 | ss | @DeamNet_Proxy | 15",
+                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 16",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 11",
                 "❔XX | 🔴 | vless | @customv2ray | 12",
                 "🇺🇸US | 🟢 | vless | @UnlimitedDev | 15",
@@ -168,8 +168,8 @@
                 "❔XX | 🟢 | vmess | @proxystore11 | 2",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
+                "🇮🇷IR | 🟢 | vmess | @Hope_Net | 8",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
@@ -224,14 +224,14 @@
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "🇺🇸US | 🔴 | vless | @Watashi_VPN | 2",
                 "🇺🇸US | 🔴 | vless | @azadi_az_inja_migzare | 0",
-                "🇮🇷IR | 🔴 | trojan | @V2rayCollectorDonate | 17",
+                "❔XX | 🔴 | trojan | @V2rayCollectorDonate | 17",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 16",
                 "🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 17",
                 "🇸🇪SE | 🟢 | trojan | @DirectVPN | 15",
                 "🇸🇪SE | 🟢 | trojan | @DirectVPN | 16",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
-                "🇩🇪DE | 🟢 | ss | @DeamNet_Proxy | 15",
+                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 16",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 11",
                 "❔XX | 🔴 | vless | @customv2ray | 12",
                 "🇺🇸US | 🟢 | vless | @UnlimitedDev | 15",
@@ -258,8 +258,8 @@
                 "❔XX | 🟢 | vmess | @proxystore11 | 2",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
+                "🇮🇷IR | 🟢 | vmess | @Hope_Net | 8",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
@@ -979,7 +979,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | trojan | @V2rayCollectorDonate | 17",
+            "tag": "❔XX | 🔴 | trojan | @V2rayCollectorDonate | 17",
             "type": "trojan",
             "server": "server2.cactusrobot.ir",
             "server_port": 8608,
@@ -1127,14 +1127,38 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | ss | @DeamNet_Proxy | 15",
-            "type": "shadowsocks",
-            "server": "81.19.141.45",
-            "server_port": 52873,
-            "method": "chacha20-ietf-poly1305",
-            "password": "BXkeUSabwj1rRTj4cLT3O5",
-            "plugin": "",
-            "plugin_opts": ""
+            "tag": "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 16",
+            "type": "vmess",
+            "server": "afrhms16v.bestxray.buzz",
+            "server_port": 443,
+            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "afrhms16v.bestxray.buzz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "afrhms16v.bestxray.buzz"
+                }
+            }
         },
         {
             "tag": "🇺🇸US | 🔴 | vless | @customv2ray | 11",
@@ -1780,11 +1804,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "104.19.45.35",
-            "server_port": 2082,
-            "uuid": "5f3f09ad-89cb-4e94-a7ad-aa8239913555",
+            "server": "172.67.151.228",
+            "server_port": 8880,
+            "uuid": "4b5e4565-322f-4223-a891-78a84f189726",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1797,18 +1821,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/github.com\/Alvin9999",
+                "path": "\/9sTFt5L554kPVWmuJ2k8baS4bEY83PZ66xb4twoBBtsiMPK2b",
                 "headers": {
-                    "Host": "104.19.45.35"
+                    "Host": ""
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
+            "tag": "🇮🇷IR | 🟢 | vmess | @Hope_Net | 8",
             "type": "vmess",
-            "server": "172.64.166.9",
-            "server_port": 2082,
-            "uuid": "5f3f09ad-89cb-4e94-a7ad-aa8239913555",
+            "server": "212.80.18.72",
+            "server_port": 8014,
+            "uuid": "486cbdac-582f-42f8-ad81-f02d6b0e0bb2",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1818,13 +1842,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/github.com\/Alvin9999",
-                "headers": {
-                    "Host": "172.64.166.9"
-                }
             }
         },
         {
