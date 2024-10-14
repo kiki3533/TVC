@@ -120,9 +120,9 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
-  - {"name":"❔XX | 🔴 | trojan | @V2rayCollectorDonate | 17","type":"trojan","server":"server2.cactusrobot.ir","port":8608,"udp":false,"password":"V_kT5VVzTK4gfCCxQipNAA","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 14","type":"trojan","server":"3.73.254.154","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 15","type":"trojan","server":"13.49.130.179","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇮🇷IR | 🔴 | trojan | @V2rayCollectorDonate | 17","type":"trojan","server":"server2.cactusrobot.ir","port":8608,"udp":false,"password":"V_kT5VVzTK4gfCCxQipNAA","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 14","type":"trojan","server":"52.47.189.11","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 15","type":"trojan","server":"18.198.43.102","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇺🇸US | 🟢 | trojan | @DirectVPN | 14","type":"trojan","server":"3.139.145.191","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇨🇦CA | 🟢 | trojan | @DirectVPN | 15","type":"trojan","server":"3.96.9.113","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
 proxy-groups:
@@ -131,9 +131,9 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '❔XX | 🔴 | trojan | @V2rayCollectorDonate | 17'
-      - '🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 14'
-      - '🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 15'
+      - '🇮🇷IR | 🔴 | trojan | @V2rayCollectorDonate | 17'
+      - '🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 14'
+      - '🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 15'
       - '🇺🇸US | 🟢 | trojan | @DirectVPN | 14'
       - '🇨🇦CA | 🟢 | trojan | @DirectVPN | 15'
   - name: URL-TEST
@@ -142,9 +142,9 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '❔XX | 🔴 | trojan | @V2rayCollectorDonate | 17'
-      - '🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 14'
-      - '🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 15'
+      - '🇮🇷IR | 🔴 | trojan | @V2rayCollectorDonate | 17'
+      - '🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 14'
+      - '🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 15'
       - '🇺🇸US | 🟢 | trojan | @DirectVPN | 14'
       - '🇨🇦CA | 🟢 | trojan | @DirectVPN | 15'
   - name: FALLBACK
@@ -152,9 +152,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '❔XX | 🔴 | trojan | @V2rayCollectorDonate | 17'
-      - '🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 14'
-      - '🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 15'
+      - '🇮🇷IR | 🔴 | trojan | @V2rayCollectorDonate | 17'
+      - '🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 14'
+      - '🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 15'
       - '🇺🇸US | 🟢 | trojan | @DirectVPN | 14'
       - '🇨🇦CA | 🟢 | trojan | @DirectVPN | 15'
 rule-providers:
