@@ -129,6 +129,7 @@
                 "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 12",
                 "🇫🇷FR | 🟢 | vmess | @DeamNet_Proxy | 13",
                 "❔XX | 🟢 | vmess | @customv2ray | 10",
+                "🚩CF | 🟢 | vmess | @V2rayng_Fast | 0",
                 "❔XX | 🟢 | vmess | @proxystore11 | 0",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
@@ -146,11 +147,10 @@
                 "🇯🇵JP | 🟢 | vmess | @Hope_Net | 8",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
                 "❔XX | 🟢 | vmess | @Hope_Net | 10",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 11",
+                "🇮🇹IT | 🟢 | vmess | @Hope_Net | 11",
                 "🇨🇳CN | 🟢 | vmess | @Hope_Net | 13",
                 "🇨🇳CN | 🟢 | vmess | @Hope_Net | 14",
                 "❔XX | 🟢 | vmess | @Hope_Net | 15",
-                "🚩CF | 🟢 | vmess | @Hope_Net | 16",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 3",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 5",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 11",
@@ -191,6 +191,7 @@
                 "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 12",
                 "🇫🇷FR | 🟢 | vmess | @DeamNet_Proxy | 13",
                 "❔XX | 🟢 | vmess | @customv2ray | 10",
+                "🚩CF | 🟢 | vmess | @V2rayng_Fast | 0",
                 "❔XX | 🟢 | vmess | @proxystore11 | 0",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
@@ -208,11 +209,10 @@
                 "🇯🇵JP | 🟢 | vmess | @Hope_Net | 8",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
                 "❔XX | 🟢 | vmess | @Hope_Net | 10",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 11",
+                "🇮🇹IT | 🟢 | vmess | @Hope_Net | 11",
                 "🇨🇳CN | 🟢 | vmess | @Hope_Net | 13",
                 "🇨🇳CN | 🟢 | vmess | @Hope_Net | 14",
                 "❔XX | 🟢 | vmess | @Hope_Net | 15",
-                "🚩CF | 🟢 | vmess | @Hope_Net | 16",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 3",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 5",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 11",
@@ -761,6 +761,40 @@
             }
         },
         {
+            "tag": "🚩CF | 🟢 | vmess | @V2rayng_Fast | 0",
+            "type": "vmess",
+            "server": "172.67.244.191",
+            "server_port": 443,
+            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "gwdef.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "gwdef.sbs"
+                }
+            }
+        },
+        {
             "tag": "❔XX | 🟢 | vmess | @proxystore11 | 0",
             "type": "vmess",
             "server": "2a12:5940:b856::2",
@@ -1204,7 +1238,7 @@
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 11",
+            "tag": "🇮🇹IT | 🟢 | vmess | @Hope_Net | 11",
             "type": "vmess",
             "server": "pro01.my1188.org",
             "server_port": 3213,
@@ -1286,30 +1320,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🚩CF | 🟢 | vmess | @Hope_Net | 16",
-            "type": "vmess",
-            "server": "104.26.15.148",
-            "server_port": 80,
-            "uuid": "2c4d6f66-2966-49c1-93aa-a7192ba8f8fc",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/V2LINE-TELEGRAM-CHANNEL-VMESS-WS",
-                "headers": {
-                    "Host": "104.26.15.148"
-                }
             }
         },
         {
