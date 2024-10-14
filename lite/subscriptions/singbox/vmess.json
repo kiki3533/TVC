@@ -107,12 +107,13 @@
             "outbounds": [
                 "URL-TEST",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
+                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 17",
                 "🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0",
                 "❔XX | 🟢 | vmess | @proxystore11 | 0",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 13",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 14"
+                "🇯🇵JP | 🟢 | vmess | @Hope_Net | 10",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 11"
             ]
         },
         {
@@ -120,12 +121,13 @@
             "type": "urltest",
             "outbounds": [
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
+                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 17",
                 "🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0",
                 "❔XX | 🟢 | vmess | @proxystore11 | 0",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 13",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 14"
+                "🇯🇵JP | 🟢 | vmess | @Hope_Net | 10",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 11"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -162,6 +164,40 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 17",
+            "type": "vmess",
+            "server": "104.16.67.38",
+            "server_port": 2087,
+            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "worker-bitter-math-2af8.waxoha3621.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/afrhms16v.bestxray.buzz\/linkws",
+                "headers": {
+                    "Host": "worker-bitter-math-2af8.waxoha3621.workers.dev"
+                }
             }
         },
         {
@@ -274,11 +310,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 13",
+            "tag": "🇯🇵JP | 🟢 | vmess | @Hope_Net | 10",
             "type": "vmess",
-            "server": "usarm.ptuu.gq",
+            "server": "172.105.238.164",
             "server_port": 443,
-            "uuid": "8f0dae33-195e-46b1-fb4a-3e8fd8806153",
+            "uuid": "3706161f-3ee3-48e5-bfcf-0d856cc6f0ab",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -291,7 +327,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "usarm.ptuu.gq",
+                "server_name": "172.105.238.164",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -301,18 +337,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/ray",
+                "path": "\/down",
                 "headers": {
-                    "Host": "usarm.ptuu.gq"
+                    "Host": "172.105.238.164"
                 }
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 14",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
             "type": "vmess",
-            "server": "221.131.165.72",
-            "server_port": 11930,
-            "uuid": "2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2",
+            "server": "ah.yd01.paopaocloud.cyou",
+            "server_port": 10014,
+            "uuid": "d8c5b486-84bb-3887-a1d9-07455ea608f2",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -322,6 +358,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ah.yd01.paopaocloud.cyou",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/v2ray",
+                "headers": {
+                    "Host": "ah.yd01.paopaocloud.cyou"
+                }
             }
         }
     ],
