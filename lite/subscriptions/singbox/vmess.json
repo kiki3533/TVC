@@ -108,12 +108,14 @@
                 "URL-TEST",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 16",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-                "🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0",
+                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 13",
+                "🇨🇦CA | 🟢 | vmess | @V2rayng_Fast | 0",
                 "❔XX | 🟢 | vmess | @proxystore11 | 0",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+                "❔XX | 🟢 | vmess | @Hope_Net | 8",
                 "🇮🇷IR | 🟢 | vmess | @Hope_Net | 9",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 10"
+                "🇺🇸US | 🟢 | vmess | @nofiltering2 | 15"
             ]
         },
         {
@@ -122,12 +124,14 @@
             "outbounds": [
                 "🇺🇸US | 🟢 | vmess | @mftizi | 16",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-                "🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0",
+                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 13",
+                "🇨🇦CA | 🟢 | vmess | @V2rayng_Fast | 0",
                 "❔XX | 🟢 | vmess | @proxystore11 | 0",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+                "❔XX | 🟢 | vmess | @Hope_Net | 8",
                 "🇮🇷IR | 🟢 | vmess | @Hope_Net | 9",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 10"
+                "🇺🇸US | 🟢 | vmess | @nofiltering2 | 15"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -191,7 +195,41 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0",
+            "tag": "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 13",
+            "type": "vmess",
+            "server": "104.16.61.8",
+            "server_port": 2053,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "worgold21yagranghadeyaakbarshokretbozorg.abza.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linde06.indiavideo.sbs\/linkws",
+                "headers": {
+                    "Host": "worgold21yagranghadeyaakbarshokretbozorg.abza.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | 🟢 | vmess | @V2rayng_Fast | 0",
             "type": "vmess",
             "server": "172.67.244.191",
             "server_port": 443,
@@ -300,6 +338,23 @@
             }
         },
         {
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 8",
+            "type": "vmess",
+            "server": "127.0.0.1",
+            "server_port": 8080,
+            "uuid": "acaabbc-aacb-acab-bacd-cccbaabbbcaa",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇮🇷IR | 🟢 | vmess | @Hope_Net | 9",
             "type": "vmess",
             "server": "193.151.132.190",
@@ -317,11 +372,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
+            "tag": "🇺🇸US | 🟢 | vmess | @nofiltering2 | 15",
             "type": "vmess",
-            "server": "104.18.13.15",
+            "server": "www.Kayak.com",
             "server_port": 443,
-            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+            "uuid": "b40aefd2-4431-41a0-8623-4d552a730070",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -334,7 +389,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "fragrant-heart-c94b.fticrh.workers.dev",
+                "server_name": "www.Kayak.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -344,9 +399,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/glweidf.sbs\/linkws",
+                "path": "\/racevpn?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn",
                 "headers": {
-                    "Host": "fragrant-heart-c94b.fticrh.workers.dev"
+                    "Host": "www.Kayak.com"
                 }
             }
         }
