@@ -147,6 +147,7 @@
                 "🇺🇸US | 🟢 | vless | @vmessorg | 10",
                 "🇫🇮FI | 🔴 | vless | @ShadowProxy66 | 8",
                 "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 9",
+                "❔XX | 🔴 | vless | @ServerNett | 22",
                 "🇸🇪SE | 🔴 | vless | @ServerNett | 23",
                 "🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 36",
@@ -236,6 +237,7 @@
                 "🇺🇸US | 🟢 | vless | @vmessorg | 10",
                 "🇫🇮FI | 🔴 | vless | @ShadowProxy66 | 8",
                 "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 9",
+                "❔XX | 🔴 | vless | @ServerNett | 22",
                 "🇸🇪SE | 🔴 | vless | @ServerNett | 23",
                 "🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 36",
@@ -1282,11 +1284,25 @@
             }
         },
         {
+            "tag": "❔XX | 🔴 | vless | @ServerNett | 22",
+            "type": "vless",
+            "server": "[2a01:4f8:1c1c:3786::1]",
+            "server_port": 49461,
+            "uuid": "1f6cb664-3435-48ba-a25c-ee17b6107b04",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇸🇪SE | 🔴 | vless | @ServerNett | 23",
             "type": "vless",
             "server": "185.146.173.58",
             "server_port": 8080,
-            "uuid": "476c9705-0ab2-4729-904b-3774179fad8b",
+            "uuid": "a57ddecb-1922-4e97-ba8e-577147e6e51e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1611,7 +1627,7 @@
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
             "server_port": 443,
-            "uuid": "5141c571-0bfd-447d-a2e2-0f4aab7e7563",
+            "uuid": "5951f0b3-ee56-4776-a2ab-27edaf865183",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1642,7 +1658,7 @@
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
             "server_port": 80,
-            "uuid": "5141c571-0bfd-447d-a2e2-0f4aab7e7563",
+            "uuid": "5951f0b3-ee56-4776-a2ab-27edaf865183",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
