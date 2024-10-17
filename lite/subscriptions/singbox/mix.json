@@ -166,15 +166,15 @@
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 11",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 12",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 13",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 307",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 307",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 308",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 14",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 15",
                 "❔XX | 🟢 | vmess | @proxystore11 | 0",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 6",
                 "❔XX | 🟢 | vmess | @Hope_Net | 7",
+                "❔XX | 🟢 | vmess | @Hope_Net | 8",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
@@ -260,15 +260,15 @@
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 11",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 12",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 13",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 307",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 307",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 308",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 14",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 15",
                 "❔XX | 🟢 | vmess | @proxystore11 | 0",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 6",
                 "❔XX | 🟢 | vmess | @Hope_Net | 7",
+                "❔XX | 🟢 | vmess | @Hope_Net | 8",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
@@ -1767,10 +1767,10 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 307",
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 307",
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
-            "server_port": 443,
+            "server_port": 80,
             "uuid": "5951f0b3-ee56-4776-a2ab-27edaf865183",
             "flow": "",
             "packet_encoding": "xudp",
@@ -1778,16 +1778,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hajlab.ucdavis.edu",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             },
             "transport": {
                 "type": "ws",
@@ -1966,7 +1956,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 6",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 7",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 1080,
@@ -1983,7 +1973,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 7",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 8",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
