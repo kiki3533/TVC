@@ -111,7 +111,7 @@
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 13",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 14",
                 "🇸🇪SE | 🔴 | vless | @VlessConfig | 16",
-                "🇮🇪IE | 🔴 | vless | @VlessConfig | 17",
+                "🇸🇪SE | 🔴 | vless | @VlessConfig | 17",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 12",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 13",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 4",
@@ -128,7 +128,6 @@
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 16",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 17",
-                "🇮🇷IR | 🔴 | vless | @DarkTeam_VPN | 0",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 8",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 9",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
@@ -188,7 +187,7 @@
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 13",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 14",
                 "🇸🇪SE | 🔴 | vless | @VlessConfig | 16",
-                "🇮🇪IE | 🔴 | vless | @VlessConfig | 17",
+                "🇸🇪SE | 🔴 | vless | @VlessConfig | 17",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 12",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 13",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 4",
@@ -205,7 +204,6 @@
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 16",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 17",
-                "🇮🇷IR | 🔴 | vless | @DarkTeam_VPN | 0",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 8",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 9",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
@@ -368,7 +366,7 @@
         {
             "tag": "🇸🇪SE | 🔴 | vless | @VlessConfig | 16",
             "type": "vless",
-            "server": "13.49.31.97",
+            "server": "13.49.131.33",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -397,9 +395,9 @@
             }
         },
         {
-            "tag": "🇮🇪IE | 🔴 | vless | @VlessConfig | 17",
+            "tag": "🇸🇪SE | 🔴 | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "52.51.50.135",
+            "server": "13.49.31.97",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -818,20 +816,6 @@
                 "headers": {
                     "Host": "www.speedtest.net"
                 }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🔴 | vless | @DarkTeam_VPN | 0",
-            "type": "vless",
-            "server": "ir1.ordeloil.com",
-            "server_port": 2083,
-            "uuid": "c882bbc8-02cc-4e1d-94b8-d5a84fbb4898",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
