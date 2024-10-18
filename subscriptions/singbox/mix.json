@@ -157,7 +157,7 @@
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 1",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 2",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 3",
-                "TVCkikejpkwoy",
+                "TVCrkdrzddzom",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 5",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 6",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 7",
@@ -260,7 +260,7 @@
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 2",
                 "❔XX | 🟢 | vless | @V2rayCollectorDonate | 9",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 15",
-                "❔XX | 🔴 | trojan | @V2rayCollectorDonate | 17",
+                "🇮🇷IR | 🔴 | trojan | @V2rayCollectorDonate | 17",
                 "🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 0",
                 "🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 1",
                 "🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 2",
@@ -524,7 +524,6 @@
                 "❔XX | 🟢 | vmess | @Hope_Net | 6",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 7",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 8",
-                "🚩CF | 🟢 | vmess | @Hope_Net | 9",
                 "🚩CF | 🔴 | vless | @fnet00 | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 3",
                 "🚩CF | 🔴 | vless | @fnet00 | 8",
@@ -698,7 +697,7 @@
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 1",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 2",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 3",
-                "TVCkikejpkwoy",
+                "TVCrkdrzddzom",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 5",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 6",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 7",
@@ -801,7 +800,7 @@
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 2",
                 "❔XX | 🟢 | vless | @V2rayCollectorDonate | 9",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 15",
-                "❔XX | 🔴 | trojan | @V2rayCollectorDonate | 17",
+                "🇮🇷IR | 🔴 | trojan | @V2rayCollectorDonate | 17",
                 "🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 0",
                 "🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 1",
                 "🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 2",
@@ -1065,7 +1064,6 @@
                 "❔XX | 🟢 | vmess | @Hope_Net | 6",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 7",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 8",
-                "🚩CF | 🟢 | vmess | @Hope_Net | 9",
                 "🚩CF | 🔴 | vless | @fnet00 | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 3",
                 "🚩CF | 🔴 | vless | @fnet00 | 8",
@@ -2425,7 +2423,7 @@
             }
         },
         {
-            "tag": "TVCkikejpkwoy",
+            "tag": "TVCrkdrzddzom",
             "type": "vless",
             "server": "",
             "server_port": 0,
@@ -4965,7 +4963,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | trojan | @V2rayCollectorDonate | 17",
+            "tag": "🇮🇷IR | 🔴 | trojan | @V2rayCollectorDonate | 17",
             "type": "trojan",
             "server": "server2.cactusrobot.ir",
             "server_port": 8608,
@@ -11666,30 +11664,6 @@
                 "path": "\/github.com\/Alvin9999",
                 "headers": {
                     "Host": "172.64.99.22"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🟢 | vmess | @Hope_Net | 9",
-            "type": "vmess",
-            "server": "172.64.166.33",
-            "server_port": 2095,
-            "uuid": "18d96190-c10f-448f-a82a-2d36df5c3cde",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/github.com\/Alvin9999",
-                "headers": {
-                    "Host": "172.64.166.33"
                 }
             }
         },
