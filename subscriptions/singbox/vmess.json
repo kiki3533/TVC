@@ -123,8 +123,9 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 15",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 16",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 17",
-                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 4",
-                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 12",
+                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 11",
+                "🇸🇪SE | 🟢 | vmess | @DeamNet_Proxy | 12",
+                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 16",
                 "🇺🇸US | 🟢 | vmess | @customv2ray | 5",
                 "🇺🇸US | 🟢 | vmess | @customv2ray | 6",
                 "🇭🇰HK | 🟢 | vmess | @customv2ray | 8",
@@ -191,8 +192,9 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 15",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 16",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 17",
-                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 4",
-                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 12",
+                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 11",
+                "🇸🇪SE | 🟢 | vmess | @DeamNet_Proxy | 12",
+                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 16",
                 "🇺🇸US | 🟢 | vmess | @customv2ray | 5",
                 "🇺🇸US | 🟢 | vmess | @customv2ray | 6",
                 "🇭🇰HK | 🟢 | vmess | @customv2ray | 8",
@@ -589,11 +591,11 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 4",
+            "tag": "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 11",
             "type": "vmess",
-            "server": "104.17.27.198",
+            "server": "172.66.213.38",
             "server_port": 443,
-            "uuid": "4804f14b-c1f8-452d-a6ec-eff1490aeac9",
+            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -606,7 +608,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "hdfy6c5.cpionline.co",
+                "server_name": "green-morning-ce19.mehdipost667.workers.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -615,17 +617,51 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "lRkGCkYS9X5GFzoZoavn2kmJ",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/afrhms16v.bestxray.buzz\/linkws",
+                "headers": {
+                    "Host": "green-morning-ce19.mehdipost667.workers.dev"
+                }
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 12",
+            "tag": "🇸🇪SE | 🟢 | vmess | @DeamNet_Proxy | 12",
             "type": "vmess",
-            "server": "104.21.24.170",
+            "server": "185.146.173.158",
+            "server_port": 443,
+            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "jahfkjha.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "jahfkjha.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 16",
+            "type": "vmess",
+            "server": "denc36.xtooltech.cfd",
             "server_port": 443,
             "uuid": "b321fd5d-e6ec-4293-a644-164e3885f52e",
             "security": "auto",
@@ -640,7 +676,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "adenc36v.xtooltech.cfd",
+                "server_name": "denc36.xtooltech.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -652,7 +688,7 @@
                 "type": "ws",
                 "path": "\/linkws",
                 "headers": {
-                    "Host": "adenc36v.xtooltech.cfd"
+                    "Host": "denc36.xtooltech.cfd"
                 }
             }
         },
