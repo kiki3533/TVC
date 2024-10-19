@@ -146,7 +146,7 @@ proxies:
   - {"name":"🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 15","type":"vmess","server":"speedtest.net","port":"443","cipher":"auto","uuid":"57727d7d-8873-4000-b3f4-33a93fcfdd51","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/m28jcoZZUhkqg6pk11","headers":{"host":"mehrjavan.ir"}}}
   - {"name":"🚩CF | 🟢 | vmess | @ShadowProxy66 | 33","type":"vmess","server":"172.67.220.83","port":"443","cipher":"auto","uuid":"39cec18f-a439-427c-9a4e-aeb6fcdf6f53","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"linja05.hwcar.sbs"}}}
   - {"name":"🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 39","type":"vmess","server":"hms24.ivideos.sbs","port":"443","cipher":"auto","uuid":"441da342-ce90-441e-bff9-d2ceb55e68ca","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"ivideos.sbs"}}}
-  - {"name":"🇺🇸US | 🟢 | vmess | @v2ray1_ng | 4","type":"vmess","server":"www.speedtest.net","port":"8880","cipher":"auto","uuid":"48c766e5-c9b7-4561-9b9f-5b62b0f3a9c2","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"2ig.irvn.debian.6.6.1b1.8.fxp.debian.org.speedtest.net.列列男事的事列上赛.abkon.cyou."}}}
+  - {"name":"🇺🇸US | 🟢 | vmess | @v2ray1_ng | 5","type":"vmess","server":"www.speedtest.net","port":"8880","cipher":"auto","uuid":"48c766e5-c9b7-4561-9b9f-5b62b0f3a9c2","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"2ig.irvn.debian.6.6.1b1.8.fxp.debian.org.speedtest.net.列列男事的事列上赛.abkon.cyou."}}}
   - {"name":"❔XX | 🟢 | vmess | @proxystore11 | 0","type":"vmess","server":"2a01:4f8:1c1b:222a::1","port":"80","cipher":"auto","uuid":"00d8d4b6-c5e6-4d77-b58b-c9443ec707aa","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"❔XX | 🟢 | vmess | @proxystore11 | 1","type":"vmess","server":"2a12:5940:b856::2","port":"80","cipher":"auto","uuid":"ec844506-3b53-4a0c-86b6-f76d3347c0fd","alterId":"0","tls":false,"skip-cert-verify":true,"network":"splithttp"}
   - {"name":"🇳🇱NL | 🟢 | vmess | @yaney_01 | 1","type":"vmess","server":"45.199.138.217","port":"41000","cipher":"auto","uuid":"f9fa3a9c-f7d5-414f-88e6-6970585d9949","alterId":"64","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/path/282018252526","headers":{"host":"45.199.138.217"}}}
@@ -204,7 +204,7 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 15'
       - '🚩CF | 🟢 | vmess | @ShadowProxy66 | 33'
       - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 39'
-      - '🇺🇸US | 🟢 | vmess | @v2ray1_ng | 4'
+      - '🇺🇸US | 🟢 | vmess | @v2ray1_ng | 5'
       - '❔XX | 🟢 | vmess | @proxystore11 | 0'
       - '❔XX | 🟢 | vmess | @proxystore11 | 1'
       - '🇳🇱NL | 🟢 | vmess | @yaney_01 | 1'
@@ -262,7 +262,7 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 15'
       - '🚩CF | 🟢 | vmess | @ShadowProxy66 | 33'
       - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 39'
-      - '🇺🇸US | 🟢 | vmess | @v2ray1_ng | 4'
+      - '🇺🇸US | 🟢 | vmess | @v2ray1_ng | 5'
       - '❔XX | 🟢 | vmess | @proxystore11 | 0'
       - '❔XX | 🟢 | vmess | @proxystore11 | 1'
       - '🇳🇱NL | 🟢 | vmess | @yaney_01 | 1'
@@ -319,7 +319,7 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 15'
       - '🚩CF | 🟢 | vmess | @ShadowProxy66 | 33'
       - '🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 39'
-      - '🇺🇸US | 🟢 | vmess | @v2ray1_ng | 4'
+      - '🇺🇸US | 🟢 | vmess | @v2ray1_ng | 5'
       - '❔XX | 🟢 | vmess | @proxystore11 | 0'
       - '❔XX | 🟢 | vmess | @proxystore11 | 1'
       - '🇳🇱NL | 🟢 | vmess | @yaney_01 | 1'
