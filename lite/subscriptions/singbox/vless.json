@@ -109,7 +109,7 @@
                 "🇺🇸US | 🔴 | vless | @Parsashonam | 38",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 39",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 13",
-                "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
+                "🇺🇸US | 🔴 | vless | @XsV2ray | 14",
                 "🇨🇦CA | 🔴 | vless | @VlessConfig | 15",
                 "🇺🇸US | 🔴 | vless | @VlessConfig | 16",
                 "🇩🇪DE | 🔴 | vless | @VPNCUSTOMIZE | 0",
@@ -129,7 +129,7 @@
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 16",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 17",
-                "🇺🇸US | 🔴 | vless | @proxy_kafee | 10",
+                "🇺🇸US | 🔴 | vless | @proxy_kafee | 8",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "🇺🇸US | 🔴 | vless | @Watashi_VPN | 3",
@@ -154,8 +154,8 @@
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 12",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 13",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 10",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 11",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 12",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 3",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 4",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -180,7 +180,7 @@
                 "🇺🇸US | 🔴 | vless | @Parsashonam | 38",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 39",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 13",
-                "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
+                "🇺🇸US | 🔴 | vless | @XsV2ray | 14",
                 "🇨🇦CA | 🔴 | vless | @VlessConfig | 15",
                 "🇺🇸US | 🔴 | vless | @VlessConfig | 16",
                 "🇩🇪DE | 🔴 | vless | @VPNCUSTOMIZE | 0",
@@ -200,7 +200,7 @@
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 16",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 17",
-                "🇺🇸US | 🔴 | vless | @proxy_kafee | 10",
+                "🇺🇸US | 🔴 | vless | @proxy_kafee | 8",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "🇺🇸US | 🔴 | vless | @Watashi_VPN | 3",
@@ -225,8 +225,8 @@
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 12",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 13",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 10",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 11",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 12",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 3",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 4",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -323,7 +323,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
+            "tag": "🇺🇸US | 🔴 | vless | @XsV2ray | 14",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2083,
@@ -840,11 +840,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 10",
+            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 8",
             "type": "vless",
-            "server": "104.21.48.53",
-            "server_port": 8443,
-            "uuid": "5f676d84-c151-48c2-bc09-63017f4a822a",
+            "server": "hajlab.ucdavis.edu",
+            "server_port": 443,
+            "uuid": "c6020714-35ad-47b7-af84-7d640c6c5e2e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -854,7 +854,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "pAgES.DEV",
+                "server_name": "hajlab.ucdavis.edu",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -864,9 +864,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram@\/?ed=2087",
+                "path": "\/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy",
                 "headers": {
-                    "Host": "pAgES.DEV"
+                    "Host": "hajlab.ucdavis.edu"
                 }
             }
         },
@@ -1473,7 +1473,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 11",
             "type": "vless",
             "server": "172.66.44.85",
             "server_port": 443,
@@ -1504,7 +1504,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 10",
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 12",
             "type": "vless",
             "server": "104.27.207.92",
             "server_port": 443,
