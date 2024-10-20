@@ -112,8 +112,8 @@
                 "❔XX | 🟢 | vmess | @proxystore11 | 1",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
-                "🇩🇪DE | 🟢 | vmess | @Hope_Net | 3"
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 0",
+                "❔XX | 🟢 | vmess | @Hope_Net | 1"
             ]
         },
         {
@@ -126,8 +126,8 @@
                 "❔XX | 🟢 | vmess | @proxystore11 | 1",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
-                "🇩🇪DE | 🟢 | vmess | @Hope_Net | 3"
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 0",
+                "❔XX | 🟢 | vmess | @Hope_Net | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -297,33 +297,9 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 0",
             "type": "vmess",
-            "server": "104.19.59.89",
-            "server_port": 2095,
-            "uuid": "18d96190-c10f-448f-a82a-2d36df5c3cde",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/github.com\/Alvin9999",
-                "headers": {
-                    "Host": "104.19.59.89"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vmess | @Hope_Net | 3",
-            "type": "vmess",
-            "server": "23.158.56.129",
+            "server": "104.21.72.230",
             "server_port": 443,
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
@@ -338,7 +314,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "23.158.56.129",
+                "server_name": "anaviriti.info",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -350,8 +326,25 @@
                 "type": "ws",
                 "path": "\/linkvws",
                 "headers": {
-                    "Host": "23.158.56.129"
+                    "Host": "anaviriti.info"
                 }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 1",
+            "type": "vmess",
+            "server": "127.0.0.1",
+            "server_port": 8080,
+            "uuid": "cbabaca-baac-aabc-cdba-caabaccabcbb",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         }
     ],
