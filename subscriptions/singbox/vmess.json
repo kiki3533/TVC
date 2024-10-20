@@ -123,15 +123,13 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 15",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 16",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 17",
-                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 0",
-                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 4",
-                "🇧🇬BG | 🟢 | vmess | @DeamNet_Proxy | 11",
-                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 12",
-                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 14",
+                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 5",
+                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 9",
+                "🇧🇬BG | 🟢 | vmess | @DeamNet_Proxy | 16",
+                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 17",
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 14",
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 16",
                 "🇹🇷TR | 🟢 | vmess | @ShadowProxy66 | 19",
-                "🇺🇸US | 🟢 | vmess | @v2ray1_ng | 6",
                 "❔XX | 🟢 | vmess | @proxystore11 | 0",
                 "❔XX | 🟢 | vmess | @proxystore11 | 1",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
@@ -173,15 +171,13 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 15",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 16",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 17",
-                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 0",
-                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 4",
-                "🇧🇬BG | 🟢 | vmess | @DeamNet_Proxy | 11",
-                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 12",
-                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 14",
+                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 5",
+                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 9",
+                "🇧🇬BG | 🟢 | vmess | @DeamNet_Proxy | 16",
+                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 17",
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 14",
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 16",
                 "🇹🇷TR | 🟢 | vmess | @ShadowProxy66 | 19",
-                "🇺🇸US | 🟢 | vmess | @v2ray1_ng | 6",
                 "❔XX | 🟢 | vmess | @proxystore11 | 0",
                 "❔XX | 🟢 | vmess | @proxystore11 | 1",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
@@ -553,7 +549,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 0",
+            "tag": "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 5",
             "type": "vmess",
             "server": "104.16.61.8",
             "server_port": 2052,
@@ -577,7 +573,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 4",
+            "tag": "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 9",
             "type": "vmess",
             "server": "104.21.74.239",
             "server_port": 443,
@@ -611,7 +607,7 @@
             }
         },
         {
-            "tag": "🇧🇬BG | 🟢 | vmess | @DeamNet_Proxy | 11",
+            "tag": "🇧🇬BG | 🟢 | vmess | @DeamNet_Proxy | 16",
             "type": "vmess",
             "server": "147.78.140.30",
             "server_port": 443,
@@ -645,7 +641,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 12",
+            "tag": "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 17",
             "type": "vmess",
             "server": "gcore-bwg.1929585.xyz",
             "server_port": 443,
@@ -676,23 +672,6 @@
                 "headers": {
                     "Host": "gcore-bwg.1929585.xyz"
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 14",
-            "type": "vmess",
-            "server": "38.75.137.27",
-            "server_port": 22324,
-            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -774,30 +753,6 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "103.215.218.222"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @v2ray1_ng | 6",
-            "type": "vmess",
-            "server": "www.speedtest.net",
-            "server_port": 8880,
-            "uuid": "48c766e5-c9b7-4561-9b9f-5b62b0f3a9c2",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
                 }
             }
         },
