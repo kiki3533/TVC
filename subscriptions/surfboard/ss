@@ -11,12 +11,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-❔XX | 🟢 | ss | @DeamNet_Proxy | 12 = ss, 81.19.141.45, 52873, encrypt-method = chacha20-ietf-poly1305, password = Zx3PtvlHKWXwBpifHwpqW0
-❔XX | 🟢 | ss | @kingofilter | 6 = ss, series-a2-me.varzesh360.co, 443, encrypt-method = chacha20-ietf-poly1305, password = Bog0ELmMM9DSxDdQ
+🇹🇷TR | 🟢 | ss | @DeamNet_Proxy | 13 = ss, exchange.gameaurela.click, 52952, encrypt-method = chacha20-ietf-poly1305, password = LMSNh21TrXjR2ok25Q2nE8ENT2zoBmPvka3RCCUAHZELCnWoekVjvaf89qwcRkdbxEfep2bc2aUtmnxqvF1ayQRez1JHjULj
+🇧🇭BH | 🟢 | ss | @kingofilter | 10 = ss, series-a2-me.varzesh360.co, 443, encrypt-method = chacha20-ietf-poly1305, password = Bog0ELmMM9DSxDdQ
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,❔XX | 🟢 | ss | @DeamNet_Proxy | 12,❔XX | 🟢 | ss | @kingofilter | 6
-URL-TEST = url-test,❔XX | 🟢 | ss | @DeamNet_Proxy | 12,❔XX | 🟢 | ss | @kingofilter | 6
-FALLBACK = fallback,❔XX | 🟢 | ss | @DeamNet_Proxy | 12,❔XX | 🟢 | ss | @kingofilter | 6
+MANUAL = select,URL-TEST,FALLBACK,🇹🇷TR | 🟢 | ss | @DeamNet_Proxy | 13,🇧🇭BH | 🟢 | ss | @kingofilter | 10
+URL-TEST = url-test,🇹🇷TR | 🟢 | ss | @DeamNet_Proxy | 13,🇧🇭BH | 🟢 | ss | @kingofilter | 10
+FALLBACK = fallback,🇹🇷TR | 🟢 | ss | @DeamNet_Proxy | 13,🇧🇭BH | 🟢 | ss | @kingofilter | 10
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
