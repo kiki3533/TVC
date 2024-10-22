@@ -114,7 +114,7 @@
                 "🇭🇰HK | 🟢 | vmess | @mftizi | 5",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 6",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 7",
-                "🇭🇰HK | 🟢 | vmess | @mftizi | 9",
+                "🇸🇬SG | 🟢 | vmess | @mftizi | 9",
                 "🇰🇷KR | 🟢 | vmess | @mftizi | 10",
                 "🇭🇰HK | 🟢 | vmess | @mftizi | 11",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 12",
@@ -136,7 +136,6 @@
                 "🇫🇷FR | 🟢 | vmess | @Hope_Net | 0",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 1",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 2",
-                "🚩CF | 🟢 | vmess | @Hope_Net | 3",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 17",
                 "🇺🇸US | 🟢 | vmess | @ISVvpn | 1"
             ]
@@ -153,7 +152,7 @@
                 "🇭🇰HK | 🟢 | vmess | @mftizi | 5",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 6",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 7",
-                "🇭🇰HK | 🟢 | vmess | @mftizi | 9",
+                "🇸🇬SG | 🟢 | vmess | @mftizi | 9",
                 "🇰🇷KR | 🟢 | vmess | @mftizi | 10",
                 "🇭🇰HK | 🟢 | vmess | @mftizi | 11",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 12",
@@ -175,7 +174,6 @@
                 "🇫🇷FR | 🟢 | vmess | @Hope_Net | 0",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 1",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 2",
-                "🚩CF | 🟢 | vmess | @Hope_Net | 3",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 17",
                 "🇺🇸US | 🟢 | vmess | @ISVvpn | 1"
             ],
@@ -343,7 +341,7 @@
             }
         },
         {
-            "tag": "🇭🇰HK | 🟢 | vmess | @mftizi | 9",
+            "tag": "🇸🇬SG | 🟢 | vmess | @mftizi | 9",
             "type": "vmess",
             "server": "149.104.15.209",
             "server_port": 22201,
@@ -868,30 +866,6 @@
                 "path": "\/github.com\/Alvin9999",
                 "headers": {
                     "Host": "104.19.38.9"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🟢 | vmess | @Hope_Net | 3",
-            "type": "vmess",
-            "server": "104.16.67.38",
-            "server_port": 2086,
-            "uuid": "1052f24e-7b09-45eb-b0c5-d858eb124192",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/glweidf.cfd\/linkws",
-                "headers": {
-                    "Host": "104.16.67.38"
                 }
             }
         },
