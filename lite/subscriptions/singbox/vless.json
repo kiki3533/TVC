@@ -127,7 +127,8 @@
                 "🇺🇸US | 🔴 | vless | @lightning6 | 20",
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 16",
-                "🇺🇸US | 🔴 | vless | @proxy_kafee | 7",
+                "🇺🇸US | 🔴 | vless | @DigiV2ray | 17",
+                "🇺🇸US | 🔴 | vless | @proxy_kafee | 8",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "🇺🇸US | 🔴 | vless | @Watashi_VPN | 3",
@@ -137,7 +138,7 @@
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 21",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 10",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 11",
-                "🇺🇸US | 🟢 | vless | @UnlimitedDev | 13",
+                "🇺🇸US | 🟢 | vless | @UnlimitedDev | 12",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 11",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 12",
                 "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 46",
@@ -206,7 +207,8 @@
                 "🇺🇸US | 🔴 | vless | @lightning6 | 20",
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 16",
-                "🇺🇸US | 🔴 | vless | @proxy_kafee | 7",
+                "🇺🇸US | 🔴 | vless | @DigiV2ray | 17",
+                "🇺🇸US | 🔴 | vless | @proxy_kafee | 8",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "🇺🇸US | 🔴 | vless | @Watashi_VPN | 3",
@@ -216,7 +218,7 @@
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 21",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 10",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 11",
-                "🇺🇸US | 🟢 | vless | @UnlimitedDev | 13",
+                "🇺🇸US | 🟢 | vless | @UnlimitedDev | 12",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 11",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 12",
                 "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 46",
@@ -770,7 +772,21 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2052,
-            "uuid": "DIGIV2RAy",
+            "uuid": "DIGIV2RAY",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @DigiV2ray | 17",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2052,
+            "uuid": "DIGIV2RAY",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -787,7 +803,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 7",
+            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 8",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8443,
@@ -1036,11 +1052,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @UnlimitedDev | 13",
+            "tag": "🇺🇸US | 🟢 | vless | @UnlimitedDev | 12",
             "type": "vless",
             "server": "live.wkrq.com",
             "server_port": 443,
-            "uuid": "0bbc49e0-5e6d-4a18-8efe-b06d1f9cb2c9",
+            "uuid": "7cc46a92-dc37-4aae-b58c-c1b56257a14f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1436,9 +1452,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @V2RayTz | 16",
             "type": "vless",
-            "server": "151.101.2.165",
+            "server": "151.101.2.216",
             "server_port": 80,
-            "uuid": "6e993426-cbff-4b03-bb11-9bd980f59999",
+            "uuid": "deb3017d-f6da-46c1-9ac4-45ed40a81c98",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1450,16 +1466,16 @@
                 "type": "ws",
                 "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER",
                 "headers": {
-                    "Host": "151.101.2.165"
+                    "Host": "151.101.2.216"
                 }
             }
         },
         {
             "tag": "🇺🇸US | 🔴 | vless | @V2RayTz | 17",
             "type": "vless",
-            "server": "151.101.128.155",
+            "server": "151.101.2.216",
             "server_port": 80,
-            "uuid": "6c76e884-b9cf-4e3c-b308-6f61d891f886",
+            "uuid": "f6c217a3-d78e-4d92-a321-6d53ea13262f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1471,7 +1487,7 @@
                 "type": "ws",
                 "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER",
                 "headers": {
-                    "Host": "151.101.128.155"
+                    "Host": "151.101.2.216"
                 }
             }
         },
