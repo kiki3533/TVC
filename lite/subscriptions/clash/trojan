@@ -118,35 +118,35 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 18","type":"trojan","server":"13.51.220.245","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 19","type":"trojan","server":"13.51.188.221","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"TVCudnqlvtjcz","type":"trojan","server":"","port":"","udp":false,"password":"","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"❔XX | 🟢 | trojan | @PrivateVPNs | 18","type":"trojan","server":"13.51.220.245","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"❔XX | 🟢 | trojan | @PrivateVPNs | 19","type":"trojan","server":"13.51.188.221","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"TVCcopvoscipj","type":"trojan","server":"","port":"","udp":false,"password":"","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
 proxy-groups:
   - name: MANUAL
     type: select
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 18'
-      - '🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 19'
-      - 'TVCudnqlvtjcz'
+      - '❔XX | 🟢 | trojan | @PrivateVPNs | 18'
+      - '❔XX | 🟢 | trojan | @PrivateVPNs | 19'
+      - 'TVCcopvoscipj'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 60
     tolerance: 50
     proxies:
-      - '🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 18'
-      - '🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 19'
-      - 'TVCudnqlvtjcz'
+      - '❔XX | 🟢 | trojan | @PrivateVPNs | 18'
+      - '❔XX | 🟢 | trojan | @PrivateVPNs | 19'
+      - 'TVCcopvoscipj'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 18'
-      - '🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 19'
-      - 'TVCudnqlvtjcz'
+      - '❔XX | 🟢 | trojan | @PrivateVPNs | 18'
+      - '❔XX | 🟢 | trojan | @PrivateVPNs | 19'
+      - 'TVCcopvoscipj'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
