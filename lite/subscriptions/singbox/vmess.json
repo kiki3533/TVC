@@ -106,12 +106,12 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | 🟢 | vmess | @mftizi | 16",
-                "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
+                "❔XX | 🟢 | vmess | @mftizi | 16",
+                "❔XX | 🟢 | vmess | @mftizi | 17",
                 "❔XX | 🟢 | vmess | @proxystore11 | 1",
-                "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
-                "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 12",
+                "❔XX | 🟢 | vmess | @yaney_01 | 4",
+                "❔XX | 🟢 | vmess | @yaney_01 | 5",
+                "❔XX | 🟢 | vmess | @Hope_Net | 12",
                 "❔XX | 🟢 | vmess | @Hope_Net | 13"
             ]
         },
@@ -119,12 +119,12 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | 🟢 | vmess | @mftizi | 16",
-                "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
+                "❔XX | 🟢 | vmess | @mftizi | 16",
+                "❔XX | 🟢 | vmess | @mftizi | 17",
                 "❔XX | 🟢 | vmess | @proxystore11 | 1",
-                "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
-                "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 12",
+                "❔XX | 🟢 | vmess | @yaney_01 | 4",
+                "❔XX | 🟢 | vmess | @yaney_01 | 5",
+                "❔XX | 🟢 | vmess | @Hope_Net | 12",
                 "❔XX | 🟢 | vmess | @Hope_Net | 13"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -148,7 +148,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @mftizi | 16",
+            "tag": "❔XX | 🟢 | vmess | @mftizi | 16",
             "type": "vmess",
             "server": "cfcdn1.sanfencdn9.com",
             "server_port": 2052,
@@ -172,7 +172,7 @@
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
+            "tag": "❔XX | 🟢 | vmess | @mftizi | 17",
             "type": "vmess",
             "server": "ambxxic01hk.dorabbb.top",
             "server_port": 44806,
@@ -206,7 +206,7 @@
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
+            "tag": "❔XX | 🟢 | vmess | @yaney_01 | 4",
             "type": "vmess",
             "server": "ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub",
             "server_port": 80,
@@ -230,7 +230,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+            "tag": "❔XX | 🟢 | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
             "server_port": 443,
@@ -264,11 +264,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 12",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 12",
             "type": "vmess",
-            "server": "104.19.45.19",
-            "server_port": 2095,
-            "uuid": "18d96190-c10f-448f-a82a-2d36df5c3cde",
+            "server": "104.20.224.95",
+            "server_port": 443,
+            "uuid": "3ed9ac53-ce00-4aa5-9f7a-a2e6fab0e14a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -279,20 +279,30 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "Rockp.Blanku.Me",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/github.com\/Alvin9999",
+                "path": "\/wss49406",
                 "headers": {
-                    "Host": ""
+                    "Host": "Rockp.Blanku.Me"
                 }
             }
         },
         {
             "tag": "❔XX | 🟢 | vmess | @Hope_Net | 13",
             "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 1080,
-            "uuid": "abbccaa-baca-abca-adbc-ccababcabcab",
+            "server": "104.16.60.8",
+            "server_port": 2083,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -302,6 +312,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "worgold21yagranghadeyaakbarshokretbozorg.abza.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linde06.indiavideo.sbs\/linkws",
+                "headers": {
+                    "Host": "worgold21yagranghadeyaakbarshokretbozorg.abza.workers.dev"
+                }
             }
         }
     ],
