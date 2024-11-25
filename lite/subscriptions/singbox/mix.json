@@ -159,22 +159,22 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 12",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 12",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
+                "🇯🇵JP | 🔴 | vless | @ConfigsHUB | 6",
+                "🇺🇸US | 🔴 | trojan | @ConfigsHUB | 7",
+                "🇺🇸US | 🔴 | trojan | @proxystore11 | 1",
                 "❔XX | 🔴 | vless | @proxystore11 | 2",
-                "🇺🇸US | 🔴 | vless | @proxystore11 | 3",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
-                "🇳🇱NL | 🟢 | vmess | @Hope_Net | 3",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
+                "🇳🇱NL | 🟢 | vmess | @Hope_Net | 4",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 2",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 3",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
                 "🇸🇪SE | 🔴 | vless | @flyv2ray | 13",
-                "🇺🇸US | 🔴 | vless | @mehrosaboran | 6",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 7",
+                "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 17",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -241,22 +241,22 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 12",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 12",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
+                "🇯🇵JP | 🔴 | vless | @ConfigsHUB | 6",
+                "🇺🇸US | 🔴 | trojan | @ConfigsHUB | 7",
+                "🇺🇸US | 🔴 | trojan | @proxystore11 | 1",
                 "❔XX | 🔴 | vless | @proxystore11 | 2",
-                "🇺🇸US | 🔴 | vless | @proxystore11 | 3",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
-                "🇳🇱NL | 🟢 | vmess | @Hope_Net | 3",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
+                "🇳🇱NL | 🟢 | vmess | @Hope_Net | 4",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 2",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 3",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
                 "🇸🇪SE | 🔴 | vless | @flyv2ray | 13",
-                "🇺🇸US | 🔴 | vless | @mehrosaboran | 6",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 7",
+                "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 17",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -1583,25 +1583,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 12",
+            "tag": "🇯🇵JP | 🔴 | vless | @ConfigsHUB | 6",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2052,
-            "uuid": "DIGIV2RAY",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2052,
-            "uuid": "DIGIV2RAY",
+            "server": "202.60.191.6",
+            "server_port": 17922,
+            "uuid": "de44b044-8f90-4e18-b742-16591667ff96",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1609,11 +1595,79 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "edgetunnel-free.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/tm-Digiv2-__teldIGIv2__-DIGiv",
+                "path": "\/",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "edgetunnel-free.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | trojan | @ConfigsHUB | 7",
+            "type": "trojan",
+            "server": "104.16.192.1",
+            "server_port": 443,
+            "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sherasheba.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/6b777a91",
+                "headers": {
+                    "Host": "sherasheba.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | trojan | @proxystore11 | 1",
+            "type": "trojan",
+            "server": "104.20.21.199",
+            "server_port": 443,
+            "password": "auto",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "b96ef9ae.trojanfree-76s.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/b96ef9ae.trojanfree-76s.pages.dev\/",
+                "headers": {
+                    "Host": "b96ef9ae.trojanfree-76s.pages.dev"
                 }
             }
         },
@@ -1645,37 +1699,6 @@
                 "path": "\/RHxQDpvcfA8JxbcI?ed=2560",
                 "headers": {
                     "Host": "Bpb-WORkeR-PaNEL-BCr.paGeS.Dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @proxystore11 | 3",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "BPb-worKer-pANEL-BcR.paGES.DEv",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/U3BrDPuR1EwhR8hX?ed=2560",
-                "headers": {
-                    "Host": "BPb-worKer-pANEL-BcR.paGES.DEv"
                 }
             }
         },
@@ -1769,7 +1792,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vmess | @Hope_Net | 3",
+            "tag": "🇳🇱NL | 🟢 | vmess | @Hope_Net | 4",
             "type": "vmess",
             "server": "194.87.31.160",
             "server_port": 8081,
@@ -1786,7 +1809,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
             "type": "vmess",
             "server": "104.17.147.22",
             "server_port": 8880,
@@ -1911,7 +1934,28 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 6",
+            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 7",
+            "type": "vless",
+            "server": "151.101.194.165",
+            "server_port": 80,
+            "uuid": "8ecc1a6b-565d-4dd2-da90-8fbb4fe3908f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=2480",
+                "headers": {
+                    "Host": "151.101.194.165"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
             "type": "vless",
             "server": "time.is",
             "server_port": 443,
@@ -1939,20 +1983,6 @@
                 "headers": {
                     "Host": "x123456789000ytgertyioplkjhgfszxcvmagrehfcgryaegcfsetetrcih.xn--6bi8548mabeaana921b9b830dbbb0nn92a.xn--6bi8548mabeaana921b9b830dbbb0nn92a.x132456789000qwertyuioplkjhgfszxcvbnmagrehfcgryaegcfsetetrcih.speedtest.netafwe4654hr4f54h98rthr.wts.ip-dynamic.org"
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 7",
-            "type": "vless",
-            "server": "104.17.234.128",
-            "server_port": 8880,
-            "uuid": "ID-ViraV2ray-3384",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
