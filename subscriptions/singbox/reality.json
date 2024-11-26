@@ -117,9 +117,8 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 4",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
-                "🇩🇪DE | 🟢 | vless | @VmessProtocol | 8",
-                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 9",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 10",
+                "🇩🇪DE | 🟢 | vless | @VmessProtocol | 9",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 1",
                 "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 3",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
@@ -154,9 +153,8 @@
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 4",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 10",
-                "🇩🇪DE | 🟢 | vless | @VmessProtocol | 8",
-                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 9",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 10",
+                "🇩🇪DE | 🟢 | vless | @VmessProtocol | 9",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 1",
                 "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 3",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
@@ -483,7 +481,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @VmessProtocol | 8",
+            "tag": "🇩🇪DE | 🟢 | vless | @VmessProtocol | 9",
             "type": "vless",
             "server": "188.245.197.174",
             "server_port": 1623,
@@ -512,11 +510,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 9",
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 1",
             "type": "vless",
-            "server": "24.144.76.38",
-            "server_port": 443,
-            "uuid": "ba56daa7-f135-4634-9805-891de5fe529b",
+            "server": "dllvarzeshtvsamanehouignbguvuibybfhfgdrews.website.24digitalmarkting.ir",
+            "server_port": 12345,
+            "uuid": "3a759bdf-f49a-426b-aa5b-b4091eaf8f6b",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -526,7 +524,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "ariogames.ir",
+                "server_name": "varzeshtviuwsofogleugvwsoyutruyrrteytmci.24digitalmarkting.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -535,38 +533,16 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "6agxUXxywMuy9N-qLCKxJVvZ-qrBGkCz-LS_TJY7EiA",
-                    "short_id": "2f641fff"
+                    "public_key": "QDqpqvWPsDtooLg5PTHd2rmRfQhDJLf7-S5cUyFxUQk",
+                    "short_id": "8e36c7e79b74a6fa"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 10",
-            "type": "vless",
-            "server": "89.187.169.71",
-            "server_port": 443,
-            "uuid": "6ff213b8-ccc7-4b5a-b4aa-37f7b792a1f1",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.cloudflare.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "B5i03yc1WUTOQD8v_N0UrCUaR4AgMJ40rEl8tXUJY0g",
-                    "short_id": "01b200e90e250221"
-                }
+            "transport": {
+                "type": "http",
+                "host": [
+                    "varzeshtviuwsofogleugvwsoyutruyrrteytmci.24digitalmarkting.ir"
+                ],
+                "path": "\/"
             }
         },
         {
