@@ -151,8 +151,8 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 11",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
-                "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 17",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
                 "❔XX | 🔴 | vless | @proxystore11 | 2",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
@@ -221,8 +221,8 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 11",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
-                "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 17",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
                 "❔XX | 🔴 | vless | @proxystore11 | 2",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
@@ -1382,11 +1382,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2052,
-            "uuid": "11f8d3a1-4e0f-4f39-8825-95467283aec9",
+            "server": "servger.sanjesh.online",
+            "server_port": 7642,
+            "uuid": "c1136394-7e66-42a8-9514-6d9d8d5d50e5",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1396,27 +1396,17 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 17",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "185.146.173.52",
-            "server_port": 443,
-            "uuid": "9978631f-d2c2-46c1-b0ff-b0bc492caf39",
+            "server": "video.myquiz.org",
+            "server_port": 80,
+            "uuid": "3e91d67b-44c8-40bd-9479-748f85e3f20c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "chat.black-melo.store",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             }
         },
         {
