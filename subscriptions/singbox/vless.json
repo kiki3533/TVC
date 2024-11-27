@@ -401,7 +401,7 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 0",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 2",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 6",
+                "🚩CF | 🔴 | vless | @ConfigsHUB | 6",
                 "❔XX | 🔴 | vless | @proxystore11 | 2",
                 "🚩CF | 🔴 | vless | @free1_vpn | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 1",
@@ -783,7 +783,7 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 0",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 2",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 6",
+                "🚩CF | 🔴 | vless | @ConfigsHUB | 6",
                 "❔XX | 🔴 | vless | @proxystore11 | 2",
                 "🚩CF | 🔴 | vless | @free1_vpn | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 1",
@@ -8397,11 +8397,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 6",
+            "tag": "🚩CF | 🔴 | vless | @ConfigsHUB | 6",
             "type": "vless",
-            "server": "151.101.0.155",
-            "server_port": 80,
-            "uuid": "48af8f41-3050-4aa1-8b56-1dea3d98b9f1",
+            "server": "104.17.148.22",
+            "server_port": 8880,
+            "uuid": "fa12a8d8-c572-4b60-a5ed-46d52755af94",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -8413,7 +8413,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "151.101.0.155"
+                    "Host": "104.17.148.22"
                 }
             }
         },
