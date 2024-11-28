@@ -157,15 +157,15 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 11",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 12",
-                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 13",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 13",
+                "🇨🇦CA | 🔴 | vless | @ConfigsHUB | 14",
                 "🇺🇸US | 🔴 | trojan | @proxystore11 | 0",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 1",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
-                "❔XX | 🟢 | vmess | @Hope_Net | 11",
+                "❔XX | 🟢 | vmess | @Hope_Net | 10",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @Capoit | 0",
@@ -236,15 +236,15 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 11",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 12",
-                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 13",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 13",
+                "🇨🇦CA | 🔴 | vless | @ConfigsHUB | 14",
                 "🇺🇸US | 🔴 | trojan | @proxystore11 | 0",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 1",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
-                "❔XX | 🟢 | vmess | @Hope_Net | 11",
+                "❔XX | 🟢 | vmess | @Hope_Net | 10",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @Capoit | 0",
@@ -1540,11 +1540,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 12",
+            "tag": "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 13",
             "type": "vless",
-            "server": "connectcarolina.sites.unc.edu",
-            "server_port": 443,
-            "uuid": "tel--ZEDMODEON",
+            "server": "45.94.31.109",
+            "server_port": 1001,
+            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1554,7 +1554,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "connectcarolina.sites.unc.edu",
+                "server_name": "a.mifeng.us.kg",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1564,23 +1564,20 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@ZEDMODEON-ZEDMODEON@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON",
+                "path": "\/?ed=2560",
                 "headers": {
-                    "Host": "connectcarolina.sites.unc.edu"
+                    "Host": "a.mifeng.us.kg"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 13",
-            "type": "vmess",
-            "server": "172.67.71.160",
-            "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | 🔴 | vless | @ConfigsHUB | 14",
+            "type": "vless",
+            "server": "20.151.63.165",
+            "server_port": 8443,
+            "uuid": "de44b044-8f90-4e18-b742-16591667ff96",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1588,7 +1585,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "obdii.cfd",
+                "server_name": "edgetunnel-free.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1598,9 +1595,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/",
                 "headers": {
-                    "Host": "obdii.cfd"
+                    "Host": "edgetunnel-free.pages.dev"
                 }
             }
         },
@@ -1754,11 +1751,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 10",
             "type": "vmess",
-            "server": "lix523052.GGfF.NET",
-            "server_port": 443,
-            "uuid": "fa1897db-1925-4c86-a495-939a959af900",
+            "server": "127.0.0.1",
+            "server_port": 8080,
+            "uuid": "aacbbca-aacb-caba-adbc-bacbbaabcacc",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1768,31 +1765,14 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "lix523052.GGfF.NET",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/dkzbofzkop.com:443\/rbqqvws",
-                "headers": {
-                    "Host": "lix523052.GGfF.NET"
-                }
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 11",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
             "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 1080,
-            "uuid": "caabcab-aacb-aabc-bacd-aaccbbaabccb",
+            "server": "172.67.204.84",
+            "server_port": 2052,
+            "uuid": "5577140d-bd6b-4521-bea3-27072928efe7",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1802,6 +1782,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/cdnmulmz",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
