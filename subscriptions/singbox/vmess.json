@@ -117,7 +117,7 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
-                "🇺🇸US | 🟢 | vmess | @customv2ray | 4",
+                "🇫🇷FR | 🟢 | vmess | @customv2ray | 4",
                 "❔XX | 🟢 | vmess | @vless_vmess | 14",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
@@ -133,7 +133,6 @@
                 "🚩CF | 🟢 | vmess | @Hope_Net | 6",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
                 "🇹🇼TW | 🟢 | vmess | @Hope_Net | 8",
-                "❔XX | 🟢 | vmess | @Hope_Net | 9",
                 "🇩🇪DE | 🟢 | vmess | @nofiltering2 | 1",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 10",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 16",
@@ -155,7 +154,7 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
-                "🇺🇸US | 🟢 | vmess | @customv2ray | 4",
+                "🇫🇷FR | 🟢 | vmess | @customv2ray | 4",
                 "❔XX | 🟢 | vmess | @vless_vmess | 14",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
@@ -171,7 +170,6 @@
                 "🚩CF | 🟢 | vmess | @Hope_Net | 6",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
                 "🇹🇼TW | 🟢 | vmess | @Hope_Net | 8",
-                "❔XX | 🟢 | vmess | @Hope_Net | 9",
                 "🇩🇪DE | 🟢 | vmess | @nofiltering2 | 1",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 10",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 16",
@@ -402,7 +400,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @customv2ray | 4",
+            "tag": "🇫🇷FR | 🟢 | vmess | @customv2ray | 4",
             "type": "vmess",
             "server": "denc36.xtooltech.cfd",
             "server_port": 443,
@@ -822,23 +820,6 @@
                 "headers": {
                     "Host": ""
                 }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 9",
-            "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 1080,
-            "uuid": "bccabaa-abac-aacb-acbd-acaccbcbbbaa",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
