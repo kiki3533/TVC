@@ -116,8 +116,8 @@
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 20",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 14",
                 "🇺🇸US | 🔴 | vless | @frev2ray | 10",
-                "🇺🇸US | 🔴 | vless | @ARv2ray | 9",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 10",
+                "🇺🇸US | 🔴 | vless | @ARv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 1",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 2",
                 "🇺🇸US | 🔴 | vless | @free_v2rayyy | 1",
@@ -180,8 +180,8 @@
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 20",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 14",
                 "🇺🇸US | 🔴 | vless | @frev2ray | 10",
-                "🇺🇸US | 🔴 | vless | @ARv2ray | 9",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 10",
+                "🇺🇸US | 🔴 | vless | @ARv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 1",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 2",
                 "🇺🇸US | 🔴 | vless | @free_v2rayyy | 1",
@@ -506,7 +506,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 9",
+            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 10",
             "type": "vless",
             "server": "ArV2ry.fastly80.hosting-ip.com",
             "server_port": 80,
@@ -527,7 +527,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 10",
+            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 11",
             "type": "vless",
             "server": "151.101.194.133",
             "server_port": 443,
@@ -1253,9 +1253,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "Zmaoz.Faculty.UcdavIS.Edu",
+            "server": "hajlab.ucdavis.edu",
             "server_port": 443,
-            "uuid": "347c666a-f909-4394-f5b2-715e914db254",
+            "uuid": "35c13bc8-4e73-41e2-a054-272afc75bde1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1265,7 +1265,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "Zmaoz.Faculty.UcdavIS.Edu.",
+                "server_name": "hajlab.ucdavis.edu",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1275,9 +1275,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@melov2ray\/ws?e@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpnd=2048",
+                "path": "\/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy",
                 "headers": {
-                    "Host": "Zmaoz.Faculty.UcdavIS.Edu."
+                    "Host": "hajlab.ucdavis.edu"
                 }
             }
         },
