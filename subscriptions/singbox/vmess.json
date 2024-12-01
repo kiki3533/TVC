@@ -118,9 +118,8 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
                 "🇩🇪DE | 🟢 | vmess | @v2ray1_ng | 1",
-                "🇺🇸US | 🟢 | vmess | @v2ray1_ng | 2",
+                "🇫🇷FR | 🟢 | vmess | @v2ray1_ng | 2",
                 "❔XX | 🟢 | vmess | @vless_vmess | 14",
-                "🇨🇭CH | 🟢 | vmess | @ConfigsHUB | 1",
                 "🇮🇷IR | 🟢 | vmess | @proxystore11 | 1",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
@@ -136,7 +135,6 @@
                 "🇨🇳CN | 🟢 | vmess | @Hope_Net | 6",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 7",
                 "🇨🇦CA | 🟢 | vmess | @Hope_Net | 8",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 9",
                 "🇩🇪DE | 🟢 | vmess | @nofiltering2 | 8",
                 "🇺🇸US | 🟢 | vmess | @ISVvpn | 1"
             ]
@@ -157,9 +155,8 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
                 "🇩🇪DE | 🟢 | vmess | @v2ray1_ng | 1",
-                "🇺🇸US | 🟢 | vmess | @v2ray1_ng | 2",
+                "🇫🇷FR | 🟢 | vmess | @v2ray1_ng | 2",
                 "❔XX | 🟢 | vmess | @vless_vmess | 14",
-                "🇨🇭CH | 🟢 | vmess | @ConfigsHUB | 1",
                 "🇮🇷IR | 🟢 | vmess | @proxystore11 | 1",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
@@ -175,7 +172,6 @@
                 "🇨🇳CN | 🟢 | vmess | @Hope_Net | 6",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 7",
                 "🇨🇦CA | 🟢 | vmess | @Hope_Net | 8",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 9",
                 "🇩🇪DE | 🟢 | vmess | @nofiltering2 | 8",
                 "🇺🇸US | 🟢 | vmess | @ISVvpn | 1"
             ],
@@ -421,7 +417,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @v2ray1_ng | 2",
+            "tag": "🇫🇷FR | 🟢 | vmess | @v2ray1_ng | 2",
             "type": "vmess",
             "server": "denc36.xtooltech.cfd",
             "server_port": 443,
@@ -486,23 +482,6 @@
                 "headers": {
                     "Host": "cs.putihb.org"
                 }
-            }
-        },
-        {
-            "tag": "🇨🇭CH | 🟢 | vmess | @ConfigsHUB | 1",
-            "type": "vmess",
-            "server": "23.166.88.183",
-            "server_port": 22324,
-            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -874,23 +853,6 @@
                 "headers": {
                     "Host": ""
                 }
-            }
-        },
-        {
-            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 9",
-            "type": "vmess",
-            "server": "183.236.51.23",
-            "server_port": 46602,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
-            "security": "auto",
-            "alter_id": 64,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
