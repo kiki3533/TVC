@@ -148,10 +148,10 @@
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 13",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 9",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 302",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 302",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 303",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 19",
+                "🇯🇵JP | 🔴 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 1",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
@@ -216,10 +216,10 @@
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 13",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 9",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 302",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 302",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 303",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 19",
+                "🇯🇵JP | 🔴 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 1",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
@@ -1329,17 +1329,27 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 302",
+            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 302",
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
-            "server_port": 80,
-            "uuid": "9e8aad0e-5ba2-4005-b5fb-03521dc00345",
+            "server_port": 443,
+            "uuid": "45b0c639-b364-4d00-a49f-ccdfac51fe5e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hajlab.ucdavis.edu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             },
             "transport": {
                 "type": "ws",
@@ -1354,7 +1364,7 @@
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
             "server_port": 80,
-            "uuid": "9e8aad0e-5ba2-4005-b5fb-03521dc00345",
+            "uuid": "45b0c639-b364-4d00-a49f-ccdfac51fe5e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1371,12 +1381,12 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+            "tag": "🇯🇵JP | 🔴 | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 8443,
-            "uuid": "v2rayvpn______official",
-            "flow": "",
+            "server": "147.78.246.135",
+            "server_port": 40337,
+            "uuid": "a313e3c2-3ad3-42c7-a1c3-d446e2db9d94",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1385,28 +1395,26 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "bo2bo2.bia2bax.shop",
+                "server_name": "www.yahoo.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Si6MJWCjLRhoiws8yJngQlyxm8unL1GpQz7nq5nokBw",
+                    "short_id": "292576df"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "bo2bo2.bia2bax.shop",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 19",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "baby.bia2bax.shop",
-            "server_port": 443,
-            "uuid": "v2rayvpn______official",
+            "server": "www.speedtest.net",
+            "server_port": 2095,
+            "uuid": "DIGIV2RAY",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
