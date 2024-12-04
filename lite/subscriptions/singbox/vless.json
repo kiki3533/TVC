@@ -150,8 +150,8 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 9",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 302",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 303",
-                "🇸🇪SE | 🟢 | vless | @ConfigsHUB | 12",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 1",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
@@ -218,8 +218,8 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 9",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 302",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 303",
-                "🇸🇪SE | 🟢 | vless | @ConfigsHUB | 12",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 1",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
@@ -1381,42 +1381,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🟢 | vless | @ConfigsHUB | 12",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "tun.ferdowsi.shop",
-            "server_port": 2087,
-            "uuid": "2541604d-62fb-475f-94db-b2ef5e7d0a18",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "g4.ferdowsi.shop",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Telegram:@Cephalon_ALA-Telegram:@Cephalon_ALA-Telegram:@Cephalon_ALA-Telegram:@Cephalon_ALA-Telegram:@Cephalon_ALA-Telegram:@Cephalon_ALA-Telegram:@Cephalon_ALA",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
-            "type": "vless",
-            "server": "104.21.49.18",
+            "server": "connectcarolina.sites.unc.edu",
             "server_port": 443,
-            "uuid": "6d154bf6-d60c-11ee-aaa8-00505603e70d",
+            "uuid": "tel--ZEDMODEON",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1426,7 +1395,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "st-fr-1.brocdn.com",
+                "server_name": "connectcarolina.sites.unc.edu",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1436,9 +1405,40 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/websocket",
+                "path": "\/@ZEDMODEON-ZEDMODEON@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON",
                 "headers": {
-                    "Host": "st-fr-1.brocdn.com"
+                    "Host": "connectcarolina.sites.unc.edu"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+            "type": "vless",
+            "server": "live.skornorth.com",
+            "server_port": 443,
+            "uuid": "Joinin--ZEDMODEON",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "live.skornorth.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@ZEDMODEON-ZEDMODEON-ZEDMODEON@ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON",
+                "headers": {
+                    "Host": "live.skornorth.com"
                 }
             }
         },
@@ -1521,37 +1521,6 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
             "type": "vless",
-            "server": "104.26.11.137",
-            "server_port": 443,
-            "uuid": "064363e7-d60e-11ee-aaa8-00505603e70d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "st-fr-1.brocdn.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/websocket",
-                "headers": {
-                    "Host": "st-fr-1.brocdn.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
-            "type": "vless",
             "server": "172.66.46.224",
             "server_port": 8443,
             "uuid": "1a1eff5f-97b8-4a4e-910d-6415441b371a",
@@ -1577,6 +1546,37 @@
                 "path": "\/?ed=2560",
                 "headers": {
                     "Host": "trojanyu.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
+            "type": "vless",
+            "server": "104.26.11.137",
+            "server_port": 443,
+            "uuid": "064363e7-d60e-11ee-aaa8-00505603e70d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "st-fr-1.brocdn.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/websocket",
+                "headers": {
+                    "Host": "st-fr-1.brocdn.com"
                 }
             }
         },
