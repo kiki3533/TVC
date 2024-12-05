@@ -156,8 +156,8 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 8",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 334",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 335",
-                "🇳🇱NL | 🟢 | trojan | @ConfigsHUB | 18",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
                 "🇮🇷IR | 🟢 | vmess | @proxystore11 | 1",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
@@ -237,8 +237,8 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 8",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 334",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 335",
-                "🇳🇱NL | 🟢 | trojan | @ConfigsHUB | 18",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
                 "🇮🇷IR | 🟢 | vmess | @proxystore11 | 1",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
@@ -1540,40 +1540,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | trojan | @ConfigsHUB | 18",
-            "type": "trojan",
-            "server": "94.242.228.50",
-            "server_port": 443,
-            "password": "NISHIKUITAN111",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "zb.ylks.xyz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "zb.ylks.xyz"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vless | @ConfigsHUB | 19",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "172.66.46.213",
+            "server": "Zmaoz.Faculty.UcdavIS.Edu",
             "server_port": 443,
-            "uuid": "f62933a9-ad3c-4826-830e-3482b996bb42",
+            "uuid": "49d65fc2-8413-4d97-9303-ad34f0bdeef4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1583,7 +1554,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "speedtest2.svgspeedtest.net",
+                "server_name": "Zmaoz.Faculty.UcdavIS.Edu.",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1593,10 +1564,24 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy",
+                "path": "\/@melov2ray\/ws?e@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpnd=2048",
                 "headers": {
-                    "Host": "speedtest2.svgspeedtest.net"
+                    "Host": "Zmaoz.Faculty.UcdavIS.Edu."
                 }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2095,
+            "uuid": "DIGIV2RAY",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
