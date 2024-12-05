@@ -397,7 +397,8 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 314",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 315",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 0",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 11",
+                "🚩CF | 🟢 | vless | @ConfigsHUB | 11",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
                 "🚩CF | 🔴 | vless | @free1_vpn | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 3",
@@ -756,7 +757,8 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 314",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 315",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 0",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 11",
+                "🚩CF | 🟢 | vless | @ConfigsHUB | 11",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
                 "🚩CF | 🔴 | vless | @free1_vpn | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 3",
@@ -8063,12 +8065,12 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @ConfigsHUB | 11",
+            "tag": "🚩CF | 🟢 | vless | @ConfigsHUB | 11",
             "type": "vless",
-            "server": "172.233.187.234",
-            "server_port": 80,
-            "uuid": "ef27e62d-91bd-4676-b9ce-8743a73eda07",
-            "flow": "xtls-rprx-vision",
+            "server": "172.66.46.213",
+            "server_port": 443,
+            "uuid": "f62933a9-ad3c-4826-830e-3482b996bb42",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -8077,17 +8079,40 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "zula.ir",
+                "server_name": "speedtest2.svgspeedtest.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "BVimgXtKkQ2Q6EpG8uKYTpySrNxEeIqVhdsxi5U5qRU",
-                    "short_id": "94aa1bdc"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy",
+                "headers": {
+                    "Host": "speedtest2.svgspeedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
+            "type": "vless",
+            "server": "151.101.2.228",
+            "server_port": 80,
+            "uuid": "5ab44197-b3dd-42d4-95da-61b5a9965b5e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "151.101.2.228"
                 }
             }
         },
