@@ -151,7 +151,6 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 251",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 252",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
@@ -219,7 +218,6 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 251",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 252",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
@@ -1366,30 +1364,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2095,
-            "uuid": "DIGIV2RAy",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/tm-Digiv2-__teldIGIv2__-DIGiv",
-                "headers": {
-                    "Host": "www.speedtest.net"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
-            "type": "vless",
-            "server": "nobitex.all.ir.p31download.com",
+            "server": "hajlab.ucdavis.edu",
             "server_port": 443,
-            "uuid": "2bff5a97-8c56-fc0e-2b35-ceb4885ff114",
+            "uuid": "73078e76-c7cf-4b47-aafc-80683741aa4a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1399,7 +1376,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "Seminarsinmcb.faculty.ucdavis.edu",
+                "server_name": "hajlab.ucdavis.edu",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1409,9 +1386,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/T7OzaaLG5SkllZJf?ed=2560",
+                "path": "\/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy",
                 "headers": {
-                    "Host": "Seminarsinmcb.faculty.ucdavis.edu"
+                    "Host": "hajlab.ucdavis.edu"
                 }
             }
         },
