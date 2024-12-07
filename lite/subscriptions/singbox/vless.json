@@ -150,7 +150,8 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 14",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 252",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 253",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 10",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 4",
@@ -162,7 +163,6 @@
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 13",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
-                "🇺🇸US | 🔴 | vless | @kingofilter | 18",
                 "🇸🇪SE | 🔴 | vless | @IBv2ray | 1",
                 "❔XX | 🔴 | vless | @IBv2ray | 2",
                 "❔XX | 🔴 | vless | @VpnSkyy | 2",
@@ -217,7 +217,8 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 14",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 252",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 253",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 10",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 4",
@@ -229,7 +230,6 @@
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 13",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
-                "🇺🇸US | 🔴 | vless | @kingofilter | 18",
                 "🇸🇪SE | 🔴 | vless | @IBv2ray | 1",
                 "❔XX | 🔴 | vless | @IBv2ray | 2",
                 "❔XX | 🔴 | vless | @VpnSkyy | 2",
@@ -1352,11 +1352,32 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 10",
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "live.989bull.com",
+            "server": "‌ArV2ry.fastly80-3.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=80",
+                "headers": {
+                    "Host": "‌ArV2ry.fastly80-3.hosting-ip.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+            "type": "vless",
+            "server": "hajlab.ucdavis.edu",
             "server_port": 443,
-            "uuid": "a31d946d-5fe3-4188-b1ec-fb5520b2c534",
+            "uuid": "c2b162ee-c653-4345-9cbe-58e4b085f4c6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1366,7 +1387,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "live.989bull.com",
+                "server_name": "hajlab.ucdavis.edu",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1376,9 +1397,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/CHANNEL---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---ws\/",
+                "path": "\/@vistav2ray---@vistav2ray----@vistav2ray----@vistav2ray----@vistav2ray----@vistav2ray----@vistav2ray----@vistav2ray----@vistav2ray----@vistav2ray----@vist",
                 "headers": {
-                    "Host": "live.989bull.com"
+                    "Host": "hajlab.ucdavis.edu"
                 }
             }
         },
@@ -1647,27 +1668,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @kingofilter | 18",
-            "type": "vless",
-            "server": "VPNCSTOMIZE.fastly80-3.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "9dacaffa-e12d-4b0b-8bd7-ff333ce10f4b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE?ed",
-                "headers": {
-                    "Host": "VPNCSTOMIZE.fastly80-3.hosting-ip.com"
-                }
             }
         },
         {

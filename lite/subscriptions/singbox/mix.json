@@ -156,14 +156,14 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 14",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 252",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 253",
-                "🇺🇸US | 🔴 | trojan | @ConfigsHUB | 9",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 10",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
                 "🇮🇷IR | 🟢 | vmess | @proxystore11 | 1",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
-                "❔XX | 🟢 | vmess | @Hope_Net | 9",
                 "❔XX | 🟢 | vmess | @Hope_Net | 10",
+                "❔XX | 🟢 | vmess | @Hope_Net | 11",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 4",
                 "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 5",
@@ -174,8 +174,8 @@
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 13",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
-                "🇨🇦CA | 🔴 | trojan | @kingofilter | 17",
-                "🇺🇸US | 🔴 | vless | @kingofilter | 18",
+                "🇦🇪AE | 🟢 | ss | @kingofilter | 17",
+                "🇨🇦CA | 🔴 | trojan | @kingofilter | 18",
                 "🇸🇪SE | 🔴 | vless | @IBv2ray | 1",
                 "❔XX | 🔴 | vless | @IBv2ray | 2",
                 "❔XX | 🔴 | vless | @VpnSkyy | 2",
@@ -236,14 +236,14 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 14",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 252",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 253",
-                "🇺🇸US | 🔴 | trojan | @ConfigsHUB | 9",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 10",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
                 "🇮🇷IR | 🟢 | vmess | @proxystore11 | 1",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
-                "❔XX | 🟢 | vmess | @Hope_Net | 9",
                 "❔XX | 🟢 | vmess | @Hope_Net | 10",
+                "❔XX | 🟢 | vmess | @Hope_Net | 11",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 4",
                 "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 5",
@@ -254,8 +254,8 @@
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 13",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
-                "🇨🇦CA | 🔴 | trojan | @kingofilter | 17",
-                "🇺🇸US | 🔴 | vless | @kingofilter | 18",
+                "🇦🇪AE | 🟢 | ss | @kingofilter | 17",
+                "🇨🇦CA | 🔴 | trojan | @kingofilter | 18",
                 "🇸🇪SE | 🔴 | vless | @IBv2ray | 1",
                 "❔XX | 🔴 | vless | @IBv2ray | 2",
                 "❔XX | 🔴 | vless | @VpnSkyy | 2",
@@ -1500,40 +1500,32 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | trojan | @ConfigsHUB | 9",
-            "type": "trojan",
-            "server": "104.19.211.18",
-            "server_port": 443,
-            "password": "MxJf4oM9fRzrnL9hKpHAUw",
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 16",
+            "type": "vless",
+            "server": "‌ArV2ry.fastly80-3.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "fcgerman.nimaempire.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/tws",
+                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=80",
                 "headers": {
-                    "Host": "fcgerman.nimaempire.cfd"
+                    "Host": "‌ArV2ry.fastly80-3.hosting-ip.com"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 10",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "live.989bull.com",
+            "server": "hajlab.ucdavis.edu",
             "server_port": 443,
-            "uuid": "a31d946d-5fe3-4188-b1ec-fb5520b2c534",
+            "uuid": "c2b162ee-c653-4345-9cbe-58e4b085f4c6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1543,7 +1535,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "live.989bull.com",
+                "server_name": "hajlab.ucdavis.edu",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1553,9 +1545,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/CHANNEL---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---ws\/",
+                "path": "\/@vistav2ray---@vistav2ray----@vistav2ray----@vistav2ray----@vistav2ray----@vistav2ray----@vistav2ray----@vistav2ray----@vistav2ray----@vistav2ray----@vist",
                 "headers": {
-                    "Host": "live.989bull.com"
+                    "Host": "hajlab.ucdavis.edu"
                 }
             }
         },
@@ -1666,7 +1658,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 9",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 10",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
@@ -1683,7 +1675,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 10",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 11",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 1080,
@@ -1936,7 +1928,17 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | trojan | @kingofilter | 17",
+            "tag": "🇦🇪AE | 🟢 | ss | @kingofilter | 17",
+            "type": "shadowsocks",
+            "server": "api.namasha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "u17T3BvpYaaiuW2c",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇨🇦CA | 🔴 | trojan | @kingofilter | 18",
             "type": "trojan",
             "server": "135.84.79.80",
             "server_port": 443,
@@ -1961,27 +1963,6 @@
                 "path": "\/?ed=2560",
                 "headers": {
                     "Host": "trojan.putata.us.kg"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @kingofilter | 18",
-            "type": "vless",
-            "server": "VPNCSTOMIZE.fastly80-3.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "9dacaffa-e12d-4b0b-8bd7-ff333ce10f4b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE?ed",
-                "headers": {
-                    "Host": "VPNCSTOMIZE.fastly80-3.hosting-ip.com"
                 }
             }
         },
