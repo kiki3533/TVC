@@ -126,6 +126,7 @@
                 "❔XX | 🟢 | vless | @VmessProtocol | 13",
                 "❔XX | 🟢 | vless | @VmessProtocol | 14",
                 "❔XX | 🟢 | vless | @VmessProtocol | 15",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 1",
                 "❔XX | 🟢 | vless | @Outlinev2rayNG | 5",
                 "❔XX | 🟢 | vless | @Outlinev2rayNG | 6",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
@@ -170,6 +171,7 @@
                 "❔XX | 🟢 | vless | @VmessProtocol | 13",
                 "❔XX | 🟢 | vless | @VmessProtocol | 14",
                 "❔XX | 🟢 | vless | @VmessProtocol | 15",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 1",
                 "❔XX | 🟢 | vless | @Outlinev2rayNG | 5",
                 "❔XX | 🟢 | vless | @Outlinev2rayNG | 6",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
@@ -754,6 +756,35 @@
                     "enabled": true,
                     "public_key": "1gKloUYtea1EJfBcatiTkmJVdCbb6SfVrnL6Lz-RYj0",
                     "short_id": "42"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 1",
+            "type": "vless",
+            "server": "join.persiatm_channel.darkping.net",
+            "server_port": 1633,
+            "uuid": "a36e7b96-fb78-464d-96b9-7807742b67e0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ANlgAsYC8HmKfJnc5SFvru822urkxG1PzW1Zw4Vbm0Q",
+                    "short_id": "9bc0a55a5379c0ed"
                 }
             }
         },
