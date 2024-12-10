@@ -110,11 +110,11 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
                 "🇺🇸US | 🟢 | vmess | @customv2ray | 23",
                 "🇩🇪DE | 🟢 | vmess | @v2ray1_ng | 7",
-                "🇳🇱NL | 🟢 | vmess | @ConfigsHUB | 16",
+                "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 13",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 9",
-                "🇩🇪DE | 🟢 | vmess | @Hope_Net | 10"
+                "❔XX | 🟢 | vmess | @Hope_Net | 7",
+                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 8"
             ]
         },
         {
@@ -125,11 +125,11 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
                 "🇺🇸US | 🟢 | vmess | @customv2ray | 23",
                 "🇩🇪DE | 🟢 | vmess | @v2ray1_ng | 7",
-                "🇳🇱NL | 🟢 | vmess | @ConfigsHUB | 16",
+                "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 13",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 9",
-                "🇩🇪DE | 🟢 | vmess | @Hope_Net | 10"
+                "❔XX | 🟢 | vmess | @Hope_Net | 7",
+                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -244,11 +244,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vmess | @ConfigsHUB | 16",
+            "tag": "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 13",
             "type": "vmess",
-            "server": "104.248.89.19",
-            "server_port": 10002,
-            "uuid": "c7716936-798d-4237-b101-2d914e6d543a",
+            "server": "185.189.58.195",
+            "server_port": 8080,
+            "uuid": "8e2cca59-dac2-59c2-8396-8345a37e6ccd",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -258,23 +258,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "nl.569520.xyz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/cctv13\/4k.m3u8",
-                "headers": {
-                    "Host": "nl.569520.xyz"
-                }
             }
         },
         {
@@ -336,11 +319,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 9",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 7",
             "type": "vmess",
             "server": "127.0.0.1",
-            "server_port": 1080,
-            "uuid": "caacbba-baca-baac-adcb-cbcaaccabbba",
+            "server_port": 8080,
+            "uuid": "cabbaac-baac-abac-dbca-bbcabacacabc",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -353,11 +336,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vmess | @Hope_Net | 10",
+            "tag": "🇷🇺RU | 🟢 | vmess | @Hope_Net | 8",
             "type": "vmess",
-            "server": "89.169.55.152",
-            "server_port": 33026,
-            "uuid": "96627876-63f5-4ca7-9b41-a52fee0ca476",
+            "server": "176.32.39.160",
+            "server_port": 9187,
+            "uuid": "5d90f262-1df2-4563-8c3e-456109745385",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -368,21 +351,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "89.169.55.152",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/dangerzone",
+                "path": "\/",
                 "headers": {
-                    "Host": "89.169.55.152"
+                    "Host": "176.32.39.160"
                 }
             }
         }
