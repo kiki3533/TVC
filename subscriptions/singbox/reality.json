@@ -123,8 +123,8 @@
                 "🇳🇱NL | 🟢 | vless | @VmessProtocol | 8",
                 "🇷🇺RU | 🟢 | vless | @VmessProtocol | 12",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 14",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 2",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 3",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 17",
                 "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 4",
                 "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 5",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
@@ -167,8 +167,8 @@
                 "🇳🇱NL | 🟢 | vless | @VmessProtocol | 8",
                 "🇷🇺RU | 🟢 | vless | @VmessProtocol | 12",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 14",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 2",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 3",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 17",
                 "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 4",
                 "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 5",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
@@ -671,11 +671,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 2",
+            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "san.dornagamesco.ir",
-            "server_port": 1621,
-            "uuid": "2d5d4230-10e2-4ee9-afe5-a55c20d2cb3b",
+            "server": "89.187.169.71",
+            "server_port": 443,
+            "uuid": "6ff213b8-ccc7-4b5a-b4aa-37f7b792a1f1",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -685,7 +685,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "refersion.com",
+                "server_name": "www.cloudflare.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -694,17 +694,17 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0",
-                    "short_id": "3a622700e73c6642"
+                    "public_key": "B5i03yc1WUTOQD8v_N0UrCUaR4AgMJ40rEl8tXUJY0g",
+                    "short_id": "01b200e90e250221"
                 }
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 3",
+            "tag": "🇺🇸US | 🟢 | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "osi.dornagamesco.ir",
-            "server_port": 1620,
-            "uuid": "2d5d4230-10e2-4ee9-afe5-a55c20d2cb3b",
+            "server": "172.233.162.243",
+            "server_port": 80,
+            "uuid": "ef27e62d-91bd-4676-b9ce-8743a73eda07",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -714,7 +714,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "refersion.com",
+                "server_name": "zula.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -723,8 +723,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0",
-                    "short_id": "3a622700e73c6642"
+                    "public_key": "BVimgXtKkQ2Q6EpG8uKYTpySrNxEeIqVhdsxi5U5qRU",
+                    "short_id": "94aa1bdc"
                 }
             }
         },
