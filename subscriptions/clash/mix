@@ -183,8 +183,6 @@ proxies:
   - {"name":"🚩CF | 🟢 | vmess | @Hope_Net | 10","type":"vmess","server":"104.18.114.230","port":"2086","cipher":"auto","uuid":"7d92ffc9-02e1-4087-8a46-cc4d76560917","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"e5.808075.xyz"}}}
   - {"name":"🇳🇱NL | 🟢 | vmess | @Hope_Net | 11","type":"vmess","server":"185.148.107.11","port":"2082","cipher":"auto","uuid":"5f3f09ad-89cb-4e94-a7ad-aa8239913555","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip18.6929198.xyz"}}}
   - {"name":"🚩CF | 🟢 | vmess | @Hope_Net | 12","type":"vmess","server":"104.26.0.204","port":"8880","cipher":"auto","uuid":"90f8f4dc-8092-4355-9047-05f506f5e9ab","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"m1.106778.xyz"}}}
-  - {"name":"🚩CF | 🟢 | vmess | @Hope_Net | 13","type":"vmess","server":"104.18.114.104","port":"2086","cipher":"auto","uuid":"7d92ffc9-02e1-4087-8a46-cc4d76560917","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"e5.808075.xyz"}}}
-  - {"name":"🚩CF | 🟢 | vmess | @Hope_Net | 14","type":"vmess","server":"104.26.0.52","port":"2086","cipher":"auto","uuid":"7d92ffc9-02e1-4087-8a46-cc4d76560917","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"e5.808075.xyz"}}}
   - {"name":"🇦🇪AE | 🟢 | ss | @kingofilter | 0","type":"ss","server":"api.namasha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧GB | 🟢 | ss | @kingofilter | 6","type":"ss","server":"109.120.186.9","port":23022,"password":"s#W0tqg%@N","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
@@ -258,8 +256,6 @@ proxy-groups:
       - '🚩CF | 🟢 | vmess | @Hope_Net | 10'
       - '🇳🇱NL | 🟢 | vmess | @Hope_Net | 11'
       - '🚩CF | 🟢 | vmess | @Hope_Net | 12'
-      - '🚩CF | 🟢 | vmess | @Hope_Net | 13'
-      - '🚩CF | 🟢 | vmess | @Hope_Net | 14'
       - '🇦🇪AE | 🟢 | ss | @kingofilter | 0'
       - '🇬🇧GB | 🟢 | ss | @kingofilter | 6'
   - name: URL-TEST
@@ -333,8 +329,6 @@ proxy-groups:
       - '🚩CF | 🟢 | vmess | @Hope_Net | 10'
       - '🇳🇱NL | 🟢 | vmess | @Hope_Net | 11'
       - '🚩CF | 🟢 | vmess | @Hope_Net | 12'
-      - '🚩CF | 🟢 | vmess | @Hope_Net | 13'
-      - '🚩CF | 🟢 | vmess | @Hope_Net | 14'
       - '🇦🇪AE | 🟢 | ss | @kingofilter | 0'
       - '🇬🇧GB | 🟢 | ss | @kingofilter | 6'
   - name: FALLBACK
@@ -407,8 +401,6 @@ proxy-groups:
       - '🚩CF | 🟢 | vmess | @Hope_Net | 10'
       - '🇳🇱NL | 🟢 | vmess | @Hope_Net | 11'
       - '🚩CF | 🟢 | vmess | @Hope_Net | 12'
-      - '🚩CF | 🟢 | vmess | @Hope_Net | 13'
-      - '🚩CF | 🟢 | vmess | @Hope_Net | 14'
       - '🇦🇪AE | 🟢 | ss | @kingofilter | 0'
       - '🇬🇧GB | 🟢 | ss | @kingofilter | 6'
 rules:

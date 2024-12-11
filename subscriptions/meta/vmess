@@ -152,8 +152,6 @@ proxies:
   - {"name":"🚩CF | 🟢 | vmess | @Hope_Net | 10","type":"vmess","server":"104.18.114.230","port":"2086","cipher":"auto","uuid":"7d92ffc9-02e1-4087-8a46-cc4d76560917","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"e5.808075.xyz"}}}
   - {"name":"🇳🇱NL | 🟢 | vmess | @Hope_Net | 11","type":"vmess","server":"185.148.107.11","port":"2082","cipher":"auto","uuid":"5f3f09ad-89cb-4e94-a7ad-aa8239913555","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip18.6929198.xyz"}}}
   - {"name":"🚩CF | 🟢 | vmess | @Hope_Net | 12","type":"vmess","server":"104.26.0.204","port":"8880","cipher":"auto","uuid":"90f8f4dc-8092-4355-9047-05f506f5e9ab","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"m1.106778.xyz"}}}
-  - {"name":"🚩CF | 🟢 | vmess | @Hope_Net | 13","type":"vmess","server":"104.18.114.104","port":"2086","cipher":"auto","uuid":"7d92ffc9-02e1-4087-8a46-cc4d76560917","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"e5.808075.xyz"}}}
-  - {"name":"🚩CF | 🟢 | vmess | @Hope_Net | 14","type":"vmess","server":"104.26.0.52","port":"2086","cipher":"auto","uuid":"7d92ffc9-02e1-4087-8a46-cc4d76560917","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"e5.808075.xyz"}}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -192,8 +190,6 @@ proxy-groups:
       - '🚩CF | 🟢 | vmess | @Hope_Net | 10'
       - '🇳🇱NL | 🟢 | vmess | @Hope_Net | 11'
       - '🚩CF | 🟢 | vmess | @Hope_Net | 12'
-      - '🚩CF | 🟢 | vmess | @Hope_Net | 13'
-      - '🚩CF | 🟢 | vmess | @Hope_Net | 14'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -232,8 +228,6 @@ proxy-groups:
       - '🚩CF | 🟢 | vmess | @Hope_Net | 10'
       - '🇳🇱NL | 🟢 | vmess | @Hope_Net | 11'
       - '🚩CF | 🟢 | vmess | @Hope_Net | 12'
-      - '🚩CF | 🟢 | vmess | @Hope_Net | 13'
-      - '🚩CF | 🟢 | vmess | @Hope_Net | 14'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -271,8 +265,6 @@ proxy-groups:
       - '🚩CF | 🟢 | vmess | @Hope_Net | 10'
       - '🇳🇱NL | 🟢 | vmess | @Hope_Net | 11'
       - '🚩CF | 🟢 | vmess | @Hope_Net | 12'
-      - '🚩CF | 🟢 | vmess | @Hope_Net | 13'
-      - '🚩CF | 🟢 | vmess | @Hope_Net | 14'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
