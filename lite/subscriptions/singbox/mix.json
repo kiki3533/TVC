@@ -155,13 +155,13 @@
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 13",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 267",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 268",
-                "🇺🇸US | 🔴 | trojan | @ConfigsHUB | 15",
-                "🇺🇸US | 🔴 | trojan | @ConfigsHUB | 16",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
+                "🇸🇪SE | 🟢 | trojan | @ConfigsHUB | 14",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 0",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 15",
                 "🇳🇱NL | 🟢 | vmess | @Hope_Net | 16",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 17",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
                 "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 5",
@@ -233,13 +233,13 @@
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 13",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 267",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 268",
-                "🇺🇸US | 🔴 | trojan | @ConfigsHUB | 15",
-                "🇺🇸US | 🔴 | trojan | @ConfigsHUB | 16",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
+                "🇸🇪SE | 🟢 | trojan | @ConfigsHUB | 14",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 0",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 15",
                 "🇳🇱NL | 🟢 | vmess | @Hope_Net | 16",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 17",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
                 "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 5",
@@ -1429,40 +1429,32 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | trojan | @ConfigsHUB | 15",
-            "type": "trojan",
-            "server": "104.16.255.10",
-            "server_port": 443,
-            "password": "blue2024",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
+            "type": "vless",
+            "server": "151.101.128.204",
+            "server_port": 80,
+            "uuid": "c7953896-7bb2-4ce2-c7ca-117b2678b47f",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "ta.promote.icu",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed=2560",
+                "path": "\/melo\/ws",
                 "headers": {
-                    "Host": "ta.promote.icu"
+                    "Host": "151.101.128.204"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | trojan | @ConfigsHUB | 16",
+            "tag": "🇸🇪SE | 🟢 | trojan | @ConfigsHUB | 14",
             "type": "trojan",
-            "server": "104.18.79.171",
+            "server": "65.20.115.19",
             "server_port": 443,
-            "password": "blue2024",
+            "password": "wkmY1R4EcP",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1470,19 +1462,12 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "ta.promote.icu",
+                "server_name": "myket.io",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed=2560",
-                "headers": {
-                    "Host": "ta.promote.icu"
                 }
             }
         },
@@ -1576,6 +1561,30 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 15",
+            "type": "vmess",
+            "server": "104.26.0.78",
+            "server_port": 2082,
+            "uuid": "5f3f09ad-89cb-4e94-a7ad-aa8239913555",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/github.com\/Alvin9999",
+                "headers": {
+                    "Host": "104.26.0.78"
+                }
+            }
+        },
+        {
             "tag": "🇳🇱NL | 🟢 | vmess | @Hope_Net | 16",
             "type": "vmess",
             "server": "104.248.89.19",
@@ -1607,23 +1616,6 @@
                 "headers": {
                     "Host": "nl.569520.xyz"
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 17",
-            "type": "vmess",
-            "server": "142.4.104.33",
-            "server_port": 52143,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
