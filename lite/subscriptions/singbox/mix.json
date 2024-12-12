@@ -150,20 +150,22 @@
                 "🇺🇸US | 🔴 | vless | @proxyymeliii | 13",
                 "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 7",
                 "❔XX | 🔴 | vless | @MTConfig | 13",
+                "🇺🇸US | 🔴 | vless | @V2RayTz | 4",
+                "🇺🇸US | 🔴 | vless | @V2RayTz | 5",
                 "🇦🇪AE | 🟢 | ss | @VmessProtocol | 13",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 14",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 233",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 234",
-                "🇭🇰HK | 🟢 | trojan | @ConfigsHUB | 15",
-                "🇭🇰HK | 🟢 | trojan | @ConfigsHUB | 16",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 10",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 11",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 0",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+                "🇩🇪DE | 🟢 | vmess | @Hope_Net | 6",
                 "❔XX | 🟢 | vmess | @Hope_Net | 7",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
-                "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 4",
-                "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 5",
+                "🇸🇪SE | 🔴 | vless | @Outlinev2rayNG | 3",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 7",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 8",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 9",
@@ -227,20 +229,22 @@
                 "🇺🇸US | 🔴 | vless | @proxyymeliii | 13",
                 "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 7",
                 "❔XX | 🔴 | vless | @MTConfig | 13",
+                "🇺🇸US | 🔴 | vless | @V2RayTz | 4",
+                "🇺🇸US | 🔴 | vless | @V2RayTz | 5",
                 "🇦🇪AE | 🟢 | ss | @VmessProtocol | 13",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 14",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 233",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 234",
-                "🇭🇰HK | 🟢 | trojan | @ConfigsHUB | 15",
-                "🇭🇰HK | 🟢 | trojan | @ConfigsHUB | 16",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 10",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 11",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 0",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+                "🇩🇪DE | 🟢 | vmess | @Hope_Net | 6",
                 "❔XX | 🟢 | vmess | @Hope_Net | 7",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
-                "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 4",
-                "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 5",
+                "🇸🇪SE | 🔴 | vless | @Outlinev2rayNG | 3",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 7",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 8",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 9",
@@ -1346,6 +1350,58 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🔴 | vless | @V2RayTz | 4",
+            "type": "vless",
+            "server": "151.101.194.228",
+            "server_port": 443,
+            "uuid": "96bb4985-ef9a-45dd-9127-386516c64169",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hajlab.ucdavis.edu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "hajlab.ucdavis.edu"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @V2RayTz | 5",
+            "type": "vless",
+            "server": "151.101.66.228",
+            "server_port": 80,
+            "uuid": "96bb4985-ef9a-45dd-9127-386516c64169",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "151.101.66.228"
+                }
+            }
+        },
+        {
             "tag": "🇦🇪AE | 🟢 | ss | @VmessProtocol | 13",
             "type": "shadowsocks",
             "server": "series-a2-mec.varzesh360.co",
@@ -1447,11 +1503,34 @@
             }
         },
         {
-            "tag": "🇭🇰HK | 🟢 | trojan | @ConfigsHUB | 15",
-            "type": "trojan",
-            "server": "18.162.43.30",
-            "server_port": 49782,
-            "password": "aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 10",
+            "type": "vless",
+            "server": "s14.fastly80-3.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "TELEGRAM-id-NUFiLTER",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=80",
+                "headers": {
+                    "Host": "s14.fastly80-3.hosting-ip.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 11",
+            "type": "vless",
+            "server": "whatismyipaddress.com",
+            "server_port": 443,
+            "uuid": "9cbdc595-1d8d-4443-af07-99149153d025",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1459,34 +1538,19 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "jp12.bilibili.com",
+                "server_name": "e6f9e83a458247ed8887.pato-elc.rest",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
-            }
-        },
-        {
-            "tag": "🇭🇰HK | 🟢 | trojan | @ConfigsHUB | 16",
-            "type": "trojan",
-            "server": "43.198.250.49",
-            "server_port": 49089,
-            "password": "aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "jp12.bilibili.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "transport": {
+                "type": "ws",
+                "path": "\/tS3DQyLws",
+                "headers": {
+                    "Host": "e6f9e83a458247ed8887.pato-elc.rest"
                 }
             }
         },
@@ -1580,6 +1644,23 @@
             }
         },
         {
+            "tag": "🇩🇪DE | 🟢 | vmess | @Hope_Net | 6",
+            "type": "vmess",
+            "server": "45.156.84.159",
+            "server_port": 3939,
+            "uuid": "203d912e-4fb9-49cf-a596-c189dfc16d3e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "❔XX | 🟢 | vmess | @Hope_Net | 7",
             "type": "vmess",
             "server": "127.0.0.1",
@@ -1597,30 +1678,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
-            "type": "vmess",
-            "server": "104.18.114.205",
-            "server_port": 2086,
-            "uuid": "bc65fac2-7dc7-426f-acdd-0779a5035bde",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/github.com\/Alvin9999",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | 🔴 | vless | @fnet00 | 8",
             "type": "vless",
             "server": "162.159.138.178",
@@ -1635,12 +1692,12 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 4",
+            "tag": "🇸🇪SE | 🔴 | vless | @Outlinev2rayNG | 3",
             "type": "vless",
-            "server": "san.dornagamesco.ir",
-            "server_port": 1623,
-            "uuid": "c7f1126c-0aec-4ded-aca4-1099ebe367fb",
-            "flow": "xtls-rprx-vision",
+            "server": "tun.ferdowsi.shop",
+            "server_port": 2087,
+            "uuid": "ca156343-91ca-4398-a0e8-23e6480a8718",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1649,47 +1706,34 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "refersion.com",
+                "server_name": "g4.ferdowsi.shop",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0",
-                    "short_id": "3a622700e73c6642"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@Cephalon_ALA-Telegram:@Cephalon_ALA-Telegram:@Cephalon_ALA-Telegram:@Cephalon_ALA-Telegram:@Cephalon_ALA-Telegram:@Cephalon_ALA-Telegram:@Cephalon_ALA",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 5",
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
             "type": "vless",
-            "server": "san.dornagamesco.ir",
-            "server_port": 1621,
-            "uuid": "c7f1126c-0aec-4ded-aca4-1099ebe367fb",
-            "flow": "xtls-rprx-vision",
+            "server": "WeB.blUwAVe.iR",
+            "server_port": 2095,
+            "uuid": "f050cff5-f3a5-4d88-b653-e70fac34dd24",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0",
-                    "short_id": "3a622700e73c6642"
-                }
             }
         },
         {
