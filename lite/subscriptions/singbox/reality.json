@@ -109,7 +109,6 @@
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 8",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 14",
-                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 16",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ]
@@ -121,7 +120,6 @@
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 8",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 14",
-                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 16",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ],
@@ -229,35 +227,6 @@
                     "enabled": true,
                     "public_key": "fPtoPIDDJIW4pSY8TAFM0BKPA0ELOkX7ssc3i23SXlE",
                     "short_id": "75813316"
-                }
-            }
-        },
-        {
-            "tag": "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 16",
-            "type": "vless",
-            "server": "capybara-z.ru",
-            "server_port": 10010,
-            "uuid": "20b6a2a4-d4f6-4f18-be5e-183ad0245a62",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "vd455.okcdn.ru",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "D7KlzltqFHd08iobq48bqRp6BSs4JV-D235ruRUlOXc",
-                    "short_id": "b2a66f"
                 }
             }
         },
