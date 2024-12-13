@@ -139,7 +139,7 @@
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 149",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 150",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 30",
-                "🇺🇸US | 🔴 | vless | @customv2ray | 31",
+                "🇸🇪SE | 🔴 | vless | @customv2ray | 31",
                 "🇺🇸US | 🔴 | vless | @v2rayngvpn | 0",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 0",
                 "❔XX | 🔴 | vless | @ServerNett | 16",
@@ -155,12 +155,12 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 234",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 235",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+                "🇭🇰HK | 🔴 | trojan | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 0",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 6",
-                "🇮🇷IR | 🟢 | vmess | @Hope_Net | 7",
+                "🇩🇪DE | 🟢 | vmess | @Hope_Net | 7",
+                "❔XX | 🟢 | vmess | @Hope_Net | 8",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇬🇧GB | 🟢 | vless | @Outlinev2rayNG | 7",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 8",
@@ -215,7 +215,7 @@
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 149",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 150",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 30",
-                "🇺🇸US | 🔴 | vless | @customv2ray | 31",
+                "🇸🇪SE | 🔴 | vless | @customv2ray | 31",
                 "🇺🇸US | 🔴 | vless | @v2rayngvpn | 0",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 0",
                 "❔XX | 🔴 | vless | @ServerNett | 16",
@@ -231,12 +231,12 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 234",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 235",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+                "🇭🇰HK | 🔴 | trojan | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 0",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 6",
-                "🇮🇷IR | 🟢 | vmess | @Hope_Net | 7",
+                "🇩🇪DE | 🟢 | vmess | @Hope_Net | 7",
+                "❔XX | 🟢 | vmess | @Hope_Net | 8",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇬🇧GB | 🟢 | vless | @Outlinev2rayNG | 7",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 8",
@@ -1090,7 +1090,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @customv2ray | 31",
+            "tag": "🇸🇪SE | 🔴 | vless | @customv2ray | 31",
             "type": "vless",
             "server": "tun.ferdowsi.shop",
             "server_port": 2087,
@@ -1433,9 +1433,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "104.17.148.22",
-            "server_port": 443,
-            "uuid": "3be9e3cf-83cd-4618-b782-1b2a9a72bbec",
+            "server": "151.101.64.155",
+            "server_port": 80,
+            "uuid": "ab99638d-1d04-451c-92a4-89364d0570f4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1443,53 +1443,24 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "ppal03.mRs-otHO-rOLfsON.WOrkErS.DEv",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/lW0tvTq4oSbHyKeRM?ed=2560",
                 "headers": {
-                    "Host": "ppal03.mRs-otHO-rOLfsON.WOrkErS.DEv"
+                    "Host": "151.101.64.155"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "bypassfilter.test-fad.workers.dev",
-            "server_port": 443,
-            "uuid": "b0e6a2c9-e667-4e42-9cb3-77d7db3e736b",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇭🇰HK | 🔴 | trojan | @ConfigsHUB | 19",
+            "type": "trojan",
+            "server": "18.163.113.200",
+            "server_port": 45476,
+            "password": "aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "bypass-filter.jvnml.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vless-ws\/",
-                "headers": {
-                    "Host": "bypass-filter.jvnml.workers.dev"
-                }
             }
         },
         {
@@ -1582,11 +1553,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 6",
+            "tag": "🇩🇪DE | 🟢 | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 1080,
-            "uuid": "cbaacab-cbaa-bcaa-dcab-ccabccababba",
+            "server": "49.13.126.136",
+            "server_port": 54031,
+            "uuid": "076169c4-562c-4559-a504-6310680cf656",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1599,11 +1570,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🟢 | vmess | @Hope_Net | 7",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 8",
             "type": "vmess",
-            "server": "46.38.147.241",
-            "server_port": 6060,
-            "uuid": "0803b285-7d20-422c-a26d-080ad0611d70",
+            "server": "127.0.0.1",
+            "server_port": 1080,
+            "uuid": "cbaacab-cbaa-bcaa-dcab-ccabccababba",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
