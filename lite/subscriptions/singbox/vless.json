@@ -147,8 +147,8 @@
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 14",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 234",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 235",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 15",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇬🇧GB | 🟢 | vless | @Outlinev2rayNG | 7",
@@ -211,8 +211,8 @@
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 14",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 234",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 235",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 15",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇬🇧GB | 🟢 | vless | @Outlinev2rayNG | 7",
@@ -1258,12 +1258,12 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 15",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "109.207.172.223",
-            "server_port": 8443,
-            "uuid": "23f0d45e-7e95-4aba-a625-d3e244055662",
-            "flow": "xtls-rprx-vision",
+            "server": "104.17.148.22",
+            "server_port": 443,
+            "uuid": "3be9e3cf-83cd-4618-b782-1b2a9a72bbec",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1272,39 +1272,51 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.speedtest.net",
+                "server_name": "ppal03.mRs-otHO-rOLfsON.WOrkErS.DEv",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "0UslOEYP-RXX7kOiWtEs7oMEHvJZrqILf2Fl-nCoPE4",
-                    "short_id": "12d1c921"
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "JoinBadeChannel@antimeli",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "ppal03.mRs-otHO-rOLfsON.WOrkErS.DEv"
+                }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "104.17.148.22",
-            "server_port": 2052,
-            "uuid": "3048b07c-3312-486f-a706-4ce7d67b9652",
+            "server": "bypassfilter.test-fad.workers.dev",
+            "server_port": 443,
+            "uuid": "b0e6a2c9-e667-4e42-9cb3-77d7db3e736b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "bypass-filter.jvnml.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vless-ws\/",
+                "headers": {
+                    "Host": "bypass-filter.jvnml.workers.dev"
+                }
             }
         },
         {
