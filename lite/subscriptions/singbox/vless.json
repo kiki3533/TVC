@@ -147,8 +147,8 @@
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 14",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 234",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 235",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 12",
+                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 13",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇬🇧GB | 🟢 | vless | @Outlinev2rayNG | 7",
@@ -211,8 +211,8 @@
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 14",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 234",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 235",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 12",
+                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 13",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇬🇧GB | 🟢 | vless | @Outlinev2rayNG | 7",
@@ -1258,7 +1258,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 12",
             "type": "vless",
             "server": "atrapalotickets.com",
             "server_port": 443,
@@ -1289,11 +1289,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @ConfigsHUB | 16",
+            "tag": "🇺🇸US | 🟢 | vless | @ConfigsHUB | 13",
             "type": "vless",
-            "server": "172.67.204.84",
-            "server_port": 8443,
-            "uuid": "0dd5a4f8-b442-4f2b-b134-6ea57bb14dcc",
+            "server": "172.64.150.28",
+            "server_port": 443,
+            "uuid": "9cbdc595-1d8d-4443-af07-99149153d025",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1303,7 +1303,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "birdxraywow.pages.dev",
+                "server_name": "6c545018175344898cc6.setar-bia.rest",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1313,9 +1313,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/uhTbsponEnSNnlWU?ed=2560",
+                "path": "\/CvG7ZRRws",
                 "headers": {
-                    "Host": "birdxraywow.pages.dev"
+                    "Host": "6c545018175344898cc6.setar-bia.rest"
                 }
             }
         },
