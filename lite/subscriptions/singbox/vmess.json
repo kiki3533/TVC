@@ -110,7 +110,8 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
                 "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 18",
                 "🇲🇽MX | 🟢 | vmess | @v2ray1_ng | 9",
-                "🇸🇬SG | 🟢 | vmess | @ConfigsHUB | 18",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 16",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 17",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "❔XX | 🟢 | vmess | @Hope_Net | 4",
@@ -125,7 +126,8 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
                 "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 18",
                 "🇲🇽MX | 🟢 | vmess | @v2ray1_ng | 9",
-                "🇸🇬SG | 🟢 | vmess | @ConfigsHUB | 18",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 16",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 17",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "❔XX | 🟢 | vmess | @Hope_Net | 4",
@@ -254,11 +256,11 @@
             }
         },
         {
-            "tag": "🇸🇬SG | 🟢 | vmess | @ConfigsHUB | 18",
+            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 16",
             "type": "vmess",
-            "server": "20.44.243.190",
+            "server": "visa.cn",
             "server_port": 80,
-            "uuid": "b831381d-6324-4d53-ad4f-8cda48b30812",
+            "uuid": "d80b2eb8-981d-44c6-9a74-23a50d75067e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -268,6 +270,37 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 17",
+            "type": "vmess",
+            "server": "fbi.gov",
+            "server_port": 80,
+            "uuid": "d80b2eb8-981d-44c6-9a74-23a50d75067e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
