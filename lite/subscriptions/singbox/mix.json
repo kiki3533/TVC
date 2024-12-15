@@ -160,8 +160,8 @@
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 2",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
+                "🇸🇬SG | 🟢 | vmess | @Hope_Net | 6",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "❔XX | 🔴 | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
@@ -239,8 +239,8 @@
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 2",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
+                "🇸🇬SG | 🟢 | vmess | @Hope_Net | 6",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "❔XX | 🔴 | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
@@ -1646,11 +1646,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
+            "tag": "🇸🇬SG | 🟢 | vmess | @Hope_Net | 6",
             "type": "vmess",
-            "server": "104.21.238.99",
-            "server_port": 2095,
-            "uuid": "f0758bf9-454b-4331-bb45-e56dd390f743",
+            "server": "13.228.170.103",
+            "server_port": 40000,
+            "uuid": "13364789-a8b2-4bcd-8df7-a794fb6f87e5",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1663,18 +1663,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/github.com\/Alvin9999",
+                "path": "\/bby",
                 "headers": {
-                    "Host": "104.21.238.99"
+                    "Host": ""
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "104.21.238.27",
-            "server_port": 2095,
-            "uuid": "f0758bf9-454b-4331-bb45-e56dd390f743",
+            "server": "104.17.147.22",
+            "server_port": 8880,
+            "uuid": "01497531-d78c-4d35-a568-fd90f18791a0",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1687,9 +1687,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/github.com\/Alvin9999",
+                "path": "\/",
                 "headers": {
-                    "Host": "104.21.238.27"
+                    "Host": "104.17.147.22"
                 }
             }
         },
