@@ -209,6 +209,7 @@
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 13",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 14",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 15",
+                "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
                 "🇩🇪DE | 🔴 | vless | @Lockey_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 1",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 2",
@@ -232,7 +233,6 @@
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 13",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 14",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 0",
-                "🇺🇸US | 🔴 | vless | @proxy_kafee | 1",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 2",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 3",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 4",
@@ -620,6 +620,7 @@
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 13",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 14",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 15",
+                "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
                 "🇩🇪DE | 🔴 | vless | @Lockey_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 1",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 2",
@@ -643,7 +644,6 @@
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 13",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 14",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 0",
-                "🇺🇸US | 🔴 | vless | @proxy_kafee | 1",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 2",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 3",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 4",
@@ -3524,6 +3524,37 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
+            "type": "vless",
+            "server": "live.skornorth.com",
+            "server_port": 443,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "live.skornorth.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "headers": {
+                    "Host": "live.skornorth.com"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪DE | 🔴 | vless | @Lockey_vpn | 0",
             "type": "vless",
             "server": "r.iphone-shopp.ir",
@@ -4031,7 +4062,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 1",
+            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 2",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
@@ -4052,7 +4083,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 2",
+            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 3",
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
             "server_port": 443,
@@ -4083,7 +4114,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 3",
+            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 4",
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
             "server_port": 443,
@@ -4114,7 +4145,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 4",
+            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 5",
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
             "server_port": 443,
@@ -4141,37 +4172,6 @@
                 "path": "\/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy",
                 "headers": {
                     "Host": "hajlab.ucdavis.edu"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 5",
-            "type": "vless",
-            "server": "198.62.62.234",
-            "server_port": 443,
-            "uuid": "71ed6628-5870-4d19-8a52-f2a3ba3d4898",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "aaa.zhuk.us.kg",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/youlingkaishi",
-                "headers": {
-                    "Host": "aaa.zhuk.us.kg"
                 }
             }
         },
