@@ -106,7 +106,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇭CH | 🟢 | vless | @VPNCUSTOMIZE | 0",
                 "🇩🇪DE | 🟢 | vless | @ipV2Ray | 20",
                 "🇩🇪DE | 🔴 | vless | @Lockey_vpn | 0",
                 "🇩🇪DE | 🟢 | vless | @CUSTOMVPNSERVER | 9",
@@ -154,7 +153,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇭CH | 🟢 | vless | @VPNCUSTOMIZE | 0",
                 "🇩🇪DE | 🟢 | vless | @ipV2Ray | 20",
                 "🇩🇪DE | 🔴 | vless | @Lockey_vpn | 0",
                 "🇩🇪DE | 🟢 | vless | @CUSTOMVPNSERVER | 9",
@@ -216,35 +214,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇨🇭CH | 🟢 | vless | @VPNCUSTOMIZE | 0",
-            "type": "vless",
-            "server": "ge.makevaslim.lat",
-            "server_port": 443,
-            "uuid": "69327284-637f-98d0-799f-f4f327c5197d",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.iranserver.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "f925pxfg6vfb03dOmwAtfzi3sY_9OlIMmHf81gWHol4",
-                    "short_id": "2c1efea9240fd8a4"
-                }
-            }
         },
         {
             "tag": "🇩🇪DE | 🟢 | vless | @ipV2Ray | 20",
