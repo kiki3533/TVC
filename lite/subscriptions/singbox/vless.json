@@ -130,8 +130,8 @@
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "🇺🇸US | 🔴 | vless | @Watashi_VPN | 3",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 18",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 140",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 141",
+                "🇳🇱NL | 🟢 | vless | @prrofile_purple | 132",
+                "🇺🇸US | 🔴 | vless | @prrofile_purple | 133",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 23",
                 "❔XX | 🔴 | vless | @customv2ray | 24",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 0",
@@ -197,8 +197,8 @@
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "🇺🇸US | 🔴 | vless | @Watashi_VPN | 3",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 18",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 140",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 141",
+                "🇳🇱NL | 🟢 | vless | @prrofile_purple | 132",
+                "🇺🇸US | 🔴 | vless | @prrofile_purple | 133",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 23",
                 "❔XX | 🔴 | vless | @customv2ray | 24",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 0",
@@ -885,32 +885,40 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @prrofile_purple | 140",
+            "tag": "🇳🇱NL | 🟢 | vless | @prrofile_purple | 132",
             "type": "vless",
-            "server": "162.159.153.2",
-            "server_port": 80,
-            "uuid": "dfc1a9ab-6241-4b73-92f7-b299fc6b7751",
-            "flow": "",
+            "server": "194.49.53.125",
+            "server_port": 8443,
+            "uuid": "3bfa9b24-6e07-4587-a1cd-5a228acbf124",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/xmlrpc.php?ed=1080",
-                "headers": {
-                    "Host": "162.159.153.2"
+            "tls": {
+                "enabled": true,
+                "server_name": "blog.cloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @prrofile_purple | 141",
+            "tag": "🇺🇸US | 🔴 | vless | @prrofile_purple | 133",
             "type": "vless",
-            "server": "104.26.13.101",
-            "server_port": 80,
-            "uuid": "dfc1a9ab-6241-4b73-92f7-b299fc6b7751",
+            "server": "live.989bull.com",
+            "server_port": 443,
+            "uuid": "SAVTEAM7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -918,11 +926,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "live.989bull.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/xmlrpc.php?ed=1080",
+                "path": "\/@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam?ed=443",
                 "headers": {
-                    "Host": "104.26.13.101"
+                    "Host": "live.989bull.com"
                 }
             }
         },
