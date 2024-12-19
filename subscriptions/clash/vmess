@@ -147,6 +147,7 @@ proxies:
   - {"name":"🇫🇷FR | 🟢 | vmess | @ShadowProxy66 | 28","type":"vmess","server":"195.154.102.210","port":"80","cipher":"auto","uuid":"2a8a10fb-9ca3-367e-a234-cf09f841be4f","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/v133PDXkklxLEcOvD","headers":{"host":"fr1e-unmetered.v2freevpn.com"}}}
   - {"name":"🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 29","type":"vmess","server":"ov-germany1.09vpn.com","port":"80","cipher":"auto","uuid":"8617d9e2-0a57-4168-81cd-661f190e9533","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess/","headers":{"host":""}}}
   - {"name":"🇫🇷FR | 🟢 | vmess | @ShadowProxy66 | 30","type":"vmess","server":"fr2e-tl7wr888kg8882h3.v2freevpn.com","port":"80","cipher":"auto","uuid":"2a8a10fb-9ca3-367e-a234-cf09f841be4f","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/frfrfffv888888mn01N","headers":{"host":""}}}
+  - {"name":"🇺🇸US | 🟢 | vmess | @v2ray1_ng | 2","type":"vmess","server":"151.101.194.133","port":"443","cipher":"auto","uuid":"9e67869b-ee62-4253-a92a-b6d9097d6800","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/telegram-@Lookiwhal,telegram-Lookiwhal,telegram-Lookiwhal,telegram-Lookiwhal,telegram-Lookiwhal,telegram-Lookiwhal,telegram-Lookiwhal,telegram-Lookiwhal,telegram-Lookiwhal,telegram-Lookiwhal,telegram-Lookiwhal,telegram-Lookiwhal,telegram-Lookiwhal,telegram-Lookiwhal,telegram-Lookiwhal,Mmdv2rayng-V2rayngmmd-telegram-haji-v2ray?ed=2056","headers":{"host":"banknabi-mahdi313.ir"}}}
   - {"name":"🇺🇸US | 🟢 | vmess | @proxystore11 | 1","type":"vmess","server":"de01.tiktokcloud.us.kg","port":"443","cipher":"auto","uuid":"a76c1300-65a2-4e3d-a6cd-89cb902419e5","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/de01","headers":{"host":"de01.tiktokcloud.us.kg"}}}
   - {"name":"🇳🇱NL | 🟢 | vmess | @yaney_01 | 1","type":"vmess","server":"45.199.138.217","port":"41000","cipher":"auto","uuid":"f9fa3a9c-f7d5-414f-88e6-6970585d9949","alterId":"64","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/path/282018252526","headers":{"host":"45.199.138.217"}}}
   - {"name":"🇺🇸US | 🟢 | vmess | @yaney_01 | 2","type":"vmess","server":"107.149.119.43","port":"37000","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/path/040318142507","headers":{"host":"107.149.119.43"}}}
@@ -193,6 +194,7 @@ proxy-groups:
       - '🇫🇷FR | 🟢 | vmess | @ShadowProxy66 | 28'
       - '🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 29'
       - '🇫🇷FR | 🟢 | vmess | @ShadowProxy66 | 30'
+      - '🇺🇸US | 🟢 | vmess | @v2ray1_ng | 2'
       - '🇺🇸US | 🟢 | vmess | @proxystore11 | 1'
       - '🇳🇱NL | 🟢 | vmess | @yaney_01 | 1'
       - '🇺🇸US | 🟢 | vmess | @yaney_01 | 2'
@@ -239,6 +241,7 @@ proxy-groups:
       - '🇫🇷FR | 🟢 | vmess | @ShadowProxy66 | 28'
       - '🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 29'
       - '🇫🇷FR | 🟢 | vmess | @ShadowProxy66 | 30'
+      - '🇺🇸US | 🟢 | vmess | @v2ray1_ng | 2'
       - '🇺🇸US | 🟢 | vmess | @proxystore11 | 1'
       - '🇳🇱NL | 🟢 | vmess | @yaney_01 | 1'
       - '🇺🇸US | 🟢 | vmess | @yaney_01 | 2'
@@ -284,6 +287,7 @@ proxy-groups:
       - '🇫🇷FR | 🟢 | vmess | @ShadowProxy66 | 28'
       - '🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 29'
       - '🇫🇷FR | 🟢 | vmess | @ShadowProxy66 | 30'
+      - '🇺🇸US | 🟢 | vmess | @v2ray1_ng | 2'
       - '🇺🇸US | 🟢 | vmess | @proxystore11 | 1'
       - '🇳🇱NL | 🟢 | vmess | @yaney_01 | 1'
       - '🇺🇸US | 🟢 | vmess | @yaney_01 | 2'
