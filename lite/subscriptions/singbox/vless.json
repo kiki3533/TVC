@@ -151,7 +151,7 @@
                 "❔XX | 🔴 | vless | @MTConfig | 13",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 312",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 313",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
                 "🇮🇷IR | 🔴 | vless | @proxystore11 | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 9",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 3",
@@ -220,7 +220,7 @@
                 "❔XX | 🔴 | vless | @MTConfig | 13",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 312",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 313",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
                 "🇮🇷IR | 🔴 | vless | @proxystore11 | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 9",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 3",
@@ -1394,11 +1394,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "167.82.71.119",
+            "server": "hajlab.ucdavis.edu",
             "server_port": 443,
-            "uuid": "e3998d85-0690-4d39-89c5-75b15f236632",
+            "uuid": "9f3054f4-93ba-40b7-bbd0-c48bfc4b3964",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1408,7 +1408,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "167.82.71.119",
+                "server_name": "hajlab.ucdavis.edu",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1418,9 +1418,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@Daily_Configs--@Daily_Configs--@Daily_Configs--@Daily_Configs--@Daily_Configs--@Daily_Configs?ed=2056",
+                "path": "\/@VPNCUSTOMIZE---@VPNCUSTOMIZE---@VPNCUSTOMIZE---@VPNCUSTOMIZE---@VPNCUSTOMIZE---@VPNCUSTOMIZE---@VPNCUSTOMIZE?ed=2560",
                 "headers": {
-                    "Host": "167.82.71.119"
+                    "Host": "hajlab.ucdavis.edu"
                 }
             }
         },
