@@ -130,8 +130,8 @@
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "🇺🇸US | 🔴 | vless | @Watashi_VPN | 0",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 18",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 149",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 150",
+                "🇺🇸US | 🔴 | vless | @prrofile_purple | 142",
+                "🇺🇸US | 🔴 | vless | @prrofile_purple | 143",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 20",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 21",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 0",
@@ -145,14 +145,14 @@
                 "❔XX | 🔴 | vless | @proxyymeliii | 12",
                 "🇺🇸US | 🔴 | vless | @proxyymeliii | 13",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 0",
-                "🇮🇹IT | 🔴 | vless | @v2ray1_ng | 5",
-                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 6",
+                "🇮🇹IT | 🔴 | vless | @v2ray1_ng | 6",
+                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 7",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 13",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 314",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 315",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
                 "🇮🇷IR | 🔴 | vless | @proxystore11 | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 9",
@@ -200,8 +200,8 @@
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "🇺🇸US | 🔴 | vless | @Watashi_VPN | 0",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 18",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 149",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 150",
+                "🇺🇸US | 🔴 | vless | @prrofile_purple | 142",
+                "🇺🇸US | 🔴 | vless | @prrofile_purple | 143",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 20",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 21",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 0",
@@ -215,14 +215,14 @@
                 "❔XX | 🔴 | vless | @proxyymeliii | 12",
                 "🇺🇸US | 🔴 | vless | @proxyymeliii | 13",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 0",
-                "🇮🇹IT | 🔴 | vless | @v2ray1_ng | 5",
-                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 6",
+                "🇮🇹IT | 🔴 | vless | @v2ray1_ng | 6",
+                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 7",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 13",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 314",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 315",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
                 "🇮🇷IR | 🔴 | vless | @proxystore11 | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 9",
@@ -868,11 +868,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @prrofile_purple | 149",
+            "tag": "🇺🇸US | 🔴 | vless | @prrofile_purple | 142",
             "type": "vless",
-            "server": "172.67.68.240",
-            "server_port": 443,
-            "uuid": "f2004126-5865-4980-b6dd-2211dbaadf10",
+            "server": "A33.fastly80-2.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "7a8abd2e-8651-4759-91d0-de37fcddf549",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -880,30 +880,20 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "rayan.sahel.us.kg",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed=2560",
+                "path": "\/@proxy_mtm-@proxy_mtm-@proxy_mtm-@proxy_mtm-@proxy_mtm-@proxy_mtm-@proxy_mtm-@proxy_mtm?ed=2560",
                 "headers": {
-                    "Host": "rayan.sahel.us.kg"
+                    "Host": "A33.fastly80-2.hosting-ip.com"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @prrofile_purple | 150",
+            "tag": "🇺🇸US | 🔴 | vless | @prrofile_purple | 143",
             "type": "vless",
-            "server": "live.skornorth.com",
-            "server_port": 443,
-            "uuid": "46d88ff3-8644-4fbc-b1e8-f5cec50202f0",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "6575a423-2e3d-4c89-9999-48bc1ddb72d2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -911,21 +901,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "live.skornorth.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/@custom_config",
+                "path": "\/VpnWedbaz---VpnWedBaZ?ed=443",
                 "headers": {
-                    "Host": "live.skornorth.com"
+                    "Host": "151.101.3.8"
                 }
             }
         },
@@ -1242,7 +1222,7 @@
             }
         },
         {
-            "tag": "🇮🇹IT | 🔴 | vless | @v2ray1_ng | 5",
+            "tag": "🇮🇹IT | 🔴 | vless | @v2ray1_ng | 6",
             "type": "vless",
             "server": "138.124.93.231",
             "server_port": 34722,
@@ -1256,7 +1236,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @v2ray1_ng | 6",
+            "tag": "🇺🇸US | 🔴 | vless | @v2ray1_ng | 7",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 443,
@@ -1432,12 +1412,12 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 16",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "194.164.180.24",
+            "server": "zmaoz.faculty.ucdavis.edu",
             "server_port": 443,
-            "uuid": "ce7b5e36-a3a0-4f61-af4d-6ca132f892c5",
-            "flow": "xtls-rprx-vision",
+            "uuid": "tell--ZEDMODEON",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1446,26 +1426,28 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "google.com",
+                "server_name": "zmaoz.faculty.ucdavis.edu",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "LRnxYf6GAqSZwr6JWbVSnq_pKW99mXJ5VjhtLJMzom0",
-                    "short_id": "5c75A51C"
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@ZEDMODEON-ZEDMODEON@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON",
+                "headers": {
+                    "Host": "zmaoz.faculty.ucdavis.edu"
                 }
             }
         },
         {
             "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "NUFiLTER.fastly80-3.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "TELEGRAM-NUFiLTER",
+            "server": "zmaoz.faculty.ucdavis.edu",
+            "server_port": 443,
+            "uuid": "Join--ZEDMODEON",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1473,11 +1455,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "zmaoz.faculty.ucdavis.edu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=80",
+                "path": "\/@ZEDMODEON-ZEDMODEON@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON",
                 "headers": {
-                    "Host": "NUFiLTER.fastly80-3.hosting-ip.com"
+                    "Host": "zmaoz.faculty.ucdavis.edu"
                 }
             }
         },
