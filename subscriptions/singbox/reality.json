@@ -115,7 +115,7 @@
                 "🇳🇱NL | 🔴 | vless | @prrofile_purple | 120",
                 "❔XX | 🟢 | vless | @prrofile_purple | 128",
                 "❔XX | 🔴 | vless | @prrofile_purple | 132",
-                "❔XX | 🔴 | vless | @customv2ray | 12",
+                "❔XX | 🔴 | vless | @customv2ray | 22",
                 "🇮🇹IT | 🔴 | vless | @ShadowProxy66 | 3",
                 "🇳🇱NL | 🔴 | vless | @ShadowProxy66 | 5",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 1",
@@ -126,7 +126,6 @@
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 0",
                 "🇹🇼TW | 🔴 | vless | @VmessProtocol | 1",
                 "🇫🇷FR | 🟢 | vless | @VmessProtocol | 10",
-                "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 19",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 0",
                 "🇫🇮FI | 🔴 | vless | @nofiltering2 | 15",
@@ -163,7 +162,7 @@
                 "🇳🇱NL | 🔴 | vless | @prrofile_purple | 120",
                 "❔XX | 🟢 | vless | @prrofile_purple | 128",
                 "❔XX | 🔴 | vless | @prrofile_purple | 132",
-                "❔XX | 🔴 | vless | @customv2ray | 12",
+                "❔XX | 🔴 | vless | @customv2ray | 22",
                 "🇮🇹IT | 🔴 | vless | @ShadowProxy66 | 3",
                 "🇳🇱NL | 🔴 | vless | @ShadowProxy66 | 5",
                 "🇩🇪DE | 🔴 | vless | @proxyymeliii | 1",
@@ -174,7 +173,6 @@
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 0",
                 "🇹🇼TW | 🔴 | vless | @VmessProtocol | 1",
                 "🇫🇷FR | 🟢 | vless | @VmessProtocol | 10",
-                "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 19",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 0",
                 "🇫🇮FI | 🔴 | vless | @nofiltering2 | 15",
@@ -514,7 +512,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @customv2ray | 12",
+            "tag": "❔XX | 🔴 | vless | @customv2ray | 22",
             "type": "vless",
             "server": "[2a01:4f8:1c1b:1891::1]",
             "server_port": 443,
@@ -777,35 +775,6 @@
             "server": "213.176.66.228",
             "server_port": 37021,
             "uuid": "8363e5e4-b97f-4ddf-bbcd-4e8f8d826a35",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Gk3eR3mV55k5P3tg-MzqMpNolmML8q9zBOf6A102e1Y",
-                    "short_id": "bc721eb6"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "213.176.66.228",
-            "server_port": 37021,
-            "uuid": "6fe5c2b2-37d1-4497-a7f2-e4e0d3bce178",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
