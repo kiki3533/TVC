@@ -142,13 +142,14 @@
                 "❔XX | 🔴 | vless | @proxyymeliii | 12",
                 "🇺🇸US | 🔴 | vless | @proxyymeliii | 13",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 0",
-                "🇮🇹IT | 🔴 | vless | @v2ray1_ng | 13",
+                "🇮🇹IT | 🔴 | vless | @v2ray1_ng | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 13",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 351",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 352",
-                "🇮🇹IT | 🔴 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 18",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 19",
                 "🇮🇷IR | 🔴 | vless | @proxystore11 | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 9",
                 "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 1",
@@ -207,13 +208,14 @@
                 "❔XX | 🔴 | vless | @proxyymeliii | 12",
                 "🇺🇸US | 🔴 | vless | @proxyymeliii | 13",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 0",
-                "🇮🇹IT | 🔴 | vless | @v2ray1_ng | 13",
+                "🇮🇹IT | 🔴 | vless | @v2ray1_ng | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 13",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 351",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 352",
-                "🇮🇹IT | 🔴 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 18",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 19",
                 "🇮🇷IR | 🔴 | vless | @proxystore11 | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 9",
                 "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 1",
@@ -1129,7 +1131,7 @@
             }
         },
         {
-            "tag": "🇮🇹IT | 🔴 | vless | @v2ray1_ng | 13",
+            "tag": "🇮🇹IT | 🔴 | vless | @v2ray1_ng | 14",
             "type": "vless",
             "server": "138.124.93.231",
             "server_port": 34722,
@@ -1278,11 +1280,42 @@
             }
         },
         {
-            "tag": "🇮🇹IT | 🔴 | vless | @ConfigsHUB | 16",
+            "tag": "🇺🇸US | 🟢 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "95.164.46.39",
-            "server_port": 2052,
-            "uuid": "72936223-46ff-5e16-be53-77f9261d938a",
+            "server": "172.64.34.137",
+            "server_port": 443,
+            "uuid": "0954c6d7-f4a7-44ff-9a78-1939f9ba43d4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "server20.aibox.tv",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/TG-AiLuMao\/",
+                "headers": {
+                    "Host": "server20.aibox.tv"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "TLS.zeoaeriedo-saioesrio.ir",
+            "server_port": 2000,
+            "uuid": "53bdec1d-b3bc-4a68-b2b3-0d2585e0aceb",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1292,7 +1325,7 @@
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "vless-grpc",
+                "service_name": "\/@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -1408,7 +1441,7 @@
             "type": "vless",
             "server": "151.101.1.6",
             "server_port": 80,
-            "uuid": "3e6ec0b6-dee3-4669-b0dc-731a652a4a4a",
+            "uuid": "bd28fe16-05b2-4393-94d5-a3aba5d24f16",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1427,9 +1460,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 11",
             "type": "vless",
-            "server": "zmaoz.faculty.ucdavis.edu",
-            "server_port": 443,
-            "uuid": "Join--ZEDMODEON",
+            "server": "151.101.1.6",
+            "server_port": 80,
+            "uuid": "3e6ec0b6-dee3-4669-b0dc-731a652a4a4a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1437,21 +1470,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "zmaoz.faculty.ucdavis.edu",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/@ZEDMODEON-ZEDMODEON-ZEDMODEON@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON",
+                "path": "\/@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=2480",
                 "headers": {
-                    "Host": "zmaoz.faculty.ucdavis.edu"
+                    "Host": "151.101.1.6"
                 }
             }
         },
