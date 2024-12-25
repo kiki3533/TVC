@@ -108,11 +108,8 @@
                 "URL-TEST",
                 "🇩🇪DE | 🟢 | vmess | @CUSTOMVPNSERVER | 15",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-                "🇫🇷FR | 🟢 | vmess | @DeamNet_Proxy | 16",
                 "🇲🇽MX | 🟢 | vmess | @ShadowProxy66 | 17",
                 "🇩🇰DK | 🟢 | vmess | @ShadowProxy66 | 18",
-                "🇷🇺RU | 🟢 | vmess | @ConfigsHUB | 11",
-                "🇳🇱NL | 🟢 | vmess | @ConfigsHUB | 12",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @free1_vpn | 1",
@@ -126,11 +123,8 @@
             "outbounds": [
                 "🇩🇪DE | 🟢 | vmess | @CUSTOMVPNSERVER | 15",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-                "🇫🇷FR | 🟢 | vmess | @DeamNet_Proxy | 16",
                 "🇲🇽MX | 🟢 | vmess | @ShadowProxy66 | 17",
                 "🇩🇰DK | 🟢 | vmess | @ShadowProxy66 | 18",
-                "🇷🇺RU | 🟢 | vmess | @ConfigsHUB | 11",
-                "🇳🇱NL | 🟢 | vmess | @ConfigsHUB | 12",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @free1_vpn | 1",
@@ -192,40 +186,6 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🟢 | vmess | @DeamNet_Proxy | 16",
-            "type": "vmess",
-            "server": "45.145.167.103",
-            "server_port": 443,
-            "uuid": "425c5e6e-30a0-4984-8a13-ee6f72053162",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "indiavideo.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "indiavideo.sbs"
-                }
-            }
-        },
-        {
             "tag": "🇲🇽MX | 🟢 | vmess | @ShadowProxy66 | 17",
             "type": "vmess",
             "server": "79.127.229.54",
@@ -261,54 +221,6 @@
             "transport": {
                 "type": "ws",
                 "path": "\/vmess#t-me-DarkVPNpro",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇷🇺RU | 🟢 | vmess | @ConfigsHUB | 11",
-            "type": "vmess",
-            "server": "45.8.158.32",
-            "server_port": 13530,
-            "uuid": "398ce84e-4849-4e5f-9b1a-a56fbe233b81",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | 🟢 | vmess | @ConfigsHUB | 12",
-            "type": "vmess",
-            "server": "95.179.128.114",
-            "server_port": 80,
-            "uuid": "a6292090-afe1-4640-97a7-4f1d1d877cf1",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Av8czorIlYicU6D349brWUw6a",
                 "headers": {
                     "Host": ""
                 }
