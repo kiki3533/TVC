@@ -107,7 +107,6 @@
             "outbounds": [
                 "URL-TEST",
                 "❔XX | 🟢 | vless | @prrofile_purple | 162",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
                 "🇷🇺RU | 🟢 | vless | @Outlinev2rayNG | 3",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -119,7 +118,6 @@
             "type": "urltest",
             "outbounds": [
                 "❔XX | 🟢 | vless | @prrofile_purple | 162",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
                 "🇷🇺RU | 🟢 | vless | @Outlinev2rayNG | 3",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -172,42 +170,6 @@
                     "public_key": "ANlgAsYC8HmKfJnc5SFvru822urkxG1PzW1Zw4Vbm0Q",
                     "short_id": "9bc0a55a5379c0ed"
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
-            "type": "vless",
-            "server": "107.175.70.80",
-            "server_port": 8851,
-            "uuid": "023f7aa2-d079-40d8-a730-c681947f10bb",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "addons.mozilla.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "22vKyS9fZFtSVQf2n6mkxRThLjtMJ4hMR_KfStdSLx0",
-                    "short_id": ""
-                }
-            },
-            "transport": {
-                "type": "http",
-                "host": [
-                    "addons.mozilla.org"
-                ],
-                "path": "\/"
             }
         },
         {
