@@ -146,9 +146,9 @@
         {
             "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "mk.ksalfjhaslkfa.ir",
-            "server_port": 1234,
-            "uuid": "79548d0f-6d07-4370-bc64-eef441bb0395",
+            "server": "dir.royal-film-3.co.uk",
+            "server_port": 443,
+            "uuid": "5346aa00-8750-4c50-b3bb-91f19c7d6dc9",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -158,17 +158,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "stackoverflow.com",
+                "server_name": "hostgator.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "appEoaCMnarRhUZDRn8zy40eQqy87IohvyWeFSPFjjE",
-                    "short_id": "a172f284"
+                    "public_key": "GLpKeNAUHdgMalqLtE4yPERggo4tC9OxTUfWuxv8IBk",
+                    "short_id": "7eb399485bae4ba1"
                 }
             }
         },
