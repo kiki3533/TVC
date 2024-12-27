@@ -106,8 +106,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 14",
-                "🇨🇳CN | 🔴 | vless | @ConfigsHUB | 15",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ]
@@ -116,8 +114,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 14",
-                "🇨🇳CN | 🔴 | vless | @ConfigsHUB | 15",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ],
@@ -140,64 +136,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 14",
-            "type": "vless",
-            "server": "mk.ksalfjhaslkfa.ir",
-            "server_port": 1234,
-            "uuid": "79548d0f-6d07-4370-bc64-eef441bb0395",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "appEoaCMnarRhUZDRn8zy40eQqy87IohvyWeFSPFjjE",
-                    "short_id": "a172f284"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇳CN | 🔴 | vless | @ConfigsHUB | 15",
-            "type": "vless",
-            "server": "125.88.149.205",
-            "server_port": 50095,
-            "uuid": "2add6241-8fe8-3922-8347-da25e8ced601",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "tesla.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "zRZhlkKjUeqtIk9j6yy95aX-2krqQVyWORLv5tQkQGM",
-                    "short_id": ""
-                }
-            }
         },
         {
             "tag": "❔XX | 🔴 | vless | @vpn_go67 | 20",
