@@ -107,7 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇩🇪DE | 🟢 | vless | @proxy_kafee | 3",
-                "🇮🇱IL | 🟢 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 19",
                 "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 3",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
@@ -118,7 +118,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇩🇪DE | 🟢 | vless | @proxy_kafee | 3",
-                "🇮🇱IL | 🟢 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 19",
                 "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 3",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
@@ -173,11 +173,11 @@
             }
         },
         {
-            "tag": "🇮🇱IL | 🟢 | vless | @ConfigsHUB | 19",
+            "tag": "🇺🇸US | 🟢 | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "138.124.25.81",
-            "server_port": 9090,
-            "uuid": "33dc6301-e4bf-4612-94f5-7006fe062892",
+            "server": "129.146.77.26",
+            "server_port": 28824,
+            "uuid": "fd78dead-1b5b-4a2e-cc0e-55f1b762637a",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -187,7 +187,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "refersion.com",
+                "server_name": "www.cloudflare.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -196,7 +196,7 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "7wMxPQE_dDnSTme4_LlmiMQp28_B0ovKf53KyvRm4BQ",
+                    "public_key": "cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA",
                     "short_id": ""
                 }
             }
