@@ -157,14 +157,14 @@
                 "🇦🇪AE | 🟢 | vless | @VmessProtocol | 14",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 344",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 345",
-                "🇺🇸US | 🟢 | trojan | @ConfigsHUB | 14",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @free1_vpn | 6",
                 "🇮🇳IN | 🟢 | vmess | @free1_vpn | 7",
-                "🇬🇧GB | 🟢 | vmess | @Hope_Net | 15",
                 "🇨🇳CN | 🟢 | vmess | @Hope_Net | 16",
+                "🇬🇧GB | 🟢 | vmess | @Hope_Net | 17",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🇫🇮FI | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
@@ -172,7 +172,7 @@
                 "🇮🇳IN | 🔴 | vless | @flyv2ray | 16",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 12",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 13",
-                "🇺🇸US | 🔴 | vless | @nofiltering2 | 22",
+                "🇺🇸US | 🔴 | vless | @nofiltering2 | 21",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇪🇸ES | 🔴 | vless | @kingofilter | 15",
@@ -238,14 +238,14 @@
                 "🇦🇪AE | 🟢 | vless | @VmessProtocol | 14",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 344",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 345",
-                "🇺🇸US | 🟢 | trojan | @ConfigsHUB | 14",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @free1_vpn | 6",
                 "🇮🇳IN | 🟢 | vmess | @free1_vpn | 7",
-                "🇬🇧GB | 🟢 | vmess | @Hope_Net | 15",
                 "🇨🇳CN | 🟢 | vmess | @Hope_Net | 16",
+                "🇬🇧GB | 🟢 | vmess | @Hope_Net | 17",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🇫🇮FI | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
@@ -253,7 +253,7 @@
                 "🇮🇳IN | 🔴 | vless | @flyv2ray | 16",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 12",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 13",
-                "🇺🇸US | 🔴 | vless | @nofiltering2 | 22",
+                "🇺🇸US | 🔴 | vless | @nofiltering2 | 21",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇪🇸ES | 🔴 | vless | @kingofilter | 15",
@@ -1475,11 +1475,13 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | trojan | @ConfigsHUB | 14",
-            "type": "trojan",
-            "server": "18.118.81.15",
-            "server_port": 22222,
-            "password": "telegram-id-directvpn",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
+            "type": "vless",
+            "server": "zmaoz.faculty.ucdavis.edu",
+            "server_port": 443,
+            "uuid": "e4638cbb-c39f-4ef0-d626-e2e104557ca2",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1487,21 +1489,28 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
+                "server_name": "zmaoz.faculty.ucdavis.edu.",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/olem\/ws?ed=4096@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
+                "headers": {
+                    "Host": "zmaoz.faculty.ucdavis.edu."
+                }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 80,
-            "uuid": "42900b02-8348-50a5-9ace-be0899b0e541",
+            "uuid": "bea3e2e7-5433-43b3-db13-6b481e8dab5a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1511,7 +1520,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/olem\/ws?ed=1024@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
                 "headers": {
                     "Host": "speedtest.net"
                 }
@@ -1617,7 +1626,24 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🟢 | vmess | @Hope_Net | 15",
+            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 16",
+            "type": "vmess",
+            "server": "50023.baidu-cdn.top",
+            "server_port": 50023,
+            "uuid": "fa2c4c94-b477-4809-9db8-3db03ef06202",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇬🇧GB | 🟢 | vmess | @Hope_Net | 17",
             "type": "vmess",
             "server": "35.178.235.225",
             "server_port": 443,
@@ -1648,23 +1674,6 @@
                 "headers": {
                     "Host": "35.178.235.225"
                 }
-            }
-        },
-        {
-            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 16",
-            "type": "vmess",
-            "server": "sggp1.pfdsddla.com",
-            "server_port": 34843,
-            "uuid": "f5dca880-153e-3ff1-a940-681b01da4629",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -1804,11 +1813,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @nofiltering2 | 22",
+            "tag": "🇺🇸US | 🔴 | vless | @nofiltering2 | 21",
             "type": "vless",
-            "server": "Zmaoz.Faculty.Ucdavis.Edu",
+            "server": "151.101.194.133",
             "server_port": 443,
-            "uuid": "8df2d2e8-17a5-4ab3-b3cd-8ba9286abecd",
+            "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1818,7 +1827,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "Zmaoz.Faculty.Ucdavis.Edu",
+                "server_name": "mio.splashthat.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1828,9 +1837,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=80",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "headers": {
-                    "Host": "Zmaoz.Faculty.Ucdavis.Edu"
+                    "Host": "mio.splashthat.com"
                 }
             }
         },
