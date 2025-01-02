@@ -106,9 +106,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
+                "🇩🇪DE | 🔴 | vless | @proxyymeliii | 1",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 12",
-                "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 15",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ]
@@ -117,9 +116,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
+                "🇩🇪DE | 🔴 | vless | @proxyymeliii | 1",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 12",
-                "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 15",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ],
@@ -144,11 +142,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @proxyymeliii | 6",
+            "tag": "🇩🇪DE | 🔴 | vless | @proxyymeliii | 1",
             "type": "vless",
             "server": "49.12.193.246",
             "server_port": 443,
-            "uuid": "46286ed2-9abf-420b-b510-c9e663cdbadc",
+            "uuid": "bf82a225-edb7-4b16-b7b3-96421fc85a79",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -184,42 +182,6 @@
                     "public_key": "fPtoPIDDJIW4pSY8TAFM0BKPA0ELOkX7ssc3i23SXlE",
                     "short_id": "75813316"
                 }
-            }
-        },
-        {
-            "tag": "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 15",
-            "type": "vless",
-            "server": "turksshop1.farshdastbafan.ir",
-            "server_port": 2060,
-            "uuid": "122042c8-4f2a-4265-985e-3a3e6bc1cfd2",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.stackoverflow.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "h64jDxauUagF90N59BEKz5NzinfuHieilx0XuXOkAwQ",
-                    "short_id": "0ede823b93853771"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "2060vless",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
