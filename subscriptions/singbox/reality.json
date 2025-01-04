@@ -117,16 +117,16 @@
                 "❔XX | 🟢 | vless | @prrofile_purple | 131",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 139",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 142",
-                "🇫🇷FR | 🟢 | vless | @ShadowProxy66 | 28",
-                "🇩🇪DE | 🟢 | vless | @ShadowProxy66 | 30",
-                "🇳🇱NL | 🟢 | vless | @ShadowProxy66 | 32",
+                "🇫🇷FR | 🟢 | vless | @ShadowProxy66 | 35",
+                "🇩🇪DE | 🟢 | vless | @ShadowProxy66 | 37",
+                "🇳🇱NL | 🟢 | vless | @ShadowProxy66 | 39",
                 "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 9",
                 "🇺🇸US | 🟢 | vless | @vless_vmess | 3",
                 "❔XX | 🟢 | vless | @VmessProtocol | 6",
                 "❔XX | 🔴 | vless | @VmessProtocol | 7",
                 "🇺🇸US | 🟢 | vless | @VmessProtocol | 10",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 8",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 13",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 29",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 31",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 1",
                 "🇩🇪DE | 🔴 | vless | @nofiltering2 | 3",
@@ -163,16 +163,16 @@
                 "❔XX | 🟢 | vless | @prrofile_purple | 131",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 139",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 142",
-                "🇫🇷FR | 🟢 | vless | @ShadowProxy66 | 28",
-                "🇩🇪DE | 🟢 | vless | @ShadowProxy66 | 30",
-                "🇳🇱NL | 🟢 | vless | @ShadowProxy66 | 32",
+                "🇫🇷FR | 🟢 | vless | @ShadowProxy66 | 35",
+                "🇩🇪DE | 🟢 | vless | @ShadowProxy66 | 37",
+                "🇳🇱NL | 🟢 | vless | @ShadowProxy66 | 39",
                 "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 9",
                 "🇺🇸US | 🟢 | vless | @vless_vmess | 3",
                 "❔XX | 🟢 | vless | @VmessProtocol | 6",
                 "❔XX | 🔴 | vless | @VmessProtocol | 7",
                 "🇺🇸US | 🟢 | vless | @VmessProtocol | 10",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 8",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 13",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 29",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 31",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 1",
                 "🇩🇪DE | 🔴 | vless | @nofiltering2 | 3",
@@ -561,7 +561,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🟢 | vless | @ShadowProxy66 | 28",
+            "tag": "🇫🇷FR | 🟢 | vless | @ShadowProxy66 | 35",
             "type": "vless",
             "server": "185.255.112.175",
             "server_port": 5600,
@@ -590,7 +590,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @ShadowProxy66 | 30",
+            "tag": "🇩🇪DE | 🟢 | vless | @ShadowProxy66 | 37",
             "type": "vless",
             "server": "91.107.166.238",
             "server_port": 443,
@@ -619,7 +619,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vless | @ShadowProxy66 | 32",
+            "tag": "🇳🇱NL | 🟢 | vless | @ShadowProxy66 | 39",
             "type": "vless",
             "server": "174.138.13.224",
             "server_port": 15891,
@@ -800,11 +800,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 8",
+            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 29",
             "type": "vless",
-            "server": "tify-binex-join.espikernajafi.ir",
-            "server_port": 6666,
-            "uuid": "9b71271a-379f-4c4e-fce6-1b857090b2c8",
+            "server": "3.145.1.137",
+            "server_port": 1212,
+            "uuid": "a7e04b44-855e-4fe7-8fa0-31894e928bce",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -814,7 +814,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "refersion.com",
+                "server_name": "stackoverflow.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -823,24 +823,17 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "rqgsbGz0fcoqzqfgZLvFolWFqQcsa1yVsvEEfzD7kX4",
-                    "short_id": ""
+                    "public_key": "RYsjWbL0kjpi144PPllR_2C_KK3a071iGBPUUCsHH1A",
+                    "short_id": "a4844ba7"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 13",
+            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 31",
             "type": "vless",
-            "server": "01010.sbs",
-            "server_port": 8443,
-            "uuid": "2c3741c4-4cfc-4fb3-88e5-a3144feef4db",
+            "server": "3.80.73.120",
+            "server_port": 1212,
+            "uuid": "a7e04b44-855e-4fe7-8fa0-31894e928bce",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -850,7 +843,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "dropbox.com",
+                "server_name": "stackoverflow.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -859,8 +852,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": ""
+                    "public_key": "RYsjWbL0kjpi144PPllR_2C_KK3a071iGBPUUCsHH1A",
+                    "short_id": "a4844ba7"
                 }
             }
         },
