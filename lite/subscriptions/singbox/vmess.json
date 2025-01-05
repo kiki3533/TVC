@@ -111,7 +111,7 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
                 "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 18",
                 "❔XX | 🟢 | vmess | @prrofile_purple | 171",
-                "🇸🇬SG | 🟢 | vmess | @ConfigsHUB | 11",
+                "🇺🇸US | 🟢 | vmess | @v2ray1_ng | 15",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @free1_vpn | 10",
@@ -128,7 +128,7 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
                 "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 18",
                 "❔XX | 🟢 | vmess | @prrofile_purple | 171",
-                "🇸🇬SG | 🟢 | vmess | @ConfigsHUB | 11",
+                "🇺🇸US | 🟢 | vmess | @v2ray1_ng | 15",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @free1_vpn | 10",
@@ -248,11 +248,11 @@
             }
         },
         {
-            "tag": "🇸🇬SG | 🟢 | vmess | @ConfigsHUB | 11",
+            "tag": "🇺🇸US | 🟢 | vmess | @v2ray1_ng | 15",
             "type": "vmess",
-            "server": "83.147.255.67",
-            "server_port": 13889,
-            "uuid": "d985c135-28c5-40fe-8853-31da55080161",
+            "server": "151.101.2.168",
+            "server_port": 80,
+            "uuid": "beb7d098-48ba-4be8-a47a-758bf3c470b8",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -262,6 +262,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
