@@ -130,12 +130,13 @@
                 "🇷🇺RU | 🟢 | vmess | @ShadowProxy66 | 28",
                 "🇫🇷FR | 🟢 | vmess | @ShadowProxy66 | 29",
                 "🇲🇽MX | 🟢 | vmess | @ShadowProxy66 | 30",
-                "🇫🇷FR | 🟢 | vmess | @ShadowProxy66 | 31",
+                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 31",
                 "🇫🇷FR | 🟢 | vmess | @ShadowProxy66 | 32",
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 34",
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 35",
                 "🇮🇷IR | 🟢 | vmess | @ShadowProxy66 | 41",
                 "🇺🇸US | 🟢 | vmess | @v2ray1_ng | 14",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 12",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -173,12 +174,13 @@
                 "🇷🇺RU | 🟢 | vmess | @ShadowProxy66 | 28",
                 "🇫🇷FR | 🟢 | vmess | @ShadowProxy66 | 29",
                 "🇲🇽MX | 🟢 | vmess | @ShadowProxy66 | 30",
-                "🇫🇷FR | 🟢 | vmess | @ShadowProxy66 | 31",
+                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 31",
                 "🇫🇷FR | 🟢 | vmess | @ShadowProxy66 | 32",
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 34",
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 35",
                 "🇮🇷IR | 🟢 | vmess | @ShadowProxy66 | 41",
                 "🇺🇸US | 🟢 | vmess | @v2ray1_ng | 14",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 12",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -749,7 +751,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🟢 | vmess | @ShadowProxy66 | 31",
+            "tag": "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 31",
             "type": "vmess",
             "server": "hms19.best-tizi.top",
             "server_port": 443,
@@ -922,6 +924,40 @@
                 "path": "\/",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 12",
+            "type": "vmess",
+            "server": "www.zula.ir",
+            "server_port": 443,
+            "uuid": "9072d339-3885-4fe1-b0bc-29fa7505410e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "german2025.hamedpeyvasi.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/fixedfloati.cfd\/linkwsd",
+                "headers": {
+                    "Host": "german2025.hamedpeyvasi.workers.dev"
                 }
             }
         },
