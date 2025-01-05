@@ -279,7 +279,7 @@
                 "🇩🇪DE | 🟢 | ss | @DeamNet_Proxy | 3",
                 "🇪🇸ES | 🟢 | ss | @DeamNet_Proxy | 4",
                 "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 6",
-                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 7",
+                "🇫🇷FR | 🟢 | vmess | @DeamNet_Proxy | 7",
                 "🇸🇨SC | 🟢 | vmess | @DeamNet_Proxy | 8",
                 "🇺🇦UA | 🟢 | ss | @DeamNet_Proxy | 9",
                 "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 14",
@@ -496,11 +496,13 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 72",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 73",
                 "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 0",
-                "🇮🇳IN | 🔴 | vless | @ConfigsHUB | 1",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 2",
+                "🇫🇷FR | 🟢 | vmess | @ConfigsHUB | 1",
+                "🇮🇳IN | 🔴 | vless | @ConfigsHUB | 2",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 3",
-                "🚩CF | 🔴 | vless | @ConfigsHUB | 12",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 14",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 4",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 6",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 7",
+                "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 18",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -758,7 +760,7 @@
                 "🇩🇪DE | 🟢 | ss | @DeamNet_Proxy | 3",
                 "🇪🇸ES | 🟢 | ss | @DeamNet_Proxy | 4",
                 "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 6",
-                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 7",
+                "🇫🇷FR | 🟢 | vmess | @DeamNet_Proxy | 7",
                 "🇸🇨SC | 🟢 | vmess | @DeamNet_Proxy | 8",
                 "🇺🇦UA | 🟢 | ss | @DeamNet_Proxy | 9",
                 "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 14",
@@ -975,11 +977,13 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 72",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 73",
                 "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 0",
-                "🇮🇳IN | 🔴 | vless | @ConfigsHUB | 1",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 2",
+                "🇫🇷FR | 🟢 | vmess | @ConfigsHUB | 1",
+                "🇮🇳IN | 🔴 | vless | @ConfigsHUB | 2",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 3",
-                "🚩CF | 🔴 | vless | @ConfigsHUB | 12",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 14",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 4",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 6",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 7",
+                "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 18",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -5121,7 +5125,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 7",
+            "tag": "🇫🇷FR | 🟢 | vmess | @DeamNet_Proxy | 7",
             "type": "vmess",
             "server": "hms19.best-tizi.top",
             "server_port": 443,
@@ -10468,7 +10472,41 @@
             }
         },
         {
-            "tag": "🇮🇳IN | 🔴 | vless | @ConfigsHUB | 1",
+            "tag": "🇫🇷FR | 🟢 | vmess | @ConfigsHUB | 1",
+            "type": "vmess",
+            "server": "146.19.168.161",
+            "server_port": 443,
+            "uuid": "3f638f34-8dba-4186-bc43-2716a7ddd4be",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "az05.beyondy.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/link",
+                "headers": {
+                    "Host": "az05.beyondy.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇳IN | 🔴 | vless | @ConfigsHUB | 2",
             "type": "vless",
             "server": "151.101.158.204",
             "server_port": 80,
@@ -10489,7 +10527,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 2",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 3",
             "type": "vless",
             "server": "zmaoz.faculty.ucdavis.edu",
             "server_port": 443,
@@ -10520,7 +10558,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 3",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 4",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 80,
@@ -10541,11 +10579,11 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @ConfigsHUB | 12",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 6",
             "type": "vless",
-            "server": "104.17.134.62",
+            "server": "zmaoz.faculty.ucdavis.edu",
             "server_port": 443,
-            "uuid": "18722220-9249-0051-5849-e8a8f1f76424",
+            "uuid": "Joinin--ZEDMODEON",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -10555,7 +10593,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "hvxoo.metahkh.com",
+                "server_name": "zmaoz.faculty.ucdavis.edu",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -10564,19 +10602,19 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "grpc",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/@ZEDMODEON-ZEDMODEON-ZEDMODEON@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON",
+                "headers": {
+                    "Host": "zmaoz.faculty.ucdavis.edu"
+                }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @ConfigsHUB | 14",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 7",
             "type": "vless",
-            "server": "15.204.153.78",
+            "server": "151.101.194.133",
             "server_port": 443,
-            "uuid": "3b9bc773-05eb-4d5f-8c1f-57342c0c4f40",
+            "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -10586,12 +10624,48 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "147135010103.sec19org.com",
+                "server_name": "mio.splashthat.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "headers": {
+                    "Host": "mio.splashthat.com"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "65.109.199.233",
+            "server_port": 4050,
+            "uuid": "1df5e589-3301-427e-b0aa-0017ffde1555",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mega.de",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "oVRY8h7Njgw25j3CNhaJVMUys378tTvecrSRbrB3gyo",
+                    "short_id": "2ebd6e17dec6a5d9"
                 }
             }
         },
