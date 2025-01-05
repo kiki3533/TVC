@@ -119,6 +119,7 @@
                 "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 7",
                 "🇸🇨SC | 🟢 | vmess | @DeamNet_Proxy | 8",
                 "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 16",
+                "❔XX | 🟢 | vmess | @prrofile_purple | 162",
                 "🇫🇷FR | 🟢 | vmess | @ShadowProxy66 | 20",
                 "🇯🇵JP | 🟢 | vmess | @ShadowProxy66 | 21",
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 22",
@@ -160,6 +161,7 @@
                 "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 7",
                 "🇸🇨SC | 🟢 | vmess | @DeamNet_Proxy | 8",
                 "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 16",
+                "❔XX | 🟢 | vmess | @prrofile_purple | 162",
                 "🇫🇷FR | 🟢 | vmess | @ShadowProxy66 | 20",
                 "🇯🇵JP | 🟢 | vmess | @ShadowProxy66 | 21",
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 22",
@@ -463,6 +465,23 @@
                 "headers": {
                     "Host": "104.16.60.8"
                 }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | @prrofile_purple | 162",
+            "type": "vmess",
+            "server": "internetazadvmess.viewdns.net",
+            "server_port": 36909,
+            "uuid": "cf826c41-0d4d-448d-c740-72f45484a0ad",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
