@@ -127,6 +127,7 @@ proxies:
   - {"name":"🇺🇸US | 🔴 | vless | @Lockey_vpn | 1","type":"vless","server":"151.101.2.216","port":80,"udp":false,"uuid":"16190e3c-6c1b-45c3-8be2-48ef92c211a2","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/@LOCKEY-VPN-@LOCKEY-VPN-@LOCKEY-VPN-@LOCKEY-VPN-@LOCKEY-VPN-@LOCKEY-VPN-@LOCKEY-VPN-@LOCKEY-VPN-@LOCKEY-VPN-@LOCKEY-VPN-@LOCKEY-VPN-@LOCKEY-VPN-@LOCKEY-VPN-@LOCKEY-VPN-@LOCKEY-VPN-@LOCKEY-VPN?ed=2048?ed=2048","headers":{"host":"Lockey-vip.ir"}}}
   - {"name":"🇺🇸US | 🔴 | vless | @DigiV2ray | 7","type":"vless","server":"Speedtest.net","port":80,"udp":false,"uuid":"b1f58d90-e65f-4566-91f3-1b96e9a68613","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--?ed=2048","headers":{"host":"JoiIInNn--DIgiv2Ray.Ir."}}}
   - {"name":"🇺🇸US | 🔴 | vless | @DigiV2ray | 8","type":"vless","server":"Speedtest.net","port":80,"udp":false,"uuid":"b1f58d90-e65f-4566-91f3-1b96e9a68612","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--?ed=2048","headers":{"host":"JoiIInNn--DIgiv2Ray.Ir."}}}
+  - {"name":"🇩🇪DE | 🔴 | vless | @DarkTeam_VPN | 0","type":"vless","server":"145.239.137.166","port":14185,"udp":false,"uuid":"8afbcce1-1d5d-4d54-a6a7-a64230b91341","tls":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"❔XX | 🔴 | vless | @V2rayCollectorDonate | 18","type":"vless","server":"web.bbv2ry.pics","port":443,"udp":false,"uuid":"ac6b3d48-d16f-4125-9f17-d986541a3ee9","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"Sky2.bbv2ry.pics","ws-opts":{"path":"/","headers":{"host":"Sky2.bbv2ry.pics"}}}
   - {"name":"TELEGRAM-MARAMBASHI_MARAMBASHI/?ed=2560&security=tls&alpn=h2,http/1.1&encryption=none&host=speedtest.net.ftp.debian.org.1.2.3.a.b.c.netspeedtest.net.eng2.moiasl.ir&fp=randomized&type=ws&sni=coffeegenome.ucdavis.edu#🇺🇸US | 🔴 | vless | @customv2ray | 8","type":"vless","server":"coffeegenome.ucdavis.edu","port":443,"udp":false,"uuid":"8160a5b8-74e3-5eff-a8a0-ecd4f72e81fe","tls":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 0","type":"vless","server":"104.18.165.30","port":80,"udp":false,"uuid":"03550326-cf94-439d-a02d-17760f0089d5","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/index.php/Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE?ed=1080","headers":{"host":"hit.ir.google.com.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.trepaspeedtest.betrat.com.eu.com.sh847.ir.xn--cr8haaaaaaaaaaaaaaaa.shir-too-cloud.cloudNs.CH."}}}
@@ -169,6 +170,7 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @Lockey_vpn | 1'
       - '🇺🇸US | 🔴 | vless | @DigiV2ray | 7'
       - '🇺🇸US | 🔴 | vless | @DigiV2ray | 8'
+      - '🇩🇪DE | 🔴 | vless | @DarkTeam_VPN | 0'
       - '❔XX | 🔴 | vless | @V2rayCollectorDonate | 18'
       - 'TELEGRAM-MARAMBASHI_MARAMBASHI/?ed=2560&security=tls&alpn=h2,http/1.1&encryption=none&host=speedtest.net.ftp.debian.org.1.2.3.a.b.c.netspeedtest.net.eng2.moiasl.ir&fp=randomized&type=ws&sni=coffeegenome.ucdavis.edu#🇺🇸US | 🔴 | vless | @customv2ray | 8'
       - '🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 0'
@@ -211,6 +213,7 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @Lockey_vpn | 1'
       - '🇺🇸US | 🔴 | vless | @DigiV2ray | 7'
       - '🇺🇸US | 🔴 | vless | @DigiV2ray | 8'
+      - '🇩🇪DE | 🔴 | vless | @DarkTeam_VPN | 0'
       - '❔XX | 🔴 | vless | @V2rayCollectorDonate | 18'
       - 'TELEGRAM-MARAMBASHI_MARAMBASHI/?ed=2560&security=tls&alpn=h2,http/1.1&encryption=none&host=speedtest.net.ftp.debian.org.1.2.3.a.b.c.netspeedtest.net.eng2.moiasl.ir&fp=randomized&type=ws&sni=coffeegenome.ucdavis.edu#🇺🇸US | 🔴 | vless | @customv2ray | 8'
       - '🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 0'
@@ -252,6 +255,7 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @Lockey_vpn | 1'
       - '🇺🇸US | 🔴 | vless | @DigiV2ray | 7'
       - '🇺🇸US | 🔴 | vless | @DigiV2ray | 8'
+      - '🇩🇪DE | 🔴 | vless | @DarkTeam_VPN | 0'
       - '❔XX | 🔴 | vless | @V2rayCollectorDonate | 18'
       - 'TELEGRAM-MARAMBASHI_MARAMBASHI/?ed=2560&security=tls&alpn=h2,http/1.1&encryption=none&host=speedtest.net.ftp.debian.org.1.2.3.a.b.c.netspeedtest.net.eng2.moiasl.ir&fp=randomized&type=ws&sni=coffeegenome.ucdavis.edu#🇺🇸US | 🔴 | vless | @customv2ray | 8'
       - '🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 0'
