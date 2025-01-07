@@ -148,8 +148,8 @@
                 "❔XX | 🟢 | vless | @VmessProtocol | 12",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 200",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 201",
-                "🇹🇼TW | 🔴 | vless | @ConfigsHUB | 16",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 8",
                 "🇸🇪SE | 🔴 | vless | @free1_vpn | 9",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
@@ -215,8 +215,8 @@
                 "❔XX | 🟢 | vless | @VmessProtocol | 12",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 200",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 201",
-                "🇹🇼TW | 🔴 | vless | @ConfigsHUB | 16",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 8",
                 "🇸🇪SE | 🔴 | vless | @free1_vpn | 9",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
@@ -1253,40 +1253,11 @@
             }
         },
         {
-            "tag": "🇹🇼TW | 🔴 | vless | @ConfigsHUB | 16",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "pqsbgp.doubledou.icu",
+            "server": "zmaoz.faculty.ucdavis.edu",
             "server_port": 443,
-            "uuid": "d2093082-a38a-316b-adcb-71013e595bd0",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "tesla.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "zRZhlkKjUeqtIk9j6yy95aX-2krqQVyWORLv5tQkQGM",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "104.21.21.181",
-            "server_port": 443,
-            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+            "uuid": "tel--ZEDMODEON",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1296,7 +1267,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "a.xn--i-sx6a60i.us.kg",
+                "server_name": "zmaoz.faculty.ucdavis.edu",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1306,9 +1277,40 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/@ZEDMODEON-ZEDMODEON-ZEDMODEON@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON",
                 "headers": {
-                    "Host": "a.xn--i-sx6a60i.us.kg"
+                    "Host": "zmaoz.faculty.ucdavis.edu"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "zmaoz.faculty.ucdavis.edu",
+            "server_port": 443,
+            "uuid": "Joinin--ZEDMODEON",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "zmaoz.faculty.ucdavis.edu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@ZEDMODEON-ZEDMODEON-ZEDMODEON@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON",
+                "headers": {
+                    "Host": "zmaoz.faculty.ucdavis.edu"
                 }
             }
         },
