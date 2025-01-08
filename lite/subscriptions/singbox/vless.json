@@ -146,9 +146,10 @@
                 "❔XX | 🔴 | vless | @MTConfig | 13",
                 "🇨🇦CA | 🔴 | vless | @VmessProtocol | 11",
                 "❔XX | 🟢 | vless | @VmessProtocol | 12",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 191",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 192",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 184",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 185",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 12",
+                "🇬🇧GB | 🟢 | vless | @ConfigsHUB | 13",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 8",
                 "🇸🇪SE | 🔴 | vless | @free1_vpn | 9",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
@@ -161,8 +162,7 @@
                 "🇫🇷FR | 🔴 | vless | @nofiltering2 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
-                "🇬🇧GB | 🟢 | vless | @kingofilter | 12",
-                "🇺🇸US | 🟢 | vless | @kingofilter | 13",
+                "🇮🇷IR | 🔴 | vless | @kingofilter | 14",
                 "🇳🇱NL | 🔴 | vless | @V2FETCH | 0",
                 "❔XX | 🔴 | vless | @VpnSkyy | 2",
                 "❔XX | 🔴 | vless | @VpnSkyy | 3"
@@ -212,9 +212,10 @@
                 "❔XX | 🔴 | vless | @MTConfig | 13",
                 "🇨🇦CA | 🔴 | vless | @VmessProtocol | 11",
                 "❔XX | 🟢 | vless | @VmessProtocol | 12",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 191",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 192",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 184",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 185",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 12",
+                "🇬🇧GB | 🟢 | vless | @ConfigsHUB | 13",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 8",
                 "🇸🇪SE | 🔴 | vless | @free1_vpn | 9",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
@@ -227,8 +228,7 @@
                 "🇫🇷FR | 🔴 | vless | @nofiltering2 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
-                "🇬🇧GB | 🟢 | vless | @kingofilter | 12",
-                "🇺🇸US | 🟢 | vless | @kingofilter | 13",
+                "🇮🇷IR | 🔴 | vless | @kingofilter | 14",
                 "🇳🇱NL | 🔴 | vless | @V2FETCH | 0",
                 "❔XX | 🔴 | vless | @VpnSkyy | 2",
                 "❔XX | 🔴 | vless | @VpnSkyy | 3"
@@ -1189,9 +1189,9 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 191",
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 184",
             "type": "vless",
-            "server": "18.118.12.115",
+            "server": "18.232.176.11",
             "server_port": 1212,
             "uuid": "a7e04b44-855e-4fe7-8fa0-31894e928bce",
             "flow": "xtls-rprx-vision",
@@ -1218,9 +1218,9 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 192",
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 185",
             "type": "vless",
-            "server": "18.117.188.47",
+            "server": "18.188.119.26",
             "server_port": 1212,
             "uuid": "a7e04b44-855e-4fe7-8fa0-31894e928bce",
             "flow": "xtls-rprx-vision",
@@ -1247,11 +1247,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 12",
             "type": "vless",
-            "server": "NUFiLTER.fastly80-3.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "TELEGRAM-NUFiLTER",
+            "server": "TLS.zeoaeriedo-saioesrio.ir",
+            "server_port": 2000,
+            "uuid": "99b78eb6-9284-4163-849a-52f822f0b585",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1260,10 +1260,39 @@
                 "max_streams": 32
             },
             "transport": {
-                "type": "ws",
-                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed",
-                "headers": {
-                    "Host": "NUFiLTER.fastly80-3.hosting-ip.com"
+                "type": "grpc",
+                "service_name": "\/@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇬🇧GB | 🟢 | vless | @ConfigsHUB | 13",
+            "type": "vless",
+            "server": "v2london.aaaa.gay",
+            "server_port": 443,
+            "uuid": "d2093082-a38a-316b-adcb-71013e595bd0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "tesla.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "zRZhlkKjUeqtIk9j6yy95aX-2krqQVyWORLv5tQkQGM",
+                    "short_id": ""
                 }
             }
         },
@@ -1575,58 +1604,17 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🟢 | vless | @kingofilter | 12",
+            "tag": "🇮🇷IR | 🔴 | vless | @kingofilter | 14",
             "type": "vless",
-            "server": "en.linceedab.com",
-            "server_port": 443,
-            "uuid": "24f7f8e5-dbe5-4cde-e018-2b74a00b6d69",
+            "server": "84.47.232.14",
+            "server_port": 2052,
+            "uuid": "916ad802-80bf-4369-9f79-27babbeb091b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "en.linceedab.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vless | @kingofilter | 13",
-            "type": "vless",
-            "server": "live.theworldwidewolf.com",
-            "server_port": 443,
-            "uuid": "43c1c980-fdd9-420b-a2f4-c0aa7dfccae8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "live.theworldwidewolf.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@Vmesskhodam\/@Vmesskhodam\/@Vmesskhodam\/@Vmesskhodam\/@Vmesskhodam\/@Vmesskhodam\/@Vmesskhodam\/@Vmesskhodam\/@Vmesskhodam",
-                "headers": {
-                    "Host": "live.theworldwidewolf.com"
-                }
             }
         },
         {
