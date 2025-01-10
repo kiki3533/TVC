@@ -130,7 +130,8 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @free1_vpn | 8"
+                "🇺🇸US | 🟢 | vmess | @free1_vpn | 8",
+                "🇺🇸US | 🟢 | vmess | @nofiltering2 | 12"
             ]
         },
         {
@@ -161,7 +162,8 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @free1_vpn | 8"
+                "🇺🇸US | 🟢 | vmess | @free1_vpn | 8",
+                "🇺🇸US | 🟢 | vmess | @nofiltering2 | 12"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -760,6 +762,23 @@
                 "headers": {
                     "Host": ""
                 }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @nofiltering2 | 12",
+            "type": "vmess",
+            "server": "zula.ir",
+            "server_port": 2095,
+            "uuid": "2a504d9d-5091-46d4-b557-d2d4fa70d3b8",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         }
     ],
