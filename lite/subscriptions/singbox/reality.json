@@ -109,8 +109,9 @@
                 "🇸🇪SE | 🔴 | vless | @VmessProtocol | 6",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 291",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 292",
+                "🇧🇷BR | 🔴 | vless | @ConfigsHUB | 15",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 0",
-                "🇳🇱NL | 🟢 | vless | @Outlinev2rayNG | 5",
+                "🇳🇱NL | 🟢 | vless | @Outlinev2rayNG | 8",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ]
@@ -122,8 +123,9 @@
                 "🇸🇪SE | 🔴 | vless | @VmessProtocol | 6",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 291",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 292",
+                "🇧🇷BR | 🔴 | vless | @ConfigsHUB | 15",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 0",
-                "🇳🇱NL | 🟢 | vless | @Outlinev2rayNG | 5",
+                "🇳🇱NL | 🟢 | vless | @Outlinev2rayNG | 8",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ],
@@ -242,6 +244,35 @@
             }
         },
         {
+            "tag": "🇧🇷BR | 🔴 | vless | @ConfigsHUB | 15",
+            "type": "vless",
+            "server": "129.148.16.216",
+            "server_port": 55501,
+            "uuid": "9b1b81ab-dae9-429f-b2e0-280991bdaedf",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.softonic.com.br",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "b9_3BpRBkW6SkPgV1ncUMgFLekVaYgNhMM2oNfPzBGU",
+                    "short_id": "60"
+                }
+            }
+        },
+        {
             "tag": "🇸🇪SE | 🔴 | vless | @proxystore11 | 0",
             "type": "vless",
             "server": "138.124.24.252",
@@ -271,7 +302,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vless | @Outlinev2rayNG | 5",
+            "tag": "🇳🇱NL | 🟢 | vless | @Outlinev2rayNG | 8",
             "type": "vless",
             "server": "CN.GiSVN.iR",
             "server_port": 443,
