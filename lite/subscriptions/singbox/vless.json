@@ -147,8 +147,8 @@
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 275",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 276",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 16",
-                "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 17",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 16",
+                "🇦🇹AT | 🔴 | vless | @ConfigsHUB | 17",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 9",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 3",
@@ -161,7 +161,7 @@
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇺🇸US | 🔴 | vless | @kingofilter | 16",
                 "🇬🇧GB | 🟢 | vless | @kingofilter | 17",
-                "🇺🇸US | 🔴 | vless | @V2FETCH | 0",
+                "🇩🇪DE | 🔴 | vless | @V2FETCH | 0",
                 "❔XX | 🔴 | vless | @VpnSkyy | 2",
                 "❔XX | 🔴 | vless | @VpnSkyy | 3"
             ]
@@ -211,8 +211,8 @@
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 275",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 276",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 16",
-                "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 17",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 16",
+                "🇦🇹AT | 🔴 | vless | @ConfigsHUB | 17",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 9",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 3",
@@ -225,7 +225,7 @@
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇺🇸US | 🔴 | vless | @kingofilter | 16",
                 "🇬🇧GB | 🟢 | vless | @kingofilter | 17",
-                "🇺🇸US | 🔴 | vless | @V2FETCH | 0",
+                "🇩🇪DE | 🔴 | vless | @V2FETCH | 0",
                 "❔XX | 🔴 | vless | @VpnSkyy | 2",
                 "❔XX | 🔴 | vless | @VpnSkyy | 3"
             ],
@@ -1275,45 +1275,61 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 16",
+            "tag": "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "168.119.101.219",
-            "server_port": 443,
-            "uuid": "07ba7aaf-f180-413d-9e62-fded2788e9ce",
-            "flow": "",
+            "server": "nl-1.srv.flexiblenet.org",
+            "server_port": 8443,
+            "uuid": "219ee52a-0e91-4f36-93a5-3e28a4830a7a",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "168.119.101.219"
+            "tls": {
+                "enabled": true,
+                "server_name": "bunny.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "os2QbCQyqdqE4vr-vVWTQMBiqxFXEDSLhMncRy5RIwg",
+                    "short_id": "f8d8d12585198cb5"
                 }
             }
         },
         {
-            "tag": "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 17",
+            "tag": "🇦🇹AT | 🔴 | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "141.227.132.158",
-            "server_port": 10056,
-            "uuid": "tell--ZEDMODEON",
-            "flow": "",
+            "server": "au.srv.flexiblenet.org",
+            "server_port": 8443,
+            "uuid": "219ee52a-0e91-4f36-93a5-3e28a4830a7a",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "grpc",
-                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+            "tls": {
+                "enabled": true,
+                "server_name": "bunny.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "os2QbCQyqdqE4vr-vVWTQMBiqxFXEDSLhMncRy5RIwg",
+                    "short_id": "f8d8d12585198cb5"
+                }
             }
         },
         {
@@ -1635,7 +1651,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @V2FETCH | 0",
+            "tag": "🇩🇪DE | 🔴 | vless | @V2FETCH | 0",
             "type": "vless",
             "server": "client.bluwave.ir",
             "server_port": 80,
