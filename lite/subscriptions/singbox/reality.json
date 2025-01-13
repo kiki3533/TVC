@@ -106,10 +106,10 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇸🇪SE | 🔴 | vless | @VmessProtocol | 11",
-                "🇨🇦CA | 🟢 | vless | @ConfigsHUB | 14",
-                "🇸🇪SE | 🔴 | vless | @proxystore11 | 0",
-                "🇫🇮FI | 🔴 | vless | @Outlinev2rayNG | 3",
+                "❔XX | 🔴 | vless | @VmessProtocol | 11",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 17",
+                "❔XX | 🔴 | vless | @proxystore11 | 0",
+                "❔XX | 🔴 | vless | @Outlinev2rayNG | 3",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ]
@@ -118,10 +118,10 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇸🇪SE | 🔴 | vless | @VmessProtocol | 11",
-                "🇨🇦CA | 🟢 | vless | @ConfigsHUB | 14",
-                "🇸🇪SE | 🔴 | vless | @proxystore11 | 0",
-                "🇫🇮FI | 🔴 | vless | @Outlinev2rayNG | 3",
+                "❔XX | 🔴 | vless | @VmessProtocol | 11",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 17",
+                "❔XX | 🔴 | vless | @proxystore11 | 0",
+                "❔XX | 🔴 | vless | @Outlinev2rayNG | 3",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ],
@@ -146,7 +146,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | @VmessProtocol | 11",
+            "tag": "❔XX | 🔴 | vless | @VmessProtocol | 11",
             "type": "vless",
             "server": "91.184.241.49",
             "server_port": 1300,
@@ -182,11 +182,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vless | @ConfigsHUB | 14",
+            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "178.128.236.252",
-            "server_port": 443,
-            "uuid": "1c8ea5a2-e986-42d6-9039-867aed7ca528",
+            "server": "185.161.251.211",
+            "server_port": 1633,
+            "uuid": "545d7c69-3984-43cd-b2e9-f7e3220061ed",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -196,22 +196,22 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "isna.ir",
+                "server_name": "185.161.251.211",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": null
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "MM2ZuhIbjaM6h7NOhWQZM8R8hkSE7Qc0uaEwzZ9YuQ0",
-                    "short_id": "15bf9cd93a696bc5"
+                    "public_key": "ANlgAsYC8HmKfJnc5SFvru822urkxG1PzW1Zw4Vbm0Q",
+                    "short_id": ""
                 }
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | @proxystore11 | 0",
+            "tag": "❔XX | 🔴 | vless | @proxystore11 | 0",
             "type": "vless",
             "server": "138.124.24.252",
             "server_port": 8443,
@@ -240,7 +240,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🔴 | vless | @Outlinev2rayNG | 3",
+            "tag": "❔XX | 🔴 | vless | @Outlinev2rayNG | 3",
             "type": "vless",
             "server": "37.27.15.167",
             "server_port": 2052,
