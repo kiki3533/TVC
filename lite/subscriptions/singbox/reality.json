@@ -106,8 +106,9 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "❔XX | 🔴 | vless | @VmessProtocol | 11",
-                "❔XX | 🔴 | vless | @proxystore11 | 0",
+                "🇸🇪SE | 🔴 | vless | @VmessProtocol | 11",
+                "🇨🇦CA | 🟢 | vless | @ConfigsHUB | 16",
+                "🇸🇪SE | 🔴 | vless | @proxystore11 | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ]
@@ -116,8 +117,9 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "❔XX | 🔴 | vless | @VmessProtocol | 11",
-                "❔XX | 🔴 | vless | @proxystore11 | 0",
+                "🇸🇪SE | 🔴 | vless | @VmessProtocol | 11",
+                "🇨🇦CA | 🟢 | vless | @ConfigsHUB | 16",
+                "🇸🇪SE | 🔴 | vless | @proxystore11 | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ],
@@ -142,7 +144,7 @@
             "type": "dns"
         },
         {
-            "tag": "❔XX | 🔴 | vless | @VmessProtocol | 11",
+            "tag": "🇸🇪SE | 🔴 | vless | @VmessProtocol | 11",
             "type": "vless",
             "server": "91.184.241.49",
             "server_port": 1300,
@@ -178,7 +180,36 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @proxystore11 | 0",
+            "tag": "🇨🇦CA | 🟢 | vless | @ConfigsHUB | 16",
+            "type": "vless",
+            "server": "178.128.236.252",
+            "server_port": 443,
+            "uuid": "1c8ea5a2-e986-42d6-9039-867aed7ca528",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "isna.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "MM2ZuhIbjaM6h7NOhWQZM8R8hkSE7Qc0uaEwzZ9YuQ0",
+                    "short_id": "15bf9cd93a696bc5"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | 🔴 | vless | @proxystore11 | 0",
             "type": "vless",
             "server": "138.124.24.252",
             "server_port": 8443,
