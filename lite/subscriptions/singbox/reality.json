@@ -107,6 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇸🇪SE | 🔴 | vless | @VmessProtocol | 9",
+                "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 14",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -119,6 +120,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇸🇪SE | 🔴 | vless | @VmessProtocol | 9",
+                "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 14",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -176,6 +178,42 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "1300vless",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 14",
+            "type": "vless",
+            "server": "51.178.249.1",
+            "server_port": 30090,
+            "uuid": "d8cddf38-33cc-4384-8f47-2b2055d8687c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Tqb5oaBTWV7I6wNP1LluGFw0gYtvIi20jlImrpZ_miQ",
+                    "short_id": "3815632cb5e12f20"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "\/@v2rayip1------@v2rayip1------@v2rayip1------@v2rayip1------@v2rayip1------@v2rayip1------@v2rayip1------@v2rayip1------@v2rayip1",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false

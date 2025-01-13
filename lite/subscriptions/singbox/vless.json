@@ -144,9 +144,10 @@
                 "❔XX | 🔴 | vless | @MTConfig | 11",
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇸🇪SE | 🔴 | vless | @VmessProtocol | 9",
-                "🇩🇪DE | 🔴 | vless | @DailyV2RY | 335",
-                "🇩🇪DE | 🔴 | vless | @DailyV2RY | 336",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
+                "🇩🇪DE | 🔴 | vless | @DailyV2RY | 324",
+                "🇩🇪DE | 🔴 | vless | @DailyV2RY | 325",
+                "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 14",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 0",
                 "🇩🇪DE | 🔴 | vless | @free1_vpn | 9",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 2",
@@ -207,9 +208,10 @@
                 "❔XX | 🔴 | vless | @MTConfig | 11",
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇸🇪SE | 🔴 | vless | @VmessProtocol | 9",
-                "🇩🇪DE | 🔴 | vless | @DailyV2RY | 335",
-                "🇩🇪DE | 🔴 | vless | @DailyV2RY | 336",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
+                "🇩🇪DE | 🔴 | vless | @DailyV2RY | 324",
+                "🇩🇪DE | 🔴 | vless | @DailyV2RY | 325",
+                "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 14",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 0",
                 "🇩🇪DE | 🔴 | vless | @free1_vpn | 9",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 2",
@@ -1182,7 +1184,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @DailyV2RY | 335",
+            "tag": "🇩🇪DE | 🔴 | vless | @DailyV2RY | 324",
             "type": "vless",
             "server": "168.119.101.219",
             "server_port": 443,
@@ -1203,7 +1205,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @DailyV2RY | 336",
+            "tag": "🇩🇪DE | 🔴 | vless | @DailyV2RY | 325",
             "type": "vless",
             "server": "159.69.206.4",
             "server_port": 443,
@@ -1224,12 +1226,12 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
+            "tag": "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 14",
             "type": "vless",
-            "server": "151.101.194.133",
-            "server_port": 443,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "",
+            "server": "51.178.249.1",
+            "server_port": 30090,
+            "uuid": "d8cddf38-33cc-4384-8f47-2b2055d8687c",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1238,19 +1240,45 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mio.splashthat.com",
+                "server_name": "refersion.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Tqb5oaBTWV7I6wNP1LluGFw0gYtvIi20jlImrpZ_miQ",
+                    "short_id": "3815632cb5e12f20"
                 }
             },
             "transport": {
+                "type": "grpc",
+                "service_name": "\/@v2rayip1------@v2rayip1------@v2rayip1------@v2rayip1------@v2rayip1------@v2rayip1------@v2rayip1------@v2rayip1------@v2rayip1",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
+            "type": "vless",
+            "server": "104.17.122.14",
+            "server_port": 8080,
+            "uuid": "2dcbbad3-f74a-4f8d-a711-0801ead02deb",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "path": "\/admin",
                 "headers": {
-                    "Host": "mio.splashthat.com"
+                    "Host": "free.kljasdfiaosdf92-asdjlkfhasdf-asdfa.li"
                 }
             }
         },
