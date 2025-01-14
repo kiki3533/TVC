@@ -116,8 +116,11 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 11",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 13",
                 "🇫🇷FR | 🟢 | vmess | @DeamNet_Proxy | 9",
-                "🇺🇸US | 🟢 | vmess | @prrofile_purple | 124",
-                "🇫🇷FR | 🟢 | vmess | @ShadowProxy66 | 13",
+                "🇫🇷FR | 🟢 | vmess | @ShadowProxy66 | 0",
+                "🇫🇷FR | 🟢 | vmess | @ShadowProxy66 | 3",
+                "🚩CF | 🟢 | vmess | @ShadowProxy66 | 5",
+                "🇫🇷FR | 🟢 | vmess | @ShadowProxy66 | 7",
+                "🇫🇷FR | 🟢 | vmess | @ShadowProxy66 | 22",
                 "🇺🇸US | 🟢 | vmess | @v2ray1_ng | 2",
                 "🇩🇪DE | 🟢 | vmess | @v2ray1_ng | 13",
                 "🇮🇷IR | 🟢 | vmess | @proxystore11 | 0",
@@ -145,8 +148,11 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 11",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 13",
                 "🇫🇷FR | 🟢 | vmess | @DeamNet_Proxy | 9",
-                "🇺🇸US | 🟢 | vmess | @prrofile_purple | 124",
-                "🇫🇷FR | 🟢 | vmess | @ShadowProxy66 | 13",
+                "🇫🇷FR | 🟢 | vmess | @ShadowProxy66 | 0",
+                "🇫🇷FR | 🟢 | vmess | @ShadowProxy66 | 3",
+                "🚩CF | 🟢 | vmess | @ShadowProxy66 | 5",
+                "🇫🇷FR | 🟢 | vmess | @ShadowProxy66 | 7",
+                "🇫🇷FR | 🟢 | vmess | @ShadowProxy66 | 22",
                 "🇺🇸US | 🟢 | vmess | @v2ray1_ng | 2",
                 "🇩🇪DE | 🟢 | vmess | @v2ray1_ng | 13",
                 "🇮🇷IR | 🟢 | vmess | @proxystore11 | 0",
@@ -367,11 +373,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @prrofile_purple | 124",
+            "tag": "🇫🇷FR | 🟢 | vmess | @ShadowProxy66 | 0",
             "type": "vmess",
-            "server": "151.101.194.133",
+            "server": "denc36.xtooltech.cfd",
             "server_port": 443,
-            "uuid": "c69f3029-ae1e-45ca-aa08-70970f14dfd2",
+            "uuid": "b321fd5d-e6ec-4293-a644-164e3885f52e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -384,7 +390,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mio.splashthat.com",
+                "server_name": "adenc36v.xtooltech.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -394,14 +400,116 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/racevpn",
+                "path": "\/linkws#@alpha_v2ray_fazayi,@alpha_v2ray_fazayi",
                 "headers": {
-                    "Host": "mio.splashthat.com"
+                    "Host": "adenc36v.xtooltech.cfd"
                 }
             }
         },
         {
-            "tag": "🇫🇷FR | 🟢 | vmess | @ShadowProxy66 | 13",
+            "tag": "🇫🇷FR | 🟢 | vmess | @ShadowProxy66 | 3",
+            "type": "vmess",
+            "server": "beyonddbc.sbs",
+            "server_port": 443,
+            "uuid": "8d90c129-4156-4d6c-9115-24df25f26a02",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "beyonddbc.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "beyonddbc.sbs"
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🟢 | vmess | @ShadowProxy66 | 5",
+            "type": "vmess",
+            "server": "173.245.59.8",
+            "server_port": 443,
+            "uuid": "1052f24e-7b09-45eb-b0c5-d858eb124192",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "77h2quiet-dream-5c34.foratay741.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/glweidf.cfd\/linkws",
+                "headers": {
+                    "Host": "77h2quiet-dream-5c34.foratay741.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷FR | 🟢 | vmess | @ShadowProxy66 | 7",
+            "type": "vmess",
+            "server": "denc36.xtooltech.cfd",
+            "server_port": 443,
+            "uuid": "b321fd5d-e6ec-4293-a644-164e3885f52e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "adenc36v.xtooltech.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "adenc36v.xtooltech.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷FR | 🟢 | vmess | @ShadowProxy66 | 22",
             "type": "vmess",
             "server": "51.77.20.136",
             "server_port": 443,
