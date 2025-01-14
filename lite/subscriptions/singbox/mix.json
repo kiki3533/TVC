@@ -111,8 +111,8 @@
                 "❔XX | 🔴 | vless | @XsV2ray | 11",
                 "🇮🇪IE | 🔴 | vless | @VlessConfig | 16",
                 "🇬🇧GB | 🔴 | vless | @VlessConfig | 17",
-                "🇺🇸US | 🔴 | vless | @V2pedia | 8",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 9",
+                "🇺🇸US | 🔴 | vless | @V2pedia | 10",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 1",
@@ -137,13 +137,13 @@
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 0",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 1",
                 "🇷🇺RU | 🔴 | vless | @ShadowProxy66 | 30",
-                "❔XX | 🔴 | vless | @ServerNett | 14",
+                "🇩🇪DE | 🔴 | vless | @ServerNett | 14",
                 "❔XX | 🔴 | vless | @ServerNett | 15",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 0",
+                "🇮🇷IR | 🔴 | vless | @v2ray1_ng | 11",
                 "🇮🇷IR | 🔴 | vless | @v2ray1_ng | 12",
-                "🇩🇪DE | 🟢 | vmess | @v2ray1_ng | 13",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "🇩🇪DE | 🔴 | vless | @MTConfig | 11",
@@ -184,8 +184,8 @@
                 "❔XX | 🔴 | vless | @XsV2ray | 11",
                 "🇮🇪IE | 🔴 | vless | @VlessConfig | 16",
                 "🇬🇧GB | 🔴 | vless | @VlessConfig | 17",
-                "🇺🇸US | 🔴 | vless | @V2pedia | 8",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 9",
+                "🇺🇸US | 🔴 | vless | @V2pedia | 10",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 1",
@@ -210,13 +210,13 @@
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 0",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 1",
                 "🇷🇺RU | 🔴 | vless | @ShadowProxy66 | 30",
-                "❔XX | 🔴 | vless | @ServerNett | 14",
+                "🇩🇪DE | 🔴 | vless | @ServerNett | 14",
                 "❔XX | 🔴 | vless | @ServerNett | 15",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 0",
+                "🇮🇷IR | 🔴 | vless | @v2ray1_ng | 11",
                 "🇮🇷IR | 🔴 | vless | @v2ray1_ng | 12",
-                "🇩🇪DE | 🟢 | vmess | @v2ray1_ng | 13",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "🇩🇪DE | 🔴 | vless | @MTConfig | 11",
@@ -372,7 +372,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @V2pedia | 8",
+            "tag": "🇺🇸US | 🔴 | vless | @V2pedia | 9",
             "type": "vless",
             "server": "zmaoz.faculty.ucdavis.edu",
             "server_port": 443,
@@ -403,7 +403,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @V2pedia | 9",
+            "tag": "🇺🇸US | 🔴 | vless | @V2pedia | 10",
             "type": "vless",
             "server": "zmaoz.faculty.ucdavis.edu",
             "server_port": 443,
@@ -963,10 +963,10 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @ServerNett | 14",
+            "tag": "🇩🇪DE | 🔴 | vless | @ServerNett | 14",
             "type": "vless",
-            "server": "[2a01:4f8:c010:5aa8::1]",
-            "server_port": 40286,
+            "server": "91.107.137.98",
+            "server_port": 24893,
             "uuid": "TELEGRAM-ServerNett",
             "flow": "",
             "packet_encoding": "xudp",
@@ -979,8 +979,8 @@
         {
             "tag": "❔XX | 🔴 | vless | @ServerNett | 15",
             "type": "vless",
-            "server": "[2a01:4f8:c010:45f6::1]",
-            "server_port": 57258,
+            "server": "[2a01:4f8:c010:5aa8::1]",
+            "server_port": 40286,
             "uuid": "TELEGRAM-ServerNett",
             "flow": "",
             "packet_encoding": "xudp",
@@ -1074,6 +1074,27 @@
             }
         },
         {
+            "tag": "🇮🇷IR | 🔴 | vless | @v2ray1_ng | 11",
+            "type": "vless",
+            "server": "87.107.10.58",
+            "server_port": 2082,
+            "uuid": "11402e88-8bd9-4411-b4f1-a15cd038cb4a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "87.107.10.58"
+                }
+            }
+        },
+        {
             "tag": "🇮🇷IR | 🔴 | vless | @v2ray1_ng | 12",
             "type": "vless",
             "server": "78.157.59.140",
@@ -1091,30 +1112,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "78.157.59.140"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vmess | @v2ray1_ng | 13",
-            "type": "vmess",
-            "server": "188.245.211.137",
-            "server_port": 8080,
-            "uuid": "640ea88b-8e50-4e6e-8bc3-9f5097c617dd",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/da?ed=2560",
-                "headers": {
-                    "Host": ""
                 }
             }
         },
