@@ -107,8 +107,8 @@
             "outbounds": [
                 "URL-TEST",
                 "🇸🇪SE | 🔴 | vless | @VmessProtocol | 11",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 17",
-                "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 18",
+                "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 6",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 7",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 1",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -120,8 +120,8 @@
             "type": "urltest",
             "outbounds": [
                 "🇸🇪SE | 🔴 | vless | @VmessProtocol | 11",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 17",
-                "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 18",
+                "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 6",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 7",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 1",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -184,11 +184,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 17",
+            "tag": "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 6",
             "type": "vless",
-            "server": "80.240.112.94",
-            "server_port": 443,
-            "uuid": "c39d34d1-8723-42fd-a63d-1c857c76249a",
+            "server": "37.27.189.156",
+            "server_port": 80,
+            "uuid": "758e7d83-eb97-450b-8783-f01cfc153d23",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -198,7 +198,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.google.com",
+                "server_name": "www.speedtest.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -207,17 +207,24 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "mD8V76JrLVJQrQXtyNVgcqwptE9PzcF8nEJe3MyhTDY",
-                    "short_id": "f0db85b11110c6"
+                    "public_key": "WlFuoEk4ZxK57YiQv52yKuLS4kzP2-6kMcVO5zpBzVk",
+                    "short_id": "1c6ce2"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@VPN_KING_V2RAY@VPN_KING_V2RAY@VPN_KING_V2RAY",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
-            "tag": "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 18",
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 7",
             "type": "vless",
-            "server": "185.255.112.175",
-            "server_port": 5610,
-            "uuid": "c831e441-42fb-40c2-9be5-7142c2e893d2",
+            "server": "deko.tinadresses.ir",
+            "server_port": 5042,
+            "uuid": "da7dcc12-05b0-930e-7258-8fa7c44d51e4",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -227,18 +234,25 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "refersion.com",
+                "server_name": "stackoverflow.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "safari"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "y6JSkggQ__RA_nmCJpX1_ddSQC6vzDUPaN7KyvjVuic",
-                    "short_id": ""
+                    "public_key": "qdfo8UQXXsXPViln7MbAIIvVgKrDnuRoFBGVTJDm134",
+                    "short_id": "31e7200536a1ad45"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "666vless",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
