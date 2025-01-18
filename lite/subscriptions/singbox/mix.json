@@ -106,6 +106,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇺🇸US | 🔴 | vless | @Parsashonam | 38",
+                "🇸🇪SE | 🔴 | vless | @Parsashonam | 39",
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
                 "❔XX | 🔴 | vless | @XsV2ray | 11",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
@@ -162,7 +164,7 @@
                 "🇺🇸US | 🟢 | vmess | @free1_vpn | 18",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 7",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 8",
-                "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 6",
+                "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 7",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 0",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
@@ -182,6 +184,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇺🇸US | 🔴 | vless | @Parsashonam | 38",
+                "🇸🇪SE | 🔴 | vless | @Parsashonam | 39",
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
                 "❔XX | 🔴 | vless | @XsV2ray | 11",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
@@ -238,7 +242,7 @@
                 "🇺🇸US | 🟢 | vmess | @free1_vpn | 18",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 7",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 8",
-                "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 6",
+                "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 7",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 0",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
@@ -272,6 +276,51 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @Parsashonam | 38",
+            "type": "vless",
+            "server": "Zmaoz.Faculty.Ucdavis.Edu",
+            "server_port": 443,
+            "uuid": "Parsashonam-142",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Zmaoz.Faculty.Ucdavis.Edu.",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Parsashonam\/ws?ed=2560",
+                "headers": {
+                    "Host": "Zmaoz.Faculty.Ucdavis.Edu."
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | 🔴 | vless | @Parsashonam | 39",
+            "type": "vless",
+            "server": "185.146.173.39",
+            "server_port": 8880,
+            "uuid": "Parsashonam-142",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
         },
         {
             "tag": "❔XX | 🔴 | vless | @XsV2ray | 10",
@@ -1615,7 +1664,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 6",
+            "tag": "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 7",
             "type": "vless",
             "server": "51.81.36.172",
             "server_port": 443,
