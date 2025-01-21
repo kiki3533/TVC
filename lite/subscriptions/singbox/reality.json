@@ -107,10 +107,11 @@
             "outbounds": [
                 "URL-TEST",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 19",
+                "❔XX | 🔴 | vless | @ShadowProxy66 | 33",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 1",
                 "🇻🇳VN | 🔴 | vless | @fnet00 | 5",
-                "🇩🇪DE | 🟢 | vless | @mehrosaboran | 8",
-                "🇩🇪DE | 🔴 | vless | @proxy_mtm | 2",
+                "🇩🇪DE | 🟢 | vless | @mehrosaboran | 9",
+                "🇩🇪DE | 🔴 | vless | @proxy_mtm | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇩🇪DE | 🔴 | vless | @SvnTeam | 3"
@@ -121,10 +122,11 @@
             "type": "urltest",
             "outbounds": [
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 19",
+                "❔XX | 🔴 | vless | @ShadowProxy66 | 33",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 1",
                 "🇻🇳VN | 🔴 | vless | @fnet00 | 5",
-                "🇩🇪DE | 🟢 | vless | @mehrosaboran | 8",
-                "🇩🇪DE | 🔴 | vless | @proxy_mtm | 2",
+                "🇩🇪DE | 🟢 | vless | @mehrosaboran | 9",
+                "🇩🇪DE | 🔴 | vless | @proxy_mtm | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇩🇪DE | 🔴 | vless | @SvnTeam | 3"
@@ -175,6 +177,35 @@
                     "enabled": true,
                     "public_key": "ANlgAsYC8HmKfJnc5SFvru822urkxG1PzW1Zw4Vbm0Q",
                     "short_id": "9bc0a55a5379c0ed"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @ShadowProxy66 | 33",
+            "type": "vless",
+            "server": "uk.ukrageshark.shop",
+            "server_port": 33133,
+            "uuid": "Shadow_Proxy66-89147d267abd",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "docker.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "GsVeYitVvoQHW4LCLtfMaDhWQ53jqO5L-iGmmuBMM1c",
+                    "short_id": "8d"
                 }
             }
         },
@@ -237,7 +268,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @mehrosaboran | 8",
+            "tag": "🇩🇪DE | 🟢 | vless | @mehrosaboran | 9",
             "type": "vless",
             "server": "amin.4en1.net",
             "server_port": 1777,
@@ -273,11 +304,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @proxy_mtm | 2",
+            "tag": "🇩🇪DE | 🔴 | vless | @proxy_mtm | 0",
             "type": "vless",
             "server": "mehdi.vact.ir",
             "server_port": 2083,
-            "uuid": "ID-proxy_mtm",
+            "uuid": "Telegram-proxy_mtm",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -302,7 +333,7 @@
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "Proxy_mtm-Channel-Proxy_mtm-Channel-Proxy_mtm-Channel-Proxy_mtm-Channel-Proxy_mtm-Channel",
+                "service_name": "Proxy_mtm-Channel-Proxy_mtm-Channel-Proxy_mtm-Channel-Proxy_mtm-Channel-Proxy_mtm-Channel-Proxy_mtm",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
