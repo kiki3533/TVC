@@ -106,10 +106,11 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇸🇪SE | 🟢 | vless | @proxy_kafee | 3",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 1",
                 "🇻🇳VN | 🔴 | vless | @fnet00 | 7",
-                "🇬🇧GB | 🔴 | vless | @proxy_mtm | 4",
-                "🇩🇪DE | 🔴 | vless | @proxy_mtm | 5",
+                "🇬🇧GB | 🔴 | vless | @proxy_mtm | 5",
+                "🇩🇪DE | 🔴 | vless | @proxy_mtm | 6",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇩🇪DE | 🔴 | vless | @kingofilter | 18",
@@ -120,10 +121,11 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇸🇪SE | 🟢 | vless | @proxy_kafee | 3",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 1",
                 "🇻🇳VN | 🔴 | vless | @fnet00 | 7",
-                "🇬🇧GB | 🔴 | vless | @proxy_mtm | 4",
-                "🇩🇪DE | 🔴 | vless | @proxy_mtm | 5",
+                "🇬🇧GB | 🔴 | vless | @proxy_mtm | 5",
+                "🇩🇪DE | 🔴 | vless | @proxy_mtm | 6",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇩🇪DE | 🔴 | vless | @kingofilter | 18",
@@ -148,6 +150,35 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇸🇪SE | 🟢 | vless | @proxy_kafee | 3",
+            "type": "vless",
+            "server": "Wedbaz-Sweden.zpowerio.ir",
+            "server_port": 443,
+            "uuid": "5f913408-aa39-4927-8510-a067beeb337b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "fYduc27KzmdrSI1S_LCBUxk3zDSe69dA5uKieS2oUEE",
+                    "short_id": ""
+                }
+            }
         },
         {
             "tag": "🇸🇪SE | 🔴 | vless | @proxystore11 | 1",
@@ -208,7 +239,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🔴 | vless | @proxy_mtm | 4",
+            "tag": "🇬🇧GB | 🔴 | vless | @proxy_mtm | 5",
             "type": "vless",
             "server": "v06.blkrose.ir",
             "server_port": 2053,
@@ -244,7 +275,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @proxy_mtm | 5",
+            "tag": "🇩🇪DE | 🔴 | vless | @proxy_mtm | 6",
             "type": "vless",
             "server": "mehdi.vact.ir",
             "server_port": 2083,
