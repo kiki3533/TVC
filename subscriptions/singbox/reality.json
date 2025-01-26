@@ -110,7 +110,8 @@
                 "🇩🇪DE | 🟢 | vless | @CUSTOMVPNSERVER | 9",
                 "🇩🇪DE | 🟢 | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
-                "🇸🇬SG | 🔴 | vless | @proxy_kafee | 1",
+                "🇬🇧GB | 🟢 | vless | @proxy_kafee | 0",
+                "🇸🇬SG | 🔴 | vless | @proxy_kafee | 2",
                 "🇩🇪DE | 🔴 | vless | @v2logy | 6",
                 "❔XX | 🟢 | vless | @V2rayCollectorDonate | 9",
                 "🇫🇮FI | 🔴 | vless | @prrofile_purple | 127",
@@ -156,8 +157,8 @@
                 "🇬🇧GB | 🟢 | vless | @DailyV2RY | 241",
                 "🇬🇧GB | 🟢 | vless | @DailyV2RY | 242",
                 "🇬🇧GB | 🟢 | vless | @DailyV2RY | 243",
-                "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
-                "🇫🇮FI | 🔴 | vless | @free1_vpn | 4",
+                "🇺🇸US | 🔴 | vless | @free1_vpn | 3",
+                "🇫🇮FI | 🔴 | vless | @free1_vpn | 7",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 2",
                 "🇭🇰HK | 🔴 | vless | @fnet00 | 4",
@@ -203,7 +204,8 @@
                 "🇩🇪DE | 🟢 | vless | @CUSTOMVPNSERVER | 9",
                 "🇩🇪DE | 🟢 | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
-                "🇸🇬SG | 🔴 | vless | @proxy_kafee | 1",
+                "🇬🇧GB | 🟢 | vless | @proxy_kafee | 0",
+                "🇸🇬SG | 🔴 | vless | @proxy_kafee | 2",
                 "🇩🇪DE | 🔴 | vless | @v2logy | 6",
                 "❔XX | 🟢 | vless | @V2rayCollectorDonate | 9",
                 "🇫🇮FI | 🔴 | vless | @prrofile_purple | 127",
@@ -249,8 +251,8 @@
                 "🇬🇧GB | 🟢 | vless | @DailyV2RY | 241",
                 "🇬🇧GB | 🟢 | vless | @DailyV2RY | 242",
                 "🇬🇧GB | 🟢 | vless | @DailyV2RY | 243",
-                "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
-                "🇫🇮FI | 🔴 | vless | @free1_vpn | 4",
+                "🇺🇸US | 🔴 | vless | @free1_vpn | 3",
+                "🇫🇮FI | 🔴 | vless | @free1_vpn | 7",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 2",
                 "🇭🇰HK | 🔴 | vless | @fnet00 | 4",
@@ -431,7 +433,43 @@
             }
         },
         {
-            "tag": "🇸🇬SG | 🔴 | vless | @proxy_kafee | 1",
+            "tag": "🇬🇧GB | 🟢 | vless | @proxy_kafee | 0",
+            "type": "vless",
+            "server": "57.128.160.167",
+            "server_port": 2053,
+            "uuid": "bb04da46-54ef-401a-920f-6738f0b64a76",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "nr4qs7JSJShNXIpWKNGReZXaFw910k1X93NDevapa0E",
+                    "short_id": "5640288dca4f8519"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "2053vless",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇸🇬SG | 🔴 | vless | @proxy_kafee | 2",
             "type": "vless",
             "server": "swedeeen.mehrdadsadaf.com",
             "server_port": 30756,
@@ -1849,7 +1887,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
+            "tag": "🇺🇸US | 🔴 | vless | @free1_vpn | 3",
             "type": "vless",
             "server": "44.222.237.59",
             "server_port": 8080,
@@ -1878,7 +1916,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🔴 | vless | @free1_vpn | 4",
+            "tag": "🇫🇮FI | 🔴 | vless | @free1_vpn | 7",
             "type": "vless",
             "server": "65.109.211.154",
             "server_port": 443,
