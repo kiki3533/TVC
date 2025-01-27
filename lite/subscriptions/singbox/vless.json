@@ -125,8 +125,8 @@
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "🇩🇪DE | 🔴 | vless | @azadi_az_inja_migzare | 0",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 18",
-                "❔XX | 🔴 | vless | @prrofile_purple | 141",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 142",
+                "🇺🇸US | 🔴 | vless | @prrofile_purple | 149",
+                "❔XX | 🔴 | vless | @prrofile_purple | 150",
                 "❔XX | 🔴 | vless | @customv2ray | 9",
                 "🇷🇺RU | 🟢 | vless | @customv2ray | 10",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 2",
@@ -150,8 +150,8 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 318",
                 "🇫🇷FR | 🔴 | vless | @free1_vpn | 13",
                 "🇭🇰HK | 🔴 | vless | @fnet00 | 9",
-                "🇸🇪SE | 🟢 | vless | @Outlinev2rayNG | 9",
-                "🇷🇴RO | 🟢 | vless | @Outlinev2rayNG | 10",
+                "🇧🇪BE | 🟢 | vless | @Outlinev2rayNG | 10",
+                "🇸🇪SE | 🟢 | vless | @Outlinev2rayNG | 11",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 0",
                 "❔XX | 🔴 | vless | @FreakConfig | 0",
                 "🇱🇻LV | 🔴 | vless | @FreakConfig | 1",
@@ -193,8 +193,8 @@
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "🇩🇪DE | 🔴 | vless | @azadi_az_inja_migzare | 0",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 18",
-                "❔XX | 🔴 | vless | @prrofile_purple | 141",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 142",
+                "🇺🇸US | 🔴 | vless | @prrofile_purple | 149",
+                "❔XX | 🔴 | vless | @prrofile_purple | 150",
                 "❔XX | 🔴 | vless | @customv2ray | 9",
                 "🇷🇺RU | 🟢 | vless | @customv2ray | 10",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 2",
@@ -218,8 +218,8 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 318",
                 "🇫🇷FR | 🔴 | vless | @free1_vpn | 13",
                 "🇭🇰HK | 🔴 | vless | @fnet00 | 9",
-                "🇸🇪SE | 🟢 | vless | @Outlinev2rayNG | 9",
-                "🇷🇴RO | 🟢 | vless | @Outlinev2rayNG | 10",
+                "🇧🇪BE | 🟢 | vless | @Outlinev2rayNG | 10",
+                "🇸🇪SE | 🟢 | vless | @Outlinev2rayNG | 11",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 0",
                 "❔XX | 🔴 | vless | @FreakConfig | 0",
                 "🇱🇻LV | 🔴 | vless | @FreakConfig | 1",
@@ -724,25 +724,11 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @prrofile_purple | 141",
+            "tag": "🇺🇸US | 🔴 | vless | @prrofile_purple | 149",
             "type": "vless",
-            "server": "[2a01:4f8:1c1b:26eb::1]",
-            "server_port": 8888,
-            "uuid": "Parsashonam-149",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @prrofile_purple | 142",
-            "type": "vless",
-            "server": "167.82.0.47",
-            "server_port": 80,
-            "uuid": "253ef561-9e57-4336-befd-878ddd30df01",
+            "server": "104.21.54.238",
+            "server_port": 443,
+            "uuid": "ddc5365f-6e70-408d-b4c1-1ba2ac0a7b35",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -750,12 +736,36 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "xxx.66500-280b-471c-b2b8-d68b7f9960009.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/vless-ws\/@V2ray_Alpha\/?ed=2560",
+                "path": "\/",
                 "headers": {
-                    "Host": "167.82.0.47"
+                    "Host": "xxx.66500-280b-471c-b2b8-d68b7f9960009.workers.dev"
                 }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @prrofile_purple | 150",
+            "type": "vless",
+            "server": "ipv6-free.dbsll.ir",
+            "server_port": 2000,
+            "uuid": "cd34795e-d081-4c99-b1f2-5b61ab5aa920",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
@@ -1364,7 +1374,31 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🟢 | vless | @Outlinev2rayNG | 9",
+            "tag": "🇧🇪BE | 🟢 | vless | @Outlinev2rayNG | 10",
+            "type": "vless",
+            "server": "79.127.224.12",
+            "server_port": 8443,
+            "uuid": "157448af-8ecf-4075-a9e9-b23a6a94899b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "bru-be-01.fromblancwithlove.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | 🟢 | vless | @Outlinev2rayNG | 11",
             "type": "vless",
             "server": "195.181.166.87",
             "server_port": 8443,
@@ -1379,30 +1413,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "se1.fromblancwithlove.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇷🇴RO | 🟢 | vless | @Outlinev2rayNG | 10",
-            "type": "vless",
-            "server": "buh-ro-01.fromblancwithlove.com",
-            "server_port": 8443,
-            "uuid": "157448af-8ecf-4075-a9e9-b23a6a94899b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "buh-ro-01.fromblancwithlove.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
