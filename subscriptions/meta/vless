@@ -197,7 +197,7 @@ proxies:
   - {"name":"🇷🇺RU | 🔴 | vless | @prrofile_purple | 145","type":"vless","server":"91.207.183.91","port":8880,"udp":false,"uuid":"819e9374-8e2e-5d5d-91bd-1afd4fe2c78c","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"ru2.vless.site","grpc-opts":{"grpc-service-name":"vless-grpc"}}
   - {"name":"🇸🇪SE | 🔴 | vless | @prrofile_purple | 147","type":"vless","server":"94.131.98.90","port":2052,"udp":false,"uuid":"34dac174-e3f4-5d6e-987f-0942559c3404","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"se2.vless.site","grpc-opts":{"grpc-service-name":"vless-grpc"}}
   - {"name":"🇷🇺RU | 🔴 | vless | @prrofile_purple | 148","type":"vless","server":"103.113.68.233","port":2086,"udp":false,"uuid":"755fafcf-10dc-57e6-933d-604b13ac541f","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"ru1.vless.site","grpc-opts":{"grpc-service-name":"vless-grpc"}}
-  - {"name":"🇺🇸US | 🔴 | vless | @prrofile_purple | 151","type":"vless","server":"ip.diiginet.ir","port":2083,"udp":false,"uuid":"8b35d07c-95d4-4997-af01-ca88903a8535","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"dl3.diiginet.ir","ws-opts":{"path":"?ed=2096","headers":{"host":"dl3.diiginet.ir"}}}
+  - {"name":"🇨🇦CA | 🔴 | vless | @prrofile_purple | 151","type":"vless","server":"ip.diiginet.ir","port":2083,"udp":false,"uuid":"8b35d07c-95d4-4997-af01-ca88903a8535","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"dl3.diiginet.ir","ws-opts":{"path":"?ed=2096","headers":{"host":"dl3.diiginet.ir"}}}
   - {"name":"🇫🇷FR | 🔴 | vless | @prrofile_purple | 153","type":"vless","server":"2.56.126.163","port":8880,"udp":false,"uuid":"3f0fe596-2a98-4724-bee1-72ba87403cd0","tls":false,"network":"grpc","client-fingerprint":"chrome"}
   - {"name":"🚩CF | 🔴 | vless | @prrofile_purple | 154","type":"vless","server":"162.159.138.215","port":443,"udp":false,"uuid":"fb8eb261-8b78-4422-a196-472feebeef57","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"xxx.66500-280b-471c-b2b8-d68b7f9960004.workers.dev","ws-opts":{"path":"/?ed=2048","headers":{"host":"xxx.66500-280b-471c-b2b8-d68b7f9960004.workers.dev"}}}
   - {"name":"🇩🇪DE | 🔴 | vless | @customv2ray | 0","type":"vless","server":"best1.bestshop10.ir","port":16072,"udp":false,"uuid":"c935aba0-8835-426a-a585-225baee13f70","tls":false,"network":"grpc","client-fingerprint":"chrome"}
@@ -460,7 +460,7 @@ proxy-groups:
       - '🇷🇺RU | 🔴 | vless | @prrofile_purple | 145'
       - '🇸🇪SE | 🔴 | vless | @prrofile_purple | 147'
       - '🇷🇺RU | 🔴 | vless | @prrofile_purple | 148'
-      - '🇺🇸US | 🔴 | vless | @prrofile_purple | 151'
+      - '🇨🇦CA | 🔴 | vless | @prrofile_purple | 151'
       - '🇫🇷FR | 🔴 | vless | @prrofile_purple | 153'
       - '🚩CF | 🔴 | vless | @prrofile_purple | 154'
       - '🇩🇪DE | 🔴 | vless | @customv2ray | 0'
@@ -723,7 +723,7 @@ proxy-groups:
       - '🇷🇺RU | 🔴 | vless | @prrofile_purple | 145'
       - '🇸🇪SE | 🔴 | vless | @prrofile_purple | 147'
       - '🇷🇺RU | 🔴 | vless | @prrofile_purple | 148'
-      - '🇺🇸US | 🔴 | vless | @prrofile_purple | 151'
+      - '🇨🇦CA | 🔴 | vless | @prrofile_purple | 151'
       - '🇫🇷FR | 🔴 | vless | @prrofile_purple | 153'
       - '🚩CF | 🔴 | vless | @prrofile_purple | 154'
       - '🇩🇪DE | 🔴 | vless | @customv2ray | 0'
@@ -985,7 +985,7 @@ proxy-groups:
       - '🇷🇺RU | 🔴 | vless | @prrofile_purple | 145'
       - '🇸🇪SE | 🔴 | vless | @prrofile_purple | 147'
       - '🇷🇺RU | 🔴 | vless | @prrofile_purple | 148'
-      - '🇺🇸US | 🔴 | vless | @prrofile_purple | 151'
+      - '🇨🇦CA | 🔴 | vless | @prrofile_purple | 151'
       - '🇫🇷FR | 🔴 | vless | @prrofile_purple | 153'
       - '🚩CF | 🔴 | vless | @prrofile_purple | 154'
       - '🇩🇪DE | 🔴 | vless | @customv2ray | 0'
