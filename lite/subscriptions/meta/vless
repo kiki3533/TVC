@@ -132,7 +132,7 @@ proxies:
   - {"name":"❔XX | 🔴 | vless | @V2rayCollectorDonate | 18","type":"vless","server":"web.bbv2ry.pics","port":443,"udp":false,"uuid":"ac6b3d48-d16f-4125-9f17-d986541a3ee9","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"Sky2.bbv2ry.pics","ws-opts":{"path":"/","headers":{"host":"Sky2.bbv2ry.pics"}}}
   - {"name":"🇺🇸US | 🔴 | vless | @prrofile_purple | 150","type":"vless","server":"167.82.0.47","port":80,"udp":false,"uuid":"253ef561-9e57-4336-befd-878ddd30df01","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/vless-ws/@V2ray_Alpha/?ed=2560","headers":{"host":"teleirani.ir"}}}
   - {"name":"🇺🇸US | 🔴 | vless | @customv2ray | 10","type":"vless","server":"join.VPNCUSTOMIZE.fastly80-3.hosting-ip.com","port":80,"udp":false,"uuid":"cea8359f-1d60-41e4-b069-a8ce81a5c02f","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/telegram-VPNCUSTOMIZE--telegram-VPNCUSTOMIZE--telegram---VPNCUSTOMIZE--telegram---VPNCUSTOMIZE--telegram---VPNCUSTOMIZE?ed=2048","headers":{"host":"JoinBede--VPNCUSTOMIZE--VPNCUSTOMIZE.ir"}}}
-  - {"name":"🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 2","type":"vless","server":"104.18.165.30","port":80,"udp":false,"uuid":"03550326-cf94-439d-a02d-17760f0089d5","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/index.php/Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE?ed=1080","headers":{"host":"hit.ir.google.com.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.trepaspeedtest.betrat.com.eu.com.sh847.ir.xn--cr8haaaaaaaaaaaaaaaa.shir-too-cloud.cloudNs.CH."}}}
+  - {"name":"🇨🇦CA | 🔴 | vless | @FalconPolV2rayNG | 2","type":"vless","server":"104.18.165.30","port":80,"udp":false,"uuid":"03550326-cf94-439d-a02d-17760f0089d5","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/index.php/Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE?ed=1080","headers":{"host":"hit.ir.google.com.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.trepaspeedtest.betrat.com.eu.com.sh847.ir.xn--cr8haaaaaaaaaaaaaaaa.shir-too-cloud.cloudNs.CH."}}}
   - {"name":"🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 3","type":"vless","server":"www.speedtest.net","port":8443,"udp":false,"uuid":"6e7dde55-f681-4cd2-a8e1-2ff9b1df7b25","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"join.bede.VPNCUSTOMIZE.www.speedtest.net.de.Abrha.co.za","ws-opts":{"path":"/Telegram,VPNCUSTOMIZE?ed=2480","headers":{"host":"join.bede.VPNCUSTOMIZE.www.speedtest.net.de.Abrha.co.za"}}}
   - {"name":"🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 12","type":"vless","server":"188.245.208.177","port":26745,"udp":false,"uuid":"a79f88dc-17e0-4438-92e7-f64e50154e0a","tls":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇺🇸US | 🔴 | vless | @v2ray_swhil | 43","type":"vless","server":"www.speedtest.net","port":8443,"udp":false,"uuid":"a4682305-d2dc-4d1b-b753-30565a511ded","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"Join.VPNCUSTOMIZE.www.speedtest.net.Naziitness.com","ws-opts":{"path":"/Telegram,VPNCUSTOMIZE?ed=2480","headers":{"host":"Join.VPNCUSTOMIZE.www.speedtest.net.Naziitness.com"}}}
@@ -177,7 +177,7 @@ proxy-groups:
       - '❔XX | 🔴 | vless | @V2rayCollectorDonate | 18'
       - '🇺🇸US | 🔴 | vless | @prrofile_purple | 150'
       - '🇺🇸US | 🔴 | vless | @customv2ray | 10'
-      - '🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 2'
+      - '🇨🇦CA | 🔴 | vless | @FalconPolV2rayNG | 2'
       - '🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 3'
       - '🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 12'
       - '🇺🇸US | 🔴 | vless | @v2ray_swhil | 43'
@@ -222,7 +222,7 @@ proxy-groups:
       - '❔XX | 🔴 | vless | @V2rayCollectorDonate | 18'
       - '🇺🇸US | 🔴 | vless | @prrofile_purple | 150'
       - '🇺🇸US | 🔴 | vless | @customv2ray | 10'
-      - '🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 2'
+      - '🇨🇦CA | 🔴 | vless | @FalconPolV2rayNG | 2'
       - '🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 3'
       - '🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 12'
       - '🇺🇸US | 🔴 | vless | @v2ray_swhil | 43'
@@ -266,7 +266,7 @@ proxy-groups:
       - '❔XX | 🔴 | vless | @V2rayCollectorDonate | 18'
       - '🇺🇸US | 🔴 | vless | @prrofile_purple | 150'
       - '🇺🇸US | 🔴 | vless | @customv2ray | 10'
-      - '🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 2'
+      - '🇨🇦CA | 🔴 | vless | @FalconPolV2rayNG | 2'
       - '🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 3'
       - '🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 12'
       - '🇺🇸US | 🔴 | vless | @v2ray_swhil | 43'
