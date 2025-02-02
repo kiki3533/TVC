@@ -136,9 +136,8 @@
                 "🇳🇱NL | 🟢 | vmess | @Hope_Net | 4",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
-                "❔XX | 🟢 | vmess | @Hope_Net | 8",
                 "🇩🇪DE | 🟢 | vmess | @fnet00 | 7",
-                "🇫🇮FI | 🟢 | vmess | @nofiltering2 | 6"
+                "🇩🇪DE | 🟢 | vmess | @nofiltering2 | 6"
             ]
         },
         {
@@ -175,9 +174,8 @@
                 "🇳🇱NL | 🟢 | vmess | @Hope_Net | 4",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
-                "❔XX | 🟢 | vmess | @Hope_Net | 8",
                 "🇩🇪DE | 🟢 | vmess | @fnet00 | 7",
-                "🇫🇮FI | 🟢 | vmess | @nofiltering2 | 6"
+                "🇩🇪DE | 🟢 | vmess | @nofiltering2 | 6"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -864,23 +862,6 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 8",
-            "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 1080,
-            "uuid": "abbccaa-baca-caba-bdac-abccabacbacb",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "🇩🇪DE | 🟢 | vmess | @fnet00 | 7",
             "type": "vmess",
             "server": "5.75.201.39",
@@ -898,7 +879,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🟢 | vmess | @nofiltering2 | 6",
+            "tag": "🇩🇪DE | 🟢 | vmess | @nofiltering2 | 6",
             "type": "vmess",
             "server": "all97-vip.f-sub.com",
             "server_port": 9416,
