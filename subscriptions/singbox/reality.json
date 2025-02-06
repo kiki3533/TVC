@@ -114,11 +114,13 @@
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇩🇪DE | 🔴 | vless | @v2logy | 6",
                 "❔XX | 🟢 | vless | @V2rayCollectorDonate | 9",
+                "🇩🇪DE | 🟢 | vless | @prrofile_purple | 104",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 116",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 120",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 123",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 136",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 137",
+                "🇩🇪DE | 🟢 | vless | @customv2ray | 3",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 0",
                 "🇩🇪DE | 🟢 | vless | @ShadowProxy66 | 0",
                 "🇷🇺RU | 🟢 | vless | @ShadowProxy66 | 5",
@@ -127,13 +129,13 @@
                 "🇩🇪DE | 🔴 | vless | @MTConfig | 4",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 7",
                 "🇦🇪AE | 🟢 | vless | @VmessProtocol | 15",
-                "❔XX | 🟢 | vless | @DailyV2RY | 197",
+                "🇨🇦CA | 🟢 | vless | @DailyV2RY | 197",
                 "🇨🇦CA | 🟢 | vless | @DailyV2RY | 198",
                 "🇨🇦CA | 🟢 | vless | @DailyV2RY | 207",
                 "🇨🇦CA | 🟢 | vless | @DailyV2RY | 218",
                 "🇨🇦CA | 🟢 | vless | @DailyV2RY | 219",
-                "🇨🇦CA | 🟢 | vless | @DailyV2RY | 226",
-                "🇨🇦CA | 🟢 | vless | @DailyV2RY | 227",
+                "❔XX | 🟢 | vless | @DailyV2RY | 226",
+                "❔XX | 🟢 | vless | @DailyV2RY | 227",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 0",
@@ -176,11 +178,13 @@
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇩🇪DE | 🔴 | vless | @v2logy | 6",
                 "❔XX | 🟢 | vless | @V2rayCollectorDonate | 9",
+                "🇩🇪DE | 🟢 | vless | @prrofile_purple | 104",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 116",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 120",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 123",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 136",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 137",
+                "🇩🇪DE | 🟢 | vless | @customv2ray | 3",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 0",
                 "🇩🇪DE | 🟢 | vless | @ShadowProxy66 | 0",
                 "🇷🇺RU | 🟢 | vless | @ShadowProxy66 | 5",
@@ -189,13 +193,13 @@
                 "🇩🇪DE | 🔴 | vless | @MTConfig | 4",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 7",
                 "🇦🇪AE | 🟢 | vless | @VmessProtocol | 15",
-                "❔XX | 🟢 | vless | @DailyV2RY | 197",
+                "🇨🇦CA | 🟢 | vless | @DailyV2RY | 197",
                 "🇨🇦CA | 🟢 | vless | @DailyV2RY | 198",
                 "🇨🇦CA | 🟢 | vless | @DailyV2RY | 207",
                 "🇨🇦CA | 🟢 | vless | @DailyV2RY | 218",
                 "🇨🇦CA | 🟢 | vless | @DailyV2RY | 219",
-                "🇨🇦CA | 🟢 | vless | @DailyV2RY | 226",
-                "🇨🇦CA | 🟢 | vless | @DailyV2RY | 227",
+                "❔XX | 🟢 | vless | @DailyV2RY | 226",
+                "❔XX | 🟢 | vless | @DailyV2RY | 227",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 0",
@@ -513,6 +517,35 @@
             }
         },
         {
+            "tag": "🇩🇪DE | 🟢 | vless | @prrofile_purple | 104",
+            "type": "vless",
+            "server": "SVNTEAM.MiSVN.iR",
+            "server_port": 443,
+            "uuid": "SVNTEAM3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.refersion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "193rx1HPJxmcw5Igm1lZeCcPnBx1dVfBroBl5FR9BEE",
+                    "short_id": ""
+                }
+            }
+        },
+        {
             "tag": "🇩🇪DE | 🟢 | vless | @prrofile_purple | 116",
             "type": "vless",
             "server": "panel.panelmarzban.com",
@@ -654,6 +687,35 @@
                     "enabled": true,
                     "public_key": "z1h2erkFZJEDxsjAVDtDcHnkM9mz1OzzpCqbSECxbwQ",
                     "short_id": "dd0ade38b3342a"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | @customv2ray | 3",
+            "type": "vless",
+            "server": "SVNTEAM.MiSVN.iR",
+            "server_port": 443,
+            "uuid": "SVNTEAM1",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.refersion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "193rx1HPJxmcw5Igm1lZeCcPnBx1dVfBroBl5FR9BEE",
+                    "short_id": ""
                 }
             }
         },
@@ -904,7 +966,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @DailyV2RY | 197",
+            "tag": "🇨🇦CA | 🟢 | vless | @DailyV2RY | 197",
             "type": "vless",
             "server": "v24.blkrose.ir",
             "server_port": 2053,
@@ -1084,7 +1146,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vless | @DailyV2RY | 226",
+            "tag": "❔XX | 🟢 | vless | @DailyV2RY | 226",
             "type": "vless",
             "server": "v26.blkrose.ir",
             "server_port": 2053,
@@ -1120,7 +1182,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vless | @DailyV2RY | 227",
+            "tag": "❔XX | 🟢 | vless | @DailyV2RY | 227",
             "type": "vless",
             "server": "v16.blkrose.ir",
             "server_port": 2053,
