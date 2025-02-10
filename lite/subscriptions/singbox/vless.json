@@ -114,8 +114,8 @@
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 16",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 9",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 10",
-                "🇺🇸US | 🔴 | vless | @ARv2ray | 12",
-                "🇺🇸US | 🔴 | vless | @ARv2ray | 13",
+                "🇺🇸US | 🔴 | vless | @ARv2ray | 15",
+                "🇺🇸US | 🔴 | vless | @ARv2ray | 16",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 1",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 2",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 7",
@@ -150,12 +150,13 @@
                 "🇺🇸US | 🔴 | vless | @sinabigo | 0",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 0",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 1",
+                "🇺🇸US | 🔴 | vless | @free1_vpn | 15",
                 "🇷🇴RO | 🔴 | vless | @fnet00 | 4",
                 "🇮🇹IT | 🔴 | vless | @fnet00 | 5",
                 "❔XX | 🔴 | vless | @FreakConfig | 9",
                 "❔XX | 🔴 | vless | @FreakConfig | 10",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 14",
-                "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
+                "🇨🇦CA | 🔴 | vless | @mehrosaboran | 8",
                 "🇩🇪DE | 🔴 | vless | @mehrosaboran | 9",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -180,8 +181,8 @@
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 16",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 9",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 10",
-                "🇺🇸US | 🔴 | vless | @ARv2ray | 12",
-                "🇺🇸US | 🔴 | vless | @ARv2ray | 13",
+                "🇺🇸US | 🔴 | vless | @ARv2ray | 15",
+                "🇺🇸US | 🔴 | vless | @ARv2ray | 16",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 1",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 2",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 7",
@@ -216,12 +217,13 @@
                 "🇺🇸US | 🔴 | vless | @sinabigo | 0",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 0",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 1",
+                "🇺🇸US | 🔴 | vless | @free1_vpn | 15",
                 "🇷🇴RO | 🔴 | vless | @fnet00 | 4",
                 "🇮🇹IT | 🔴 | vless | @fnet00 | 5",
                 "❔XX | 🔴 | vless | @FreakConfig | 9",
                 "❔XX | 🔴 | vless | @FreakConfig | 10",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 14",
-                "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
+                "🇨🇦CA | 🔴 | vless | @mehrosaboran | 8",
                 "🇩🇪DE | 🔴 | vless | @mehrosaboran | 9",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -451,28 +453,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 12",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "telegram-ArV2ray",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry",
-                "headers": {
-                    "Host": "www.speedtest.net"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 13",
+            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 15",
             "type": "vless",
             "server": "151.101.194.133",
             "server_port": 443,
@@ -499,6 +480,27 @@
                 "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "headers": {
                     "Host": "mio.splashthat.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 16",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "telegram-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry",
+                "headers": {
+                    "Host": "www.speedtest.net"
                 }
             }
         },
@@ -1358,6 +1360,27 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🔴 | vless | @free1_vpn | 15",
+            "type": "vless",
+            "server": "NUFiLTER.fastly80-2.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "TELEGRAM-NUFiLTER-fc3c3603bd11",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=8080",
+                "headers": {
+                    "Host": "NUFiLTER.fastly80-2.hosting-ip.com"
+                }
+            }
+        },
+        {
             "tag": "🇷🇴RO | 🔴 | vless | @fnet00 | 4",
             "type": "vless",
             "server": "buh-ro-01.fromblancwithlove.com",
@@ -1475,7 +1498,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
+            "tag": "🇨🇦CA | 🔴 | vless | @mehrosaboran | 8",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
