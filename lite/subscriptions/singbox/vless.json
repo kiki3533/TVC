@@ -152,9 +152,8 @@
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 1",
                 "🇷🇴RO | 🔴 | vless | @fnet00 | 4",
                 "🇮🇹IT | 🔴 | vless | @fnet00 | 5",
-                "❔XX | 🔴 | vless | @FreakConfig | 8",
                 "❔XX | 🔴 | vless | @FreakConfig | 9",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 13",
+                "❔XX | 🔴 | vless | @FreakConfig | 10",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 14",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
                 "🇩🇪DE | 🔴 | vless | @mehrosaboran | 9",
@@ -219,9 +218,8 @@
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 1",
                 "🇷🇴RO | 🔴 | vless | @fnet00 | 4",
                 "🇮🇹IT | 🔴 | vless | @fnet00 | 5",
-                "❔XX | 🔴 | vless | @FreakConfig | 8",
                 "❔XX | 🔴 | vless | @FreakConfig | 9",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 13",
+                "❔XX | 🔴 | vless | @FreakConfig | 10",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 14",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
                 "🇩🇪DE | 🔴 | vless | @mehrosaboran | 9",
@@ -260,7 +258,7 @@
             "type": "vless",
             "server": "Zmaoz.Faculty.Ucdavis.Edu",
             "server_port": 443,
-            "uuid": "Parsashonam-162",
+            "uuid": "Parsashonam-163",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -291,7 +289,7 @@
             "type": "vless",
             "server": "185.146.173.39",
             "server_port": 8880,
-            "uuid": "Parsashonam-162",
+            "uuid": "Parsashonam-163",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1408,7 +1406,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @FreakConfig | 8",
+            "tag": "❔XX | 🔴 | vless | @FreakConfig | 9",
             "type": "vless",
             "server": "freakconfigs2.usecharge.ir",
             "server_port": 443,
@@ -1432,7 +1430,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @FreakConfig | 9",
+            "tag": "❔XX | 🔴 | vless | @FreakConfig | 10",
             "type": "vless",
             "server": "freakconfigs1.usecharge.ir",
             "server_port": 443,
@@ -1456,32 +1454,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 13",
-            "type": "vless",
-            "server": "NUFiLTER.fastly80-3.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "TELEGRAM-NUFiLTER-b1203379cf3d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=8080",
-                "headers": {
-                    "Host": "NUFiLTER.fastly80-3.hosting-ip.com"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 14",
             "type": "vless",
             "server": "NUFiLTER.fastly80-3.hosting-ip.com",
             "server_port": 80,
-            "uuid": "TELEGRAM-NUFiLTER-0c2c483ef595",
+            "uuid": "TELEGRAM-NUFiLTER-b1203379cf3d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
