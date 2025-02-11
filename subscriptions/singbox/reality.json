@@ -140,8 +140,6 @@
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 13",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 257",
                 "🇸🇪SE | 🟢 | vless | @DailyV2RY | 258",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 288",
-                "🇸🇪SE | 🟢 | vless | @DailyV2RY | 289",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 1",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 3",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 7",
@@ -208,8 +206,6 @@
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 13",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 257",
                 "🇸🇪SE | 🟢 | vless | @DailyV2RY | 258",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 288",
-                "🇸🇪SE | 🟢 | vless | @DailyV2RY | 289",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 1",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 3",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 7",
@@ -1330,64 +1326,6 @@
             "tag": "🇸🇪SE | 🟢 | vless | @DailyV2RY | 258",
             "type": "vless",
             "server": "13.60.93.73",
-            "server_port": 8443,
-            "uuid": "73c732f2-d435-4197-9f33-0d7c1f47d3a9",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "zula.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 288",
-            "type": "vless",
-            "server": "3.12.73.59",
-            "server_port": 8443,
-            "uuid": "73c732f2-d435-4197-9f33-0d7c1f47d3a9",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "zula.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | 🟢 | vless | @DailyV2RY | 289",
-            "type": "vless",
-            "server": "13.53.216.156",
             "server_port": 8443,
             "uuid": "73c732f2-d435-4197-9f33-0d7c1f47d3a9",
             "flow": "xtls-rprx-vision",
