@@ -153,7 +153,6 @@ proxies:
   - {"name":"🇩🇪DE | 🔴 | vless | @lrnbymaa | 0","type":"vless","server":"g.soskom.ir","port":52439,"udp":true,"uuid":"2a077ac8-d831-4a2f-8e58-d6da018f0102","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"yahoo.com","reality-opts":{"public-key":"2Vxork2cQs-t5sqBYPt5ObPyex0jk7E2ND5we52m_0Y","short-id":"2e094153c17b67"}}
   - {"name":"🇩🇪DE | 🔴 | vless | @lrnbymaa | 1","type":"vless","server":"g.soskom.ir","port":52439,"udp":true,"uuid":"7104da79-f958-40fd-96f2-d8f7396984f4","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"yahoo.com","reality-opts":{"public-key":"2Vxork2cQs-t5sqBYPt5ObPyex0jk7E2ND5we52m_0Y","short-id":"2e094153c17b67"}}
   - {"name":"🇺🇸US | 🔴 | vless | @proxystore11 | 0","type":"vless","server":"hajlab.ucdavis.edu","port":443,"udp":false,"uuid":"b9b6f31c-a30a-493e-8976-3c5f41463d6b","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"hajlab.ucdavis.edu","ws-opts":{"path":"/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy?ed=2048","headers":{"host":"joinshhproxybedeeeee.ir"}}}
-  - {"name":"🇺🇸US | 🔴 | vless | @proxystore11 | 1","type":"vless","server":"hajlab.ucdavis.edu","port":443,"udp":false,"uuid":"b25b1e67-463e-453e-a66c-756e0d71e808","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"hajlab.ucdavis.edu","ws-opts":{"path":"/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy?ed=2048","headers":{"host":"joinshhproxybedeeeeeee.ir"}}}
   - {"name":"🇷🇴RO | 🔴 | vless | @fnet00 | 4","type":"vless","server":"buh-ro-01.fromblancwithlove.com","port":8443,"udp":false,"uuid":"157448af-8ecf-4075-a9e9-b23a6a94899b","tls":true,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇮🇹IT | 🔴 | vless | @fnet00 | 5","type":"vless","server":"mil-it.fromblancwithlove.com","port":8443,"udp":false,"uuid":"157448af-8ecf-4075-a9e9-b23a6a94899b","tls":true,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 7","type":"vless","server":"147.135.125.121","port":443,"udp":false,"uuid":"3b9bc773-05eb-4d5f-8c1f-57342c0c4f40","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"147135010103.sec19org.com"}
@@ -206,7 +205,6 @@ proxy-groups:
       - '🇩🇪DE | 🔴 | vless | @lrnbymaa | 0'
       - '🇩🇪DE | 🔴 | vless | @lrnbymaa | 1'
       - '🇺🇸US | 🔴 | vless | @proxystore11 | 0'
-      - '🇺🇸US | 🔴 | vless | @proxystore11 | 1'
       - '🇷🇴RO | 🔴 | vless | @fnet00 | 4'
       - '🇮🇹IT | 🔴 | vless | @fnet00 | 5'
       - '🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 7'
@@ -259,7 +257,6 @@ proxy-groups:
       - '🇩🇪DE | 🔴 | vless | @lrnbymaa | 0'
       - '🇩🇪DE | 🔴 | vless | @lrnbymaa | 1'
       - '🇺🇸US | 🔴 | vless | @proxystore11 | 0'
-      - '🇺🇸US | 🔴 | vless | @proxystore11 | 1'
       - '🇷🇴RO | 🔴 | vless | @fnet00 | 4'
       - '🇮🇹IT | 🔴 | vless | @fnet00 | 5'
       - '🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 7'
@@ -311,7 +308,6 @@ proxy-groups:
       - '🇩🇪DE | 🔴 | vless | @lrnbymaa | 0'
       - '🇩🇪DE | 🔴 | vless | @lrnbymaa | 1'
       - '🇺🇸US | 🔴 | vless | @proxystore11 | 0'
-      - '🇺🇸US | 🔴 | vless | @proxystore11 | 1'
       - '🇷🇴RO | 🔴 | vless | @fnet00 | 4'
       - '🇮🇹IT | 🔴 | vless | @fnet00 | 5'
       - '🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 7'
