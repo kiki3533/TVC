@@ -117,7 +117,6 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 12",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 15",
                 "🇺🇸US | 🟢 | vmess | @prrofile_purple | 128",
-                "🇸🇬SG | 🟢 | vmess | @ShadowProxy66 | 6",
                 "🚩CF | 🟢 | vmess | @v2ray1_ng | 2",
                 "🇨🇦CA | 🟢 | vmess | @v2ray1_ng | 3",
                 "🇸🇬SG | 🟢 | vmess | @DailyV2RY | 303",
@@ -153,7 +152,6 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 12",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 15",
                 "🇺🇸US | 🟢 | vmess | @prrofile_purple | 128",
-                "🇸🇬SG | 🟢 | vmess | @ShadowProxy66 | 6",
                 "🚩CF | 🟢 | vmess | @v2ray1_ng | 2",
                 "🇨🇦CA | 🟢 | vmess | @v2ray1_ng | 3",
                 "🇸🇬SG | 🟢 | vmess | @DailyV2RY | 303",
@@ -395,23 +393,6 @@
                 "headers": {
                     "Host": "nl.uploadsho.com"
                 }
-            }
-        },
-        {
-            "tag": "🇸🇬SG | 🟢 | vmess | @ShadowProxy66 | 6",
-            "type": "vmess",
-            "server": "194.233.72.228",
-            "server_port": 27575,
-            "uuid": "16509262-dbe2-43ba-99ce-07913d2a18b4",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
