@@ -386,7 +386,7 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 295",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 296",
                 "🇩🇪DE | 🟢 | vless | @DailyV2RY | 297",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 298",
+                "❔XX | 🔴 | vless | @DailyV2RY | 298",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 299",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 300",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 301",
@@ -404,7 +404,6 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 317",
                 "🚩CF | 🔴 | vless | @sinabigo | 0",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 0",
-                "🇺🇸US | 🔴 | vless | @proxystore11 | 1",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 14",
                 "🇷🇴RO | 🔴 | vless | @fnet00 | 4",
                 "🇮🇹IT | 🔴 | vless | @fnet00 | 5",
@@ -769,7 +768,7 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 295",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 296",
                 "🇩🇪DE | 🟢 | vless | @DailyV2RY | 297",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 298",
+                "❔XX | 🔴 | vless | @DailyV2RY | 298",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 299",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 300",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 301",
@@ -787,7 +786,6 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 317",
                 "🚩CF | 🔴 | vless | @sinabigo | 0",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 0",
-                "🇺🇸US | 🔴 | vless | @proxystore11 | 1",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 14",
                 "🇷🇴RO | 🔴 | vless | @fnet00 | 4",
                 "🇮🇹IT | 🔴 | vless | @fnet00 | 5",
@@ -7882,7 +7880,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 298",
+            "tag": "❔XX | 🔴 | vless | @DailyV2RY | 298",
             "type": "vless",
             "server": "a11.kiodent.ir",
             "server_port": 2053,
@@ -8242,37 +8240,6 @@
             "server": "hajlab.ucdavis.edu",
             "server_port": 443,
             "uuid": "b9b6f31c-a30a-493e-8976-3c5f41463d6b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hajlab.ucdavis.edu",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy",
-                "headers": {
-                    "Host": "hajlab.ucdavis.edu"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @proxystore11 | 1",
-            "type": "vless",
-            "server": "hajlab.ucdavis.edu",
-            "server_port": 443,
-            "uuid": "b25b1e67-463e-453e-a66c-756e0d71e808",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
