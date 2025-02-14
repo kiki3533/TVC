@@ -156,14 +156,14 @@
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 2",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 3",
                 "🇫🇷FR | 🔴 | vless | @VmessProtocol | 10",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 269",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 270",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 272",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 273",
                 "🇺🇸US | 🔴 | vless | @sinabigo | 0",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 15",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 16",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 17",
+                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 17",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 18",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 2",
                 "🇨🇷CR | 🔴 | vless | @Outlinev2rayNG | 4",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
@@ -238,14 +238,14 @@
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 2",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 3",
                 "🇫🇷FR | 🔴 | vless | @VmessProtocol | 10",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 269",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 270",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 272",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 273",
                 "🇺🇸US | 🔴 | vless | @sinabigo | 0",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 15",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 16",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 17",
+                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 17",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 18",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 2",
                 "🇨🇷CR | 🔴 | vless | @Outlinev2rayNG | 4",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
@@ -1481,11 +1481,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 269",
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 272",
             "type": "vless",
-            "server": "angelina.ns.cloudflare.com",
+            "server": "chloe.ns.cloudflare.com",
             "server_port": 443,
-            "uuid": "325f6ec3-5be5-404c-a5b9-d93fd2d2caf1",
+            "uuid": "4bd281cb-93ac-41d8-b34d-7e5a720e1692",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1495,7 +1495,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "bnufg2.iranlosangles.com",
+                "server_name": "0v5ze6.gamvpn.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1507,16 +1507,16 @@
                 "type": "ws",
                 "path": "\/wss",
                 "headers": {
-                    "Host": "bnufg2.iranlosangles.com"
+                    "Host": "0v5ze6.gamvpn.com"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 270",
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 273",
             "type": "vless",
-            "server": "tgju.org",
-            "server_port": 80,
-            "uuid": "1163d60e-7d85-4ea1-83e8-a43b1b80eaa7",
+            "server": "chloe.ns.cloudflare.com",
+            "server_port": 443,
+            "uuid": "4b8bff89-e5ae-449b-820e-67b0f175ed5b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1524,11 +1524,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "9135q1.gamvpn.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/wss",
                 "headers": {
-                    "Host": "tgju.org"
+                    "Host": "9135q1.gamvpn.com"
                 }
             }
         },
@@ -1658,7 +1668,41 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 16",
+            "tag": "🇷🇺RU | 🟢 | vmess | @Hope_Net | 17",
+            "type": "vmess",
+            "server": "45.136.245.240",
+            "server_port": 12910,
+            "uuid": "8259cb1c-dd6c-4739-9c88-af550d977525",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "45.136.245.240",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "45.136.245.240"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 18",
             "type": "vmess",
             "server": "104.19.46.27",
             "server_port": 2086,
@@ -1679,23 +1723,6 @@
                 "headers": {
                     "Host": "104.19.46.27"
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 17",
-            "type": "vmess",
-            "server": "144.202.27.128",
-            "server_port": 8881,
-            "uuid": "db5afae4-ac23-41a6-8378-f307a9a47436",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {

@@ -150,8 +150,8 @@
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 2",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 3",
                 "🇫🇷FR | 🔴 | vless | @VmessProtocol | 10",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 269",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 270",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 272",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 273",
                 "🇺🇸US | 🔴 | vless | @sinabigo | 0",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 15",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 2",
@@ -220,8 +220,8 @@
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 2",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 3",
                 "🇫🇷FR | 🔴 | vless | @VmessProtocol | 10",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 269",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 270",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 272",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 273",
                 "🇺🇸US | 🔴 | vless | @sinabigo | 0",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 15",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 2",
@@ -1335,11 +1335,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 269",
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 272",
             "type": "vless",
-            "server": "angelina.ns.cloudflare.com",
+            "server": "chloe.ns.cloudflare.com",
             "server_port": 443,
-            "uuid": "325f6ec3-5be5-404c-a5b9-d93fd2d2caf1",
+            "uuid": "4bd281cb-93ac-41d8-b34d-7e5a720e1692",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1349,7 +1349,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "bnufg2.iranlosangles.com",
+                "server_name": "0v5ze6.gamvpn.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1361,16 +1361,16 @@
                 "type": "ws",
                 "path": "\/wss",
                 "headers": {
-                    "Host": "bnufg2.iranlosangles.com"
+                    "Host": "0v5ze6.gamvpn.com"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 270",
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 273",
             "type": "vless",
-            "server": "tgju.org",
-            "server_port": 80,
-            "uuid": "1163d60e-7d85-4ea1-83e8-a43b1b80eaa7",
+            "server": "chloe.ns.cloudflare.com",
+            "server_port": 443,
+            "uuid": "4b8bff89-e5ae-449b-820e-67b0f175ed5b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1378,11 +1378,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "9135q1.gamvpn.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/wss",
                 "headers": {
-                    "Host": "tgju.org"
+                    "Host": "9135q1.gamvpn.com"
                 }
             }
         },
