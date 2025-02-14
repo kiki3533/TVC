@@ -344,9 +344,10 @@ proxies:
   - {"name":"🚩CF | 🔴 | vless | @sinabigo | 0","type":"vless","server":"104.21.56.44","port":443,"udp":false,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"301.POoRIam.ir","ws-opts":{"path":"/Ewn8AiCso7BnkGtV?ed=2550","headers":{"host":"301.pooriam.ir"}}}
   - {"name":"🇩🇪DE | 🔴 | vless | @lrnbymaa | 0","type":"vless","server":"g.soskom.ir","port":52439,"udp":true,"uuid":"2a077ac8-d831-4a2f-8e58-d6da018f0102","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"yahoo.com","reality-opts":{"public-key":"2Vxork2cQs-t5sqBYPt5ObPyex0jk7E2ND5we52m_0Y","short-id":"2e094153c17b67"}}
   - {"name":"🇩🇪DE | 🔴 | vless | @lrnbymaa | 1","type":"vless","server":"g.soskom.ir","port":52439,"udp":true,"uuid":"7104da79-f958-40fd-96f2-d8f7396984f4","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"yahoo.com","reality-opts":{"public-key":"2Vxork2cQs-t5sqBYPt5ObPyex0jk7E2ND5we52m_0Y","short-id":"2e094153c17b67"}}
-  - {"name":"🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 0","type":"vless","server":"147.135.10.103","port":443,"udp":false,"uuid":"3b9bc773-05eb-4d5f-8c1f-57342c0c4f40","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"147135010103.sec19org.com"}
-  - {"name":"🚩CF | 🔴 | vless | @Outlinev2rayNG | 1","type":"vless","server":"104.26.14.85","port":80,"udp":false,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/?ed=2560","headers":{"host":"a.xn--i-sx6a60i.us.kg."}}}
-  - {"name":"@vpnAndroid2,@vpnAndroid2,@vpnAndroid2,@vpnAndroid2&security=none&encryption=none&host=EevpnAndroid2.69.mu.&type=ws#🇪🇪EE | 🔴 | vless | @Outlinev2rayNG | 3","type":"vless","server":"5.181.23.67","port":80,"udp":false,"uuid":"09e30204-6e54-5f5c-9fff-73328d9bb927","tls":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 0","type":"vless","server":"135.148.74.156","port":443,"udp":false,"uuid":"54694a33-a8dc-47dd-bc38-acd3971e0055","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"147135004002.sec20org.com"}
+  - {"name":"🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 1","type":"vless","server":"147.135.10.103","port":443,"udp":false,"uuid":"3b9bc773-05eb-4d5f-8c1f-57342c0c4f40","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"147135010103.sec19org.com"}
+  - {"name":"🚩CF | 🔴 | vless | @Outlinev2rayNG | 2","type":"vless","server":"104.26.14.85","port":80,"udp":false,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/?ed=2560","headers":{"host":"a.xn--i-sx6a60i.us.kg."}}}
+  - {"name":"@vpnAndroid2,@vpnAndroid2,@vpnAndroid2,@vpnAndroid2&security=none&encryption=none&host=EevpnAndroid2.69.mu.&type=ws#🇪🇪EE | 🔴 | vless | @Outlinev2rayNG | 4","type":"vless","server":"5.181.23.67","port":80,"udp":false,"uuid":"09e30204-6e54-5f5c-9fff-73328d9bb927","tls":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇫🇷FR | 🔴 | vless | @FreakConfig | 0","type":"vless","server":"freakconfigz13.usecharge.ir","port":3237,"udp":false,"uuid":"1d86846c-5a27-43c8-8981-57bb75c82195","tls":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"❔XX | 🔴 | vless | @FreakConfig | 1","type":"vless","server":"freakconfigz12.usecharge.ir","port":3237,"udp":false,"uuid":"1d86846c-5a27-43c8-8981-57bb75c82195","tls":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"❔XX | 🔴 | vless | @FreakConfig | 2","type":"vless","server":"freakconfigs11.usecharge.ir","port":443,"udp":false,"uuid":"5a7d02b8-aace-4fe3-aa4a-9fa3771d51e5","tls":true,"network":"xhttp","client-fingerprint":"chrome","servername":"media.sanaiegh.ir"}
@@ -629,8 +630,9 @@ proxy-groups:
       - '🇩🇪DE | 🔴 | vless | @lrnbymaa | 0'
       - '🇩🇪DE | 🔴 | vless | @lrnbymaa | 1'
       - '🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 0'
-      - '🚩CF | 🔴 | vless | @Outlinev2rayNG | 1'
-      - '@vpnAndroid2,@vpnAndroid2,@vpnAndroid2,@vpnAndroid2&security=none&encryption=none&host=EevpnAndroid2.69.mu.&type=ws#🇪🇪EE | 🔴 | vless | @Outlinev2rayNG | 3'
+      - '🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 1'
+      - '🚩CF | 🔴 | vless | @Outlinev2rayNG | 2'
+      - '@vpnAndroid2,@vpnAndroid2,@vpnAndroid2,@vpnAndroid2&security=none&encryption=none&host=EevpnAndroid2.69.mu.&type=ws#🇪🇪EE | 🔴 | vless | @Outlinev2rayNG | 4'
       - '🇫🇷FR | 🔴 | vless | @FreakConfig | 0'
       - '❔XX | 🔴 | vless | @FreakConfig | 1'
       - '❔XX | 🔴 | vless | @FreakConfig | 2'
@@ -913,8 +915,9 @@ proxy-groups:
       - '🇩🇪DE | 🔴 | vless | @lrnbymaa | 0'
       - '🇩🇪DE | 🔴 | vless | @lrnbymaa | 1'
       - '🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 0'
-      - '🚩CF | 🔴 | vless | @Outlinev2rayNG | 1'
-      - '@vpnAndroid2,@vpnAndroid2,@vpnAndroid2,@vpnAndroid2&security=none&encryption=none&host=EevpnAndroid2.69.mu.&type=ws#🇪🇪EE | 🔴 | vless | @Outlinev2rayNG | 3'
+      - '🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 1'
+      - '🚩CF | 🔴 | vless | @Outlinev2rayNG | 2'
+      - '@vpnAndroid2,@vpnAndroid2,@vpnAndroid2,@vpnAndroid2&security=none&encryption=none&host=EevpnAndroid2.69.mu.&type=ws#🇪🇪EE | 🔴 | vless | @Outlinev2rayNG | 4'
       - '🇫🇷FR | 🔴 | vless | @FreakConfig | 0'
       - '❔XX | 🔴 | vless | @FreakConfig | 1'
       - '❔XX | 🔴 | vless | @FreakConfig | 2'
@@ -1196,8 +1199,9 @@ proxy-groups:
       - '🇩🇪DE | 🔴 | vless | @lrnbymaa | 0'
       - '🇩🇪DE | 🔴 | vless | @lrnbymaa | 1'
       - '🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 0'
-      - '🚩CF | 🔴 | vless | @Outlinev2rayNG | 1'
-      - '@vpnAndroid2,@vpnAndroid2,@vpnAndroid2,@vpnAndroid2&security=none&encryption=none&host=EevpnAndroid2.69.mu.&type=ws#🇪🇪EE | 🔴 | vless | @Outlinev2rayNG | 3'
+      - '🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 1'
+      - '🚩CF | 🔴 | vless | @Outlinev2rayNG | 2'
+      - '@vpnAndroid2,@vpnAndroid2,@vpnAndroid2,@vpnAndroid2&security=none&encryption=none&host=EevpnAndroid2.69.mu.&type=ws#🇪🇪EE | 🔴 | vless | @Outlinev2rayNG | 4'
       - '🇫🇷FR | 🔴 | vless | @FreakConfig | 0'
       - '❔XX | 🔴 | vless | @FreakConfig | 1'
       - '❔XX | 🔴 | vless | @FreakConfig | 2'
