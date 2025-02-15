@@ -154,7 +154,6 @@ proxies:
   - {"name":"🚩CF | 🟢 | vmess | @Hope_Net | 7","type":"vmess","server":"198.41.209.70","port":80,"cipher":"auto","uuid":"e6543319-0574-42ac-b778-1c4325d626f5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"chunchuan.kejixiaoqi666.store"}}}
   - {"name":"🇸🇬SG | 🟢 | vmess | @Hope_Net | 8","type":"vmess","server":"31.58.142.221","port":8967,"cipher":"auto","uuid":"7d29f1ca-647b-4b4e-b9c8-6beab7133535","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/BONRyKGhDE","headers":{"host":"neo.nicme.me"}}}
   - {"name":"🇸🇬SG | 🟢 | vmess | @Hope_Net | 9","type":"vmess","server":"20.205.176.167","port":"54550","cipher":"auto","uuid":"e696df27-62cc-4ca7-9a39-007c93cdaa46","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇩🇪DE | 🟢 | vmess | @Hope_Net | 10","type":"vmess","server":"23.158.56.21","port":"48961","cipher":"auto","uuid":"6eef3448-bbc0-4933-894a-72b3e8786109","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸US | 🟢 | vmess | @ISVvpn | 1","type":"vmess","server":"zula.ir","port":"8443","cipher":"none","uuid":"35302031-3032-4035-b020-313032203130","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"vip1.isvpy.ir"}}}
 proxy-groups:
   - name: MANUAL
@@ -198,7 +197,6 @@ proxy-groups:
       - '🚩CF | 🟢 | vmess | @Hope_Net | 7'
       - '🇸🇬SG | 🟢 | vmess | @Hope_Net | 8'
       - '🇸🇬SG | 🟢 | vmess | @Hope_Net | 9'
-      - '🇩🇪DE | 🟢 | vmess | @Hope_Net | 10'
       - '🇺🇸US | 🟢 | vmess | @ISVvpn | 1'
   - name: URL-TEST
     type: url-test
@@ -242,7 +240,6 @@ proxy-groups:
       - '🚩CF | 🟢 | vmess | @Hope_Net | 7'
       - '🇸🇬SG | 🟢 | vmess | @Hope_Net | 8'
       - '🇸🇬SG | 🟢 | vmess | @Hope_Net | 9'
-      - '🇩🇪DE | 🟢 | vmess | @Hope_Net | 10'
       - '🇺🇸US | 🟢 | vmess | @ISVvpn | 1'
   - name: FALLBACK
     type: fallback
@@ -285,7 +282,6 @@ proxy-groups:
       - '🚩CF | 🟢 | vmess | @Hope_Net | 7'
       - '🇸🇬SG | 🟢 | vmess | @Hope_Net | 8'
       - '🇸🇬SG | 🟢 | vmess | @Hope_Net | 9'
-      - '🇩🇪DE | 🟢 | vmess | @Hope_Net | 10'
       - '🇺🇸US | 🟢 | vmess | @ISVvpn | 1'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
