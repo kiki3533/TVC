@@ -109,10 +109,9 @@
                 "🇬🇧GB | 🟢 | ss | @azadi_az_inja_migzare | 1",
                 "🇬🇧GB | 🟢 | ss | @azadi_az_inja_migzare | 2",
                 "🇬🇧GB | 🟢 | ss | @azadi_az_inja_migzare | 4",
-                "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 1",
-                "🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 11",
-                "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 12",
-                "🇲🇽MX | 🟢 | ss | @DeamNet_Proxy | 19",
+                "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 5",
+                "🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 15",
+                "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 16",
                 "🇬🇧GB | 🟢 | ss | @kingofilter | 4",
                 "🇬🇧GB | 🟢 | ss | @kingofilter | 11"
             ]
@@ -124,10 +123,9 @@
                 "🇬🇧GB | 🟢 | ss | @azadi_az_inja_migzare | 1",
                 "🇬🇧GB | 🟢 | ss | @azadi_az_inja_migzare | 2",
                 "🇬🇧GB | 🟢 | ss | @azadi_az_inja_migzare | 4",
-                "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 1",
-                "🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 11",
-                "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 12",
-                "🇲🇽MX | 🟢 | ss | @DeamNet_Proxy | 19",
+                "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 5",
+                "🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 15",
+                "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 16",
                 "🇬🇧GB | 🟢 | ss | @kingofilter | 4",
                 "🇬🇧GB | 🟢 | ss | @kingofilter | 11"
             ],
@@ -182,7 +180,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 1",
+            "tag": "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 5",
             "type": "shadowsocks",
             "server": "67.220.95.102",
             "server_port": 8118,
@@ -192,7 +190,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 11",
+            "tag": "🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 15",
             "type": "shadowsocks",
             "server": "45.158.171.132",
             "server_port": 8080,
@@ -202,22 +200,12 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 12",
+            "tag": "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 16",
             "type": "shadowsocks",
             "server": "45.87.175.181",
             "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
             "password": "cvII85TrW6n0OGyfpHVS1u",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇲🇽MX | 🟢 | ss | @DeamNet_Proxy | 19",
-            "type": "shadowsocks",
-            "server": "147.78.1.27",
-            "server_port": 990,
-            "method": "chacha20-ietf-poly1305",
-            "password": "f8f7aCzcPKbsF8p3",
             "plugin": "",
             "plugin_opts": ""
         },
