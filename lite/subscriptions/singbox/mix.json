@@ -137,7 +137,7 @@
                 "🇸🇪SE | 🟢 | trojan | @DirectVPN | 15",
                 "🇸🇪SE | 🟢 | trojan | @DirectVPN | 16",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
-                "🇭🇰HK | 🟢 | vmess | @DeamNet_Proxy | 19",
+                "🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 18",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 158",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 159",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 11",
@@ -167,7 +167,6 @@
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 13",
                 "🇨🇳CN | 🟢 | vmess | @Hope_Net | 4",
-                "🇬🇧GB | 🟢 | vmess | @Hope_Net | 5",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 2",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 13",
                 "❔XX | 🔴 | vless | @FreakConfig | 12",
@@ -219,7 +218,7 @@
                 "🇸🇪SE | 🟢 | trojan | @DirectVPN | 15",
                 "🇸🇪SE | 🟢 | trojan | @DirectVPN | 16",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
-                "🇭🇰HK | 🟢 | vmess | @DeamNet_Proxy | 19",
+                "🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 18",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 158",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 159",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 11",
@@ -249,7 +248,6 @@
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 13",
                 "🇨🇳CN | 🟢 | vmess | @Hope_Net | 4",
-                "🇬🇧GB | 🟢 | vmess | @Hope_Net | 5",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 2",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 13",
                 "❔XX | 🔴 | vless | @FreakConfig | 12",
@@ -1033,21 +1031,14 @@
             }
         },
         {
-            "tag": "🇭🇰HK | 🟢 | vmess | @DeamNet_Proxy | 19",
-            "type": "vmess",
-            "server": "103.149.183.178",
-            "server_port": 27512,
-            "uuid": "96d38683-0817-4d91-bffa-6f03df18d9dc",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
+            "tag": "🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 18",
+            "type": "shadowsocks",
+            "server": "45.158.171.146",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "1RWwXhwfAB5gAEozU4G2Pg",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇺🇸US | 🔴 | vless | @prrofile_purple | 158",
@@ -1802,35 +1793,11 @@
         {
             "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 4",
             "type": "vmess",
-            "server": "183.232.155.43",
-            "server_port": 53236,
-            "uuid": "d8e6f12b-6582-3efa-88cc-992b13fee5aa",
+            "server": "120.232.153.123",
+            "server_port": 45402,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
-            "alter_id": 2,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/windows10",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧GB | 🟢 | vmess | @Hope_Net | 5",
-            "type": "vmess",
-            "server": "172.99.190.207",
-            "server_port": 55577,
-            "uuid": "e922d485-98a7-475a-9a47-cde3722ac82e",
-            "security": "auto",
-            "alter_id": 0,
+            "alter_id": 64,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
