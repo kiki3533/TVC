@@ -106,18 +106,16 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇵🇱PL | 🟢 | ss | @DeamNet_Proxy | 18",
-                "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 19",
-                "🇺🇸US | 🟢 | ss | @kingofilter | 9"
+                "🇳🇬NG | 🟢 | ss | @DeamNet_Proxy | 19",
+                "🇺🇸US | 🟢 | ss | @kingofilter | 10"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇵🇱PL | 🟢 | ss | @DeamNet_Proxy | 18",
-                "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 19",
-                "🇺🇸US | 🟢 | ss | @kingofilter | 9"
+                "🇳🇬NG | 🟢 | ss | @DeamNet_Proxy | 19",
+                "🇺🇸US | 🟢 | ss | @kingofilter | 10"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -140,27 +138,17 @@
             "type": "dns"
         },
         {
-            "tag": "🇵🇱PL | 🟢 | ss | @DeamNet_Proxy | 18",
+            "tag": "🇳🇬NG | 🟢 | ss | @DeamNet_Proxy | 19",
             "type": "shadowsocks",
-            "server": "54.36.174.181",
-            "server_port": 3389,
-            "method": "aes-256-gcm",
-            "password": "Y6R9pAtvxxzmGC",
+            "server": "185.255.123.92",
+            "server_port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "f8f7aCzcPKbsF8p3",
             "plugin": "",
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 19",
-            "type": "shadowsocks",
-            "server": "69.50.95.218",
-            "server_port": 2375,
-            "method": "aes-256-gcm",
-            "password": "faBAoD54k87UJG7",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | ss | @kingofilter | 9",
+            "tag": "🇺🇸US | 🟢 | ss | @kingofilter | 10",
             "type": "shadowsocks",
             "server": "series-a1.samanehha.co",
             "server_port": 443,
