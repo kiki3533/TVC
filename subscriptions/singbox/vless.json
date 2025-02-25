@@ -201,6 +201,15 @@
                 "🇩🇪DE | 🟢 | vless | @CUSTOMVPNSERVER | 9",
                 "🇩🇪DE | 🟢 | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
+                "🇺🇸US | 🔴 | vless | @DigiV2ray | 0",
+                "🇺🇸US | 🔴 | vless | @DigiV2ray | 1",
+                "🇺🇸US | 🔴 | vless | @DigiV2ray | 2",
+                "🇺🇸US | 🔴 | vless | @DigiV2ray | 3",
+                "🇺🇸US | 🔴 | vless | @DigiV2ray | 4",
+                "🇺🇸US | 🔴 | vless | @DigiV2ray | 5",
+                "🇺🇸US | 🔴 | vless | @DigiV2ray | 6",
+                "🇺🇸US | 🔴 | vless | @DigiV2ray | 7",
+                "🇺🇸US | 🔴 | vless | @DigiV2ray | 8",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 0",
                 "🇳🇱NL | 🔴 | vless | @proxy_kafee | 2",
                 "🇺🇸US | 🔴 | vless | @v2logy | 0",
@@ -537,6 +546,15 @@
                 "🇩🇪DE | 🟢 | vless | @CUSTOMVPNSERVER | 9",
                 "🇩🇪DE | 🟢 | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
+                "🇺🇸US | 🔴 | vless | @DigiV2ray | 0",
+                "🇺🇸US | 🔴 | vless | @DigiV2ray | 1",
+                "🇺🇸US | 🔴 | vless | @DigiV2ray | 2",
+                "🇺🇸US | 🔴 | vless | @DigiV2ray | 3",
+                "🇺🇸US | 🔴 | vless | @DigiV2ray | 4",
+                "🇺🇸US | 🔴 | vless | @DigiV2ray | 5",
+                "🇺🇸US | 🔴 | vless | @DigiV2ray | 6",
+                "🇺🇸US | 🔴 | vless | @DigiV2ray | 7",
+                "🇺🇸US | 🔴 | vless | @DigiV2ray | 8",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 0",
                 "🇳🇱NL | 🔴 | vless | @proxy_kafee | 2",
                 "🇺🇸US | 🔴 | vless | @v2logy | 0",
@@ -3268,6 +3286,195 @@
                     "enabled": true,
                     "public_key": "rFZOWxVcsZn5--1yLku3SGglZ0Y2Ban0buZIN3-vFwU",
                     "short_id": "cfef326c"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @DigiV2ray | 0",
+            "type": "vless",
+            "server": "Speedtest.net",
+            "server_port": 80,
+            "uuid": "b1f58d90-e65f-4566-91f3-1b96e9a68610",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--",
+                "headers": {
+                    "Host": "Speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @DigiV2ray | 1",
+            "type": "vless",
+            "server": "Speedtest.net",
+            "server_port": 80,
+            "uuid": "b1f58d90-e65f-4566-91f3-1b96e9a68619",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--",
+                "headers": {
+                    "Host": "Speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @DigiV2ray | 2",
+            "type": "vless",
+            "server": "Speedtest.net",
+            "server_port": 80,
+            "uuid": "b1f58d90-e65f-4566-91f3-1b96e9a68618",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--",
+                "headers": {
+                    "Host": "Speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @DigiV2ray | 3",
+            "type": "vless",
+            "server": "Speedtest.net",
+            "server_port": 80,
+            "uuid": "b1f58d90-e65f-4566-91f3-1b96e9a68617",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--",
+                "headers": {
+                    "Host": "Speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @DigiV2ray | 4",
+            "type": "vless",
+            "server": "Speedtest.net",
+            "server_port": 80,
+            "uuid": "b1f58d90-e65f-4566-91f3-1b96e9a68616",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--",
+                "headers": {
+                    "Host": "Speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @DigiV2ray | 5",
+            "type": "vless",
+            "server": "Speedtest.net",
+            "server_port": 80,
+            "uuid": "b1f58d90-e65f-4566-91f3-1b96e9a68615",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--",
+                "headers": {
+                    "Host": "Speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @DigiV2ray | 6",
+            "type": "vless",
+            "server": "Speedtest.net",
+            "server_port": 80,
+            "uuid": "b1f58d90-e65f-4566-91f3-1b96e9a68614",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--",
+                "headers": {
+                    "Host": "Speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @DigiV2ray | 7",
+            "type": "vless",
+            "server": "Speedtest.net",
+            "server_port": 80,
+            "uuid": "b1f58d90-e65f-4566-91f3-1b96e9a68613",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--",
+                "headers": {
+                    "Host": "Speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @DigiV2ray | 8",
+            "type": "vless",
+            "server": "Speedtest.net",
+            "server_port": 80,
+            "uuid": "b1f58d90-e65f-4566-91f3-1b96e9a68612",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--",
+                "headers": {
+                    "Host": "Speedtest.net"
                 }
             }
         },
