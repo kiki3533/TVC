@@ -147,8 +147,8 @@
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 3",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 5",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 7",
-                "🇩🇪DE | 🔴 | vless | @nofiltering2 | 8",
-                "🇩🇪DE | 🔴 | vless | @nofiltering2 | 12",
+                "🇩🇪DE | 🔴 | vless | @nofiltering2 | 1",
+                "🇩🇪DE | 🔴 | vless | @nofiltering2 | 10",
                 "🇩🇪DE | 🔴 | vless | @proxy_mtm | 1",
                 "🇩🇪DE | 🔴 | vless | @proxy_mtm | 3",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
@@ -217,8 +217,8 @@
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 3",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 5",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 7",
-                "🇩🇪DE | 🔴 | vless | @nofiltering2 | 8",
-                "🇩🇪DE | 🔴 | vless | @nofiltering2 | 12",
+                "🇩🇪DE | 🔴 | vless | @nofiltering2 | 1",
+                "🇩🇪DE | 🔴 | vless | @nofiltering2 | 10",
                 "🇩🇪DE | 🔴 | vless | @proxy_mtm | 1",
                 "🇩🇪DE | 🔴 | vless | @proxy_mtm | 3",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
@@ -1640,11 +1640,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @nofiltering2 | 8",
+            "tag": "🇩🇪DE | 🔴 | vless | @nofiltering2 | 1",
             "type": "vless",
-            "server": "c2.vact.ir",
+            "server": "c1.vact.ir",
             "server_port": 443,
-            "uuid": "4b060663-3649-41de-a263-5b564bd1ca29",
+            "uuid": "3dbc0c83-8439-4838-abdb-6fd7e61df13e",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1663,8 +1663,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "gmfZyQtoXXrck45kkXm_vO3TlB0CcDNvkLkd3-HAfFA",
-                    "short_id": "b542ac"
+                    "public_key": "BDsBcQ0GzxU-pGwN0H6zRVIbOhdL5dJy7cUd44xnayI",
+                    "short_id": "dfb4dc18a1"
                 }
             },
             "transport": {
@@ -1676,11 +1676,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @nofiltering2 | 12",
+            "tag": "🇩🇪DE | 🔴 | vless | @nofiltering2 | 10",
             "type": "vless",
             "server": "c2.vact.ir",
             "server_port": 443,
-            "uuid": "20d31cb1-6228-47a9-90a2-0ae7f8dfe7d5",
+            "uuid": "4b060663-3649-41de-a263-5b564bd1ca29",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
