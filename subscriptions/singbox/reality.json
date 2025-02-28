@@ -142,9 +142,9 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 367",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 368",
                 "❔XX | 🟢 | vless | @free1_vpn | 1",
-                "🇦🇪AE | 🟢 | vless | @Outlinev2rayNG | 3",
-                "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 4",
-                "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 5",
+                "🇦🇪AE | 🟢 | vless | @Outlinev2rayNG | 4",
+                "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 5",
+                "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 6",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 1",
                 "❔XX | 🔴 | vless | @flyv2ray | 2",
                 "❔XX | 🔴 | vless | @flyv2ray | 5",
@@ -171,7 +171,8 @@
                 "🇩🇪DE | 🟢 | vless | @kingofilter | 4",
                 "🇩🇪DE | 🟢 | vless | @SvnTeam | 0",
                 "🇩🇪DE | 🟢 | vless | @SvnTeam | 1",
-                "🇩🇪DE | 🔴 | vless | @SvnTeam | 3"
+                "🇩🇪DE | 🟢 | vless | @SvnTeam | 2",
+                "🇩🇪DE | 🔴 | vless | @SvnTeam | 4"
             ]
         },
         {
@@ -214,9 +215,9 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 367",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 368",
                 "❔XX | 🟢 | vless | @free1_vpn | 1",
-                "🇦🇪AE | 🟢 | vless | @Outlinev2rayNG | 3",
-                "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 4",
-                "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 5",
+                "🇦🇪AE | 🟢 | vless | @Outlinev2rayNG | 4",
+                "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 5",
+                "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 6",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 1",
                 "❔XX | 🔴 | vless | @flyv2ray | 2",
                 "❔XX | 🔴 | vless | @flyv2ray | 5",
@@ -243,7 +244,8 @@
                 "🇩🇪DE | 🟢 | vless | @kingofilter | 4",
                 "🇩🇪DE | 🟢 | vless | @SvnTeam | 0",
                 "🇩🇪DE | 🟢 | vless | @SvnTeam | 1",
-                "🇩🇪DE | 🔴 | vless | @SvnTeam | 3"
+                "🇩🇪DE | 🟢 | vless | @SvnTeam | 2",
+                "🇩🇪DE | 🔴 | vless | @SvnTeam | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -1464,7 +1466,7 @@
             }
         },
         {
-            "tag": "🇦🇪AE | 🟢 | vless | @Outlinev2rayNG | 3",
+            "tag": "🇦🇪AE | 🟢 | vless | @Outlinev2rayNG | 4",
             "type": "vless",
             "server": "193.123.81.17",
             "server_port": 443,
@@ -1493,7 +1495,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 4",
+            "tag": "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 5",
             "type": "vless",
             "server": "45.138.25.121",
             "server_port": 8443,
@@ -1529,7 +1531,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 5",
+            "tag": "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 6",
             "type": "vless",
             "server": "91.107.171.73",
             "server_port": 443,
@@ -2419,7 +2421,7 @@
             "type": "vless",
             "server": "SVNTEAM.MiSVN.iR",
             "server_port": 443,
-            "uuid": "6c76ee27-5281-4d1f-9e28-9a33e0bb0820",
+            "uuid": "bfc73db8-88ee-4739-844d-2a1aebda0671",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2448,6 +2450,35 @@
             "type": "vless",
             "server": "SVNTEAM.MiSVN.iR",
             "server_port": 443,
+            "uuid": "6c76ee27-5281-4d1f-9e28-9a33e0bb0820",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8",
+                    "short_id": "e54b5ad736ae4c38"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | @SvnTeam | 2",
+            "type": "vless",
+            "server": "SVNTEAM.MiSVN.iR",
+            "server_port": 443,
             "uuid": "88da5abf-08f2-44fe-951e-358e96bc86ba",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
@@ -2473,7 +2504,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @SvnTeam | 3",
+            "tag": "🇩🇪DE | 🔴 | vless | @SvnTeam | 4",
             "type": "vless",
             "server": "SVNTEAM.MiSVN.iR",
             "server_port": 443,
