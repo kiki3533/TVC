@@ -177,6 +177,8 @@
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 12",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 13",
+                "🇺🇸US | 🔴 | vless | @ARv2ray | 14",
+                "🇺🇸US | 🔴 | vless | @ARv2ray | 15",
                 "🇩🇪DE | 🔴 | vless | @Lockey_vpn | 0",
                 "🚩CF | 🔴 | vless | @Lockey_vpn | 1",
                 "🚩CF | 🔴 | vless | @Lockey_vpn | 2",
@@ -309,6 +311,7 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 0",
+                "🇺🇸US | 🔴 | vless | @MsV2ray | 1",
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 0",
                 "🚩CF | 🟢 | vless | @v2ray1_ng | 1",
                 "🇮🇷IR | 🔴 | vless | @v2ray1_ng | 9",
@@ -537,6 +540,8 @@
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 12",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 13",
+                "🇺🇸US | 🔴 | vless | @ARv2ray | 14",
+                "🇺🇸US | 🔴 | vless | @ARv2ray | 15",
                 "🇩🇪DE | 🔴 | vless | @Lockey_vpn | 0",
                 "🚩CF | 🔴 | vless | @Lockey_vpn | 1",
                 "🚩CF | 🔴 | vless | @Lockey_vpn | 2",
@@ -669,6 +674,7 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 0",
+                "🇺🇸US | 🔴 | vless | @MsV2ray | 1",
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 0",
                 "🚩CF | 🟢 | vless | @v2ray1_ng | 1",
                 "🇮🇷IR | 🔴 | vless | @v2ray1_ng | 9",
@@ -2714,6 +2720,48 @@
         },
         {
             "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 13",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "telegram-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 14",
+            "type": "vless",
+            "server": "AC.fastly80-2.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "telegram-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry",
+                "headers": {
+                    "Host": "AC.fastly80-2.hosting-ip.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 15",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -5989,6 +6037,20 @@
         },
         {
             "tag": "🇺🇸US | 🔴 | vless | @MsV2ray | 0",
+            "type": "vless",
+            "server": "WwW.Speedtest.Net",
+            "server_port": 8880,
+            "uuid": "MsV2ray-MsV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @MsV2ray | 1",
             "type": "vless",
             "server": "MSV2RAY.fastly80-3.hosting-ip.com",
             "server_port": 80,
