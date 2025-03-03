@@ -1586,6 +1586,40 @@
         {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
             "type": "vmess",
+            "server": "RAksMARt.818185.FIlEgEaR-sg.Me",
+            "server_port": 443,
+            "uuid": "0343d7ab-fa29-478a-8877-0d6a8b7d2ab8",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "RAksMARt.818185.FIlEgEaR-sg.Me",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "RAksMARt.818185.FIlEgEaR-sg.Me"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
+            "type": "vmess",
             "server": "RAkSmart.890605.GgfF.neT",
             "server_port": 443,
             "uuid": "0343d7ab-fa29-478a-8877-0d6a8b7d2ab8",
@@ -1614,40 +1648,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "RAkSmart.890605.GgfF.neT"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
-            "type": "vmess",
-            "server": "biazh.mmzhk.website",
-            "server_port": 443,
-            "uuid": "4187fdd4-ffae-4a3d-b620-ab23e04599fc",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "biazh.mmzhk.website",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "biazh.mmzhk.website"
                 }
             }
         },
