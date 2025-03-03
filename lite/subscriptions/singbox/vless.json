@@ -106,7 +106,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇸🇪SE | 🔴 | vless | @Parsashonam | 25",
+                "🇩🇪DE | 🔴 | vless | @Parsashonam | 27",
+                "🇸🇪SE | 🔴 | vless | @Parsashonam | 28",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 9",
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
@@ -134,7 +135,7 @@
                 "🇺🇸US | 🔴 | vless | @customv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 12",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
-                "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
+                "🇨🇦CA | 🔴 | vless | @FalconPolV2rayNG | 6",
                 "❔XX | 🔴 | vless | @ServerNett | 10",
                 "❔XX | 🔴 | vless | @ServerNett | 11",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
@@ -178,7 +179,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇸🇪SE | 🔴 | vless | @Parsashonam | 25",
+                "🇩🇪DE | 🔴 | vless | @Parsashonam | 27",
+                "🇸🇪SE | 🔴 | vless | @Parsashonam | 28",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 9",
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
@@ -206,7 +208,7 @@
                 "🇺🇸US | 🔴 | vless | @customv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 12",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
-                "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
+                "🇨🇦CA | 🔴 | vless | @FalconPolV2rayNG | 6",
                 "❔XX | 🔴 | vless | @ServerNett | 10",
                 "❔XX | 🔴 | vless | @ServerNett | 11",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
@@ -266,11 +268,40 @@
             "type": "dns"
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | @Parsashonam | 25",
+            "tag": "🇩🇪DE | 🔴 | vless | @Parsashonam | 27",
+            "type": "vless",
+            "server": "188.245.242.132",
+            "server_port": 443,
+            "uuid": "Parsashonam-179",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Whatsapp.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "k4cuNLKyoRu4QKypn4DtwJPLBNuwXm5UHV0GJt3yuFI",
+                    "short_id": "7f338a"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | 🔴 | vless | @Parsashonam | 28",
             "type": "vless",
             "server": "185.146.173.39",
             "server_port": 8880,
-            "uuid": "Parsashonam-178",
+            "uuid": "Parsashonam-179",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -948,7 +979,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
+            "tag": "🇨🇦CA | 🔴 | vless | @FalconPolV2rayNG | 6",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8443,
