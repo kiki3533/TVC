@@ -120,9 +120,6 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
-  - {"name":"🇦🇲AM | 🔴 | vless | @XsV2ray | 0","type":"vless","server":"45.129.185.185","port":2087,"udp":true,"uuid":"26a45f68-0dd0-4952-ab1e-2c3d023d2431","tls":true,"network":"grpc","client-fingerprint":"firefox","servername":"dash.cloudflare.com","reality-opts":{"public-key":"StgXQYbkKSkAHHzakVldKHVmrBXhe_J87e7bydUIOGw","short-id":"83cdb009"}}
-  - {"name":"🇮🇷IR | 🔴 | vless | @XsV2ray | 1","type":"vless","server":"am3.estarlink1.us","port":51234,"udp":false,"uuid":"a8ec0c05-e040-4b7c-b04d-39bd63db4661","tls":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"❔XX | 🔴 | vless | @XsV2ray | 4","type":"vless","server":"tel.bo3kot.com","port":80,"udp":false,"uuid":"80c9afaa-0b8c-498a-baf8-29bc69fd2b87","tls":true,"network":"grpc","client-fingerprint":"chrome","grpc-opts":{"grpc-service-name":"@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,"}}
   - {"name":"🇮🇪IE | 🔴 | vless | @VlessConfig | 0","type":"vless","server":"54.229.42.199","port":22222,"udp":false,"uuid":"05519058-d2ac-4f28-9e4a-2b2a1386749e","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"telegram-channel-vlessconfig.sohala.uk","ws-opts":{"path":"/telegram-channel-vlessconfig-ws","headers":{"host":"telegram-channel-vlessconfig.sohala.uk"}}}
   - {"name":"🇮🇪IE | 🔴 | vless | @VlessConfig | 1","type":"vless","server":"54.247.123.221","port":22222,"udp":false,"uuid":"05519058-d2ac-4f28-9e4a-2b2a1386749e","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"telegram-channel-vlessconfig.sohala.uk","ws-opts":{"path":"/telegram-channel-vlessconfig-ws","headers":{"host":"telegram-channel-vlessconfig.sohala.uk"}}}
   - {"name":"🇬🇧GB | 🔴 | vless | @VlessConfig | 2","type":"vless","server":"35.177.178.20","port":22222,"udp":false,"uuid":"05519058-d2ac-4f28-9e4a-2b2a1386749e","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"telegram-channel-vlessconfig.sohala.uk","ws-opts":{"path":"/telegram-channel-vlessconfig-ws","headers":{"host":"telegram-channel-vlessconfig.sohala.uk"}}}
@@ -399,9 +396,6 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇦🇲AM | 🔴 | vless | @XsV2ray | 0'
-      - '🇮🇷IR | 🔴 | vless | @XsV2ray | 1'
-      - '❔XX | 🔴 | vless | @XsV2ray | 4'
       - '🇮🇪IE | 🔴 | vless | @VlessConfig | 0'
       - '🇮🇪IE | 🔴 | vless | @VlessConfig | 1'
       - '🇬🇧GB | 🔴 | vless | @VlessConfig | 2'
@@ -678,9 +672,6 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇦🇲AM | 🔴 | vless | @XsV2ray | 0'
-      - '🇮🇷IR | 🔴 | vless | @XsV2ray | 1'
-      - '❔XX | 🔴 | vless | @XsV2ray | 4'
       - '🇮🇪IE | 🔴 | vless | @VlessConfig | 0'
       - '🇮🇪IE | 🔴 | vless | @VlessConfig | 1'
       - '🇬🇧GB | 🔴 | vless | @VlessConfig | 2'
@@ -956,9 +947,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇦🇲AM | 🔴 | vless | @XsV2ray | 0'
-      - '🇮🇷IR | 🔴 | vless | @XsV2ray | 1'
-      - '❔XX | 🔴 | vless | @XsV2ray | 4'
       - '🇮🇪IE | 🔴 | vless | @VlessConfig | 0'
       - '🇮🇪IE | 🔴 | vless | @VlessConfig | 1'
       - '🇬🇧GB | 🔴 | vless | @VlessConfig | 2'
