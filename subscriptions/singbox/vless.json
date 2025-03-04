@@ -182,7 +182,6 @@
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 12",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 14",
-                "🇨🇦CA | 🔴 | vless | @ARv2ray | 16",
                 "🇩🇪DE | 🔴 | vless | @Lockey_vpn | 0",
                 "🚩CF | 🔴 | vless | @Lockey_vpn | 1",
                 "🚩CF | 🔴 | vless | @Lockey_vpn | 2",
@@ -253,7 +252,7 @@
                 "❔XX | 🔴 | vless | @prrofile_purple | 124",
                 "🚩CF | 🔴 | vless | @prrofile_purple | 125",
                 "🇩🇪DE | 🔴 | vless | @prrofile_purple | 126",
-                "🇨🇦CA | 🔴 | vless | @prrofile_purple | 127",
+                "🇺🇸US | 🔴 | vless | @prrofile_purple | 127",
                 "❔XX | 🔴 | vless | @prrofile_purple | 128",
                 "🇮🇪IE | 🟢 | vless | @prrofile_purple | 129",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 130",
@@ -567,7 +566,6 @@
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 12",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 14",
-                "🇨🇦CA | 🔴 | vless | @ARv2ray | 16",
                 "🇩🇪DE | 🔴 | vless | @Lockey_vpn | 0",
                 "🚩CF | 🔴 | vless | @Lockey_vpn | 1",
                 "🚩CF | 🔴 | vless | @Lockey_vpn | 2",
@@ -638,7 +636,7 @@
                 "❔XX | 🔴 | vless | @prrofile_purple | 124",
                 "🚩CF | 🔴 | vless | @prrofile_purple | 125",
                 "🇩🇪DE | 🔴 | vless | @prrofile_purple | 126",
-                "🇨🇦CA | 🔴 | vless | @prrofile_purple | 127",
+                "🇺🇸US | 🔴 | vless | @prrofile_purple | 127",
                 "❔XX | 🔴 | vless | @prrofile_purple | 128",
                 "🇮🇪IE | 🟢 | vless | @prrofile_purple | 129",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 130",
@@ -2845,27 +2843,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @ARv2ray | 16",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "telegram-ArV2ray",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry",
-                "headers": {
-                    "Host": "www.speedtest.net"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪DE | 🔴 | vless | @Lockey_vpn | 0",
             "type": "vless",
             "server": "alfred.dnss-mobile.ir",
@@ -4477,7 +4454,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @prrofile_purple | 127",
+            "tag": "🇺🇸US | 🔴 | vless | @prrofile_purple | 127",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
