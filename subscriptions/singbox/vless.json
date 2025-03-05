@@ -168,8 +168,6 @@
                 "🇺🇸US | 🔴 | vless | @V2pedia | 6",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 7",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 8",
-                "🚩CF | 🔴 | vless | @V2pedia | 9",
-                "🇺🇸US | 🔴 | vless | @V2pedia | 10",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 0",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 1",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 2",
@@ -369,10 +367,11 @@
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 1",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 2",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 3",
-                "❔XX | 🔴 | vless | @VmessProtocol | 1",
-                "🇦🇪AE | 🔴 | vless | @VmessProtocol | 2",
-                "🇩🇪DE | 🟢 | vless | @VmessProtocol | 7",
-                "❔XX | 🔴 | vless | @VmessProtocol | 11",
+                "🇦🇪AE | 🔴 | vless | @VmessProtocol | 0",
+                "❔XX | 🔴 | vless | @VmessProtocol | 2",
+                "🇦🇪AE | 🔴 | vless | @VmessProtocol | 3",
+                "🇩🇪DE | 🟢 | vless | @VmessProtocol | 8",
+                "❔XX | 🔴 | vless | @VmessProtocol | 12",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 317",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 318",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 319",
@@ -553,8 +552,6 @@
                 "🇺🇸US | 🔴 | vless | @V2pedia | 6",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 7",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 8",
-                "🚩CF | 🔴 | vless | @V2pedia | 9",
-                "🇺🇸US | 🔴 | vless | @V2pedia | 10",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 0",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 1",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 2",
@@ -754,10 +751,11 @@
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 1",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 2",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 3",
-                "❔XX | 🔴 | vless | @VmessProtocol | 1",
-                "🇦🇪AE | 🔴 | vless | @VmessProtocol | 2",
-                "🇩🇪DE | 🟢 | vless | @VmessProtocol | 7",
-                "❔XX | 🔴 | vless | @VmessProtocol | 11",
+                "🇦🇪AE | 🔴 | vless | @VmessProtocol | 0",
+                "❔XX | 🔴 | vless | @VmessProtocol | 2",
+                "🇦🇪AE | 🔴 | vless | @VmessProtocol | 3",
+                "🇩🇪DE | 🟢 | vless | @VmessProtocol | 8",
+                "❔XX | 🔴 | vless | @VmessProtocol | 12",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 317",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 318",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 319",
@@ -2525,68 +2523,6 @@
             "transport": {
                 "type": "ws",
                 "path": "\/@ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON@ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON",
-                "headers": {
-                    "Host": "zmaoz.faculty.ucdavis.edu"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🔴 | vless | @V2pedia | 9",
-            "type": "vless",
-            "server": "173.245.59.132",
-            "server_port": 2053,
-            "uuid": "3d6ca650-df5c-43fd-bd69-01a335e1376a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "de.gt-ov.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "de.gt-ov.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @V2pedia | 10",
-            "type": "vless",
-            "server": "zmaoz.faculty.ucdavis.edu",
-            "server_port": 443,
-            "uuid": "ZEDMODEON--ZEDMODEON",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "zmaoz.faculty.ucdavis.edu",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON@ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON",
                 "headers": {
                     "Host": "zmaoz.faculty.ucdavis.edu"
                 }
@@ -7460,7 +7396,21 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @VmessProtocol | 1",
+            "tag": "🇦🇪AE | 🔴 | vless | @VmessProtocol | 0",
+            "type": "vless",
+            "server": "uaev4-vip.digitalldns.com",
+            "server_port": 9314,
+            "uuid": "a77f4f69f0444896bacb302bbe3116d5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @VmessProtocol | 2",
             "type": "vless",
             "server": "amv4-basic.gilandashog.com",
             "server_port": 8346,
@@ -7474,7 +7424,7 @@
             }
         },
         {
-            "tag": "🇦🇪AE | 🔴 | vless | @VmessProtocol | 2",
+            "tag": "🇦🇪AE | 🔴 | vless | @VmessProtocol | 3",
             "type": "vless",
             "server": "uaev4-vip.digitalldns.com",
             "server_port": 9314,
@@ -7488,7 +7438,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @VmessProtocol | 7",
+            "tag": "🇩🇪DE | 🟢 | vless | @VmessProtocol | 8",
             "type": "vless",
             "server": "91.107.139.138",
             "server_port": 443,
@@ -7512,7 +7462,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @VmessProtocol | 11",
+            "tag": "❔XX | 🔴 | vless | @VmessProtocol | 12",
             "type": "vless",
             "server": "sev4-basic.gilandashog.com",
             "server_port": 2083,
