@@ -133,12 +133,8 @@
                 "❔XX | 🔴 | vless | @prrofile_purple | 144",
                 "🇺🇸US | 🟢 | vless | @vless_vmess | 3",
                 "🇩🇪DE | 🔴 | vless | @MTConfig | 4",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 313",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 314",
-                "🇮🇪IE | 🟢 | vless | @DailyV2RY | 325",
-                "🇮🇪IE | 🟢 | vless | @DailyV2RY | 326",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 328",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 329",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 332",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 333",
                 "❔XX | 🟢 | vless | @free1_vpn | 10",
                 "❔XX | 🔴 | vless | @flyv2ray | 2",
                 "❔XX | 🔴 | vless | @flyv2ray | 5",
@@ -199,12 +195,8 @@
                 "❔XX | 🔴 | vless | @prrofile_purple | 144",
                 "🇺🇸US | 🟢 | vless | @vless_vmess | 3",
                 "🇩🇪DE | 🔴 | vless | @MTConfig | 4",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 313",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 314",
-                "🇮🇪IE | 🟢 | vless | @DailyV2RY | 325",
-                "🇮🇪IE | 🟢 | vless | @DailyV2RY | 326",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 328",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 329",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 332",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 333",
                 "❔XX | 🟢 | vless | @free1_vpn | 10",
                 "❔XX | 🔴 | vless | @flyv2ray | 2",
                 "❔XX | 🔴 | vless | @flyv2ray | 5",
@@ -1170,7 +1162,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 313",
+            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 332",
             "type": "vless",
             "server": "54.203.205.238",
             "server_port": 8443,
@@ -1199,125 +1191,9 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 314",
+            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 333",
             "type": "vless",
             "server": "34.217.193.92",
-            "server_port": 8443,
-            "uuid": "73c732f2-d435-4197-9f33-0d7c1f47d3a9",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "zula.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇮🇪IE | 🟢 | vless | @DailyV2RY | 325",
-            "type": "vless",
-            "server": "52.212.2.80",
-            "server_port": 8443,
-            "uuid": "b285432e-8677-40e3-a86a-ca167cd9d5bd",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "zula.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇮🇪IE | 🟢 | vless | @DailyV2RY | 326",
-            "type": "vless",
-            "server": "34.246.198.94",
-            "server_port": 8443,
-            "uuid": "b285432e-8677-40e3-a86a-ca167cd9d5bd",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "zula.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 328",
-            "type": "vless",
-            "server": "54.212.102.161",
-            "server_port": 8443,
-            "uuid": "73c732f2-d435-4197-9f33-0d7c1f47d3a9",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "zula.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 329",
-            "type": "vless",
-            "server": "52.39.208.253",
             "server_port": 8443,
             "uuid": "73c732f2-d435-4197-9f33-0d7c1f47d3a9",
             "flow": "xtls-rprx-vision",
