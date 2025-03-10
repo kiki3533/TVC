@@ -106,9 +106,9 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇻🇳VN | 🟢 | ss | @DeamNet_Proxy | 0",
-                "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 5",
-                "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 16",
+                "🇻🇳VN | 🟢 | ss | @DeamNet_Proxy | 3",
+                "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 8",
+                "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 19",
                 "🇧🇭BH | 🟢 | ss | @kingofilter | 2",
                 "🇧🇭BH | 🟢 | ss | @kingofilter | 4",
                 "🇺🇸US | 🟢 | ss | @kingofilter | 5"
@@ -118,9 +118,9 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇻🇳VN | 🟢 | ss | @DeamNet_Proxy | 0",
-                "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 5",
-                "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 16",
+                "🇻🇳VN | 🟢 | ss | @DeamNet_Proxy | 3",
+                "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 8",
+                "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 19",
                 "🇧🇭BH | 🟢 | ss | @kingofilter | 2",
                 "🇧🇭BH | 🟢 | ss | @kingofilter | 4",
                 "🇺🇸US | 🟢 | ss | @kingofilter | 5"
@@ -146,7 +146,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇻🇳VN | 🟢 | ss | @DeamNet_Proxy | 0",
+            "tag": "🇻🇳VN | 🟢 | ss | @DeamNet_Proxy | 3",
             "type": "shadowsocks",
             "server": "160.19.78.75",
             "server_port": 443,
@@ -156,7 +156,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 5",
+            "tag": "🇬🇧GB | 🟢 | ss | @DeamNet_Proxy | 8",
             "type": "shadowsocks",
             "server": "admin.c1.webramz.co",
             "server_port": 443,
@@ -166,7 +166,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 16",
+            "tag": "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 19",
             "type": "shadowsocks",
             "server": "45.87.175.192",
             "server_port": 8080,
