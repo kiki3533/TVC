@@ -161,9 +161,10 @@
                 "❔XX | 🟢 | vless | @FreakConfig | 15",
                 "❔XX | 🔴 | vless | @flyv2ray | 13",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 14",
+                "❔XX | 🟢 | vless | @nofiltering2 | 9",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
-                "🇺🇸US | 🔴 | vless | @kingofilter | 9",
+                "❔XX | 🔴 | vless | @kingofilter | 9",
                 "🇺🇸US | 🔴 | vless | @SvnTeam | 11",
                 "🇩🇪DE | 🔴 | vless | @SvnTeam | 12",
                 "🇷🇺RU | 🔴 | vless | @V2FETCH | 0",
@@ -230,9 +231,10 @@
                 "❔XX | 🟢 | vless | @FreakConfig | 15",
                 "❔XX | 🔴 | vless | @flyv2ray | 13",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 14",
+                "❔XX | 🟢 | vless | @nofiltering2 | 9",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
-                "🇺🇸US | 🔴 | vless | @kingofilter | 9",
+                "❔XX | 🔴 | vless | @kingofilter | 9",
                 "🇺🇸US | 🔴 | vless | @SvnTeam | 11",
                 "🇩🇪DE | 🔴 | vless | @SvnTeam | 12",
                 "🇷🇺RU | 🔴 | vless | @V2FETCH | 0",
@@ -1633,6 +1635,30 @@
             }
         },
         {
+            "tag": "❔XX | 🟢 | vless | @nofiltering2 | 9",
+            "type": "vless",
+            "server": "FreakconfigS31.usecharge.ir",
+            "server_port": 443,
+            "uuid": "9e55e24c-8de9-4357-8a37-9cf1212c6491",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mods.lnmarketplace.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "❔XX | 🔴 | vless | @vpn_go67 | 20",
             "type": "vless",
             "server": "public.alpanel.top",
@@ -1705,7 +1731,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @kingofilter | 9",
+            "tag": "❔XX | 🔴 | vless | @kingofilter | 9",
             "type": "vless",
             "server": "172.67.73.163",
             "server_port": 80,
