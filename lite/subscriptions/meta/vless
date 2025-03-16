@@ -148,7 +148,6 @@ proxies:
   - {"name":"❔XX | 🔴 | vless | @MTConfig | 12","type":"vless","server":"1.windscribe.cam","port":2087,"udp":false,"uuid":"6e643b53-f30a-443d-a069-c5826f365403","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"sni2.tohid3aeed.com","ws-opts":{"path":"/","headers":{"host":"sni2.tohid3aeed.com"}}}
   - {"name":"🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 2","type":"vless","server":"hajlab.ucdavis.edu","port":443,"udp":false,"uuid":"0295517a-ad9f-4b35-a811-2adec4133482","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"hajlab.ucdavis.edu","ws-opts":{"path":"/","headers":{"host":"wWw.SpEeDtEsT.NeT.ZuLa.aIr.IkCoSaLeS.iR.D662599.v02.feadlenetworkv2sa.net"}}}
   - {"name":"🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 3","type":"vless","server":"hajlab.ucdavis.edu","port":443,"udp":false,"uuid":"0295517a-ad9f-4b35-a811-2adec4133482","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"hajlab.ucdavis.edu","ws-opts":{"path":"/","headers":{"host":"wWw.SpEeDtEsT.NeT.ZuLa.aIr.IkCoSaLeS.iR.D662599.v01.feadlenetworkv2sa.net"}}}
-  - {"name":"🇩🇪DE | 🔴 | vless | @V2RayTz | 0","type":"vless","server":"54.37.78.215","port":43305,"udp":false,"uuid":"536d45be-c91a-4095-8e14-5f86895f3723","tls":true,"network":"grpc","client-fingerprint":"chrome","grpc-opts":{"grpc-service-name":"ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON?ed=2048"}}
   - {"name":"❔XX | 🔴 | vless | @VmessProtocol | 8","type":"vless","server":"amv4-basic.gilandashog.com","port":8346,"udp":false,"uuid":"3614b1bf-e60c-440a-a363-b87bc055575e","tls":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇺🇸US | 🔴 | vless | @DailyV2RY | 323","type":"vless","server":"chloe.ns.cloudflare.com","port":443,"udp":false,"uuid":"33ea3ab3-39a2-4f32-8371-2743ef63ae76","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"t8udhn.fivegravity.com","ws-opts":{"path":"/wss","headers":{"host":"t8udhn.fivegravity.com"}}}
   - {"name":"🇺🇸US | 🔴 | vless | @DailyV2RY | 324","type":"vless","server":"angelina.ns.cloudflare.com","port":443,"udp":false,"uuid":"11feb93a-cfc0-48cd-84ef-d9e4701b8a5d","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"m3rl21.ulavpnx1.work","ws-opts":{"path":"/wss","headers":{"host":"m3rl21.ulavpnx1.work"}}}
@@ -200,7 +199,6 @@ proxy-groups:
       - '❔XX | 🔴 | vless | @MTConfig | 12'
       - '🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 2'
       - '🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 3'
-      - '🇩🇪DE | 🔴 | vless | @V2RayTz | 0'
       - '❔XX | 🔴 | vless | @VmessProtocol | 8'
       - '🇺🇸US | 🔴 | vless | @DailyV2RY | 323'
       - '🇺🇸US | 🔴 | vless | @DailyV2RY | 324'
@@ -252,7 +250,6 @@ proxy-groups:
       - '❔XX | 🔴 | vless | @MTConfig | 12'
       - '🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 2'
       - '🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 3'
-      - '🇩🇪DE | 🔴 | vless | @V2RayTz | 0'
       - '❔XX | 🔴 | vless | @VmessProtocol | 8'
       - '🇺🇸US | 🔴 | vless | @DailyV2RY | 323'
       - '🇺🇸US | 🔴 | vless | @DailyV2RY | 324'
@@ -303,7 +300,6 @@ proxy-groups:
       - '❔XX | 🔴 | vless | @MTConfig | 12'
       - '🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 2'
       - '🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 3'
-      - '🇩🇪DE | 🔴 | vless | @V2RayTz | 0'
       - '❔XX | 🔴 | vless | @VmessProtocol | 8'
       - '🇺🇸US | 🔴 | vless | @DailyV2RY | 323'
       - '🇺🇸US | 🔴 | vless | @DailyV2RY | 324'
