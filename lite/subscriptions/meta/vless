@@ -154,8 +154,8 @@ proxies:
   - {"name":"🇺🇸US | 🔴 | vless | @DailyV2RY | 343","type":"vless","server":"angelina.ns.cloudflare.com","port":443,"udp":false,"uuid":"10525b84-7f6e-43ef-912b-87434df813f4","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"news5.testsnew.com","ws-opts":{"path":"/wss","headers":{"host":"news5.testsnew.com"}}}
   - {"name":"🇺🇸US | 🔴 | vless | @free1_vpn | 3","type":"vless","server":"151.101.64.155","port":80,"udp":false,"uuid":"d40d85de-1131-4c4f-b6c0-4e0b67efac1a","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/telegram-ipv2ry-telegram-ipv2ry-telegram-ipv2ry?ed=2048","headers":{"host":"1.wexer-rih.ir"}}}
   - {"name":"🇩🇪DE | 🔴 | vless | @fnet00 | 3","type":"vless","server":"46.101.139.137","port":8443,"udp":false,"uuid":"95ae7fd5-51cd-4fee-8123-faf46a717486","tls":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5","type":"vless","server":"104.21.56.44","port":80,"udp":false,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/telegram@V2ray_Alpha/?ed=2048","headers":{"host":"redw.pooriam.ir"}}}
   - {"name":"🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6","type":"vless","server":"104.17.148.22","port":80,"udp":false,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/LwW5jwrnymnOdqki?ed=2560","headers":{"host":"redw.pooriam.ir"}}}
-  - {"name":"🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7","type":"vless","server":"151.101.64.155","port":80,"udp":false,"uuid":"bff845b0-1b62-460c-bd15-04ccf11f8f0c","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/telegram-ipv2ry-telegram-ipv2ry-telegram-ipv2ry?ed=2048","headers":{"host":"1.wexer-rih.ir"}}}
   - {"name":"❔XX | 🟢 | vless | @FreakConfig | 16","type":"vless","server":"FreakconfigS32.usecharge.ir","port":443,"udp":false,"uuid":"9e55e24c-8de9-4357-8a37-9cf1212c6491","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"mods.lnmarketplace.net","flow":"xtls-rprx-vision"}
   - {"name":"❔XX | 🟢 | vless | @FreakConfig | 17","type":"vless","server":"FreakconfigS31.usecharge.ir","port":443,"udp":false,"uuid":"9e55e24c-8de9-4357-8a37-9cf1212c6491","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"mods.lnmarketplace.net","flow":"xtls-rprx-vision"}
   - {"name":"🇺🇸US | 🔴 | vless | @flyv2ray | 10","type":"vless","server":"151.101.64.155","port":80,"udp":false,"uuid":"55f5accf-0aef-427f-a819-e59b4c79293a","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/telegram-ipv2ry-telegram-ipv2ry-telegram-ipv2ry?ed=2048","headers":{"host":"2.wexer-rih.ir"}}}
@@ -203,8 +203,8 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @DailyV2RY | 343'
       - '🇺🇸US | 🔴 | vless | @free1_vpn | 3'
       - '🇩🇪DE | 🔴 | vless | @fnet00 | 3'
+      - '🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5'
       - '🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6'
-      - '🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7'
       - '❔XX | 🟢 | vless | @FreakConfig | 16'
       - '❔XX | 🟢 | vless | @FreakConfig | 17'
       - '🇺🇸US | 🔴 | vless | @flyv2ray | 10'
@@ -252,8 +252,8 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @DailyV2RY | 343'
       - '🇺🇸US | 🔴 | vless | @free1_vpn | 3'
       - '🇩🇪DE | 🔴 | vless | @fnet00 | 3'
+      - '🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5'
       - '🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6'
-      - '🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7'
       - '❔XX | 🟢 | vless | @FreakConfig | 16'
       - '❔XX | 🟢 | vless | @FreakConfig | 17'
       - '🇺🇸US | 🔴 | vless | @flyv2ray | 10'
@@ -300,8 +300,8 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @DailyV2RY | 343'
       - '🇺🇸US | 🔴 | vless | @free1_vpn | 3'
       - '🇩🇪DE | 🔴 | vless | @fnet00 | 3'
+      - '🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5'
       - '🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6'
-      - '🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7'
       - '❔XX | 🟢 | vless | @FreakConfig | 16'
       - '❔XX | 🟢 | vless | @FreakConfig | 17'
       - '🇺🇸US | 🔴 | vless | @flyv2ray | 10'
