@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇺🇸US | 🔴 | vless | @Parsashonam | 21",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 22",
-                "🇮🇷IR | 🔴 | vless | @v2_team | 2",
+                "🇨🇦CA | 🔴 | vless | @v2_team | 0",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 9",
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
                 "🇮🇪IE | 🔴 | vless | @VlessConfig | 15",
@@ -143,7 +143,7 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 2",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 3",
-                "🇯🇵JP | 🔴 | vless | @v2ray1_ng | 3",
+                "🇯🇵JP | 🔴 | vless | @v2ray1_ng | 4",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 11",
@@ -174,7 +174,7 @@
             "outbounds": [
                 "🇺🇸US | 🔴 | vless | @Parsashonam | 21",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 22",
-                "🇮🇷IR | 🔴 | vless | @v2_team | 2",
+                "🇨🇦CA | 🔴 | vless | @v2_team | 0",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 9",
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
                 "🇮🇪IE | 🔴 | vless | @VlessConfig | 15",
@@ -209,7 +209,7 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 2",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 3",
-                "🇯🇵JP | 🔴 | vless | @v2ray1_ng | 3",
+                "🇯🇵JP | 🔴 | vless | @v2ray1_ng | 4",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 11",
@@ -289,17 +289,24 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @v2_team | 2",
+            "tag": "🇨🇦CA | 🔴 | vless | @v2_team | 0",
             "type": "vless",
-            "server": "84.47.235.218",
-            "server_port": 33585,
-            "uuid": "3d044bd1-2de9-4bc2-b1d1-f55102fdf1f5",
+            "server": "172.67.73.163",
+            "server_port": 80,
+            "uuid": "5e798089-dd7b-4068-8141-a77adb5e7aed",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/hajmi?ed=2050",
+                "headers": {
+                    "Host": "172.67.73.163"
+                }
             }
         },
         {
@@ -1093,7 +1100,7 @@
             }
         },
         {
-            "tag": "🇯🇵JP | 🔴 | vless | @v2ray1_ng | 3",
+            "tag": "🇯🇵JP | 🔴 | vless | @v2ray1_ng | 4",
             "type": "vless",
             "server": "156.238.18.246",
             "server_port": 2095,
