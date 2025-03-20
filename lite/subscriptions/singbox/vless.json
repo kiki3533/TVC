@@ -110,8 +110,8 @@
                 "🇮🇷IR | 🔴 | vless | @v2_team | 2",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 9",
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
-                "🇩🇪DE | 🔴 | vless | @VlessConfig | 16",
-                "🇩🇪DE | 🔴 | vless | @VlessConfig | 17",
+                "🇫🇷FR | 🔴 | vless | @VlessConfig | 16",
+                "🇫🇷FR | 🔴 | vless | @VlessConfig | 17",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 15",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 16",
                 "🇩🇪DE | 🔴 | vless | @V2pedia | 5",
@@ -146,8 +146,7 @@
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 11",
                 "❔XX | 🔴 | vless | @MTConfig | 12",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 288",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 289",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 285",
                 "🇺🇸US | 🟢 | vless | @free1_vpn | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 6",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 16",
@@ -174,8 +173,8 @@
                 "🇮🇷IR | 🔴 | vless | @v2_team | 2",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 9",
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
-                "🇩🇪DE | 🔴 | vless | @VlessConfig | 16",
-                "🇩🇪DE | 🔴 | vless | @VlessConfig | 17",
+                "🇫🇷FR | 🔴 | vless | @VlessConfig | 16",
+                "🇫🇷FR | 🔴 | vless | @VlessConfig | 17",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 15",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 16",
                 "🇩🇪DE | 🔴 | vless | @V2pedia | 5",
@@ -210,8 +209,7 @@
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 11",
                 "❔XX | 🔴 | vless | @MTConfig | 12",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 288",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 289",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 285",
                 "🇺🇸US | 🟢 | vless | @free1_vpn | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 6",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 16",
@@ -323,9 +321,9 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @VlessConfig | 16",
+            "tag": "🇫🇷FR | 🔴 | vless | @VlessConfig | 16",
             "type": "vless",
-            "server": "3.124.167.224",
+            "server": "13.39.73.218",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -354,9 +352,9 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @VlessConfig | 17",
+            "tag": "🇫🇷FR | 🔴 | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "3.123.248.249",
+            "server": "13.37.179.12",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1189,7 +1187,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 288",
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 285",
             "type": "vless",
             "server": "soccer120.info",
             "server_port": 2087,
@@ -1203,7 +1201,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "Tp288LwQc2.RaMaZaN2.iNfO",
+                "server_name": "Tp288ItMkD.rAmAzAn2.InFo",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1215,28 +1213,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "Tp288LwQc2.RaMaZaN2.iNfO"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 289",
-            "type": "vless",
-            "server": "tgju.org",
-            "server_port": 80,
-            "uuid": "09e32340-e1ff-49a5-a63a-3ef05746e2bb",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "tgju.org"
+                    "Host": "Tp288ItMkD.rAmAzAn2.InFo"
                 }
             }
         },
