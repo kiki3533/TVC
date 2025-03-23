@@ -115,7 +115,7 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "❔XX | 🟢 | vmess | @Hope_Net | 3",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 4"
+                "❔XX | 🟢 | vmess | @Hope_Net | 4"
             ]
         },
         {
@@ -131,7 +131,7 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "❔XX | 🟢 | vmess | @Hope_Net | 3",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 4"
+                "❔XX | 🟢 | vmess | @Hope_Net | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -352,7 +352,7 @@
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 1080,
-            "uuid": "abacabc-caab-abac-acbd-bbccbaaacacb",
+            "uuid": "caacabb-caab-abca-cadb-bccababaacbc",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -365,13 +365,13 @@
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 4",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 4",
             "type": "vmess",
-            "server": "13.mamamajd.site",
-            "server_port": 23613,
-            "uuid": "ffa4efea-a32b-398c-8e43-4e11e3dc63dc",
+            "server": "127.0.0.1",
+            "server_port": 1080,
+            "uuid": "abacabc-caab-abac-acbd-bbccbaaacacb",
             "security": "auto",
-            "alter_id": 2,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -379,13 +379,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "13.mamamajd.site"
-                }
             }
         }
     ],
