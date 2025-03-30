@@ -128,8 +128,8 @@
                 "🇩🇪DE | 🟢 | vmess | @DeamNet_Proxy | 16",
                 "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 18",
                 "🚩CF | 🟢 | vmess | @v2ray1_ng | 0",
-                "🇳🇱NL | 🟢 | vmess | @v2ray1_ng | 11",
-                "🇯🇵JP | 🟢 | vmess | @DailyV2RY | 106",
+                "🇸🇬SG | 🟢 | vmess | @DailyV2RY | 107",
+                "🇯🇵JP | 🟢 | vmess | @DailyV2RY | 114",
                 "🇺🇸US | 🟢 | vmess | @proxystore11 | 6",
                 "🇺🇸US | 🟢 | vmess | @proxystore11 | 8",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
@@ -172,8 +172,8 @@
                 "🇩🇪DE | 🟢 | vmess | @DeamNet_Proxy | 16",
                 "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 18",
                 "🚩CF | 🟢 | vmess | @v2ray1_ng | 0",
-                "🇳🇱NL | 🟢 | vmess | @v2ray1_ng | 11",
-                "🇯🇵JP | 🟢 | vmess | @DailyV2RY | 106",
+                "🇸🇬SG | 🟢 | vmess | @DailyV2RY | 107",
+                "🇯🇵JP | 🟢 | vmess | @DailyV2RY | 114",
                 "🇺🇸US | 🟢 | vmess | @proxystore11 | 6",
                 "🇺🇸US | 🟢 | vmess | @proxystore11 | 8",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
@@ -720,11 +720,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vmess | @v2ray1_ng | 11",
+            "tag": "🇸🇬SG | 🟢 | vmess | @DailyV2RY | 107",
             "type": "vmess",
-            "server": "eu-2.hihu.net",
-            "server_port": 80,
-            "uuid": "89e56fb0-052b-11f0-b338-205c6d5f5d78",
+            "server": "62.146.232.157",
+            "server_port": 52856,
+            "uuid": "ed54e388-bfc5-4b36-ae4d-8b3cd460d3d4",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -734,17 +734,10 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/gdly19s7",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
-            "tag": "🇯🇵JP | 🟢 | vmess | @DailyV2RY | 106",
+            "tag": "🇯🇵JP | 🟢 | vmess | @DailyV2RY | 114",
             "type": "vmess",
             "server": "46.250.253.234",
             "server_port": 28872,
