@@ -120,11 +120,11 @@
                 "🇩🇪DE | 🔴 | vless | @V2pedia | 4",
                 "🇵🇱PL | 🔴 | vless | @V2pedia | 5",
                 "🇨🇦CA | 🔴 | vless | @ARv2ray | 18",
-                "🇨🇦CA | 🔴 | vless | @ARv2ray | 19",
+                "🇺🇸US | 🔴 | vless | @ARv2ray | 19",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 6",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 7",
-                "🇨🇦CA | 🔴 | vless | @lightning6 | 14",
-                "🇨🇦CA | 🔴 | vless | @lightning6 | 15",
+                "🇺🇸US | 🔴 | vless | @lightning6 | 14",
+                "🇺🇸US | 🔴 | vless | @lightning6 | 15",
                 "🇺🇸US | 🔴 | vless | @vpn_xw | 0",
                 "🇩🇪DE | 🟢 | vmess | @CUSTOMVPNSERVER | 15",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 6",
@@ -161,6 +161,7 @@
                 "❔XX | 🔴 | vless | @proxystore11 | 9",
                 "🇭🇰HK | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+                "🇺🇸US | 🔴 | vless | @free1_vpn | 7",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 8",
                 "❔XX | 🟢 | vmess | @Hope_Net | 5",
                 "❔XX | 🟢 | vmess | @Hope_Net | 6",
@@ -202,11 +203,11 @@
                 "🇩🇪DE | 🔴 | vless | @V2pedia | 4",
                 "🇵🇱PL | 🔴 | vless | @V2pedia | 5",
                 "🇨🇦CA | 🔴 | vless | @ARv2ray | 18",
-                "🇨🇦CA | 🔴 | vless | @ARv2ray | 19",
+                "🇺🇸US | 🔴 | vless | @ARv2ray | 19",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 6",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 7",
-                "🇨🇦CA | 🔴 | vless | @lightning6 | 14",
-                "🇨🇦CA | 🔴 | vless | @lightning6 | 15",
+                "🇺🇸US | 🔴 | vless | @lightning6 | 14",
+                "🇺🇸US | 🔴 | vless | @lightning6 | 15",
                 "🇺🇸US | 🔴 | vless | @vpn_xw | 0",
                 "🇩🇪DE | 🟢 | vmess | @CUSTOMVPNSERVER | 15",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 6",
@@ -243,6 +244,7 @@
                 "❔XX | 🔴 | vless | @proxystore11 | 9",
                 "🇭🇰HK | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+                "🇺🇸US | 🔴 | vless | @free1_vpn | 7",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 8",
                 "❔XX | 🟢 | vmess | @Hope_Net | 5",
                 "❔XX | 🟢 | vmess | @Hope_Net | 6",
@@ -621,7 +623,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @ARv2ray | 19",
+            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 19",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -684,11 +686,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @lightning6 | 14",
+            "tag": "🇺🇸US | 🔴 | vless | @lightning6 | 14",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
-            "uuid": "260206d4-2971-4d4e-83cf-1e29ba39a639",
+            "uuid": "5f2aea8a-d8f1-4a30-963a-88f9b759d2b3",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -705,11 +707,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @lightning6 | 15",
+            "tag": "🇺🇸US | 🔴 | vless | @lightning6 | 15",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
-            "uuid": "8fec37fd-2fdf-4379-be6c-53508d936dce",
+            "uuid": "260206d4-2971-4d4e-83cf-1e29ba39a639",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1613,6 +1615,27 @@
                 "path": "\/66",
                 "headers": {
                     "Host": "104.26.8.210"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @free1_vpn | 7",
+            "type": "vless",
+            "server": "151.101.64.155",
+            "server_port": 80,
+            "uuid": "07a227b7-745e-4b4b-b653-7c05466e662f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-ipv2ry-telegram-ipv2ry-telegram-ipv2ry",
+                "headers": {
+                    "Host": "151.101.64.155"
                 }
             }
         },
