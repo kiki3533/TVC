@@ -112,7 +112,7 @@
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
                 "🇮🇪IE | 🔴 | vless | @VlessConfig | 13",
                 "🇮🇪IE | 🔴 | vless | @VlessConfig | 14",
-                "🇺🇸US | 🔴 | vless | @ipV2Ray | 8",
+                "🇨🇦CA | 🔴 | vless | @ipV2Ray | 8",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 9",
                 "🇦🇹AT | 🔴 | vless | @V2pedia | 6",
                 "🇩🇪DE | 🔴 | vless | @V2pedia | 7",
@@ -169,7 +169,7 @@
                 "🇩🇪DE | 🔴 | vless | @FreakConfig | 9",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 15",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 16",
-                "🇩🇪DE | 🔴 | vless | @proxy_mtm | 8",
+                "🇩🇪DE | 🔴 | vless | @proxy_mtm | 16",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇷🇸RS | 🔴 | vless | @kingofilter | 20",
@@ -191,7 +191,7 @@
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
                 "🇮🇪IE | 🔴 | vless | @VlessConfig | 13",
                 "🇮🇪IE | 🔴 | vless | @VlessConfig | 14",
-                "🇺🇸US | 🔴 | vless | @ipV2Ray | 8",
+                "🇨🇦CA | 🔴 | vless | @ipV2Ray | 8",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 9",
                 "🇦🇹AT | 🔴 | vless | @V2pedia | 6",
                 "🇩🇪DE | 🔴 | vless | @V2pedia | 7",
@@ -248,7 +248,7 @@
                 "🇩🇪DE | 🔴 | vless | @FreakConfig | 9",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 15",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 16",
-                "🇩🇪DE | 🔴 | vless | @proxy_mtm | 8",
+                "🇩🇪DE | 🔴 | vless | @proxy_mtm | 16",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇷🇸RS | 🔴 | vless | @kingofilter | 20",
@@ -422,7 +422,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ipV2Ray | 8",
+            "tag": "🇨🇦CA | 🔴 | vless | @ipV2Ray | 8",
             "type": "vless",
             "server": "104.19.54.50",
             "server_port": 8080,
@@ -604,7 +604,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
-            "uuid": "662a06cb-ad54-41ed-84c7-f9d8ce30c4c8",
+            "uuid": "ee5731e4-0b62-499e-890d-ab1945f301ba",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -625,7 +625,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
-            "uuid": "dfed86e8-cdca-4cef-8c11-f03af7989465",
+            "uuid": "662a06cb-ad54-41ed-84c7-f9d8ce30c4c8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1803,7 +1803,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @proxy_mtm | 8",
+            "tag": "🇩🇪DE | 🔴 | vless | @proxy_mtm | 16",
             "type": "vless",
             "server": "mehdi24.vact.ir",
             "server_port": 443,
