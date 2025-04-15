@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 2",
+                "🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 4",
                 "🇬🇧GB | 🟢 | ss | @kingofilter | 0",
                 "🇭🇺HU | 🟢 | ss | @kingofilter | 15",
                 "🇬🇧GB | 🟢 | ss | @kingofilter | 23",
@@ -117,7 +117,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 2",
+                "🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 4",
                 "🇬🇧GB | 🟢 | ss | @kingofilter | 0",
                 "🇭🇺HU | 🟢 | ss | @kingofilter | 15",
                 "🇬🇧GB | 🟢 | ss | @kingofilter | 23",
@@ -144,7 +144,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 2",
+            "tag": "🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 4",
             "type": "shadowsocks",
             "server": "166.1.157.228",
             "server_port": 55330,
