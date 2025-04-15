@@ -135,7 +135,6 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 344",
                 "❔XX | 🔴 | vless | @proxystore11 | 3",
                 "🇩🇪DE | 🟢 | vless | @FreakConfig | 3",
-                "🇨🇭CH | 🟢 | vless | @FreakConfig | 4",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
                 "❔XX | 🔴 | vless | @vpn_go67 | 9",
@@ -195,7 +194,6 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 344",
                 "❔XX | 🔴 | vless | @proxystore11 | 3",
                 "🇩🇪DE | 🟢 | vless | @FreakConfig | 3",
-                "🇨🇭CH | 🟢 | vless | @FreakConfig | 4",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
                 "❔XX | 🔴 | vless | @vpn_go67 | 9",
@@ -1142,35 +1140,6 @@
                     "enabled": true,
                     "public_key": "3Yzz5Unz5elPLlaQkzgBxirSUbvIRbg9XlJ1Vruc4RI",
                     "short_id": "8819"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇭CH | 🟢 | vless | @FreakConfig | 4",
-            "type": "vless",
-            "server": "37.156.45.88",
-            "server_port": 80,
-            "uuid": "81447221-6548-60a1-a9d9-aac48e8c410b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "DZzAtolzThTEwEjUnyLN5lzhvzMtKPOAvPA8K8luAhE",
-                    "short_id": "7d2e829be0"
                 }
             }
         },
