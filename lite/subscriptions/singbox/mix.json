@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇺🇸US | 🔴 | vless | @Parsashonam | 30",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 31",
-                "🇺🇸US | 🔴 | vless | @v2_team | 0",
+                "🇨🇦CA | 🔴 | vless | @v2_team | 0",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 9",
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 7",
@@ -137,6 +137,7 @@
                 "🇸🇪SE | 🟢 | trojan | @DirectVPN | 19",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
+                "🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 17",
                 "🇨🇦CA | 🔴 | vless | @Outline_Vpn | 15",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 16",
                 "❔XX | 🔴 | vless | @prrofile_purple | 150",
@@ -188,7 +189,7 @@
             "outbounds": [
                 "🇺🇸US | 🔴 | vless | @Parsashonam | 30",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 31",
-                "🇺🇸US | 🔴 | vless | @v2_team | 0",
+                "🇨🇦CA | 🔴 | vless | @v2_team | 0",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 9",
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 7",
@@ -217,6 +218,7 @@
                 "🇸🇪SE | 🟢 | trojan | @DirectVPN | 19",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
+                "🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 17",
                 "🇨🇦CA | 🔴 | vless | @Outline_Vpn | 15",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 16",
                 "❔XX | 🔴 | vless | @prrofile_purple | 150",
@@ -317,7 +319,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @v2_team | 0",
+            "tag": "🇨🇦CA | 🔴 | vless | @v2_team | 0",
             "type": "vless",
             "server": "172.67.73.163",
             "server_port": 80,
@@ -962,6 +964,16 @@
                 "protocol": "smux",
                 "max_streams": 32
             }
+        },
+        {
+            "tag": "🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 17",
+            "type": "shadowsocks",
+            "server": "mx2.drawnrisha.one",
+            "server_port": 55988,
+            "method": "chacha20-ietf-poly1305",
+            "password": "vWgVt4dL6bwFutKm1D8WrjaAs2AWT535GfVMttHBg7rg6ZBFUAxGpvHc6hXjoBRKsyeyTESc1uU6y3BP3oenkTv9aefi27VN",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇨🇦CA | 🔴 | vless | @Outline_Vpn | 15",
