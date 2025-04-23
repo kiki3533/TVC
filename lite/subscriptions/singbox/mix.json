@@ -158,8 +158,8 @@
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 13",
                 "🇨🇭CH | 🔴 | vless | @VmessProtocol | 14",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 167",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 168",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 181",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 182",
                 "❔XX | 🔴 | vless | @proxystore11 | 9",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
@@ -243,8 +243,8 @@
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 13",
                 "🇨🇭CH | 🔴 | vless | @VmessProtocol | 14",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 167",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 168",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 181",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 182",
                 "❔XX | 🔴 | vless | @proxystore11 | 9",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
@@ -1456,7 +1456,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 167",
+            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 181",
             "type": "vless",
             "server": "whatismyipaddress.com",
             "server_port": 2096,
@@ -1470,7 +1470,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "wwwspeedtestnetwhiteberinsistomd6625996s29.sabzmaghz.ir",
+                "server_name": "wwwspeedtestnetwhiteberinsistomd6625996s32.sabzmaghz.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1482,12 +1482,12 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "wwwspeedtestnetwhiteberinsistomd6625996s29.sabzmaghz.ir"
+                    "Host": "wwwspeedtestnetwhiteberinsistomd6625996s32.sabzmaghz.ir"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 168",
+            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 182",
             "type": "vless",
             "server": "whatismyipaddress.com",
             "server_port": 2096,
@@ -1501,7 +1501,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "wwwspeedtestnetwhiteberinsistomd6625996s30.sabzmaghz.ir",
+                "server_name": "wwwspeedtestnetwhiteberinsistomd6625996s27.sabzmaghz.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1513,7 +1513,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "wwwspeedtestnetwhiteberinsistomd6625996s30.sabzmaghz.ir"
+                    "Host": "wwwspeedtestnetwhiteberinsistomd6625996s27.sabzmaghz.ir"
                 }
             }
         },
