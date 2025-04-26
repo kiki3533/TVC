@@ -1804,7 +1804,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
-            "uuid": "c15c77d7-da87-4fc9-be61-81f6e111ace0",
+            "uuid": "28f66a10-6021-4b12-ac2c-4536193c0896",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1823,9 +1823,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 15",
             "type": "vless",
-            "server": "104.19.54.50",
-            "server_port": 8080,
-            "uuid": "cdf0d55d-e234-41f5-883f-28b9bfbf71a4",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "c15c77d7-da87-4fc9-be61-81f6e111ace0",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1837,7 +1837,7 @@
                 "type": "ws",
                 "path": "\/telegram-ipv2ry-telegram-ipv2ry-telegram-ipv2ry",
                 "headers": {
-                    "Host": "104.19.54.50"
+                    "Host": "www.speedtest.net"
                 }
             }
         },
