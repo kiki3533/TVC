@@ -1500,29 +1500,43 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 379",
             "type": "vless",
-            "server": "44.229.160.202",
+            "server": "tgju.org",
             "server_port": 80,
-            "uuid": "3202d35a-c51c-4055-bcd7-3eb000c13dc3",
+            "uuid": "29cc1dba-ff51-4c99-a07e-29daec222ddc",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "tgju.org"
+                }
             }
         },
         {
             "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 380",
             "type": "vless",
-            "server": "18.246.143.102",
+            "server": "tgju.org",
             "server_port": 80,
-            "uuid": "3202d35a-c51c-4055-bcd7-3eb000c13dc3",
+            "uuid": "234d691b-5291-45bb-836d-12dcfd28029a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "tgju.org"
+                }
             }
         },
         {
