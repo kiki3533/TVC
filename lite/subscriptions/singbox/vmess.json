@@ -112,7 +112,7 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 9",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
                 "🇺🇸US | 🟢 | vmess | @OpenSSTPVpn | 0"
             ]
         },
@@ -126,7 +126,7 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 9",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
                 "🇺🇸US | 🟢 | vmess | @OpenSSTPVpn | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -261,9 +261,9 @@
         {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
             "type": "vmess",
-            "server": "174.136.204.209",
-            "server_port": 11611,
-            "uuid": "baec9adb-d6b9-465a-f531-d0a38144cf6c",
+            "server": "xcf039-1.facai2024.com",
+            "server_port": 443,
+            "uuid": "adc445d6-6c53-4dd8-ba9f-d5a74037ef8e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -274,20 +274,30 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "xcf039-1.facai2024.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/adc445d6",
                 "headers": {
-                    "Host": "174.136.204.209"
+                    "Host": "xcf039-1.facai2024.com"
                 }
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 9",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
             "type": "vmess",
-            "server": "6a483e32-svfr40-t28b6o-ef48.cu.plebai.net",
-            "server_port": 5228,
-            "uuid": "cb15123a-084c-11f0-8eab-f23c91cfbbc9",
+            "server": "103.124.107.144",
+            "server_port": 29800,
+            "uuid": "cc31ddfc-d92e-4dab-cd06-00dfb84af8ac",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
