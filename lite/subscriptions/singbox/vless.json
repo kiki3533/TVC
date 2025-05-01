@@ -143,7 +143,7 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 2",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 3",
-                "🇸🇪SE | 🔴 | vless | @v2ray1_ng | 4",
+                "🇸🇪SE | 🔴 | vless | @v2ray1_ng | 5",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 11",
@@ -152,6 +152,7 @@
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 15",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 383",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 384",
+                "🇺🇸US | 🔴 | vless | @proxystore11 | 7",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 8",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 8",
                 "❔XX | 🔴 | vless | @free1_vpn | 9",
@@ -168,7 +169,7 @@
                 "🇺🇸US | 🔴 | vless | @kingofilter | 9",
                 "🇺🇸US | 🔴 | vless | @GozargahVPN | 0",
                 "🇺🇸US | 🔴 | vless | @SvnTeam | 7",
-                "❔XX | 🔴 | vless | @SvnTeam | 8",
+                "🇩🇪DE | 🔴 | vless | @SvnTeam | 8",
                 "🇩🇰DK | 🔴 | vless | @V2FETCH | 0",
                 "❔XX | 🔴 | vless | @VpnSkyy | 2",
                 "❔XX | 🔴 | vless | @VpnSkyy | 3"
@@ -215,7 +216,7 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 2",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 3",
-                "🇸🇪SE | 🔴 | vless | @v2ray1_ng | 4",
+                "🇸🇪SE | 🔴 | vless | @v2ray1_ng | 5",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 11",
@@ -224,6 +225,7 @@
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 15",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 383",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 384",
+                "🇺🇸US | 🔴 | vless | @proxystore11 | 7",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 8",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 8",
                 "❔XX | 🔴 | vless | @free1_vpn | 9",
@@ -240,7 +242,7 @@
                 "🇺🇸US | 🔴 | vless | @kingofilter | 9",
                 "🇺🇸US | 🔴 | vless | @GozargahVPN | 0",
                 "🇺🇸US | 🔴 | vless | @SvnTeam | 7",
-                "❔XX | 🔴 | vless | @SvnTeam | 8",
+                "🇩🇪DE | 🔴 | vless | @SvnTeam | 8",
                 "🇩🇰DK | 🔴 | vless | @V2FETCH | 0",
                 "❔XX | 🔴 | vless | @VpnSkyy | 2",
                 "❔XX | 🔴 | vless | @VpnSkyy | 3"
@@ -1124,7 +1126,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | @v2ray1_ng | 4",
+            "tag": "🇸🇪SE | 🔴 | vless | @v2ray1_ng | 5",
             "type": "vless",
             "server": "185.146.173.39",
             "server_port": 8880,
@@ -1359,6 +1361,37 @@
                 "headers": {
                     "Host": "tgju.org"
                 }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @proxystore11 | 7",
+            "type": "vless",
+            "server": "cname.proxystore11.news",
+            "server_port": 8443,
+            "uuid": "2ed5065e-e9cd-4602-bcc6-d863505bf44a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "panel.proxystore11.news",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "panel.proxystore11.news",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1765,7 +1798,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @SvnTeam | 8",
+            "tag": "🇩🇪DE | 🔴 | vless | @SvnTeam | 8",
             "type": "vless",
             "server": "SVNTEAM.MiSVN.iR",
             "server_port": 443,
