@@ -115,8 +115,8 @@
                 "❔XX | 🔴 | vless | @ipV2Ray | 9",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 22",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 23",
+                "❔XX | 🔴 | vless | @V2pedia | 13",
                 "🇨🇿CZ | 🔴 | vless | @V2pedia | 14",
-                "🇨🇿CZ | 🔴 | vless | @V2pedia | 15",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 6",
@@ -160,7 +160,7 @@
                 "❔XX | 🟢 | vless | @VmessProtocol | 14",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 15",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 403",
-                "🇺🇸US | 🔴 | vless | @proxystore11 | 9",
+                "🇺🇸US | 🔴 | vless | @proxystore11 | 7",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 11",
@@ -180,7 +180,7 @@
                 "🇺🇸US | 🔴 | vless | @GozargahVPN | 0",
                 "🇺🇸US | 🔴 | vless | @SvnTeam | 7",
                 "❔XX | 🔴 | vless | @SvnTeam | 8",
-                "🇩🇰DK | 🔴 | vless | @V2FETCH | 0",
+                "🇮🇹IT | 🔴 | vless | @V2FETCH | 0",
                 "❔XX | 🔴 | vless | @VpnSkyy | 2",
                 "❔XX | 🔴 | vless | @VpnSkyy | 3",
                 "🇵🇱PL | 🟢 | vmess | @OpenSSTPVpn | 0"
@@ -199,8 +199,8 @@
                 "❔XX | 🔴 | vless | @ipV2Ray | 9",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 22",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 23",
+                "❔XX | 🔴 | vless | @V2pedia | 13",
                 "🇨🇿CZ | 🔴 | vless | @V2pedia | 14",
-                "🇨🇿CZ | 🔴 | vless | @V2pedia | 15",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 6",
@@ -244,7 +244,7 @@
                 "❔XX | 🟢 | vless | @VmessProtocol | 14",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 15",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 403",
-                "🇺🇸US | 🔴 | vless | @proxystore11 | 9",
+                "🇺🇸US | 🔴 | vless | @proxystore11 | 7",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 11",
@@ -264,7 +264,7 @@
                 "🇺🇸US | 🔴 | vless | @GozargahVPN | 0",
                 "🇺🇸US | 🔴 | vless | @SvnTeam | 7",
                 "❔XX | 🔴 | vless | @SvnTeam | 8",
-                "🇩🇰DK | 🔴 | vless | @V2FETCH | 0",
+                "🇮🇹IT | 🔴 | vless | @V2FETCH | 0",
                 "❔XX | 🔴 | vless | @VpnSkyy | 2",
                 "❔XX | 🔴 | vless | @VpnSkyy | 3",
                 "🇵🇱PL | 🟢 | vmess | @OpenSSTPVpn | 0"
@@ -461,6 +461,27 @@
             }
         },
         {
+            "tag": "❔XX | 🔴 | vless | @V2pedia | 13",
+            "type": "vless",
+            "server": "[2001:15e8:110:6e6f::1]",
+            "server_port": 39518,
+            "uuid": "682e0bea-2dac-4de0-863b-0e8d1f152f59",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON?ed=2048",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇨🇿CZ | 🔴 | vless | @V2pedia | 14",
             "type": "vless",
             "server": "194.182.79.108",
@@ -476,27 +497,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON?ed=2048",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇨🇿CZ | 🔴 | vless | @V2pedia | 15",
-            "type": "vless",
-            "server": "194.182.79.144",
-            "server_port": 49200,
-            "uuid": "2d2586d4-7ccf-4604-9dbe-ec3daf1c9ab0",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON?ed=2048",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -1492,11 +1492,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @proxystore11 | 9",
+            "tag": "🇺🇸US | 🔴 | vless | @proxystore11 | 7",
             "type": "vless",
             "server": "cname.proxystore11.news",
-            "server_port": 8443,
-            "uuid": "2ed5065e-e9cd-4602-bcc6-d863505bf44a",
+            "server_port": 2087,
+            "uuid": "02d94abd-9c13-4d62-8d2b-c5481884b4db",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1515,11 +1515,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "panel.proxystore11.news",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/prx11",
+                "headers": {
+                    "Host": "panel.proxystore11.news"
+                }
             }
         },
         {
@@ -2002,7 +2002,7 @@
             }
         },
         {
-            "tag": "🇩🇰DK | 🔴 | vless | @V2FETCH | 0",
+            "tag": "🇮🇹IT | 🔴 | vless | @V2FETCH | 0",
             "type": "vless",
             "server": "client.bluwave.ir",
             "server_port": 80,
