@@ -150,7 +150,7 @@
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇫🇮FI | 🔴 | vless | @VmessProtocol | 14",
                 "❔XX | 🟢 | vless | @VmessProtocol | 15",
-                "🇺🇸US | 🔴 | vless | @proxystore11 | 6",
+                "🇺🇸US | 🔴 | vless | @proxystore11 | 7",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 13",
                 "❔XX | 🔴 | vless | @free1_vpn | 14",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
@@ -221,7 +221,7 @@
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇫🇮FI | 🔴 | vless | @VmessProtocol | 14",
                 "❔XX | 🟢 | vless | @VmessProtocol | 15",
-                "🇺🇸US | 🔴 | vless | @proxystore11 | 6",
+                "🇺🇸US | 🔴 | vless | @proxystore11 | 7",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 13",
                 "❔XX | 🔴 | vless | @free1_vpn | 14",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
@@ -565,7 +565,7 @@
             "type": "vless",
             "server": "151.101.64.155",
             "server_port": 80,
-            "uuid": "454ac35a-d923-41b8-af98-2a7e6b4a12a7",
+            "uuid": "05b6508c-9d0a-41c9-a28e-58913e754fac",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -586,7 +586,7 @@
             "type": "vless",
             "server": "151.101.64.155",
             "server_port": 80,
-            "uuid": "67c1a381-e09f-40f0-b71b-44ffeb9846ee",
+            "uuid": "454ac35a-d923-41b8-af98-2a7e6b4a12a7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1249,7 +1249,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @proxystore11 | 6",
+            "tag": "🇺🇸US | 🔴 | vless | @proxystore11 | 7",
             "type": "vless",
             "server": "cname.proxystore11.news",
             "server_port": 2087,
