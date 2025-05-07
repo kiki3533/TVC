@@ -148,13 +148,15 @@
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇫🇮FI | 🔴 | vless | @VmessProtocol | 14",
                 "❔XX | 🟢 | vless | @VmessProtocol | 15",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 261",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 262",
                 "🇺🇸US | 🟢 | vless | @free1_vpn | 14",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 14",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 15",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 16",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 17",
-                "🇦🇪AE | 🔴 | vless | @nofiltering2 | 4",
+                "🇺🇸US | 🔴 | vless | @nofiltering2 | 2",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇸🇪SE | 🔴 | vless | @kingofilter | 20",
@@ -213,13 +215,15 @@
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇫🇮FI | 🔴 | vless | @VmessProtocol | 14",
                 "❔XX | 🟢 | vless | @VmessProtocol | 15",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 261",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 262",
                 "🇺🇸US | 🟢 | vless | @free1_vpn | 14",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 14",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 15",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 16",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 17",
-                "🇦🇪AE | 🔴 | vless | @nofiltering2 | 4",
+                "🇺🇸US | 🔴 | vless | @nofiltering2 | 2",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇸🇪SE | 🔴 | vless | @kingofilter | 20",
@@ -1200,6 +1204,48 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 261",
+            "type": "vless",
+            "server": "tgju.org",
+            "server_port": 80,
+            "uuid": "33d076d4-e0dd-467a-8bff-10365849aa1d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "tgju.org"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 262",
+            "type": "vless",
+            "server": "45.32.173.118",
+            "server_port": 8080,
+            "uuid": "02b54f3e-05a8-4212-ab21-8af3c2837155",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "45.32.173.118"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🟢 | vless | @free1_vpn | 14",
             "type": "vless",
             "server": "172.82.67.154",
@@ -1252,9 +1298,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 14",
             "type": "vless",
-            "server": "172.67.204.84",
-            "server_port": 443,
-            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+            "server": "104.17.148.22",
+            "server_port": 2096,
+            "uuid": "96a1b724-68d2-4f4d-ab25-38ecd83577bc",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1264,7 +1310,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "ipsychO.SUEx12.Ir",
+                "server_name": "RwQfYqAh14.tRaViQo.oRg",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1274,9 +1320,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/re5IzbZ9IZZMddtw?ed=2560flow=-udp443flow=-udp443",
+                "path": "\/",
                 "headers": {
-                    "Host": "ipsychO.SUEx12.Ir"
+                    "Host": "RwQfYqAh14.tRaViQo.oRg"
                 }
             }
         },
@@ -1354,34 +1400,17 @@
             }
         },
         {
-            "tag": "🇦🇪AE | 🔴 | vless | @nofiltering2 | 4",
+            "tag": "🇺🇸US | 🔴 | vless | @nofiltering2 | 2",
             "type": "vless",
-            "server": "138.128.224.100",
-            "server_port": 443,
-            "uuid": "eb5f5964-1b12-457b-b8a6-bca5332e0494",
+            "server": "website.acveo.ir",
+            "server_port": 8080,
+            "uuid": "4b270bff-0f7e-428e-9fab-a4d96c068e8b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "s6.design-mobo.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-mitivpn",
-                "headers": {
-                    "Host": "s6.design-mobo.ir"
-                }
             }
         },
         {
