@@ -148,8 +148,7 @@
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇫🇮FI | 🔴 | vless | @VmessProtocol | 14",
                 "❔XX | 🟢 | vless | @VmessProtocol | 15",
-                "🇺🇸US | 🟢 | vless | @free1_vpn | 15",
-                "🇸🇪SE | 🔴 | vless | @free1_vpn | 16",
+                "🇺🇸US | 🟢 | vless | @free1_vpn | 14",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 14",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 15",
@@ -214,8 +213,7 @@
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇫🇮FI | 🔴 | vless | @VmessProtocol | 14",
                 "❔XX | 🟢 | vless | @VmessProtocol | 15",
-                "🇺🇸US | 🟢 | vless | @free1_vpn | 15",
-                "🇸🇪SE | 🔴 | vless | @free1_vpn | 16",
+                "🇺🇸US | 🟢 | vless | @free1_vpn | 14",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 14",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 15",
@@ -469,27 +467,6 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2052,
-            "uuid": "telegram-id-ArV2ray1",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/-ArV2ry@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry",
-                "headers": {
-                    "Host": "www.speedtest.net"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
-            "type": "vless",
             "server": "151.101.64.155",
             "server_port": 80,
             "uuid": "telegram-id-ArV2ray1",
@@ -505,6 +482,27 @@
                 "path": "\/-ArV2ry@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry",
                 "headers": {
                     "Host": "151.101.64.155"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2052,
+            "uuid": "telegram-id-ArV2ray1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/-ArV2ry@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry",
+                "headers": {
+                    "Host": "www.speedtest.net"
                 }
             }
         },
@@ -1202,7 +1200,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @free1_vpn | 15",
+            "tag": "🇺🇸US | 🟢 | vless | @free1_vpn | 14",
             "type": "vless",
             "server": "172.82.67.154",
             "server_port": 11476,
@@ -1228,20 +1226,6 @@
                     "public_key": "dHyiM189GsudgANJT4X9fxzsTnBUvoEUAjrJFnPGp2I",
                     "short_id": "eeb3b8"
                 }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | 🔴 | vless | @free1_vpn | 16",
-            "type": "vless",
-            "server": "185.146.173.39",
-            "server_port": 8880,
-            "uuid": "Parsashonam-229",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
