@@ -112,7 +112,7 @@
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 9",
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
                 "🇨🇦CA | 🔴 | vless | @ipV2Ray | 8",
-                "🇨🇦CA | 🔴 | vless | @ipV2Ray | 9",
+                "🇺🇸US | 🔴 | vless | @ipV2Ray | 9",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 30",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 31",
                 "🇨🇿CZ | 🔴 | vless | @V2pedia | 10",
@@ -150,7 +150,6 @@
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇫🇮FI | 🔴 | vless | @VmessProtocol | 14",
                 "❔XX | 🟢 | vless | @VmessProtocol | 15",
-                "🇺🇸US | 🔴 | vless | @proxystore11 | 6",
                 "🇺🇸US | 🟢 | vless | @free1_vpn | 13",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
@@ -181,7 +180,7 @@
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 9",
                 "❔XX | 🔴 | vless | @XsV2ray | 10",
                 "🇨🇦CA | 🔴 | vless | @ipV2Ray | 8",
-                "🇨🇦CA | 🔴 | vless | @ipV2Ray | 9",
+                "🇺🇸US | 🔴 | vless | @ipV2Ray | 9",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 30",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 31",
                 "🇨🇿CZ | 🔴 | vless | @V2pedia | 10",
@@ -219,7 +218,6 @@
                 "❔XX | 🔴 | vless | @MTConfig | 12",
                 "🇫🇮FI | 🔴 | vless | @VmessProtocol | 14",
                 "❔XX | 🟢 | vless | @VmessProtocol | 15",
-                "🇺🇸US | 🔴 | vless | @proxystore11 | 6",
                 "🇺🇸US | 🟢 | vless | @free1_vpn | 13",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
@@ -375,7 +373,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @ipV2Ray | 9",
+            "tag": "🇺🇸US | 🔴 | vless | @ipV2Ray | 9",
             "type": "vless",
             "server": "website.acveo.ir",
             "server_port": 8080,
@@ -1222,37 +1220,6 @@
                     "enabled": true,
                     "public_key": "q7hb9bUwTztHAd0l_B1VXphQlTrt9Tisnzm-l9r-3xM",
                     "short_id": "4022a0e5fa8ccd7f"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @proxystore11 | 6",
-            "type": "vless",
-            "server": "cname.proxystore11.news",
-            "server_port": 2087,
-            "uuid": "71630354-9b6d-4132-bc3c-24ebd0174bc6",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "panel.proxystore11.news",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/prx11",
-                "headers": {
-                    "Host": "panel.proxystore11.news"
                 }
             }
         },
