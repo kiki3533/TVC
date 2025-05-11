@@ -142,7 +142,8 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 2",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 3",
-                "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 8",
+                "🇱🇻LV | 🔴 | vless | @v2ray1_ng | 6",
+                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 7",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 11",
@@ -150,8 +151,8 @@
                 "🇳🇱NL | 🔴 | vless | @VmessProtocol | 13",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 14",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 327",
+                "🇺🇸US | 🔴 | vless | @proxystore11 | 1",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 2",
-                "🇩🇪DE | 🔴 | vless | @proxystore11 | 3",
                 "🇮🇷IR | 🔴 | vless | @free1_vpn | 12",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 13",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
@@ -211,7 +212,8 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 2",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 3",
-                "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 8",
+                "🇱🇻LV | 🔴 | vless | @v2ray1_ng | 6",
+                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 7",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 11",
@@ -219,8 +221,8 @@
                 "🇳🇱NL | 🔴 | vless | @VmessProtocol | 13",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 14",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 327",
+                "🇺🇸US | 🔴 | vless | @proxystore11 | 1",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 2",
-                "🇩🇪DE | 🔴 | vless | @proxystore11 | 3",
                 "🇮🇷IR | 🔴 | vless | @free1_vpn | 12",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 13",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
@@ -623,7 +625,7 @@
             "type": "vless",
             "server": "151.101.64.155",
             "server_port": 80,
-            "uuid": "225c2f8f-fd5c-4b5d-8de1-af02003fd697",
+            "uuid": "64d02e12-2db7-479b-89c9-8fd89b5db0f7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -644,7 +646,7 @@
             "type": "vless",
             "server": "151.101.64.155",
             "server_port": 80,
-            "uuid": "96a41220-6ab5-4ba6-87c6-f382bc42049b",
+            "uuid": "225c2f8f-fd5c-4b5d-8de1-af02003fd697",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1067,12 +1069,12 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 8",
+            "tag": "🇱🇻LV | 🔴 | vless | @v2ray1_ng | 6",
             "type": "vless",
-            "server": "164.90.182.56",
-            "server_port": 2053,
-            "uuid": "HelloWorld!",
-            "flow": "xtls-rprx-vision",
+            "server": "lv01.abvpn.ru",
+            "server_port": 443,
+            "uuid": "588f094b-431b-422c-b80b-007945037072",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1081,17 +1083,50 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "iubenda.com",
+                "server_name": "lv01.abvpn.ru",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/websocket",
+                "headers": {
+                    "Host": "lv01.abvpn.ru"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @v2ray1_ng | 7",
+            "type": "vless",
+            "server": "104.24.251.4",
+            "server_port": 443,
+            "uuid": "15cc8d40-f0c0-4e5c-9f43-da04c368353c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "66.sgfc.dpdns.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
                     "enabled": true,
-                    "public_key": "lxmu1b8ExuOnk1tyM-p7hAaGtA6DS6gdS0daUdktjwE",
-                    "short_id": "beb4c6"
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram@V2ray_Alpha\/?ed=2560",
+                "headers": {
+                    "Host": "66.sgfc.dpdns.org"
                 }
             }
         },
@@ -1284,6 +1319,37 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🔴 | vless | @proxystore11 | 1",
+            "type": "vless",
+            "server": "cname.proxystore11.news",
+            "server_port": 2087,
+            "uuid": "37dd24e2-7f9b-45ba-b38c-ef7ed81890f6",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "panel.proxystore11.news",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/prx11",
+                "headers": {
+                    "Host": "panel.proxystore11.news"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🔴 | vless | @proxystore11 | 2",
             "type": "vless",
             "server": "cname.proxystore11.news",
@@ -1311,35 +1377,6 @@
                 "path": "\/prx11",
                 "headers": {
                     "Host": "panel.proxystore11.news"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @proxystore11 | 3",
-            "type": "vless",
-            "server": "vip1.proxystore11.news",
-            "server_port": 15110,
-            "uuid": "579921f5-52af-4c14-b463-7095271532ff",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "y7msPZW4eWBT4CJ5v_blgiXUd06HuKvTs3rhlpw9fnk",
-                    "short_id": "0570"
                 }
             }
         },
