@@ -132,9 +132,7 @@
                 "🇺🇸US | 🟢 | vless | @vless_vmess | 3",
                 "❔XX | 🔴 | vless | @MTConfig | 4",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 14",
-                "🇨🇦CA | 🔴 | vless | @DailyV2RY | 329",
-                "🇨🇦CA | 🔴 | vless | @DailyV2RY | 330",
-                "🇨🇦CA | 🔴 | vless | @DailyV2RY | 331",
+                "🇨🇦CA | 🟢 | vless | @DailyV2RY | 293",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 0",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 1",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 4",
@@ -193,9 +191,7 @@
                 "🇺🇸US | 🟢 | vless | @vless_vmess | 3",
                 "❔XX | 🔴 | vless | @MTConfig | 4",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 14",
-                "🇨🇦CA | 🔴 | vless | @DailyV2RY | 329",
-                "🇨🇦CA | 🔴 | vless | @DailyV2RY | 330",
-                "🇨🇦CA | 🔴 | vless | @DailyV2RY | 331",
+                "🇨🇦CA | 🟢 | vless | @DailyV2RY | 293",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 0",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 1",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 4",
@@ -1061,67 +1057,9 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @DailyV2RY | 329",
+            "tag": "🇨🇦CA | 🟢 | vless | @DailyV2RY | 293",
             "type": "vless",
-            "server": "143.198.32.203",
-            "server_port": 39493,
-            "uuid": "26fc8b18-8f9a-4960-8686-3c00cf027280",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "varzeshtviuwsofogleugvwsoyutruyrrteytmci.24digitalmarkting.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "A_KkC4kfUn6JpQjDaz5nBaTepXG7eQP3uGnAh60ri14",
-                    "short_id": "3b191bba"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | 🔴 | vless | @DailyV2RY | 330",
-            "type": "vless",
-            "server": "134.122.43.236",
-            "server_port": 39493,
-            "uuid": "26fc8b18-8f9a-4960-8686-3c00cf027280",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "varzeshtviuwsofogleugvwsoyutruyrrteytmci.24digitalmarkting.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "A_KkC4kfUn6JpQjDaz5nBaTepXG7eQP3uGnAh60ri14",
-                    "short_id": "3b191bba"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | 🔴 | vless | @DailyV2RY | 331",
-            "type": "vless",
-            "server": "165.22.234.158",
+            "server": "159.203.22.192",
             "server_port": 5376,
             "uuid": "217b2806-44e6-4d84-bd1e-8431a9dcfba5",
             "flow": "xtls-rprx-vision",
