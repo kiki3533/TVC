@@ -157,7 +157,7 @@
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 15",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 16",
-                "❔XX | 🔴 | vless | @flyv2ray | 13",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 13",
                 "❔XX | 🔴 | vless | @flyv2ray | 14",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -225,7 +225,7 @@
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 15",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 16",
-                "❔XX | 🔴 | vless | @flyv2ray | 13",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 13",
                 "❔XX | 🔴 | vless | @flyv2ray | 14",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -1436,17 +1436,24 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @flyv2ray | 13",
+            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 13",
             "type": "vless",
-            "server": "website.acveo.ir",
-            "server_port": 8080,
-            "uuid": "f7286f11-3b13-4342-a829-a8b1563146c7",
+            "server": "zmaoz.faculty.ucdavis.edu",
+            "server_port": 80,
+            "uuid": "6351a164-aa3e-4702-9b7f-8f12328854c5",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/olem\/ws?ed=1024",
+                "headers": {
+                    "Host": "zmaoz.faculty.ucdavis.edu"
+                }
             }
         },
         {
@@ -1454,7 +1461,7 @@
             "type": "vless",
             "server": "website.acveo.ir",
             "server_port": 8080,
-            "uuid": "d9471598-bdfb-44f4-bc92-6589dac48fb2",
+            "uuid": "f7286f11-3b13-4342-a829-a8b1563146c7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
