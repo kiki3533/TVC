@@ -130,11 +130,12 @@
                 "🇨🇭CH | 🟢 | vless | @prrofile_purple | 149",
                 "🇳🇱NL | 🟢 | vless | @prrofile_purple | 151",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 153",
+                "🇺🇸US | 🟢 | vless | @v2ray1_ng | 0",
                 "🇺🇸US | 🟢 | vless | @vless_vmess | 3",
                 "❔XX | 🔴 | vless | @MTConfig | 4",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 0",
-                "🇳🇱NL | 🟢 | vless | @free1_vpn | 4",
-                "🇫🇮FI | 🟢 | vless | @free1_vpn | 5",
+                "🇳🇱NL | 🟢 | vless | @free1_vpn | 5",
+                "🇫🇮FI | 🟢 | vless | @free1_vpn | 6",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
                 "❔XX | 🔴 | vless | @vpn_go67 | 9",
@@ -187,11 +188,12 @@
                 "🇨🇭CH | 🟢 | vless | @prrofile_purple | 149",
                 "🇳🇱NL | 🟢 | vless | @prrofile_purple | 151",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 153",
+                "🇺🇸US | 🟢 | vless | @v2ray1_ng | 0",
                 "🇺🇸US | 🟢 | vless | @vless_vmess | 3",
                 "❔XX | 🔴 | vless | @MTConfig | 4",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 0",
-                "🇳🇱NL | 🟢 | vless | @free1_vpn | 4",
-                "🇫🇮FI | 🟢 | vless | @free1_vpn | 5",
+                "🇳🇱NL | 🟢 | vless | @free1_vpn | 5",
+                "🇫🇮FI | 🟢 | vless | @free1_vpn | 6",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
                 "❔XX | 🔴 | vless | @vpn_go67 | 9",
@@ -1002,6 +1004,35 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🟢 | vless | @v2ray1_ng | 0",
+            "type": "vless",
+            "server": "54.80.121.136",
+            "server_port": 443,
+            "uuid": "7f93e196-1b2f-4a42-8051-5815554c05db",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "zula.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg",
+                    "short_id": "7a2b"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🟢 | vless | @vless_vmess | 3",
             "type": "vless",
             "server": "172.233.174.160",
@@ -1096,7 +1127,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vless | @free1_vpn | 4",
+            "tag": "🇳🇱NL | 🟢 | vless | @free1_vpn | 5",
             "type": "vless",
             "server": "213.21.245.83",
             "server_port": 443,
@@ -1125,7 +1156,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🟢 | vless | @free1_vpn | 5",
+            "tag": "🇫🇮FI | 🟢 | vless | @free1_vpn | 6",
             "type": "vless",
             "server": "65.109.192.110",
             "server_port": 55953,
