@@ -136,7 +136,7 @@
                 "🇫🇷FR | 🟢 | trojan | @DirectVPN | 15",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
-                "🇧🇷BR | 🟢 | vmess | @DeamNet_Proxy | 16",
+                "🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 19",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 0",
                 "🇳🇱NL | 🔴 | vless | @prrofile_purple | 155",
                 "🇳🇱NL | 🔴 | vless | @prrofile_purple | 156",
@@ -212,7 +212,7 @@
                 "🇫🇷FR | 🟢 | trojan | @DirectVPN | 15",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
-                "🇧🇷BR | 🟢 | vmess | @DeamNet_Proxy | 16",
+                "🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 19",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 0",
                 "🇳🇱NL | 🔴 | vless | @prrofile_purple | 155",
                 "🇳🇱NL | 🔴 | vless | @prrofile_purple | 156",
@@ -957,28 +957,14 @@
             }
         },
         {
-            "tag": "🇧🇷BR | 🟢 | vmess | @DeamNet_Proxy | 16",
-            "type": "vmess",
-            "server": "pq-brazil1.09vpn.com",
-            "server_port": 80,
-            "uuid": "24b6bbfb-9b27-4f17-bd32-67523bf487d9",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess\/",
-                "headers": {
-                    "Host": "pq-brazil1.09vpn.com"
-                }
-            }
+            "tag": "🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 19",
+            "type": "shadowsocks",
+            "server": "185.5.38.111",
+            "server_port": 55988,
+            "method": "chacha20-ietf-poly1305",
+            "password": "9Bpt48HiTfWMzQDb86igS8UxrYXZ59zN3mzTTG9EvEcw3eqYtX5Q3zaenJPyyA5p2q5Nmp24Trv2bBKVBcZ1bhLKT3dn18Kk",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇺🇸US | 🔴 | vless | @Outline_Vpn | 0",
