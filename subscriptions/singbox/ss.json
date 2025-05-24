@@ -112,7 +112,6 @@
                 "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 11",
                 "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 14",
                 "🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 17",
-                "🇬🇧GB | 🟢 | ss | @VmessProtocol | 0",
                 "🇳🇱NL | 🟢 | ss | @kingofilter | 0",
                 "🇩🇪DE | 🟢 | ss | @kingofilter | 1",
                 "🇬🇧GB | 🟢 | ss | @kingofilter | 10"
@@ -128,7 +127,6 @@
                 "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 11",
                 "🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 14",
                 "🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 17",
-                "🇬🇧GB | 🟢 | ss | @VmessProtocol | 0",
                 "🇳🇱NL | 🟢 | ss | @kingofilter | 0",
                 "🇩🇪DE | 🟢 | ss | @kingofilter | 1",
                 "🇬🇧GB | 🟢 | ss | @kingofilter | 10"
@@ -210,16 +208,6 @@
             "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
             "password": "1RWwXhwfAB5gAEozU4G2Pg",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇬🇧GB | 🟢 | ss | @VmessProtocol | 0",
-            "type": "shadowsocks",
-            "server": "74.177.178.193",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "1xO2cqPazqjGfCfd",
             "plugin": "",
             "plugin_opts": ""
         },
