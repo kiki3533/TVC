@@ -142,7 +142,7 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 2",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 3",
-                "🇳🇱NL | 🔴 | vless | @v2ray1_ng | 11",
+                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 13",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 11",
@@ -210,7 +210,7 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 2",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 3",
-                "🇳🇱NL | 🔴 | vless | @v2ray1_ng | 11",
+                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 13",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 14",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 11",
@@ -1113,24 +1113,17 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🔴 | vless | @v2ray1_ng | 11",
+            "tag": "🇺🇸US | 🔴 | vless | @v2ray1_ng | 13",
             "type": "vless",
-            "server": "45.131.5.211",
-            "server_port": 80,
-            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+            "server": "Www.speedtest.net",
+            "server_port": 2095,
+            "uuid": "0fa688f6-3162-431a-bded-a91b4759bcf8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-@V2ray_Alpha\/?ed=2560",
-                "headers": {
-                    "Host": "45.131.5.211"
-                }
             }
         },
         {
