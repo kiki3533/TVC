@@ -106,11 +106,12 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇸🇪SE | 🔴 | vless | @Parsashonam | 41",
+                "🇺🇸US | 🔴 | vless | @Parsashonam | 38",
+                "🇸🇪SE | 🔴 | vless | @Parsashonam | 39",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 8",
-                "🇫🇷FR | 🔴 | vless | @VlessConfig | 16",
-                "🇩🇪DE | 🔴 | vless | @VlessConfig | 17",
-                "🇨🇦CA | 🔴 | vless | @ipV2Ray | 7",
+                "🇫🇷FR | 🔴 | vless | @VlessConfig | 14",
+                "🇩🇪DE | 🔴 | vless | @VlessConfig | 15",
+                "🇺🇸US | 🔴 | vless | @ipV2Ray | 7",
                 "❔XX | 🟢 | vless | @ipV2Ray | 8",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 33",
                 "🇨🇿CZ | 🔴 | vless | @V2pedia | 9",
@@ -129,8 +130,8 @@
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 20",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 21",
-                "🇨🇿CZ | 🔴 | vless | @prrofile_purple | 155",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 156",
+                "🇨🇿CZ | 🔴 | vless | @prrofile_purple | 147",
+                "🇺🇸US | 🔴 | vless | @prrofile_purple | 148",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
                 "❔XX | 🔴 | vless | @ServerNett | 12",
@@ -171,11 +172,12 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇸🇪SE | 🔴 | vless | @Parsashonam | 41",
+                "🇺🇸US | 🔴 | vless | @Parsashonam | 38",
+                "🇸🇪SE | 🔴 | vless | @Parsashonam | 39",
                 "🇺🇸US | 🔴 | vless | @XsV2ray | 8",
-                "🇫🇷FR | 🔴 | vless | @VlessConfig | 16",
-                "🇩🇪DE | 🔴 | vless | @VlessConfig | 17",
-                "🇨🇦CA | 🔴 | vless | @ipV2Ray | 7",
+                "🇫🇷FR | 🔴 | vless | @VlessConfig | 14",
+                "🇩🇪DE | 🔴 | vless | @VlessConfig | 15",
+                "🇺🇸US | 🔴 | vless | @ipV2Ray | 7",
                 "❔XX | 🟢 | vless | @ipV2Ray | 8",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 33",
                 "🇨🇿CZ | 🔴 | vless | @V2pedia | 9",
@@ -194,8 +196,8 @@
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 20",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 21",
-                "🇨🇿CZ | 🔴 | vless | @prrofile_purple | 155",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 156",
+                "🇨🇿CZ | 🔴 | vless | @prrofile_purple | 147",
+                "🇺🇸US | 🔴 | vless | @prrofile_purple | 148",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
                 "❔XX | 🔴 | vless | @ServerNett | 12",
@@ -252,11 +254,32 @@
             "type": "dns"
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | @Parsashonam | 41",
+            "tag": "🇺🇸US | 🔴 | vless | @Parsashonam | 38",
+            "type": "vless",
+            "server": "Zmaoz.Faculty.Ucdavis.Edu",
+            "server_port": 80,
+            "uuid": "Parsashonam-240",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Parsashonam",
+                "headers": {
+                    "Host": "Zmaoz.Faculty.Ucdavis.Edu."
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | 🔴 | vless | @Parsashonam | 39",
             "type": "vless",
             "server": "185.146.173.39",
             "server_port": 8880,
-            "uuid": "Parsashonam-239",
+            "uuid": "Parsashonam-240",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -297,9 +320,9 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🔴 | vless | @VlessConfig | 16",
+            "tag": "🇫🇷FR | 🔴 | vless | @VlessConfig | 14",
             "type": "vless",
-            "server": "13.39.228.102",
+            "server": "15.188.255.203",
             "server_port": 22224,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -328,9 +351,9 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @VlessConfig | 17",
+            "tag": "🇩🇪DE | 🔴 | vless | @VlessConfig | 15",
             "type": "vless",
-            "server": "18.159.76.1",
+            "server": "52.29.139.19",
             "server_port": 22224,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -359,7 +382,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @ipV2Ray | 7",
+            "tag": "🇺🇸US | 🔴 | vless | @ipV2Ray | 7",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8080,
@@ -831,7 +854,7 @@
             }
         },
         {
-            "tag": "🇨🇿CZ | 🔴 | vless | @prrofile_purple | 155",
+            "tag": "🇨🇿CZ | 🔴 | vless | @prrofile_purple | 147",
             "type": "vless",
             "server": "194.182.79.7",
             "server_port": 19123,
@@ -852,7 +875,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @prrofile_purple | 156",
+            "tag": "🇺🇸US | 🔴 | vless | @prrofile_purple | 148",
             "type": "vless",
             "server": "mainv2-ray.fast.hosting-ip.com",
             "server_port": 80,
