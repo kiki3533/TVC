@@ -140,7 +140,7 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
                 "🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 17",
-                "🇨🇿CZ | 🔴 | vless | @prrofile_purple | 149",
+                "🇩🇪DE | 🔴 | vless | @prrofile_purple | 141",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
                 "❔XX | 🔴 | vless | @ServerNett | 12",
@@ -169,8 +169,8 @@
                 "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 9",
                 "🇷🇺RU | 🔴 | vless | @Outlinev2rayNG | 10",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 0",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 1",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 2",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 3",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇩🇪DE | 🔴 | vless | @kingofilter | 8",
@@ -222,7 +222,7 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
                 "🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 17",
-                "🇨🇿CZ | 🔴 | vless | @prrofile_purple | 149",
+                "🇩🇪DE | 🔴 | vless | @prrofile_purple | 141",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
                 "❔XX | 🔴 | vless | @ServerNett | 12",
@@ -251,8 +251,8 @@
                 "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 9",
                 "🇷🇺RU | 🔴 | vless | @Outlinev2rayNG | 10",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 0",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 1",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 2",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 3",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇩🇪DE | 🔴 | vless | @kingofilter | 8",
@@ -665,7 +665,7 @@
             "type": "vless",
             "server": "151.101.64.155",
             "server_port": 80,
-            "uuid": "099f79dc-819b-4524-aac9-932a6a232cf2",
+            "uuid": "def38710-11e0-4dbe-ba33-ea3ca818de1d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -686,7 +686,7 @@
             "type": "vless",
             "server": "151.101.64.155",
             "server_port": 80,
-            "uuid": "953f9218-0df6-4baf-9d75-743ec888256c",
+            "uuid": "099f79dc-819b-4524-aac9-932a6a232cf2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1070,11 +1070,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇿CZ | 🔴 | vless | @prrofile_purple | 149",
+            "tag": "🇩🇪DE | 🔴 | vless | @prrofile_purple | 141",
             "type": "vless",
-            "server": "194.182.79.242",
-            "server_port": 45831,
-            "uuid": "d00e3d7c-522f-4047-87b6-67685f5f281f",
+            "server": "tify-binex-join.espikernajafi.ir",
+            "server_port": 6666,
+            "uuid": "8b3bef1d-7d78-4d27-ee91-d584f329e76f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1084,7 +1084,7 @@
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON?ed=2048",
+                "service_name": "\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -1795,7 +1795,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 1",
+            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 2",
             "type": "vless",
             "server": "zmaoz.faculty.ucdavis.edu",
             "server_port": 80,
@@ -1816,7 +1816,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 2",
+            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 3",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8080,
