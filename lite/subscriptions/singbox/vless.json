@@ -132,8 +132,8 @@
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 20",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 21",
-                "🇨🇿CZ | 🔴 | vless | @prrofile_purple | 134",
-                "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
+                "🇩🇪DE | 🔴 | vless | @prrofile_purple | 142",
+                "🇨🇦CA | 🔴 | vless | @FalconPolV2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
                 "❔XX | 🔴 | vless | @ServerNett | 12",
                 "❔XX | 🔴 | vless | @ServerNett | 13",
@@ -150,9 +150,9 @@
                 "❔XX | 🟢 | vless | @DailyV2RY | 303",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 5",
                 "🇮🇷IR | 🔴 | vless | @proxystore11 | 6",
-                "🇰🇭KH | 🔴 | vless | @free1_vpn | 10",
-                "🇺🇸US | 🔴 | vless | @fnet00 | 3",
-                "🇺🇸US | 🔴 | vless | @fnet00 | 4",
+                "❔XX | 🔴 | vless | @free1_vpn | 8",
+                "❔XX | 🔴 | vless | @fnet00 | 2",
+                "🇨🇦CA | 🔴 | vless | @fnet00 | 3",
                 "🇨🇿CZ | 🔴 | vless | @Outlinev2rayNG | 7",
                 "🇦🇲AM | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 0",
@@ -199,8 +199,8 @@
                 "🇺🇸US | 🔴 | vless | @v2logy | 10",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 20",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 21",
-                "🇨🇿CZ | 🔴 | vless | @prrofile_purple | 134",
-                "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
+                "🇩🇪DE | 🔴 | vless | @prrofile_purple | 142",
+                "🇨🇦CA | 🔴 | vless | @FalconPolV2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 6",
                 "❔XX | 🔴 | vless | @ServerNett | 12",
                 "❔XX | 🔴 | vless | @ServerNett | 13",
@@ -217,9 +217,9 @@
                 "❔XX | 🟢 | vless | @DailyV2RY | 303",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 5",
                 "🇮🇷IR | 🔴 | vless | @proxystore11 | 6",
-                "🇰🇭KH | 🔴 | vless | @free1_vpn | 10",
-                "🇺🇸US | 🔴 | vless | @fnet00 | 3",
-                "🇺🇸US | 🔴 | vless | @fnet00 | 4",
+                "❔XX | 🔴 | vless | @free1_vpn | 8",
+                "❔XX | 🔴 | vless | @fnet00 | 2",
+                "🇨🇦CA | 🔴 | vless | @fnet00 | 3",
                 "🇨🇿CZ | 🔴 | vless | @Outlinev2rayNG | 7",
                 "🇦🇲AM | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 0",
@@ -635,7 +635,7 @@
             "type": "vless",
             "server": "151.101.64.155",
             "server_port": 80,
-            "uuid": "def38710-11e0-4dbe-ba33-ea3ca818de1d",
+            "uuid": "b3dd8d35-852c-4f70-8e2e-db437c74752e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -656,7 +656,7 @@
             "type": "vless",
             "server": "151.101.64.155",
             "server_port": 80,
-            "uuid": "099f79dc-819b-4524-aac9-932a6a232cf2",
+            "uuid": "def38710-11e0-4dbe-ba33-ea3ca818de1d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -891,11 +891,11 @@
             }
         },
         {
-            "tag": "🇨🇿CZ | 🔴 | vless | @prrofile_purple | 134",
+            "tag": "🇩🇪DE | 🔴 | vless | @prrofile_purple | 142",
             "type": "vless",
-            "server": "194.182.79.113",
-            "server_port": 26468,
-            "uuid": "005a0678-9847-4954-83ef-2d253a88b7f8",
+            "server": "tify-binex-join.espikernajafi.ir",
+            "server_port": 6666,
+            "uuid": "8b3bef1d-7d78-4d27-ee91-d584f329e76f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -905,14 +905,14 @@
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON?ed=2048",
+                "service_name": "\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy\/@BinexTiFy",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 5",
+            "tag": "🇨🇦CA | 🔴 | vless | @FalconPolV2rayNG | 5",
             "type": "vless",
             "server": "104.18.165.30",
             "server_port": 80,
@@ -1347,12 +1347,12 @@
             }
         },
         {
-            "tag": "🇰🇭KH | 🔴 | vless | @free1_vpn | 10",
+            "tag": "❔XX | 🔴 | vless | @free1_vpn | 8",
             "type": "vless",
-            "server": "92.243.74.3",
-            "server_port": 443,
-            "uuid": "30f2d443-af46-4dd6-83c9-b5e17299ebd2",
-            "flow": "",
+            "server": "p9.punchline.ir",
+            "server_port": 29570,
+            "uuid": "840dc994-d232-4b71-b133-4f36a874c867",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1361,24 +1361,51 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "carlotta.shorekeeper.cloudns.org",
+                "server_name": "www.microsoft.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/proxyip=zani.yaemiko.ggff.net",
-                "headers": {
-                    "Host": "carlotta.shorekeeper.cloudns.org"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "lOuhgB0K7paehmJFBxd0GxSY2Ax00niQGkpH3-8jKz4",
+                    "short_id": "37"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @fnet00 | 3",
+            "tag": "❔XX | 🔴 | vless | @fnet00 | 2",
+            "type": "vless",
+            "server": "public.misvn.ir",
+            "server_port": 443,
+            "uuid": "SVNTEAM-2",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "O0DFIyOlsDyOPthL8Z27Fna1vuoWB5CYTFXrcUf_jlc",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | 🔴 | vless | @fnet00 | 3",
             "type": "vless",
             "server": "104.16.98.3",
             "server_port": 2053,
@@ -1406,20 +1433,6 @@
                 "headers": {
                     "Host": "0p9oj0annx3ywe408ctenbtw3mhacrc7.pages.dev"
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @fnet00 | 4",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2095,
-            "uuid": "2ff8e538-3109-4c13-a89a-4a7df6866a3a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
