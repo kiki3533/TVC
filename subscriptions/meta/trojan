@@ -135,6 +135,8 @@ proxies:
   - {"name":"🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 11","type":"trojan","server":"35.159.252.83","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 12","type":"trojan","server":"15.236.13.62","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 13","type":"trojan","server":"15.236.59.146","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 14","type":"trojan","server":"63.178.161.58","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 15","type":"trojan","server":"18.184.137.206","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | 🟢 | trojan | @DirectVPN | 0","type":"trojan","server":"35.180.102.117","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | 🟢 | trojan | @DirectVPN | 1","type":"trojan","server":"52.47.132.220","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇩🇪DE | 🟢 | trojan | @DirectVPN | 2","type":"trojan","server":"35.156.176.104","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
@@ -149,6 +151,8 @@ proxies:
   - {"name":"🇩🇪DE | 🟢 | trojan | @DirectVPN | 11","type":"trojan","server":"35.159.252.83","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | 🟢 | trojan | @DirectVPN | 12","type":"trojan","server":"15.236.13.62","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | 🟢 | trojan | @DirectVPN | 13","type":"trojan","server":"15.236.59.146","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇩🇪DE | 🟢 | trojan | @DirectVPN | 14","type":"trojan","server":"63.178.161.58","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇩🇪DE | 🟢 | trojan | @DirectVPN | 15","type":"trojan","server":"18.184.137.206","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇳🇱NL | 🟢 | trojan | @v2ray1_ng | 3","type":"trojan","server":"94.131.20.3","port":443,"udp":false,"password":"3482c71a-d01c-4ae5-b454-fa8cb3785f66","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"chop-wrist-bud.stark-industries.solutions"}
 proxy-groups:
   - name: MANUAL
@@ -171,6 +175,8 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 11'
       - '🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 12'
       - '🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 13'
+      - '🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 14'
+      - '🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 15'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 0'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 1'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 2'
@@ -185,6 +191,8 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 11'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 12'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 13'
+      - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 14'
+      - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 15'
       - '🇳🇱NL | 🟢 | trojan | @v2ray1_ng | 3'
   - name: URL-TEST
     type: url-test
@@ -207,6 +215,8 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 11'
       - '🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 12'
       - '🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 13'
+      - '🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 14'
+      - '🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 15'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 0'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 1'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 2'
@@ -221,6 +231,8 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 11'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 12'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 13'
+      - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 14'
+      - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 15'
       - '🇳🇱NL | 🟢 | trojan | @v2ray1_ng | 3'
   - name: FALLBACK
     type: fallback
@@ -242,6 +254,8 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 11'
       - '🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 12'
       - '🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 13'
+      - '🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 14'
+      - '🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 15'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 0'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 1'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 2'
@@ -256,6 +270,8 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 11'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 12'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 13'
+      - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 14'
+      - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 15'
       - '🇳🇱NL | 🟢 | trojan | @v2ray1_ng | 3'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
