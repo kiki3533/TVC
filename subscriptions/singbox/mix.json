@@ -260,7 +260,7 @@
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 2",
                 "❔XX | 🟢 | vless | @V2rayCollectorDonate | 9",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 15",
-                "❔XX | 🔴 | trojan | @V2rayCollectorDonate | 17",
+                "🇮🇷IR | 🔴 | trojan | @V2rayCollectorDonate | 17",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 21",
                 "🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 0",
                 "🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 1",
@@ -408,7 +408,6 @@
                 "🇺🇸US | 🔴 | vless | @v2ray1_ng | 5",
                 "🇨🇭CH | 🔴 | vless | @v2ray1_ng | 6",
                 "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 7",
-                "🇳🇱NL | 🟢 | trojan | @v2ray1_ng | 8",
                 "🚩CF | 🔴 | vless | @vless_vmess | 0",
                 "🚩CF | 🔴 | vless | @vless_vmess | 1",
                 "🇬🇧GB | 🟢 | vless | @vless_vmess | 2",
@@ -497,7 +496,6 @@
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 5",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 0",
                 "🇺🇸US | 🟢 | vless | @flyv2ray | 4",
-                "🇺🇸US | 🔴 | vless | @nofiltering2 | 1",
                 "❔XX | 🔴 | vless | @vpn_go67 | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 1",
                 "❔XX | 🔴 | vless | @vpn_go67 | 3",
@@ -700,7 +698,7 @@
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 2",
                 "❔XX | 🟢 | vless | @V2rayCollectorDonate | 9",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 15",
-                "❔XX | 🔴 | trojan | @V2rayCollectorDonate | 17",
+                "🇮🇷IR | 🔴 | trojan | @V2rayCollectorDonate | 17",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 21",
                 "🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 0",
                 "🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 1",
@@ -848,7 +846,6 @@
                 "🇺🇸US | 🔴 | vless | @v2ray1_ng | 5",
                 "🇨🇭CH | 🔴 | vless | @v2ray1_ng | 6",
                 "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 7",
-                "🇳🇱NL | 🟢 | trojan | @v2ray1_ng | 8",
                 "🚩CF | 🔴 | vless | @vless_vmess | 0",
                 "🚩CF | 🔴 | vless | @vless_vmess | 1",
                 "🇬🇧GB | 🟢 | vless | @vless_vmess | 2",
@@ -937,7 +934,6 @@
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 5",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 0",
                 "🇺🇸US | 🟢 | vless | @flyv2ray | 4",
-                "🇺🇸US | 🔴 | vless | @nofiltering2 | 1",
                 "❔XX | 🔴 | vless | @vpn_go67 | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 1",
                 "❔XX | 🔴 | vless | @vpn_go67 | 3",
@@ -4372,7 +4368,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | trojan | @V2rayCollectorDonate | 17",
+            "tag": "🇮🇷IR | 🔴 | trojan | @V2rayCollectorDonate | 17",
             "type": "trojan",
             "server": "server2.cactusrobot.ir",
             "server_port": 8608,
@@ -7647,28 +7643,6 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | trojan | @v2ray1_ng | 8",
-            "type": "trojan",
-            "server": "94.131.20.3",
-            "server_port": 443,
-            "password": "3482c71a-d01c-4ae5-b454-fa8cb3785f66",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "chop-wrist-bud.stark-industries.solutions",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "🚩CF | 🔴 | vless | @vless_vmess | 0",
             "type": "vless",
             "server": "104.16.128.22",
@@ -9897,20 +9871,6 @@
                 "headers": {
                     "Host": "wwwspeedtestnetwhiteberinsistomd6625996s04.drlimit2.com"
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @nofiltering2 | 1",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8080,
-            "uuid": "afb042e7-452f-4912-8db1-26d7759aa150",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
