@@ -124,7 +124,7 @@ proxies:
   - {"name":"🇵🇱PL | 🟢 | ss | @DeamNet_Proxy | 6","type":"ss","server":"45.144.48.63","port":57456,"password":"d3837224ed465f00","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 7","type":"ss","server":"185.5.38.111","port":55988,"password":"T9VPet1fGhdb4JPmUS6SS5RNZ7NSgBvQNF4rkoQTdFhGWvmGedszfjBTgefmrQYhjhyB867P9RvyBQmtEjLUegm5CNymHC3i","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 8","type":"ss","server":"67.220.95.102","port":6379,"password":"zDNVedRFPQexG9v","cipher":"aes-256-gcm"}
-  - {"name":"🚩CF | 🟢 | ss | @DeamNet_Proxy | 11","type":"ss","server":"mx2.drawnrisha.one","port":55988,"password":"BpFieMT6SobpqRiKFefvYu7eXk99XfCeWfjpntzSh81FfMx9R7rJW6LTmzH78StTEhCd7w32ZMxbGJZS98gpn1ozr9jAbMoa","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 11","type":"ss","server":"mx2.drawnrisha.one","port":55988,"password":"BpFieMT6SobpqRiKFefvYu7eXk99XfCeWfjpntzSh81FfMx9R7rJW6LTmzH78StTEhCd7w32ZMxbGJZS98gpn1ozr9jAbMoa","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 12","type":"ss","server":"mx2.drawnrisha.one","port":55988,"password":"TvrwTiaD3nZnGyQkwLHexB7Kae6ZQ1naXn32651AWpTiPK23gNV9XjN42xaktTtGS5CE8r6tzjkBpr94ZXCX7cDEQi2Zk9Cp","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇻🇳VN | 🟢 | ss | @DeamNet_Proxy | 13","type":"ss","server":"160.19.78.75","port":443,"password":"Nk9asglDzHzjktVzTkvhaA","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 14","type":"ss","server":"mx2.drawnrisha.one","port":55988,"password":"yCpSJMYkFQepG4o4QNKyo7qotpREJzwS1bbkyHNauphrKgYUhU3BLE1nbAeTqYZh8rM9KRexnYNgEWBmtZH1rjxd2biDqXJM","cipher":"chacha20-ietf-poly1305"}
@@ -148,7 +148,7 @@ proxy-groups:
       - '🇵🇱PL | 🟢 | ss | @DeamNet_Proxy | 6'
       - '🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 7'
       - '🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 8'
-      - '🚩CF | 🟢 | ss | @DeamNet_Proxy | 11'
+      - '🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 11'
       - '🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 12'
       - '🇻🇳VN | 🟢 | ss | @DeamNet_Proxy | 13'
       - '🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 14'
@@ -172,7 +172,7 @@ proxy-groups:
       - '🇵🇱PL | 🟢 | ss | @DeamNet_Proxy | 6'
       - '🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 7'
       - '🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 8'
-      - '🚩CF | 🟢 | ss | @DeamNet_Proxy | 11'
+      - '🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 11'
       - '🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 12'
       - '🇻🇳VN | 🟢 | ss | @DeamNet_Proxy | 13'
       - '🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 14'
@@ -195,7 +195,7 @@ proxy-groups:
       - '🇵🇱PL | 🟢 | ss | @DeamNet_Proxy | 6'
       - '🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 7'
       - '🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 8'
-      - '🚩CF | 🟢 | ss | @DeamNet_Proxy | 11'
+      - '🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 11'
       - '🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 12'
       - '🇻🇳VN | 🟢 | ss | @DeamNet_Proxy | 13'
       - '🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 14'
