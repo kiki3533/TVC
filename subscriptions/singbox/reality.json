@@ -107,7 +107,8 @@
             "outbounds": [
                 "URL-TEST",
                 "🇳🇱NL | 🟢 | vless | @Parsashonam | 0",
-                "🇩🇪DE | 🔴 | vless | @ipV2Ray | 6",
+                "🇳🇱NL | 🟢 | vless | @Parsashonam | 3",
+                "❔XX | 🔴 | vless | @ipV2Ray | 6",
                 "🇩🇪DE | 🔴 | vless | @ARv2ray | 0",
                 "🇩🇪DE | 🟢 | vless | @CUSTOMVPNSERVER | 9",
                 "🇩🇪DE | 🟢 | vless | @CUSTOMVPNSERVER | 12",
@@ -116,7 +117,7 @@
                 "❔XX | 🟢 | vless | @V2rayCollectorDonate | 9",
                 "🇩🇪DE | 🔴 | vless | @prrofile_purple | 107",
                 "🇩🇪DE | 🔴 | vless | @prrofile_purple | 108",
-                "🇩🇪DE | 🟢 | vless | @prrofile_purple | 109",
+                "❔XX | 🟢 | vless | @prrofile_purple | 109",
                 "❔XX | 🟢 | vless | @prrofile_purple | 111",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 117",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 125",
@@ -157,7 +158,8 @@
             "type": "urltest",
             "outbounds": [
                 "🇳🇱NL | 🟢 | vless | @Parsashonam | 0",
-                "🇩🇪DE | 🔴 | vless | @ipV2Ray | 6",
+                "🇳🇱NL | 🟢 | vless | @Parsashonam | 3",
+                "❔XX | 🔴 | vless | @ipV2Ray | 6",
                 "🇩🇪DE | 🔴 | vless | @ARv2ray | 0",
                 "🇩🇪DE | 🟢 | vless | @CUSTOMVPNSERVER | 9",
                 "🇩🇪DE | 🟢 | vless | @CUSTOMVPNSERVER | 12",
@@ -166,7 +168,7 @@
                 "❔XX | 🟢 | vless | @V2rayCollectorDonate | 9",
                 "🇩🇪DE | 🔴 | vless | @prrofile_purple | 107",
                 "🇩🇪DE | 🔴 | vless | @prrofile_purple | 108",
-                "🇩🇪DE | 🟢 | vless | @prrofile_purple | 109",
+                "❔XX | 🟢 | vless | @prrofile_purple | 109",
                 "❔XX | 🟢 | vless | @prrofile_purple | 111",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 117",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 125",
@@ -226,6 +228,35 @@
             "type": "vless",
             "server": "193.124.49.40",
             "server_port": 443,
+            "uuid": "Parsashonam-255",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "miro.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "LvhboN12zGLBdlvVLEhSbl0ad_lijW1-D_TTP5n9UlE",
+                    "short_id": "360557aa"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | 🟢 | vless | @Parsashonam | 3",
+            "type": "vless",
+            "server": "193.124.49.40",
+            "server_port": 443,
             "uuid": "Parsashonam-254",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
@@ -251,7 +282,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ipV2Ray | 6",
+            "tag": "❔XX | 🔴 | vless | @ipV2Ray | 6",
             "type": "vless",
             "server": "www.speedtest-divar.ir",
             "server_port": 443,
@@ -554,7 +585,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @prrofile_purple | 109",
+            "tag": "❔XX | 🟢 | vless | @prrofile_purple | 109",
             "type": "vless",
             "server": "public.misvn.ir",
             "server_port": 443,
