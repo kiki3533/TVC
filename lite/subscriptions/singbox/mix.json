@@ -160,8 +160,8 @@
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "❔XX | 🔴 | vless | @free1_vpn | 5",
                 "🇬🇧GB | 🟢 | vless | @free1_vpn | 6",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 6",
-                "🇯🇵JP | 🟢 | vmess | @Hope_Net | 7",
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 10",
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 11",
                 "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 2",
                 "🇫🇮FI | 🔴 | vless | @Outlinev2rayNG | 3",
                 "🇸🇬SG | 🔴 | vless | @FreakConfig | 7",
@@ -173,8 +173,8 @@
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇺🇸US | 🔴 | vless | @GozargahVPN | 0",
-                "❔XX | 🟢 | vless | @SvnTeam | 3",
-                "❔XX | 🟢 | vless | @SvnTeam | 4",
+                "🇩🇪DE | 🟢 | vless | @SvnTeam | 3",
+                "🇩🇪DE | 🟢 | vless | @SvnTeam | 4",
                 "🇷🇺RU | 🔴 | vless | @V2FETCH | 0",
                 "❔XX | 🔴 | vless | @VpnSkyy | 2",
                 "❔XX | 🔴 | vless | @VpnSkyy | 3"
@@ -238,8 +238,8 @@
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "❔XX | 🔴 | vless | @free1_vpn | 5",
                 "🇬🇧GB | 🟢 | vless | @free1_vpn | 6",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 6",
-                "🇯🇵JP | 🟢 | vmess | @Hope_Net | 7",
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 10",
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 11",
                 "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 2",
                 "🇫🇮FI | 🔴 | vless | @Outlinev2rayNG | 3",
                 "🇸🇬SG | 🔴 | vless | @FreakConfig | 7",
@@ -251,8 +251,8 @@
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇺🇸US | 🔴 | vless | @GozargahVPN | 0",
-                "❔XX | 🟢 | vless | @SvnTeam | 3",
-                "❔XX | 🟢 | vless | @SvnTeam | 4",
+                "🇩🇪DE | 🟢 | vless | @SvnTeam | 3",
+                "🇩🇪DE | 🟢 | vless | @SvnTeam | 4",
                 "🇷🇺RU | 🔴 | vless | @V2FETCH | 0",
                 "❔XX | 🔴 | vless | @VpnSkyy | 2",
                 "❔XX | 🔴 | vless | @VpnSkyy | 3"
@@ -1433,11 +1433,11 @@
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 6",
+            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 10",
             "type": "vmess",
-            "server": "04c77dd5-sux8g0-sv9of9-lys7.cm5.p5pv.com",
-            "server_port": 17235,
-            "uuid": "18c0664c-74f1-11ee-b51e-f23c9164ca5d",
+            "server": "e890417c-svc1s0-t1bnjq-1krtb.cu.plebai.net",
+            "server_port": 5229,
+            "uuid": "60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1450,11 +1450,11 @@
             }
         },
         {
-            "tag": "🇯🇵JP | 🟢 | vmess | @Hope_Net | 7",
+            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 11",
             "type": "vmess",
-            "server": "47.74.41.147",
-            "server_port": 53893,
-            "uuid": "07287360-e12f-4f94-9c7a-54386c100d8a",
+            "server": "0e8845d1-suk9s0-sve5if-z93q.cm5.p5pv.com",
+            "server_port": 17233,
+            "uuid": "40639730-e027-11ea-87ad-f23c913c8d2b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1733,7 +1733,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @SvnTeam | 3",
+            "tag": "🇩🇪DE | 🟢 | vless | @SvnTeam | 3",
             "type": "vless",
             "server": "SVNTEAM.MiSVN.iR",
             "server_port": 443,
@@ -1762,7 +1762,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @SvnTeam | 4",
+            "tag": "🇩🇪DE | 🟢 | vless | @SvnTeam | 4",
             "type": "vless",
             "server": "SVNTEAM.MiSVN.iR",
             "server_port": 443,
