@@ -150,7 +150,7 @@
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 4",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 5",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 6",
-                "❔XX | 🔴 | vless | @ipV2Ray | 7",
+                "🇩🇪DE | 🔴 | vless | @ipV2Ray | 7",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 8",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 1",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 4",
@@ -245,7 +245,7 @@
                 "🇦🇹AT | 🟢 | vless | @prrofile_purple | 96",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 98",
                 "❔XX | 🔴 | vless | @prrofile_purple | 99",
-                "🇩🇪DE | 🔴 | vless | @prrofile_purple | 100",
+                "❔XX | 🔴 | vless | @prrofile_purple | 100",
                 "🇺🇸US | 🟢 | vless | @prrofile_purple | 101",
                 "🇨🇿CZ | 🔴 | vless | @prrofile_purple | 102",
                 "🇨🇿CZ | 🔴 | vless | @prrofile_purple | 104",
@@ -363,7 +363,6 @@
                 "🇬🇧GB | 🟢 | vless | @free1_vpn | 7",
                 "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 1",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 2",
-                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 3",
                 "🇩🇪DE | 🔴 | vless | @FreakConfig | 0",
                 "🇬🇧GB | 🟢 | vless | @FreakConfig | 5",
                 "🇬🇧GB | 🔴 | vless | @FreakConfig | 6",
@@ -463,7 +462,7 @@
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 4",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 5",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 6",
-                "❔XX | 🔴 | vless | @ipV2Ray | 7",
+                "🇩🇪DE | 🔴 | vless | @ipV2Ray | 7",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 8",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 1",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 4",
@@ -558,7 +557,7 @@
                 "🇦🇹AT | 🟢 | vless | @prrofile_purple | 96",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 98",
                 "❔XX | 🔴 | vless | @prrofile_purple | 99",
-                "🇩🇪DE | 🔴 | vless | @prrofile_purple | 100",
+                "❔XX | 🔴 | vless | @prrofile_purple | 100",
                 "🇺🇸US | 🟢 | vless | @prrofile_purple | 101",
                 "🇨🇿CZ | 🔴 | vless | @prrofile_purple | 102",
                 "🇨🇿CZ | 🔴 | vless | @prrofile_purple | 104",
@@ -676,7 +675,6 @@
                 "🇬🇧GB | 🟢 | vless | @free1_vpn | 7",
                 "🇳🇱NL | 🔴 | vless | @Outlinev2rayNG | 1",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 2",
-                "🚩CF | 🔴 | vless | @Outlinev2rayNG | 3",
                 "🇩🇪DE | 🔴 | vless | @FreakConfig | 0",
                 "🇬🇧GB | 🟢 | vless | @FreakConfig | 5",
                 "🇬🇧GB | 🔴 | vless | @FreakConfig | 6",
@@ -1771,7 +1769,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @ipV2Ray | 7",
+            "tag": "🇩🇪DE | 🔴 | vless | @ipV2Ray | 7",
             "type": "vless",
             "server": "www.speedtest-divar.ir",
             "server_port": 443,
@@ -3964,7 +3962,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @prrofile_purple | 100",
+            "tag": "❔XX | 🔴 | vless | @prrofile_purple | 100",
             "type": "vless",
             "server": "vpntv29293.erfantop.ir",
             "server_port": 192,
@@ -6854,27 +6852,6 @@
                 "path": "\/?ed=2560",
                 "headers": {
                     "Host": "oops.shalamshorba.dpdns.org"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🔴 | vless | @Outlinev2rayNG | 3",
-            "type": "vless",
-            "server": "172.67.17.195",
-            "server_port": 80,
-            "uuid": "6f690965-3be3-43bb-9331-3ead6efb20aa",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed=2560",
-                "headers": {
-                    "Host": "172.67.17.195"
                 }
             }
         },
