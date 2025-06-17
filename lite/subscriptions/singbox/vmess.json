@@ -110,8 +110,8 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 15",
-                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 16"
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 13",
+                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 14"
             ]
         },
         {
@@ -122,8 +122,8 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 15",
-                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 16"
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 13",
+                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 14"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -238,11 +238,11 @@
             }
         },
         {
-            "tag": "🇭🇰HK | 🟢 | vmess | @Hope_Net | 15",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 13",
             "type": "vmess",
-            "server": "5f1740da-sv2sg0-sypd5t-m7yx.hk3.p5pv.com",
+            "server": "62f214f4-sv4n40-sx8o7m-89x.lzb.plebai.net",
             "server_port": 80,
-            "uuid": "d57803f0-47e4-fc72-e44b-8a62ddedecd9",
+            "uuid": "d507f0a8-049d-11f0-90e2-f23c913c8d2b",
             "security": "auto",
             "alter_id": 2,
             "global_padding": false,
@@ -257,16 +257,16 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "5f1740da-sv2sg0-sypd5t-m7yx.hk3.p5pv.com"
+                    "Host": "62f214f4-sv4n40-sx8o7m-89x.lzb.plebai.net"
                 }
             }
         },
         {
-            "tag": "🇭🇰HK | 🟢 | vmess | @Hope_Net | 16",
+            "tag": "🇭🇰HK | 🟢 | vmess | @Hope_Net | 14",
             "type": "vmess",
-            "server": "74405b85-sv2sg0-swe9sq-9jj.hk3.p5pv.com",
+            "server": "e5ff06b5-sv0xs0-tcvree-129gb.hk3.p5pv.com",
             "server_port": 80,
-            "uuid": "7ef80274-d51f-5247-480a-f269a7c36b39",
+            "uuid": "88994e12-009f-11eb-8684-f23c913c8d2b",
             "security": "auto",
             "alter_id": 2,
             "global_padding": false,
@@ -281,7 +281,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "74405b85-sv2sg0-swe9sq-9jj.hk3.p5pv.com"
+                    "Host": "e5ff06b5-sv0xs0-tcvree-129gb.hk3.p5pv.com"
                 }
             }
         }
