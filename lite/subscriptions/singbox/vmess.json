@@ -108,11 +108,10 @@
                 "URL-TEST",
                 "🇩🇪DE | 🟢 | vmess | @CUSTOMVPNSERVER | 15",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇭🇰HK | 🟢 | vmess | @Hope_Net | 9",
-                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 10"
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 10"
             ]
         },
         {
@@ -121,11 +120,10 @@
             "outbounds": [
                 "🇩🇪DE | 🟢 | vmess | @CUSTOMVPNSERVER | 15",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇭🇰HK | 🟢 | vmess | @Hope_Net | 9",
-                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 10"
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 10"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -179,40 +177,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 17",
-            "type": "vmess",
-            "server": "104.21.96.1",
-            "server_port": 443,
-            "uuid": "db69d5bc-d36c-4903-f471-74b98c5cefe5",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hk2.lrzdx.uk",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/register",
-                "headers": {
-                    "Host": "hk2.lrzdx.uk"
-                }
             }
         },
         {
@@ -276,9 +240,9 @@
         {
             "tag": "🇭🇰HK | 🟢 | vmess | @Hope_Net | 9",
             "type": "vmess",
-            "server": "36fd9536-sv4n40-swudbv-df1b.hgc1.tcpbbr.net",
+            "server": "183cb398-sv6hs0-tdzlqm-1h1y5.hk.p5pv.com",
             "server_port": 80,
-            "uuid": "9b94a182-5a1b-11ee-b866-f23c9164ca5d",
+            "uuid": "ef332c4a-a21b-11ed-9765-f23c9164ca5d",
             "security": "auto",
             "alter_id": 2,
             "global_padding": false,
@@ -293,16 +257,16 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "36fd9536-sv4n40-swudbv-df1b.hgc1.tcpbbr.net"
+                    "Host": "183cb398-sv6hs0-tdzlqm-1h1y5.hk.p5pv.com"
                 }
             }
         },
         {
-            "tag": "🇭🇰HK | 🟢 | vmess | @Hope_Net | 10",
+            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 10",
             "type": "vmess",
-            "server": "f236416d-sv2sg0-t9zk7e-v1dr.hgc1.tcpbbr.net",
-            "server_port": 80,
-            "uuid": "0bf1ce74-f82f-11ec-9fad-f23c91cfbbc9",
+            "server": "v6.heduian.link",
+            "server_port": 30806,
+            "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
             "security": "auto",
             "alter_id": 2,
             "global_padding": false,
@@ -315,9 +279,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/oooo",
                 "headers": {
-                    "Host": "f236416d-sv2sg0-t9zk7e-v1dr.hgc1.tcpbbr.net"
+                    "Host": "v6.heduian.link"
                 }
             }
         }
