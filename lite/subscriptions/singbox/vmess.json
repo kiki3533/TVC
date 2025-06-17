@@ -110,8 +110,8 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 13",
-                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 14"
+                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 15",
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 16"
             ]
         },
         {
@@ -122,8 +122,8 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 13",
-                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 14"
+                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 15",
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 16"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -238,11 +238,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 13",
+            "tag": "🇭🇰HK | 🟢 | vmess | @Hope_Net | 15",
             "type": "vmess",
-            "server": "62f214f4-sv4n40-sx8o7m-89x.lzb.plebai.net",
+            "server": "9d99030e-sv8cg0-syx1ku-1o8ak.hk.p5pv.com",
             "server_port": 80,
-            "uuid": "d507f0a8-049d-11f0-90e2-f23c913c8d2b",
+            "uuid": "8bb68d04-6973-11ee-b518-f23c9164ca5d",
             "security": "auto",
             "alter_id": 2,
             "global_padding": false,
@@ -257,18 +257,18 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "62f214f4-sv4n40-sx8o7m-89x.lzb.plebai.net"
+                    "Host": "9d99030e-sv8cg0-syx1ku-1o8ak.hk.p5pv.com"
                 }
             }
         },
         {
-            "tag": "🇭🇰HK | 🟢 | vmess | @Hope_Net | 14",
+            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 16",
             "type": "vmess",
-            "server": "e5ff06b5-sv0xs0-tcvree-129gb.hk3.p5pv.com",
-            "server_port": 80,
-            "uuid": "88994e12-009f-11eb-8684-f23c913c8d2b",
+            "server": "xdd.dashuai.cyou",
+            "server_port": 45075,
+            "uuid": "e1936af5-c58e-4c19-a05e-7c264aee49f2",
             "security": "auto",
-            "alter_id": 2,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -276,13 +276,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "e5ff06b5-sv0xs0-tcvree-129gb.hk3.p5pv.com"
-                }
             }
         }
     ],
