@@ -110,8 +110,8 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 11",
-                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 12"
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 14",
+                "🇳🇱NL | 🟢 | vmess | @Hope_Net | 15"
             ]
         },
         {
@@ -122,8 +122,8 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 11",
-                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 12"
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 14",
+                "🇳🇱NL | 🟢 | vmess | @Hope_Net | 15"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -238,11 +238,11 @@
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 11",
+            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 14",
             "type": "vmess",
-            "server": "0496335c-sux8g0-swbudg-1mzwj.cm5.p5pv.com",
-            "server_port": 17231,
-            "uuid": "a203d80e-10fe-11ef-88a6-f23c9164ca5d",
+            "server": "183.236.51.38",
+            "server_port": 41291,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -255,11 +255,11 @@
             }
         },
         {
-            "tag": "🇭🇰HK | 🟢 | vmess | @Hope_Net | 12",
+            "tag": "🇳🇱NL | 🟢 | vmess | @Hope_Net | 15",
             "type": "vmess",
-            "server": "xb-vm-hk.718181.xyz",
-            "server_port": 16892,
-            "uuid": "2426b3d5-f377-44ca-a1d2-c527ef52c67f",
+            "server": "89.18.56.249",
+            "server_port": 180,
+            "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -269,13 +269,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "xb-vm-hk.718181.xyz"
-                }
             }
         }
     ],
