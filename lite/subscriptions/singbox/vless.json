@@ -106,13 +106,13 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | 🔴 | vless | @Parsashonam | 10",
-                "🇸🇪SE | 🔴 | vless | @Parsashonam | 11",
+                "🇨🇦CA | 🔴 | vless | @Parsashonam | 8",
+                "🇸🇪SE | 🔴 | vless | @Parsashonam | 9",
                 "🇨🇦CA | 🔴 | vless | @v2_team | 1",
                 "🇮🇷IR | 🔴 | vless | @v2_team | 2",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 1",
-                "🇫🇷FR | 🔴 | vless | @VlessConfig | 16",
-                "🇩🇪DE | 🔴 | vless | @VlessConfig | 17",
+                "🇩🇪DE | 🔴 | vless | @VlessConfig | 18",
+                "🇩🇪DE | 🔴 | vless | @VlessConfig | 19",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 8",
                 "🇩🇪DE | 🔴 | vless | @ipV2Ray | 9",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 14",
@@ -170,13 +170,13 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | 🔴 | vless | @Parsashonam | 10",
-                "🇸🇪SE | 🔴 | vless | @Parsashonam | 11",
+                "🇨🇦CA | 🔴 | vless | @Parsashonam | 8",
+                "🇸🇪SE | 🔴 | vless | @Parsashonam | 9",
                 "🇨🇦CA | 🔴 | vless | @v2_team | 1",
                 "🇮🇷IR | 🔴 | vless | @v2_team | 2",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 1",
-                "🇫🇷FR | 🔴 | vless | @VlessConfig | 16",
-                "🇩🇪DE | 🔴 | vless | @VlessConfig | 17",
+                "🇩🇪DE | 🔴 | vless | @VlessConfig | 18",
+                "🇩🇪DE | 🔴 | vless | @VlessConfig | 19",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 8",
                 "🇩🇪DE | 🔴 | vless | @ipV2Ray | 9",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 14",
@@ -250,11 +250,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @Parsashonam | 10",
+            "tag": "🇨🇦CA | 🔴 | vless | @Parsashonam | 8",
             "type": "vless",
             "server": "104.23.126.162",
             "server_port": 2052,
-            "uuid": "Parsashonam-256",
+            "uuid": "Parsashonam-257",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -264,11 +264,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | @Parsashonam | 11",
+            "tag": "🇸🇪SE | 🔴 | vless | @Parsashonam | 9",
             "type": "vless",
             "server": "185.146.173.39",
             "server_port": 8880,
-            "uuid": "Parsashonam-256",
+            "uuid": "Parsashonam-257",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -320,9 +320,9 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🔴 | vless | @VlessConfig | 16",
+            "tag": "🇩🇪DE | 🔴 | vless | @VlessConfig | 18",
             "type": "vless",
-            "server": "13.36.8.60",
+            "server": "18.156.138.162",
             "server_port": 22224,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -351,9 +351,9 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @VlessConfig | 17",
+            "tag": "🇩🇪DE | 🔴 | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "18.156.138.162",
+            "server": "3.124.169.204",
             "server_port": 22224,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -558,7 +558,7 @@
             "type": "vless",
             "server": "151.101.64.155",
             "server_port": 80,
-            "uuid": "4690de53-98ac-451c-836e-398645ea5615",
+            "uuid": "2302c824-6a71-4ed0-b784-5191c2e773a4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -579,7 +579,7 @@
             "type": "vless",
             "server": "151.101.64.155",
             "server_port": 80,
-            "uuid": "823b79de-822d-45d0-98d6-3bc35c43a2ee",
+            "uuid": "4690de53-98ac-451c-836e-398645ea5615",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
