@@ -106,8 +106,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | 🔴 | vless | @Parsashonam | 8",
-                "🇸🇪SE | 🔴 | vless | @Parsashonam | 9",
+                "🇨🇦CA | 🔴 | vless | @Parsashonam | 9",
+                "🇸🇪SE | 🔴 | vless | @Parsashonam | 10",
                 "🇨🇦CA | 🔴 | vless | @v2_team | 1",
                 "🇮🇷IR | 🔴 | vless | @v2_team | 2",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 1",
@@ -168,8 +168,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | 🔴 | vless | @Parsashonam | 8",
-                "🇸🇪SE | 🔴 | vless | @Parsashonam | 9",
+                "🇨🇦CA | 🔴 | vless | @Parsashonam | 9",
+                "🇸🇪SE | 🔴 | vless | @Parsashonam | 10",
                 "🇨🇦CA | 🔴 | vless | @v2_team | 1",
                 "🇮🇷IR | 🔴 | vless | @v2_team | 2",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 1",
@@ -246,7 +246,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @Parsashonam | 8",
+            "tag": "🇨🇦CA | 🔴 | vless | @Parsashonam | 9",
             "type": "vless",
             "server": "104.23.126.162",
             "server_port": 2052,
@@ -260,7 +260,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | @Parsashonam | 9",
+            "tag": "🇸🇪SE | 🔴 | vless | @Parsashonam | 10",
             "type": "vless",
             "server": "185.146.173.39",
             "server_port": 8880,
