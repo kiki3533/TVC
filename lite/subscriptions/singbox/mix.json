@@ -157,8 +157,8 @@
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇷🇺RU | 🔴 | vless | @free1_vpn | 6",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 7",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 5",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 1",
@@ -234,8 +234,8 @@
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇷🇺RU | 🔴 | vless | @free1_vpn | 6",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 7",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 5",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 1",
@@ -1440,11 +1440,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
             "type": "vmess",
-            "server": "64.32.13.244",
+            "server": "0ffb2ad4-supts0-swdlq9-g53t.lza.plebai.net",
             "server_port": 7612,
-            "uuid": "7e64224c-4c10-11ec-bd7c-f23c913c8d2b",
+            "uuid": "b778e4ae-1458-11ec-a8bf-f23c91cfbbc9",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1459,16 +1459,16 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "64.32.13.244"
+                    "Host": "0ffb2ad4-supts0-swdlq9-g53t.lza.plebai.net"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
             "type": "vmess",
-            "server": "1743919941.tencentapp.cn",
-            "server_port": 2053,
-            "uuid": "3bb3c730-e107-49c5-a0b2-b576d1b26a5e",
+            "server": "172.67.220.83",
+            "server_port": 443,
+            "uuid": "39cec18f-a439-427c-9a4e-aeb6fcdf6f53",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1481,7 +1481,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "1743919941.tencentapp.cn",
+                "server_name": "172.67.220.83",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1491,9 +1491,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "1743919941.tencentapp.cn"
+                    "Host": "172.67.220.83"
                 }
             }
         },
