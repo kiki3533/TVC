@@ -136,7 +136,7 @@
                 "🇹🇼TW | 🟢 | vless | @ShadowSocks_s | 1",
                 "🇩🇪DE | 🟢 | vless | @ShadowSocks_s | 2",
                 "🇮🇷IR | 🔴 | vless | @vmessorg | 3",
-                "🇮🇷IR | 🔴 | vless | @vmessorg | 4",
+                "❔XX | 🔴 | vless | @vmessorg | 4",
                 "🇮🇷IR | 🔴 | vless | @v2rayNG_Matsuri | 5",
                 "🇮🇷IR | 🔴 | vless | @v2rayNG_Matsuri | 6",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 0",
@@ -151,14 +151,15 @@
                 "❔XX | 🔴 | vless | @MTConfig | 9",
                 "🇬🇧GB | 🔴 | vless | @lrnbymaa | 2",
                 "❔XX | 🔴 | vless | @lrnbymaa | 3",
+                "🇩🇪DE | 🔴 | vless | @v2ray_vpn_ir | 1",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 3",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 4",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 5",
                 "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 14",
-                "🇩🇪DE | 🔴 | vless | @Capoit | 0",
+                "🇺🇸US | 🔴 | vless | @Capoit | 0",
+                "🇩🇪DE | 🔴 | vless | @Capoit | 1",
                 "❔XX | 🔴 | vless | @FreakConfig | 1",
-                "🇮🇷IR | 🔴 | vless | @flyv2ray | 11",
                 "🇮🇷IR | 🔴 | vless | @nofiltering2 | 3",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -201,7 +202,7 @@
                 "🇹🇼TW | 🟢 | vless | @ShadowSocks_s | 1",
                 "🇩🇪DE | 🟢 | vless | @ShadowSocks_s | 2",
                 "🇮🇷IR | 🔴 | vless | @vmessorg | 3",
-                "🇮🇷IR | 🔴 | vless | @vmessorg | 4",
+                "❔XX | 🔴 | vless | @vmessorg | 4",
                 "🇮🇷IR | 🔴 | vless | @v2rayNG_Matsuri | 5",
                 "🇮🇷IR | 🔴 | vless | @v2rayNG_Matsuri | 6",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 0",
@@ -216,14 +217,15 @@
                 "❔XX | 🔴 | vless | @MTConfig | 9",
                 "🇬🇧GB | 🔴 | vless | @lrnbymaa | 2",
                 "❔XX | 🔴 | vless | @lrnbymaa | 3",
+                "🇩🇪DE | 🔴 | vless | @v2ray_vpn_ir | 1",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 3",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 4",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 4",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 5",
                 "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 14",
-                "🇩🇪DE | 🔴 | vless | @Capoit | 0",
+                "🇺🇸US | 🔴 | vless | @Capoit | 0",
+                "🇩🇪DE | 🔴 | vless | @Capoit | 1",
                 "❔XX | 🔴 | vless | @FreakConfig | 1",
-                "🇮🇷IR | 🔴 | vless | @flyv2ray | 11",
                 "🇮🇷IR | 🔴 | vless | @nofiltering2 | 3",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -903,29 +905,43 @@
         {
             "tag": "🇮🇷IR | 🔴 | vless | @vmessorg | 3",
             "type": "vless",
-            "server": "sv2.tikoserver.com",
-            "server_port": 31982,
-            "uuid": "8e7ac060-8523-4d06-a9d7-d7fa878b2ff6",
+            "server": "snapp.ir",
+            "server_port": 80,
+            "uuid": "e3c249a9-0105-41ed-f8ec-cc26a75a85b0",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/op\/TOP\/Shopy",
+                "headers": {
+                    "Host": "snapp.ir"
+                }
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @vmessorg | 4",
+            "tag": "❔XX | 🔴 | vless | @vmessorg | 4",
             "type": "vless",
-            "server": "netorg.nightwolf.shop",
-            "server_port": 53769,
-            "uuid": "74e0f9b9-e7d4-400c-bcc3-cc0fbdf7bc58",
+            "server": "ccad1.vipsell-one.ir",
+            "server_port": 443,
+            "uuid": "8214a3c7-23d5-4168-8754-c1ad8c9ad71d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ALB\/VIPSell\/",
+                "headers": {
+                    "Host": "ccad1.vipsell-one.ir"
+                }
             }
         },
         {
@@ -1241,6 +1257,27 @@
             }
         },
         {
+            "tag": "🇩🇪DE | 🔴 | vless | @v2ray_vpn_ir | 1",
+            "type": "vless",
+            "server": "102.177.176.213",
+            "server_port": 8880,
+            "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "102.177.176.213"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🔴 | vless | @free1_vpn | 3",
             "type": "vless",
             "server": "104.24.56.187",
@@ -1359,7 +1396,28 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @Capoit | 0",
+            "tag": "🇺🇸US | 🔴 | vless | @Capoit | 0",
+            "type": "vless",
+            "server": "biography.com",
+            "server_port": 80,
+            "uuid": "bc52c632-5549-4f23-9037-27d7d8c2cec6",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/download",
+                "headers": {
+                    "Host": "biography.com"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @Capoit | 1",
             "type": "vless",
             "server": "102.177.176.247",
             "server_port": 8880,
@@ -1400,27 +1458,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🔴 | vless | @flyv2ray | 11",
-            "type": "vless",
-            "server": "post.filemanagerplusonline.com",
-            "server_port": 1212,
-            "uuid": "6a4194f7-4e5d-4f0e-9b93-9c6593ae2dea",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "post.filemanagerplusonline.com"
                 }
             }
         },
