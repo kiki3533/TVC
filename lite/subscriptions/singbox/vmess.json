@@ -110,8 +110,8 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 8",
-                "❔XX | 🟢 | vmess | @Hope_Net | 9"
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 13",
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 14"
             ]
         },
         {
@@ -122,8 +122,8 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 8",
-                "❔XX | 🟢 | vmess | @Hope_Net | 9"
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 13",
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 14"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -238,11 +238,11 @@
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 8",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 13",
             "type": "vmess",
-            "server": "183.236.51.38",
-            "server_port": 51039,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "server": "s2.db-link02.top",
+            "server_port": 2052,
+            "uuid": "4b36625c-b9d9-3ea6-aed5-86d62c70e16d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -252,16 +252,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "s2.db-link02.top"
+                }
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 9",
+            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 14",
             "type": "vmess",
-            "server": "ny05.890603.xyz",
-            "server_port": 443,
-            "uuid": "a1925233-669e-4068-b740-d77f41986c43",
+            "server": "tk.hzlt.tkddns.xyz",
+            "server_port": 22642,
+            "uuid": "98e96c9f-4bb3-39d4-9a2c-fac04257f7c7",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 2,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -272,7 +279,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "ny05.890603.xyz",
+                "server_name": "tk.hzlt.tkddns.xyz",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -282,9 +289,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/K5rR8fBY26DxDtOnU",
+                "path": "\/",
                 "headers": {
-                    "Host": "ny05.890603.xyz"
+                    "Host": "tk.hzlt.tkddns.xyz"
                 }
             }
         }
