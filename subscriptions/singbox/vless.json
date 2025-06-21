@@ -352,8 +352,6 @@
                 "🇩🇪DE | 🔴 | vless | @Capoit | 8",
                 "❔XX | 🔴 | vless | @FreakConfig | 0",
                 "🇬🇧GB | 🟢 | vless | @FreakConfig | 5",
-                "🇬🇧GB | 🔴 | vless | @FreakConfig | 6",
-                "🇸🇬SG | 🔴 | vless | @FreakConfig | 7",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 0",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 1",
                 "🇮🇷IR | 🔴 | vless | @flyv2ray | 2",
@@ -644,8 +642,6 @@
                 "🇩🇪DE | 🔴 | vless | @Capoit | 8",
                 "❔XX | 🔴 | vless | @FreakConfig | 0",
                 "🇬🇧GB | 🟢 | vless | @FreakConfig | 5",
-                "🇬🇧GB | 🔴 | vless | @FreakConfig | 6",
-                "🇸🇬SG | 🔴 | vless | @FreakConfig | 7",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 0",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 1",
                 "🇮🇷IR | 🔴 | vless | @flyv2ray | 2",
@@ -6675,41 +6671,6 @@
                     "public_key": "eb0fWFAevT3a_BqrfJ2dLhY_Hv910o9LSmaumdZpIyQ",
                     "short_id": "f8a537"
                 }
-            }
-        },
-        {
-            "tag": "🇬🇧GB | 🔴 | vless | @FreakConfig | 6",
-            "type": "vless",
-            "server": "185.162.229.205",
-            "server_port": 80,
-            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram:@vpnAndroid2\/?ed=2560",
-                "headers": {
-                    "Host": "185.162.229.205"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇬SG | 🔴 | vless | @FreakConfig | 7",
-            "type": "vless",
-            "server": "43.156.217.68",
-            "server_port": 41283,
-            "uuid": "4839e0b9-b275-47ea-81ab-9bfd38bbe7af",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
