@@ -109,8 +109,8 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 2",
-                "🇫🇷FR | 🟢 | vmess | @Hope_Net | 3"
+                "🇸🇬SG | 🟢 | vmess | @Hope_Net | 5",
+                "❔XX | 🟢 | vmess | @Hope_Net | 6"
             ]
         },
         {
@@ -120,8 +120,8 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 2",
-                "🇫🇷FR | 🟢 | vmess | @Hope_Net | 3"
+                "🇸🇬SG | 🟢 | vmess | @Hope_Net | 5",
+                "❔XX | 🟢 | vmess | @Hope_Net | 6"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -219,11 +219,11 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vmess | @Hope_Net | 2",
+            "tag": "🇸🇬SG | 🟢 | vmess | @Hope_Net | 5",
             "type": "vmess",
-            "server": "185.22.152.236",
-            "server_port": 23009,
-            "uuid": "a940fa03-5c1a-40d2-a9a3-329b724a5076",
+            "server": "217.142.187.61",
+            "server_port": 23452,
+            "uuid": "150a990b-3a9b-4742-866a-8e1611faf316",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -238,16 +238,16 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": ""
+                    "Host": "217.142.187.61"
                 }
             }
         },
         {
-            "tag": "🇫🇷FR | 🟢 | vmess | @Hope_Net | 3",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 6",
             "type": "vmess",
-            "server": "149.202.50.34",
+            "server": "127.0.0.1",
             "server_port": 8080,
-            "uuid": "957b418c-e637-5045-a5a2-7ef6b2fd683b",
+            "uuid": "baaccba-baca-baac-acbd-caacbbcababc",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
