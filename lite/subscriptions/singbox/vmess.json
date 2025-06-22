@@ -109,8 +109,8 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇸🇬SG | 🟢 | vmess | @Hope_Net | 6",
-                "🇸🇬SG | 🟢 | vmess | @Hope_Net | 7"
+                "❔XX | 🟢 | vmess | @Hope_Net | 6",
+                "❔XX | 🟢 | vmess | @Hope_Net | 7"
             ]
         },
         {
@@ -120,8 +120,8 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇸🇬SG | 🟢 | vmess | @Hope_Net | 6",
-                "🇸🇬SG | 🟢 | vmess | @Hope_Net | 7"
+                "❔XX | 🟢 | vmess | @Hope_Net | 6",
+                "❔XX | 🟢 | vmess | @Hope_Net | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -219,11 +219,11 @@
             }
         },
         {
-            "tag": "🇸🇬SG | 🟢 | vmess | @Hope_Net | 6",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 6",
             "type": "vmess",
-            "server": "217.142.187.61",
-            "server_port": 23452,
-            "uuid": "7f66aa9a-86e1-4ce4-896b-b4877f67f48a",
+            "server": "127.0.0.1",
+            "server_port": 1080,
+            "uuid": "bacbcaa-acab-baac-adbc-cbcbacaaacbb",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -233,21 +233,14 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "westsg2-ddns.oraclenat.cc"
-                }
             }
         },
         {
-            "tag": "🇸🇬SG | 🟢 | vmess | @Hope_Net | 7",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "217.142.187.61",
-            "server_port": 23452,
-            "uuid": "150a990b-3a9b-4742-866a-8e1611faf316",
+            "server": "127.0.0.1",
+            "server_port": 2080,
+            "uuid": "aabcbca-abac-baac-acdb-acacbabacbbc",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -257,13 +250,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "217.142.187.61"
-                }
             }
         }
     ],
