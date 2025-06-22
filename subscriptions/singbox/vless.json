@@ -307,7 +307,6 @@
                 "🇮🇷IR | 🔴 | vless | @free1_vpn | 1",
                 "🇩🇪DE | 🔴 | vless | @free1_vpn | 2",
                 "🚩CF | 🔴 | vless | @free1_vpn | 3",
-                "🚩CF | 🔴 | vless | @free1_vpn | 4",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 1",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 2",
@@ -566,7 +565,6 @@
                 "🇮🇷IR | 🔴 | vless | @free1_vpn | 1",
                 "🇩🇪DE | 🔴 | vless | @free1_vpn | 2",
                 "🚩CF | 🔴 | vless | @free1_vpn | 3",
-                "🚩CF | 🔴 | vless | @free1_vpn | 4",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 1",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 2",
@@ -5586,27 +5584,6 @@
                 "path": "\/?ed=2560",
                 "headers": {
                     "Host": "104.24.56.187"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🔴 | vless | @free1_vpn | 4",
-            "type": "vless",
-            "server": "104.17.209.145",
-            "server_port": 80,
-            "uuid": "92f481b6-ad92-43e4-a683-2bb0aeaa9846",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed=2560",
-                "headers": {
-                    "Host": "dw.alibichareh.dpdns.org"
                 }
             }
         },
