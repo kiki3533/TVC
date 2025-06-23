@@ -178,7 +178,7 @@
                 "🚩CF | 🔴 | vless | @Lockey_vpn | 18",
                 "🇺🇸US | 🔴 | vless | @lightning6 | 0",
                 "🇺🇸US | 🔴 | vless | @lightning6 | 2",
-                "TVCvpqhfshrco",
+                "TVCfxnxjscgsn",
                 "❔XX | 🔴 | vless | @CUSTOMVPNSERVER | 0",
                 "❔XX | 🔴 | vless | @CUSTOMVPNSERVER | 3",
                 "❔XX | 🔴 | vless | @CUSTOMVPNSERVER | 5",
@@ -314,13 +314,13 @@
                 "❔XX | 🔴 | vless | @FreakConfig | 0",
                 "🇮🇷IR | 🔴 | vless | @flyv2ray | 0",
                 "🇮🇷IR | 🔴 | vless | @flyv2ray | 1",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 2",
+                "🇮🇷IR | 🔴 | vless | @flyv2ray | 2",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 3",
-                "🇮🇷IR | 🔴 | vless | @flyv2ray | 4",
-                "🇸🇪SE | 🔴 | vless | @flyv2ray | 5",
-                "🇸🇪SE | 🔴 | vless | @flyv2ray | 8",
-                "🇮🇷IR | 🔴 | vless | @flyv2ray | 9",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 4",
+                "🇮🇷IR | 🔴 | vless | @flyv2ray | 5",
+                "🇸🇪SE | 🔴 | vless | @flyv2ray | 6",
+                "🇸🇪SE | 🔴 | vless | @flyv2ray | 9",
+                "🇮🇷IR | 🔴 | vless | @flyv2ray | 10",
                 "🇮🇷IR | 🔴 | vless | @nofiltering2 | 1",
                 "🇦🇪AE | 🔴 | vless | @nofiltering2 | 3",
                 "❔XX | 🔴 | vless | @vpn_go67 | 0",
@@ -426,7 +426,7 @@
                 "🚩CF | 🔴 | vless | @Lockey_vpn | 18",
                 "🇺🇸US | 🔴 | vless | @lightning6 | 0",
                 "🇺🇸US | 🔴 | vless | @lightning6 | 2",
-                "TVCvpqhfshrco",
+                "TVCfxnxjscgsn",
                 "❔XX | 🔴 | vless | @CUSTOMVPNSERVER | 0",
                 "❔XX | 🔴 | vless | @CUSTOMVPNSERVER | 3",
                 "❔XX | 🔴 | vless | @CUSTOMVPNSERVER | 5",
@@ -562,13 +562,13 @@
                 "❔XX | 🔴 | vless | @FreakConfig | 0",
                 "🇮🇷IR | 🔴 | vless | @flyv2ray | 0",
                 "🇮🇷IR | 🔴 | vless | @flyv2ray | 1",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 2",
+                "🇮🇷IR | 🔴 | vless | @flyv2ray | 2",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 3",
-                "🇮🇷IR | 🔴 | vless | @flyv2ray | 4",
-                "🇸🇪SE | 🔴 | vless | @flyv2ray | 5",
-                "🇸🇪SE | 🔴 | vless | @flyv2ray | 8",
-                "🇮🇷IR | 🔴 | vless | @flyv2ray | 9",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 4",
+                "🇮🇷IR | 🔴 | vless | @flyv2ray | 5",
+                "🇸🇪SE | 🔴 | vless | @flyv2ray | 6",
+                "🇸🇪SE | 🔴 | vless | @flyv2ray | 9",
+                "🇮🇷IR | 🔴 | vless | @flyv2ray | 10",
                 "🇮🇷IR | 🔴 | vless | @nofiltering2 | 1",
                 "🇦🇪AE | 🔴 | vless | @nofiltering2 | 3",
                 "❔XX | 🔴 | vless | @vpn_go67 | 0",
@@ -2336,7 +2336,7 @@
             }
         },
         {
-            "tag": "TVCvpqhfshrco",
+            "tag": "TVCfxnxjscgsn",
             "type": "vless",
             "server": "",
             "server_port": 0,
@@ -5590,6 +5590,20 @@
         {
             "tag": "🇮🇷IR | 🔴 | vless | @flyv2ray | 0",
             "type": "vless",
+            "server": "Dc1.zeroboostspeed.org",
+            "server_port": 1231,
+            "uuid": "2e2c7764-8f74-c142-b63b-8c0b93154d0d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇮🇷IR | 🔴 | vless | @flyv2ray | 1",
+            "type": "vless",
             "server": "l7.magicnetwork.info",
             "server_port": 443,
             "uuid": "3491dd29-da32-721b-b2f9-73421aead895",
@@ -5602,7 +5616,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @flyv2ray | 1",
+            "tag": "🇮🇷IR | 🔴 | vless | @flyv2ray | 2",
             "type": "vless",
             "server": "tak.blushop1403.info",
             "server_port": 33326,
@@ -5616,7 +5630,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 2",
+            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 3",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
@@ -5630,7 +5644,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 3",
+            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 4",
             "type": "vless",
             "server": "fast.v2sub.online",
             "server_port": 80,
@@ -5644,7 +5658,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @flyv2ray | 4",
+            "tag": "🇮🇷IR | 🔴 | vless | @flyv2ray | 5",
             "type": "vless",
             "server": "home.phpdeb.ir",
             "server_port": 8446,
@@ -5658,7 +5672,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | @flyv2ray | 5",
+            "tag": "🇸🇪SE | 🔴 | vless | @flyv2ray | 6",
             "type": "vless",
             "server": "62.60.159.189",
             "server_port": 443,
@@ -5689,7 +5703,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | @flyv2ray | 8",
+            "tag": "🇸🇪SE | 🔴 | vless | @flyv2ray | 9",
             "type": "vless",
             "server": "62.60.159.167",
             "server_port": 443,
@@ -5713,25 +5727,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @flyv2ray | 9",
+            "tag": "🇮🇷IR | 🔴 | vless | @flyv2ray | 10",
             "type": "vless",
             "server": "mrvip.wineston.site",
             "server_port": 1001,
             "uuid": "badb069f-4acd-4206-bf9a-c4bda80d55ca",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
-            "type": "vless",
-            "server": "151.101.0.155",
-            "server_port": 80,
-            "uuid": "aa1bdfdc-0f80-491f-85cf-956b0fa5ed2d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
