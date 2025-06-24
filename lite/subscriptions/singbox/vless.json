@@ -129,7 +129,6 @@
                 "❔XX | 🔴 | vless | @v2logy | 10",
                 "🇮🇷IR | 🔴 | vless | @Watashi_VPN | 2",
                 "🇮🇷IR | 🔴 | vless | @Watashi_VPN | 3",
-                "🇮🇷IR | 🔴 | vless | @azadi_az_inja_migzare | 0",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 20",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 21",
                 "🇮🇹IT | 🔴 | vless | @V2rayNGn | 11",
@@ -158,7 +157,7 @@
                 "🇺🇸US | 🔴 | vless | @fnet00 | 5",
                 "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 15",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 16",
-                "🇮🇷IR | 🔴 | vless | @Capoit | 3",
+                "🇺🇸US | 🔴 | vless | @Capoit | 3",
                 "🇮🇷IR | 🔴 | vless | @Capoit | 4",
                 "❔XX | 🔴 | vless | @FreakConfig | 0",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 8",
@@ -166,7 +165,7 @@
                 "🇮🇷IR | 🔴 | vless | @nofiltering2 | 6",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
-                "🇺🇸US | 🔴 | vless | @GozargahVPN | 0",
+                "🇮🇹IT | 🔴 | vless | @GozargahVPN | 0",
                 "🇩🇪DE | 🔴 | vless | @SvnTeam | 0",
                 "🇷🇺RU | 🔴 | vless | @V2FETCH | 0"
             ]
@@ -198,7 +197,6 @@
                 "❔XX | 🔴 | vless | @v2logy | 10",
                 "🇮🇷IR | 🔴 | vless | @Watashi_VPN | 2",
                 "🇮🇷IR | 🔴 | vless | @Watashi_VPN | 3",
-                "🇮🇷IR | 🔴 | vless | @azadi_az_inja_migzare | 0",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 20",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 21",
                 "🇮🇹IT | 🔴 | vless | @V2rayNGn | 11",
@@ -227,7 +225,7 @@
                 "🇺🇸US | 🔴 | vless | @fnet00 | 5",
                 "🇮🇷IR | 🔴 | vless | @Outlinev2rayNG | 15",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 16",
-                "🇮🇷IR | 🔴 | vless | @Capoit | 3",
+                "🇺🇸US | 🔴 | vless | @Capoit | 3",
                 "🇮🇷IR | 🔴 | vless | @Capoit | 4",
                 "❔XX | 🔴 | vless | @FreakConfig | 0",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 8",
@@ -235,7 +233,7 @@
                 "🇮🇷IR | 🔴 | vless | @nofiltering2 | 6",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
-                "🇺🇸US | 🔴 | vless | @GozargahVPN | 0",
+                "🇮🇹IT | 🔴 | vless | @GozargahVPN | 0",
                 "🇩🇪DE | 🔴 | vless | @SvnTeam | 0",
                 "🇷🇺RU | 🔴 | vless | @V2FETCH | 0"
             ],
@@ -712,20 +710,6 @@
             "server": "v2test.bing-net.com",
             "server_port": 9820,
             "uuid": "fd8be8ca-e1e8-477f-9a97-d8d8e63455ed",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🔴 | vless | @azadi_az_inja_migzare | 0",
-            "type": "vless",
-            "server": "t.nargil00.site",
-            "server_port": 20729,
-            "uuid": "9e920ecc-22aa-43a9-ebc9-3120f1f2b892",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1372,7 +1356,21 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @Capoit | 3",
+            "tag": "🇺🇸US | 🔴 | vless | @Capoit | 3",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "8d0d5600-0b75-4bd9-a653-6c0794bf2202",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇮🇷IR | 🔴 | vless | @Capoit | 4",
             "type": "vless",
             "server": "sajad4.x0x1.ru",
             "server_port": 40265,
@@ -1390,20 +1388,6 @@
                 "headers": {
                     "Host": "sajad4.x0x1.ru"
                 }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🔴 | vless | @Capoit | 4",
-            "type": "vless",
-            "server": "media.samagazine.ir",
-            "server_port": 8080,
-            "uuid": "b5e0289d-1bb7-4c5b-f850-016298066cf8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -1545,7 +1529,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @GozargahVPN | 0",
+            "tag": "🇮🇹IT | 🔴 | vless | @GozargahVPN | 0",
             "type": "vless",
             "server": "GozargahVPN.fastly80-3.hosting-ip.com",
             "server_port": 80,
