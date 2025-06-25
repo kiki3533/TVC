@@ -110,8 +110,8 @@
                 "❔XX | 🟢 | vmess | @proxystore11 | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
-                "🇸🇪SE | 🟢 | vmess | @Hope_Net | 6"
+                "❔XX | 🟢 | vmess | @Hope_Net | 7",
+                "🇳🇱NL | 🟢 | vmess | @Hope_Net | 8"
             ]
         },
         {
@@ -122,8 +122,8 @@
                 "❔XX | 🟢 | vmess | @proxystore11 | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
-                "🇸🇪SE | 🟢 | vmess | @Hope_Net | 6"
+                "❔XX | 🟢 | vmess | @Hope_Net | 7",
+                "🇳🇱NL | 🟢 | vmess | @Hope_Net | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -238,11 +238,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "104.17.213.241",
-            "server_port": 2086,
-            "uuid": "4b36625c-b9d9-3ea6-aed5-86d62c70e16d",
+            "server": "127.0.0.1",
+            "server_port": 2080,
+            "uuid": "aaabccb-caba-aacb-abdc-bbbaccacbcaa",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -252,21 +252,14 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/dabai.in172.64.43.14",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
-            "tag": "🇸🇪SE | 🟢 | vmess | @Hope_Net | 6",
+            "tag": "🇳🇱NL | 🟢 | vmess | @Hope_Net | 8",
             "type": "vmess",
-            "server": "185.146.173.91",
-            "server_port": 2052,
-            "uuid": "6e88465e-a2ac-57d3-bbaf-f72e4439bd75",
+            "server": "152.70.57.182",
+            "server_port": 443,
+            "uuid": "e537f2f5-2a0c-4f59-92c9-832ca6433bf3",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -277,11 +270,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "irvideo.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/vmess",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": ""
+                    "Host": "irvideo.cfd"
                 }
             }
         }
