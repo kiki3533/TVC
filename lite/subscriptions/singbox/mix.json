@@ -169,11 +169,12 @@
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 6",
                 "🇸🇬SG | 🔴 | vless | @free1_vpn | 7",
-                "🇩🇪DE | 🟢 | vmess | @Hope_Net | 6",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
+                "🇬🇧GB | 🟢 | vmess | @Hope_Net | 10",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 2",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 3",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
-                "🇺🇸US | 🔴 | vless | @Capoit | 3",
+                "🇺🇸US | 🔴 | vless | @Capoit | 1",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 8",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 9",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 1",
@@ -253,11 +254,12 @@
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 6",
                 "🇸🇬SG | 🔴 | vless | @free1_vpn | 7",
-                "🇩🇪DE | 🟢 | vmess | @Hope_Net | 6",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
+                "🇬🇧GB | 🟢 | vmess | @Hope_Net | 10",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 2",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 3",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
-                "🇺🇸US | 🔴 | vless | @Capoit | 3",
+                "🇺🇸US | 🔴 | vless | @Capoit | 1",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 8",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 9",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 1",
@@ -1709,11 +1711,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vmess | @Hope_Net | 6",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
             "type": "vmess",
-            "server": "flying-tuna.treefrog761.one",
+            "server": "cdncdncdn.aikunapp.com",
             "server_port": 443,
-            "uuid": "cd21873e-332d-3b13-98a7-f26996cfdfd9",
+            "uuid": "69dd9741-0ae4-4bd2-bb32-46ca96d05128",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1726,13 +1728,37 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "flying-tuna.treefrog761.one",
+                "server_name": "r-qzlCGlN6avrJRc2S.sm-node.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess_ws\/smjc\/index?ed=8192",
+                "headers": {
+                    "Host": "r-qzlCGlN6avrJRc2S.sm-node.com"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | 🟢 | vmess | @Hope_Net | 10",
+            "type": "vmess",
+            "server": "172.99.190.207",
+            "server_port": 55577,
+            "uuid": "e922d485-98a7-475a-9a47-cde3722ac82e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
@@ -1788,7 +1814,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Capoit | 3",
+            "tag": "🇺🇸US | 🔴 | vless | @Capoit | 1",
             "type": "vless",
             "server": "104.18.26.90",
             "server_port": 443,
