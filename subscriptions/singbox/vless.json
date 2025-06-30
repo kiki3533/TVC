@@ -392,12 +392,11 @@
                 "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 9",
                 "🚩CF | 🔴 | vless | @Capoit | 0",
-                "🇮🇷IR | 🔴 | vless | @flyv2ray | 0",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 1",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 2",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 0",
+                "🇮🇷IR | 🔴 | vless | @flyv2ray | 1",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 3",
-                "🇩🇪DE | 🔴 | vless | @flyv2ray | 4",
-                "🇮🇷IR | 🔴 | vless | @flyv2ray | 5",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 4",
+                "🇩🇪DE | 🔴 | vless | @flyv2ray | 5",
                 "🚩CF | 🔴 | vless | @mehrosaboran | 0",
                 "@bored_vpn,--@bored_vpn,@bored_vpn,--@bored_vpn,@bored_vpn,--@bored_vpn,@bored_vpn,--@bored_vpn,@bored_vpn,--@bored_vpn,@bored_vpn,--@bored_vpn&fp=safari&spx=\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam?ed=2048&type=tcp&sni=www.latimes.com#🇹🇷TR | 🟢 | vless | @mehrosaboran | 1",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 2",
@@ -722,12 +721,11 @@
                 "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 9",
                 "🚩CF | 🔴 | vless | @Capoit | 0",
-                "🇮🇷IR | 🔴 | vless | @flyv2ray | 0",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 1",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 2",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 0",
+                "🇮🇷IR | 🔴 | vless | @flyv2ray | 1",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 3",
-                "🇩🇪DE | 🔴 | vless | @flyv2ray | 4",
-                "🇮🇷IR | 🔴 | vless | @flyv2ray | 5",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 4",
+                "🇩🇪DE | 🔴 | vless | @flyv2ray | 5",
                 "🚩CF | 🔴 | vless | @mehrosaboran | 0",
                 "@bored_vpn,--@bored_vpn,@bored_vpn,--@bored_vpn,@bored_vpn,--@bored_vpn,@bored_vpn,--@bored_vpn,@bored_vpn,--@bored_vpn,@bored_vpn,--@bored_vpn&fp=safari&spx=\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam?ed=2048&type=tcp&sni=www.latimes.com#🇹🇷TR | 🟢 | vless | @mehrosaboran | 1",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 2",
@@ -7555,21 +7553,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @flyv2ray | 0",
-            "type": "vless",
-            "server": "lwndnnw.js87nlw.iwhwkdh87.owjfj87kdk.theiranoflegends.com",
-            "server_port": 883,
-            "uuid": "55143323-5ef4-45c2-b8fb-9f7b987589e6",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 1",
+            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 0",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
@@ -7590,7 +7574,21 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 2",
+            "tag": "🇮🇷IR | 🔴 | vless | @flyv2ray | 1",
+            "type": "vless",
+            "server": "lwndnnw.js87nlw.iwhwkdh87.owjfj87kdk.theiranoflegends.com",
+            "server_port": 883,
+            "uuid": "55143323-5ef4-45c2-b8fb-9f7b987589e6",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 3",
             "type": "vless",
             "server": "45.63.60.98",
             "server_port": 12188,
@@ -7604,7 +7602,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 3",
+            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 4",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
@@ -7625,25 +7623,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @flyv2ray | 4",
+            "tag": "🇩🇪DE | 🔴 | vless | @flyv2ray | 5",
             "type": "vless",
             "server": "91.99.206.91",
             "server_port": 51615,
             "uuid": "2eaef053-5fd6-4def-b234-d760690355ff",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🔴 | vless | @flyv2ray | 5",
-            "type": "vless",
-            "server": "mci.vipconfig.ir",
-            "server_port": 1717,
-            "uuid": "b27be65d-6c42-4fb9-c3a7-2447a629bb3b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
