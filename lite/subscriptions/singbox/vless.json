@@ -147,7 +147,7 @@
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 0",
                 "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 8",
                 "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 9",
-                "🇨🇦CA | 🔴 | vless | @v2ray_swhil | 43",
+                "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 6",
                 "🇺🇸US | 🔴 | vless | @v2ray1_ng | 7",
@@ -171,6 +171,7 @@
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇩🇪DE | 🔴 | vless | @kingofilter | 2",
                 "❔XX | 🔴 | vless | @GozargahVPN | 0",
+                "🇩🇪DE | 🔴 | vless | @SvnTeam | 0",
                 "🇷🇺RU | 🔴 | vless | @V2FETCH | 0"
             ]
         },
@@ -219,7 +220,7 @@
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 0",
                 "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 8",
                 "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 9",
-                "🇨🇦CA | 🔴 | vless | @v2ray_swhil | 43",
+                "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 6",
                 "🇺🇸US | 🔴 | vless | @v2ray1_ng | 7",
@@ -243,6 +244,7 @@
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇩🇪DE | 🔴 | vless | @kingofilter | 2",
                 "❔XX | 🔴 | vless | @GozargahVPN | 0",
+                "🇩🇪DE | 🔴 | vless | @SvnTeam | 0",
                 "🇷🇺RU | 🔴 | vless | @V2FETCH | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -1153,7 +1155,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @v2ray_swhil | 43",
+            "tag": "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8443,
@@ -1674,6 +1676,35 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @SvnTeam | 0",
+            "type": "vless",
+            "server": "SvnFree.GiSvn.ir",
+            "server_port": 443,
+            "uuid": "SVNTEAM1",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.refersion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "193rx1HPJxmcw5Igm1lZeCcPnBx1dVfBroBl5FR9BEE",
+                    "short_id": ""
+                }
             }
         },
         {
