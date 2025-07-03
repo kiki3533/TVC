@@ -110,9 +110,9 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "❔XX | 🟢 | vmess | @Hope_Net | 3",
-                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 4",
+                "❔XX | 🟢 | vmess | @Hope_Net | 4",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 5",
-                "🇩🇪DE | 🟢 | vmess | @FreakConfig | 0"
+                "🇳🇱NL | 🟢 | vmess | @FreakConfig | 0"
             ]
         },
         {
@@ -123,9 +123,9 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "❔XX | 🟢 | vmess | @Hope_Net | 3",
-                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 4",
+                "❔XX | 🟢 | vmess | @Hope_Net | 4",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 5",
-                "🇩🇪DE | 🟢 | vmess | @FreakConfig | 0"
+                "🇳🇱NL | 🟢 | vmess | @FreakConfig | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -226,8 +226,8 @@
             "tag": "❔XX | 🟢 | vmess | @Hope_Net | 3",
             "type": "vmess",
             "server": "127.0.0.1",
-            "server_port": 2080,
-            "uuid": "cacaabb-caba-caab-acdb-abbccabcaacb",
+            "server_port": 8080,
+            "uuid": "acabbac-baca-baca-bcad-baccbabacabc",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -240,11 +240,11 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vmess | @Hope_Net | 4",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 4",
             "type": "vmess",
-            "server": "213.241.198.57",
-            "server_port": 8443,
-            "uuid": "191babc5-2aaf-4fe5-a563-f14244aefb4e",
+            "server": "127.0.0.1",
+            "server_port": 1080,
+            "uuid": "acabcab-abac-aabc-badc-cabaacccabbb",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -254,23 +254,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "lax1.ibgfw.top",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/xrenvws",
-                "headers": {
-                    "Host": "lax1.ibgfw.top"
-                }
             }
         },
         {
@@ -291,7 +274,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vmess | @FreakConfig | 0",
+            "tag": "🇳🇱NL | 🟢 | vmess | @FreakConfig | 0",
             "type": "vmess",
             "server": "prone.marfanet.com",
             "server_port": 56320,
