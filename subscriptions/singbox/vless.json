@@ -292,7 +292,6 @@
                 "🇫🇮FI | 🔴 | vless | @vmessorg | 5",
                 "🇮🇷IR | 🔴 | vless | @vmessorg | 6",
                 "🚩CF | 🔴 | vless | @vmessorg | 8",
-                "🚩CF | 🔴 | vless | @vmessorg | 9",
                 "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 0",
                 "🇸🇪SE | 🔴 | vless | @ShadowProxy66 | 1",
                 "🚩CF | 🔴 | vless | @ShadowProxy66 | 2",
@@ -406,10 +405,10 @@
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 2",
                 "🇳🇱NL | 🔴 | vless | @flyv2ray | 3",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 4",
-                "🚩CF | 🔴 | vless | @mehrosaboran | 0",
                 "🚩CF | 🔴 | vless | @mehrosaboran | 1",
                 "🚩CF | 🔴 | vless | @mehrosaboran | 2",
                 "🚩CF | 🔴 | vless | @mehrosaboran | 3",
+                "🚩CF | 🔴 | vless | @mehrosaboran | 4",
                 "🇮🇷IR | 🔴 | vless | @nofiltering2 | 3",
                 "🇫🇮FI | 🔴 | vless | @nofiltering2 | 4",
                 "🇫🇮FI | 🔴 | vless | @nofiltering2 | 8",
@@ -630,7 +629,6 @@
                 "🇫🇮FI | 🔴 | vless | @vmessorg | 5",
                 "🇮🇷IR | 🔴 | vless | @vmessorg | 6",
                 "🚩CF | 🔴 | vless | @vmessorg | 8",
-                "🚩CF | 🔴 | vless | @vmessorg | 9",
                 "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 0",
                 "🇸🇪SE | 🔴 | vless | @ShadowProxy66 | 1",
                 "🚩CF | 🔴 | vless | @ShadowProxy66 | 2",
@@ -744,10 +742,10 @@
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 2",
                 "🇳🇱NL | 🔴 | vless | @flyv2ray | 3",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 4",
-                "🚩CF | 🔴 | vless | @mehrosaboran | 0",
                 "🚩CF | 🔴 | vless | @mehrosaboran | 1",
                 "🚩CF | 🔴 | vless | @mehrosaboran | 2",
                 "🚩CF | 🔴 | vless | @mehrosaboran | 3",
+                "🚩CF | 🔴 | vless | @mehrosaboran | 4",
                 "🇮🇷IR | 🔴 | vless | @nofiltering2 | 3",
                 "🇫🇮FI | 🔴 | vless | @nofiltering2 | 4",
                 "🇫🇮FI | 🔴 | vless | @nofiltering2 | 8",
@@ -4904,27 +4902,6 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @vmessorg | 9",
-            "type": "vless",
-            "server": "104.18.26.90",
-            "server_port": 80,
-            "uuid": "6f690965-3be3-43bb-9331-3ead6efb20aa",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed=2560",
-                "headers": {
-                    "Host": "104.18.26.90"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 0",
             "type": "vless",
             "server": "101reel.com",
@@ -7674,7 +7651,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @mehrosaboran | 0",
+            "tag": "🚩CF | 🔴 | vless | @mehrosaboran | 1",
             "type": "vless",
             "server": "104.18.26.90",
             "server_port": 80,
@@ -7695,7 +7672,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @mehrosaboran | 1",
+            "tag": "🚩CF | 🔴 | vless | @mehrosaboran | 2",
             "type": "vless",
             "server": "104.18.26.90",
             "server_port": 80,
@@ -7716,7 +7693,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @mehrosaboran | 2",
+            "tag": "🚩CF | 🔴 | vless | @mehrosaboran | 3",
             "type": "vless",
             "server": "104.18.26.90",
             "server_port": 80,
@@ -7730,7 +7707,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @mehrosaboran | 3",
+            "tag": "🚩CF | 🔴 | vless | @mehrosaboran | 4",
             "type": "vless",
             "server": "104.18.26.90",
             "server_port": 80,
