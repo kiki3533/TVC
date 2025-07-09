@@ -130,7 +130,6 @@
                 "❔XX | 🟢 | vmess | @Hope_Net | 0",
                 "🇯🇵JP | 🟢 | vmess | @Hope_Net | 1",
                 "🇯🇵JP | 🟢 | vmess | @Hope_Net | 2",
-                "❔XX | 🟢 | vmess | @Hope_Net | 3",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 8",
                 "🇦🇹AT | 🟢 | vmess | @FreakConfig | 4",
                 "🚩CF | 🟢 | vmess | @iP_CF | 43",
@@ -169,7 +168,6 @@
                 "❔XX | 🟢 | vmess | @Hope_Net | 0",
                 "🇯🇵JP | 🟢 | vmess | @Hope_Net | 1",
                 "🇯🇵JP | 🟢 | vmess | @Hope_Net | 2",
-                "❔XX | 🟢 | vmess | @Hope_Net | 3",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 8",
                 "🇦🇹AT | 🟢 | vmess | @FreakConfig | 4",
                 "🚩CF | 🟢 | vmess | @iP_CF | 43",
@@ -697,23 +695,6 @@
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 3",
-            "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 2080,
-            "uuid": "acacbba-aacb-caba-acdb-bbcbbcaacaca",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
