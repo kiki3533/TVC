@@ -111,7 +111,8 @@
                 "🇩🇪DE | 🔴 | vless | @ARv2ray | 16",
                 "🇩🇪DE | 🔴 | vless | @DarkTeam_VPN | 1",
                 "🇫🇮FI | 🟢 | vless | @proxy_kafee | 6",
-                "🇩🇪DE | 🔴 | vless | @customv2ray | 10",
+                "🇫🇮FI | 🔴 | vless | @customv2ray | 13",
+                "🇩🇪DE | 🟢 | vless | @ShadowProxy66 | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "❔XX | 🔴 | vless | @SvnTeam | 6",
@@ -127,7 +128,8 @@
                 "🇩🇪DE | 🔴 | vless | @ARv2ray | 16",
                 "🇩🇪DE | 🔴 | vless | @DarkTeam_VPN | 1",
                 "🇫🇮FI | 🟢 | vless | @proxy_kafee | 6",
-                "🇩🇪DE | 🔴 | vless | @customv2ray | 10",
+                "🇫🇮FI | 🔴 | vless | @customv2ray | 13",
+                "🇩🇪DE | 🟢 | vless | @ShadowProxy66 | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "❔XX | 🔴 | vless | @SvnTeam | 6",
@@ -320,11 +322,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @customv2ray | 10",
+            "tag": "🇫🇮FI | 🔴 | vless | @customv2ray | 13",
             "type": "vless",
-            "server": "test-lets-wildcard.spotifycdn.org",
+            "server": "online-chat.webboosterpro.co.uk",
             "server_port": 443,
-            "uuid": "06f5a7cb-3842-49d0-a498-d4165c0eb956",
+            "uuid": "92a5f2d3-0ce7-471f-8871-362ffc5478f0",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -334,7 +336,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.tgju.org",
+                "server_name": "www.fastly.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -343,8 +345,37 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "MvHAa605zfOrBe-SDP6_ytTmotBw39f6OefvXn2DZhk",
-                    "short_id": "7f2798f9"
+                    "public_key": "QxGoAQpy2zri2JRkXmPfESKjAMHpsrJPmjbkJuZCz3U",
+                    "short_id": "1eaf5214"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | @ShadowProxy66 | 0",
+            "type": "vless",
+            "server": "real-all2.sdcards.ir",
+            "server_port": 8509,
+            "uuid": "46677716-490d-4a51-8a68-c44090505da3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "LD--N4X5Fo6UKi8c6XIUGfFCuRWKmvLHk_bwacZVDD4",
+                    "short_id": "67ceba05200e42df"
                 }
             }
         },
