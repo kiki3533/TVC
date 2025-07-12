@@ -154,8 +154,8 @@
                 "🇮🇷IR | 🔴 | vless | @vmessorg | 6",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 7",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 9",
-                "🇫🇮FI | 🔴 | vless | @v2rayngvpn | 13",
-                "🇺🇸US | 🔴 | vless | @v2rayngvpn | 14",
+                "🇮🇷IR | 🔴 | vless | @v2rayngvpn | 15",
+                "🇫🇮FI | 🔴 | vless | @v2rayngvpn | 16",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 7",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 8",
                 "🇩🇪DE | 🟢 | vless | @ShadowProxy66 | 0",
@@ -249,8 +249,8 @@
                 "🇮🇷IR | 🔴 | vless | @vmessorg | 6",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 7",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 9",
-                "🇫🇮FI | 🔴 | vless | @v2rayngvpn | 13",
-                "🇺🇸US | 🔴 | vless | @v2rayngvpn | 14",
+                "🇮🇷IR | 🔴 | vless | @v2rayngvpn | 15",
+                "🇫🇮FI | 🔴 | vless | @v2rayngvpn | 16",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 7",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 8",
                 "🇩🇪DE | 🟢 | vless | @ShadowProxy66 | 0",
@@ -1393,7 +1393,21 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🔴 | vless | @v2rayngvpn | 13",
+            "tag": "🇮🇷IR | 🔴 | vless | @v2rayngvpn | 15",
+            "type": "vless",
+            "server": "vahidqwertyuiopasdfghjklzxcvbnm1234567890987654321.star4.info",
+            "server_port": 23005,
+            "uuid": "e967f95e-4f55-45b3-9a6a-f7b7ce58ce0e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇫🇮FI | 🔴 | vless | @v2rayngvpn | 16",
             "type": "vless",
             "server": "135.181.201.193",
             "server_port": 21791,
@@ -1404,37 +1418,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @v2rayngvpn | 14",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "6bcb4f37-bba7-4ae0-afac-d43195c72c12",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "my.digikala.dynv6.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/--------v2rayNGcloud-----?ed=2560",
-                "headers": {
-                    "Host": "my.digikala.dynv6.net"
-                }
             }
         },
         {
