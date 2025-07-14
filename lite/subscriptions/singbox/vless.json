@@ -144,7 +144,8 @@
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 14",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 15",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 126",
-                "🇳🇱NL | 🟢 | vless | @customv2ray | 17",
+                "🇺🇸US | 🔴 | vless | @customv2ray | 18",
+                "🇺🇸US | 🔴 | vless | @customv2ray | 19",
                 "🇺🇸US | 🔴 | vless | @UnlimitedDev | 1",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 7",
                 "🇳🇱NL | 🔴 | vless | @vmessorg | 8",
@@ -235,7 +236,8 @@
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 14",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 15",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 126",
-                "🇳🇱NL | 🟢 | vless | @customv2ray | 17",
+                "🇺🇸US | 🔴 | vless | @customv2ray | 18",
+                "🇺🇸US | 🔴 | vless | @customv2ray | 19",
                 "🇺🇸US | 🔴 | vless | @UnlimitedDev | 1",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 7",
                 "🇳🇱NL | 🔴 | vless | @vmessorg | 8",
@@ -1162,32 +1164,31 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vless | @customv2ray | 17",
+            "tag": "🇺🇸US | 🔴 | vless | @customv2ray | 18",
             "type": "vless",
-            "server": "poseidex.house0of1nyxora.top",
-            "server_port": 2096,
-            "uuid": "32622124-139e-4eab-8fb8-faaf021acd3f",
-            "flow": "xtls-rprx-vision",
+            "server": "speedtestcustom.com",
+            "server_port": 80,
+            "uuid": "d62494a5-4feb-4422-9547-1050a907afa8",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "jM7JL3cp1HdLpEuvRDGJlzI-zUXW_6z8FkQBqimt4BE",
-                    "short_id": "88dfa714"
-                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @customv2ray | 19",
+            "type": "vless",
+            "server": "speedtestcustom.com",
+            "server_port": 80,
+            "uuid": "44f2c910-07a4-478e-861b-aed3d0750980",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
