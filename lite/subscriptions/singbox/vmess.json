@@ -111,8 +111,7 @@
                 "🇨🇳CN | 🟢 | vmess | @DeamNet_Proxy | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 6",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
+                "🇰🇷KR | 🟢 | vmess | @Hope_Net | 6",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 8",
                 "🇿🇦ZA | 🟢 | vmess | @iP_CF | 60"
             ]
@@ -126,8 +125,7 @@
                 "🇨🇳CN | 🟢 | vmess | @DeamNet_Proxy | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 6",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
+                "🇰🇷KR | 🟢 | vmess | @Hope_Net | 6",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 8",
                 "🇿🇦ZA | 🟢 | vmess | @iP_CF | 60"
             ],
@@ -261,11 +259,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 6",
+            "tag": "🇰🇷KR | 🟢 | vmess | @Hope_Net | 6",
             "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 8080,
-            "uuid": "aacbacb-cbaa-abca-dbca-acbabbcbacca",
+            "server": "45.94.68.206",
+            "server_port": 35384,
+            "uuid": "b3e95701-dbd0-4a2f-a701-6ec815fb5ad2",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -275,30 +273,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
-            "type": "vmess",
-            "server": "104.25.0.0",
-            "server_port": 80,
-            "uuid": "13ff895d-fa8a-4d59-fe92-f404e3b87e81",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/13ff895d",
-                "headers": {
-                    "Host": "104.25.0.0"
-                }
             }
         },
         {
