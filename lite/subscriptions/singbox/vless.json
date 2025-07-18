@@ -112,8 +112,8 @@
                 "🇨🇦CA | 🔴 | vless | @Parsashonam | 33",
                 "🇮🇷IR | 🔴 | vless | @v2_team | 0",
                 "🇺🇸US | 🟢 | vless | @v2_team | 1",
-                "🇺🇸US | 🔴 | vless | @NIM_VPN_ir | 6",
-                "🇮🇷IR | 🔴 | vless | @NIM_VPN_ir | 7",
+                "🇺🇸US | 🔴 | vless | @NIM_VPN_ir | 7",
+                "🇮🇷IR | 🔴 | vless | @NIM_VPN_ir | 8",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 3",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 4",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 16",
@@ -152,7 +152,7 @@
                 "🇺🇸US | 🔴 | vless | @customv2ray | 11",
                 "Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=tls&encryption=none&host=638879176706434658.amsterdam-prx-dnraaal.info&type=ws&sni=638879176706434658.amsterdam-prx-dnraaal.info#🇺🇸US | 🔴 | vless | @customv2ray | 12",
                 "🇺🇸US | 🔴 | vless | @UnlimitedDev | 5",
-                "🇩🇪DE | 🔴 | vless | @vmessorg | 10",
+                "🇺🇸US | 🔴 | vless | @vmessorg | 10",
                 "🇩🇪DE | 🔴 | vless | @vmessorg | 11",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 9",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 10",
@@ -212,8 +212,8 @@
                 "🇨🇦CA | 🔴 | vless | @Parsashonam | 33",
                 "🇮🇷IR | 🔴 | vless | @v2_team | 0",
                 "🇺🇸US | 🟢 | vless | @v2_team | 1",
-                "🇺🇸US | 🔴 | vless | @NIM_VPN_ir | 6",
-                "🇮🇷IR | 🔴 | vless | @NIM_VPN_ir | 7",
+                "🇺🇸US | 🔴 | vless | @NIM_VPN_ir | 7",
+                "🇮🇷IR | 🔴 | vless | @NIM_VPN_ir | 8",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 3",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 4",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 16",
@@ -252,7 +252,7 @@
                 "🇺🇸US | 🔴 | vless | @customv2ray | 11",
                 "Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=tls&encryption=none&host=638879176706434658.amsterdam-prx-dnraaal.info&type=ws&sni=638879176706434658.amsterdam-prx-dnraaal.info#🇺🇸US | 🔴 | vless | @customv2ray | 12",
                 "🇺🇸US | 🔴 | vless | @UnlimitedDev | 5",
-                "🇩🇪DE | 🔴 | vless | @vmessorg | 10",
+                "🇺🇸US | 🔴 | vless | @vmessorg | 10",
                 "🇩🇪DE | 🔴 | vless | @vmessorg | 11",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 9",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 10",
@@ -452,7 +452,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @NIM_VPN_ir | 6",
+            "tag": "🇺🇸US | 🔴 | vless | @NIM_VPN_ir | 7",
             "type": "vless",
             "server": "188.114.97.1",
             "server_port": 443,
@@ -483,7 +483,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @NIM_VPN_ir | 7",
+            "tag": "🇮🇷IR | 🔴 | vless | @NIM_VPN_ir | 8",
             "type": "vless",
             "server": "v2shop2.bing-net.com",
             "server_port": 4902,
@@ -1385,7 +1385,38 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @vmessorg | 10",
+            "tag": "🇺🇸US | 🔴 | vless | @vmessorg | 10",
+            "type": "vless",
+            "server": "104.21.43.168",
+            "server_port": 443,
+            "uuid": "e2c0a0ac-0270-4ebc-acbd-75df71153b0e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "2.link-kon.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/bDUGlAj9BFG7zebG?ed=2560",
+                "headers": {
+                    "Host": "2.link-kon.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @vmessorg | 11",
             "type": "vless",
             "server": "vip1.proxystore11.news",
             "server_port": 2052,
@@ -1411,42 +1442,6 @@
                     "public_key": "-4S95rjoZIG_AeUxIlwedx89e7C_X4jnePY3RsiF4io",
                     "short_id": "f8fcb589"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @vmessorg | 11",
-            "type": "vless",
-            "server": "91.107.180.100",
-            "server_port": 443,
-            "uuid": "01763caa-bd69-47f8-89c4-031b2f0bd8ff",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "zula.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "eZs1Yn6wbXV2RPT47_szgepN6lNKseOb9nprDMrpNmE",
-                    "short_id": "f3"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@SobyV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
