@@ -111,8 +111,8 @@
                 "🇨🇳CN | 🟢 | vmess | @DeamNet_Proxy | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
-                "🇹🇷TR | 🟢 | vmess | @Hope_Net | 3",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
+                "🇫🇷FR | 🟢 | vmess | @Hope_Net | 8",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 8",
                 "🇿🇦ZA | 🟢 | vmess | @iP_CF | 60"
             ]
@@ -126,8 +126,8 @@
                 "🇨🇳CN | 🟢 | vmess | @DeamNet_Proxy | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
-                "🇹🇷TR | 🟢 | vmess | @Hope_Net | 3",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
+                "🇫🇷FR | 🟢 | vmess | @Hope_Net | 8",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 8",
                 "🇿🇦ZA | 🟢 | vmess | @iP_CF | 60"
             ],
@@ -261,11 +261,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "104.16.68.38",
-            "server_port": 2095,
-            "uuid": "1052f24e-7b09-45eb-b0c5-d858eb124192",
+            "server": "www.aetv.com",
+            "server_port": 80,
+            "uuid": "beb7d098-48ba-4be8-a47a-758bf3c470b8",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -278,18 +278,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/glweidf.cfd\/linkws",
+                "path": "\/",
                 "headers": {
-                    "Host": "104.16.68.38"
+                    "Host": "www.aetv.com"
                 }
             }
         },
         {
-            "tag": "🇹🇷TR | 🟢 | vmess | @Hope_Net | 3",
+            "tag": "🇫🇷FR | 🟢 | vmess | @Hope_Net | 8",
             "type": "vmess",
-            "server": "202.78.162.5",
+            "server": "144.24.200.164",
             "server_port": 443,
-            "uuid": "118287d2-e968-42e1-80d0-12fa2f5d38d6",
+            "uuid": "b9559c23-1379-4eef-e628-a6e87cc620c5",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -302,7 +302,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "202.78.162.5",
+                "server_name": "144.24.200.164",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -312,9 +312,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@forwardv2ray",
+                "path": "\/ylks",
                 "headers": {
-                    "Host": "202.78.162.5"
+                    "Host": "144.24.200.164"
                 }
             }
         },
