@@ -133,7 +133,7 @@
                 "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 12",
                 "🇷🇺RU | 🔴 | vless | @ShadowProxy66 | 2",
                 "🇺🇸US | 🟢 | vless | @vless_vmess | 3",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 165",
+                "🇬🇧GB | 🟢 | vless | @DailyV2RY | 165",
                 "🇸🇬SG | 🔴 | vless | @DailyV2RY | 168",
                 "🇬🇧GB | 🔴 | vless | @DailyV2RY | 177",
                 "🇸🇬SG | 🟢 | vless | @DailyV2RY | 180",
@@ -149,6 +149,7 @@
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 13",
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 14",
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 16",
+                "🇨🇿CZ | 🔴 | vless | @flyv2ray | 2",
                 "🇫🇮FI | 🟢 | vless | @iP_CF | 18",
                 "🇨🇿CZ | 🔴 | vless | @mehrosaboran | 7",
                 "🇨🇿CZ | 🔴 | vless | @nofiltering2 | 5",
@@ -206,7 +207,7 @@
                 "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 12",
                 "🇷🇺RU | 🔴 | vless | @ShadowProxy66 | 2",
                 "🇺🇸US | 🟢 | vless | @vless_vmess | 3",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 165",
+                "🇬🇧GB | 🟢 | vless | @DailyV2RY | 165",
                 "🇸🇬SG | 🔴 | vless | @DailyV2RY | 168",
                 "🇬🇧GB | 🔴 | vless | @DailyV2RY | 177",
                 "🇸🇬SG | 🟢 | vless | @DailyV2RY | 180",
@@ -222,6 +223,7 @@
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 13",
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 14",
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 16",
+                "🇨🇿CZ | 🔴 | vless | @flyv2ray | 2",
                 "🇫🇮FI | 🟢 | vless | @iP_CF | 18",
                 "🇨🇿CZ | 🔴 | vless | @mehrosaboran | 7",
                 "🇨🇿CZ | 🔴 | vless | @nofiltering2 | 5",
@@ -1156,7 +1158,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 165",
+            "tag": "🇬🇧GB | 🟢 | vless | @DailyV2RY | 165",
             "type": "vless",
             "server": "amazon-15.cristiano.name.ng",
             "server_port": 443,
@@ -1663,6 +1665,42 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Join-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇨🇿CZ | 🔴 | vless | @flyv2ray | 2",
+            "type": "vless",
+            "server": "194.182.79.43",
+            "server_port": 25244,
+            "uuid": "89fb8f5a-7647-43e0-970b-76a6f9230699",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ijFQSx90zsplSMSX2iqG5snMFInf1MEJyeeDPV4ozQ8",
+                    "short_id": "8126fad06ad38b84"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Join-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
