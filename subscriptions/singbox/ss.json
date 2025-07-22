@@ -106,32 +106,28 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧GB | 🟢 | ss | @vmess_vless_v2rayng | 17",
-                "🇳🇱NL | 🟢 | ss | @iP_CF | 20",
-                "🇺🇸US | 🟢 | ss | @iP_CF | 21",
-                "🇬🇧GB | 🟢 | ss | @iP_CF | 22",
-                "🇺🇸US | 🟢 | ss | @iP_CF | 23",
-                "🇺🇸US | 🟢 | ss | @iP_CF | 25",
-                "🇺🇸US | 🟢 | ss | @iP_CF | 26",
-                "🇨🇾CY | 🟢 | ss | @kingofilter | 2",
-                "🇺🇸US | 🟢 | ss | @kingofilter | 5",
-                "🇬🇧GB | 🟢 | ss | @kingofilter | 7"
+                "🇺🇦UA | 🟢 | ss | @DeamNet_Proxy | 9",
+                "🇳🇱NL | 🟢 | ss | @iP_CF | 4",
+                "🇺🇸US | 🟢 | ss | @iP_CF | 5",
+                "🇬🇧GB | 🟢 | ss | @iP_CF | 6",
+                "🇺🇸US | 🟢 | ss | @iP_CF | 7",
+                "🇬🇧GB | 🟢 | ss | @iP_CF | 8",
+                "🇺🇸US | 🟢 | ss | @iP_CF | 9",
+                "🇺🇸US | 🟢 | ss | @iP_CF | 10"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧GB | 🟢 | ss | @vmess_vless_v2rayng | 17",
-                "🇳🇱NL | 🟢 | ss | @iP_CF | 20",
-                "🇺🇸US | 🟢 | ss | @iP_CF | 21",
-                "🇬🇧GB | 🟢 | ss | @iP_CF | 22",
-                "🇺🇸US | 🟢 | ss | @iP_CF | 23",
-                "🇺🇸US | 🟢 | ss | @iP_CF | 25",
-                "🇺🇸US | 🟢 | ss | @iP_CF | 26",
-                "🇨🇾CY | 🟢 | ss | @kingofilter | 2",
-                "🇺🇸US | 🟢 | ss | @kingofilter | 5",
-                "🇬🇧GB | 🟢 | ss | @kingofilter | 7"
+                "🇺🇦UA | 🟢 | ss | @DeamNet_Proxy | 9",
+                "🇳🇱NL | 🟢 | ss | @iP_CF | 4",
+                "🇺🇸US | 🟢 | ss | @iP_CF | 5",
+                "🇬🇧GB | 🟢 | ss | @iP_CF | 6",
+                "🇺🇸US | 🟢 | ss | @iP_CF | 7",
+                "🇬🇧GB | 🟢 | ss | @iP_CF | 8",
+                "🇺🇸US | 🟢 | ss | @iP_CF | 9",
+                "🇺🇸US | 🟢 | ss | @iP_CF | 10"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -154,17 +150,17 @@
             "type": "dns"
         },
         {
-            "tag": "🇬🇧GB | 🟢 | ss | @vmess_vless_v2rayng | 17",
+            "tag": "🇺🇦UA | 🟢 | ss | @DeamNet_Proxy | 9",
             "type": "shadowsocks",
-            "server": "series-a2-mec.varzesh360.co",
-            "server_port": 443,
+            "server": "147.78.3.93",
+            "server_port": 990,
             "method": "chacha20-ietf-poly1305",
-            "password": "u17T3BvpYaaiuW2c",
+            "password": "f8f7aCzcPKbsF8p3",
             "plugin": "",
             "plugin_opts": ""
         },
         {
-            "tag": "🇳🇱NL | 🟢 | ss | @iP_CF | 20",
+            "tag": "🇳🇱NL | 🟢 | ss | @iP_CF | 4",
             "type": "shadowsocks",
             "server": "103.106.1.92",
             "server_port": 23492,
@@ -174,7 +170,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | 🟢 | ss | @iP_CF | 21",
+            "tag": "🇺🇸US | 🟢 | ss | @iP_CF | 5",
             "type": "shadowsocks",
             "server": "45.87.175.10",
             "server_port": 8080,
@@ -184,7 +180,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | 🟢 | ss | @iP_CF | 22",
+            "tag": "🇬🇧GB | 🟢 | ss | @iP_CF | 6",
             "type": "shadowsocks",
             "server": "admin.c2.webramz.co",
             "server_port": 443,
@@ -194,7 +190,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | 🟢 | ss | @iP_CF | 23",
+            "tag": "🇺🇸US | 🟢 | ss | @iP_CF | 7",
             "type": "shadowsocks",
             "server": "api.namasha.co",
             "server_port": 443,
@@ -204,7 +200,17 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | 🟢 | ss | @iP_CF | 25",
+            "tag": "🇬🇧GB | 🟢 | ss | @iP_CF | 8",
+            "type": "shadowsocks",
+            "server": "series-a2-mec.varzesh360.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "u17T3BvpYaaiuW2c",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | ss | @iP_CF | 9",
             "type": "shadowsocks",
             "server": "45.87.175.192",
             "server_port": 8080,
@@ -214,42 +220,12 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | 🟢 | ss | @iP_CF | 26",
+            "tag": "🇺🇸US | 🟢 | ss | @iP_CF | 10",
             "type": "shadowsocks",
             "server": "45.87.175.178",
             "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
             "password": "cvII85TrW6n0OGyfpHVS1u",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇨🇾CY | 🟢 | ss | @kingofilter | 2",
-            "type": "shadowsocks",
-            "server": "134.255.210.49",
-            "server_port": 990,
-            "method": "chacha20-ietf-poly1305",
-            "password": "f8f7aCzcPKbsF8p3",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | ss | @kingofilter | 5",
-            "type": "shadowsocks",
-            "server": "45.87.175.35",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "oZIoA69Q8yhcQV8ka3Pa3A",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇬🇧GB | 🟢 | ss | @kingofilter | 7",
-            "type": "shadowsocks",
-            "server": "172.187.105.25",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "1xO2cqPazqjGfCfd",
             "plugin": "",
             "plugin_opts": ""
         }
