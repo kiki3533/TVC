@@ -470,10 +470,11 @@
                 "🇫🇮FI | 🔴 | vless | @VmessProtocol | 6",
                 "🇫🇮FI | 🔴 | vless | @VmessProtocol | 7",
                 "🇺🇸US | 🔴 | vless | @SafeNet_Server | 0",
-                "🇸🇬SG | 🔴 | vless | @SafeNet_Server | 1",
-                "🇩🇪DE | 🔴 | vless | @SafeNet_Server | 2",
-                "🇺🇸US | 🔴 | vless | @SafeNet_Server | 4",
-                "🇺🇸US | 🔴 | vless | @SafeNet_Server | 6",
+                "🇺🇸US | 🔴 | vless | @SafeNet_Server | 1",
+                "🇸🇬SG | 🔴 | vless | @SafeNet_Server | 2",
+                "🇩🇪DE | 🔴 | vless | @SafeNet_Server | 3",
+                "🇺🇸US | 🔴 | vless | @SafeNet_Server | 5",
+                "🇺🇸US | 🔴 | vless | @SafeNet_Server | 7",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 0",
                 "🚩CF | 🔴 | vless | @lrnbymaa | 1",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
@@ -484,7 +485,7 @@
                 "🇩🇪DE | 🟢 | vless | @proxystore11 | 5",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 10",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 12",
-                "🇷🇺RU | 🔴 | vless | @free1_vpn | 2",
+                "🇷🇺RU | 🔴 | vless | @free1_vpn | 3",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 0",
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 1",
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 4",
@@ -958,10 +959,11 @@
                 "🇫🇮FI | 🔴 | vless | @VmessProtocol | 6",
                 "🇫🇮FI | 🔴 | vless | @VmessProtocol | 7",
                 "🇺🇸US | 🔴 | vless | @SafeNet_Server | 0",
-                "🇸🇬SG | 🔴 | vless | @SafeNet_Server | 1",
-                "🇩🇪DE | 🔴 | vless | @SafeNet_Server | 2",
-                "🇺🇸US | 🔴 | vless | @SafeNet_Server | 4",
-                "🇺🇸US | 🔴 | vless | @SafeNet_Server | 6",
+                "🇺🇸US | 🔴 | vless | @SafeNet_Server | 1",
+                "🇸🇬SG | 🔴 | vless | @SafeNet_Server | 2",
+                "🇩🇪DE | 🔴 | vless | @SafeNet_Server | 3",
+                "🇺🇸US | 🔴 | vless | @SafeNet_Server | 5",
+                "🇺🇸US | 🔴 | vless | @SafeNet_Server | 7",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 0",
                 "🚩CF | 🔴 | vless | @lrnbymaa | 1",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
@@ -972,7 +974,7 @@
                 "🇩🇪DE | 🟢 | vless | @proxystore11 | 5",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 10",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 12",
-                "🇷🇺RU | 🔴 | vless | @free1_vpn | 2",
+                "🇷🇺RU | 🔴 | vless | @free1_vpn | 3",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 0",
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 1",
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 4",
@@ -9377,6 +9379,27 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @SafeNet_Server | 0",
             "type": "vless",
+            "server": "kafshu.ir",
+            "server_port": 8080,
+            "uuid": "88d6a1c5-d970-4236-88ff-ca0bb28f68cd",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet",
+                "headers": {
+                    "Host": "kafshu.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @SafeNet_Server | 1",
+            "type": "vless",
             "server": "surfiran.com",
             "server_port": 2052,
             "uuid": "c7ab5176-6dcf-481a-9609-4d3ca94acc3a",
@@ -9396,7 +9419,7 @@
             }
         },
         {
-            "tag": "🇸🇬SG | 🔴 | vless | @SafeNet_Server | 1",
+            "tag": "🇸🇬SG | 🔴 | vless | @SafeNet_Server | 2",
             "type": "vless",
             "server": "43.156.217.68",
             "server_port": 41283,
@@ -9410,7 +9433,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @SafeNet_Server | 2",
+            "tag": "🇩🇪DE | 🔴 | vless | @SafeNet_Server | 3",
             "type": "vless",
             "server": "holkanas.atroart.ir",
             "server_port": 52928,
@@ -9424,7 +9447,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @SafeNet_Server | 4",
+            "tag": "🇺🇸US | 🔴 | vless | @SafeNet_Server | 5",
             "type": "vless",
             "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
             "server_port": 443,
@@ -9455,7 +9478,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @SafeNet_Server | 6",
+            "tag": "🇺🇸US | 🔴 | vless | @SafeNet_Server | 7",
             "type": "vless",
             "server": "surfiran.com",
             "server_port": 2052,
@@ -9698,7 +9721,7 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🔴 | vless | @free1_vpn | 2",
+            "tag": "🇷🇺RU | 🔴 | vless | @free1_vpn | 3",
             "type": "vless",
             "server": "213.183.41.63",
             "server_port": 443,
