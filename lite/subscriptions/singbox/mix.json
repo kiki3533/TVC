@@ -181,11 +181,11 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇷🇺RU | 🔴 | vless | @free1_vpn | 3",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
-                "🇩🇪DE | 🟢 | vmess | @Hope_Net | 7",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
+                "🇩🇪DE | 🟢 | vmess | @Hope_Net | 8",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 7",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 10",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 11",
                 "❔XX | 🔴 | vless | @Capoit | 19",
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 20",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 16",
@@ -284,11 +284,11 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇷🇺RU | 🔴 | vless | @free1_vpn | 3",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
-                "🇩🇪DE | 🟢 | vmess | @Hope_Net | 7",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
+                "🇩🇪DE | 🟢 | vmess | @Hope_Net | 8",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 7",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 10",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 11",
                 "❔XX | 🔴 | vless | @Capoit | 19",
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 20",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 16",
@@ -1438,7 +1438,7 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 12",
             "type": "vless",
-            "server": "fx.ircloudmarket.com",
+            "server": "mci.dl101movis.ir",
             "server_port": 80,
             "uuid": "9e8c0b71-1e9e-4a4d-9e86-4ea9772ef534",
             "flow": "",
@@ -1451,6 +1451,37 @@
         },
         {
             "tag": "🇺🇸US | 🔴 | vless | @v2rayngvpn | 16",
+            "type": "vless",
+            "server": "104.16.243.59",
+            "server_port": 443,
+            "uuid": "75fde681-ec64-4654-86fa-30732e8e179c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "NGINX.NSCl.IR",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/assets",
+                "headers": {
+                    "Host": "NGINX.NSCl.IR"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @v2rayngvpn | 17",
             "type": "vless",
             "server": "104.17.1.197",
             "server_port": 8880,
@@ -1467,27 +1498,6 @@
                 "path": "\/1ycR2zb3KeELWRha?ed=2560",
                 "headers": {
                     "Host": "104.17.1.197"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @v2rayngvpn | 17",
-            "type": "vless",
-            "server": "DeEp-RAdIo.SEOtOoLSForYou.CO.UK",
-            "server_port": 80,
-            "uuid": "5139af95-a453-46c6-831a-a532b6b51305",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "DeEp-RAdIo.SEOtOoLSForYou.CO.UK"
                 }
             }
         },
@@ -2006,7 +2016,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
             "type": "vmess",
             "server": "104.26.14.7",
             "server_port": 443,
@@ -2040,7 +2050,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vmess | @Hope_Net | 7",
+            "tag": "🇩🇪DE | 🟢 | vmess | @Hope_Net | 8",
             "type": "vmess",
             "server": "57.129.24.125",
             "server_port": 443,
@@ -2102,7 +2112,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 10",
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 11",
             "type": "vless",
             "server": "crazy-identity.oneeat.co",
             "server_port": 80,
