@@ -106,14 +106,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇨🇦CA | 🔴 | vless | @EliV2ray | 7",
                 "🇨🇦CA | 🔴 | vless | @EliV2ray | 8",
-                "🇨🇦CA | 🔴 | vless | @EliV2ray | 9",
                 "🇨🇦CA | 🔴 | vless | @Parsashonam | 21",
                 "🇨🇦CA | 🔴 | vless | @Parsashonam | 22",
                 "🇮🇷IR | 🔴 | vless | @v2_team | 1",
                 "🇺🇸US | 🟢 | vless | @v2_team | 2",
                 "🇺🇸US | 🔴 | vless | @NIM_VPN_ir | 8",
-                "🇬🇧GB | 🔴 | vless | @NIM_VPN_ir | 9",
+                "🇺🇸US | 🔴 | vless | @NIM_VPN_ir | 9",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 3",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 4",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 14",
@@ -132,7 +132,7 @@
                 "🇺🇸US | 🔴 | vless | @CUSTOMVPNSERVER | 5",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 6",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 7",
-                "🇺🇸US | 🔴 | vless | @proxy_kafee | 1",
+                "🇺🇸US | 🔴 | vless | @proxy_kafee | 2",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "❔XX | 🔴 | vless | @v2logy | 10",
                 "🇮🇷IR | 🔴 | vless | @Watashi_VPN | 2",
@@ -201,14 +201,14 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇨🇦CA | 🔴 | vless | @EliV2ray | 7",
                 "🇨🇦CA | 🔴 | vless | @EliV2ray | 8",
-                "🇨🇦CA | 🔴 | vless | @EliV2ray | 9",
                 "🇨🇦CA | 🔴 | vless | @Parsashonam | 21",
                 "🇨🇦CA | 🔴 | vless | @Parsashonam | 22",
                 "🇮🇷IR | 🔴 | vless | @v2_team | 1",
                 "🇺🇸US | 🟢 | vless | @v2_team | 2",
                 "🇺🇸US | 🔴 | vless | @NIM_VPN_ir | 8",
-                "🇬🇧GB | 🔴 | vless | @NIM_VPN_ir | 9",
+                "🇺🇸US | 🔴 | vless | @NIM_VPN_ir | 9",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 3",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 4",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 14",
@@ -227,7 +227,7 @@
                 "🇺🇸US | 🔴 | vless | @CUSTOMVPNSERVER | 5",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 6",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 7",
-                "🇺🇸US | 🔴 | vless | @proxy_kafee | 1",
+                "🇺🇸US | 🔴 | vless | @proxy_kafee | 2",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "❔XX | 🔴 | vless | @v2logy | 10",
                 "🇮🇷IR | 🔴 | vless | @Watashi_VPN | 2",
@@ -312,7 +312,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @EliV2ray | 8",
+            "tag": "🇨🇦CA | 🔴 | vless | @EliV2ray | 7",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
@@ -333,7 +333,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @EliV2ray | 9",
+            "tag": "🇨🇦CA | 🔴 | vless | @EliV2ray | 8",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
@@ -470,7 +470,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🔴 | vless | @NIM_VPN_ir | 9",
+            "tag": "🇺🇸US | 🔴 | vless | @NIM_VPN_ir | 9",
             "type": "vless",
             "server": "141.101.121.243",
             "server_port": 8080,
@@ -911,7 +911,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 1",
+            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 2",
             "type": "vless",
             "server": "104.21.72.109",
             "server_port": 80,
