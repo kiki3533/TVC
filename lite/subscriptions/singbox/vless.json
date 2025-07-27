@@ -126,7 +126,7 @@
                 "🇳🇱NL | 🔴 | vless | @shh_proxy | 9",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 18",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 19",
-                "🇺🇸US | 🔴 | vless | @rxv2ray | 17",
+                "🇫🇮FI | 🔴 | vless | @rxv2ray | 17",
                 "🇺🇸US | 🔴 | vless | @rxv2ray | 18",
                 "🇺🇸US | 🔴 | vless | @CUSTOMVPNSERVER | 4",
                 "🇺🇸US | 🔴 | vless | @CUSTOMVPNSERVER | 5",
@@ -150,7 +150,8 @@
                 "🇺🇸US | 🔴 | vless | @vmessorg | 28",
                 "🇩🇪DE | 🔴 | vless | @v2rayNG_Matsuri | 12",
                 "🇩🇪DE | 🔴 | vless | @v2rayNG_Matsuri | 13",
-                "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 8",
+                "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 10",
+                "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 11",
                 "🇩🇪DE | 🔴 | vless | @FalconPolV2rayNG | 7",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
@@ -216,7 +217,7 @@
                 "🇳🇱NL | 🔴 | vless | @shh_proxy | 9",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 18",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 19",
-                "🇺🇸US | 🔴 | vless | @rxv2ray | 17",
+                "🇫🇮FI | 🔴 | vless | @rxv2ray | 17",
                 "🇺🇸US | 🔴 | vless | @rxv2ray | 18",
                 "🇺🇸US | 🔴 | vless | @CUSTOMVPNSERVER | 4",
                 "🇺🇸US | 🔴 | vless | @CUSTOMVPNSERVER | 5",
@@ -240,7 +241,8 @@
                 "🇺🇸US | 🔴 | vless | @vmessorg | 28",
                 "🇩🇪DE | 🔴 | vless | @v2rayNG_Matsuri | 12",
                 "🇩🇪DE | 🔴 | vless | @v2rayNG_Matsuri | 13",
-                "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 8",
+                "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 10",
+                "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 11",
                 "🇩🇪DE | 🔴 | vless | @FalconPolV2rayNG | 7",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
@@ -746,7 +748,21 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @rxv2ray | 17",
+            "tag": "🇫🇮FI | 🔴 | vless | @rxv2ray | 17",
+            "type": "vless",
+            "server": "217.144.186.49",
+            "server_port": 38231,
+            "uuid": "2b2219ab-707a-4773-af6c-539de4a76c89",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @rxv2ray | 18",
             "type": "vless",
             "server": "147.185.161.229",
             "server_port": 80,
@@ -763,27 +779,6 @@
                 "path": "\/Telegram@V2ray_Alpha\/?ed=2560",
                 "headers": {
                     "Host": "147.185.161.229"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @rxv2ray | 18",
-            "type": "vless",
-            "server": "104.16.104.151",
-            "server_port": 80,
-            "uuid": "1f431db3-1918-4e7b-a855-c93485e11694",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed=2560",
-                "headers": {
-                    "Host": "104.16.104.151"
                 }
             }
         },
@@ -1281,11 +1276,25 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 8",
+            "tag": "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 10",
             "type": "vless",
-            "server": "174.138.101.107",
-            "server_port": 45500,
-            "uuid": "790c2516-c744-46c5-98fd-541fe2a53bbb",
+            "server": "168.119.100.113",
+            "server_port": 2020,
+            "uuid": "24a4aa9b-b341-4717-9d4a-00d74c2b84e0",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 11",
+            "type": "vless",
+            "server": "server271816966957306554.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "527b6060-bf7c-41cc-a9bb-357bcda16a62",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
