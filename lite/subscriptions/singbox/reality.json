@@ -107,8 +107,9 @@
             "outbounds": [
                 "URL-TEST",
                 "🇩🇪DE | 🔴 | vless | @v2_team | 0",
-                "🇳🇱NL | 🔴 | vless | @shh_proxy | 9",
-                "🇩🇪DE | 🔴 | vless | @proxystore11 | 15",
+                "🇳🇱NL | 🔴 | vless | @shh_proxy | 10",
+                "🇳🇱NL | 🔴 | vless | @shh_proxy | 11",
+                "🇩🇪DE | 🔴 | vless | @proxystore11 | 16",
                 "❔XX | 🔴 | vless | @Capoit | 27",
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 28",
                 "🇳🇱NL | 🔴 | vless | @flyv2ray | 7",
@@ -126,8 +127,9 @@
             "type": "urltest",
             "outbounds": [
                 "🇩🇪DE | 🔴 | vless | @v2_team | 0",
-                "🇳🇱NL | 🔴 | vless | @shh_proxy | 9",
-                "🇩🇪DE | 🔴 | vless | @proxystore11 | 15",
+                "🇳🇱NL | 🔴 | vless | @shh_proxy | 10",
+                "🇳🇱NL | 🔴 | vless | @shh_proxy | 11",
+                "🇩🇪DE | 🔴 | vless | @proxystore11 | 16",
                 "❔XX | 🔴 | vless | @Capoit | 27",
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 28",
                 "🇳🇱NL | 🔴 | vless | @flyv2ray | 7",
@@ -196,7 +198,36 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🔴 | vless | @shh_proxy | 9",
+            "tag": "🇳🇱NL | 🔴 | vless | @shh_proxy | 10",
+            "type": "vless",
+            "server": "45.150.33.157",
+            "server_port": 50810,
+            "uuid": "1ea87307-1d00-4c15-af3f-b363f8562ac5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "zhaket.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "J0pRUeUHMS_olwz0xLOMJxIxe-DhsCZA3qnAMRC4zTg",
+                    "short_id": "aa60a00122200b76"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | 🔴 | vless | @shh_proxy | 11",
             "type": "vless",
             "server": "45.150.33.157",
             "server_port": 50810,
@@ -225,7 +256,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @proxystore11 | 15",
+            "tag": "🇩🇪DE | 🔴 | vless | @proxystore11 | 16",
             "type": "vless",
             "server": "vip1.proxystore11.news",
             "server_port": 2052,
