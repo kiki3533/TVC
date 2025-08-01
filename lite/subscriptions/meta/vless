@@ -168,7 +168,6 @@ proxies:
   - {"name":"🇺🇸US | 🔴 | vless | @v2ray1_ng | 1","type":"vless","server":"104.16.85.3","port":8880,"udp":false,"uuid":"e9979910-79d1-4621-a93c-b2a579c44ba7","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/6TvG8D6HimXKgdp2?ed=2560","headers":{"host":"vngsupply.ip-ddns.com"}}}
   - {"name":"🇺🇸US | 🔴 | vless | @vless_vmess | 18","type":"vless","server":"172.67.141.140","port":8880,"udp":false,"uuid":"7e948e09-fa6f-4b8e-8c5d-181fa15fbec5","tls":false,"network":"ws","client-fingerprint":"chrome","servername":"8IzcpZflHzz4bVc0fW15f5O126R-WGPG.hEKOp71365.wOrkerS.DEv","ws-opts":{"path":"/QaaLdIiGgWNoIxOF?ed=2560","headers":{"host":"v2ngsupply2.ip-ddns.com"}}}
   - {"name":"🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 17","type":"vless","server":"172.67.67.92","port":80,"udp":false,"uuid":"f78ce1bb-0fa6-4ef4-b4c9-b91014a7055d","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/?ed=2560","headers":{"host":"delam.ahaysiahzangi.dpdns.org"}}}
-  - {"name":"🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 18","type":"vless","server":"172.67.208.49","port":80,"udp":false,"uuid":"6f690965-3be3-43bb-9331-3ead6efb20aa","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/?ed=2560","headers":{"host":"sib.sibzamini.dpdns.org"}}}
   - {"name":"🇳🇱NL | 🔴 | vless | @VmessProtocol | 8","type":"vless","server":"185.209.21.36","port":40887,"udp":false,"uuid":"8a2e7f51-54c3-48e5-8da6-ca71f9eb2c05","tls":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇺🇸US | 🔴 | vless | @SafeNet_Server | 3","type":"vless","server":"surfiran.com","port":2052,"udp":false,"uuid":"c7ab5176-6dcf-481a-9609-4d3ca94acc3a","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet","headers":{"host":"dAta.bAckup.hafeZejanEbi.scaptapsi.snapFoodsuPport.onliNe."}}}
   - {"name":"🇸🇬SG | 🔴 | vless | @SafeNet_Server | 4","type":"vless","server":"43.156.217.68","port":41283,"udp":false,"uuid":"4839e0b9-b275-47ea-81ab-9bfd38bbe7af","tls":false,"network":"tcp","client-fingerprint":"chrome"}
@@ -244,7 +243,6 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @v2ray1_ng | 1'
       - '🇺🇸US | 🔴 | vless | @vless_vmess | 18'
       - '🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 17'
-      - '🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 18'
       - '🇳🇱NL | 🔴 | vless | @VmessProtocol | 8'
       - '🇺🇸US | 🔴 | vless | @SafeNet_Server | 3'
       - '🇸🇬SG | 🔴 | vless | @SafeNet_Server | 4'
@@ -320,7 +318,6 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @v2ray1_ng | 1'
       - '🇺🇸US | 🔴 | vless | @vless_vmess | 18'
       - '🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 17'
-      - '🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 18'
       - '🇳🇱NL | 🔴 | vless | @VmessProtocol | 8'
       - '🇺🇸US | 🔴 | vless | @SafeNet_Server | 3'
       - '🇸🇬SG | 🔴 | vless | @SafeNet_Server | 4'
@@ -395,7 +392,6 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @v2ray1_ng | 1'
       - '🇺🇸US | 🔴 | vless | @vless_vmess | 18'
       - '🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 17'
-      - '🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 18'
       - '🇳🇱NL | 🔴 | vless | @VmessProtocol | 8'
       - '🇺🇸US | 🔴 | vless | @SafeNet_Server | 3'
       - '🇸🇬SG | 🔴 | vless | @SafeNet_Server | 4'

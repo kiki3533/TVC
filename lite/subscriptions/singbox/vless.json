@@ -165,7 +165,6 @@
                 "🇺🇸US | 🔴 | vless | @v2ray1_ng | 1",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 17",
-                "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 18",
                 "🇳🇱NL | 🔴 | vless | @VmessProtocol | 8",
                 "🇺🇸US | 🔴 | vless | @SafeNet_Server | 3",
                 "🇸🇬SG | 🔴 | vless | @SafeNet_Server | 4",
@@ -258,7 +257,6 @@
                 "🇺🇸US | 🔴 | vless | @v2ray1_ng | 1",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 17",
-                "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 18",
                 "🇳🇱NL | 🔴 | vless | @VmessProtocol | 8",
                 "🇺🇸US | 🔴 | vless | @SafeNet_Server | 3",
                 "🇸🇬SG | 🔴 | vless | @SafeNet_Server | 4",
@@ -1629,27 +1627,6 @@
                 "path": "\/?ed=2560",
                 "headers": {
                     "Host": "172.67.67.92"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 18",
-            "type": "vless",
-            "server": "172.67.208.49",
-            "server_port": 80,
-            "uuid": "6f690965-3be3-43bb-9331-3ead6efb20aa",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed=2560",
-                "headers": {
-                    "Host": "172.67.208.49"
                 }
             }
         },
