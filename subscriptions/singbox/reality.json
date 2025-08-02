@@ -125,6 +125,7 @@
                 "🇩🇪DE | 🔴 | vless | @v2logy | 6",
                 "❔XX | 🟢 | vless | @V2rayCollectorDonate | 9",
                 "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 10",
+                "🇨🇿CZ | 🔴 | vless | @prrofile_purple | 100",
                 "🇩🇪DE | 🔴 | vless | @prrofile_purple | 106",
                 "🇳🇱NL | 🔴 | vless | @prrofile_purple | 111",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 119",
@@ -133,7 +134,6 @@
                 "🇩🇪DE | 🔴 | vless | @prrofile_purple | 127",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 133",
                 "🇳🇱NL | 🟢 | vless | @prrofile_purple | 135",
-                "🇩🇪DE | 🔴 | vless | @prrofile_purple | 142",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 15",
                 "🇳🇱NL | 🔴 | vless | @customv2ray | 20",
                 "🇬🇧GB | 🔴 | vless | @customv2ray | 22",
@@ -160,7 +160,6 @@
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 17",
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 18",
                 "❔XX | 🟢 | vless | @Capoit | 20",
-                "🇩🇪DE | 🟢 | vless | @FreakConfig | 16",
                 "🇺🇸US | 🟢 | vless | @flyv2ray | 4",
                 "🇫🇮FI | 🟢 | vless | @iP_CF | 27",
                 "🇩🇪DE | 🔴 | vless | @mehrosaboran | 4",
@@ -216,6 +215,7 @@
                 "🇩🇪DE | 🔴 | vless | @v2logy | 6",
                 "❔XX | 🟢 | vless | @V2rayCollectorDonate | 9",
                 "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 10",
+                "🇨🇿CZ | 🔴 | vless | @prrofile_purple | 100",
                 "🇩🇪DE | 🔴 | vless | @prrofile_purple | 106",
                 "🇳🇱NL | 🔴 | vless | @prrofile_purple | 111",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 119",
@@ -224,7 +224,6 @@
                 "🇩🇪DE | 🔴 | vless | @prrofile_purple | 127",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 133",
                 "🇳🇱NL | 🟢 | vless | @prrofile_purple | 135",
-                "🇩🇪DE | 🔴 | vless | @prrofile_purple | 142",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 15",
                 "🇳🇱NL | 🔴 | vless | @customv2ray | 20",
                 "🇬🇧GB | 🔴 | vless | @customv2ray | 22",
@@ -251,7 +250,6 @@
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 17",
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 18",
                 "❔XX | 🟢 | vless | @Capoit | 20",
-                "🇩🇪DE | 🟢 | vless | @FreakConfig | 16",
                 "🇺🇸US | 🟢 | vless | @flyv2ray | 4",
                 "🇫🇮FI | 🟢 | vless | @iP_CF | 27",
                 "🇩🇪DE | 🔴 | vless | @mehrosaboran | 4",
@@ -925,6 +923,42 @@
             }
         },
         {
+            "tag": "🇨🇿CZ | 🔴 | vless | @prrofile_purple | 100",
+            "type": "vless",
+            "server": "194.182.79.43",
+            "server_port": 25245,
+            "uuid": "aa374d55-b368-4121-8f02-7e6bd9ef1924",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "uv1gMqjxJ-bF5Xjix_d5M4qGK0-VmGyrU5ZMtiXrhHg",
+                    "short_id": "16b619c73e22"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Join-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇩🇪DE | 🔴 | vless | @prrofile_purple | 106",
             "type": "vless",
             "server": "91.107.254.202",
@@ -1181,35 +1215,6 @@
                     "enabled": true,
                     "public_key": "TbZDTzAIogOy-LWQjdqXElxPlUd6xdcwd9xxCqhbj04",
                     "short_id": "eebcfab3"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @prrofile_purple | 142",
-            "type": "vless",
-            "server": "185.127.94.27",
-            "server_port": 8443,
-            "uuid": "2d37cd89-d6e5-4d58-a688-8b0208a48e6e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "drive.google.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "BG0noERXu_3wOPcZOeu9vl35QIFilTAWFXMZx-nzpVY",
-                    "short_id": "58b2fc"
                 }
             }
         },
@@ -2006,35 +2011,6 @@
                     "enabled": true,
                     "public_key": "_N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw",
                     "short_id": "e1afb93bfe75a34b"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vless | @FreakConfig | 16",
-            "type": "vless",
-            "server": "91.99.115.113",
-            "server_port": 2012,
-            "uuid": "81294d12-9b29-438d-8af2-2bfcba7bd450",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.pcmag.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "I9RNJ9pJ1WzWsYnRFk7u1XWsFhWBS03iUDjQXwWsERY",
-                    "short_id": ""
                 }
             }
         },
