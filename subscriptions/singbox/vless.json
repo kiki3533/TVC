@@ -341,12 +341,13 @@
                 "🇩🇪DE | 🔴 | vless | @customv2ray | 29",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 30",
                 "🚩CF | 🔴 | vless | @customv2ray | 32",
-                "🇺🇸US | 🔴 | vless | @UnlimitedDev | 1",
-                "🚩CF | 🔴 | vless | @UnlimitedDev | 2",
+                "🇺🇸US | 🔴 | vless | @UnlimitedDev | 0",
+                "🇺🇸US | 🔴 | vless | @UnlimitedDev | 2",
                 "🚩CF | 🔴 | vless | @UnlimitedDev | 3",
-                "🚩CF | 🔴 | vless | @UnlimitedDev | 5",
-                "🚩CF | 🔴 | vless | @UnlimitedDev | 9",
-                "🚩CF | 🔴 | vless | @UnlimitedDev | 12",
+                "🚩CF | 🔴 | vless | @UnlimitedDev | 4",
+                "🚩CF | 🔴 | vless | @UnlimitedDev | 6",
+                "🚩CF | 🔴 | vless | @UnlimitedDev | 10",
+                "🚩CF | 🔴 | vless | @UnlimitedDev | 13",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 1",
                 "🚩CF | 🔴 | vless | @vmessorg | 2",
                 "🚩CF | 🔴 | vless | @vmessorg | 4",
@@ -841,12 +842,13 @@
                 "🇩🇪DE | 🔴 | vless | @customv2ray | 29",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 30",
                 "🚩CF | 🔴 | vless | @customv2ray | 32",
-                "🇺🇸US | 🔴 | vless | @UnlimitedDev | 1",
-                "🚩CF | 🔴 | vless | @UnlimitedDev | 2",
+                "🇺🇸US | 🔴 | vless | @UnlimitedDev | 0",
+                "🇺🇸US | 🔴 | vless | @UnlimitedDev | 2",
                 "🚩CF | 🔴 | vless | @UnlimitedDev | 3",
-                "🚩CF | 🔴 | vless | @UnlimitedDev | 5",
-                "🚩CF | 🔴 | vless | @UnlimitedDev | 9",
-                "🚩CF | 🔴 | vless | @UnlimitedDev | 12",
+                "🚩CF | 🔴 | vless | @UnlimitedDev | 4",
+                "🚩CF | 🔴 | vless | @UnlimitedDev | 6",
+                "🚩CF | 🔴 | vless | @UnlimitedDev | 10",
+                "🚩CF | 🔴 | vless | @UnlimitedDev | 13",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 1",
                 "🚩CF | 🔴 | vless | @vmessorg | 2",
                 "🚩CF | 🔴 | vless | @vmessorg | 4",
@@ -6695,7 +6697,28 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @UnlimitedDev | 1",
+            "tag": "🇺🇸US | 🔴 | vless | @UnlimitedDev | 0",
+            "type": "vless",
+            "server": "cumhuriyet.com.tr",
+            "server_port": 8080,
+            "uuid": "370f6712-c143-48ab-8974-aa35c32aa128",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@unlimiteddev----@unlimiteddev-----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimitedev----@unlimitedev----@unlimiteddev----@unlimiteddev?ed=2480",
+                "headers": {
+                    "Host": "cumhuriyet.com.tr"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @UnlimitedDev | 2",
             "type": "vless",
             "server": "cumhuriyet.com.tr",
             "server_port": 8080,
@@ -6716,7 +6739,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @UnlimitedDev | 2",
+            "tag": "🚩CF | 🔴 | vless | @UnlimitedDev | 3",
             "type": "vless",
             "server": "104.21.112.1",
             "server_port": 8080,
@@ -6737,7 +6760,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @UnlimitedDev | 3",
+            "tag": "🚩CF | 🔴 | vless | @UnlimitedDev | 4",
             "type": "vless",
             "server": "104.21.112.1",
             "server_port": 8080,
@@ -6758,7 +6781,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @UnlimitedDev | 5",
+            "tag": "🚩CF | 🔴 | vless | @UnlimitedDev | 6",
             "type": "vless",
             "server": "104.21.112.1",
             "server_port": 8080,
@@ -6779,7 +6802,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @UnlimitedDev | 9",
+            "tag": "🚩CF | 🔴 | vless | @UnlimitedDev | 10",
             "type": "vless",
             "server": "104.21.112.1",
             "server_port": 8080,
@@ -6800,7 +6823,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @UnlimitedDev | 12",
+            "tag": "🚩CF | 🔴 | vless | @UnlimitedDev | 13",
             "type": "vless",
             "server": "104.21.112.1",
             "server_port": 8080,
