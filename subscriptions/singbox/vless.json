@@ -461,7 +461,6 @@
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 0",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 2",
                 "🇺🇸US | 🔴 | vless | @v2ray1_ng | 2",
-                "🚩CF | 🔴 | vless | @v2ray1_ng | 7",
                 "🇳🇱NL | 🔴 | vless | @vless_vmess | 3",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 5",
                 "🚩CF | 🔴 | vless | @vless_vmess | 6",
@@ -500,6 +499,7 @@
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 7",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 9",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 12",
+                "🚩CF | 🔴 | vless | @free1_vpn | 4",
                 "🇫🇮FI | 🟢 | vless | @free1_vpn | 5",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 0",
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 1",
@@ -980,7 +980,6 @@
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 0",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 2",
                 "🇺🇸US | 🔴 | vless | @v2ray1_ng | 2",
-                "🚩CF | 🔴 | vless | @v2ray1_ng | 7",
                 "🇳🇱NL | 🔴 | vless | @vless_vmess | 3",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 5",
                 "🚩CF | 🔴 | vless | @vless_vmess | 6",
@@ -1019,6 +1018,7 @@
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 7",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 9",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 12",
+                "🚩CF | 🔴 | vless | @free1_vpn | 4",
                 "🇫🇮FI | 🟢 | vless | @free1_vpn | 5",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 0",
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 1",
@@ -9710,37 +9710,6 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @v2ray1_ng | 7",
-            "type": "vless",
-            "server": "104.21.67.12",
-            "server_port": 443,
-            "uuid": "30f2d443-af46-4dd6-83c9-b5e17299ebd2",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "carlotta.shoorekeeper.cloudns.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/proxyip",
-                "headers": {
-                    "Host": "carlotta.shoorekeeper.cloudns.org"
-                }
-            }
-        },
-        {
             "tag": "🇳🇱NL | 🔴 | vless | @vless_vmess | 3",
             "type": "vless",
             "server": "206.71.158.10",
@@ -10661,6 +10630,37 @@
                     "enabled": true,
                     "public_key": "y7msPZW4eWBT4CJ5v_blgiXUd06HuKvTs3rhlpw9fnk",
                     "short_id": "0570"
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🔴 | vless | @free1_vpn | 4",
+            "type": "vless",
+            "server": "104.21.67.12",
+            "server_port": 443,
+            "uuid": "30f2d443-af46-4dd6-83c9-b5e17299ebd2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "carlotta.shoorekeeper.cloudns.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/proxyip",
+                "headers": {
+                    "Host": "carlotta.shoorekeeper.cloudns.org"
                 }
             }
         },
@@ -12008,7 +12008,7 @@
             "type": "vless",
             "server": "172.66.40.99",
             "server_port": 8080,
-            "uuid": "03c850a0-8aa8-44d2-a295-adba924ae671",
+            "uuid": "370f6712-c143-48ab-8974-aa35c32aa128",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -12018,7 +12018,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6",
+                "path": "\/@unlimiteddev----@unlimiteddev-----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimitedev----@unlimitedev----@unlimiteddev----@unlimiteddev?ed=2480",
                 "headers": {
                     "Host": "172.66.40.99"
                 }
