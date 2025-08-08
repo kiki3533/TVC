@@ -144,6 +144,9 @@
                 "🇭🇺HU | 🟢 | vless | @ShadowProxy66 | 0",
                 "🇩🇪DE | 🔴 | vless | @ServerNett | 0",
                 "❔XX | 🟢 | vless | @ServerNett | 1",
+                "🇦🇹AT | 🔴 | vless | @ConfigsHUB | 4",
+                "🇪🇪EE | 🔴 | vless | @ConfigsHUB | 8",
+                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 18",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 3",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 6",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 10",
@@ -229,6 +232,9 @@
                 "🇭🇺HU | 🟢 | vless | @ShadowProxy66 | 0",
                 "🇩🇪DE | 🔴 | vless | @ServerNett | 0",
                 "❔XX | 🟢 | vless | @ServerNett | 1",
+                "🇦🇹AT | 🔴 | vless | @ConfigsHUB | 4",
+                "🇪🇪EE | 🔴 | vless | @ConfigsHUB | 8",
+                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 18",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 3",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 6",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 10",
@@ -1502,6 +1508,93 @@
                     "enabled": true,
                     "public_key": "fXy2aOmxGGfjSa31-Wi7rJj1kS9q5N-kT0P86312Wgo",
                     "short_id": "32e5"
+                }
+            }
+        },
+        {
+            "tag": "🇦🇹AT | 🔴 | vless | @ConfigsHUB | 4",
+            "type": "vless",
+            "server": "5.181.21.152",
+            "server_port": 24170,
+            "uuid": "6a8ee307-a1fb-4801-92e2-86253ecdd88d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "rhEEZAZBX-seWl5f0JmyE19Iwxb5zTNH5yT-FhaS8Hw",
+                    "short_id": "200f99e321"
+                }
+            }
+        },
+        {
+            "tag": "🇪🇪EE | 🔴 | vless | @ConfigsHUB | 8",
+            "type": "vless",
+            "server": "est01-vlr01.tcp-reset-club.net",
+            "server_port": 443,
+            "uuid": "2a02cb25-0f58-4b19-a7a6-8c205fdb9042",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hls-svod.itunes.apple.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+                    "short_id": "86e999a2cdc2"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "3.16.218.5",
+            "server_port": 443,
+            "uuid": "7fc993f5-7cd7-4485-9e6f-1f7c5160c910",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "tZn5Tdrk045zSTbBEzGwSV_LOdCZqEwT8c85pJOK_C0",
+                    "short_id": "f785b38130e64177"
                 }
             }
         },
