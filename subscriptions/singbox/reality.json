@@ -135,8 +135,6 @@
                 "🇦🇲AM | 🔴 | vless | @v2rayNG_Matsuri | 7",
                 "🇩🇪DE | 🟢 | vless | @v2rayngvpn | 6",
                 "🇭🇺HU | 🟢 | vless | @ShadowProxy66 | 1",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 14",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 16",
                 "❔XX | 🔴 | vless | @proxystore11 | 1",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 3",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 6",
@@ -210,8 +208,6 @@
                 "🇦🇲AM | 🔴 | vless | @v2rayNG_Matsuri | 7",
                 "🇩🇪DE | 🟢 | vless | @v2rayngvpn | 6",
                 "🇭🇺HU | 🟢 | vless | @ShadowProxy66 | 1",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 14",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 16",
                 "❔XX | 🔴 | vless | @proxystore11 | 1",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 3",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 6",
@@ -1186,64 +1182,6 @@
                     "enabled": true,
                     "public_key": "SnWZg6ORcQepuWLI1EVCTTVc4KyfDiGWR4o_CXCMhgk",
                     "short_id": "4ae260"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vless | @ConfigsHUB | 14",
-            "type": "vless",
-            "server": "45.158.127.84",
-            "server_port": 443,
-            "uuid": "7ac2252d-a966-486a-bca9-fcd148e60078",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "W3lJRwhDFMycX3Q056SN4T9v_q_PvjBWEjmDF8Thsyc",
-                    "short_id": "25"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 16",
-            "type": "vless",
-            "server": "nevn2.iovpn.click",
-            "server_port": 443,
-            "uuid": "f8e17967-9c69-40c3-a2fb-e139a2a7c2c8",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "apple.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "b6ztnkLamEySQKDw_IdLqHEx0X88Y0sI7s5BLa0YUGU",
-                    "short_id": "016cc6e2de6b"
                 }
             }
         },
