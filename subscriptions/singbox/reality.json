@@ -143,7 +143,8 @@
                 "🇦🇲AM | 🔴 | vless | @v2rayNG_Matsuri | 7",
                 "🇭🇺HU | 🟢 | vless | @ShadowProxy66 | 0",
                 "🇩🇪DE | 🔴 | vless | @ServerNett | 0",
-                "❔XX | 🟢 | vless | @ServerNett | 1",
+                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 2",
+                "🇹🇷TR | 🟢 | vless | @ConfigsHUB | 15",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 3",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 6",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 10",
@@ -227,7 +228,8 @@
                 "🇦🇲AM | 🔴 | vless | @v2rayNG_Matsuri | 7",
                 "🇭🇺HU | 🟢 | vless | @ShadowProxy66 | 0",
                 "🇩🇪DE | 🔴 | vless | @ServerNett | 0",
-                "❔XX | 🟢 | vless | @ServerNett | 1",
+                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 2",
+                "🇹🇷TR | 🟢 | vless | @ConfigsHUB | 15",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 3",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 6",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 10",
@@ -1475,11 +1477,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @ServerNett | 1",
+            "tag": "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 2",
             "type": "vless",
-            "server": "safelinevpn.afterhav.ir",
-            "server_port": 8880,
-            "uuid": "SERVERNETT-SERVERNETT1",
+            "server": "nl01-vlr01.tcp-reset-club.net",
+            "server_port": 443,
+            "uuid": "4a640781-f5c8-4d17-80db-a6b0a091ba05",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1489,17 +1491,46 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.apple.com.cn",
+                "server_name": "hls-svod.itunes.apple.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "fXy2aOmxGGfjSa31-Wi7rJj1kS9q5N-kT0P86312Wgo",
-                    "short_id": "32e5"
+                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+                    "short_id": "d3b13f31"
+                }
+            }
+        },
+        {
+            "tag": "🇹🇷TR | 🟢 | vless | @ConfigsHUB | 15",
+            "type": "vless",
+            "server": "62.60.233.250",
+            "server_port": 443,
+            "uuid": "fd0cdd44-2361-11f0-9970-45e1d80c4039",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "images.apple.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "MFsbnsNQsSpZwP-_Ohzako6aHpfK4-rbssxhr3eywWw",
+                    "short_id": "4476a3"
                 }
             }
         },
