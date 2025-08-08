@@ -134,7 +134,6 @@ proxies:
   - {"name":"🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 12","type":"trojan","server":"52.59.100.190","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 13","type":"trojan","server":"3.126.80.76","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 14","type":"trojan","server":"15.188.103.156","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 15","type":"trojan","server":"15.236.2.100","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇩🇪DE | 🟢 | trojan | @DirectVPN | 0","type":"trojan","server":"3.72.122.16","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇩🇪DE | 🟢 | trojan | @DirectVPN | 1","type":"trojan","server":"63.176.11.175","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | 🟢 | trojan | @DirectVPN | 2","type":"trojan","server":"13.37.253.72","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
@@ -150,8 +149,9 @@ proxies:
   - {"name":"🇩🇪DE | 🟢 | trojan | @DirectVPN | 12","type":"trojan","server":"52.59.100.190","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇩🇪DE | 🟢 | trojan | @DirectVPN | 13","type":"trojan","server":"3.126.80.76","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | 🟢 | trojan | @DirectVPN | 14","type":"trojan","server":"15.188.103.156","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇫🇷FR | 🟢 | trojan | @DirectVPN | 15","type":"trojan","server":"15.236.2.100","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇩🇪DE | 🔴 | trojan | @ConfigsHUB | 16","type":"trojan","server":"91.107.128.99","port":1496,"udp":false,"password":"i42xelUhUd","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"🚩CF | 🟢 | trojan | @ConfigsHUB | 6","type":"trojan","server":"190.93.244.202","port":443,"udp":false,"password":"bpb-trojan","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"fcspring.ggff.net"}
+  - {"name":"🇨🇾CY | 🟢 | trojan | @ConfigsHUB | 7","type":"trojan","server":"195.85.59.95","port":443,"udp":false,"password":"blue2024","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"hb.lii2010.us.kg"}
+  - {"name":"🇩🇪DE | 🟢 | trojan | @ConfigsHUB | 16","type":"trojan","server":"3.77.219.135","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇨🇿CZ | 🟢 | trojan | @iP_CF | 25","type":"trojan","server":"85.255.9.247","port":1935,"udp":false,"password":"mZMgM1vKw5","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"x1-czech-aruba-v2.devefun.org"}
 proxy-groups:
   - name: MANUAL
@@ -175,7 +175,6 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 12'
       - '🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 13'
       - '🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 14'
-      - '🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 15'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 0'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 1'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 2'
@@ -191,8 +190,9 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 12'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 13'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 14'
-      - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 15'
-      - '🇩🇪DE | 🔴 | trojan | @ConfigsHUB | 16'
+      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 6'
+      - '🇨🇾CY | 🟢 | trojan | @ConfigsHUB | 7'
+      - '🇩🇪DE | 🟢 | trojan | @ConfigsHUB | 16'
       - '🇨🇿CZ | 🟢 | trojan | @iP_CF | 25'
   - name: URL-TEST
     type: url-test
@@ -216,7 +216,6 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 12'
       - '🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 13'
       - '🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 14'
-      - '🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 15'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 0'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 1'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 2'
@@ -232,8 +231,9 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 12'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 13'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 14'
-      - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 15'
-      - '🇩🇪DE | 🔴 | trojan | @ConfigsHUB | 16'
+      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 6'
+      - '🇨🇾CY | 🟢 | trojan | @ConfigsHUB | 7'
+      - '🇩🇪DE | 🟢 | trojan | @ConfigsHUB | 16'
       - '🇨🇿CZ | 🟢 | trojan | @iP_CF | 25'
   - name: FALLBACK
     type: fallback
@@ -256,7 +256,6 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 12'
       - '🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 13'
       - '🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 14'
-      - '🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 15'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 0'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 1'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 2'
@@ -272,8 +271,9 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 12'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 13'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 14'
-      - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 15'
-      - '🇩🇪DE | 🔴 | trojan | @ConfigsHUB | 16'
+      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 6'
+      - '🇨🇾CY | 🟢 | trojan | @ConfigsHUB | 7'
+      - '🇩🇪DE | 🟢 | trojan | @ConfigsHUB | 16'
       - '🇨🇿CZ | 🟢 | trojan | @iP_CF | 25'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
