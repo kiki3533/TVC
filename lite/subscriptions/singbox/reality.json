@@ -108,9 +108,10 @@
                 "URL-TEST",
                 "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 28",
                 "🇩🇪DE | 🔴 | vless | @vmessorg | 15",
+                "🇩🇪DE | 🔴 | vless | @v2rayNG_Matsuri | 6",
                 "🇦🇲AM | 🔴 | vless | @v2rayNG_Matsuri | 7",
                 "🇩🇪DE | 🔴 | vless | @ServerNett | 0",
-                "🇩🇪DE | 🔴 | vless | @proxystore11 | 11",
+                "🇩🇪DE | 🔴 | vless | @proxystore11 | 10",
                 "🇳🇱NL | 🟢 | vless | @Outlinev2rayNG | 13",
                 "🇩🇪DE | 🔴 | vless | @mehrosaboran | 9",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -125,9 +126,10 @@
             "outbounds": [
                 "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 28",
                 "🇩🇪DE | 🔴 | vless | @vmessorg | 15",
+                "🇩🇪DE | 🔴 | vless | @v2rayNG_Matsuri | 6",
                 "🇦🇲AM | 🔴 | vless | @v2rayNG_Matsuri | 7",
                 "🇩🇪DE | 🔴 | vless | @ServerNett | 0",
-                "🇩🇪DE | 🔴 | vless | @proxystore11 | 11",
+                "🇩🇪DE | 🔴 | vless | @proxystore11 | 10",
                 "🇳🇱NL | 🟢 | vless | @Outlinev2rayNG | 13",
                 "🇩🇪DE | 🔴 | vless | @mehrosaboran | 9",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -214,6 +216,42 @@
             }
         },
         {
+            "tag": "🇩🇪DE | 🔴 | vless | @v2rayNG_Matsuri | 6",
+            "type": "vless",
+            "server": "91.99.97.62",
+            "server_port": 51479,
+            "uuid": "e4848d5d-3380-45ff-f9d5-48cb1f492926",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cdn77.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ywnxBH4IYI83aaL9k0og1Slb9CU-eEhPypH3pXD0VSg",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇦🇲AM | 🔴 | vless | @v2rayNG_Matsuri | 7",
             "type": "vless",
             "server": "or1.pmme.top",
@@ -272,7 +310,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @proxystore11 | 11",
+            "tag": "🇩🇪DE | 🔴 | vless | @proxystore11 | 10",
             "type": "vless",
             "server": "vip1.proxystore11.news",
             "server_port": 2052,
