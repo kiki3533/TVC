@@ -132,8 +132,8 @@
                 "❔XX | 🔴 | vless | @CUSTOMVPNSERVER | 5",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 6",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 7",
-                "🇺🇸US | 🔴 | vless | @DarkTeam_VPN | 27",
-                "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 28",
+                "🇺🇸US | 🔴 | vless | @DarkTeam_VPN | 46",
+                "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 47",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 0",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "❔XX | 🔴 | vless | @v2logy | 10",
@@ -171,8 +171,8 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 13",
-                "🇮🇷IR | 🔴 | vless | @ConfigsHUB | 14",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 14",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 10",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 6",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
@@ -225,8 +225,8 @@
                 "❔XX | 🔴 | vless | @CUSTOMVPNSERVER | 5",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 6",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 7",
-                "🇺🇸US | 🔴 | vless | @DarkTeam_VPN | 27",
-                "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 28",
+                "🇺🇸US | 🔴 | vless | @DarkTeam_VPN | 46",
+                "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 47",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 0",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "❔XX | 🔴 | vless | @v2logy | 10",
@@ -264,8 +264,8 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 13",
-                "🇮🇷IR | 🔴 | vless | @ConfigsHUB | 14",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 14",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 10",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 6",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 6",
@@ -882,7 +882,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DarkTeam_VPN | 27",
+            "tag": "🇺🇸US | 🔴 | vless | @DarkTeam_VPN | 46",
             "type": "vless",
             "server": "b6.sarasimano.com",
             "server_port": 2096,
@@ -913,7 +913,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 28",
+            "tag": "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 47",
             "type": "vless",
             "server": "51.210.103.141",
             "server_port": 443,
@@ -1785,11 +1785,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 13",
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 14",
             "type": "vless",
-            "server": "91.99.126.93",
-            "server_port": 8443,
-            "uuid": "bb7b030f-fd37-488a-be1f-1a26d874cb26",
+            "server": "195.201.238.46",
+            "server_port": 10808,
+            "uuid": "2dd28616-9375-4e05-b3e1-e8c942b6bd1b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1799,17 +1799,24 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @ConfigsHUB | 14",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "tun2.shatak.store",
-            "server_port": 8019,
-            "uuid": "5a7a7e1e-7e1e-47ea-9e1e-e1e65e1e7e1e",
+            "server": "ip.iranshopering.ir",
+            "server_port": 8880,
+            "uuid": "96c184e6-0d47-472d-8905-1b12ecf62f80",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Nama",
+                "headers": {
+                    "Host": "ip.iranshopering.ir"
+                }
             }
         },
         {
