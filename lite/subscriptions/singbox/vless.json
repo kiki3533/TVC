@@ -111,7 +111,7 @@
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 12",
                 "🇩🇪DE | 🔴 | vless | @v2_team | 4",
                 "🇩🇪DE | 🔴 | vless | @v2_team | 5",
-                "🇨🇦CA | 🔴 | vless | @NIM_VPN_ir | 8",
+                "🇺🇸US | 🔴 | vless | @NIM_VPN_ir | 8",
                 "🇩🇪DE | 🔴 | vless | @NIM_VPN_ir | 9",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 3",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 4",
@@ -176,6 +176,8 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 17",
+                "🇰🇷KR | 🔴 | vless | @ConfigsHUB | 18",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 11",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 5",
                 "🇫🇮FI | 🟢 | vless | @free1_vpn | 6",
@@ -211,7 +213,7 @@
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 12",
                 "🇩🇪DE | 🔴 | vless | @v2_team | 4",
                 "🇩🇪DE | 🔴 | vless | @v2_team | 5",
-                "🇨🇦CA | 🔴 | vless | @NIM_VPN_ir | 8",
+                "🇺🇸US | 🔴 | vless | @NIM_VPN_ir | 8",
                 "🇩🇪DE | 🔴 | vless | @NIM_VPN_ir | 9",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 3",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 4",
@@ -276,6 +278,8 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 17",
+                "🇰🇷KR | 🔴 | vless | @ConfigsHUB | 18",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 11",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 5",
                 "🇫🇮FI | 🟢 | vless | @free1_vpn | 6",
@@ -443,7 +447,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @NIM_VPN_ir | 8",
+            "tag": "🇺🇸US | 🔴 | vless | @NIM_VPN_ir | 8",
             "type": "vless",
             "server": "deep-radio.seotoolsforyou.co.uk",
             "server_port": 80,
@@ -1925,6 +1929,48 @@
                 "path": "\/193.123.81.105=443",
                 "headers": {
                     "Host": "104.21.112.1"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 17",
+            "type": "vless",
+            "server": "143.47.187.243",
+            "server_port": 443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=2744security=tls",
+                "headers": {
+                    "Host": "pvg.aghabeiki.homes"
+                }
+            }
+        },
+        {
+            "tag": "🇰🇷KR | 🔴 | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "130.162.144.85",
+            "server_port": 443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=2744security=tls",
+                "headers": {
+                    "Host": "pvg.aghabeiki.homes"
                 }
             }
         },
