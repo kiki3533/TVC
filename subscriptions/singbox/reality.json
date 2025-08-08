@@ -123,7 +123,7 @@
                 "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 28",
                 "🇩🇪DE | 🔴 | vless | @v2logy | 6",
                 "❔XX | 🟢 | vless | @V2rayCollectorDonate | 9",
-                "🇹🇷TR | 🟢 | vless | @Outline_Vpn | 5",
+                "🇹🇷TR | 🟢 | vless | @Outline_Vpn | 6",
                 "🇳🇱NL | 🔴 | vless | @prrofile_purple | 116",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 122",
                 "🇷🇺RU | 🟢 | vless | @prrofile_purple | 126",
@@ -136,7 +136,8 @@
                 "🇦🇲AM | 🔴 | vless | @v2rayNG_Matsuri | 7",
                 "🇭🇺HU | 🟢 | vless | @ShadowProxy66 | 0",
                 "🇩🇪DE | 🔴 | vless | @ServerNett | 0",
-                "🇮🇪IE | 🟢 | vless | @ConfigsHUB | 4",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 1",
+                "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 5",
                 "❔XX | 🔴 | vless | @proxystore11 | 1",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 3",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 6",
@@ -200,7 +201,7 @@
                 "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 28",
                 "🇩🇪DE | 🔴 | vless | @v2logy | 6",
                 "❔XX | 🟢 | vless | @V2rayCollectorDonate | 9",
-                "🇹🇷TR | 🟢 | vless | @Outline_Vpn | 5",
+                "🇹🇷TR | 🟢 | vless | @Outline_Vpn | 6",
                 "🇳🇱NL | 🔴 | vless | @prrofile_purple | 116",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 122",
                 "🇷🇺RU | 🟢 | vless | @prrofile_purple | 126",
@@ -213,7 +214,8 @@
                 "🇦🇲AM | 🔴 | vless | @v2rayNG_Matsuri | 7",
                 "🇭🇺HU | 🟢 | vless | @ShadowProxy66 | 0",
                 "🇩🇪DE | 🔴 | vless | @ServerNett | 0",
-                "🇮🇪IE | 🟢 | vless | @ConfigsHUB | 4",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 1",
+                "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 5",
                 "❔XX | 🔴 | vless | @proxystore11 | 1",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 3",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 6",
@@ -825,7 +827,7 @@
             }
         },
         {
-            "tag": "🇹🇷TR | 🟢 | vless | @Outline_Vpn | 5",
+            "tag": "🇹🇷TR | 🟢 | vless | @Outline_Vpn | 6",
             "type": "vless",
             "server": "185.33.24.229",
             "server_port": 28495,
@@ -1223,11 +1225,11 @@
             }
         },
         {
-            "tag": "🇮🇪IE | 🟢 | vless | @ConfigsHUB | 4",
+            "tag": "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 1",
             "type": "vless",
-            "server": "amazon-13.cristiano.name.ng",
+            "server": "nl01-vlr01.tcp-reset-club.net",
             "server_port": 443,
-            "uuid": "4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4",
+            "uuid": "4a640781-f5c8-4d17-80db-a6b0a091ba05",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1237,7 +1239,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "store.steampowered.com",
+                "server_name": "hls-svod.itunes.apple.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1246,8 +1248,37 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4",
-                    "short_id": "f5"
+                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+                    "short_id": "d3b13f31"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 5",
+            "type": "vless",
+            "server": "ru01-vlr01.tcp-reset-club.net",
+            "server_port": 443,
+            "uuid": "2a02cb25-0f58-4b19-a7a6-8c205fdb9042",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hls-svod.itunes.apple.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+                    "short_id": "48720c"
                 }
             }
         },
