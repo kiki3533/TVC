@@ -123,7 +123,8 @@
                 "🇩🇪DE | 🟢 | vmess | @prrofile_purple | 145",
                 "❔XX | 🟢 | vmess | @prrofile_purple | 146",
                 "🇩🇪DE | 🟢 | vmess | @SafeNet_Server | 0",
-                "🚩CF | 🟢 | vmess | @ConfigsHUB | 3",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 13",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 15",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -157,7 +158,8 @@
                 "🇩🇪DE | 🟢 | vmess | @prrofile_purple | 145",
                 "❔XX | 🟢 | vmess | @prrofile_purple | 146",
                 "🇩🇪DE | 🟢 | vmess | @SafeNet_Server | 0",
-                "🚩CF | 🟢 | vmess | @ConfigsHUB | 3",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 13",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 15",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -493,11 +495,11 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | @ConfigsHUB | 3",
+            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 13",
             "type": "vmess",
-            "server": "104.21.3.189",
-            "server_port": 2053,
-            "uuid": "2fc37713-3017-497e-ff2d-965f826a19a3",
+            "server": "leader.sabapardaziran.ir",
+            "server_port": 2096,
+            "uuid": "d8964223-965d-499a-8d3e-dafc5a117ae7",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -510,19 +512,39 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "cc2d4.89060004.xyz",
+                "server_name": "leader.sabapardaziran.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 15",
+            "type": "vmess",
+            "server": "leader.sabapardaziran.ir",
+            "server_port": 2096,
+            "uuid": "84fb2bcf-0bc5-4e97-96cf-c028ee104dcc",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "cc2d4.89060004.xyz"
+            "tls": {
+                "enabled": true,
+                "server_name": "leader.sabapardaziran.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
