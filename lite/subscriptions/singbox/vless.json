@@ -174,7 +174,6 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 10",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 8",
@@ -273,7 +272,6 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 10",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 8",
@@ -1860,11 +1858,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "104.21.11.173",
+            "server": "rrfvbg.0890604.xyz",
             "server_port": 443,
-            "uuid": "30f2d443-af46-4dd6-83c9-b5e17299ebd2",
+            "uuid": "a7c9c017-db10-4d15-b01b-0634db498b57",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1874,7 +1872,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "carlotta.shoorekeeper.cloudns.org",
+                "server_name": "rRFvbG.0890604.xyZ",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1884,24 +1882,10 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/proxyip",
+                "path": "\/xZjr7v1DqrYyamxeTh7sLJtI1",
                 "headers": {
-                    "Host": "carlotta.shoorekeeper.cloudns.org"
+                    "Host": "rRFvbG.0890604.xyZ"
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "172.105.135.204",
-            "server_port": 443,
-            "uuid": "0d482f53-d06f-4583-80b2-b12c9072afc6",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
