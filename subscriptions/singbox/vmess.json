@@ -121,6 +121,7 @@
                 "🇩🇪DE | 🟢 | vmess | @prrofile_purple | 127",
                 "🇩🇪DE | 🟢 | vmess | @prrofile_purple | 141",
                 "🇩🇪DE | 🟢 | vmess | @SafeNet_Server | 0",
+                "❔XX | 🟢 | vmess | @ConfigsHUB | 3",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -141,8 +142,6 @@
                 "🚩CF | 🟢 | vmess | @Hope_Net | 12",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 13",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 14",
-                "🚩CF | 🟢 | vmess | @Hope_Net | 15",
-                "🚩CF | 🟢 | vmess | @Hope_Net | 16",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 1",
                 "🇸🇬SG | 🟢 | vmess | @FreakConfig | 2"
             ]
@@ -166,6 +165,7 @@
                 "🇩🇪DE | 🟢 | vmess | @prrofile_purple | 127",
                 "🇩🇪DE | 🟢 | vmess | @prrofile_purple | 141",
                 "🇩🇪DE | 🟢 | vmess | @SafeNet_Server | 0",
+                "❔XX | 🟢 | vmess | @ConfigsHUB | 3",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -186,8 +186,6 @@
                 "🚩CF | 🟢 | vmess | @Hope_Net | 12",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 13",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 14",
-                "🚩CF | 🟢 | vmess | @Hope_Net | 15",
-                "🚩CF | 🟢 | vmess | @Hope_Net | 16",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 1",
                 "🇸🇬SG | 🟢 | vmess | @FreakConfig | 2"
             ],
@@ -462,6 +460,23 @@
             "server": "customers.tele-shop-too.studio",
             "server_port": 33203,
             "uuid": "eaae52d7-bc1a-4979-bd66-b6b428107173",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | @ConfigsHUB | 3",
+            "type": "vmess",
+            "server": null,
+            "server_port": 0,
+            "uuid": null,
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -990,54 +1005,6 @@
                 "path": "\/github.com\/Alvin9999",
                 "headers": {
                     "Host": "162.159.45.231"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🟢 | vmess | @Hope_Net | 15",
-            "type": "vmess",
-            "server": "104.26.0.82",
-            "server_port": 2095,
-            "uuid": "18d96190-c10f-448f-a82a-2d36df5c3cde",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/github.com\/Alvin9999",
-                "headers": {
-                    "Host": "104.26.0.82"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🟢 | vmess | @Hope_Net | 16",
-            "type": "vmess",
-            "server": "104.21.238.35",
-            "server_port": 2086,
-            "uuid": "bc65fac2-7dc7-426f-acdd-0779a5035bde",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/github.com\/Alvin9999",
-                "headers": {
-                    "Host": "104.21.238.35"
                 }
             }
         },
