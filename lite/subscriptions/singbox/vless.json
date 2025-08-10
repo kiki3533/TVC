@@ -174,8 +174,7 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
-                "🇧🇷BR | 🔴 | vless | @ConfigsHUB | 16",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
+                "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 17",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 10",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 8",
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 6",
@@ -273,8 +272,7 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
-                "🇧🇷BR | 🔴 | vless | @ConfigsHUB | 16",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
+                "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 17",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 10",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 8",
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 6",
@@ -1860,11 +1858,11 @@
             }
         },
         {
-            "tag": "🇧🇷BR | 🔴 | vless | @ConfigsHUB | 16",
+            "tag": "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "45.82.245.173",
-            "server_port": 80,
-            "uuid": "1dbfb57c-164e-47c5-9355-8e0c429e7b99",
+            "server": "91.228.10.202",
+            "server_port": 2096,
+            "uuid": "9e769ce1-34be-4e3f-b0a6-823f30eb8f69",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1872,32 +1870,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/vless\/",
-                "headers": {
-                    "Host": "45.82.245.173"
+            "tls": {
+                "enabled": true,
+                "server_name": "91.228.10.202",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "51.195.119.75",
-            "server_port": 80,
-            "uuid": "6a2bda17-7dd4-450c-83fb-5ae5db27e04d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             },
             "transport": {
                 "type": "ws",
-                "path": "\/vless\/",
+                "path": "\/",
                 "headers": {
-                    "Host": "51.195.119.75"
+                    "Host": "91.228.10.202"
                 }
             }
         },
