@@ -111,7 +111,7 @@
                 "🇺🇸US | 🔴 | vless | @V2pedia | 11",
                 "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 67",
                 "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 13",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 19",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 12",
                 "🇸🇪SE | 🟢 | vless | @Outlinev2rayNG | 12",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -131,7 +131,7 @@
                 "🇺🇸US | 🔴 | vless | @V2pedia | 11",
                 "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 67",
                 "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 13",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 19",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 12",
                 "🇸🇪SE | 🟢 | vless | @Outlinev2rayNG | 12",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -328,11 +328,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18",
+            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "109.61.16.89",
-            "server_port": 30938,
-            "uuid": "1068814a-6d43-40d9-a127-0f6b6b77ccfc",
+            "server": "germany-sexy.krot.tech",
+            "server_port": 8443,
+            "uuid": "c26a4bc6-e513-4f81-bb11-bc19b5b9d566",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -342,17 +342,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "indeed.com",
+                "server_name": "www.apple.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "random"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "OkwhFGkP6NhXbmfBpBKqJ_HDNEcqbkp0mMc9HeYVBBE",
-                    "short_id": "9f2b1f07"
+                    "public_key": "PeQ7ScU1LBQfD3QADxIcGWq5s1VlYcFgM0R2SOIFoRw",
+                    "short_id": "6023ef844c0048a1"
                 }
             }
         },
