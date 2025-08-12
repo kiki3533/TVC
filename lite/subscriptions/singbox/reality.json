@@ -109,6 +109,7 @@
                 "🇩🇪DE | 🔴 | vless | @v2_team | 6",
                 "🇩🇪DE | 🔴 | vless | @v2_team | 7",
                 "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 67",
+                "🇨🇦CA | 🟢 | vless | @ConfigsHUB | 13",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 14",
                 "🇮🇹IT | 🟢 | vless | @Capoit | 19",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 20",
@@ -129,6 +130,7 @@
                 "🇩🇪DE | 🔴 | vless | @v2_team | 6",
                 "🇩🇪DE | 🔴 | vless | @v2_team | 7",
                 "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 67",
+                "🇨🇦CA | 🟢 | vless | @ConfigsHUB | 13",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 14",
                 "🇮🇹IT | 🟢 | vless | @Capoit | 19",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 20",
@@ -259,6 +261,35 @@
                     "enabled": true,
                     "public_key": "ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | 🟢 | vless | @ConfigsHUB | 13",
+            "type": "vless",
+            "server": "51.222.87.29",
+            "server_port": 8081,
+            "uuid": "40d9faec-3130-4e69-bb77-210193e65598",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "C4lraeO0FAYyFmDWbRmHmX53xTf4XMalv5kGefeWBmA",
+                    "short_id": "4662ad"
                 }
             }
         },
