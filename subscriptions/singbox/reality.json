@@ -153,14 +153,12 @@
                 "🇫🇮FI | 🟢 | vless | @v2rayngvpn | 4",
                 "🇫🇮FI | 🟢 | vless | @v2rayngvpn | 7",
                 "🇰🇿KZ | 🟢 | vless | @ShadowProxy66 | 4",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 0",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 5",
-                "🇭🇷HR | 🟢 | vless | @ConfigsHUB | 6",
-                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 7",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 9",
-                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 12",
-                "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 13",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 14",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 4",
+                "🇭🇷HR | 🟢 | vless | @ConfigsHUB | 5",
+                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 6",
+                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 7",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 8",
+                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 12",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 7",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 10",
                 "🇫🇮FI | 🟢 | vless | @Outlinev2rayNG | 1",
@@ -248,14 +246,12 @@
                 "🇫🇮FI | 🟢 | vless | @v2rayngvpn | 4",
                 "🇫🇮FI | 🟢 | vless | @v2rayngvpn | 7",
                 "🇰🇿KZ | 🟢 | vless | @ShadowProxy66 | 4",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 0",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 5",
-                "🇭🇷HR | 🟢 | vless | @ConfigsHUB | 6",
-                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 7",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 9",
-                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 12",
-                "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 13",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 14",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 4",
+                "🇭🇷HR | 🟢 | vless | @ConfigsHUB | 5",
+                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 6",
+                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 7",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 8",
+                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 12",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 7",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 10",
                 "🇫🇮FI | 🟢 | vless | @Outlinev2rayNG | 1",
@@ -1794,36 +1790,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @ConfigsHUB | 0",
-            "type": "vless",
-            "server": "5.181.171.10",
-            "server_port": 443,
-            "uuid": "49ed01ad-3bb4-204f-b0ff-a58f658fd618",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "speed.cloudflare.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": null
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "YNGotlyAx3ELUmi4lxOUjiEDmibqf1pPUTE9o3YYT2Y",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 5",
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 4",
             "type": "vless",
             "server": "109.61.16.89",
             "server_port": 30938,
@@ -1852,7 +1819,7 @@
             }
         },
         {
-            "tag": "🇭🇷HR | 🟢 | vless | @ConfigsHUB | 6",
+            "tag": "🇭🇷HR | 🟢 | vless | @ConfigsHUB | 5",
             "type": "vless",
             "server": "deu246.bypassall.org",
             "server_port": 443,
@@ -1881,7 +1848,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 7",
+            "tag": "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 6",
             "type": "vless",
             "server": "speedtest.net.zula.ir.nobitex.ir.shakhle.ir",
             "server_port": 39001,
@@ -1910,7 +1877,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 9",
+            "tag": "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 7",
             "type": "vless",
             "server": "92.112.126.22",
             "server_port": 8442,
@@ -1939,7 +1906,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 12",
+            "tag": "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 8",
             "type": "vless",
             "server": "64.188.96.208",
             "server_port": 34045,
@@ -1968,43 +1935,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 13",
-            "type": "vless",
-            "server": "46.226.162.144",
-            "server_port": 443,
-            "uuid": "aea17401-0505-4cac-b330-d7fcecfa63b7",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "yCVJx0wmxNCquTou_VefSTUXBJ1gMBJyOcNViF1BVXw",
-                    "short_id": "b6b65b76b5969271"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Daily_Configs-Daily_Configs-Daily_Configs-Daily_Configs-Daily_Configs-Daily_Configs-Daily_Configs-Daily_Configs-Daily_Configs-Daily_Configs-Daily_Configs-Daily_Configs-Daily_Configs-Daily_Configs-Daily_Configs-Daily_Configs-Daily_Configs-Daily_Configs-Daily_Configs-Daily_Configs-Daily_Configs-Daily_Configs-Daily_Configs",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vless | @ConfigsHUB | 14",
+            "tag": "🇺🇸US | 🟢 | vless | @ConfigsHUB | 12",
             "type": "vless",
             "server": "us02.528965.xyz",
             "server_port": 31158,
