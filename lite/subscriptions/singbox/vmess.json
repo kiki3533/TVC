@@ -108,6 +108,8 @@
                 "URL-TEST",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇩🇪DE | 🟢 | vmess | @SafeNet_Server | 0",
+                "🇮🇩ID | 🟢 | vmess | @ConfigsHUB | 14",
+                "🇳🇱NL | 🟢 | vmess | @ConfigsHUB | 15",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇵🇱PL | 🟢 | vmess | @Hope_Net | 8",
@@ -120,6 +122,8 @@
             "outbounds": [
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇩🇪DE | 🟢 | vmess | @SafeNet_Server | 0",
+                "🇮🇩ID | 🟢 | vmess | @ConfigsHUB | 14",
+                "🇳🇱NL | 🟢 | vmess | @ConfigsHUB | 15",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇵🇱PL | 🟢 | vmess | @Hope_Net | 8",
@@ -168,6 +172,40 @@
             "server": "customers.tele-shop-too.studio",
             "server_port": 33203,
             "uuid": "eaae52d7-bc1a-4979-bd66-b6b428107173",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇮🇩ID | 🟢 | vmess | @ConfigsHUB | 14",
+            "type": "vmess",
+            "server": "154.90.49.57",
+            "server_port": 58868,
+            "uuid": "fbffeb6b-b5e5-4f77-8888-c7919fbeb0ad",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇳🇱NL | 🟢 | vmess | @ConfigsHUB | 15",
+            "type": "vmess",
+            "server": "89.34.230.244",
+            "server_port": 57926,
+            "uuid": "f46df6db-361f-474d-8787-67442ae6dd30",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
