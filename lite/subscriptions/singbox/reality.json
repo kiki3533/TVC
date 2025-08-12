@@ -108,7 +108,8 @@
                 "URL-TEST",
                 "🇩🇪DE | 🔴 | vless | @v2_team | 6",
                 "🇩🇪DE | 🔴 | vless | @v2_team | 7",
-                "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 67",
+                "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 87",
+                "🇫🇮FI | 🟢 | vless | @prrofile_purple | 133",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 15",
                 "🇮🇹IT | 🟢 | vless | @Capoit | 19",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 20",
@@ -128,7 +129,8 @@
             "outbounds": [
                 "🇩🇪DE | 🔴 | vless | @v2_team | 6",
                 "🇩🇪DE | 🔴 | vless | @v2_team | 7",
-                "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 67",
+                "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 87",
+                "🇫🇮FI | 🟢 | vless | @prrofile_purple | 133",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 15",
                 "🇮🇹IT | 🟢 | vless | @Capoit | 19",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 20",
@@ -234,7 +236,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 67",
+            "tag": "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 87",
             "type": "vless",
             "server": "51.210.103.141",
             "server_port": 443,
@@ -259,6 +261,35 @@
                     "enabled": true,
                     "public_key": "ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮FI | 🟢 | vless | @prrofile_purple | 133",
+            "type": "vless",
+            "server": "direct2.yasharteam.com",
+            "server_port": 443,
+            "uuid": "8793dd58-ec8c-49e4-a8d5-5c6f59acca0e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8",
+                    "short_id": "e54b5ad736ae4c38"
                 }
             }
         },
