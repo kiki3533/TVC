@@ -174,7 +174,8 @@
                 "🇫🇷FR | 🔴 | vless | @VmessProtocol | 4",
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
-                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 14",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 14",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 11",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 12",
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 6",
@@ -269,7 +270,8 @@
                 "🇫🇷FR | 🔴 | vless | @VmessProtocol | 4",
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
-                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 14",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 14",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 11",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 12",
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 6",
@@ -1839,32 +1841,38 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 14",
+            "tag": "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 14",
             "type": "vless",
-            "server": "speedtest.net.zula.ir.nobitex.ir.shakhle.ir",
-            "server_port": 39001,
-            "uuid": "15449e06-b519-414a-9e0d-fbb4a0fd2780",
-            "flow": "xtls-rprx-vision",
+            "server": "holanx.blacklike.ir",
+            "server_port": 9008,
+            "uuid": "9b6619f7-269d-4ac7-bd9a-3a3e42aface3",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "7ERFDeEmVmljmV6PdMNl0Menauhchi-JfYYkiw15y1o",
-                    "short_id": "f23547"
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "holanx.blacklike.ir"
                 }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
+            "type": "vless",
+            "server": "104.16.157.108",
+            "server_port": 8080,
+            "uuid": "c54ba325-c1be-4845-a2e7-922b5cd211c3",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
