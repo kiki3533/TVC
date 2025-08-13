@@ -108,10 +108,9 @@
                 "URL-TEST",
                 "🇩🇪DE | 🔴 | vless | @v2_team | 6",
                 "🇩🇪DE | 🔴 | vless | @v2_team | 7",
-                "🇫🇮FI | 🟢 | vless | @prrofile_purple | 141",
-                "🇫🇮FI | 🟢 | vless | @v2rayngvpn | 13",
+                "🇫🇮FI | 🟢 | vless | @v2rayngvpn | 15",
                 "🇰🇿KZ | 🟢 | vless | @ShadowProxy66 | 4",
-                "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 17",
+                "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 18",
                 "🇮🇹IT | 🟢 | vless | @Capoit | 24",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 25",
                 "🇩🇪DE | 🔴 | vless | @mehrosaboran | 8",
@@ -128,10 +127,9 @@
             "outbounds": [
                 "🇩🇪DE | 🔴 | vless | @v2_team | 6",
                 "🇩🇪DE | 🔴 | vless | @v2_team | 7",
-                "🇫🇮FI | 🟢 | vless | @prrofile_purple | 141",
-                "🇫🇮FI | 🟢 | vless | @v2rayngvpn | 13",
+                "🇫🇮FI | 🟢 | vless | @v2rayngvpn | 15",
                 "🇰🇿KZ | 🟢 | vless | @ShadowProxy66 | 4",
-                "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 17",
+                "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 18",
                 "🇮🇹IT | 🟢 | vless | @Capoit | 24",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 25",
                 "🇩🇪DE | 🔴 | vless | @mehrosaboran | 8",
@@ -234,36 +232,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🟢 | vless | @prrofile_purple | 141",
-            "type": "vless",
-            "server": "direct2.yasharteam.com",
-            "server_port": 443,
-            "uuid": "8793dd58-ec8c-49e4-a8d5-5c6f59acca0e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8",
-                    "short_id": "e54b5ad736ae4c38"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮FI | 🟢 | vless | @v2rayngvpn | 13",
+            "tag": "🇫🇮FI | 🟢 | vless | @v2rayngvpn | 15",
             "type": "vless",
             "server": "46.62.148.83",
             "server_port": 443,
@@ -321,11 +290,11 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 17",
+            "tag": "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "fr.pixvpn.app",
-            "server_port": 8443,
-            "uuid": "f6fa8cbd-6f5a-4a2c-8a28-9a1e6f48bdd6",
+            "server": "46.62.139.162",
+            "server_port": 29752,
+            "uuid": "2c3b3e80-a2ec-459e-b898-206ead4edc9d",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -335,7 +304,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "jd.com",
+                "server_name": "www.tgju.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -344,16 +313,9 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": "41a4cee2c50c4fc3"
+                    "public_key": "EXDIPc_-7wSk5LI0JH0fyaN3bc_kIgEe3fu2hIOBtWs",
+                    "short_id": "3dd812"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "grpc-jd",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
