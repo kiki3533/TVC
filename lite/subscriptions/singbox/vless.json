@@ -128,7 +128,8 @@
                 "🇺🇸US | 🔴 | vless | @shh_proxy | 9",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 18",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 19",
-                "🇩🇪DE | 🔴 | vless | @rxv2ray | 15",
+                "🇺🇦UA | 🔴 | vless | @rxv2ray | 15",
+                "🇩🇪DE | 🔴 | vless | @rxv2ray | 16",
                 "🇺🇸US | 🔴 | vless | @lightning6 | 7",
                 "🇺🇸US | 🔴 | vless | @lightning6 | 8",
                 "🇺🇸US | 🔴 | vless | @CUSTOMVPNSERVER | 4",
@@ -163,6 +164,7 @@
                 "🇺🇸US | 🔴 | vless | @v2rayngvpn | 13",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 9",
+                "🇹🇷TR | 🟢 | vless | @ShadowProxy66 | 4",
                 "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 5",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
@@ -224,7 +226,8 @@
                 "🇺🇸US | 🔴 | vless | @shh_proxy | 9",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 18",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 19",
-                "🇩🇪DE | 🔴 | vless | @rxv2ray | 15",
+                "🇺🇦UA | 🔴 | vless | @rxv2ray | 15",
+                "🇩🇪DE | 🔴 | vless | @rxv2ray | 16",
                 "🇺🇸US | 🔴 | vless | @lightning6 | 7",
                 "🇺🇸US | 🔴 | vless | @lightning6 | 8",
                 "🇺🇸US | 🔴 | vless | @CUSTOMVPNSERVER | 4",
@@ -259,6 +262,7 @@
                 "🇺🇸US | 🔴 | vless | @v2rayngvpn | 13",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 9",
+                "🇹🇷TR | 🟢 | vless | @ShadowProxy66 | 4",
                 "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 5",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
@@ -834,7 +838,21 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @rxv2ray | 15",
+            "tag": "🇺🇦UA | 🔴 | vless | @rxv2ray | 15",
+            "type": "vless",
+            "server": "193.238.153.84",
+            "server_port": 33817,
+            "uuid": "133361c8-60e7-447a-dd5b-e7af60b9d115",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @rxv2ray | 16",
             "type": "vless",
             "server": "178.162.244.224",
             "server_port": 443,
@@ -1610,6 +1628,35 @@
                 "path": "\/?ed=2560",
                 "headers": {
                     "Host": "172.67.11.138"
+                }
+            }
+        },
+        {
+            "tag": "🇹🇷TR | 🟢 | vless | @ShadowProxy66 | 4",
+            "type": "vless",
+            "server": "45.12.143.191",
+            "server_port": 20329,
+            "uuid": "e105e56a-5f81-41a2-ab44-bfffc9b00674",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Lj3MXlg16CTFHtU88acSS-ACfGnwJ_xkU6dC6k8OeDo",
+                    "short_id": "4602ee9f9f36"
                 }
             }
         },
