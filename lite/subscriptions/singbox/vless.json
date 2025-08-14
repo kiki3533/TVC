@@ -177,8 +177,8 @@
                 "🇫🇷FR | 🔴 | vless | @VmessProtocol | 4",
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
-                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 18",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 11",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 12",
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 6",
@@ -277,8 +277,8 @@
                 "🇫🇷FR | 🔴 | vless | @VmessProtocol | 4",
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
-                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 18",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 11",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 12",
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 6",
@@ -1910,61 +1910,31 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 18",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "64.188.96.208",
-            "server_port": 34045,
-            "uuid": "d8dd94fd-540e-461d-b5d4-acebef02c22a",
-            "flow": "xtls-rprx-vision",
+            "server": "172.67.211.227",
+            "server_port": 2082,
+            "uuid": "c54ba325-c1be-4845-a2e7-922b5cd211c3",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": null
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA",
-                    "short_id": "e8ab71d0"
-                }
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 19",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "92.112.126.22",
-            "server_port": 8442,
-            "uuid": "31303020-3531-4035-b120-343920343920",
-            "flow": "xtls-rprx-vision",
+            "server": "EVAY_VPN.fAst.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "2dac3536-244a-4558-9ab9-ab9ae34638c1",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "creativecommons.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "safari"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "pFRfJJDY6TYJq-OVgAqFXhdaeur7gJWJM-RZT8g8yAA",
-                    "short_id": "59b75803"
-                }
             }
         },
         {
