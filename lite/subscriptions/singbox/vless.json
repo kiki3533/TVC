@@ -113,7 +113,7 @@
                 "🇺🇸US | 🔴 | vless | @v2_team | 6",
                 "🇺🇸US | 🔴 | vless | @v2_team | 7",
                 "🇺🇸US | 🔴 | vless | @NIM_VPN_ir | 6",
-                "🇺🇸US | 🔴 | vless | @NIM_VPN_ir | 7",
+                "🇨🇦CA | 🔴 | vless | @NIM_VPN_ir | 7",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 3",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 4",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 13",
@@ -175,8 +175,8 @@
                 "🇫🇷FR | 🔴 | vless | @VmessProtocol | 3",
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 4",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 17",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 11",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 12",
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 6",
@@ -210,7 +210,7 @@
                 "🇺🇸US | 🔴 | vless | @v2_team | 6",
                 "🇺🇸US | 🔴 | vless | @v2_team | 7",
                 "🇺🇸US | 🔴 | vless | @NIM_VPN_ir | 6",
-                "🇺🇸US | 🔴 | vless | @NIM_VPN_ir | 7",
+                "🇨🇦CA | 🔴 | vless | @NIM_VPN_ir | 7",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 3",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 4",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 13",
@@ -272,8 +272,8 @@
                 "🇫🇷FR | 🔴 | vless | @VmessProtocol | 3",
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 4",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 17",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 11",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 12",
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 6",
@@ -482,7 +482,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @NIM_VPN_ir | 7",
+            "tag": "🇨🇦CA | 🔴 | vless | @NIM_VPN_ir | 7",
             "type": "vless",
             "server": "still-bar-5702.vpnetwork3567.workers.dev",
             "server_port": 443,
@@ -1836,31 +1836,53 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "104.16.157.108",
-            "server_port": 8080,
-            "uuid": "c54ba325-c1be-4845-a2e7-922b5cd211c3",
+            "server": "holanx.blacklike.ir",
+            "server_port": 9008,
+            "uuid": "9b6619f7-269d-4ac7-bd9a-3a3e42aface3",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "holanx.blacklike.ir"
+                }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "172.67.211.227",
-            "server_port": 2082,
-            "uuid": "c54ba325-c1be-4845-a2e7-922b5cd211c3",
-            "flow": "",
+            "server": "parsvds.com.ir-outline.click",
+            "server_port": 443,
+            "uuid": "bbd32725-822d-430f-b2b1-de06a72f7333",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "zhaket.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4MdpN5vUjbOa5FwB6j9hyvii52ndc8Wq_NAg0iuuMnQ",
+                    "short_id": "66fff32920"
+                }
             }
         },
         {
