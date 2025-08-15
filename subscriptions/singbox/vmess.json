@@ -119,16 +119,16 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 15",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
                 "🇮🇷IR | 🟢 | vmess | @prrofile_purple | 142",
-                "🇫🇮FI | 🟢 | vmess | @v2ray1_ng | 2",
+                "🇫🇮FI | 🟢 | vmess | @v2ray1_ng | 5",
                 "🇩🇪DE | 🟢 | vmess | @SafeNet_Server | 3",
-                "🇱🇻LV | 🟢 | vmess | @ConfigsHUB | 8",
-                "❔XX | 🟢 | vmess | @ConfigsHUB | 18",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 7",
+                "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 10",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
-                "🇯🇵JP | 🟢 | vmess | @yaney_01 | 2",
+                "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
-                "🇬🇧GB | 🟢 | vmess | @Hope_Net | 0",
+                "🇨🇦CA | 🟢 | vmess | @Hope_Net | 0",
                 "🇨🇳CN | 🟢 | vmess | @Hope_Net | 1",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
                 "❔XX | 🟢 | vmess | @Hope_Net | 3",
@@ -158,16 +158,16 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 15",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
                 "🇮🇷IR | 🟢 | vmess | @prrofile_purple | 142",
-                "🇫🇮FI | 🟢 | vmess | @v2ray1_ng | 2",
+                "🇫🇮FI | 🟢 | vmess | @v2ray1_ng | 5",
                 "🇩🇪DE | 🟢 | vmess | @SafeNet_Server | 3",
-                "🇱🇻LV | 🟢 | vmess | @ConfigsHUB | 8",
-                "❔XX | 🟢 | vmess | @ConfigsHUB | 18",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 7",
+                "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 10",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
-                "🇯🇵JP | 🟢 | vmess | @yaney_01 | 2",
+                "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
-                "🇬🇧GB | 🟢 | vmess | @Hope_Net | 0",
+                "🇨🇦CA | 🟢 | vmess | @Hope_Net | 0",
                 "🇨🇳CN | 🟢 | vmess | @Hope_Net | 1",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
                 "❔XX | 🟢 | vmess | @Hope_Net | 3",
@@ -428,7 +428,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🟢 | vmess | @v2ray1_ng | 2",
+            "tag": "🇫🇮FI | 🟢 | vmess | @v2ray1_ng | 5",
             "type": "vmess",
             "server": "65.109.188.195",
             "server_port": 32017,
@@ -462,11 +462,11 @@
             }
         },
         {
-            "tag": "🇱🇻LV | 🟢 | vmess | @ConfigsHUB | 8",
+            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 7",
             "type": "vmess",
-            "server": "91.218.143.133",
-            "server_port": 20086,
-            "uuid": "a440e0d3-d39a-4bd8-a2c4-e22a6aef96e0",
+            "server": "aio.unlimited.biz.id",
+            "server_port": 443,
+            "uuid": "f282b878-8711-45a1-8c69-5564172123c1",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -477,20 +477,30 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "aio.unlimited.biz.id",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed=2560",
+                "path": "\/aioproxybot\/129.150.49.58-18650?--TELEGRAM-VITUREY----TELEGRAM-VITUREY----TELEGRAM-VITUREY----TELEGRAM-VITUREY",
                 "headers": {
-                    "Host": ""
+                    "Host": "aio.unlimited.biz.id"
                 }
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @ConfigsHUB | 18",
+            "tag": "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 10",
             "type": "vmess",
-            "server": "2a01:4f8:1c1b:72a::1",
-            "server_port": 55821,
-            "uuid": "2812e646-3423-41f2-d7fb-af265972c27b",
+            "server": "s3.ipyar.org",
+            "server_port": 32020,
+            "uuid": "78b4fb57-39d7-4e9d-dd38-c9a38322bcb2",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -537,7 +547,7 @@
             }
         },
         {
-            "tag": "🇯🇵JP | 🟢 | vmess | @yaney_01 | 2",
+            "tag": "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
             "type": "vmess",
             "server": "107.149.119.43",
             "server_port": 37000,
@@ -653,7 +663,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🟢 | vmess | @Hope_Net | 0",
+            "tag": "🇨🇦CA | 🟢 | vmess | @Hope_Net | 0",
             "type": "vmess",
             "server": "149.7.16.174",
             "server_port": 443,
