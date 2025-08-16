@@ -121,7 +121,6 @@
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 0",
                 "🇩🇪DE | 🟢 | vmess | @SafeNet_Server | 3",
                 "❔XX | 🟢 | vmess | @ConfigsHUB | 14",
-                "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 15",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -149,7 +148,7 @@
                 "🚩CF | 🟢 | vmess | @Hope_Net | 18",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 19",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 1",
-                "🇫🇷FR | 🟢 | vmess | @FreakConfig | 4"
+                "🇫🇷FR | 🟢 | vmess | @FreakConfig | 5"
             ]
         },
         {
@@ -171,7 +170,6 @@
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 0",
                 "🇩🇪DE | 🟢 | vmess | @SafeNet_Server | 3",
                 "❔XX | 🟢 | vmess | @ConfigsHUB | 14",
-                "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 15",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -199,7 +197,7 @@
                 "🚩CF | 🟢 | vmess | @Hope_Net | 18",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 19",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 1",
-                "🇫🇷FR | 🟢 | vmess | @FreakConfig | 4"
+                "🇫🇷FR | 🟢 | vmess | @FreakConfig | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -465,23 +463,6 @@
             "server": null,
             "server_port": 0,
             "uuid": null,
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 15",
-            "type": "vmess",
-            "server": "s3.ipyar.org",
-            "server_port": 32020,
-            "uuid": "78b4fb57-39d7-4e9d-dd38-c9a38322bcb2",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1175,7 +1156,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🟢 | vmess | @FreakConfig | 4",
+            "tag": "🇫🇷FR | 🟢 | vmess | @FreakConfig | 5",
             "type": "vmess",
             "server": "51.254.21.193",
             "server_port": 20086,
