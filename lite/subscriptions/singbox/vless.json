@@ -137,7 +137,7 @@
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 7",
                 "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 76",
                 "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 77",
-                "🇺🇸US | 🔴 | vless | @proxy_kafee | 1",
+                "🇬🇧GB | 🔴 | vless | @proxy_kafee | 1",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 2",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "❔XX | 🔴 | vless | @v2logy | 10",
@@ -175,8 +175,7 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 4",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇮🇹IT | 🔴 | vless | @ConfigsHUB | 13",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 11",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 12",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 4",
@@ -234,7 +233,7 @@
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 7",
                 "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 76",
                 "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 77",
-                "🇺🇸US | 🔴 | vless | @proxy_kafee | 1",
+                "🇬🇧GB | 🔴 | vless | @proxy_kafee | 1",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 2",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "❔XX | 🔴 | vless | @v2logy | 10",
@@ -272,8 +271,7 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 4",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇮🇹IT | 🔴 | vless | @ConfigsHUB | 13",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 11",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 12",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 4",
@@ -1054,7 +1052,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 1",
+            "tag": "🇬🇧GB | 🔴 | vless | @proxy_kafee | 1",
             "type": "vless",
             "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
             "server_port": 443,
@@ -1896,65 +1894,17 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+            "tag": "🇮🇹IT | 🔴 | vless | @ConfigsHUB | 13",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8443,
-            "uuid": "ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4",
+            "server": "filmnet.filimnet.com",
+            "server_port": 80,
+            "uuid": "49f29f5e-ae18-4c6b-ac44-773a5c8133c1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "lease-15.access.name.ng",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "lease-15.access.name.ng"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8443,
-            "uuid": "ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "lease-15.access.name.ng",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
-                "headers": {
-                    "Host": "lease-15.access.name.ng"
-                }
             }
         },
         {
