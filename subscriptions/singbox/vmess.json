@@ -119,12 +119,9 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 14",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 15",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
-                "❔XX | 🟢 | vmess | @prrofile_purple | 107",
-                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 1",
+                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 2",
                 "🇩🇪DE | 🟢 | vmess | @SafeNet_Server | 3",
-                "🇹🇷TR | 🟢 | vmess | @ConfigsHUB | 6",
-                "❔XX | 🟢 | vmess | @ConfigsHUB | 8",
-                "🇨🇦CA | 🟢 | vmess | @ConfigsHUB | 9",
+                "❔XX | 🟢 | vmess | @ConfigsHUB | 6",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -172,12 +169,9 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 14",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 15",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
-                "❔XX | 🟢 | vmess | @prrofile_purple | 107",
-                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 1",
+                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 2",
                 "🇩🇪DE | 🟢 | vmess | @SafeNet_Server | 3",
-                "🇹🇷TR | 🟢 | vmess | @ConfigsHUB | 6",
-                "❔XX | 🟢 | vmess | @ConfigsHUB | 8",
-                "🇨🇦CA | 🟢 | vmess | @ConfigsHUB | 9",
+                "❔XX | 🟢 | vmess | @ConfigsHUB | 6",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -449,24 +443,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @prrofile_purple | 107",
-            "type": "vmess",
-            "server": "france1.okreza151m.ir",
-            "server_port": 5156,
-            "uuid": "259daf00-ad91-4b63-aef7-6911af21052a",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 1",
+            "tag": "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 2",
             "type": "vmess",
             "server": "15.204.234.200",
             "server_port": 41100,
@@ -500,62 +477,11 @@
             }
         },
         {
-            "tag": "🇹🇷TR | 🟢 | vmess | @ConfigsHUB | 6",
-            "type": "vmess",
-            "server": "moonl.querenciavib.xyz",
-            "server_port": 9855,
-            "uuid": "bf2cdc12-dc1d-4204-8a8a-2eb169b8e1e6",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "moonl.querenciavib.xyz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/MOONLV2RAY",
-                "headers": {
-                    "Host": "moonl.querenciavib.xyz"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | @ConfigsHUB | 8",
+            "tag": "❔XX | 🟢 | vmess | @ConfigsHUB | 6",
             "type": "vmess",
             "server": null,
             "server_port": 0,
             "uuid": null,
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇨🇦CA | 🟢 | vmess | @ConfigsHUB | 9",
-            "type": "vmess",
-            "server": "51.79.86.182",
-            "server_port": 42610,
-            "uuid": "e0957ca6-f613-4017-ff3c-effd1da8871a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
