@@ -135,7 +135,7 @@
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 7",
                 "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 57",
                 "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 58",
-                "🇺🇸US | 🔴 | vless | @proxy_kafee | 3",
+                "🇬🇧GB | 🔴 | vless | @proxy_kafee | 3",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 4",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "❔XX | 🔴 | vless | @v2logy | 10",
@@ -173,7 +173,7 @@
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
                 "❔XX | 🔴 | vless | @ConfigsHUB | 18",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 11",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 12",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 5",
@@ -231,7 +231,7 @@
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 7",
                 "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 57",
                 "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 58",
-                "🇺🇸US | 🔴 | vless | @proxy_kafee | 3",
+                "🇬🇧GB | 🔴 | vless | @proxy_kafee | 3",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 4",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "❔XX | 🔴 | vless | @v2logy | 10",
@@ -269,7 +269,7 @@
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
                 "❔XX | 🔴 | vless | @ConfigsHUB | 18",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 11",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 12",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 5",
@@ -983,7 +983,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 3",
+            "tag": "🇬🇧GB | 🔴 | vless | @proxy_kafee | 3",
             "type": "vless",
             "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
             "server_port": 443,
@@ -1802,17 +1802,32 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+            "tag": "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "104.19.122.202",
-            "server_port": 8880,
-            "uuid": "c54ba325-c1be-4845-a2e7-922b5cd211c3",
-            "flow": "",
+            "server": "64.188.96.208",
+            "server_port": 34045,
+            "uuid": "d8dd94fd-540e-461d-b5d4-acebef02c22a",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA",
+                    "short_id": "e8ab71d0"
+                }
             }
         },
         {
