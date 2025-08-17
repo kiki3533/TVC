@@ -121,7 +121,7 @@
                 "🇺🇸US | 🔴 | vless | @melov2ray | 54",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 55",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 10",
-                "🇨🇦CA | 🔴 | vless | @ARv2ray | 17",
+                "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
                 "🇺🇸US | 🔴 | vless | @shh_proxy | 9",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 18",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 19",
@@ -172,6 +172,8 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 11",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 12",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 5",
@@ -215,7 +217,7 @@
                 "🇺🇸US | 🔴 | vless | @melov2ray | 54",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 55",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 10",
-                "🇨🇦CA | 🔴 | vless | @ARv2ray | 17",
+                "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
                 "🇺🇸US | 🔴 | vless | @shh_proxy | 9",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 18",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 19",
@@ -266,6 +268,8 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 11",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 12",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 5",
@@ -657,7 +661,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @ARv2ray | 17",
+            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
             "type": "vless",
             "server": "172.66.40.99",
             "server_port": 443,
@@ -1774,6 +1778,41 @@
                 "headers": {
                     "Host": "104.21.112.1"
                 }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "holanx.blacklike.ir",
+            "server_port": 9008,
+            "uuid": "9b6619f7-269d-4ac7-bd9a-3a3e42aface3",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "holanx.blacklike.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "104.19.122.202",
+            "server_port": 8880,
+            "uuid": "c54ba325-c1be-4845-a2e7-922b5cd211c3",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
