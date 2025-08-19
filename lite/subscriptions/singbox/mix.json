@@ -111,7 +111,7 @@
                 "🇩🇪DE | 🔴 | vless | @Parsashonam | 20",
                 "🇺🇸US | 🔴 | vless | @v2_team | 7",
                 "🇺🇸US | 🔴 | vless | @v2_team | 8",
-                "🇨🇦CA | 🔴 | vless | @NIM_VPN_ir | 5",
+                "🇺🇸US | 🔴 | vless | @NIM_VPN_ir | 5",
                 "🇺🇸US | 🔴 | vless | @NIM_VPN_ir | 6",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 3",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 4",
@@ -123,7 +123,6 @@
                 "🇺🇸US | 🔴 | vless | @melov2ray | 55",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 10",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
-                "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
                 "🇺🇸US | 🔴 | vless | @shh_proxy | 9",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 18",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 19",
@@ -180,8 +179,8 @@
                 "🇩🇪DE | 🟢 | vmess | @SafeNet_Server | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
-                "🇺🇸US | 🔴 | trojan | @ConfigsHUB | 16",
-                "🇺🇸US | 🔴 | trojan | @ConfigsHUB | 17",
+                "🇺🇸US | 🔴 | trojan | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | trojan | @ConfigsHUB | 19",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 10",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 11",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
@@ -222,7 +221,7 @@
                 "🇩🇪DE | 🔴 | vless | @Parsashonam | 20",
                 "🇺🇸US | 🔴 | vless | @v2_team | 7",
                 "🇺🇸US | 🔴 | vless | @v2_team | 8",
-                "🇨🇦CA | 🔴 | vless | @NIM_VPN_ir | 5",
+                "🇺🇸US | 🔴 | vless | @NIM_VPN_ir | 5",
                 "🇺🇸US | 🔴 | vless | @NIM_VPN_ir | 6",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 3",
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 4",
@@ -234,7 +233,6 @@
                 "🇺🇸US | 🔴 | vless | @melov2ray | 55",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 10",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
-                "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
                 "🇺🇸US | 🔴 | vless | @shh_proxy | 9",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 18",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 19",
@@ -291,8 +289,8 @@
                 "🇩🇪DE | 🟢 | vmess | @SafeNet_Server | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
-                "🇺🇸US | 🔴 | trojan | @ConfigsHUB | 16",
-                "🇺🇸US | 🔴 | trojan | @ConfigsHUB | 17",
+                "🇺🇸US | 🔴 | trojan | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | trojan | @ConfigsHUB | 19",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 10",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 11",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
@@ -497,7 +495,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @NIM_VPN_ir | 5",
+            "tag": "🇺🇸US | 🔴 | vless | @NIM_VPN_ir | 5",
             "type": "vless",
             "server": "104.18.36.24",
             "server_port": 443,
@@ -781,37 +779,6 @@
                 "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "headers": {
                     "Host": "cPo.SpEeDtEsT2029.CoM"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
-            "type": "vless",
-            "server": "172.66.40.99",
-            "server_port": 443,
-            "uuid": "telegram-id-Arfilter",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cPb.SpEeDtEsT2029.CoM",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
-                "headers": {
-                    "Host": "cPb.SpEeDtEsT2029.CoM"
                 }
             }
         },
@@ -2008,9 +1975,9 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | trojan | @ConfigsHUB | 16",
+            "tag": "🇺🇸US | 🔴 | trojan | @ConfigsHUB | 18",
             "type": "trojan",
-            "server": "104.17.50.31",
+            "server": "104.16.11.5",
             "server_port": 443,
             "password": "blue2024",
             "multiplex": {
@@ -2020,9 +1987,9 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | trojan | @ConfigsHUB | 17",
+            "tag": "🇺🇸US | 🔴 | trojan | @ConfigsHUB | 19",
             "type": "trojan",
-            "server": "104.16.209.80",
+            "server": "104.16.57.207",
             "server_port": 443,
             "password": "blue2024",
             "multiplex": {
@@ -2187,6 +2154,30 @@
         {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
             "type": "vmess",
+            "server": "104.18.114.237",
+            "server_port": 2082,
+            "uuid": "5f3f09ad-89cb-4e94-a7ad-aa8239913555",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/github.com\/Alvin9999",
+                "headers": {
+                    "Host": "104.18.114.237"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
+            "type": "vmess",
             "server": "104.21.238.73",
             "server_port": 2082,
             "uuid": "5f3f09ad-89cb-4e94-a7ad-aa8239913555",
@@ -2205,30 +2196,6 @@
                 "path": "\/github.com\/Alvin9999",
                 "headers": {
                     "Host": "104.21.238.73"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
-            "type": "vmess",
-            "server": "104.26.0.114",
-            "server_port": 2095,
-            "uuid": "18d96190-c10f-448f-a82a-2d36df5c3cde",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/github.com\/Alvin9999",
-                "headers": {
-                    "Host": "104.26.0.114"
                 }
             }
         },
