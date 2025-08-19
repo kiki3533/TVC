@@ -120,8 +120,6 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
                 "❔XX | 🟢 | vmess | @prrofile_purple | 114",
                 "🇩🇪DE | 🟢 | vmess | @SafeNet_Server | 3",
-                "❔XX | 🟢 | vmess | @ConfigsHUB | 0",
-                "🚩CF | 🟢 | vmess | @ConfigsHUB | 8",
                 "🇫🇮FI | 🟢 | vmess | @proxystore11 | 1",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
@@ -140,8 +138,8 @@
                 "🚩CF | 🟢 | vmess | @Hope_Net | 9",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 1",
-                "🇺🇸US | 🟢 | vmess | @FreakConfig | 4",
-                "🇫🇷FR | 🟢 | vmess | @FreakConfig | 13"
+                "🇺🇸US | 🟢 | vmess | @FreakConfig | 5",
+                "🇫🇷FR | 🟢 | vmess | @FreakConfig | 14"
             ]
         },
         {
@@ -162,8 +160,6 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
                 "❔XX | 🟢 | vmess | @prrofile_purple | 114",
                 "🇩🇪DE | 🟢 | vmess | @SafeNet_Server | 3",
-                "❔XX | 🟢 | vmess | @ConfigsHUB | 0",
-                "🚩CF | 🟢 | vmess | @ConfigsHUB | 8",
                 "🇫🇮FI | 🟢 | vmess | @proxystore11 | 1",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
@@ -182,8 +178,8 @@
                 "🚩CF | 🟢 | vmess | @Hope_Net | 9",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 1",
-                "🇺🇸US | 🟢 | vmess | @FreakConfig | 4",
-                "🇫🇷FR | 🟢 | vmess | @FreakConfig | 13"
+                "🇺🇸US | 🟢 | vmess | @FreakConfig | 5",
+                "🇫🇷FR | 🟢 | vmess | @FreakConfig | 14"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -441,47 +437,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | @ConfigsHUB | 0",
-            "type": "vmess",
-            "server": null,
-            "server_port": 0,
-            "uuid": null,
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🚩CF | 🟢 | vmess | @ConfigsHUB | 8",
-            "type": "vmess",
-            "server": "104.26.0.13",
-            "server_port": 2095,
-            "uuid": "18d96190-c10f-448f-a82a-2d36df5c3cde",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/github.com\/Alvin9999",
-                "headers": {
-                    "Host": "104.26.0.13"
-                }
             }
         },
         {
@@ -950,7 +905,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @FreakConfig | 4",
+            "tag": "🇺🇸US | 🟢 | vmess | @FreakConfig | 5",
             "type": "vmess",
             "server": "141.193.213.137",
             "server_port": 8443,
@@ -984,7 +939,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🟢 | vmess | @FreakConfig | 13",
+            "tag": "🇫🇷FR | 🟢 | vmess | @FreakConfig | 14",
             "type": "vmess",
             "server": "51.254.21.193",
             "server_port": 20086,
