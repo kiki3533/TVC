@@ -173,7 +173,6 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 10",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 11",
                 "❔XX | 🔴 | vless | @free1_vpn | 4",
@@ -181,7 +180,7 @@
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 6",
                 "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 10",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 11",
-                "🇺🇸US | 🔴 | vless | @Capoit | 12",
+                "🇬🇧GB | 🔴 | vless | @Capoit | 12",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 13",
                 "🇩🇪DE | 🔴 | vless | @FreakConfig | 17",
                 "🇩🇪DE | 🔴 | vless | @FreakConfig | 18",
@@ -271,7 +270,6 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 10",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 11",
                 "❔XX | 🔴 | vless | @free1_vpn | 4",
@@ -279,7 +277,7 @@
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 6",
                 "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 10",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 11",
-                "🇺🇸US | 🔴 | vless | @Capoit | 12",
+                "🇬🇧GB | 🔴 | vless | @Capoit | 12",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 13",
                 "🇩🇪DE | 🔴 | vless | @FreakConfig | 17",
                 "🇩🇪DE | 🔴 | vless | @FreakConfig | 18",
@@ -1829,27 +1827,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "cumhuriyet.com.tr",
-            "server_port": 80,
-            "uuid": "2e428d06-68f7-42e7-a5ba-909b7c08b211",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@vmessorg----@vmessorg-----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg?ed=2480",
-                "headers": {
-                    "Host": "cumhuriyet.com.tr"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪DE | 🔴 | vless | @proxystore11 | 10",
             "type": "vless",
             "server": "vip1.proxystore11.news",
@@ -2001,7 +1978,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Capoit | 12",
+            "tag": "🇬🇧GB | 🔴 | vless | @Capoit | 12",
             "type": "vless",
             "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
             "server_port": 8443,
