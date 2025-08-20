@@ -173,8 +173,8 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 15",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 11",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 12",
                 "🇩🇪DE | 🔴 | vless | @free1_vpn | 4",
@@ -272,8 +272,8 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 15",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 11",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 12",
                 "🇩🇪DE | 🔴 | vless | @free1_vpn | 4",
@@ -1863,11 +1863,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 15",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "91.99.147.163",
-            "server_port": 443,
-            "uuid": "82aa1f3f-29d4-42ab-a5d5-66b13ba13545",
+            "server": "104.19.122.202",
+            "server_port": 8880,
+            "uuid": "c54ba325-c1be-4845-a2e7-922b5cd211c3",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1877,11 +1877,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "104.18.36.24",
-            "server_port": 443,
-            "uuid": "30f2d443-af46-4dd6-83c9-b5e17299ebd2",
+            "server": "104.16.53.11",
+            "server_port": 2053,
+            "uuid": "97fc44dd-c88c-4470-8d66-1752089c0183",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1891,7 +1891,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "carlotta.shoorekeeper.cloudns.org",
+                "server_name": "frAgeU2.cpI2HIdd.eu.ORG",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1901,9 +1901,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/proxyip=zani.yaemiko.ggff.net\/?",
+                "path": "\/@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
                 "headers": {
-                    "Host": "carlotta.shoorekeeper.cloudns.org"
+                    "Host": "frAgeU2.cpI2HIdd.eu.ORG"
                 }
             }
         },
