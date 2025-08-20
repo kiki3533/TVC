@@ -113,7 +113,7 @@
                 "❔XX | 🟢 | vless | @prrofile_purple | 141",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 34",
                 "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 10",
-                "🇸🇪SE | 🟢 | vless | @ConfigsHUB | 13",
+                "🇹🇷TR | 🟢 | vless | @ShadowProxy66 | 1",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 11",
                 "🇳🇱NL | 🟢 | vless | @Outlinev2rayNG | 10",
                 "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 11",
@@ -136,7 +136,7 @@
                 "❔XX | 🟢 | vless | @prrofile_purple | 141",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 34",
                 "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 10",
-                "🇸🇪SE | 🟢 | vless | @ConfigsHUB | 13",
+                "🇹🇷TR | 🟢 | vless | @ShadowProxy66 | 1",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 11",
                 "🇳🇱NL | 🟢 | vless | @Outlinev2rayNG | 10",
                 "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 11",
@@ -385,11 +385,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🟢 | vless | @ConfigsHUB | 13",
+            "tag": "🇹🇷TR | 🟢 | vless | @ShadowProxy66 | 1",
             "type": "vless",
-            "server": "16.171.133.93",
-            "server_port": 443,
-            "uuid": "4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4",
+            "server": "45.12.143.191",
+            "server_port": 20329,
+            "uuid": "e105e56a-5f81-41a2-ab44-bfffc9b00674",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -399,7 +399,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "store.steampowered.com",
+                "server_name": "yahoo.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -408,8 +408,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4",
-                    "short_id": "f5"
+                    "public_key": "Lj3MXlg16CTFHtU88acSS-ACfGnwJ_xkU6dC6k8OeDo",
+                    "short_id": "4602ee9f9f36"
                 }
             }
         },
