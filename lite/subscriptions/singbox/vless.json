@@ -126,9 +126,9 @@
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 18",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 19",
                 "🇺🇸US | 🔴 | vless | @rxv2ray | 13",
-                "🇺🇸US | 🔴 | vless | @lightning6 | 8",
-                "🇺🇸US | 🔴 | vless | @lightning6 | 9",
-                "🇺🇸US | 🔴 | vless | @CUSTOMVPNSERVER | 10",
+                "🇨🇦CA | 🔴 | vless | @lightning6 | 8",
+                "🇨🇦CA | 🔴 | vless | @lightning6 | 9",
+                "🇨🇦CA | 🔴 | vless | @CUSTOMVPNSERVER | 10",
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 11",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 6",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 7",
@@ -173,7 +173,8 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
                 "❔XX | 🔴 | vless | @proxystore11 | 11",
                 "🇩🇪DE | 🔴 | vless | @free1_vpn | 4",
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 4",
@@ -222,9 +223,9 @@
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 18",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 19",
                 "🇺🇸US | 🔴 | vless | @rxv2ray | 13",
-                "🇺🇸US | 🔴 | vless | @lightning6 | 8",
-                "🇺🇸US | 🔴 | vless | @lightning6 | 9",
-                "🇺🇸US | 🔴 | vless | @CUSTOMVPNSERVER | 10",
+                "🇨🇦CA | 🔴 | vless | @lightning6 | 8",
+                "🇨🇦CA | 🔴 | vless | @lightning6 | 9",
+                "🇨🇦CA | 🔴 | vless | @CUSTOMVPNSERVER | 10",
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 11",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 6",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 7",
@@ -269,7 +270,8 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
                 "❔XX | 🔴 | vless | @proxystore11 | 11",
                 "🇩🇪DE | 🔴 | vless | @free1_vpn | 4",
                 "🇮🇷IR | 🔴 | vless | @fnet00 | 4",
@@ -792,7 +794,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @lightning6 | 8",
+            "tag": "🇨🇦CA | 🔴 | vless | @lightning6 | 8",
             "type": "vless",
             "server": "172.66.40.99",
             "server_port": 8080,
@@ -813,7 +815,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @lightning6 | 9",
+            "tag": "🇨🇦CA | 🔴 | vless | @lightning6 | 9",
             "type": "vless",
             "server": "172.66.40.99",
             "server_port": 8080,
@@ -834,7 +836,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @CUSTOMVPNSERVER | 10",
+            "tag": "🇨🇦CA | 🔴 | vless | @CUSTOMVPNSERVER | 10",
             "type": "vless",
             "server": "www.bankonbasak.com",
             "server_port": 443,
@@ -1834,11 +1836,25 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 16",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "127.0.0.1",
-            "server_port": 8080,
-            "uuid": "babcaac-baac-bcaa-cbda-babbcaacbacc",
+            "server": "104.19.122.202",
+            "server_port": 8880,
+            "uuid": "c54ba325-c1be-4845-a2e7-922b5cd211c3",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "104.26.1.108",
+            "server_port": 443,
+            "uuid": "65a32d27-7a02-45a8-b90a-29f6bebc87ae",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1848,12 +1864,19 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "127.0.0.1",
+                "server_name": "blog.ruangguru.com.servpn.my.id",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/sg3?ed=2560\/",
+                "headers": {
+                    "Host": "blog.ruangguru.com.servpn.my.id"
                 }
             }
         },
