@@ -153,7 +153,6 @@
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 34",
                 "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 11",
                 "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 0",
-                "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 0",
                 "🇫🇮FI | 🟢 | vless | @Capoit | 8",
                 "🇩🇪DE | 🟢 | vless | @FreakConfig | 4",
@@ -236,7 +235,6 @@
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 34",
                 "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 11",
                 "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 0",
-                "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 0",
                 "🇫🇮FI | 🟢 | vless | @Capoit | 8",
                 "🇩🇪DE | 🟢 | vless | @FreakConfig | 4",
@@ -1739,35 +1737,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "fr.marzban-locations.com",
-            "server_port": 3032,
-            "uuid": "3d1622e6-7ac5-4715-b635-7bd542e0a70b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI",
-                    "short_id": ""
-                }
             }
         },
         {
