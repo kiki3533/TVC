@@ -121,8 +121,7 @@
                 "❔XX | 🟢 | vmess | @prrofile_purple | 138",
                 "🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 0",
                 "🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 4",
-                "🇫🇷FR | 🟢 | vmess | @ConfigsHUB | 1",
-                "🇬🇧GB | 🟢 | vmess | @ConfigsHUB | 11",
+                "🇭🇰HK | 🟢 | vmess | @ConfigsHUB | 12",
                 "🇫🇮FI | 🟢 | vmess | @proxystore11 | 5",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
@@ -156,8 +155,7 @@
                 "❔XX | 🟢 | vmess | @prrofile_purple | 138",
                 "🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 0",
                 "🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 4",
-                "🇫🇷FR | 🟢 | vmess | @ConfigsHUB | 1",
-                "🇬🇧GB | 🟢 | vmess | @ConfigsHUB | 11",
+                "🇭🇰HK | 🟢 | vmess | @ConfigsHUB | 12",
                 "🇫🇮FI | 🟢 | vmess | @proxystore11 | 5",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
@@ -481,35 +479,11 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🟢 | vmess | @ConfigsHUB | 1",
+            "tag": "🇭🇰HK | 🟢 | vmess | @ConfigsHUB | 12",
             "type": "vmess",
-            "server": "45.67.139.225",
-            "server_port": 20086,
-            "uuid": "d3928330-4050-47f6-9d1c-df1fd801c568",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧GB | 🟢 | vmess | @ConfigsHUB | 11",
-            "type": "vmess",
-            "server": "51.38.64.209",
-            "server_port": 44023,
-            "uuid": "7da457da-ed0f-437d-c81d-6c35885bbea3",
+            "server": "31.56.113.203",
+            "server_port": 9012,
+            "uuid": "41b96ee2-f288-4422-a1a8-7e8a3545480c",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
