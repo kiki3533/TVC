@@ -110,8 +110,8 @@
                 "🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇦🇪AE | 🟢 | vmess | @Hope_Net | 5",
-                "🇩🇪DE | 🟢 | vmess | @Hope_Net | 6"
+                "❔XX | 🟢 | vmess | @Hope_Net | 6",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 7"
             ]
         },
         {
@@ -122,8 +122,8 @@
                 "🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇦🇪AE | 🟢 | vmess | @Hope_Net | 5",
-                "🇩🇪DE | 🟢 | vmess | @Hope_Net | 6"
+                "❔XX | 🟢 | vmess | @Hope_Net | 6",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -255,13 +255,13 @@
             }
         },
         {
-            "tag": "🇦🇪AE | 🟢 | vmess | @Hope_Net | 5",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 6",
             "type": "vmess",
-            "server": "77.232.140.250",
+            "server": "es.pulau.org",
             "server_port": 443,
-            "uuid": "9b38d152-6b12-4de0-a20d-87a8c9034cc4",
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 1,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -272,7 +272,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "77.232.140.250",
+                "server_name": "es.pulau.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -282,20 +282,20 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@RaFaV2Bot",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": "77.232.140.250"
+                    "Host": "es.pulau.org"
                 }
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vmess | @Hope_Net | 6",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "154.197.75.0",
-            "server_port": 443,
-            "uuid": "9b38d152-6b12-4de0-a20d-87a8c9034cc4",
+            "server": "142.4.104.33",
+            "server_port": 52143,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 64,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -303,23 +303,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "154.197.75.0",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@RaFaV2Bot",
-                "headers": {
-                    "Host": "154.197.75.0"
-                }
             }
         }
     ],
