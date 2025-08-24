@@ -118,8 +118,6 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 14",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 15",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
-                "🇭🇰HK | 🟢 | vmess | @ConfigsHUB | 0",
-                "🇦🇺AU | 🟢 | vmess | @ConfigsHUB | 4",
                 "🇫🇮FI | 🟢 | vmess | @proxystore11 | 6",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
@@ -151,8 +149,6 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 14",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 15",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
-                "🇭🇰HK | 🟢 | vmess | @ConfigsHUB | 0",
-                "🇦🇺AU | 🟢 | vmess | @ConfigsHUB | 4",
                 "🇫🇮FI | 🟢 | vmess | @proxystore11 | 6",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
@@ -382,47 +378,6 @@
             "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
             "alter_id": 64,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇭🇰HK | 🟢 | vmess | @ConfigsHUB | 0",
-            "type": "vmess",
-            "server": "210.3.159.150",
-            "server_port": 42717,
-            "uuid": "b5803d74-c6f8-415f-e1e6-ebc9e4269b86",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇦🇺AU | 🟢 | vmess | @ConfigsHUB | 4",
-            "type": "vmess",
-            "server": "46.250.243.56",
-            "server_port": 50394,
-            "uuid": "a75f3f95-ad4e-4498-fc72-dd740dd02bfc",
-            "security": "auto",
-            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
