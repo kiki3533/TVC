@@ -118,12 +118,11 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 16","type":"trojan","server":"13.39.41.40","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 17","type":"trojan","server":"3.66.251.142","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇫🇷FR | 🟢 | trojan | @DirectVPN | 16","type":"trojan","server":"13.39.41.40","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇩🇪DE | 🟢 | trojan | @DirectVPN | 17","type":"trojan","server":"3.66.251.142","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇺🇸US | 🟢 | trojan | @ConfigsHUB | 16","type":"trojan","server":"104.219.41.229","port":443,"udp":false,"password":"Julius","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"miami.juliusnet.com"}
-  - {"name":"🇺🇸US | 🔴 | trojan | @ConfigsHUB | 17","type":"trojan","server":"141.101.120.10","port":443,"udp":false,"password":"4b040268-f3a5-4136-b1a9-506012e8e3d9","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"ssp2.100896.xyz"}
+  - {"name":"🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 16","type":"trojan","server":"35.181.143.110","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 17","type":"trojan","server":"13.39.41.40","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇫🇷FR | 🟢 | trojan | @DirectVPN | 16","type":"trojan","server":"35.181.143.110","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇫🇷FR | 🟢 | trojan | @DirectVPN | 17","type":"trojan","server":"13.39.41.40","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇺🇸US | 🟢 | trojan | @ConfigsHUB | 18","type":"trojan","server":"104.20.19.14","port":443,"udp":false,"password":"auto","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"b96ef9ae.trojanfree-76s.pages.dev"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -131,11 +130,10 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 16'
-      - '🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 17'
+      - '🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 17'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 16'
-      - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 17'
-      - '🇺🇸US | 🟢 | trojan | @ConfigsHUB | 16'
-      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 17'
+      - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 17'
+      - '🇺🇸US | 🟢 | trojan | @ConfigsHUB | 18'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -143,22 +141,20 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 16'
-      - '🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 17'
+      - '🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 17'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 16'
-      - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 17'
-      - '🇺🇸US | 🟢 | trojan | @ConfigsHUB | 16'
-      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 17'
+      - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 17'
+      - '🇺🇸US | 🟢 | trojan | @ConfigsHUB | 18'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
       - '🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 16'
-      - '🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 17'
+      - '🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 17'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 16'
-      - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 17'
-      - '🇺🇸US | 🟢 | trojan | @ConfigsHUB | 16'
-      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 17'
+      - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 17'
+      - '🇺🇸US | 🟢 | trojan | @ConfigsHUB | 18'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
