@@ -157,6 +157,13 @@ proxies:
   - {"name":"🇫🇷FR | 🟢 | trojan | @DirectVPN | 15","type":"trojan","server":"35.181.143.110","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | 🟢 | trojan | @DirectVPN | 16","type":"trojan","server":"13.39.41.40","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇩🇪DE | 🟢 | trojan | @DirectVPN | 17","type":"trojan","server":"3.66.251.142","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇺🇸US | 🟢 | trojan | @ConfigsHUB | 2","type":"trojan","server":"104.219.41.229","port":443,"udp":false,"password":"Julius","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"miami.juliusnet.com"}
+  - {"name":"🚩CF | 🔴 | trojan | @ConfigsHUB | 3","type":"trojan","server":"141.101.120.10","port":443,"udp":false,"password":"4b040268-f3a5-4136-b1a9-506012e8e3d9","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"ssp2.100896.xyz"}
+  - {"name":"🚩CF | 🟢 | trojan | @ConfigsHUB | 4","type":"trojan","server":"104.21.21.129","port":443,"udp":false,"password":"auto","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojanmz.pages.dev"}
+  - {"name":"🚩CF | 🟢 | trojan | @ConfigsHUB | 9","type":"trojan","server":"198.41.220.2","port":443,"udp":false,"password":"242a3d8eee5e4ed1a6bfa4141d549a25","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"jobscareerfortoday.com"}
+  - {"name":"🇺🇸US | 🔴 | trojan | @ConfigsHUB | 10","type":"trojan","server":"151.101.3.10","port":80,"udp":false,"password":"cefffd1d-cc58-4560-b4d1-44f1af528f30","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"🇩🇪DE | 🟢 | trojan | @ConfigsHUB | 13","type":"trojan","server":"188.245.163.79","port":1623,"udp":false,"password":"f8275dfe-4fd7-46b2-8d6c-de1891afb443","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"wwww.refersion.com"}
+  - {"name":"🚩CF | 🔴 | trojan | @ConfigsHUB | 15","type":"trojan","server":"172.67.156.25","port":443,"udp":false,"password":"f282b878-8711-45a1-8c69-5564172123c1","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"aio.zipzap.biz.id"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -200,6 +207,13 @@ proxy-groups:
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 15'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 16'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 17'
+      - '🇺🇸US | 🟢 | trojan | @ConfigsHUB | 2'
+      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 3'
+      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 4'
+      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 9'
+      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 10'
+      - '🇩🇪DE | 🟢 | trojan | @ConfigsHUB | 13'
+      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 15'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -243,6 +257,13 @@ proxy-groups:
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 15'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 16'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 17'
+      - '🇺🇸US | 🟢 | trojan | @ConfigsHUB | 2'
+      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 3'
+      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 4'
+      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 9'
+      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 10'
+      - '🇩🇪DE | 🟢 | trojan | @ConfigsHUB | 13'
+      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 15'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -285,6 +306,13 @@ proxy-groups:
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 15'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 16'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 17'
+      - '🇺🇸US | 🟢 | trojan | @ConfigsHUB | 2'
+      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 3'
+      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 4'
+      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 9'
+      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 10'
+      - '🇩🇪DE | 🟢 | trojan | @ConfigsHUB | 13'
+      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 15'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
