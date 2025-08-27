@@ -120,6 +120,9 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
                 "🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 0",
                 "🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 1",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 1",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 7",
+                "🇫🇷FR | 🟢 | vmess | @ConfigsHUB | 9",
                 "🇫🇮FI | 🟢 | vmess | @proxystore11 | 8",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
@@ -152,6 +155,9 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
                 "🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 0",
                 "🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 1",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 1",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 7",
+                "🇫🇷FR | 🟢 | vmess | @ConfigsHUB | 9",
                 "🇫🇮FI | 🟢 | vmess | @proxystore11 | 8",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
@@ -455,6 +461,64 @@
                 "headers": {
                     "Host": "kapelleng.com"
                 }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 1",
+            "type": "vmess",
+            "server": "npmjs.com",
+            "server_port": 8080,
+            "uuid": "nasnet",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/NASNET\/cdn",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 7",
+            "type": "vmess",
+            "server": "151.101.3.9",
+            "server_port": 80,
+            "uuid": "88d40e20-84b9-4891-bfb7-ae0d96d9cf7a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇫🇷FR | 🟢 | vmess | @ConfigsHUB | 9",
+            "type": "vmess",
+            "server": "31.56.146.186",
+            "server_port": 38040,
+            "uuid": "a8f9d5f9-7cad-40ff-9fee-835c6dd9bce4",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
