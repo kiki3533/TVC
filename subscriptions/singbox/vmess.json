@@ -119,8 +119,8 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 15",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
                 "🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 1",
-                "❔XX | 🟢 | vmess | @ConfigsHUB | 2",
-                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 8",
+                "❔XX | 🟢 | vmess | @ConfigsHUB | 7",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 13",
                 "🇫🇮FI | 🟢 | vmess | @proxystore11 | 8",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
@@ -165,8 +165,8 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 15",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
                 "🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 1",
-                "❔XX | 🟢 | vmess | @ConfigsHUB | 2",
-                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 8",
+                "❔XX | 🟢 | vmess | @ConfigsHUB | 7",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 13",
                 "🇫🇮FI | 🟢 | vmess | @proxystore11 | 8",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
@@ -452,7 +452,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @ConfigsHUB | 2",
+            "tag": "❔XX | 🟢 | vmess | @ConfigsHUB | 7",
             "type": "vmess",
             "server": null,
             "server_port": 0,
@@ -469,11 +469,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 8",
+            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 13",
             "type": "vmess",
-            "server": "xcf037.facai2024.com",
-            "server_port": 443,
-            "uuid": "d9863037-0463-4615-e972-36ba9662d1e9",
+            "server": "103.124.107.144",
+            "server_port": 29800,
+            "uuid": "cc31ddfc-d92e-4dab-cd06-00dfb84af8ac",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -483,23 +483,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "xcf037.facai2024.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/d9863037",
-                "headers": {
-                    "Host": "xcf037.facai2024.com"
-                }
             }
         },
         {
