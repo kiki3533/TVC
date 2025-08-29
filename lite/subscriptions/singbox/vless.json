@@ -150,8 +150,9 @@
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 151",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 27",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 28",
+                "🇺🇸US | 🔴 | vless | @UnlimitedDev | 12",
+                "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 5",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 6",
-                "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 7",
                 "🇺🇸US | 🔴 | vless | @v2rayngvpn | 11",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 9",
@@ -171,6 +172,8 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 4",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 5",
                 "🇳🇱NL | 🔴 | vless | @free1_vpn | 7",
                 "🇬🇧GB | 🔴 | vless | @free1_vpn | 8",
@@ -244,8 +247,9 @@
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 151",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 27",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 28",
+                "🇺🇸US | 🔴 | vless | @UnlimitedDev | 12",
+                "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 5",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 6",
-                "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 7",
                 "🇺🇸US | 🔴 | vless | @v2rayngvpn | 11",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 9",
@@ -265,6 +269,8 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 4",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 5",
                 "🇳🇱NL | 🔴 | vless | @free1_vpn | 7",
                 "🇬🇧GB | 🔴 | vless | @free1_vpn | 8",
@@ -1335,7 +1341,28 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 6",
+            "tag": "🇺🇸US | 🔴 | vless | @UnlimitedDev | 12",
+            "type": "vless",
+            "server": "cumhuriyet.com.tr",
+            "server_port": 8080,
+            "uuid": "02151ca0-a1d5-437c-d818-ffa739176fab",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@unlimiteddev----@unlimiteddev-----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimitedev----@unlimitedev----@unlimiteddev----@unlimiteddev?ed=2480",
+                "headers": {
+                    "Host": "cumhuriyet.com.tr"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 5",
             "type": "vless",
             "server": "mci.dl101movis.ir",
             "server_port": 80,
@@ -1349,11 +1376,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 7",
+            "tag": "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 6",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8880,
-            "uuid": "1a5ba606-a4f6-4a01-d9bc-7dce3b246851",
+            "server": "mci.dl101movis.ir",
+            "server_port": 80,
+            "uuid": "b3af8a2a-a9e0-4cc8-837e-edb06f837432",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1792,6 +1819,68 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "www.visasoutheasteurope.com",
+            "server_port": 443,
+            "uuid": "5da52d2d-1ab8-48d0-8421-8354fd6ce7d3",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "rAyAn-cOnFiG-06.rAyAn-iI.DnS-DyNaMiC.NeT",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net",
+                "headers": {
+                    "Host": "rAyAn-cOnFiG-06.rAyAn-iI.DnS-DyNaMiC.NeT"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "160.153.0.11",
+            "server_port": 2083,
+            "uuid": "5e802e1a-3c82-41ec-aaca-f6371b8b86a5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "fraG2.MAhSAAmINI.cC",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/CPI",
+                "headers": {
+                    "Host": "fraG2.MAhSAAmINI.cC"
+                }
             }
         },
         {
