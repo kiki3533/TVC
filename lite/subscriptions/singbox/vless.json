@@ -153,7 +153,8 @@
                 "🇺🇸US | 🔴 | vless | @vmessorg | 20",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 4",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 5",
-                "🇬🇧GB | 🔴 | vless | @v2rayngvpn | 12",
+                "🇺🇸US | 🔴 | vless | @v2rayngvpn | 12",
+                "🇬🇧GB | 🔴 | vless | @v2rayngvpn | 13",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 9",
                 "🇷🇺RU | 🟢 | vless | @ShadowProxy66 | 1",
@@ -172,7 +173,6 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 1",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 2",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 3",
                 "🇫🇷FR | 🔴 | vless | @free1_vpn | 6",
@@ -249,7 +249,8 @@
                 "🇺🇸US | 🔴 | vless | @vmessorg | 20",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 4",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 5",
-                "🇬🇧GB | 🔴 | vless | @v2rayngvpn | 12",
+                "🇺🇸US | 🔴 | vless | @v2rayngvpn | 12",
+                "🇬🇧GB | 🔴 | vless | @v2rayngvpn | 13",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 9",
                 "🇷🇺RU | 🟢 | vless | @ShadowProxy66 | 1",
@@ -268,7 +269,6 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 1",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 2",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 3",
                 "🇫🇷FR | 🔴 | vless | @free1_vpn | 6",
@@ -1386,7 +1386,38 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🔴 | vless | @v2rayngvpn | 12",
+            "tag": "🇺🇸US | 🔴 | vless | @v2rayngvpn | 12",
+            "type": "vless",
+            "server": "172.66.146.26",
+            "server_port": 443,
+            "uuid": "0fbf4f81-2598-4b6a-a623-0ead4cb9efa8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "privasi.turah.my.id",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Free-CF-Proxy-AD192.3.113.4-19318\/?TELEGRAM_CHANEL_JKVPN_JKVPN_JKVPN",
+                "headers": {
+                    "Host": "privasi.turah.my.id"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | 🔴 | vless | @v2rayngvpn | 13",
             "type": "vless",
             "server": "25.129.199.251",
             "server_port": 8880,
@@ -1813,27 +1844,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
-            "type": "vless",
-            "server": "cafearz.com",
-            "server_port": 8080,
-            "uuid": "e7ef2316-2ff9-4266-8d09-acbf90fbd0e4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/olem\/ws?ed=1024",
-                "headers": {
-                    "Host": "cafearz.com"
-                }
             }
         },
         {
