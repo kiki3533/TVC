@@ -172,8 +172,7 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 1",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 2",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 3",
                 "🇫🇷FR | 🔴 | vless | @free1_vpn | 6",
@@ -269,8 +268,7 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 1",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 2",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 3",
                 "🇫🇷FR | 🔴 | vless | @free1_vpn | 6",
@@ -1818,31 +1816,24 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
             "type": "vless",
-            "server": "91.98.65.77",
-            "server_port": 38644,
-            "uuid": "32c07748-0ad4-4d34-943f-b0b978564766",
+            "server": "cafearz.com",
+            "server_port": 8080,
+            "uuid": "e7ef2316-2ff9-4266-8d09-acbf90fbd0e4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "91.98.26.212",
-            "server_port": 38644,
-            "uuid": "32c07748-0ad4-4d34-943f-b0b978564766",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/olem\/ws?ed=1024",
+                "headers": {
+                    "Host": "cafearz.com"
+                }
             }
         },
         {
