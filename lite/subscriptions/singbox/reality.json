@@ -111,7 +111,7 @@
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 17",
                 "🇷🇺RU | 🟢 | vless | @proxy_kafee | 6",
                 "🇨🇭CH | 🟢 | vless | @Outline_Vpn | 19",
-                "🇫🇮FI | 🔴 | vless | @prrofile_purple | 146",
+                "🇩🇪DE | 🟢 | vless | @prrofile_purple | 152",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 11",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 12",
                 "🇳🇱NL | 🟢 | vless | @FreakConfig | 16",
@@ -132,7 +132,7 @@
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 17",
                 "🇷🇺RU | 🟢 | vless | @proxy_kafee | 6",
                 "🇨🇭CH | 🟢 | vless | @Outline_Vpn | 19",
-                "🇫🇮FI | 🔴 | vless | @prrofile_purple | 146",
+                "🇩🇪DE | 🟢 | vless | @prrofile_purple | 152",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 11",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 12",
                 "🇳🇱NL | 🟢 | vless | @FreakConfig | 16",
@@ -316,11 +316,11 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🔴 | vless | @prrofile_purple | 146",
+            "tag": "🇩🇪DE | 🟢 | vless | @prrofile_purple | 152",
             "type": "vless",
-            "server": "65.109.218.179",
-            "server_port": 2083,
-            "uuid": "e39ea9ab-a0ee-4ca9-cc5d-32cda0258cbc",
+            "server": "deu246.bypassall.org",
+            "server_port": 443,
+            "uuid": "b4b8aa1f-77d2-4851-a5a4-f78886f3e997",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -330,25 +330,18 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "khamenei.ir",
+                "server_name": "www.bing.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "mDWXgatiJqUc4fmeDQqGusEBIhjFVrQ85y_ZUfNpFV8",
-                    "short_id": "54602915a7"
+                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
+                    "short_id": ""
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "melov2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
