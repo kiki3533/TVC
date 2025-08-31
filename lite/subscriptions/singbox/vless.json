@@ -135,7 +135,7 @@
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 6",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 7",
                 "🇷🇺RU | 🟢 | vless | @proxy_kafee | 6",
-                "🇺🇸US | 🔴 | vless | @proxy_kafee | 7",
+                "🇬🇧GB | 🔴 | vless | @proxy_kafee | 7",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "❔XX | 🔴 | vless | @v2logy | 10",
                 "🇮🇷IR | 🔴 | vless | @Watashi_VPN | 2",
@@ -173,8 +173,7 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 1",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+                "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 1",
                 "🇳🇱NL | 🔴 | vless | @free1_vpn | 7",
                 "🇫🇷FR | 🔴 | vless | @free1_vpn | 8",
@@ -233,7 +232,7 @@
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 6",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 7",
                 "🇷🇺RU | 🟢 | vless | @proxy_kafee | 6",
-                "🇺🇸US | 🔴 | vless | @proxy_kafee | 7",
+                "🇬🇧GB | 🔴 | vless | @proxy_kafee | 7",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "❔XX | 🔴 | vless | @v2logy | 10",
                 "🇮🇷IR | 🔴 | vless | @Watashi_VPN | 2",
@@ -271,8 +270,7 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 1",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+                "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 1",
                 "🇳🇱NL | 🔴 | vless | @free1_vpn | 7",
                 "🇫🇷FR | 🔴 | vless | @free1_vpn | 8",
@@ -984,7 +982,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 7",
+            "tag": "🇬🇧GB | 🔴 | vless | @proxy_kafee | 7",
             "type": "vless",
             "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
             "server_port": 443,
@@ -1865,48 +1863,24 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+            "tag": "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "160.153.0.11",
-            "server_port": 2083,
-            "uuid": "5e802e1a-3c82-41ec-aaca-f6371b8b86a5",
+            "server": "25.129.196.213",
+            "server_port": 8880,
+            "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "fraG2.MAhSAAmINI.cC",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             },
             "transport": {
                 "type": "ws",
-                "path": "\/CPI",
+                "path": "\/?ed\/---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net",
                 "headers": {
-                    "Host": "fraG2.MAhSAAmINI.cC"
+                    "Host": "jp.laoyoutiao.link"
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "EVAY_VPN.fastly80.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "3b82c3ef-d428-4a62-ae97-f53c305f883d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
