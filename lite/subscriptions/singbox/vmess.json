@@ -107,8 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-                "❔XX | 🟢 | vmess | @ConfigsHUB | 16",
-                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 17",
+                "🇫🇷FR | 🟢 | vmess | @ConfigsHUB | 16",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
@@ -121,8 +120,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-                "❔XX | 🟢 | vmess | @ConfigsHUB | 16",
-                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 17",
+                "🇫🇷FR | 🟢 | vmess | @ConfigsHUB | 16",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
@@ -167,28 +165,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @ConfigsHUB | 16",
+            "tag": "🇫🇷FR | 🟢 | vmess | @ConfigsHUB | 16",
             "type": "vmess",
-            "server": null,
-            "server_port": 0,
-            "uuid": null,
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 17",
-            "type": "vmess",
-            "server": "172.66.40.99",
+            "server": "38.60.134.249",
             "server_port": 443,
-            "uuid": "17-telegram-id---vpnf22",
+            "uuid": "beb28159-7f4c-4c09-9313-6283515f150b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -207,13 +188,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-v2boxv2,telegram-v2boxv2,telegram-v2boxv2,telegram-v2boxv2,telegram-v2boxv2,telegram-v2boxv2,telegram-v2boxv2,telegram-v2boxv2,telegram-v2boxv2,telegram-v2boxv2,telegram-v2boxv2,telegram-v2boxv2,telegram-v2boxv2,telegram-v2boxv2",
-                "headers": {
-                    "Host": ""
                 }
             }
         },
