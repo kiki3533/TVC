@@ -173,7 +173,7 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+                "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 14",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 1",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 5",
                 "🇳🇱NL | 🔴 | vless | @free1_vpn | 6",
@@ -269,7 +269,7 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+                "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 14",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 1",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 5",
                 "🇳🇱NL | 🔴 | vless | @free1_vpn | 6",
@@ -1899,11 +1899,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+            "tag": "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 14",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8080,
-            "uuid": "e46f5eb6-e1ed-4f49-9c06-36c51880fe86",
+            "server": "195.42.233.83",
+            "server_port": 443,
+            "uuid": "248b794e-905a-47b4-8c23-fa15746a8d9a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1911,11 +1911,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "195.42.233.83",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@unlimiteddev----@unlimiteddev-----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimitedev----@unlimitedev----@unlimiteddev----@unlimiteddev?ed=2480",
+                "path": "\/rsrjowws?---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "195.42.233.83"
                 }
             }
         },
