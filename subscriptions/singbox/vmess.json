@@ -120,6 +120,7 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
                 "🇫🇷FR | 🟢 | vmess | @prrofile_purple | 110",
                 "🇳🇱NL | 🟢 | vmess | @prrofile_purple | 122",
+                "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 0",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -149,6 +150,7 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
                 "🇫🇷FR | 🟢 | vmess | @prrofile_purple | 110",
                 "🇳🇱NL | 🟢 | vmess | @prrofile_purple | 122",
+                "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 0",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -439,6 +441,23 @@
                 "headers": {
                     "Host": "nl-2.stunnel.cc"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 0",
+            "type": "vmess",
+            "server": "91.99.2.86",
+            "server_port": 8880,
+            "uuid": "30f9f25a-bb5b-497d-9f89-f0e971f891e7",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
