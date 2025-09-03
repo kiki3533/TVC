@@ -117,12 +117,12 @@
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 14",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
                 "🇨🇦CA | 🔴 | vless | @VPNCUSTOMIZE | 0",
-                "🇺🇸US | 🔴 | vless | @VPNCUSTOMIZE | 1",
-                "🇺🇸US | 🔴 | vless | @ipV2Ray | 0",
+                "🇨🇦CA | 🔴 | vless | @VPNCUSTOMIZE | 1",
+                "🇨🇦CA | 🔴 | vless | @ipV2Ray | 0",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 1",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 64",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 10",
-                "🇨🇦CA | 🔴 | vless | @ARv2ray | 17",
+                "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 18",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 19",
                 "🇩🇪DE | 🔴 | vless | @rxv2ray | 12",
@@ -171,8 +171,8 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 14",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
                 "🇫🇷FR | 🔴 | vless | @free1_vpn | 5",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 2",
                 "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 8",
@@ -209,12 +209,12 @@
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 14",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
                 "🇨🇦CA | 🔴 | vless | @VPNCUSTOMIZE | 0",
-                "🇺🇸US | 🔴 | vless | @VPNCUSTOMIZE | 1",
-                "🇺🇸US | 🔴 | vless | @ipV2Ray | 0",
+                "🇨🇦CA | 🔴 | vless | @VPNCUSTOMIZE | 1",
+                "🇨🇦CA | 🔴 | vless | @ipV2Ray | 0",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 1",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 64",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 10",
-                "🇨🇦CA | 🔴 | vless | @ARv2ray | 17",
+                "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 18",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 19",
                 "🇩🇪DE | 🔴 | vless | @rxv2ray | 12",
@@ -263,8 +263,8 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 14",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
                 "🇫🇷FR | 🔴 | vless | @free1_vpn | 5",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 2",
                 "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 8",
@@ -594,7 +594,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @VPNCUSTOMIZE | 1",
+            "tag": "🇨🇦CA | 🔴 | vless | @VPNCUSTOMIZE | 1",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -615,7 +615,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ipV2Ray | 0",
+            "tag": "🇨🇦CA | 🔴 | vless | @ipV2Ray | 0",
             "type": "vless",
             "server": "172.66.40.99",
             "server_port": 8080,
@@ -699,7 +699,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @ARv2ray | 17",
+            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
             "type": "vless",
             "server": "172.66.40.99",
             "server_port": 443,
@@ -1807,31 +1807,24 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+            "tag": "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 14",
             "type": "vless",
-            "server": "informed-location.seotoolsforyou.co.uk",
-            "server_port": 80,
-            "uuid": "5c929ec5-5b1e-447a-950c-354c5d1ba1de",
+            "server": "m5a.vip784.com",
+            "server_port": 33801,
+            "uuid": "f9f1ed42-9943-4121-9408-8fbe766343ae",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/??ed\/---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net\/",
-                "headers": {
-                    "Host": "informed-location.seotoolsforyou.co.uk"
-                }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "104.17.21.157",
-            "server_port": 2095,
+            "server": "104.16.157.108",
+            "server_port": 8080,
             "uuid": "09e75b61-5371-4e63-8ef9-1eb656fb9ed2",
             "flow": "",
             "packet_encoding": "xudp",
