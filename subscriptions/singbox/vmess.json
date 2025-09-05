@@ -123,6 +123,7 @@
                 "🇫🇷FR | 🟢 | vmess | @prrofile_purple | 125",
                 "🇳🇱NL | 🟢 | vmess | @prrofile_purple | 137",
                 "🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 5",
+                "🇫🇷FR | 🟢 | vmess | @ConfigsHUB | 1",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -172,6 +173,7 @@
                 "🇫🇷FR | 🟢 | vmess | @prrofile_purple | 125",
                 "🇳🇱NL | 🟢 | vmess | @prrofile_purple | 137",
                 "🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 5",
+                "🇫🇷FR | 🟢 | vmess | @ConfigsHUB | 1",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -570,6 +572,33 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "kapelleng.com"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷FR | 🟢 | vmess | @ConfigsHUB | 1",
+            "type": "vmess",
+            "server": "38.60.134.249",
+            "server_port": 443,
+            "uuid": "beb28159-7f4c-4c09-9313-6283515f150b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
