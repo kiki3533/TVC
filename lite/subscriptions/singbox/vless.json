@@ -115,7 +115,7 @@
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 4",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 14",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
-                "🇺🇸US | 🔴 | vless | @VPNCUSTOMIZE | 0",
+                "🇨🇦CA | 🔴 | vless | @VPNCUSTOMIZE | 0",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 64",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 11",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
@@ -169,7 +169,7 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
                 "🇳🇱NL | 🔴 | vless | @free1_vpn | 5",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 2",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
@@ -204,7 +204,7 @@
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 4",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 14",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
-                "🇺🇸US | 🔴 | vless | @VPNCUSTOMIZE | 0",
+                "🇨🇦CA | 🔴 | vless | @VPNCUSTOMIZE | 0",
                 "🇺🇸US | 🔴 | vless | @melov2ray | 64",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 11",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
@@ -258,7 +258,7 @@
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
                 "🇳🇱NL | 🔴 | vless | @free1_vpn | 5",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 2",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
@@ -537,7 +537,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @VPNCUSTOMIZE | 0",
+            "tag": "🇨🇦CA | 🔴 | vless | @VPNCUSTOMIZE | 0",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -1735,11 +1735,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "104.18.15.19",
-            "server_port": 2082,
-            "uuid": "a575a85e-a916-40f3-bf61-fd5490d64f0b",
+            "server": "172.66.40.99",
+            "server_port": 8880,
+            "uuid": "d447f445-8ac8-46ad-8f93-474a8c57c738",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1749,9 +1749,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed=2560",
+                "path": "\/@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420",
                 "headers": {
-                    "Host": "104.18.15.19"
+                    "Host": "172.66.40.99"
                 }
             }
         },
