@@ -123,7 +123,8 @@
                 "🇺🇸US | 🟢 | vmess | @prrofile_purple | 127",
                 "🇫🇷FR | 🟢 | vmess | @prrofile_purple | 132",
                 "🇳🇱NL | 🟢 | vmess | @prrofile_purple | 144",
-                "❔XX | 🟢 | vmess | @ConfigsHUB | 11",
+                "❔XX | 🟢 | vmess | @ConfigsHUB | 10",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 13",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -154,7 +155,8 @@
                 "🇺🇸US | 🟢 | vmess | @prrofile_purple | 127",
                 "🇫🇷FR | 🟢 | vmess | @prrofile_purple | 132",
                 "🇳🇱NL | 🟢 | vmess | @prrofile_purple | 144",
-                "❔XX | 🟢 | vmess | @ConfigsHUB | 11",
+                "❔XX | 🟢 | vmess | @ConfigsHUB | 10",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 13",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -521,7 +523,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @ConfigsHUB | 11",
+            "tag": "❔XX | 🟢 | vmess | @ConfigsHUB | 10",
             "type": "vmess",
             "server": null,
             "server_port": 0,
@@ -535,6 +537,30 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 13",
+            "type": "vmess",
+            "server": "npmjs.com",
+            "server_port": 8080,
+            "uuid": "nasnet",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/NASNET\/cdn",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
