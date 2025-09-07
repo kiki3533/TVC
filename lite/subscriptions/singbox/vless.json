@@ -165,7 +165,7 @@
                 "🇫🇷FR | 🔴 | vless | @SafeNet_Server | 1",
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
                 "TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&type=ws#🇫🇷FR | 🔴 | vless | @free1_vpn | 3",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 2",
                 "🇳🇱NL | 🟢 | vless | @Outlinev2rayNG | 7",
@@ -250,7 +250,7 @@
                 "🇫🇷FR | 🔴 | vless | @SafeNet_Server | 1",
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
                 "TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&type=ws#🇫🇷FR | 🔴 | vless | @free1_vpn | 3",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 2",
                 "🇳🇱NL | 🟢 | vless | @Outlinev2rayNG | 7",
@@ -1636,11 +1636,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "104.17.147.22",
+            "server": "172.66.40.99",
             "server_port": 8880,
-            "uuid": "40b3cad9-7d45-4adb-9478-370200da28ad",
+            "uuid": "d447f445-8ac8-46ad-8f93-474a8c57c738",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1650,9 +1650,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed=2560",
+                "path": "\/@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420",
                 "headers": {
-                    "Host": "104.17.147.22"
+                    "Host": "172.66.40.99"
                 }
             }
         },
