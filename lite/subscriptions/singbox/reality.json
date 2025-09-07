@@ -114,7 +114,6 @@
                 "🇳🇱NL | 🟢 | vless | @shh_proxy | 11",
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 17",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 146",
-                "🇺🇸US | 🟢 | vless | @v2rayngvpn | 14",
                 "🇷🇺RU | 🟢 | vless | @ShadowProxy66 | 2",
                 "🇫🇮FI | 🟢 | vless | @ShadowProxy66 | 3",
                 "🇨🇦CA | 🔴 | vless | @VmessProtocol | 1",
@@ -138,7 +137,6 @@
                 "🇳🇱NL | 🟢 | vless | @shh_proxy | 11",
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 17",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 146",
-                "🇺🇸US | 🟢 | vless | @v2rayngvpn | 14",
                 "🇷🇺RU | 🟢 | vless | @ShadowProxy66 | 2",
                 "🇫🇮FI | 🟢 | vless | @ShadowProxy66 | 3",
                 "🇨🇦CA | 🔴 | vless | @VmessProtocol | 1",
@@ -412,35 +410,6 @@
                     "enabled": true,
                     "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
                     "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vless | @v2rayngvpn | 14",
-            "type": "vless",
-            "server": "161.35.184.205",
-            "server_port": 2053,
-            "uuid": "4c360a19-8d5d-4c7b-b2cd-a4825714554a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.openstreetmap.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "G6mshB36vZocfQp04RGcOjWFs52JjJhdvpI7wApQf00",
-                    "short_id": "d7"
                 }
             }
         },
