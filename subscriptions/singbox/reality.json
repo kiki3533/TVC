@@ -156,9 +156,11 @@
                 "🇺🇸US | 🟢 | vless | @v2rayngvpn | 7",
                 "🇫🇮FI | 🟢 | vless | @ShadowProxy66 | 3",
                 "🇨🇦CA | 🔴 | vless | @VmessProtocol | 1",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 0",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 1",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 5",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 8",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 10",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 14",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
                 "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 2",
                 "🇳🇱NL | 🟢 | vless | @Outlinev2rayNG | 7",
                 "🇩🇪DE | 🟢 | vless | @Capoit | 2",
@@ -245,9 +247,11 @@
                 "🇺🇸US | 🟢 | vless | @v2rayngvpn | 7",
                 "🇫🇮FI | 🟢 | vless | @ShadowProxy66 | 3",
                 "🇨🇦CA | 🔴 | vless | @VmessProtocol | 1",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 0",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 1",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 5",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 8",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 10",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 14",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
                 "🇩🇪DE | 🟢 | vless | @Outlinev2rayNG | 2",
                 "🇳🇱NL | 🟢 | vless | @Outlinev2rayNG | 7",
                 "🇩🇪DE | 🟢 | vless | @Capoit | 2",
@@ -1834,7 +1838,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 0",
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 8",
             "type": "vless",
             "server": "rep.usa.spouver.ir",
             "server_port": 2689,
@@ -1870,7 +1874,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 1",
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 10",
             "type": "vless",
             "server": "rep.en.xpnvip.ir",
             "server_port": 2689,
@@ -1906,7 +1910,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 5",
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 14",
             "type": "vless",
             "server": "rep.neth.electroluxxv.ir",
             "server_port": 2689,
@@ -1936,6 +1940,71 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "nama",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+            "type": "vless",
+            "server": "103.175.79.10",
+            "server_port": 443,
+            "uuid": "49ed01ad-3bb4-204f-b0ff-a58f658fd618",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "speed.cloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4e-unF1RO2v--E7-X3aqxnCSPaK9QaTfJ7LawAr2bRI",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "51.75.155.93",
+            "server_port": 8181,
+            "uuid": "6f5a77f9-2841-4b33-b24b-661223107a5d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "8vxZwqJ5Vyo2NFtRgsIwRQkft0OqsNyPuyzK0UAltjk",
+                    "short_id": "2afc"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "t.me\/entryNET",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
