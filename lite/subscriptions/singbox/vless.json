@@ -165,15 +165,14 @@
                 "🇫🇷FR | 🔴 | vless | @SafeNet_Server | 1",
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 15",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 14",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 2",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
                 "🇺🇸US | 🔴 | vless | @Capoit | 17",
                 "🇺🇸US | 🔴 | vless | @Capoit | 18",
                 "🇩🇪DE | 🔴 | vless | @FreakConfig | 13",
-                "🇸🇬SG | 🔴 | vless | @FreakConfig | 14",
+                "🇺🇸US | 🔴 | vless | @FreakConfig | 14",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 10",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @iP_CF | 34",
@@ -253,15 +252,14 @@
                 "🇫🇷FR | 🔴 | vless | @SafeNet_Server | 1",
                 "🇮🇷IR | 🔴 | vless | @SafeNet_Server | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 15",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 14",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 2",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
                 "🇺🇸US | 🔴 | vless | @Capoit | 17",
                 "🇺🇸US | 🔴 | vless | @Capoit | 18",
                 "🇩🇪DE | 🔴 | vless | @FreakConfig | 13",
-                "🇸🇬SG | 🔴 | vless | @FreakConfig | 14",
+                "🇺🇸US | 🔴 | vless | @FreakConfig | 14",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 10",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @iP_CF | 34",
@@ -1669,12 +1667,12 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 15",
+            "tag": "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 14",
             "type": "vless",
-            "server": "127.0.0.1",
-            "server_port": 8080,
-            "uuid": "cababac-abac-caba-bcad-cbcacbaababc",
-            "flow": "",
+            "server": "a.ru.maviks.ru",
+            "server_port": 443,
+            "uuid": "fa0afc09-73ee-4b65-bc18-a90c0138b5f1",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1683,33 +1681,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "127.0.0.1",
+                "server_name": "maviks.ru",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
-            "type": "vless",
-            "server": "informed-location.seotoolsforyou.co.uk",
-            "server_port": 80,
-            "uuid": "5c929ec5-5b1e-447a-950c-354c5d1ba1de",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/??ed\/---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net\/",
-                "headers": {
-                    "Host": "informed-location.seotoolsforyou.co.uk"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cGzNRbN_zruI3CVTDukB2nOqWWEj7kgkay24f2fdLmQ",
+                    "short_id": "0f917152a871e9c0"
                 }
             }
         },
@@ -1834,7 +1816,7 @@
             }
         },
         {
-            "tag": "🇸🇬SG | 🔴 | vless | @FreakConfig | 14",
+            "tag": "🇺🇸US | 🔴 | vless | @FreakConfig | 14",
             "type": "vless",
             "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
             "server_port": 443,
