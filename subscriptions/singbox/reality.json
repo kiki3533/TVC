@@ -144,14 +144,16 @@
                 "🇷🇺RU | 🟢 | vless | @customv2ray | 16",
                 "🇷🇺RU | 🟢 | vless | @v2rayNG_Matsuri | 1",
                 "🇳🇱NL | 🟢 | vless | @v2rayNG_Matsuri | 6",
-                "🇫🇮FI | 🟢 | vless | @v2rayngvpn | 8",
+                "🇫🇮FI | 🟢 | vless | @v2rayngvpn | 10",
                 "🇳🇱NL | 🟢 | vless | @ShadowProxy66 | 0",
-                "🇷🇺RU | 🟢 | vless | @v2ray1_ng | 5",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 5",
-                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 16",
-                "🇷🇺RU | 🟢 | vless | @Outlinev2rayNG | 2",
+                "🇷🇺RU | 🟢 | vless | @v2ray1_ng | 0",
+                "🇷🇺RU | 🟢 | vless | @v2ray1_ng | 6",
+                "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 2",
+                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 10",
+                "🇪🇸ES | 🟢 | vless | @ConfigsHUB | 16",
                 "🇷🇺RU | 🟢 | vless | @Outlinev2rayNG | 3",
-                "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 7",
+                "🇷🇺RU | 🟢 | vless | @Outlinev2rayNG | 4",
+                "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 8",
                 "🇩🇪DE | 🟢 | vless | @Capoit | 6",
                 "🇩🇪DE | 🟢 | vless | @Capoit | 7",
                 "🇩🇪DE | 🔴 | vless | @mehrosaboran | 3",
@@ -223,14 +225,16 @@
                 "🇷🇺RU | 🟢 | vless | @customv2ray | 16",
                 "🇷🇺RU | 🟢 | vless | @v2rayNG_Matsuri | 1",
                 "🇳🇱NL | 🟢 | vless | @v2rayNG_Matsuri | 6",
-                "🇫🇮FI | 🟢 | vless | @v2rayngvpn | 8",
+                "🇫🇮FI | 🟢 | vless | @v2rayngvpn | 10",
                 "🇳🇱NL | 🟢 | vless | @ShadowProxy66 | 0",
-                "🇷🇺RU | 🟢 | vless | @v2ray1_ng | 5",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 5",
-                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 16",
-                "🇷🇺RU | 🟢 | vless | @Outlinev2rayNG | 2",
+                "🇷🇺RU | 🟢 | vless | @v2ray1_ng | 0",
+                "🇷🇺RU | 🟢 | vless | @v2ray1_ng | 6",
+                "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 2",
+                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 10",
+                "🇪🇸ES | 🟢 | vless | @ConfigsHUB | 16",
                 "🇷🇺RU | 🟢 | vless | @Outlinev2rayNG | 3",
-                "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 7",
+                "🇷🇺RU | 🟢 | vless | @Outlinev2rayNG | 4",
+                "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 8",
                 "🇩🇪DE | 🟢 | vless | @Capoit | 6",
                 "🇩🇪DE | 🟢 | vless | @Capoit | 7",
                 "🇩🇪DE | 🔴 | vless | @mehrosaboran | 3",
@@ -1445,7 +1449,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🟢 | vless | @v2rayngvpn | 8",
+            "tag": "🇫🇮FI | 🟢 | vless | @v2rayngvpn | 10",
             "type": "vless",
             "server": "185.200.190.159",
             "server_port": 34045,
@@ -1503,7 +1507,36 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vless | @v2ray1_ng | 5",
+            "tag": "🇷🇺RU | 🟢 | vless | @v2ray1_ng | 0",
+            "type": "vless",
+            "server": "188.225.80.183",
+            "server_port": 443,
+            "uuid": "5475990d-e0ce-46ea-95e5-50f9e4879af9",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ru.sfasti.ru",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
+                    "short_id": "16895459a2c7768d"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺RU | 🟢 | vless | @v2ray1_ng | 6",
             "type": "vless",
             "server": "185.200.240.134",
             "server_port": 443,
@@ -1532,11 +1565,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 5",
+            "tag": "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 2",
             "type": "vless",
-            "server": "deu246.bypassall.org",
-            "server_port": 443,
-            "uuid": "b4b8aa1f-77d2-4851-a5a4-f78886f3e997",
+            "server": "178.20.215.10",
+            "server_port": 1443,
+            "uuid": "3c7a1227-5383-3a19-7084-76624ec8f84f",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1546,7 +1579,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.bing.com",
+                "server_name": "speed.cloudflare.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1555,17 +1588,17 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
+                    "public_key": "GfTzhy59k9CXlAdF819OUVeBdrqIILaDIWa1bddjGnA",
                     "short_id": ""
                 }
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 16",
+            "tag": "🇺🇸US | 🟢 | vless | @ConfigsHUB | 10",
             "type": "vless",
-            "server": "188.225.80.14",
+            "server": "92.118.112.83",
             "server_port": 443,
-            "uuid": "5475990d-e0ce-46ea-95e5-50f9e4879af9",
+            "uuid": "6035325d-399a-5148-9126-29cedfd5966a",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1575,7 +1608,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "ru.sfasti.ru",
+                "server_name": "outlook.office.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1584,13 +1617,42 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
-                    "short_id": "16895459a2c7768d"
+                    "public_key": "Gd8fDDLpqXZoIybSXnBaN-YWrpbgqe2944h0cjXA4wk",
+                    "short_id": "3a84f8ce"
                 }
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vless | @Outlinev2rayNG | 2",
+            "tag": "🇪🇸ES | 🟢 | vless | @ConfigsHUB | 16",
+            "type": "vless",
+            "server": "194.87.45.106",
+            "server_port": 443,
+            "uuid": "6035325d-399a-5148-9126-29cedfd5966a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "outlook.office.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "OwBInmgIQ7Lt8J4noI304QjBQAccErkPDbMEcMweh0c",
+                    "short_id": "518e46e1"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺RU | 🟢 | vless | @Outlinev2rayNG | 3",
             "type": "vless",
             "server": "ru.sfasti.ru",
             "server_port": 443,
@@ -1619,7 +1681,7 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vless | @Outlinev2rayNG | 3",
+            "tag": "🇷🇺RU | 🟢 | vless | @Outlinev2rayNG | 4",
             "type": "vless",
             "server": "138.124.186.201",
             "server_port": 443,
@@ -1648,7 +1710,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 7",
+            "tag": "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 8",
             "type": "vless",
             "server": "185.236.232.136",
             "server_port": 1001,
