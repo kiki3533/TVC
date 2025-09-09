@@ -151,11 +151,8 @@ proxies:
   - {"name":"🇫🇷FR | 🟢 | trojan | @DirectVPN | 13","type":"trojan","server":"13.36.49.89","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇩🇪DE | 🟢 | trojan | @DirectVPN | 14","type":"trojan","server":"3.65.97.31","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇩🇪DE | 🟢 | trojan | @DirectVPN | 15","type":"trojan","server":"63.179.50.132","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇪🇸ES | 🔴 | trojan | @ConfigsHUB | 5","type":"trojan","server":"185.251.82.195","port":2096,"udp":false,"password":"slch2024","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"ocost-dy.wmlefl.cc"}
-  - {"name":"🇨🇦CA | 🔴 | trojan | @ConfigsHUB | 7","type":"trojan","server":"aio.nolimit.dpdns.org","port":443,"udp":false,"password":"f282b878-8711-45a1-8c69-5564172123c1","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"aio.nolimit.dpdns.org"}
-  - {"name":"🇳🇱NL | 🔴 | trojan | @ConfigsHUB | 10","type":"trojan","server":"185.18.184.195","port":2096,"udp":false,"password":"slch2024","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"ocost-dy.wmlefl.cc"}
-  - {"name":"🇨🇾CY | 🔴 | trojan | @ConfigsHUB | 12","type":"trojan","server":"195.26.229.87","port":2096,"udp":false,"password":"slch2024","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"ocost-dy.wmlefl.cc"}
-  - {"name":"🇩🇪DE | 🔴 | trojan | @ConfigsHUB | 19","type":"trojan","server":"198.177.56.87","port":2096,"udp":false,"password":"slch2024","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"ocost-dy.wmlefl.cc"}
+  - {"name":"🇳🇴NO | 🟢 | trojan | @ConfigsHUB | 5","type":"trojan","server":"95.164.38.151","port":443,"udp":false,"password":"c5691b8f-d833-41e4-9295-769f3edb4cd2","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"customer-95-164-38-151.stark-industries.solutions"}
+  - {"name":"🇺🇸US | 🟢 | trojan | @ConfigsHUB | 9","type":"trojan","server":"104.219.41.229","port":443,"udp":false,"password":"Julius","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"miami.juliusnet.com"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -195,11 +192,8 @@ proxy-groups:
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 13'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 14'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 15'
-      - '🇪🇸ES | 🔴 | trojan | @ConfigsHUB | 5'
-      - '🇨🇦CA | 🔴 | trojan | @ConfigsHUB | 7'
-      - '🇳🇱NL | 🔴 | trojan | @ConfigsHUB | 10'
-      - '🇨🇾CY | 🔴 | trojan | @ConfigsHUB | 12'
-      - '🇩🇪DE | 🔴 | trojan | @ConfigsHUB | 19'
+      - '🇳🇴NO | 🟢 | trojan | @ConfigsHUB | 5'
+      - '🇺🇸US | 🟢 | trojan | @ConfigsHUB | 9'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -239,11 +233,8 @@ proxy-groups:
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 13'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 14'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 15'
-      - '🇪🇸ES | 🔴 | trojan | @ConfigsHUB | 5'
-      - '🇨🇦CA | 🔴 | trojan | @ConfigsHUB | 7'
-      - '🇳🇱NL | 🔴 | trojan | @ConfigsHUB | 10'
-      - '🇨🇾CY | 🔴 | trojan | @ConfigsHUB | 12'
-      - '🇩🇪DE | 🔴 | trojan | @ConfigsHUB | 19'
+      - '🇳🇴NO | 🟢 | trojan | @ConfigsHUB | 5'
+      - '🇺🇸US | 🟢 | trojan | @ConfigsHUB | 9'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -282,11 +273,8 @@ proxy-groups:
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 13'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 14'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 15'
-      - '🇪🇸ES | 🔴 | trojan | @ConfigsHUB | 5'
-      - '🇨🇦CA | 🔴 | trojan | @ConfigsHUB | 7'
-      - '🇳🇱NL | 🔴 | trojan | @ConfigsHUB | 10'
-      - '🇨🇾CY | 🔴 | trojan | @ConfigsHUB | 12'
-      - '🇩🇪DE | 🔴 | trojan | @ConfigsHUB | 19'
+      - '🇳🇴NO | 🟢 | trojan | @ConfigsHUB | 5'
+      - '🇺🇸US | 🟢 | trojan | @ConfigsHUB | 9'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
