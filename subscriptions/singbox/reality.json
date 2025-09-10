@@ -120,6 +120,7 @@
                 "🇫🇮FI | 🔴 | vless | @melov2ray | 34",
                 "🇫🇮FI | 🔴 | vless | @melov2ray | 42",
                 "🇫🇮FI | 🔴 | vless | @melov2ray | 50",
+                "🇫🇮FI | 🔴 | vless | @melov2ray | 58",
                 "🇩🇪DE | 🟢 | vless | @rxv2ray | 11",
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 5",
@@ -145,6 +146,7 @@
                 "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 2",
                 "🇳🇱NL | 🟢 | vless | @ShadowProxy66 | 3",
                 "🇷🇺RU | 🟢 | vless | @v2ray1_ng | 0",
+                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 5",
                 "🇷🇺RU | 🟢 | vless | @free1_vpn | 7",
                 "🇫🇷FR | 🟢 | vless | @Outlinev2rayNG | 0",
                 "🇬🇧GB | 🟢 | vless | @Outlinev2rayNG | 2",
@@ -200,6 +202,7 @@
                 "🇫🇮FI | 🔴 | vless | @melov2ray | 34",
                 "🇫🇮FI | 🔴 | vless | @melov2ray | 42",
                 "🇫🇮FI | 🔴 | vless | @melov2ray | 50",
+                "🇫🇮FI | 🔴 | vless | @melov2ray | 58",
                 "🇩🇪DE | 🟢 | vless | @rxv2ray | 11",
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 5",
@@ -225,6 +228,7 @@
                 "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 2",
                 "🇳🇱NL | 🟢 | vless | @ShadowProxy66 | 3",
                 "🇷🇺RU | 🟢 | vless | @v2ray1_ng | 0",
+                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 5",
                 "🇷🇺RU | 🟢 | vless | @free1_vpn | 7",
                 "🇫🇷FR | 🟢 | vless | @Outlinev2rayNG | 0",
                 "🇬🇧GB | 🟢 | vless | @Outlinev2rayNG | 2",
@@ -690,6 +694,42 @@
             "tag": "🇫🇮FI | 🔴 | vless | @melov2ray | 50",
             "type": "vless",
             "server": "65.109.218.179",
+            "server_port": 2083,
+            "uuid": "e39ea9ab-a0ee-4ca9-cc5d-32cda0258cbc",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "khamenei.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mDWXgatiJqUc4fmeDQqGusEBIhjFVrQ85y_ZUfNpFV8",
+                    "short_id": "54602915a7"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "melov2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇫🇮FI | 🔴 | vless | @melov2ray | 58",
+            "type": "vless",
+            "server": "65.109.208.107",
             "server_port": 2083,
             "uuid": "e39ea9ab-a0ee-4ca9-cc5d-32cda0258cbc",
             "flow": "xtls-rprx-vision",
@@ -1458,6 +1498,35 @@
                     "enabled": true,
                     "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
                     "short_id": "16895459a2c7768d"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vless | @ConfigsHUB | 5",
+            "type": "vless",
+            "server": "3.17.56.183",
+            "server_port": 4433,
+            "uuid": "7fc993f5-7cd7-4485-9e6f-1f7c5160c910",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "tZn5Tdrk045zSTbBEzGwSV_LOdCZqEwT8c85pJOK_C0",
+                    "short_id": "f785b38130e64177"
                 }
             }
         },
