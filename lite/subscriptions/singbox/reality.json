@@ -114,8 +114,7 @@
                 "🇳🇱NL | 🟢 | vless | @prrofile_purple | 147",
                 "🇷🇺RU | 🟢 | vless | @customv2ray | 27",
                 "🇳🇱NL | 🟢 | vless | @ShadowProxy66 | 3",
-                "🇷🇺RU | 🟢 | vless | @free1_vpn | 7",
-                "🇬🇧GB | 🟢 | vless | @Outlinev2rayNG | 8",
+                "🇷🇺RU | 🟢 | vless | @free1_vpn | 8",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇫🇮FI | 🟢 | vless | @kingofilter | 3",
@@ -135,8 +134,7 @@
                 "🇳🇱NL | 🟢 | vless | @prrofile_purple | 147",
                 "🇷🇺RU | 🟢 | vless | @customv2ray | 27",
                 "🇳🇱NL | 🟢 | vless | @ShadowProxy66 | 3",
-                "🇷🇺RU | 🟢 | vless | @free1_vpn | 7",
-                "🇬🇧GB | 🟢 | vless | @Outlinev2rayNG | 8",
+                "🇷🇺RU | 🟢 | vless | @free1_vpn | 8",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "🇫🇮FI | 🟢 | vless | @kingofilter | 3",
@@ -403,7 +401,7 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vless | @free1_vpn | 7",
+            "tag": "🇷🇺RU | 🟢 | vless | @free1_vpn | 8",
             "type": "vless",
             "server": "185.200.240.134",
             "server_port": 443,
@@ -428,35 +426,6 @@
                     "enabled": true,
                     "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
                     "short_id": "16895459a2c7768d"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧GB | 🟢 | vless | @Outlinev2rayNG | 8",
-            "type": "vless",
-            "server": "looutintl.outline360bot.com",
-            "server_port": 443,
-            "uuid": "2b3b9457-d4df-415c-b9be-189e8546f4b4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "fv0Zz9FtroOmuK1Tsn0u98gXSq8XepZKtbdH3lDg9EU",
-                    "short_id": "ad2e"
                 }
             }
         },
