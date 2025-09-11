@@ -161,8 +161,7 @@
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 18",
                 "🇫🇷FR | 🔴 | vless | @SafeNet_Server | 0",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
-                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 17",
+                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 18",
                 "🇩🇪DE | 🔴 | vless | @free1_vpn | 6",
                 "🇷🇺RU | 🟢 | vless | @free1_vpn | 7",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 2",
@@ -243,8 +242,7 @@
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 18",
                 "🇫🇷FR | 🔴 | vless | @SafeNet_Server | 0",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
-                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 17",
+                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 18",
                 "🇩🇪DE | 🔴 | vless | @free1_vpn | 6",
                 "🇷🇺RU | 🟢 | vless | @free1_vpn | 7",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 2",
@@ -1508,61 +1506,17 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+            "tag": "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "146.19.90.2",
-            "server_port": 443,
-            "uuid": "ae37ee3b-2109-7934-7f46-30f712b2580f",
-            "flow": "xtls-rprx-vision",
+            "server": "panelaf.dnsline.top",
+            "server_port": 55522,
+            "uuid": "66185905-e3f9-4822-ba31-f46d3e6539f3",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "speed.cloudflare.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "oE7ZEghzkaOUiw1q3PqBtpllP1NlPHLY8ydJRuICtko",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "213.232.120.2",
-            "server_port": 443,
-            "uuid": "192ea2c7-d7d0-6676-2929-b04a072b387d",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "speed.cloudflare.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "6h7z2IG6_BopO2tGTRAytfMOWbcXxRWghb2c9IILJkA",
-                    "short_id": ""
-                }
             }
         },
         {
