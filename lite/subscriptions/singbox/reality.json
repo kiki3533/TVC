@@ -114,8 +114,7 @@
                 "🇳🇱NL | 🟢 | vless | @prrofile_purple | 155",
                 "🇷🇺RU | 🟢 | vless | @customv2ray | 35",
                 "🇷🇺RU | 🟢 | vless | @ShadowProxy66 | 0",
-                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 18",
-                "🇫🇷FR | 🟢 | vless | @Outlinev2rayNG | 5",
+                "🇫🇷FR | 🟢 | vless | @Outlinev2rayNG | 7",
                 "🇩🇪DE | 🔴 | vless | @mehrosaboran | 8",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -136,8 +135,7 @@
                 "🇳🇱NL | 🟢 | vless | @prrofile_purple | 155",
                 "🇷🇺RU | 🟢 | vless | @customv2ray | 35",
                 "🇷🇺RU | 🟢 | vless | @ShadowProxy66 | 0",
-                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 18",
-                "🇫🇷FR | 🟢 | vless | @Outlinev2rayNG | 5",
+                "🇫🇷FR | 🟢 | vless | @Outlinev2rayNG | 7",
                 "🇩🇪DE | 🔴 | vless | @mehrosaboran | 8",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -405,36 +403,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "82.115.6.101",
-            "server_port": 14915,
-            "uuid": "3d11ab83-5a26-4bde-9883-ec490396703f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "VxVMU7int2JsYtzo5AaGXbg3_3YUmYjx0PXP179N73Y",
-                    "short_id": "0472c30c"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷FR | 🟢 | vless | @Outlinev2rayNG | 5",
+            "tag": "🇫🇷FR | 🟢 | vless | @Outlinev2rayNG | 7",
             "type": "vless",
             "server": "paisaoutt.outline360bot.com",
             "server_port": 443,
