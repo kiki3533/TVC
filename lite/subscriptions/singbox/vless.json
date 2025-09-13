@@ -158,9 +158,9 @@
                 "🇩🇪DE | 🔴 | vless | @vmess_vless_v2rayng | 17",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 18",
                 "🇫🇷FR | 🔴 | vless | @SafeNet_Server | 0",
-                "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
-                "🇱🇻LV | 🔴 | vless | @ConfigsHUB | 15",
-                "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🔴 | vless | @lrnbymaa | 1",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
                 "🇩🇪DE | 🔴 | vless | @free1_vpn | 7",
                 "🇩🇪DE | 🔴 | vless | @free1_vpn | 8",
                 "🇫🇷FR | 🟢 | vless | @Outlinev2rayNG | 11",
@@ -240,9 +240,9 @@
                 "🇩🇪DE | 🔴 | vless | @vmess_vless_v2rayng | 17",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 18",
                 "🇫🇷FR | 🔴 | vless | @SafeNet_Server | 0",
-                "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
-                "🇱🇻LV | 🔴 | vless | @ConfigsHUB | 15",
-                "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🔴 | vless | @lrnbymaa | 1",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
                 "🇩🇪DE | 🔴 | vless | @free1_vpn | 7",
                 "🇩🇪DE | 🔴 | vless | @free1_vpn | 8",
                 "🇫🇷FR | 🟢 | vless | @Outlinev2rayNG | 11",
@@ -628,7 +628,7 @@
             "type": "vless",
             "server": "172.66.40.99",
             "server_port": 80,
-            "uuid": "32c59b45-022c-4d5f-afa3-6f79edab95b9",
+            "uuid": "cf1d0c44-8416-4ddf-b7ef-4fc0a3511cd5",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1474,11 +1474,25 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
+            "tag": "🇺🇸US | 🔴 | vless | @lrnbymaa | 1",
             "type": "vless",
-            "server": "172.66.40.99",
-            "server_port": 8080,
-            "uuid": "4390049a-814c-4a60-a6a5-0ce8d0c87c55",
+            "server": "45.82.161.120",
+            "server_port": 19011,
+            "uuid": "a6267bde-0344-462e-d69c-7a2bed7f4763",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2087,
+            "uuid": "cadabee9-d354-4ce7-f77c-99388c746574",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1486,54 +1500,36 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "website.speedtest24.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE?ed=80",
+                "path": "\/@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android",
                 "headers": {
-                    "Host": "172.66.40.99"
+                    "Host": "website.speedtest24.ir"
                 }
             }
         },
         {
-            "tag": "🇱🇻LV | 🔴 | vless | @ConfigsHUB | 15",
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "90.156.254.164",
-            "server_port": 40432,
-            "uuid": "5ae45629-3db6-4c6b-9b9e-346c3e1a798d",
+            "server": "sss55168.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "e8a19247-cb95-4f9c-9c77-ea0355268762",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "90.156.254.164"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 16",
-            "type": "vless",
-            "server": "51.38.232.101",
-            "server_port": 80,
-            "uuid": "f0758892-f40c-412d-9fab-88103bad1fd8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vless\/",
-                "headers": {
-                    "Host": "51.38.232.101"
-                }
             }
         },
         {
