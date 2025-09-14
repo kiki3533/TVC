@@ -157,6 +157,7 @@
                 "🇫🇷FR | 🔴 | vless | @SafeNet_Server | 0",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 1",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
                 "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 19",
                 "🇷🇺RU | 🟢 | vless | @free1_vpn | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 6",
@@ -237,6 +238,7 @@
                 "🇫🇷FR | 🔴 | vless | @SafeNet_Server | 0",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 1",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
                 "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 19",
                 "🇷🇺RU | 🟢 | vless | @free1_vpn | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 6",
@@ -1425,32 +1427,31 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 19",
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "masterserver1.heloisfood.ir",
-            "server_port": 1331,
-            "uuid": "a4a8adf4-7e9f-443c-b17e-fb2c48d912b7",
-            "flow": "xtls-rprx-vision",
+            "server": "m47a.vip784.com",
+            "server_port": 33801,
+            "uuid": "b9793e0b-b030-4ac6-a503-8f2081d1cada",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
-                    "short_id": "077dc29a23d311f2"
-                }
+            }
+        },
+        {
+            "tag": "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "37.27.192.142",
+            "server_port": 15388,
+            "uuid": "6b0896c0-e576-47a0-9213-3f300fdff59b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
