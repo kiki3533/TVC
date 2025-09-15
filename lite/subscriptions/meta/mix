@@ -166,8 +166,7 @@ proxies:
   - {"name":"🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 18","type":"vless","server":"104.18.26.90","port":80,"udp":false,"uuid":"148709e4-402b-48dd-8892-ed39b55ea45c","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/?ed=2560","headers":{"host":"barayeiranmahsang.loseyourself.dpdns.org"}}}
   - {"name":"🇫🇷FR | 🔴 | vless | @SafeNet_Server | 0","type":"vless","server":"185.234.64.228","port":443,"udp":false,"uuid":"7d31065b-980c-4295-83f0-23bde0eee9cc","tls":true,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/qnbufdws"}}
   - {"name":"🇺🇸US | 🔴 | vless | @lrnbymaa | 1","type":"vless","server":"speedtestcustom.com","port":80,"udp":false,"uuid":"b848a32e-a77d-4deb-a3f7-f4eb4b3b58ac","tls":false,"network":"xhttp","client-fingerprint":"chrome"}
-  - {"name":"🇺🇸US | 🔴 | vless | @ConfigsHUB | 17","type":"vless","server":"172.66.40.99","port":8880,"udp":false,"uuid":"d447f445-8ac8-46ad-8f93-474a8c57c738","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420?ed=2048","headers":{"host":"s6.inFo.laLezaRanegomaNandish.suB420-mohaMad.online."}}}
-  - {"name":"🇭🇰HK | 🔴 | trojan | @ConfigsHUB | 18","type":"trojan","server":"naiu-hk.05vr9nyqg5.download","port":13008,"udp":false,"password":"ad6e2bae-d580-4117-aa37-a8c111100740","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"cloudflare.node-ssl.cdn-alibaba.com"}
+  - {"name":"🇱🇻LV | 🔴 | vless | @ConfigsHUB | 17","type":"vless","server":"90.156.254.164","port":40432,"udp":false,"uuid":"5ae45629-3db6-4c6b-9b9e-346c3e1a798d","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/"}}
   - {"name":"❔XX | 🟢 | vmess | @yaney_01 | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
   - {"name":"🇷🇺RU | 🟢 | vless | @free1_vpn | 5","type":"vless","server":"185.200.240.188","port":443,"udp":true,"uuid":"6fae85ca-395a-4f27-9eb2-75123befc475","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"ru.sfasti.ru","flow":"xtls-rprx-vision","reality-opts":{"public-key":"J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8","short-id":"16895459a2c7768d"}}
   - {"name":"🇺🇸US | 🔴 | vless | @free1_vpn | 6","type":"vless","server":"www.speedtest.net","port":443,"udp":false,"uuid":"88538870-5626-4cd7-9cda-1e0b6253c9ce","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"6389113402676776505.rtxiran.info","ws-opts":{"path":"/","headers":{"host":"6389113402676776505.rtxiran.info"}}}
@@ -238,8 +237,7 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 18'
       - '🇫🇷FR | 🔴 | vless | @SafeNet_Server | 0'
       - '🇺🇸US | 🔴 | vless | @lrnbymaa | 1'
-      - '🇺🇸US | 🔴 | vless | @ConfigsHUB | 17'
-      - '🇭🇰HK | 🔴 | trojan | @ConfigsHUB | 18'
+      - '🇱🇻LV | 🔴 | vless | @ConfigsHUB | 17'
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
       - '🇷🇺RU | 🟢 | vless | @free1_vpn | 5'
       - '🇺🇸US | 🔴 | vless | @free1_vpn | 6'
@@ -310,8 +308,7 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 18'
       - '🇫🇷FR | 🔴 | vless | @SafeNet_Server | 0'
       - '🇺🇸US | 🔴 | vless | @lrnbymaa | 1'
-      - '🇺🇸US | 🔴 | vless | @ConfigsHUB | 17'
-      - '🇭🇰HK | 🔴 | trojan | @ConfigsHUB | 18'
+      - '🇱🇻LV | 🔴 | vless | @ConfigsHUB | 17'
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
       - '🇷🇺RU | 🟢 | vless | @free1_vpn | 5'
       - '🇺🇸US | 🔴 | vless | @free1_vpn | 6'
@@ -381,8 +378,7 @@ proxy-groups:
       - '🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 18'
       - '🇫🇷FR | 🔴 | vless | @SafeNet_Server | 0'
       - '🇺🇸US | 🔴 | vless | @lrnbymaa | 1'
-      - '🇺🇸US | 🔴 | vless | @ConfigsHUB | 17'
-      - '🇭🇰HK | 🔴 | trojan | @ConfigsHUB | 18'
+      - '🇱🇻LV | 🔴 | vless | @ConfigsHUB | 17'
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
       - '🇷🇺RU | 🟢 | vless | @free1_vpn | 5'
       - '🇺🇸US | 🔴 | vless | @free1_vpn | 6'
