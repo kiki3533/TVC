@@ -157,8 +157,8 @@
                 "🇫🇷FR | 🔴 | vless | @SafeNet_Server | 0",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 1",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
-                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 19",
                 "🇷🇺RU | 🟢 | vless | @free1_vpn | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 6",
                 "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 12",
@@ -238,8 +238,8 @@
                 "🇫🇷FR | 🔴 | vless | @SafeNet_Server | 0",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 1",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
-                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 19",
                 "🇷🇺RU | 🟢 | vless | @free1_vpn | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 6",
                 "🇩🇪DE | 🔴 | vless | @Outlinev2rayNG | 12",
@@ -1427,31 +1427,65 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
+            "tag": "🇺🇸US | 🟢 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "m47a.vip784.com",
-            "server_port": 33801,
-            "uuid": "b9793e0b-b030-4ac6-a503-8f2081d1cada",
+            "server": "172.66.47.13",
+            "server_port": 8443,
+            "uuid": "3b7ac5ec-ff18-487b-938c-09fedbbfc0a3",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "pardazeshvpn-tg57.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN",
+                "headers": {
+                    "Host": "pardazeshvpn-tg57.pages.dev"
+                }
             }
         },
         {
-            "tag": "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 19",
+            "tag": "🇺🇸US | 🟢 | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "37.27.192.142",
-            "server_port": 15388,
-            "uuid": "6b0896c0-e576-47a0-9213-3f300fdff59b",
+            "server": "172.67.197.205",
+            "server_port": 443,
+            "uuid": "894e0e6e-d415-47fd-84f5-418896d7a310",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "freedom2.sepale8166.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "freedom2.sepale8166.workers.dev"
+                }
             }
         },
         {
