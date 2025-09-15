@@ -112,9 +112,9 @@
                 "🇬🇧GB | 🔴 | vless | @NIM_VPN_ir | 5",
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 17",
                 "🇷🇺RU | 🟢 | vless | @proxy_kafee | 5",
+                "🇹🇷TR | 🟢 | vless | @prrofile_purple | 147",
                 "🇷🇺RU | 🟢 | vless | @ShadowProxy66 | 0",
                 "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 7",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 18",
                 "🇷🇺RU | 🟢 | vless | @free1_vpn | 6",
                 "🇩🇪DE | 🟢 | vless | @Capoit | 13",
                 "🇫🇷FR | 🟢 | vless | @FreakConfig | 17",
@@ -135,9 +135,9 @@
                 "🇬🇧GB | 🔴 | vless | @NIM_VPN_ir | 5",
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 17",
                 "🇷🇺RU | 🟢 | vless | @proxy_kafee | 5",
+                "🇹🇷TR | 🟢 | vless | @prrofile_purple | 147",
                 "🇷🇺RU | 🟢 | vless | @ShadowProxy66 | 0",
                 "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 7",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 18",
                 "🇷🇺RU | 🟢 | vless | @free1_vpn | 6",
                 "🇩🇪DE | 🟢 | vless | @Capoit | 13",
                 "🇫🇷FR | 🟢 | vless | @FreakConfig | 17",
@@ -349,6 +349,35 @@
             }
         },
         {
+            "tag": "🇹🇷TR | 🟢 | vless | @prrofile_purple | 147",
+            "type": "vless",
+            "server": "45.89.52.228",
+            "server_port": 443,
+            "uuid": "id7195033332",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.trendyol.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "oncHA5R446UW_VbO6t2jRllAI4iLFbpvOvi1ndZ-Mys",
+                    "short_id": "d26c3a"
+                }
+            }
+        },
+        {
             "tag": "🇷🇺RU | 🟢 | vless | @ShadowProxy66 | 0",
             "type": "vless",
             "server": "185.200.240.134",
@@ -403,35 +432,6 @@
                     "enabled": true,
                     "public_key": "vfmqSXTEjdIOgz43eZTNzBRztAvd1U1dDkSz_mnaSk4",
                     "short_id": "82c8140feb118043"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "147.78.180.10",
-            "server_port": 443,
-            "uuid": "3c7a1227-5383-3a19-7084-76624ec8f84f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "speed.cloudflare.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Ot7NIMwy588LBegSSLxqxzXh9MszA0CxFPHbSAj7PR0",
-                    "short_id": ""
                 }
             }
         },
