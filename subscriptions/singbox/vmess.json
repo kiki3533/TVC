@@ -121,7 +121,7 @@
                 "🇩🇪DE | 🟢 | vmess | @prrofile_purple | 136",
                 "🇫🇮FI | 🟢 | vmess | @prrofile_purple | 152",
                 "🇷🇺RU | 🟢 | vmess | @prrofile_purple | 154",
-                "❔XX | 🟢 | vmess | @ConfigsHUB | 12",
+                "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 7",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -159,7 +159,7 @@
                 "🇩🇪DE | 🟢 | vmess | @prrofile_purple | 136",
                 "🇫🇮FI | 🟢 | vmess | @prrofile_purple | 152",
                 "🇷🇺RU | 🟢 | vmess | @prrofile_purple | 154",
-                "❔XX | 🟢 | vmess | @ConfigsHUB | 12",
+                "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 7",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -467,13 +467,13 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @ConfigsHUB | 12",
+            "tag": "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 7",
             "type": "vmess",
-            "server": null,
-            "server_port": 0,
-            "uuid": null,
+            "server": "kampong.org",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 1,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -481,6 +481,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "kampong.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "kampong.org"
+                }
             }
         },
         {
