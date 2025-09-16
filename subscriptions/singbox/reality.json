@@ -149,9 +149,9 @@
                 "🇷🇺RU | 🟢 | vless | @ShadowProxy66 | 0",
                 "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 2",
                 "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 3",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 3",
-                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 4",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 1",
+                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 7",
+                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 14",
                 "🇷🇺RU | 🟢 | vless | @free1_vpn | 4",
                 "🇳🇱NL | 🔴 | vless | @FreakConfig | 0",
                 "🇳🇱NL | 🔴 | vless | @FreakConfig | 8",
@@ -227,9 +227,9 @@
                 "🇷🇺RU | 🟢 | vless | @ShadowProxy66 | 0",
                 "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 2",
                 "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 3",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 3",
-                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 4",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 1",
+                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 7",
+                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 14",
                 "🇷🇺RU | 🟢 | vless | @free1_vpn | 4",
                 "🇳🇱NL | 🔴 | vless | @FreakConfig | 0",
                 "🇳🇱NL | 🔴 | vless | @FreakConfig | 8",
@@ -1574,7 +1574,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 3",
+            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 1",
             "type": "vless",
             "server": "deu246.bypassall.org",
             "server_port": 443,
@@ -1603,7 +1603,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 4",
+            "tag": "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 7",
             "type": "vless",
             "server": "Evay_vpn.heloisfood.ir",
             "server_port": 1530,
@@ -1632,11 +1632,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
+            "tag": "🇺🇸US | 🟢 | vless | @ConfigsHUB | 14",
             "type": "vless",
-            "server": "91.98.79.239",
+            "server": "35.94.137.174",
             "server_port": 443,
-            "uuid": "f599eb06-508a-4e24-9d59-4c50bf0333b7",
+            "uuid": "100a18b8-bab3-4c42-96ec-6b96691d6a0f",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1646,7 +1646,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "tempail.com",
+                "server_name": "stackoverflow.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1655,8 +1655,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "6wcvf78pdo-cH395vAliVVWoc5x8LSBgXJCQEF8KbA8",
-                    "short_id": "f47f400cc96a4e"
+                    "public_key": "CgiGam2CJMM33Tb7ZEBHt52pztMD7SQ9sqdfDZro-0Y",
+                    "short_id": ""
                 }
             }
         },
