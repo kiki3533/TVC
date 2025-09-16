@@ -115,7 +115,7 @@
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 4",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 14",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 15",
-                "🇺🇸US | 🔴 | vless | @melov2ray | 59",
+                "🇨🇦CA | 🔴 | vless | @melov2ray | 59",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 12",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 19",
@@ -165,8 +165,7 @@
                 "🇫🇷FR | 🔴 | vless | @SafeNet_Server | 0",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
-                "❔XX | 🟢 | trojan | @ConfigsHUB | 19",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇷🇺RU | 🟢 | vless | @free1_vpn | 4",
@@ -208,7 +207,7 @@
                 "🇮🇷IR | 🔴 | vless | @XsV2ray | 4",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 14",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 15",
-                "🇺🇸US | 🔴 | vless | @melov2ray | 59",
+                "🇨🇦CA | 🔴 | vless | @melov2ray | 59",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 12",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 19",
@@ -258,8 +257,7 @@
                 "🇫🇷FR | 🔴 | vless | @SafeNet_Server | 0",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
-                "❔XX | 🟢 | trojan | @ConfigsHUB | 19",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇷🇺RU | 🟢 | vless | @free1_vpn | 4",
@@ -552,7 +550,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @melov2ray | 59",
+            "tag": "🇨🇦CA | 🔴 | vless | @melov2ray | 59",
             "type": "vless",
             "server": "chat.deepseek.com",
             "server_port": 80,
@@ -1635,32 +1633,13 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "172.66.40.99",
-            "server_port": 8880,
-            "uuid": "d447f445-8ac8-46ad-8f93-474a8c57c738",
-            "flow": "",
+            "server": "185.250.180.91",
+            "server_port": 443,
+            "uuid": "82306016-bcd5-4f09-8310-198304d8d9e7",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420",
-                "headers": {
-                    "Host": "172.66.40.99"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | trojan | @ConfigsHUB | 19",
-            "type": "trojan",
-            "server": "127.0.0.1",
-            "server_port": 8080,
-            "password": "bcacaba-abac-caba-dbca-aaacbbbbccac",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1668,12 +1647,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "127.0.0.1",
+                "server_name": "duckduckgo.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "IxFbqmfuwejYSKYu69qBnzG9yWSuf7UjHujXWOO_w34",
+                    "short_id": "9137d914cd770b54"
                 }
             }
         },
