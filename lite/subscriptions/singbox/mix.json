@@ -164,13 +164,14 @@
                 "🇫🇷FR | 🔴 | vless | @SafeNet_Server | 0",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
+                "🇨🇾CY | 🔴 | trojan | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 4",
                 "🇷🇺RU | 🟢 | vless | @free1_vpn | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 4",
-                "🇮🇷IR | 🟢 | vmess | @Hope_Net | 5",
+                "❔XX | 🟢 | vmess | @Hope_Net | 5",
+                "❔XX | 🟢 | vmess | @Hope_Net | 6",
                 "🇺🇸US | 🔴 | vless | @Capoit | 13",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 14",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 16",
@@ -254,13 +255,14 @@
                 "🇫🇷FR | 🔴 | vless | @SafeNet_Server | 0",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
+                "🇨🇾CY | 🔴 | trojan | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 4",
                 "🇷🇺RU | 🟢 | vless | @free1_vpn | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 4",
-                "🇮🇷IR | 🟢 | vmess | @Hope_Net | 5",
+                "❔XX | 🟢 | vmess | @Hope_Net | 5",
+                "❔XX | 🟢 | vmess | @Hope_Net | 6",
                 "🇺🇸US | 🔴 | vless | @Capoit | 13",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 14",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 16",
@@ -1613,13 +1615,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
-            "type": "vless",
-            "server": "br.pouriau.com",
-            "server_port": 2052,
-            "uuid": "6880c016-63a3-4335-bafa-c180ffd3325f",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇾CY | 🔴 | trojan | @ConfigsHUB | 18",
+            "type": "trojan",
+            "server": "pubg.ac",
+            "server_port": 8443,
+            "password": "1d9442f8-f4d6-46d0-8c81-69d4f404f8a5",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1627,9 +1627,40 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/---ping---www.speedtest.net?ed=2080",
+                "path": "\/profile\/telegram@ssrsub",
                 "headers": {
-                    "Host": "br.pouriau.com"
+                    "Host": "cdn-node-oss-92.paofu.de"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "172.66.40.99",
+            "server_port": 443,
+            "uuid": "0261c8f9-413a-455b-942b-3713c6b0084a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.dollardoon.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7",
+                "headers": {
+                    "Host": "www.dollardoon.com"
                 }
             }
         },
@@ -1752,11 +1783,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 4",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 5",
             "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 8080,
-            "uuid": "bcacaba-abac-caba-dbca-aaacbbbbccac",
+            "server": "127.1.1.127",
+            "server_port": 80,
+            "uuid": "602736e4-a2e8-4eb3-9fc9-7c7082925365",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1769,11 +1800,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🟢 | vmess | @Hope_Net | 5",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 6",
             "type": "vmess",
-            "server": "2.182.174.21",
-            "server_port": 9090,
-            "uuid": "fddf88ed-8c70-42ad-c12e-5f40841e6f00",
+            "server": "127.0.0.1",
+            "server_port": 8080,
+            "uuid": "bcacaba-abac-caba-dbca-aaacbbbbccac",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
