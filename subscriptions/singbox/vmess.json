@@ -121,7 +121,8 @@
                 "🇩🇪DE | 🟢 | vmess | @prrofile_purple | 137",
                 "🇫🇮FI | 🟢 | vmess | @prrofile_purple | 153",
                 "🇷🇺RU | 🟢 | vmess | @prrofile_purple | 155",
-                "❔XX | 🟢 | vmess | @ConfigsHUB | 17",
+                "🇵🇱PL | 🟢 | vmess | @ConfigsHUB | 4",
+                "❔XX | 🟢 | vmess | @ConfigsHUB | 8",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -154,7 +155,8 @@
                 "🇩🇪DE | 🟢 | vmess | @prrofile_purple | 137",
                 "🇫🇮FI | 🟢 | vmess | @prrofile_purple | 153",
                 "🇷🇺RU | 🟢 | vmess | @prrofile_purple | 155",
-                "❔XX | 🟢 | vmess | @ConfigsHUB | 17",
+                "🇵🇱PL | 🟢 | vmess | @ConfigsHUB | 4",
+                "❔XX | 🟢 | vmess | @ConfigsHUB | 8",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -457,7 +459,41 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @ConfigsHUB | 17",
+            "tag": "🇵🇱PL | 🟢 | vmess | @ConfigsHUB | 4",
+            "type": "vmess",
+            "server": "lammaland.org",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "lammaland.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "lammaland.org"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | @ConfigsHUB | 8",
             "type": "vmess",
             "server": null,
             "server_port": 0,
