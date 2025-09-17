@@ -116,7 +116,8 @@
                 "🇷🇺RU | 🟢 | vless | @ShadowProxy66 | 5",
                 "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 5",
                 "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 6",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 17",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18",
+                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 19",
                 "🇷🇺RU | 🟢 | vless | @free1_vpn | 5",
                 "🇳🇱NL | 🔴 | vless | @FreakConfig | 14",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -139,7 +140,8 @@
                 "🇷🇺RU | 🟢 | vless | @ShadowProxy66 | 5",
                 "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 5",
                 "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 6",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 17",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18",
+                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 19",
                 "🇷🇺RU | 🟢 | vless | @free1_vpn | 5",
                 "🇳🇱NL | 🔴 | vless | @FreakConfig | 14",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -465,7 +467,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 17",
+            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18",
             "type": "vless",
             "server": "deu246.bypassall.org",
             "server_port": 443,
@@ -490,6 +492,35 @@
                     "enabled": true,
                     "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "Evay_vpn.heloisfood.ir",
+            "server_port": 1530,
+            "uuid": "1417a34f-a0d9-46c4-a2c7-9c7d56ac4b5d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
+                    "short_id": "077dc29a23d311f2"
                 }
             }
         },
