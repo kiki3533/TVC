@@ -149,7 +149,7 @@ proxies:
   - {"name":"🇫🇷FR | 🟢 | trojan | @DirectVPN | 13","type":"trojan","server":"13.39.5.124","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇩🇪DE | 🟢 | trojan | @DirectVPN | 14","type":"trojan","server":"18.193.209.201","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇩🇪DE | 🟢 | trojan | @DirectVPN | 15","type":"trojan","server":"63.176.70.194","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇩🇪DE | 🔴 | trojan | @ConfigsHUB | 16","type":"trojan","server":"91.107.252.182","port":26805,"udp":false,"password":"8T7egv3W4T","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"🇩🇪DE | 🟢 | trojan | @ConfigsHUB | 18","type":"trojan","server":"18.193.181.139","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -187,7 +187,7 @@ proxy-groups:
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 13'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 14'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 15'
-      - '🇩🇪DE | 🔴 | trojan | @ConfigsHUB | 16'
+      - '🇩🇪DE | 🟢 | trojan | @ConfigsHUB | 18'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -225,7 +225,7 @@ proxy-groups:
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 13'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 14'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 15'
-      - '🇩🇪DE | 🔴 | trojan | @ConfigsHUB | 16'
+      - '🇩🇪DE | 🟢 | trojan | @ConfigsHUB | 18'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -262,7 +262,7 @@ proxy-groups:
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 13'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 14'
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 15'
-      - '🇩🇪DE | 🔴 | trojan | @ConfigsHUB | 16'
+      - '🇩🇪DE | 🟢 | trojan | @ConfigsHUB | 18'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
