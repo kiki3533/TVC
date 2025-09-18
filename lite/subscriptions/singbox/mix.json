@@ -171,12 +171,11 @@
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 5",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 6",
                 "🇩🇪DE | 🔴 | trojan | @ConfigsHUB | 17",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 16",
-                "🇨🇭CH | 🟢 | vmess | @Hope_Net | 17",
+                "🇰🇷KR | 🟢 | vmess | @Hope_Net | 16",
+                "❔XX | 🟢 | vmess | @Hope_Net | 17",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @Capoit | 14",
                 "🇺🇸US | 🔴 | vless | @Capoit | 15",
@@ -265,12 +264,11 @@
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 5",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 6",
                 "🇩🇪DE | 🔴 | trojan | @ConfigsHUB | 17",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 16",
-                "🇨🇭CH | 🟢 | vmess | @Hope_Net | 17",
+                "🇰🇷KR | 🟢 | vmess | @Hope_Net | 16",
+                "❔XX | 🟢 | vmess | @Hope_Net | 17",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @Capoit | 14",
                 "🇺🇸US | 🔴 | vless | @Capoit | 15",
@@ -1769,35 +1767,6 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "deu246.bypassall.org",
-            "server_port": 443,
-            "uuid": "b4b8aa1f-77d2-4851-a5a4-f78886f3e997",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.bing.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
-                    "short_id": ""
-                }
-            }
-        },
-        {
             "tag": "❔XX | 🟢 | vmess | @yaney_01 | 4",
             "type": "vmess",
             "server": "ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub",
@@ -1887,13 +1856,13 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 16",
+            "tag": "🇰🇷KR | 🟢 | vmess | @Hope_Net | 16",
             "type": "vmess",
-            "server": "an.kalavryta.org",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "158.180.91.206",
+            "server_port": 46271,
+            "uuid": "f99bfe05-e351-47df-e752-ac0aaea976dc",
             "security": "auto",
-            "alter_id": 1,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -1902,28 +1871,18 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "an.kalavryta.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/",
                 "headers": {
-                    "Host": "an.kalavryta.org"
+                    "Host": ""
                 }
             }
         },
         {
-            "tag": "🇨🇭CH | 🟢 | vmess | @Hope_Net | 17",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 17",
             "type": "vmess",
-            "server": "186.190.215.32",
+            "server": "an.hkddisney.org",
             "server_port": 443,
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
