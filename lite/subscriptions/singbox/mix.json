@@ -170,13 +170,13 @@
                 "🇫🇷FR | 🔴 | vless | @SafeNet_Server | 0",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 5",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 6",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+                "🇩🇪DE | 🔴 | trojan | @ConfigsHUB | 17",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 14",
-                "🇨🇭CH | 🟢 | vmess | @Hope_Net | 15",
+                "❔XX | 🟢 | vmess | @Hope_Net | 16",
+                "🇨🇭CH | 🟢 | vmess | @Hope_Net | 17",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @Capoit | 14",
                 "🇺🇸US | 🔴 | vless | @Capoit | 15",
@@ -264,13 +264,13 @@
                 "🇫🇷FR | 🔴 | vless | @SafeNet_Server | 0",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 5",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 6",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+                "🇩🇪DE | 🔴 | trojan | @ConfigsHUB | 17",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 14",
-                "🇨🇭CH | 🟢 | vmess | @Hope_Net | 15",
+                "❔XX | 🟢 | vmess | @Hope_Net | 16",
+                "🇨🇭CH | 🟢 | vmess | @Hope_Net | 17",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @Capoit | 14",
                 "🇺🇸US | 🔴 | vless | @Capoit | 15",
@@ -1757,44 +1757,43 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
-            "type": "vless",
-            "server": "172.66.40.99",
-            "server_port": 8880,
-            "uuid": "d447f445-8ac8-46ad-8f93-474a8c57c738",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇩🇪DE | 🔴 | trojan | @ConfigsHUB | 17",
+            "type": "trojan",
+            "server": "91.107.252.182",
+            "server_port": 26805,
+            "password": "OSXRComila",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420",
-                "headers": {
-                    "Host": "172.66.40.99"
-                }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "172.66.40.99",
-            "server_port": 8880,
-            "uuid": "934ad667-dce8-402a-aa45-3c3b52252c0a",
-            "flow": "",
+            "server": "deu246.bypassall.org",
+            "server_port": 443,
+            "uuid": "b4b8aa1f-77d2-4851-a5a4-f78886f3e997",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN",
-                "headers": {
-                    "Host": "172.66.40.99"
+            "tls": {
+                "enabled": true,
+                "server_name": "www.bing.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
+                    "short_id": ""
                 }
             }
         },
@@ -1888,7 +1887,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 14",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 16",
             "type": "vmess",
             "server": "an.kalavryta.org",
             "server_port": 443,
@@ -1922,7 +1921,7 @@
             }
         },
         {
-            "tag": "🇨🇭CH | 🟢 | vmess | @Hope_Net | 15",
+            "tag": "🇨🇭CH | 🟢 | vmess | @Hope_Net | 17",
             "type": "vmess",
             "server": "186.190.215.32",
             "server_port": 443,
