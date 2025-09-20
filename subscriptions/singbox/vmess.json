@@ -121,7 +121,8 @@
                 "🇺🇸US | 🟢 | vmess | @prrofile_purple | 117",
                 "🇩🇪DE | 🟢 | vmess | @prrofile_purple | 152",
                 "🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 0",
-                "🇫🇷FR | 🟢 | vmess | @v2ray1_ng | 4",
+                "🇨🇦CA | 🟢 | vmess | @v2ray1_ng | 4",
+                "🇨🇦CA | 🟢 | vmess | @ConfigsHUB | 14",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -155,7 +156,8 @@
                 "🇺🇸US | 🟢 | vmess | @prrofile_purple | 117",
                 "🇩🇪DE | 🟢 | vmess | @prrofile_purple | 152",
                 "🇩🇪DE | 🟢 | vmess | @ShadowProxy66 | 0",
-                "🇫🇷FR | 🟢 | vmess | @v2ray1_ng | 4",
+                "🇨🇦CA | 🟢 | vmess | @v2ray1_ng | 4",
+                "🇨🇦CA | 🟢 | vmess | @ConfigsHUB | 14",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -486,7 +488,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🟢 | vmess | @v2ray1_ng | 4",
+            "tag": "🇨🇦CA | 🟢 | vmess | @v2ray1_ng | 4",
             "type": "vmess",
             "server": "kampong.org",
             "server_port": 443,
@@ -516,6 +518,40 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "kampong.org"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | 🟢 | vmess | @ConfigsHUB | 14",
+            "type": "vmess",
+            "server": "15.235.83.228",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
                 }
             }
         },
