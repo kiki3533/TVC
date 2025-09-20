@@ -130,7 +130,6 @@
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 17",
                 "🇩🇪DE | 🔴 | vless | @DarkTeam_VPN | 16",
                 "🇺🇸US | 🔴 | vless | @DarkTeam_VPN | 17",
-                "🇫🇮FI | 🟢 | vless | @proxy_kafee | 5",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "❔XX | 🔴 | vless | @v2logy | 10",
                 "🇮🇷IR | 🔴 | vless | @Watashi_VPN | 2",
@@ -163,8 +162,8 @@
                 "🇫🇷FR | 🔴 | vless | @SafeNet_Server | 1",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 8",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 9",
-                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 18",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+                "🇮🇷IR | 🔴 | vless | @ConfigsHUB | 18",
+                "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 7",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 12",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 12",
@@ -212,7 +211,6 @@
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 17",
                 "🇩🇪DE | 🔴 | vless | @DarkTeam_VPN | 16",
                 "🇺🇸US | 🔴 | vless | @DarkTeam_VPN | 17",
-                "🇫🇮FI | 🟢 | vless | @proxy_kafee | 5",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "❔XX | 🔴 | vless | @v2logy | 10",
                 "🇮🇷IR | 🔴 | vless | @Watashi_VPN | 2",
@@ -245,8 +243,8 @@
                 "🇫🇷FR | 🔴 | vless | @SafeNet_Server | 1",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 8",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 9",
-                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 18",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+                "🇮🇷IR | 🔴 | vless | @ConfigsHUB | 18",
+                "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 7",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 12",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 12",
@@ -844,35 +842,6 @@
                 "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "headers": {
                     "Host": "w.arfilter.blog"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮FI | 🟢 | vless | @proxy_kafee | 5",
-            "type": "vless",
-            "server": "46.62.152.219",
-            "server_port": 8443,
-            "uuid": "234a4937-5029-4bcd-b32a-1eda5afc14f8",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "r3FLw76bxhgit74mzJTglRM-ujPZ9f-HemByQ-uZqms",
-                    "short_id": "27e6b66aa77662fb"
                 }
             }
         },
@@ -1583,40 +1552,25 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 18",
+            "tag": "🇮🇷IR | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "157.180.81.19",
-            "server_port": 1530,
-            "uuid": "75ed210a-10f2-4819-ac89-e0ff93b52ec7",
-            "flow": "xtls-rprx-vision",
+            "server": "89.44.242.222",
+            "server_port": 29500,
+            "uuid": "888a20e2-fc3f-4f52-973c-36a6386225b8",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
-                    "short_id": "077dc29a23d311f2"
-                }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+            "tag": "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "172.66.40.99",
-            "server_port": 8880,
-            "uuid": "d447f445-8ac8-46ad-8f93-474a8c57c738",
+            "server": "167.71.137.233",
+            "server_port": 80,
+            "uuid": "586bb25e-30e7-4163-9d1b-79ffb263e090",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1626,9 +1580,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420",
+                "path": "\/zmnnzws",
                 "headers": {
-                    "Host": "172.66.40.99"
+                    "Host": "167.71.137.233"
                 }
             }
         },
