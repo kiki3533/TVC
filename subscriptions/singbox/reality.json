@@ -145,10 +145,11 @@
                 "🇹🇷TR | 🟢 | vless | @v2rayngvpn | 4",
                 "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 2",
                 "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 3",
-                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 1",
-                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 2",
-                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 3",
-                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 4",
+                "🇨🇭CH | 🟢 | vless | @ConfigsHUB | 0",
+                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 6",
+                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 7",
+                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 12",
+                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 14",
                 "🇩🇪DE | 🔴 | vless | @nofiltering2 | 8",
                 "🇩🇪DE | 🔴 | vless | @nofiltering2 | 12",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
@@ -214,10 +215,11 @@
                 "🇹🇷TR | 🟢 | vless | @v2rayngvpn | 4",
                 "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 2",
                 "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 3",
-                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 1",
-                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 2",
-                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 3",
-                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 4",
+                "🇨🇭CH | 🟢 | vless | @ConfigsHUB | 0",
+                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 6",
+                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 7",
+                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 12",
+                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 14",
                 "🇩🇪DE | 🔴 | vless | @nofiltering2 | 8",
                 "🇩🇪DE | 🔴 | vless | @nofiltering2 | 12",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
@@ -1426,7 +1428,65 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 1",
+            "tag": "🇨🇭CH | 🟢 | vless | @ConfigsHUB | 0",
+            "type": "vless",
+            "server": "37.156.44.111",
+            "server_port": 443,
+            "uuid": "0b2b00c2-be56-4be6-abda-5e329afb7bce",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "chess.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "b_hJSqrd_USUBlX5A9-iJTBd0qndoAH9DW3Ct-HpGxc",
+                    "short_id": "4d01fba3"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 6",
+            "type": "vless",
+            "server": "V2rayNGSelllBoT.heloisfood.ir",
+            "server_port": 2020,
+            "uuid": "c90132d0-61b4-44e7-b70a-273afc0016c0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
+                    "short_id": "077dc29a23d311f2"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 7",
             "type": "vless",
             "server": "v2ngfaet.heloisfood.ir",
             "server_port": 1146,
@@ -1455,36 +1515,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 2",
-            "type": "vless",
-            "server": "masterserver1.heloisfood.ir",
-            "server_port": 1331,
-            "uuid": "c90132d0-61b4-44e7-b70a-273afc0016c0",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
-                    "short_id": "077dc29a23d311f2"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 3",
+            "tag": "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 12",
             "type": "vless",
             "server": "157.180.81.19",
             "server_port": 1530,
@@ -1513,10 +1544,10 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 4",
+            "tag": "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 14",
             "type": "vless",
-            "server": "V2rayNGSelllBoT.heloisfood.ir",
-            "server_port": 2020,
+            "server": "masterserver1.heloisfood.ir",
+            "server_port": 1331,
             "uuid": "c90132d0-61b4-44e7-b70a-273afc0016c0",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
