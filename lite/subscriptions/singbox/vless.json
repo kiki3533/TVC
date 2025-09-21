@@ -115,8 +115,8 @@
                 "❔XX | 🔴 | vless | @XsV2ray | 4",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 14",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 15",
-                "🇨🇦CA | 🔴 | vless | @melov2ray | 51",
-                "🇨🇦CA | 🔴 | vless | @melov2ray | 52",
+                "🇺🇸US | 🔴 | vless | @melov2ray | 51",
+                "🇺🇸US | 🔴 | vless | @melov2ray | 52",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 8",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
@@ -164,7 +164,7 @@
                 "🇩🇪DE | 🔴 | vless | @vmess_vless_v2rayng | 18",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 9",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 10",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+                "🇱🇻LV | 🔴 | vless | @ConfigsHUB | 13",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 15",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 16",
                 "🇳🇱NL | 🔴 | vless | @flyv2ray | 11",
@@ -195,8 +195,8 @@
                 "❔XX | 🔴 | vless | @XsV2ray | 4",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 14",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 15",
-                "🇨🇦CA | 🔴 | vless | @melov2ray | 51",
-                "🇨🇦CA | 🔴 | vless | @melov2ray | 52",
+                "🇺🇸US | 🔴 | vless | @melov2ray | 51",
+                "🇺🇸US | 🔴 | vless | @melov2ray | 52",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 8",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
@@ -244,7 +244,7 @@
                 "🇩🇪DE | 🔴 | vless | @vmess_vless_v2rayng | 18",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 9",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 10",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+                "🇱🇻LV | 🔴 | vless | @ConfigsHUB | 13",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 15",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 16",
                 "🇳🇱NL | 🔴 | vless | @flyv2ray | 11",
@@ -526,7 +526,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @melov2ray | 51",
+            "tag": "🇺🇸US | 🔴 | vless | @melov2ray | 51",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -547,7 +547,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @melov2ray | 52",
+            "tag": "🇺🇸US | 🔴 | vless | @melov2ray | 52",
             "type": "vless",
             "server": "chat.deepseek.com",
             "server_port": 80,
@@ -1581,17 +1581,32 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+            "tag": "🇱🇻LV | 🔴 | vless | @ConfigsHUB | 13",
             "type": "vless",
-            "server": "64.225.9.191",
-            "server_port": 25023,
-            "uuid": "6bb4d50a-56f9-47d5-8ce8-d8b7fe9aa474",
-            "flow": "",
+            "server": "94.131.104.178",
+            "server_port": 443,
+            "uuid": "d5c1b5d7-055b-4457-bc3a-6e99919c1bcb",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "latvia6.clearorbitllc.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "LDEOpY1G4Cw1drC2ao9AQRSTwwhTTMDk5a7Kyw41Hlw",
+                    "short_id": "81e0b568"
+                }
             }
         },
         {
