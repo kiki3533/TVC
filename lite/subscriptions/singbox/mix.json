@@ -116,7 +116,7 @@
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 14",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 15",
                 "🇨🇦CA | 🔴 | vless | @melov2ray | 51",
-                "🇺🇸US | 🔴 | vless | @melov2ray | 52",
+                "🇨🇦CA | 🔴 | vless | @melov2ray | 52",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 8",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
@@ -170,12 +170,12 @@
                 "🇩🇪DE | 🔴 | vless | @vmess_vless_v2rayng | 18",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 9",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 10",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 16",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 17",
+                "🇵🇱PL | 🔴 | vless | @ConfigsHUB | 17",
+                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 18",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 11",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 12",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 15",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 16",
                 "🇳🇱NL | 🔴 | vless | @flyv2ray | 11",
@@ -208,7 +208,7 @@
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 14",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 15",
                 "🇨🇦CA | 🔴 | vless | @melov2ray | 51",
-                "🇺🇸US | 🔴 | vless | @melov2ray | 52",
+                "🇨🇦CA | 🔴 | vless | @melov2ray | 52",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 8",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
@@ -262,12 +262,12 @@
                 "🇩🇪DE | 🔴 | vless | @vmess_vless_v2rayng | 18",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 9",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 10",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 16",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 17",
+                "🇵🇱PL | 🔴 | vless | @ConfigsHUB | 17",
+                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 18",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 11",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 12",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 15",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 16",
                 "🇳🇱NL | 🔴 | vless | @flyv2ray | 11",
@@ -571,7 +571,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @melov2ray | 52",
+            "tag": "🇨🇦CA | 🔴 | vless | @melov2ray | 52",
             "type": "vless",
             "server": "chat.deepseek.com",
             "server_port": 80,
@@ -1744,42 +1744,25 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @ConfigsHUB | 16",
+            "tag": "🇵🇱PL | 🔴 | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "151.101.194.228",
-            "server_port": 443,
-            "uuid": "45b0c639-b364-4d00-a49f-ccdfac51fe5e",
+            "server": "m23a.vip784.com",
+            "server_port": 33801,
+            "uuid": "c9b0100b-01b9-4167-b9e2-a0a8cad1e32b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hajlab.ucdavis.edu",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "hajlab.ucdavis.edu"
-                }
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 17",
+            "tag": "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "86.54.28.225",
-            "server_port": 443,
-            "uuid": "b8ced8ea-ecdc-4100-bf5f-41aa6dbf5b6a",
+            "server": "v2ngfaet.heloisfood.ir",
+            "server_port": 1146,
+            "uuid": "c90132d0-61b4-44e7-b70a-273afc0016c0",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1789,7 +1772,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "yahoo.com",
+                "server_name": "stackoverflow.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1798,8 +1781,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw",
-                    "short_id": ""
+                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
+                    "short_id": "077dc29a23d311f2"
                 }
             }
         },
@@ -1862,45 +1845,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 11",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
             "type": "vmess",
-            "server": "bs.yichueng.org",
+            "server": "23.154.136.2",
             "server_port": 443,
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 1,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "bs.yichueng.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "bs.yichueng.org"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 12",
-            "type": "vmess",
-            "server": "104.21.83.108",
-            "server_port": 443,
-            "uuid": "6c168fcc-2231-4f3b-8c1e-f6391692df4a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1913,7 +1862,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "hms02.fxiaomi.sbs",
+                "server_name": "",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1923,9 +1872,43 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/link",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": "hms02.fxiaomi.sbs"
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
+            "type": "vmess",
+            "server": "216.221.214.50",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/obdii.cfd:443\/linkws",
+                "headers": {
+                    "Host": "2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com"
                 }
             }
         },
