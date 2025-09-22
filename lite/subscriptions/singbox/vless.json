@@ -143,9 +143,10 @@
                 "🇺🇸US | 🔴 | vless | @vmessorg | 11",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 12",
                 "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 13",
+                "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 14",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 9",
-                "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 4",
+                "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 6",
                 "🇺🇸US | 🔴 | vless | @ServerNett | 1",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
@@ -157,7 +158,7 @@
                 "🇩🇪DE | 🔴 | vless | @vmess_vless_v2rayng | 18",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 10",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 11",
-                "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 10",
+                "🇹🇷TR | 🟢 | vless | @ConfigsHUB | 18",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 13",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 14",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 9",
@@ -217,9 +218,10 @@
                 "🇺🇸US | 🔴 | vless | @vmessorg | 11",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 12",
                 "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 13",
+                "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 14",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 9",
-                "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 4",
+                "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 6",
                 "🇺🇸US | 🔴 | vless | @ServerNett | 1",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
@@ -231,7 +233,7 @@
                 "🇩🇪DE | 🔴 | vless | @vmess_vless_v2rayng | 18",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 10",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 11",
-                "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 10",
+                "🇹🇷TR | 🟢 | vless | @ConfigsHUB | 18",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 13",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 14",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 9",
@@ -536,6 +538,20 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
             "type": "vless",
+            "server": "test.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
+            "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 443,
             "uuid": "telegram-id-Arfilter",
@@ -562,20 +578,6 @@
                 "headers": {
                     "Host": "w.arfilter.blog"
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
-            "type": "vless",
-            "server": "test.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -1132,6 +1134,27 @@
         {
             "tag": "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 13",
             "type": "vless",
+            "server": "51.89.116.49",
+            "server_port": 80,
+            "uuid": "ac01977c-3d57-4e5c-a8d5-0b5ff0f4a97f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 14",
+            "type": "vless",
             "server": "51.89.118.126",
             "server_port": 25369,
             "uuid": "5fda29b6-0688-44e3-afdf-df533c800109",
@@ -1186,7 +1209,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 4",
+            "tag": "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 6",
             "type": "vless",
             "server": "45.205.29.218",
             "server_port": 64767,
@@ -1417,11 +1440,11 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 10",
+            "tag": "🇹🇷TR | 🟢 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "82.148.21.174",
-            "server_port": 443,
-            "uuid": "1a6fe500-59da-4598-8576-256f06765ffb",
+            "server": "ytr.amiraizo.com",
+            "server_port": 2560,
+            "uuid": "7bd2cd24-2c1e-4160-b15d-6850bd0b162a",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1431,17 +1454,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "ru.sfasti.ru",
+                "server_name": "www.cloudflare.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
-                    "short_id": "16895459a2c7768d"
+                    "public_key": "2hoQE6WBJlr4DHrp7TxqPOT8i24iodEaCQp-qugbD3U",
+                    "short_id": "e41865e506628f44"
                 }
             }
         },

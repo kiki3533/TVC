@@ -111,8 +111,8 @@
                 "🇬🇧GB | 🔴 | vless | @NIM_VPN_ir | 5",
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 17",
                 "🇷🇺RU | 🟢 | vless | @customv2ray | 34",
-                "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 4",
-                "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 10",
+                "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 6",
+                "🇹🇷TR | 🟢 | vless | @ConfigsHUB | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "❔XX | 🔴 | vless | @SvnTeam | 6",
@@ -128,8 +128,8 @@
                 "🇬🇧GB | 🔴 | vless | @NIM_VPN_ir | 5",
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 17",
                 "🇷🇺RU | 🟢 | vless | @customv2ray | 34",
-                "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 4",
-                "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 10",
+                "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 6",
+                "🇹🇷TR | 🟢 | vless | @ConfigsHUB | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "❔XX | 🔴 | vless | @SvnTeam | 6",
@@ -308,7 +308,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 4",
+            "tag": "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 6",
             "type": "vless",
             "server": "45.205.29.218",
             "server_port": 64767,
@@ -337,11 +337,11 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 10",
+            "tag": "🇹🇷TR | 🟢 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "82.148.21.174",
-            "server_port": 443,
-            "uuid": "1a6fe500-59da-4598-8576-256f06765ffb",
+            "server": "ytr.amiraizo.com",
+            "server_port": 2560,
+            "uuid": "7bd2cd24-2c1e-4160-b15d-6850bd0b162a",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -351,17 +351,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "ru.sfasti.ru",
+                "server_name": "www.cloudflare.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
-                    "short_id": "16895459a2c7768d"
+                    "public_key": "2hoQE6WBJlr4DHrp7TxqPOT8i24iodEaCQp-qugbD3U",
+                    "short_id": "e41865e506628f44"
                 }
             }
         },
