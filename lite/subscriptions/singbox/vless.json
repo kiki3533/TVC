@@ -160,8 +160,8 @@
                 "🇩🇪DE | 🔴 | vless | @vmess_vless_v2rayng | 18",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 10",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 11",
-                "🇨🇳CN | 🔴 | vless | @ConfigsHUB | 16",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+                "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 16",
+                "🇵🇱PL | 🔴 | vless | @ConfigsHUB | 17",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 13",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 14",
                 "🇳🇱NL | 🔴 | vless | @flyv2ray | 11",
@@ -237,8 +237,8 @@
                 "🇩🇪DE | 🔴 | vless | @vmess_vless_v2rayng | 18",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 10",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 11",
-                "🇨🇳CN | 🔴 | vless | @ConfigsHUB | 16",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+                "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 16",
+                "🇵🇱PL | 🔴 | vless | @ConfigsHUB | 17",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 13",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 14",
                 "🇳🇱NL | 🔴 | vless | @flyv2ray | 11",
@@ -1497,48 +1497,31 @@
             }
         },
         {
-            "tag": "🇨🇳CN | 🔴 | vless | @ConfigsHUB | 16",
+            "tag": "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "42.236.73.72",
-            "server_port": 443,
-            "uuid": "11916472-4e2c-49c6-b75d-71196b3a7ecf",
+            "server": "m13a.vip784.com",
+            "server_port": 33801,
+            "uuid": "552f2fe8-fb7e-4f07-b4d6-a231f1dfec42",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.zitian.cn",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+            "tag": "🇵🇱PL | 🔴 | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "198.41.195.29",
-            "server_port": 443,
-            "uuid": "48198295-b7ba-4b5c-8d85-085d55a6c869",
+            "server": "m23a.vip784.com",
+            "server_port": 33801,
+            "uuid": "c9b0100b-01b9-4167-b9e2-a0a8cad1e32b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/security=tls",
-                "headers": {
-                    "Host": "aw.ylks.xyz"
-                }
             }
         },
         {
