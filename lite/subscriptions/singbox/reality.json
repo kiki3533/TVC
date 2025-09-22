@@ -112,7 +112,8 @@
                 "🇬🇧GB | 🔴 | vless | @NIM_VPN_ir | 5",
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 17",
                 "🇷🇺RU | 🟢 | vless | @customv2ray | 34",
-                "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 2",
+                "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 3",
+                "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 11",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "❔XX | 🔴 | vless | @SvnTeam | 6",
@@ -129,7 +130,8 @@
                 "🇬🇧GB | 🔴 | vless | @NIM_VPN_ir | 5",
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 17",
                 "🇷🇺RU | 🟢 | vless | @customv2ray | 34",
-                "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 2",
+                "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 3",
+                "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 11",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "❔XX | 🔴 | vless | @SvnTeam | 6",
@@ -337,7 +339,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 2",
+            "tag": "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 3",
             "type": "vless",
             "server": "45.205.29.218",
             "server_port": 64767,
@@ -362,6 +364,35 @@
                     "enabled": true,
                     "public_key": "H-BUr5NM7Kz7urYuth2gUDIGcwquGBveGSIiht_h7Ds",
                     "short_id": "1fa16bff"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 11",
+            "type": "vless",
+            "server": "82.148.21.174",
+            "server_port": 443,
+            "uuid": "1a6fe500-59da-4598-8576-256f06765ffb",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ru.sfasti.ru",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
+                    "short_id": "16895459a2c7768d"
                 }
             }
         },
