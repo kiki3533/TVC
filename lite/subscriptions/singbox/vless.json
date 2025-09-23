@@ -142,7 +142,7 @@
                 "🇺🇸US | 🔴 | vless | @customv2ray | 38",
                 "🇷🇺RU | 🟢 | vless | @customv2ray | 39",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 10",
-                "🇬🇧GB | 🔴 | vless | @v2rayngvpn | 13",
+                "🇬🇧GB | 🔴 | vless | @v2rayngvpn | 14",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 9",
                 "🇺🇸US | 🔴 | vless | @ServerNett | 1",
@@ -157,8 +157,6 @@
                 "🇩🇪DE | 🔴 | vless | @vmess_vless_v2rayng | 18",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 10",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 11",
-                "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 14",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 14",
                 "🇷🇴RO | 🔴 | vless | @Capoit | 15",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 9",
@@ -217,7 +215,7 @@
                 "🇺🇸US | 🔴 | vless | @customv2ray | 38",
                 "🇷🇺RU | 🟢 | vless | @customv2ray | 39",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 10",
-                "🇬🇧GB | 🔴 | vless | @v2rayngvpn | 13",
+                "🇬🇧GB | 🔴 | vless | @v2rayngvpn | 14",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 9",
                 "🇺🇸US | 🔴 | vless | @ServerNett | 1",
@@ -232,8 +230,6 @@
                 "🇩🇪DE | 🔴 | vless | @vmess_vless_v2rayng | 18",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 10",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 11",
-                "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 14",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 14",
                 "🇷🇴RO | 🔴 | vless | @Capoit | 15",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 9",
@@ -674,9 +670,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @lightning6 | 15",
             "type": "vless",
-            "server": "151.101.3.8",
+            "server": "speedtestcustom.com",
             "server_port": 80,
-            "uuid": "f4987502-a2fa-4c6f-a1cc-7801608c32df",
+            "uuid": "783cb281-db51-41f6-b193-9d0e28ec4378",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -688,9 +684,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @lightning6 | 16",
             "type": "vless",
-            "server": "speedtestcustom.com",
+            "server": "151.101.3.8",
             "server_port": 80,
-            "uuid": "83062a6e-615a-41a9-bc24-1b49d246515c",
+            "uuid": "f4987502-a2fa-4c6f-a1cc-7801608c32df",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1115,7 +1111,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🔴 | vless | @v2rayngvpn | 13",
+            "tag": "🇬🇧GB | 🔴 | vless | @v2rayngvpn | 14",
             "type": "vless",
             "server": "dl5-uk4-cdn.fastfilecdn.org",
             "server_port": 2052,
@@ -1384,51 +1380,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 14",
-            "type": "vless",
-            "server": "m13a.vip784.com",
-            "server_port": 33801,
-            "uuid": "552f2fe8-fb7e-4f07-b4d6-a231f1dfec42",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
-            "type": "vless",
-            "server": "172.66.40.99",
-            "server_port": 2096,
-            "uuid": "e999db7a-1b17-4da6-bc37-c9fa24af2e93",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "6Dd1Xt31Qm.SoLeNtRaA.iNfO",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "6Dd1Xt31Qm.SoLeNtRaA.iNfO"
-                }
             }
         },
         {
