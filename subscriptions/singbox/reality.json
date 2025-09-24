@@ -139,7 +139,8 @@
                 "🇳🇱NL | 🔴 | vless | @customv2ray | 31",
                 "🇷🇺RU | 🟢 | vless | @customv2ray | 37",
                 "🇷🇺RU | 🟢 | vless | @customv2ray | 39",
-                "🇮🇹IT | 🟢 | vless | @v2rayngvpn | 4",
+                "🇬🇧GB | 🟢 | vless | @v2rayngvpn | 0",
+                "🇮🇹IT | 🟢 | vless | @v2rayngvpn | 5",
                 "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 3",
                 "🇺🇸US | 🟢 | vless | @iP_CF | 0",
                 "🇩🇪DE | 🔴 | vless | @nofiltering2 | 14",
@@ -201,7 +202,8 @@
                 "🇳🇱NL | 🔴 | vless | @customv2ray | 31",
                 "🇷🇺RU | 🟢 | vless | @customv2ray | 37",
                 "🇷🇺RU | 🟢 | vless | @customv2ray | 39",
-                "🇮🇹IT | 🟢 | vless | @v2rayngvpn | 4",
+                "🇬🇧GB | 🟢 | vless | @v2rayngvpn | 0",
+                "🇮🇹IT | 🟢 | vless | @v2rayngvpn | 5",
                 "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 3",
                 "🇺🇸US | 🟢 | vless | @iP_CF | 0",
                 "🇩🇪DE | 🔴 | vless | @nofiltering2 | 14",
@@ -1224,7 +1226,36 @@
             }
         },
         {
-            "tag": "🇮🇹IT | 🟢 | vless | @v2rayngvpn | 4",
+            "tag": "🇬🇧GB | 🟢 | vless | @v2rayngvpn | 0",
+            "type": "vless",
+            "server": "83.147.19.55",
+            "server_port": 443,
+            "uuid": "fc6c90ad-b1ce-4c3f-88fa-aabe3b7a2585",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "snapp.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "NVzXDuB9PZECzVgRWCVZJ4rCujQ5d2tw64Ufftci8C4",
+                    "short_id": "5bef46444e87"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇹IT | 🟢 | vless | @v2rayngvpn | 5",
             "type": "vless",
             "server": "147.45.51.160",
             "server_port": 443,
