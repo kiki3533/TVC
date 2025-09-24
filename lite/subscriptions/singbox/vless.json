@@ -116,7 +116,7 @@
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 14",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
                 "🇨🇦CA | 🔴 | vless | @melov2ray | 45",
-                "🇺🇸US | 🔴 | vless | @melov2ray | 46",
+                "🇨🇦CA | 🔴 | vless | @melov2ray | 46",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 9",
                 "🇫🇷FR | 🔴 | vless | @V2pedia | 10",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
@@ -160,7 +160,7 @@
                 "🇩🇪DE | 🔴 | vless | @vmess_vless_v2rayng | 18",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 10",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 11",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 14",
                 "🇷🇴RO | 🔴 | vless | @Capoit | 15",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 9",
@@ -193,7 +193,7 @@
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 14",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
                 "🇨🇦CA | 🔴 | vless | @melov2ray | 45",
-                "🇺🇸US | 🔴 | vless | @melov2ray | 46",
+                "🇨🇦CA | 🔴 | vless | @melov2ray | 46",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 9",
                 "🇫🇷FR | 🔴 | vless | @V2pedia | 10",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
@@ -237,7 +237,7 @@
                 "🇩🇪DE | 🔴 | vless | @vmess_vless_v2rayng | 18",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 10",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 11",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 14",
                 "🇷🇴RO | 🔴 | vless | @Capoit | 15",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 9",
@@ -541,7 +541,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @melov2ray | 46",
+            "tag": "🇨🇦CA | 🔴 | vless | @melov2ray | 46",
             "type": "vless",
             "server": "chat.deepseek.com",
             "server_port": 80,
@@ -1431,11 +1431,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "dl5-us4-cdn.fastfilecdn.org",
-            "server_port": 2052,
-            "uuid": "8ef1b0db-5954-447c-85e5-4f62b107ed61",
+            "server": "104.26.6.89",
+            "server_port": 8443,
+            "uuid": "e999db7a-1b17-4da6-bc37-c9fa24af2e93",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1443,11 +1443,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "YjF03nNq0B.sOlEnTrAa.InFo",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "dl5-us4-cdn.fastfilecdn.org"
+                    "Host": "YjF03nNq0B.sOlEnTrAa.InFo"
                 }
             }
         },
