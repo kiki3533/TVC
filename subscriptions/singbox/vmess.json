@@ -132,8 +132,7 @@
                 "❔XX | 🟢 | vmess | @Hope_Net | 3",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 4",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 5",
-                "🇰🇷KR | 🟢 | vmess | @Hope_Net | 6",
-                "🇩🇪DE | 🟢 | vmess | @iP_CF | 1"
+                "🇨🇦CA | 🟢 | vmess | @iP_CF | 1"
             ]
         },
         {
@@ -166,8 +165,7 @@
                 "❔XX | 🟢 | vmess | @Hope_Net | 3",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 4",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 5",
-                "🇰🇷KR | 🟢 | vmess | @Hope_Net | 6",
-                "🇩🇪DE | 🟢 | vmess | @iP_CF | 1"
+                "🇨🇦CA | 🟢 | vmess | @iP_CF | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -769,24 +767,7 @@
             }
         },
         {
-            "tag": "🇰🇷KR | 🟢 | vmess | @Hope_Net | 6",
-            "type": "vmess",
-            "server": "45.94.68.252",
-            "server_port": 50111,
-            "uuid": "2b0c2a29-a5f6-4382-b187-a5a424b50e4b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vmess | @iP_CF | 1",
+            "tag": "🇨🇦CA | 🟢 | vmess | @iP_CF | 1",
             "type": "vmess",
             "server": "serkat.org",
             "server_port": 443,
