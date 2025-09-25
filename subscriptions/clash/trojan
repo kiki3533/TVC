@@ -151,8 +151,6 @@ proxies:
   - {"name":"🇩🇪DE | 🟢 | trojan | @DirectVPN | 13","type":"trojan","server":"3.75.18.69","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | 🟢 | trojan | @DirectVPN | 14","type":"trojan","server":"13.36.72.16","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | 🟢 | trojan | @DirectVPN | 15","type":"trojan","server":"13.37.205.90","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇺🇸US | 🔴 | trojan | @ConfigsHUB | 14","type":"trojan","server":"creativecommons.org","port":443,"udp":false,"password":"02XtoczO7V","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"mooshali.arshiacomplus.dpdns.org"}
-  - {"name":"🇺🇸US | 🔴 | trojan | @ConfigsHUB | 15","type":"trojan","server":"creativecommons.org","port":2053,"udp":false,"password":"o6x5BZAuSj","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"mooshali.arshiacomplus.dpdns.org"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -192,8 +190,6 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 13'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 14'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 15'
-      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 14'
-      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 15'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -233,8 +229,6 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 13'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 14'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 15'
-      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 14'
-      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 15'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -273,8 +267,6 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 13'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 14'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 15'
-      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 14'
-      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 15'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
