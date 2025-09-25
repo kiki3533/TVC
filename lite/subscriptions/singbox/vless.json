@@ -115,8 +115,8 @@
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 14",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
                 "🇨🇦CA | 🔴 | vless | @melov2ray | 45",
-                "🇺🇸US | 🔴 | vless | @V2pedia | 8",
-                "🇺🇸US | 🔴 | vless | @V2pedia | 9",
+                "🇨🇦CA | 🔴 | vless | @V2pedia | 8",
+                "🇨🇦CA | 🔴 | vless | @V2pedia | 9",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
                 "🇺🇸US | 🔴 | vless | @shh_proxy | 11",
@@ -158,7 +158,8 @@
                 "🇩🇪DE | 🔴 | vless | @vmess_vless_v2rayng | 18",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 11",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 12",
-                "🇱🇺LU | 🔴 | vless | @ConfigsHUB | 16",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 12",
+                "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 13",
                 "🇵🇱PL | 🔴 | vless | @Capoit | 12",
                 "🇫🇷FR | 🔴 | vless | @Capoit | 13",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 14",
@@ -191,8 +192,8 @@
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 14",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
                 "🇨🇦CA | 🔴 | vless | @melov2ray | 45",
-                "🇺🇸US | 🔴 | vless | @V2pedia | 8",
-                "🇺🇸US | 🔴 | vless | @V2pedia | 9",
+                "🇨🇦CA | 🔴 | vless | @V2pedia | 8",
+                "🇨🇦CA | 🔴 | vless | @V2pedia | 9",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 17",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 18",
                 "🇺🇸US | 🔴 | vless | @shh_proxy | 11",
@@ -234,7 +235,8 @@
                 "🇩🇪DE | 🔴 | vless | @vmess_vless_v2rayng | 18",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 11",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 12",
-                "🇱🇺LU | 🔴 | vless | @ConfigsHUB | 16",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 12",
+                "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 13",
                 "🇵🇱PL | 🔴 | vless | @Capoit | 12",
                 "🇫🇷FR | 🔴 | vless | @Capoit | 13",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 14",
@@ -503,7 +505,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @V2pedia | 8",
+            "tag": "🇨🇦CA | 🔴 | vless | @V2pedia | 8",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -524,7 +526,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @V2pedia | 9",
+            "tag": "🇨🇦CA | 🔴 | vless | @V2pedia | 9",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -1404,24 +1406,61 @@
             }
         },
         {
-            "tag": "🇱🇺LU | 🔴 | vless | @ConfigsHUB | 16",
+            "tag": "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 12",
             "type": "vless",
-            "server": "141.227.168.93",
-            "server_port": 40114,
-            "uuid": "4e3c4cb5-325b-495d-aa6b-b1ad09ed72d0",
-            "flow": "",
+            "server": "world-of.ru",
+            "server_port": 8443,
+            "uuid": "4e92b324-d267-4974-b45b-0b30152cea30",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "grpc",
-                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "WvzrHrw813BCSgvVSB4plCU_EQo1_URrC_fi4SjktUY",
+                    "short_id": "a36c0f"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 13",
+            "type": "vless",
+            "server": "212.41.11.152",
+            "server_port": 443,
+            "uuid": "1a6fe500-59da-4598-8576-256f06765ffb",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ru.sfasti.ru",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
+                    "short_id": "16895459a2c7768d"
+                }
             }
         },
         {
